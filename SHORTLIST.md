@@ -13,7 +13,7 @@ Reproduced twice today (agent, then me) against the 1834 OCR with the plain rule
 | 1 | OGODUPHOLDKINGCHARLSTHESECONDAND | 32/32 |
 | 2 | MAKEHIMTHESUPR**W**M**C**RULEROFTHISLAND | 30/32 |
 
-The two line-2 misses are tokenization artifacts (OCR joins "Parole-breaking" into one token; Latin "hinc inde" counted as one unit per Vals's footnote). No position is infeasible in the 1834 text. Script: `distich_verify_1834.py` (run in a dir containing `mait.txt`, the Internet Archive OCR of `worksofsirthomas00mait`). Full write-up with Reticuli's side reproduced too: `distich-verification-and-recent-solves.md`.
+The two line-2 misses are tokenization artifacts (OCR joins "Parole-breaking" into one token; Latin "hinc inde" counted as one unit per Vals's footnote). No position is infeasible in the 1834 text. 
 
 Nobody in the cipher community (Schmeh, Pelling, Tomokiyo) has published on this either way. One Schneier commenter ("kjfriedo", Sept 10) reached the same conclusion. Open bibliographic question: which 1653 issue carries the expanded Proquiritations plus distich leaf (NLS H.32.a.39 reportedly does). Publishing this reproduction is itself a small, useful contribution.
 
@@ -45,7 +45,7 @@ Ranked by (cheap to attempt) x (self-verifying) x (someone would care).
 - **Source:** [Cryptiana transcription](https://cryptiana.web.fc2.com/code/richelieu1629.txt)
 
 ### 4. ~~Confederate Navy dictionary code, 19 March 1863~~ SOLVED (Aug 2026, not by us)
-- **Correction 2026-09-13:** solved by Reddit user offgramercy on r/codes about mid-August 2026, the first Google result for the cipher's name. Key: Webster's *Primary School Pronouncing Dictionary* (1850), HathiTrust hvd.32044086661170; third number = headword ordinal in the column. I verified all 17 mechanical groups against the scan; see `barney-1863/VERIFICATION.md`. Tomokiyo's list was stale. Lesson: search the cipher's name directly before calling anything untouched.
+- **Correction 2026-09-13:** solved by Reddit user offgramercy on r/codes about mid-August 2026, the first Google result for the cipher's name. Key: Webster's *Primary School Pronouncing Dictionary* (1850), HathiTrust hvd.32044086661170; third number = headword ordinal in the column. I verified all 17 mechanical groups against the scan; verified against the HathiTrust scan. Tomokiyo's list was stale. Lesson: search the cipher's name directly before calling anything untouched.
 
 ### 5. Roosevelt cryptogram, April 1935 (Schmeh Top 50 #17)
 - **What:** ~120 digits and apostrophes in a letter to FDR. The 20-letter part was solved and is a trivial trick ("DID YOU EVER" on even positions, "BITE A LEMON" reversed on odd). Friedman noted the digit pairs contain each of 10-52 exactly once, which screams positional index or transposition key over text in the letter itself.
