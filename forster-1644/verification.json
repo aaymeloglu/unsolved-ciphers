@@ -1,0 +1,492 @@
+{
+  "cipher_sha256": "8407c6bb07e37785693550ac48dfeba46b6d662e0de6f87707f22d6fb650ed7b",
+  "tokens": 207,
+  "symbols": 34,
+  "groups": 37,
+  "plaintext_values": 20,
+  "matches_to_minimally_emended_reading": 204,
+  "mismatches": [
+    {
+      "group": 13,
+      "position_in_group": 8,
+      "token_position": 70,
+      "symbol": "a",
+      "key_value": "d",
+      "proposed_value": "e"
+    },
+    {
+      "group": 16,
+      "position_in_group": 2,
+      "token_position": 97,
+      "symbol": "16",
+      "key_value": "i",
+      "proposed_value": "o"
+    },
+    {
+      "group": 27,
+      "position_in_group": 8,
+      "token_position": 151,
+      "symbol": "g",
+      "key_value": "y",
+      "proposed_value": "c"
+    }
+  ],
+  "symbol_classes": {
+    "letter_symbols": {
+      "symbols": 16,
+      "distinct_values": 16,
+      "mapping": {
+        "d": "i",
+        "c": "l",
+        "t": "n",
+        "g": "y",
+        "p": "a",
+        "q": "c",
+        "x": "s",
+        "f": "b",
+        "a": "d",
+        "y": "p",
+        "u": "m",
+        "l": "r",
+        "e": "g",
+        "n": "f",
+        "s": "o",
+        "b": "t"
+      }
+    },
+    "number_symbols": {
+      "symbols": 18,
+      "distinct_values": 16,
+      "mapping": {
+        "4": "a",
+        "30": "u",
+        "19": "n",
+        "16": "i",
+        "2": "e",
+        "50": "t",
+        "0": "e",
+        "40": "s",
+        "12": "c",
+        "20": "r",
+        "7": "d",
+        "88": "q",
+        "90": "p",
+        "14": "z",
+        "80": "l",
+        "5": "g",
+        "70": "f",
+        "8": "t"
+      }
+    }
+  },
+  "frequencies": {
+    "d": 8,
+    "c": 9,
+    "t": 8,
+    "g": 3,
+    "p": 4,
+    "4": 8,
+    "30": 24,
+    "q": 4,
+    "19": 4,
+    "x": 10,
+    "f": 1,
+    "16": 7,
+    "2": 18,
+    "50": 5,
+    "a": 7,
+    "0": 18,
+    "40": 6,
+    "12": 5,
+    "20": 13,
+    "y": 6,
+    "7": 4,
+    "u": 3,
+    "88": 1,
+    "l": 6,
+    "e": 1,
+    "n": 2,
+    "s": 9,
+    "90": 4,
+    "14": 1,
+    "b": 1,
+    "80": 3,
+    "5": 1,
+    "70": 2,
+    "8": 1
+  },
+  "group_decodings": [
+    {
+      "group": 1,
+      "cipher": "d c",
+      "literal": "il",
+      "proposed": "il"
+    },
+    {
+      "group": 2,
+      "cipher": "t g",
+      "literal": "ny",
+      "proposed": "ny"
+    },
+    {
+      "group": 3,
+      "cipher": "p",
+      "literal": "a",
+      "proposed": "a"
+    },
+    {
+      "group": 4,
+      "cipher": "4 30 q 30 19",
+      "literal": "aucun",
+      "proposed": "aucun"
+    },
+    {
+      "group": 5,
+      "cipher": "x 30 f 16 2 50",
+      "literal": "subiet",
+      "proposed": "subiet"
+    },
+    {
+      "group": 6,
+      "cipher": "a 0 40 12 20 30 y 30 c 2",
+      "literal": "descrupule",
+      "proposed": "descrupule"
+    },
+    {
+      "group": 7,
+      "cipher": "7 0",
+      "literal": "de",
+      "proposed": "de"
+    },
+    {
+      "group": 8,
+      "cipher": "u 4 t 88 30 0 l p",
+      "literal": "manquera",
+      "proposed": "manquera"
+    },
+    {
+      "group": 9,
+      "cipher": "a d 2 30",
+      "literal": "dieu",
+      "proposed": "dieu"
+    },
+    {
+      "group": 10,
+      "cipher": "c 0 x l 2 d e c 0 40",
+      "literal": "lesreigles",
+      "proposed": "lesreigles"
+    },
+    {
+      "group": 11,
+      "cipher": "7 2",
+      "literal": "de",
+      "proposed": "de"
+    },
+    {
+      "group": 12,
+      "cipher": "y 0 20 n 2 12 50 16 s t",
+      "literal": "perfection",
+      "proposed": "perfection"
+    },
+    {
+      "group": 13,
+      "cipher": "90 20 0 t 2 14 x a 30 c 2 u 0 t b",
+      "literal": "prenezsdulement",
+      "proposed": "prenezseulement"
+    },
+    {
+      "group": 14,
+      "cipher": "80 2 x 30 s g 0 x a 2",
+      "literal": "lesuoyesde",
+      "proposed": "lesuoyesde"
+    },
+    {
+      "group": 15,
+      "cipher": "90 20 30 a 0 t q 2",
+      "literal": "prudence",
+      "proposed": "prudence"
+    },
+    {
+      "group": 16,
+      "cipher": "90 16 30 20",
+      "literal": "piur",
+      "proposed": "pour"
+    },
+    {
+      "group": 17,
+      "cipher": "12 s t q 0 l 30 2 20",
+      "literal": "conceruer",
+      "proposed": "conceruer"
+    },
+    {
+      "group": 18,
+      "cipher": "30 s 50 20 2",
+      "literal": "uotre",
+      "proposed": "uotre"
+    },
+    {
+      "group": 19,
+      "cipher": "30 d 0",
+      "literal": "uie",
+      "proposed": "uie"
+    },
+    {
+      "group": 20,
+      "cipher": "y s 30 20",
+      "literal": "pour",
+      "proposed": "pour"
+    },
+    {
+      "group": 21,
+      "cipher": "2 19 n p d l 0",
+      "literal": "enfaire",
+      "proposed": "enfaire"
+    },
+    {
+      "group": 22,
+      "cipher": "4",
+      "literal": "a",
+      "proposed": "a"
+    },
+    {
+      "group": 23,
+      "cipher": "a 16 2 30",
+      "literal": "dieu",
+      "proposed": "dieu"
+    },
+    {
+      "group": 24,
+      "cipher": "30 t",
+      "literal": "un",
+      "proposed": "un"
+    },
+    {
+      "group": 25,
+      "cipher": "y c 30 x",
+      "literal": "plus",
+      "proposed": "plus"
+    },
+    {
+      "group": 26,
+      "cipher": "5 20 4 19 7",
+      "literal": "grand",
+      "proposed": "grand"
+    },
+    {
+      "group": 27,
+      "cipher": "40 4 12 l 16 70 d g 0",
+      "literal": "sacrifiye",
+      "proposed": "sacrifice"
+    },
+    {
+      "group": 28,
+      "cipher": "90 4 20 c p",
+      "literal": "parla",
+      "proposed": "parla"
+    },
+    {
+      "group": 29,
+      "cipher": "u 30 80 50 16 y c d q 4 8 16 s 19",
+      "literal": "multiplication",
+      "proposed": "multiplication"
+    },
+    {
+      "group": 30,
+      "cipher": "a 2 40",
+      "literal": "des",
+      "proposed": "des"
+    },
+    {
+      "group": 31,
+      "cipher": "30 s x",
+      "literal": "uos",
+      "proposed": "uos"
+    },
+    {
+      "group": 32,
+      "cipher": "40 0 20 30 d 12 2 x",
+      "literal": "seruices",
+      "proposed": "seruices"
+    },
+    {
+      "group": 33,
+      "cipher": "y s 30 20",
+      "literal": "pour",
+      "proposed": "pour"
+    },
+    {
+      "group": 34,
+      "cipher": "80 0 x 4 c 30 50",
+      "literal": "lesalut",
+      "proposed": "lesalut"
+    },
+    {
+      "group": 35,
+      "cipher": "7 0",
+      "literal": "de",
+      "proposed": "de"
+    },
+    {
+      "group": 36,
+      "cipher": "30 s x",
+      "literal": "uos",
+      "proposed": "uos"
+    },
+    {
+      "group": 37,
+      "cipher": "70 20 2 l 0 40",
+      "literal": "freres",
+      "proposed": "freres"
+    }
+  ],
+  "leave_one_group_out_consistency": [
+    {
+      "group": 1,
+      "predicted": "il"
+    },
+    {
+      "group": 2,
+      "predicted": "n?"
+    },
+    {
+      "group": 3,
+      "predicted": "a"
+    },
+    {
+      "group": 4,
+      "predicted": "aucun"
+    },
+    {
+      "group": 5,
+      "predicted": "su?iet"
+    },
+    {
+      "group": 6,
+      "predicted": "descrupule"
+    },
+    {
+      "group": 7,
+      "predicted": "de"
+    },
+    {
+      "group": 8,
+      "predicted": "man?uera"
+    },
+    {
+      "group": 9,
+      "predicted": "dieu"
+    },
+    {
+      "group": 10,
+      "predicted": "lesrei?les"
+    },
+    {
+      "group": 11,
+      "predicted": "de"
+    },
+    {
+      "group": 12,
+      "predicted": "perfection"
+    },
+    {
+      "group": 13,
+      "predicted": "prene?sdulemen?"
+    },
+    {
+      "group": 14,
+      "predicted": "lesuo?esde"
+    },
+    {
+      "group": 15,
+      "predicted": "prudence"
+    },
+    {
+      "group": 16,
+      "predicted": "piur"
+    },
+    {
+      "group": 17,
+      "predicted": "conceruer"
+    },
+    {
+      "group": 18,
+      "predicted": "uotre"
+    },
+    {
+      "group": 19,
+      "predicted": "uie"
+    },
+    {
+      "group": 20,
+      "predicted": "pour"
+    },
+    {
+      "group": 21,
+      "predicted": "enfaire"
+    },
+    {
+      "group": 22,
+      "predicted": "a"
+    },
+    {
+      "group": 23,
+      "predicted": "dieu"
+    },
+    {
+      "group": 24,
+      "predicted": "un"
+    },
+    {
+      "group": 25,
+      "predicted": "plus"
+    },
+    {
+      "group": 26,
+      "predicted": "?rand"
+    },
+    {
+      "group": 27,
+      "predicted": "sacrifiye"
+    },
+    {
+      "group": 28,
+      "predicted": "parla"
+    },
+    {
+      "group": 29,
+      "predicted": "multiplica?ion"
+    },
+    {
+      "group": 30,
+      "predicted": "des"
+    },
+    {
+      "group": 31,
+      "predicted": "uos"
+    },
+    {
+      "group": 32,
+      "predicted": "seruices"
+    },
+    {
+      "group": 33,
+      "predicted": "pour"
+    },
+    {
+      "group": 34,
+      "predicted": "lesalut"
+    },
+    {
+      "group": 35,
+      "predicted": "de"
+    },
+    {
+      "group": 36,
+      "predicted": "uos"
+    },
+    {
+      "group": 37,
+      "predicted": "freres"
+    }
+  ]
+}

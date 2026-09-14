@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+corpus_*.txt
+corneille_*.txt
+descartes.txt
+fr_50k.txt
+lexicon.txt
+wspages/
