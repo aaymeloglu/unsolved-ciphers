@@ -4,6 +4,8 @@
 
 Gondi asks Venice for assistance and a closer alliance, with discussion of recovering Saluzzo. Venice cannot provide the requested immediate aid and promises renewed intercession with the pope. The covering dispatch instructs Mocenigo how to explain that answer and separately reports intercepted correspondence.
 
+**The letter was broken once before.** The volume’s title page, f.34r, in a Spanish archival hand, reads: *Carta en cifra de Venecia. Que dio en Turín la Señora Infanta Doña Catalina por orden del Duque de Saboya a Luis Valle de la Cerda, que declaró; y no tiene contracifra ni declaración por haverse perdido.* The dispatch was intercepted in Savoy, whose duke had just seized Saluzzo, handed by the Infanta Catalina Micaela to Philip II’s cipher secretary Luis Valle de la Cerda (c.1559–1607), and deciphered by him without the key; his working was later lost. The reading here recovers, with the surviving Venetian key, what he recovered without it. See [Navarro Bonilla and Hernández, *Geheime Post* (2015)](https://researchportal.uc3m.es/display/act462541) on Valle de la Cerda.
+
 [Italian text and English translations](READING.md) · [Ciphertext, literal decoding, and line readings](TRANSCRIPTION.md) · [Sources and page locations](SOURCES.md)
 
 ## How to verify the key match
@@ -43,4 +45,4 @@ The check verifies all **118 rows** against fixed-key lookup and the committed t
 
 A possible registered copy would be worth checking in **ASVe, Senato, Deliberazioni, Secreti, register 87**, around late April 1589. The precise letter and folio have not been found; the [official catalog entry](https://asve.arianna4.cloud/patrimonio/19dba575-2ea7-495c-83d9-2e09693bfc87) has no attached scans. [Source details](SOURCES.md#possible-plaintext-witness).
 
-Prepared 16 September 2026 with native Codex agents. No publication-priority claim. DECODE sources were accessed with the project's permission; their images are not redistributed. The comparison sheet uses independently acquired public BNE reproductions, credited to the Biblioteca Nacional de España.
+Prepared 16 September 2026 with native Codex agents; independently reviewed the same day (key spot-checks on the public scans, clear-hand *ult[im]e* for *altre* on f.36r, three bracketed gutter restorations on f.35v, the address offset on f.38r, and the f.34r provenance note). A page-by-page [reading with images](https://claude.ai/artifact/NX5vSde7Q32RnfUkopx4yp) accompanies this folder. No publication-priority claim. DECODE sources were accessed with the project's permission; their images are not redistributed. The comparison sheet uses independently acquired public BNE reproductions, credited to the Biblioteca Nacional de España.

@@ -442,7 +442,7 @@ Reading: rio di ogni grandeza et prosperita
 
 Clear handwriting (brackets mark expansions or uncertainty):
 
-**transcription:** Il m[ast]ro delle poste di Francia / che sta in questa Città, ne ha mostrato / un Capitolo da l[ette]re scrittogli da quello / di Lione, che coll’occasione d’inviargli / lettere sue gli manda anco le 4. sole altre / righe delle v[ost]re di 28. d[e]l passato, dicendogli
+**transcription:** Il m[ast]ro delle poste di Francia / che sta in questa Città, ne ha mostrato / un Capitolo da l[ette]re scrittogli da quello / di Lione, che coll’occasione d’inviargli / lettere sue gli manda anco le 4. sole ult[im]e / righe delle v[ost]re di 28. d[e]l passato, dicendogli
 
 ## f.36v
 
@@ -498,7 +498,7 @@ Clear handwriting (brackets mark expansions or uncertainty):
 
 **before_cipher:** che il rimanente con tutte le altre [vos-] / tre sono state intercette in quelle [s-] / trade. Continuamo senza v[ost]re costre[tti] / a [star bene scarsi?] d’ogni v[ost]ra / notitia,
 
-**after_cipher:** Dat. in n[ost]ro Ducali Palatio die xx[vii] / Aprilis Ind[iction]e [2.da?] / Marco Ottobon sec[reta]rio
+**after_cipher:** Dat. in n[ost]ro Ducali Palatio die xx[vii] / Aprilis Ind[iction]e 2.da / Marco Ottobon sec[reta]rio
 
 ## f.37r
 
@@ -969,3 +969,7 @@ Reading: ma dassai convenientissimi
 Literal: `et | in | po | r | tant | {i/a} | ssi | mi | ri | spe | ti`
 
 Reading: et inportant[i/a]ssimi rispeti
+
+Clear handwriting (brackets mark expansions or uncertainty):
+
+**address_offset:** Reversed ink offset from the outer leaf, lower right, read in mirror image: Nobili, et Sap[ienti] Viro Joanni Mocenigo, Oratori nostro apud Ser[enissi]m[um] Regem Christianiss[imum].

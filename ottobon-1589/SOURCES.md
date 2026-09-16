@@ -16,12 +16,17 @@ Cipher-line numbering restarts at 1 on each folio. BNE viewer pages are openings
 
 | BNE viewer page | Download JPEG suffix | Manuscript position |
 |---|---|---|
+| [29](https://bnedigital.bne.es/bd/es/viewer?id=91753d62-e2f8-4fcc-8947-9e56a53af1b5&page=29) | `-1.jpg` | f.34r at right: Spanish title page naming the Infanta Catalina, the Duke of Savoy, and Luis Valle de la Cerda |
 | [30](https://bnedigital.bne.es/bd/es/viewer?id=91753d62-e2f8-4fcc-8947-9e56a53af1b5&page=30) | `-2.jpg` | f.35r at right |
 | [31](https://bnedigital.bne.es/bd/es/viewer?id=91753d62-e2f8-4fcc-8947-9e56a53af1b5&page=31) | `-3.jpg` | f.35v at left, f.36r at right |
 | [32](https://bnedigital.bne.es/bd/es/viewer?id=91753d62-e2f8-4fcc-8947-9e56a53af1b5&page=32) | `-4.jpg` | f.36v at left, f.37r at right |
 | [33](https://bnedigital.bne.es/bd/es/viewer?id=91753d62-e2f8-4fcc-8947-9e56a53af1b5&page=33) | `-5.jpg` | f.37v at left, f.38r at right |
 
 For the three README checks: the date is the first cipher line on f.37r; the league and transition occur on lines 9 and 13 of f.35v. The separate key requires access to DECODE R1789; the published excerpt allows the arithmetic of the decoding to be checked without those images.
+
+## Provenance note
+
+The manuscript is bound in BNE Mss/994, a volume of papers of Luis Valle de la Cerda. Its title page for this item, f.34r, states that the cipher letter from Venice was given in Turin by the Infanta Doña Catalina, on the Duke of Savoy’s orders, to Valle de la Cerda, who deciphered it, and that neither key nor decipherment survives with it. The 1589 Spanish decipherment has not been located; a comparison with it, if found, would settle the remaining gaps. On f.38r the address from the outer leaf survives as a reversed ink offset.
 
 ## Possible plaintext witness
 

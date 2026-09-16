@@ -18,9 +18,9 @@ Vegnù in questa città [fin] 15 del mese presente, vi [ricevemmo] il signor Ger
 
 ### f.35r7–35v13: French request
 
-…commemorandoci l’amor et affetione grande che quel Serenissimo re porta alla repubblica nostra, et quanto confidi nella cordiale corrispondente del affettuoso animo suo verso di lei, ne ricercò con molta instantia di sovvenirle in tanta necessità et somministrarle alcun soccorso per resistere all’imminente pericolo di quella corona, et assicurarsi dalli nemici del […] [per?] voltar poi le sue forze alla recuperatione di Saluzzo, […] [to?]gli dal signor [duca?] di Savoia nella [gu]erra che è nota a cadauno, [in]vitandoci appresso che lo [giudi?]cassimo bene a collegarsi […] et stringersi maggio[r]mente se[co] in qualche unione di lega, assicura[ndo]ne che ne [sa/se]riano fatti tutti […] larghi et avantaggiosi [par]titi che [si?] potessimo desiderare. [Alla] qual sua proposta, iscusandosi no[i]…
+…commemorandoci l’amor et affetione grande che quel Serenissimo re porta alla repubblica nostra, et quanto confidi nella cordiale corrispondente del affettuoso animo suo verso di lei, ne ricercò con molta instantia di sovvenirle in tanta necessità et somministrarle alcun soccorso per resistere all’imminente pericolo di quella corona, et assicurarsi dalli nemici del[la cor]ona, voltar poi le sue forze alla recuperatione di Saluzzo, [tol]togli dal signor [duca?] di Savoia nella [gu]erra che è nota a cadauno, [in]vitandoci appresso che lo [giudi?]cassimo bene a collegarsi […] et stringersi maggio[r]mente se[co] in qualche unione di lega, assicura[ndo]ne che ne [sa/se]riano fatti tutti [quelli] larghi et avantaggiosi [par]titi che [si?] potessimo desiderare. [Alla] qual sua proposta, iscusandosi no[i]…
 
-The league clause reads *magio[r]mente se[co] in qualche unione di lega*: “bind themselves more closely with him in some form of league.” The interior **r** and binding-hidden **co** remain supplied. **Qualche** is recovered from `g7`, verified separately in the key and target. *Che lo* regularizes literal *que lo*; the following binding-hidden verb prefix remains conjectural. The transition **qual sua proposta, iscusandosi** is supported by repeated-sign controls (`g6 h16 d15 d10 g38 f63`); **[Alla]** and the final **[i]** of *noi* remain supplied at the binding. The printed *corrispondente* follows the current cipher segmentation; it has not been silently replaced by the smoother *corrispondenza*. *Resistere* modernizes the source's apparent *resitir*.
+Three restorations at the gutter, **del[la cor]ona**, **[tol]togli**, and **[quelli]**, were proposed in the independent review: the visible groups at the start of line 2 read *o n a*, and lines 3–4 give *…gli*; one to three groups are hidden at each right edge. They are conjectures, not readings. The league clause reads *magio[r]mente se[co] in qualche unione di lega*: “bind themselves more closely with him in some form of league.” The interior **r** and binding-hidden **co** remain supplied. **Qualche** is recovered from `g7`, verified separately in the key and target. *Che lo* regularizes literal *que lo*; the following binding-hidden verb prefix remains conjectural. The transition **qual sua proposta, iscusandosi** is supported by repeated-sign controls (`g6 h16 d15 d10 g38 f63`); **[Alla]** and the final **[i]** of *noi* remain supplied at the binding. The printed *corrispondente* follows the current cipher segmentation; it has not been silently replaced by the smoother *corrispondenza*. *Resistere* modernizes the source's apparent *resitir*.
 
 ### f.35v14–36r16: Venice’s answer and instructions
 
@@ -32,15 +32,15 @@ Nel qual caso farete quelli prudenti et destri officii che vi [pare/parerà?] be
 
 ### f.36r–36v: intercepted correspondence
 
-Il mastro delle poste di Francia che sta in questa città ne ha mostrato un capitolo da lettere scrittogli da quello di Lione, che coll’occasione d’inviargli lettere sue gli manda anco le quattro sole altre righe delle vostre di 28 del passato, dicendogli che il rimanente con tutte le altre [vos]tre sono state intercette in quelle [s]trade. Continuiamo senza vostre, costre[tti] a [star bene scarsi?] d’ogni vostra notitia,
+Il mastro delle poste di Francia che sta in questa città ne ha mostrato un capitolo da lettere scrittogli da quello di Lione, che coll’occasione d’inviargli lettere sue gli manda anco le quattro sole ult[im]e righe delle vostre di 28 del passato, dicendogli che il rimanente con tutte le altre [vos]tre sono state intercette in quelle [s]trade. Continuiamo senza vostre, costre[tti] a [star bene scarsi?] d’ogni vostra notitia,
 
 accioché possiate con tant[o mag]gior stu[di]o procura[r] una strada per inviar lettere et darci lume delle co[se che?] occorrono lì alla giorna[ta].
 
 [Formula separata: “di nostra […]”]
 
-Dat. in nostro Ducali Palatio die XX[VII] Aprilis, Ind[iction]e [2.da?]. Marco Ottobon, secretario.
+Dat. in nostro Ducali Palatio die XX[VII] Aprilis, Ind[iction]e 2.da. Marco Ottobon, secretario.
 
-The postmaster paragraph is clear handwriting until *notitia*; the instruction beginning *accioché* returns to cipher. The syntactic transition is abrupt in the surviving reading and has not been repaired by inventing a missing sentence. Only **di nostra** is established in the separate formula; *secreta* remains a contextual suggestion. The footer shows **XX** before the binding; **[VII]** is supplied from the independently established dispatch date. The word *Indictione* expands securely, but **[2.da?]** remains doubtful. The earlier clear-hand date **28** is legible and refers to the previous month.
+The postmaster paragraph is clear handwriting until *notitia*; the instruction beginning *accioché* returns to cipher. The syntactic transition is abrupt in the surviving reading and has not been repaired by inventing a missing sentence. Only **di nostra** is established in the separate formula; *secreta* remains a contextual suggestion. The footer shows **XX** before the binding; **[VII]** is supplied from the independently established dispatch date. The word *Indictione* expands securely, and the ordinal *2.da* is right: 1589 falls in the second indiction. The earlier clear-hand date **28** is legible and refers to the previous month.
 
 ## Covering dispatch: English
 
@@ -54,7 +54,7 @@ He also invited us, [if we judged it advisable?], to enter an alliance […] and
 
 In that event, employ the prudent and skillful diplomatic representations which you [consider most suitable?], so that the most compelling considerations may be understood which have prevented us, on this occasion, from fulfilling our own wishes and our excellent disposition toward that Most Serene crown, accompanied by the greatest desire for its advancement and prosperity.
 
-**Postal security (ff.36r–36v).** The French postmaster in this city has shown us an extract from a letter written to him by his counterpart in Lyon. While sending letters of his own, the latter also sends the only four other lines of your letter of 28 last month, saying that the remainder, together with all your other letters, has been intercepted on those roads. We continue without letters from you, compelled to remain [very short?] of any news from you.
+**Postal security (ff.36r–36v).** The French postmaster in this city has shown us an extract from a letter written to him by his counterpart in Lyon. While sending letters of his own, the latter also sends only the last four lines of your letter of 28 last month, saying that the remainder, together with all your other letters, has been intercepted on those roads. We continue without letters from you, compelled to remain [very short?] of any news from you.
 
 [The cipher continues:] So that you may take all the greater care to find a route for sending letters and informing us of the [events which] occur there from day to day.
 
@@ -91,6 +91,8 @@ Da quei officii ne speriamo noi, per la prudenza et pietà della Santità sua, d
 …medesimi potrà Vostra Magnificentia conoscere qual sia la fede dell’animo nostro verso la grandezza et ogni prosperità di lei, et verso il bene et la quiete della cristianità; et che quello che più oltre ora non facciamo non nasce da men pronta et disposta volontà, ma da assai convenientissimi et importantissimi rispetti.
 
 Same-hand comparisons support **quello** (`g10`) and **disposta** (`g99`). The penultimate uncertain vowel permits literal *inportantissimi* or *inportantassimi*; the reading above modernizes to the intended word without claiming the glyph dispute is settled. *Fede dell’animo* expands *fe del animo*; it does not misdivide this as *fedel animo*.
+
+Below the cipher on f.38r, faint reversed writing is the address transferred from the outer leaf while the packet was folded. Read in mirror image: *Nobili et sapienti viro Joanni Mocenigo, oratori nostro apud Serenissimum Regem Christianissimum*, matching the salutation on f.35r.
 
 ## Enclosed reply: English
 
