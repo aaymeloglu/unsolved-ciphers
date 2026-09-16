@@ -100,7 +100,7 @@ The plaintext mentions no queen, pregnancy, Exeter, France, voyage, military com
 
 The next evidentiary step is narrowly defined: obtain the May 13 letter in Val-d’Oise MS 68.H.8, troisième liasse, and compare the manuscript with the three defective encrypted positions, `conceruer`, `uotre`, `des uos`, and the closing cleartext. Any address, endorsement, adjacent letter, or surviving key should be checked for the recipient and transmission history. Confirmation from Britland and Tomokiyo would also strengthen the claim of an unpublished solution. Until then, the suitable description is: **a highly convincing decipherment of a letter still publicly catalogued as unsolved, with three proposed local corrections and unresolved manuscript and attribution details**.
 
-The accompanying `verify_solution.py` and `verification.json` supply all 37 raw group decodings, every symbol frequency, the exact repairs, and the leave-one-group-out results. `review-sources/` preserves the retrieved catalogue and blog pages, the beam-search rerun output and log, and hashes identifying its inputs. The original `SOLUTION.md`, ciphertext, and key have been preserved.
+The accompanying `verify_solution.py` and `verification.json` supply all 37 raw group decodings, every symbol frequency, the exact repairs, and the leave-one-group-out results. `review-sources/` preserves the retrieved catalogue and blog pages, the beam-search rerun output and log, and hashes identifying its inputs. The original `README.md`, ciphertext, and key have been preserved.
 
 **Sources**
 

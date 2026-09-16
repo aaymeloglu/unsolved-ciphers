@@ -33,7 +33,7 @@ Ranked by (cheap to attempt) x (self-verifying) x (someone would care).
 - **Attack:** Work from a first-edition scan (Bobbs-Merrill 1912), not a reflowed text. Enumerate chapter-level and page-level extractions the found messages don't use: first/last words, second sentences, story-final paragraphs, page-initial letters, Astro's mottos, capitalized words.
 - **Sources:** [Schmeh post](https://scienceblogs.de/klausis-krypto-kolumne/the-unsolved-mystery-from-the-master-of-mysteries/), [Internet Archive text](https://archive.org/details/cu31924022342871)
 
-### 2. Richard Forster letter, 13 May 1644 (French) - SOLVED 2026-09-14 (this project; see forster-1644/SOLUTION.md)
+### 2. Richard Forster letter, 13 May 1644 (French) - SOLVED 2026-09-14 (this project; see forster-1644/README.md)
 - **What:** ~230 tokens over ~35 symbols (letters a-y plus numbers 0-90), commas mark word breaks, French cleartext fragments inside and around it. Forster was treasurer of Henrietta Maria's household; the queen was at Exeter, pregnant, weeks from fleeing to France.
 - **Why it fits:** Word boundaries are visible, cleartext frames it, nobody has tried. Solution is readable French, so it verifies itself. Tomokiyo maintains the unsolved list and would record a solve.
 - **Attack:** Word-boundary-aware substitution/homophonic solve with a French language model. The repeated 2-token "7. 0." and 4-token "y. s. 30. 20." groups are immediate cribs.
