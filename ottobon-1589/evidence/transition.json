@@ -1,0 +1,295 @@
+{
+  "source": "Biblioteca Nacional de España, Mss/994; independently downloaded public JPEGs, 16 September 2026. See SOURCES.md.",
+  "attribution": "Biblioteca Nacional de España; public-domain manuscript, reproductions CC BY 4.0 or equivalent as displayed by BNE.",
+  "processing": "Original public BNE pixels cropped and resized with labels; no generative reconstruction. Boxes are [left,top,right,bottom] in original JPEG coordinates.",
+  "method": "Direct whole-sign and digit-family comparisons across public BNE openings3,4,5. Controls selected from coherent, already transcribed occurrences. Original pixels cropped/resized without generative processing. Language tested the result after the d15 control suggested pro-po. Not blind.",
+  "source_files": [
+    {
+      "opening": 3,
+      "viewer_page": 31,
+      "file": "Memorial-de-los-servicios-prestados-a-los-Reyes-Felipe-II-y-Felipe-III-por-D-Luis-Valle-de-la-Zerda-correspondencia-y-documentos-del-mismo-3.jpg",
+      "sha256": "d7ce867d9736faae94e47816dd78db204041629ac36e2d64761425f0e55bf9a9"
+    },
+    {
+      "opening": 4,
+      "viewer_page": 32,
+      "file": "Memorial-de-los-servicios-prestados-a-los-Reyes-Felipe-II-y-Felipe-III-por-D-Luis-Valle-de-la-Zerda-correspondencia-y-documentos-del-mismo-4.jpg",
+      "sha256": "121599bef33ca80ce8fb770c8b3725317b04ea51441b687c4bea766b76331abf"
+    },
+    {
+      "opening": 5,
+      "viewer_page": 33,
+      "file": "Memorial-de-los-servicios-prestados-a-los-Reyes-Felipe-II-y-Felipe-III-por-D-Luis-Valle-de-la-Zerda-correspondencia-y-documentos-del-mismo-5.jpg",
+      "sha256": "0b06acdcc420ca610233f683a325d0695660b35888e4da120d4c90e4ccf188ee"
+    }
+  ],
+  "contact_sheet": "transition.png",
+  "control_regions": [
+    {
+      "label": "TARGET 1: g6 QUAL",
+      "opening": 3,
+      "bbox": [
+        390,
+        1027,
+        503,
+        1120
+      ],
+      "position": "f35v13.1"
+    },
+    {
+      "label": "CONTROL g6 QUAL",
+      "opening": 3,
+      "bbox": [
+        1495,
+        561,
+        1568,
+        644
+      ],
+      "position": "f36r7.3"
+    },
+    {
+      "label": "TARGET 2: h16 SUA",
+      "opening": 3,
+      "bbox": [
+        499,
+        1026,
+        582,
+        1110
+      ],
+      "position": "f35v13.2"
+    },
+    {
+      "label": "CONTROL h16 SUA",
+      "opening": 5,
+      "bbox": [
+        455,
+        758,
+        520,
+        840
+      ],
+      "position": "f37v10.3"
+    },
+    {
+      "label": "TARGET 3: d15 PRO",
+      "opening": 3,
+      "bbox": [
+        568,
+        1030,
+        635,
+        1110
+      ],
+      "position": "f35v13.3"
+    },
+    {
+      "label": "CONTROL d15 PRO",
+      "opening": 5,
+      "bbox": [
+        1292,
+        611,
+        1372,
+        692
+      ],
+      "position": "f38r7.1"
+    },
+    {
+      "label": "TARGET 4: d10 PO",
+      "opening": 3,
+      "bbox": [
+        632,
+        1030,
+        702,
+        1110
+      ],
+      "position": "f35v13.4"
+    },
+    {
+      "label": "CONTROL d10 PO",
+      "opening": 3,
+      "bbox": [
+        579,
+        1350,
+        644,
+        1440
+      ],
+      "position": "f35v18.3"
+    },
+    {
+      "label": "TARGET 5: g38 STA",
+      "opening": 3,
+      "bbox": [
+        693,
+        1030,
+        773,
+        1125
+      ],
+      "position": "f35v13.5"
+    },
+    {
+      "label": "CONTROL g38 STA",
+      "opening": 5,
+      "bbox": [
+        1810,
+        593,
+        1908,
+        684
+      ],
+      "position": "f38r7.8"
+    },
+    {
+      "label": "TARGET 6: f63 I",
+      "opening": 3,
+      "bbox": [
+        773,
+        1030,
+        839,
+        1125
+      ],
+      "position": "f35v13.6"
+    },
+    {
+      "label": "CONTROL f63 I",
+      "opening": 3,
+      "bbox": [
+        513,
+        1160,
+        582,
+        1245
+      ],
+      "position": "f35v15.2"
+    },
+    {
+      "label": "REJECTED 2: h86 O",
+      "opening": 3,
+      "bbox": [
+        458,
+        281,
+        552,
+        368
+      ],
+      "position": "f35v2.1"
+    },
+    {
+      "label": "REJECTED 2: h83 NULL",
+      "opening": 5,
+      "bbox": [
+        340,
+        235,
+        430,
+        311
+      ],
+      "position": "f37v1.1"
+    },
+    {
+      "label": "REJECTED 5: numeral 30",
+      "opening": 3,
+      "bbox": [
+        414,
+        1163,
+        515,
+        1245
+      ],
+      "position": "f35v15.1 f30"
+    },
+    {
+      "label": "REJECTED 5: numeral 50",
+      "opening": 3,
+      "bbox": [
+        830,
+        896,
+        884,
+        978
+      ],
+      "position": "f35v11.6 h50"
+    },
+    {
+      "label": "ALTERNATIVE 5: g40 STI",
+      "opening": 3,
+      "bbox": [
+        1504,
+        742,
+        1589,
+        835
+      ],
+      "position": "f36r10.3"
+    },
+    {
+      "label": "ALTERNATIVE 5: g39 STE",
+      "opening": 4,
+      "bbox": [
+        1300,
+        1130,
+        1415,
+        1210
+      ],
+      "position": "f37r16.2"
+    },
+    {
+      "label": "CONTROL first numeral 6",
+      "opening": 3,
+      "bbox": [
+        552,
+        755,
+        622,
+        848
+      ],
+      "position": "f35v9.3 f66"
+    },
+    {
+      "label": "CONTROL numerals 59",
+      "opening": 3,
+      "bbox": [
+        1920,
+        159,
+        2001,
+        245
+      ],
+      "position": "f36r1.10 c59"
+    },
+    {
+      "label": "ADDITIONAL: c56 + g7",
+      "opening": 3,
+      "bbox": [
+        445,
+        759,
+        559,
+        848
+      ],
+      "position": "f35v9.1-2"
+    },
+    {
+      "label": "CONTROL hooked numeral 7",
+      "opening": 4,
+      "bbox": [
+        1400,
+        723,
+        1495,
+        813
+      ],
+      "position": "f37r10.3 c47"
+    },
+    {
+      "label": "CONTROL numerals 72",
+      "opening": 3,
+      "bbox": [
+        767,
+        1344,
+        830,
+        1436
+      ],
+      "position": "f35v18.6 c72"
+    },
+    {
+      "label": "SECOND CONTROL h16 SUA",
+      "opening": 4,
+      "bbox": [
+        1360,
+        873,
+        1450,
+        948
+      ],
+      "position": "f37r12.3"
+    }
+  ],
+  "accepted": "g6 h16 d15 d10 g38 f63 a96 a48 h1 d55 g98 h3 f20 ?; qual sua proposta, iscusandosi no[i]",
+  "limits": "Alla and final i are editorial supplies at the binding. Faint groups are context-assisted paleographic selections, not blind confirmations."
+}
