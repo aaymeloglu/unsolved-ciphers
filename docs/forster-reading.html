@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Les voyes de prudence</title>
+<meta name="description" content="Sir Richard Forster&#x27;s ciphered passage of 13 May 1644: ciphertext, French and English side by side, with the key.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --paper:#ece9e1; --surface:#f6f4ee; --ink:#26221c; --muted:#6c655a; --rule:#d3cdc0; --accent:#933a2c; --link:#2e6270; --code:#e4e0d6;
+  --serif:"EB Garamond", Garamond, "Times New Roman", serif;
+  --sans:"IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono:"IBM Plex Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper:#1a1916; --surface:#23211d; --ink:#e7e2d7; --muted:#a69e90; --rule:#3b3730; --accent:#d78a76; --link:#86bcc6; --code:#2c2924; } }
+:root[data-theme="dark"] {
+  --paper:#1a1916; --surface:#23211d; --ink:#e7e2d7; --muted:#a69e90; --rule:#3b3730; --accent:#d78a76; --link:#86bcc6; --code:#2c2924; }
+* { box-sizing:border-box; }
+body { background:var(--paper); color:var(--ink); font-family:var(--sans); font-size:15.5px; line-height:1.55; padding-inline:clamp(16px,3vw,40px); padding-block:0 64px; }
+a { color:var(--link); text-decoration-thickness:1px; text-underline-offset:2px; }
+h1,h2,h3,h4 { font-family:var(--serif); font-weight:500; margin:0; text-wrap:balance; }
+.masthead { max-width:1400px; margin:0 auto; padding-block:40px 24px; border-bottom:1px solid var(--rule); }
+.eyebrow { font-family:var(--sans); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); margin:0 0 10px; }
+.masthead h1 { font-size:clamp(34px,5vw,58px); line-height:1.02; font-style:italic; font-weight:400; }
+.standfirst { font-family:var(--serif); font-size:clamp(18px,2vw,22px); line-height:1.4; max-width:62ch; margin:18px 0 0; }
+.lede { display:grid; grid-template-columns:1fr 1fr; gap:32px; max-width:1400px; margin:0 auto; padding-block:24px; border-bottom:1px solid var(--rule); }
+.lede p { margin:0 0 12px; max-width:62ch; }
+.lede h3 { font-size:20px; margin-bottom:8px; }
+.callout { border-left:3px solid var(--accent); padding-left:16px; }
+.legend { font-size:14px; color:var(--muted); }
+.legend code, .apparatus code { font-family:var(--mono); font-size:.9em; background:var(--code); padding:1px 4px; border-radius:3px; }
+nav.folios { position:sticky; top:env(safe-area-inset-top,0px); z-index:5; background:var(--paper); border-bottom:1px solid var(--rule); max-width:1400px; margin:0 auto; display:flex; gap:4px; overflow-x:auto; padding-block:8px; font-family:var(--serif); font-size:17px; }
+nav.folios a { text-decoration:none; padding:4px 10px; border-radius:4px; color:var(--ink); white-space:nowrap; }
+nav.folios a:hover, nav.folios a:focus-visible { background:var(--surface); outline:none; box-shadow:0 0 0 2px var(--accent); }
+.folio { max-width:1400px; margin:0 auto; padding-block:40px; border-bottom:1px solid var(--rule); scroll-margin-top:56px; }
+.folio-head { display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; margin-bottom:18px; }
+.folio-head h2 { font-size:30px; color:var(--accent); font-style:italic; }
+.folio-head p { margin:0; color:var(--muted); font-size:15px; }
+.cols { display:grid; grid-template-columns:minmax(260px,1fr) minmax(280px,1.15fr) minmax(280px,1.15fr); gap:32px; align-items:start; }
+.scan { margin:0; position:sticky; top:56px; }
+.scan .zoom { display:block; width:100%; padding:0; border:1px solid var(--rule); background:var(--surface); cursor:zoom-in; border-radius:2px; }
+.scan .zoom:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.scan img { display:block; width:100%; height:auto; }
+.scan figcaption { font-size:12.5px; color:var(--muted); margin-top:6px; letter-spacing:.02em; }
+.col h3 { font-size:13px; font-family:var(--sans); font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:10px; }
+.col p { margin:0 0 14px; }
+.col.it p { font-family:var(--serif); font-size:19px; line-height:1.45; }
+.col.en p { font-size:15.5px; line-height:1.6; }
+p.hand { font-family:var(--sans) !important; font-size:12px !important; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); margin:18px 0 6px !important; line-height:1.3 !important; }
+p.hand:first-child { margin-top:0 !important; }
+.apparatus { margin-top:28px; padding-top:18px; border-top:1px dashed var(--rule); }
+.apparatus h4 { font-family:var(--sans); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); font-weight:600; margin-bottom:8px; }
+.apparatus ul { margin:0; padding-left:18px; max-width:90ch; color:var(--ink); font-size:14.5px; }
+.apparatus li { margin-bottom:6px; }
+details.groups { margin-top:16px; }
+details.groups summary { cursor:pointer; color:var(--link); font-size:14.5px; }
+.scroll { overflow-x:auto; margin-top:10px; border:1px solid var(--rule); border-radius:3px; background:var(--surface); }
+table { border-collapse:collapse; font-size:13px; min-width:900px; }
+th, td { text-align:left; vertical-align:top; padding:6px 10px; border-bottom:1px solid var(--rule); }
+th { font-family:var(--sans); font-weight:600; font-size:11.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); }
+td.ln { font-variant-numeric:tabular-nums; color:var(--muted); }
+td.tok, td.lit { font-family:var(--mono); white-space:nowrap; }
+td.lit { color:var(--muted); }
+td.rd { font-family:var(--serif); font-size:15px; white-space:nowrap; }
+.fn { font-size:13px; color:var(--muted); margin:8px 0 0; }
+footer.colophon { max-width:1400px; margin:0 auto; padding-block:36px 0; display:grid; grid-template-columns:1fr 1fr; gap:32px; font-size:14px; color:var(--muted); }
+footer p { margin:0 0 10px; max-width:64ch; }
+footer h3 { font-size:18px; color:var(--ink); margin-bottom:8px; }
+dialog.lightbox { border:0; padding:0; background:var(--paper); color:var(--ink); width:min(100vw,1200px); max-width:100vw; height:100vh; max-height:100vh; margin:auto; }
+dialog.lightbox::backdrop { background:rgba(0,0,0,.72); }
+.lb-bar { display:flex; justify-content:space-between; align-items:center; padding:10px 16px; border-bottom:1px solid var(--rule); font-family:var(--serif); font-size:18px; position:sticky; top:0; background:var(--paper); }
+.lb-bar button { font:inherit; font-family:var(--sans); font-size:14px; background:var(--surface); color:var(--ink); border:1px solid var(--rule); padding:6px 12px; border-radius:4px; cursor:pointer; }
+.lb-bar button:focus-visible { outline:2px solid var(--accent); }
+.lb-body { overflow:auto; height:calc(100vh - 50px); }
+.lb-body img { display:block; width:100%; height:auto; }
+@media screen and (max-width: 1000px) { .cols { grid-template-columns:1fr 1fr; } .scan { grid-column:1 / -1; position:static; max-width:560px; } }
+@media screen and (max-width: 680px) { .cols, .lede, footer.colophon { grid-template-columns:1fr; } .scan { max-width:100%; } .col.it p { font-size:18px; } }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior:smooth; } }
+@media print {
+  .screen-only { display:none; }
+  @page { size: 11in 8.5in; margin: 0.45in 0.5in; }
+  body { background:#fff; color:#111; font-size:10.5px; padding-inline:0; padding-block:0; }
+  :root { --paper:#fff; --surface:#f5f5f2; --ink:#111; --muted:#555; --rule:#bbb; --accent:#7a2f24; --link:#1f4f5c; --code:#eee; }
+  nav.folios, dialog.lightbox, details.groups { display:none !important; }
+  a { color:inherit; text-decoration:none; }
+  .masthead { padding-block:0 12px; }
+  .masthead h1 { font-size:34px; }
+  .standfirst { font-size:14px; }
+  .lede { padding-block:12px; gap:24px; page-break-after:always; }
+  .lede h3 { font-size:14px; }
+  .folio { page-break-before:always; padding-block:0 12px; border-bottom:0; }
+  .folio-head { margin-bottom:8px; }
+  .folio-head h2 { font-size:22px; }
+  .cols { grid-template-columns:2.9in 1fr 1fr; gap:18px; }
+  .scan { position:static; max-width:none; }
+  .scan .zoom { break-inside:avoid; }
+  .scan .zoom { border:1px solid #ccc; }
+  .scan figcaption { font-size:9px; }
+  .col.it p { font-size:12.5px; line-height:1.35; }
+  .col.en p { font-size:10.5px; line-height:1.45; }
+  p.hand { font-size:8.5px !important; margin:10px 0 3px !important; }
+  .apparatus { margin-top:10px; padding-top:8px; }
+  .apparatus ul { font-size:9.5px; }
+  footer.colophon { page-break-before:always; padding-block:0; font-size:10px; }
+}
+
+.crumbs { max-width:1400px; margin:0 auto; padding-top:16px; font-size:14px; color:var(--muted); }
+.cipher p { font-family:var(--mono); font-size:13.5px; line-height:1.75; margin:0 0 14px; word-spacing:.15em; }
+.cipher p.clear { font-family:var(--serif); font-size:18px; font-style:italic; line-height:1.45; word-spacing:normal; }
+.cipher mark, td.tok mark { background:none; color:var(--accent); font-weight:500; border-bottom:1px solid var(--accent); }
+.col.it p.clear { font-style:italic; color:var(--muted); }
+.keytable { min-width:0; width:100%; }
+.entries { max-width:1400px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:32px; padding-block:32px; border-bottom:1px solid var(--rule); }
+.entry h2 { font-size:30px; font-style:italic; color:var(--accent); margin-bottom:4px; }
+.entry .where { color:var(--muted); font-size:14px; margin:0 0 12px; }
+.entry p { margin:0 0 12px; max-width:62ch; }
+.entry .go { font-family:var(--serif); font-size:20px; }
+.more { max-width:1400px; margin:0 auto; padding-block:28px; border-bottom:1px solid var(--rule); }
+.more h3 { font-size:20px; margin-bottom:8px; }
+.more ul { margin:0; padding-left:18px; max-width:90ch; }
+.more li { margin-bottom:6px; }
+@media screen and (max-width: 680px) { .entries { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<p class="crumbs screen-only"><a href="index.html">Unsolved ciphers</a> / <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/forster-1644">write-up and files</a></p>
+<header class="masthead">
+  <p class="eyebrow">Archives départementales du Val-d'Oise, 68 H 8 · France, 13 May 1644</p>
+  <h1>Les voyes de prudence</h1>
+  <p class="standfirst">A ciphered passage in a letter in the hand of Sir Richard Forster, treasurer of Henrietta Maria's household: spiritual counsel to someone in danger, that preserving one's life is no failing before God.</p>
+</header>
+
+<div class="lede">
+  <div>
+    <h3>What the passage says</h3>
+    <p>Forster wrote from France in May 1644. The plaintext names no person, place or title, so the addressee is inferred, not established. Karen Britland's abstract says Henrietta Maria, at Exeter, ill, pregnant, and deciding whether to flee to France, made a related request a few days later, which makes her a plausible addressee, not a certain one. Whether Forster composed the counsel or relayed a confessor's is open.</p>
+    <h3>How it was read</h3>
+    <p>The cipher is a mixed letter-and-number homophonic substitution: 34 symbols over 207 tokens, in 37 comma-separated words. Character n-gram hill climbing went nowhere at that length. A beam search over a French lexicon with 17th-century spellings, constrained only by same-symbol-same-letter, produced most of the key in one run; a dozen symbols were then fixed by hand. The 16 letter-symbols map to 16 distinct plaintext letters, and the 18 number-symbols to 16. A Codex agent re-applied the key mechanically and reproduced the reading. Everything is reproducible from the <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/forster-1644">published files</a>.</p>
+  </div>
+  <div>
+    <div class="callout">
+      <h3>Not the first reading</h3>
+      <p>Satoshi Tomokiyo's list still carried this passage as undeciphered when we read it on 14 September 2026, and we found no published solution. There were earlier ones. Britland has since told Robert Pitt that George Lasry supplied a decipherment after her 2013 article and that Norbert Biermann reached the same solution independently. Pitt published <a href="https://github.com/robertpitt/forster-cipher">his own key</a> a few hours before ours on the same day. Pitt's key and ours were reached separately and are identical; the earlier reading Britland passed on differs in a few words. No priority is claimed here.</p>
+    </div>
+    <h3>Reading the columns</h3>
+    <p class="legend">Left: the ciphertext in Tomokiyo's transcription of Britland's printed text; commas are word breaks, and the two passages Forster left in clear are in italic. Middle: the key's output in the letter's own spelling, then modernised. Right: an English translation. Square brackets mark the three places where the key's output needs repair; the symbols concerned are marked in the ciphertext. No image of the manuscript is online, so whether those slips are Forster's or a transcriber's is not known.</p>
+  </div>
+</div>
+
+<section class="folio" id="passage">
+  <header class="folio-head"><h2>The passage</h2><p>One page, one side; cipher with two clear passages and the date</p></header>
+  <div class="cols">
+    <div class="col cipher"><h3>Ciphertext</h3><p>d c<span aria-hidden="true">,</span> t g<span aria-hidden="true">,</span> p<span aria-hidden="true">,</span> 4 30 q 30 19<span aria-hidden="true">,</span> x 30 f 16 2 50<span aria-hidden="true">,</span> a 0 40 12 20 30 y 30 c 2<span aria-hidden="true">,</span> 7 0<span aria-hidden="true">,</span> u 4 t 88 30 0 l p<span aria-hidden="true">,</span> a d 2 30<span aria-hidden="true">,</span></p><p class="clear">ie vous en responds et mesmes dans</p><p>c 0 x l 2 d e c 0 40<span aria-hidden="true">,</span> 7 2<span aria-hidden="true">,</span> y 0 20 n 2 12 50 16 s t<span aria-hidden="true">,</span> 90 20 0 t 2 14 x <mark>a</mark> 30 c 2 u 0 t b<span aria-hidden="true">,</span> 80 2 x 30 s g 0 x a 2<span aria-hidden="true">,</span> 90 20 30 a 0 t q 2<span aria-hidden="true">,</span> 90 <mark>16</mark> 30 20<span aria-hidden="true">,</span> 12 s t q 0 l 30 2 20<span aria-hidden="true">,</span> 30 s 50 20 2<span aria-hidden="true">,</span> 30 d 0<span aria-hidden="true">,</span> y s 30 20<span aria-hidden="true">,</span> 2 19 n p d l 0<span aria-hidden="true">,</span> 4<span aria-hidden="true">,</span> a 16 2 30<span aria-hidden="true">,</span> 30 t<span aria-hidden="true">,</span> y c 30 x<span aria-hidden="true">,</span> 5 20 4 19 7<span aria-hidden="true">,</span> 40 4 12 l 16 70 d <mark>g</mark> 0<span aria-hidden="true">,</span> 90 4 20 c p<span aria-hidden="true">,</span> u 30 80 50 16 y c d q 4 8 16 s 19<span aria-hidden="true">,</span> a 2 40<span aria-hidden="true">,</span> 30 s x<span aria-hidden="true">,</span> 40 0 20 30 d 12 2 x<span aria-hidden="true">,</span> y s 30 20<span aria-hidden="true">,</span> 80 0 x 4 c 30 50<span aria-hidden="true">,</span> 7 0<span aria-hidden="true">,</span> 30 s x<span aria-hidden="true">,</span> 70 20 2 l 0 40</p><p class="clear">et mesurer a cela sil est meilleur d&#x27;agir, ou de soupir 13. de may. 1644</p></div>
+    <div class="col it"><h3>French</h3><p>Il ny a aucun subiet de scrupule de manquer a Dieu,</p><p class="clear">ie vous en responds et mesmes dans</p><p>les reigles de perfection. Prenez s[e]ulement les voyes de prudence p[o]ur concerver votre vie, pour en faire a Dieu un plus grand sacrifi[c]e par la multiplication des vos services pour le salut de vos freres;</p><p class="clear">et mesurer a cela sil est meilleur d&#x27;agir, ou de soubir. 13 de may 1644</p><p class="hand">Modernised</p><p>Il n&#x27;y a aucun sujet de scrupule de manquer à Dieu, je vous en réponds, et même dans les règles de perfection. Prenez seulement les voies de prudence pour conserver votre vie, pour en faire à Dieu un plus grand sacrifice par la multiplication de vos services pour le salut de vos frères ; et mesurer à cela s&#x27;il est meilleur d&#x27;agir ou de subir.</p></div>
+    <div class="col en"><h3>English</h3><p>There is no cause for scruple about failing God, I answer to you for it, even by the rules of perfection.</p><p>Only take the ways of prudence to preserve your life, so as to make of it a greater sacrifice to God through the multiplication of your services for the salvation of your brethren; and measure by that whether it is better to act or to endure.</p><p>13 May 1644</p></div>
+  </div>
+  <div class="apparatus">
+    <h4>Notes</h4>
+    <ul>
+      <li>Word 13, <code>prenez s[e]ulement</code>: cipher <code>a</code> (d) where <code>2</code> (e) is needed. A handwritten 2 and a are easily confused.</li>
+      <li>Word 16, <code>p[o]ur</code>: <code>16</code> (i) where <code>s</code> (o) is needed.</li>
+      <li>Word 27, <code>sacrifi[c]e</code>: <code>g</code> (y) where <code>q</code> (c) is needed; g and q are confusable in hand.</li>
+      <li>Word 17, <code>conceruer</code>: the key gives <em>concerver</em>, a spelling attested in period documents, so it is not repaired.</li>
+      <li>The last clear word is <em>soupir</em> in Tomokiyo's transcription and in Britland's printed text, but <em>soubir</em> in her abstract, that is <em>subir</em>, to endure. “To act or to endure” is the better reading.</li>
+      <li>Word breaks inside cipher words are unmarked: <em>descrupule</em>, <em>manquera</em> (manquer a), <em>lesreigles</em>, <em>prenezseulement</em>, <em>lesvoyesde</em>, <em>enfaire</em>, <em>parla</em>, <em>lesalut</em>.</li>
+    </ul>
+    <details class="groups" open><summary>The 37 cipher words with the key's raw output</summary>
+      <div class="scroll"><table><thead><tr><th>Word</th><th>Cipher symbols</th><th>Key output</th><th>Reading</th></tr></thead>
+      <tbody><tr><td class="ln">1</td><td class="tok">d c</td><td class="lit">il</td><td class="rd">il</td></tr><tr><td class="ln">2</td><td class="tok">t g</td><td class="lit">ny</td><td class="rd">ny</td></tr><tr><td class="ln">3</td><td class="tok">p</td><td class="lit">a</td><td class="rd">a</td></tr><tr><td class="ln">4</td><td class="tok">4 30 q 30 19</td><td class="lit">aucun</td><td class="rd">aucun</td></tr><tr><td class="ln">5</td><td class="tok">x 30 f 16 2 50</td><td class="lit">subiet</td><td class="rd">subiet</td></tr><tr><td class="ln">6</td><td class="tok">a 0 40 12 20 30 y 30 c 2</td><td class="lit">descrupule</td><td class="rd">descrupule</td></tr><tr><td class="ln">7</td><td class="tok">7 0</td><td class="lit">de</td><td class="rd">de</td></tr><tr><td class="ln">8</td><td class="tok">u 4 t 88 30 0 l p</td><td class="lit">manquera</td><td class="rd">manquera</td></tr><tr><td class="ln">9</td><td class="tok">a d 2 30</td><td class="lit">dieu</td><td class="rd">dieu</td></tr><tr><td class="ln">10</td><td class="tok">c 0 x l 2 d e c 0 40</td><td class="lit">lesreigles</td><td class="rd">lesreigles</td></tr><tr><td class="ln">11</td><td class="tok">7 2</td><td class="lit">de</td><td class="rd">de</td></tr><tr><td class="ln">12</td><td class="tok">y 0 20 n 2 12 50 16 s t</td><td class="lit">perfection</td><td class="rd">perfection</td></tr><tr><td class="ln">13</td><td class="tok">90 20 0 t 2 14 x <mark>a</mark> 30 c 2 u 0 t b</td><td class="lit">prenezsdulement</td><td class="rd">prenezs[e]ulement</td></tr><tr><td class="ln">14</td><td class="tok">80 2 x 30 s g 0 x a 2</td><td class="lit">lesuoyesde</td><td class="rd">lesuoyesde</td></tr><tr><td class="ln">15</td><td class="tok">90 20 30 a 0 t q 2</td><td class="lit">prudence</td><td class="rd">prudence</td></tr><tr><td class="ln">16</td><td class="tok">90 <mark>16</mark> 30 20</td><td class="lit">piur</td><td class="rd">p[o]ur</td></tr><tr><td class="ln">17</td><td class="tok">12 s t q 0 l 30 2 20</td><td class="lit">conceruer</td><td class="rd">conceruer</td></tr><tr><td class="ln">18</td><td class="tok">30 s 50 20 2</td><td class="lit">uotre</td><td class="rd">uotre</td></tr><tr><td class="ln">19</td><td class="tok">30 d 0</td><td class="lit">uie</td><td class="rd">uie</td></tr><tr><td class="ln">20</td><td class="tok">y s 30 20</td><td class="lit">pour</td><td class="rd">pour</td></tr><tr><td class="ln">21</td><td class="tok">2 19 n p d l 0</td><td class="lit">enfaire</td><td class="rd">enfaire</td></tr><tr><td class="ln">22</td><td class="tok">4</td><td class="lit">a</td><td class="rd">a</td></tr><tr><td class="ln">23</td><td class="tok">a 16 2 30</td><td class="lit">dieu</td><td class="rd">dieu</td></tr><tr><td class="ln">24</td><td class="tok">30 t</td><td class="lit">un</td><td class="rd">un</td></tr><tr><td class="ln">25</td><td class="tok">y c 30 x</td><td class="lit">plus</td><td class="rd">plus</td></tr><tr><td class="ln">26</td><td class="tok">5 20 4 19 7</td><td class="lit">grand</td><td class="rd">grand</td></tr><tr><td class="ln">27</td><td class="tok">40 4 12 l 16 70 d <mark>g</mark> 0</td><td class="lit">sacrifiye</td><td class="rd">sacrifi[c]e</td></tr><tr><td class="ln">28</td><td class="tok">90 4 20 c p</td><td class="lit">parla</td><td class="rd">parla</td></tr><tr><td class="ln">29</td><td class="tok">u 30 80 50 16 y c d q 4 8 16 s 19</td><td class="lit">multiplication</td><td class="rd">multiplication</td></tr><tr><td class="ln">30</td><td class="tok">a 2 40</td><td class="lit">des</td><td class="rd">des</td></tr><tr><td class="ln">31</td><td class="tok">30 s x</td><td class="lit">uos</td><td class="rd">uos</td></tr><tr><td class="ln">32</td><td class="tok">40 0 20 30 d 12 2 x</td><td class="lit">seruices</td><td class="rd">seruices</td></tr><tr><td class="ln">33</td><td class="tok">y s 30 20</td><td class="lit">pour</td><td class="rd">pour</td></tr><tr><td class="ln">34</td><td class="tok">80 0 x 4 c 30 50</td><td class="lit">lesalut</td><td class="rd">lesalut</td></tr><tr><td class="ln">35</td><td class="tok">7 0</td><td class="lit">de</td><td class="rd">de</td></tr><tr><td class="ln">36</td><td class="tok">30 s x</td><td class="lit">uos</td><td class="rd">uos</td></tr><tr><td class="ln">37</td><td class="tok">70 20 2 l 0 40</td><td class="lit">freres</td><td class="rd">freres</td></tr></tbody></table></div>
+    </details>
+    <details class="groups"><summary>The key, by plaintext letter</summary>
+      <div class="scroll"><table class="keytable"><thead><tr><th>Plain</th><th>Cipher symbols</th></tr></thead><tbody><tr><td class="rd">a</td><td class="tok">p, 4</td></tr><tr><td class="rd">b</td><td class="tok">f</td></tr><tr><td class="rd">c</td><td class="tok">q, 12</td></tr><tr><td class="rd">d</td><td class="tok">a, 7</td></tr><tr><td class="rd">e</td><td class="tok">0, 2</td></tr><tr><td class="rd">f</td><td class="tok">n, 70</td></tr><tr><td class="rd">g</td><td class="tok">e, 5</td></tr><tr><td class="rd">i</td><td class="tok">d, 16</td></tr><tr><td class="rd">l</td><td class="tok">c, 80</td></tr><tr><td class="rd">m</td><td class="tok">u</td></tr><tr><td class="rd">n</td><td class="tok">t, 19</td></tr><tr><td class="rd">o</td><td class="tok">s</td></tr><tr><td class="rd">p</td><td class="tok">y, 90</td></tr><tr><td class="rd">q</td><td class="tok">88</td></tr><tr><td class="rd">r</td><td class="tok">l, 20</td></tr><tr><td class="rd">s</td><td class="tok">x, 40</td></tr><tr><td class="rd">t</td><td class="tok">b, 8, 50</td></tr><tr><td class="rd">u / v</td><td class="tok">30</td></tr><tr><td class="rd">y</td><td class="tok">g</td></tr><tr><td class="rd">z</td><td class="tok">14</td></tr></tbody></table></div>
+      <p class="fn">Some letters have only a number (e, q, z), some only a letter-symbol (b, m, o, y); e and t have two numbers each.</p>
+    </details>
+  </div>
+</section>
+
+<footer class="colophon">
+  <div>
+    <h3>Sources</h3>
+    <p>Karen Britland, “Reading between the lines: royalist letters and encryption in the English civil wars”, <em>Critical Quarterly</em> 55/4 (2013), which prints the passage. Satoshi Tomokiyo, <a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Unsolved Historical Ciphers</a>, and his 2021 transcription. Robert Pitt, <a href="https://github.com/robertpitt/forster-cipher">forster-cipher</a>, which reports Britland's account of the Lasry and Biermann decipherments.</p>
+    <p>The manuscript is in the fonds of the English Benedictine nuns of Pontoise, whose first abbess was Forster's daughter. It is not digitised and has not been checked.</p>
+  </div>
+  <div>
+    <h3>About this page</h3>
+    <p>Read 14 September 2026 with Claude Code; independently checked by a Codex agent the same day. This page is generated from <code>ct.txt</code>, <code>mapping.json</code> and <code>verification.json</code> in the <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/forster-1644">repository</a>, where the README has the method, the failure log and the manuscript location.</p>
+  </div>
+</footer>
+</body>
+</html>

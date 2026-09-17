@@ -1,0 +1,283 @@
+#!/usr/bin/env python3
+"""Build the GitHub Pages site in docs/.
+
+Python 3, standard library only. From the repo root:
+
+    python3 docs/_build_site.py
+
+Writes three pages, all sharing the stylesheet of ottobon-1589/reading.html:
+
+    index.html            the two readings, with links to everything else in the repo
+    ottobon-reading.html  ottobon-1589/reading.html, images pointed at the repo's raw files
+    forster-reading.html  generated from forster-1644/ct.txt, mapping.json and verification.json
+"""
+import html
+import json
+import re
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+DOCS = ROOT / "docs"
+REPO = "https://github.com/aaymeloglu/unsolved-ciphers"
+RAW = "https://raw.githubusercontent.com/aaymeloglu/unsolved-ciphers/main"
+
+OTTOBON = (ROOT / "ottobon-1589" / "reading.html").read_text()
+HEAD_LINKS = re.search(r'(<link rel="preconnect".*?)<style>', OTTOBON, re.S).group(1)
+STYLE = re.search(r"<style>(.*?)</style>", OTTOBON, re.S).group(1)
+
+EXTRA_STYLE = """
+.crumbs { max-width:1400px; margin:0 auto; padding-top:16px; font-size:14px; color:var(--muted); }
+.cipher p { font-family:var(--mono); font-size:13.5px; line-height:1.75; margin:0 0 14px; word-spacing:.15em; }
+.cipher p.clear { font-family:var(--serif); font-size:18px; font-style:italic; line-height:1.45; word-spacing:normal; }
+.cipher mark, td.tok mark { background:none; color:var(--accent); font-weight:500; border-bottom:1px solid var(--accent); }
+.col.it p.clear { font-style:italic; color:var(--muted); }
+.keytable { min-width:0; width:100%; }
+.entries { max-width:1400px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:32px; padding-block:32px; border-bottom:1px solid var(--rule); }
+.entry h2 { font-size:30px; font-style:italic; color:var(--accent); margin-bottom:4px; }
+.entry .where { color:var(--muted); font-size:14px; margin:0 0 12px; }
+.entry p { margin:0 0 12px; max-width:62ch; }
+.entry .go { font-family:var(--serif); font-size:20px; }
+.more { max-width:1400px; margin:0 auto; padding-block:28px; border-bottom:1px solid var(--rule); }
+.more h3 { font-size:20px; margin-bottom:8px; }
+.more ul { margin:0; padding-left:18px; max-width:90ch; }
+.more li { margin-bottom:6px; }
+@media screen and (max-width: 680px) { .entries { grid-template-columns:1fr; } }
+"""
+
+
+def page(title, desc, body):
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{html.escape(title)}</title>
+<meta name="description" content="{html.escape(desc)}">
+{HEAD_LINKS}<style>{STYLE}{EXTRA_STYLE}</style>
+</head>
+<body>
+{body}
+</body>
+</html>
+"""
+
+
+CRUMBS = '<p class="crumbs screen-only"><a href="index.html">Unsolved ciphers</a> / {}</p>'
+
+
+# ---------------------------------------------------------------- Ottobon
+
+def ottobon_reading():
+    src = OTTOBON.replace('src="pages/', f'src="{RAW}/ottobon-1589/pages/')
+    src = src.replace("</style>", EXTRA_STYLE + "</style>", 1)
+    crumbs = CRUMBS.format(f'<a href="{REPO}/tree/main/ottobon-1589">write-up and files</a>')
+    src = src.replace('<header class="masthead">', crumbs + '\n<header class="masthead">', 1)
+    (DOCS / "ottobon-reading.html").write_text(src)
+
+
+# ---------------------------------------------------------------- Forster
+
+F_FRENCH = [
+    ("", "Il ny a aucun subiet de scrupule de manquer a Dieu,"),
+    ("clear", "ie vous en responds et mesmes dans"),
+    ("", "les reigles de perfection. Prenez s[e]ulement les voyes de prudence p[o]ur concerver votre vie, pour en faire "
+         "a Dieu un plus grand sacrifi[c]e par la multiplication des vos services pour le salut de vos freres;"),
+    ("clear", "et mesurer a cela sil est meilleur d'agir, ou de soubir. 13 de may 1644"),
+]
+F_MODERN = ("Il n'y a aucun sujet de scrupule de manquer à Dieu, je vous en réponds, et même dans les règles de perfection. "
+            "Prenez seulement les voies de prudence pour conserver votre vie, pour en faire à Dieu un plus grand sacrifice par "
+            "la multiplication de vos services pour le salut de vos frères ; et mesurer à cela s'il est meilleur d'agir ou de subir.")
+F_ENGLISH = [
+    "There is no cause for scruple about failing God, I answer to you for it, even by the rules of perfection.",
+    "Only take the ways of prudence to preserve your life, so as to make of it a greater sacrifice to God through the "
+    "multiplication of your services for the salvation of your brethren; and measure by that whether it is better to act or to endure.",
+    "13 May 1644",
+]
+
+
+def forster_groups(ct):
+    """Comma-delimited cipher groups, in order, with clear passages removed. Line breaks are wrapping only."""
+    body = re.sub(r"\[[^\]]*\]", " ", ct)
+    groups = [re.findall(r"[a-z]+|\d+", g) for g in body.replace("\n", " ").split(",")]
+    return [g for g in groups if g]
+
+
+def forster_reading():
+    folder = ROOT / "forster-1644"
+    ct = (folder / "ct.txt").read_text().strip()
+    key = json.loads((folder / "mapping.json").read_text())
+    ver = json.loads((folder / "verification.json").read_text())
+    groups = forster_groups(ct)
+    assert len(groups) == ver["groups"] and sum(map(len, groups)) == ver["tokens"], "tokenisation drifted from verification.json"
+    repairs = {(m["group"], m["position_in_group"]): m for m in ver["mismatches"]}
+
+    # Left column: the transcription as printed, clear passages set apart, repaired symbols marked.
+    flagged = {m["token_position"] for m in ver["mismatches"]}
+    n = 0
+    left = []
+    for part in re.split(r"(\[[^\]]*\])", ct):
+        if not part.strip():
+            continue
+        if part.startswith("["):
+            left.append(f'<p class="clear">{html.escape(part[1:-1])}</p>')
+            continue
+        out = []
+        for tok in re.findall(r"[a-z]+|\d+|,|\n", part):
+            if tok == "\n":
+                continue
+            elif tok == ",":
+                out.append('<span aria-hidden="true">,</span>')
+            else:
+                n += 1
+                out.append(f"<mark>{tok}</mark>" if n in flagged else tok)
+        left.append("<p>" + " ".join(out).replace(" <span", "<span") + "</p>")
+    assert n == ver["tokens"]
+
+    rows = []
+    for gi, g in enumerate(groups, 1):
+        toks, lit, rd = [], [], []
+        for pi, t in enumerate(g, 1):
+            r = repairs.get((gi, pi))
+            toks.append(f"<mark>{t}</mark>" if r else t)
+            lit.append(key[t])
+            rd.append(f'[{r["proposed_value"]}]' if r else key[t])
+        rows.append(f'<tr><td class="ln">{gi}</td><td class="tok">{" ".join(toks)}</td>'
+                    f'<td class="lit">{"".join(lit)}</td><td class="rd">{"".join(rd)}</td></tr>')
+
+    by_plain = {}
+    for sym, p in key.items():
+        by_plain.setdefault(p, []).append(sym)
+    keyrows = "".join(
+        f'<tr><td class="rd">{"u / v" if p == "u" else p}</td><td class="tok">'
+        f'{", ".join(sorted(s, key=lambda x: (x.isdigit(), int(x) if x.isdigit() else 0, x)))}</td></tr>'
+        for p, s in sorted(by_plain.items()))
+
+    french = "".join(f'<p class="{k}">{html.escape(t)}</p>' if k else f"<p>{html.escape(t)}</p>" for k, t in F_FRENCH)
+    english = "".join(f"<p>{html.escape(t)}</p>" for t in F_ENGLISH)
+
+    body = f"""{CRUMBS.format(f'<a href="{REPO}/tree/main/forster-1644">write-up and files</a>')}
+<header class="masthead">
+  <p class="eyebrow">Archives départementales du Val-d'Oise, 68 H 8 · France, 13 May 1644</p>
+  <h1>Les voyes de prudence</h1>
+  <p class="standfirst">A ciphered passage in a letter in the hand of Sir Richard Forster, treasurer of Henrietta Maria's household: spiritual counsel to someone in danger, that preserving one's life is no failing before God.</p>
+</header>
+
+<div class="lede">
+  <div>
+    <h3>What the passage says</h3>
+    <p>Forster wrote from France in May 1644. The plaintext names no person, place or title, so the addressee is inferred, not established. Karen Britland's abstract says Henrietta Maria, at Exeter, ill, pregnant, and deciding whether to flee to France, made a related request a few days later, which makes her a plausible addressee, not a certain one. Whether Forster composed the counsel or relayed a confessor's is open.</p>
+    <h3>How it was read</h3>
+    <p>The cipher is a mixed letter-and-number homophonic substitution: 34 symbols over 207 tokens, in 37 comma-separated words. Character n-gram hill climbing went nowhere at that length. A beam search over a French lexicon with 17th-century spellings, constrained only by same-symbol-same-letter, produced most of the key in one run; a dozen symbols were then fixed by hand. The 16 letter-symbols map to 16 distinct plaintext letters, and the 18 number-symbols to 16. A Codex agent re-applied the key mechanically and reproduced the reading. Everything is reproducible from the <a href="{REPO}/tree/main/forster-1644">published files</a>.</p>
+  </div>
+  <div>
+    <div class="callout">
+      <h3>Not the first reading</h3>
+      <p>Satoshi Tomokiyo's list still carried this passage as undeciphered when we read it on 14 September 2026, and we found no published solution. There were earlier ones. Britland has since told Robert Pitt that George Lasry supplied a decipherment after her 2013 article and that Norbert Biermann reached the same solution independently. Pitt published <a href="https://github.com/robertpitt/forster-cipher">his own key</a> a few hours before ours on the same day. Pitt's key and ours were reached separately and are identical; the earlier reading Britland passed on differs in a few words. No priority is claimed here.</p>
+    </div>
+    <h3>Reading the columns</h3>
+    <p class="legend">Left: the ciphertext in Tomokiyo's transcription of Britland's printed text; commas are word breaks, and the two passages Forster left in clear are in italic. Middle: the key's output in the letter's own spelling, then modernised. Right: an English translation. Square brackets mark the three places where the key's output needs repair; the symbols concerned are marked in the ciphertext. No image of the manuscript is online, so whether those slips are Forster's or a transcriber's is not known.</p>
+  </div>
+</div>
+
+<section class="folio" id="passage">
+  <header class="folio-head"><h2>The passage</h2><p>One page, one side; cipher with two clear passages and the date</p></header>
+  <div class="cols">
+    <div class="col cipher"><h3>Ciphertext</h3>{"".join(left)}</div>
+    <div class="col it"><h3>French</h3>{french}<p class="hand">Modernised</p><p>{html.escape(F_MODERN)}</p></div>
+    <div class="col en"><h3>English</h3>{english}</div>
+  </div>
+  <div class="apparatus">
+    <h4>Notes</h4>
+    <ul>
+      <li>Word 13, <code>prenez s[e]ulement</code>: cipher <code>a</code> (d) where <code>2</code> (e) is needed. A handwritten 2 and a are easily confused.</li>
+      <li>Word 16, <code>p[o]ur</code>: <code>16</code> (i) where <code>s</code> (o) is needed.</li>
+      <li>Word 27, <code>sacrifi[c]e</code>: <code>g</code> (y) where <code>q</code> (c) is needed; g and q are confusable in hand.</li>
+      <li>Word 17, <code>conceruer</code>: the key gives <em>concerver</em>, a spelling attested in period documents, so it is not repaired.</li>
+      <li>The last clear word is <em>soupir</em> in Tomokiyo's transcription and in Britland's printed text, but <em>soubir</em> in her abstract, that is <em>subir</em>, to endure. “To act or to endure” is the better reading.</li>
+      <li>Word breaks inside cipher words are unmarked: <em>descrupule</em>, <em>manquera</em> (manquer a), <em>lesreigles</em>, <em>prenezseulement</em>, <em>lesvoyesde</em>, <em>enfaire</em>, <em>parla</em>, <em>lesalut</em>.</li>
+    </ul>
+    <details class="groups" open><summary>The 37 cipher words with the key's raw output</summary>
+      <div class="scroll"><table><thead><tr><th>Word</th><th>Cipher symbols</th><th>Key output</th><th>Reading</th></tr></thead>
+      <tbody>{"".join(rows)}</tbody></table></div>
+    </details>
+    <details class="groups"><summary>The key, by plaintext letter</summary>
+      <div class="scroll"><table class="keytable"><thead><tr><th>Plain</th><th>Cipher symbols</th></tr></thead><tbody>{keyrows}</tbody></table></div>
+      <p class="fn">Some letters have only a number (e, q, z), some only a letter-symbol (b, m, o, y); e and t have two numbers each.</p>
+    </details>
+  </div>
+</section>
+
+<footer class="colophon">
+  <div>
+    <h3>Sources</h3>
+    <p>Karen Britland, “Reading between the lines: royalist letters and encryption in the English civil wars”, <em>Critical Quarterly</em> 55/4 (2013), which prints the passage. Satoshi Tomokiyo, <a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Unsolved Historical Ciphers</a>, and his 2021 transcription. Robert Pitt, <a href="https://github.com/robertpitt/forster-cipher">forster-cipher</a>, which reports Britland's account of the Lasry and Biermann decipherments.</p>
+    <p>The manuscript is in the fonds of the English Benedictine nuns of Pontoise, whose first abbess was Forster's daughter. It is not digitised and has not been checked.</p>
+  </div>
+  <div>
+    <h3>About this page</h3>
+    <p>Read 14 September 2026 with Claude Code; independently checked by a Codex agent the same day. This page is generated from <code>ct.txt</code>, <code>mapping.json</code> and <code>verification.json</code> in the <a href="{REPO}/tree/main/forster-1644">repository</a>, where the README has the method, the failure log and the manuscript location.</p>
+  </div>
+</footer>"""
+    (DOCS / "forster-reading.html").write_text(page(
+        "Les voyes de prudence",
+        "Sir Richard Forster's ciphered passage of 13 May 1644: ciphertext, French and English side by side, with the key.",
+        body))
+
+
+# ---------------------------------------------------------------- index
+
+def index():
+    body = f"""<header class="masthead">
+  <p class="eyebrow">Working notes · September 2026</p>
+  <h1>Unsolved ciphers</h1>
+  <p class="standfirst">Attempts on historical ciphers that are short, context-rich, and listed as unsolved. Started after Vals AI reported Claude Fable 5.1 reading Thomas Urquhart's Cyphral Distich; the question was whether the same approach, an agent plus a person checking its work, gets anywhere on the rest of the list.</p>
+</header>
+
+<div class="entries">
+  <div class="entry">
+    <h2><a href="ottobon-reading.html">Carta en cifra de Venecia</a></h2>
+    <p class="where">Ottobon to Mocenigo, 27 April 1589 · BNE Mss/994, ff. 34–38</p>
+    <p>A Venetian dispatch to the ambassador in France, with the enclosed reply to Henri III's envoy Gondi, who had come to ask for aid and a league. The Republic's surviving key, <em>Ziffra prima</em>, reads all seven cipher pages. Intercepted in Savoy in 1589 and broken then by Philip II's cipher secretary, whose working was lost.</p>
+    <p class="go"><a href="ottobon-reading.html">Page-by-page reading</a></p>
+    <p>Manuscript images, Italian and English side by side. <a href="{REPO}/tree/main/ottobon-1589">Write-up, transcription, key excerpt and decoder</a>.</p>
+  </div>
+  <div class="entry">
+    <h2><a href="forster-reading.html">Les voyes de prudence</a></h2>
+    <p class="where">Sir Richard Forster, 13 May 1644 · AD Val-d'Oise, 68 H 8</p>
+    <p>A ciphered passage in a letter by the treasurer of Henrietta Maria's household: counsel that preserving one's life is no failing before God. Mixed letter-and-number homophonic substitution, 207 symbols, three repairs. George Lasry and Norbert Biermann had read it earlier, and Robert Pitt published a key the same day; no priority is claimed.</p>
+    <p class="go"><a href="forster-reading.html">Ciphertext, French and English</a></p>
+    <p>With the 37 cipher words and the key. <a href="{REPO}/tree/main/forster-1644">Write-up, solver and verification</a>.</p>
+  </div>
+</div>
+
+<div class="more">
+  <h3>Also in the repository</h3>
+  <ul>
+    <li><a href="{REPO}/tree/main/royalist-1646">Intercepted royalist letters, May 1646</a> (BL Add MS 72438 ff. 9-10). Open, partial: the cipher is identified as key no. 129 of Lord Digby's captured cabinet and about 45 values are fixed.</li>
+    <li><a href="{REPO}/tree/main/burgess-1912">Gelett Burgess, <em>The Master of Mysteries</em> (1912)</a>, the third hidden message. Open; the notes list what was tested.</li>
+    <li><a href="{REPO}/blob/main/SHORTLIST.md">Shortlist</a> of candidates, with per-item status checks.</li>
+  </ul>
+</div>
+
+<footer class="colophon">
+  <div>
+    <h3>Sources</h3>
+    <p>Satoshi Tomokiyo, <a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Unsolved Historical Ciphers</a>. Klaus Schmeh, <a href="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/">Top 50 unsolved encrypted messages</a>. Nick Pelling, <a href="https://ciphermysteries.com/">Cipher Mysteries</a>.</p>
+  </div>
+  <div>
+    <h3>About</h3>
+    <p>Andy Aymeloglu. Work uses Claude Code and native Codex agents. Scripts reproduce decoding from the transcriptions; handwriting judgments require comparison with the cited images. <a href="{REPO}">Code and data on GitHub</a>.</p>
+  </div>
+</footer>"""
+    (DOCS / "index.html").write_text(page(
+        "Unsolved ciphers",
+        "Attempts on historical ciphers listed as unsolved: a Venetian dispatch of 1589 and a royalist letter of 1644, read and reproducible.",
+        body))
+
+
+if __name__ == "__main__":
+    ottobon_reading()
+    forster_reading()
+    index()
+    (DOCS / ".nojekyll").write_text("")
+    print("built", ", ".join(sorted(p.name for p in DOCS.glob("*.html"))))

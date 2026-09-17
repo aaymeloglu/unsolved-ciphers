@@ -1,5 +1,9 @@
 # Sir Richard Forster's ciphered letter, 13 May 1644: decipherment (2026-09-14)
 
+**Side-by-side reading:** [ciphertext, French and English](https://aaymeloglu.github.io/unsolved-ciphers/forster-reading.html).
+
+**Earlier decipherments:** this was not the first reading. Karen Britland told Robert Pitt that George Lasry supplied a decipherment after her 2013 article and that Norbert Biermann reached the same solution independently; Pitt reports this in his [forster-cipher](https://github.com/robertpitt/forster-cipher) repository, published a few hours before this one on 14 September 2026. His key and ours were reached separately and are identical. The earlier reading Britland passed on differs in a few words (*aucune voie*, *preveu seulement*, *soupir*). No priority is claimed here.
+
 **Status before:** listed as undeciphered on Satoshi Tomokiyo's Cryptiana ("Unsolved Historical Ciphers", updated 2026-09-06; transcription in his 2021-09 blog post). Described but not read in Karen Britland, "Reading between the lines: royalist letters and encryption in the English civil wars", *Critical Quarterly* 55/4 (2013). Letter is in Forster's hand, among his papers; Forster was treasurer of Henrietta Maria's household.
 
 **Ciphertext (Tomokiyo's transcription; commas = word breaks, line breaks = wrapping):** see `ct.txt`.
@@ -52,7 +56,7 @@ Run: `python3 dict_solver.py 2000 -25 7` in a directory with ct.txt, the Gutenbe
 
 ## Independent check (Codex, 2026-09-14)
 
-Codex re-applied the key mechanically to all 207 tokens from the live transcription and reproduced the reading with the same three local repairs, and substantially reproduced the beam-search intermediate from the same inputs (see INDEPENDENT-REVIEW.md and verify_solution.py in this folder). Its corrections, adopted above: ending reads *soubir*/subir per Britland; addressee plausible not certain; literal *votre*; key described as mixed, not symmetric. Not yet confirmed: the manuscript image (so whether the three defects are Forster's or the transcriber's), and priority (no prior solution found in Cryptiana, Britland 2013, Google, Reddit; a private solve cannot be excluded).
+Codex re-applied the key mechanically to all 207 tokens from the live transcription and reproduced the reading with the same three local repairs, and substantially reproduced the beam-search intermediate from the same inputs (see INDEPENDENT-REVIEW.md and verify_solution.py in this folder). Its corrections, adopted above: ending reads *soubir*/subir per Britland; addressee plausible not certain; literal *votre*; key described as mixed, not symmetric. Not yet confirmed: the manuscript image (so whether the three defects are Forster's or the transcriber's). Our search at the time (Cryptiana, Britland 2013, Google, Reddit) found no prior solution; there were earlier ones, see the note at the top.
 
 ## Manuscript location (checked 2026-09-14)
 
