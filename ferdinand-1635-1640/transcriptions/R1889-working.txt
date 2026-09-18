@@ -2,6 +2,9 @@
 # {...} clear text, unexpanded abbreviations; space-separated cipher units.
 # Based on XZ's attachment, checked selectively against I9350/I9351.
 # Retains unresolved glyphs. This is NOT an independent blind transcription.
+# P2.L03: XZ's `i u` re-read on the image as `1 11` (18 Sept 2026): the first sign has the
+# top-left flag of this hand's digit 1 and no i-dot; the u-shape is two flagged strokes
+# joined at the foot, i.e. 11 written without lifting the pen. See READING-1635.md note 13.
 P1.L01 {Serenissime Rex Dne Consobrine charissime. Lrae Regiae Dig.tis}
 P1.L02 {ac Dil.nis Vrae. decima quarta proxime elapsi mensis Octobris datae, mihi}
 P1.L03 {fuerunt gratissimae, ob laeta quae ex ijs de ulteriori exercitus Caesarei}
@@ -30,7 +33,7 @@ P1.L25 z m c t q 12 l {Regiae suae Cat.ca matis} 9 q f y 12 26 35 e 5 38 15 34 .
 P1.L26 25 38 26 37 p 22 34 t 37 11 f 32 6 d . {Quibus, aliisque bene perpensis}
 P2.L01 {rationibus ac circumstantiis, nullatenus dubito, Regiam Dig.tem ac Dil.m vram}
 P2.L02 {quod} 6 12 19 11 34 24 x n m 26 z c p l 15 22 3 12 7 37 11 25 .
-P2.L03 18 f x 24 31 4 15 5 2 12 7 y 19 34 m q . i u 9 p q 32 z . 7 f 22
+P2.L03 18 f x 24 31 4 15 5 2 12 7 y 19 34 m q . 1 11 9 p q 32 z . 7 f 22
 P2.L04 x 6 3 15 20 f 31 26 12 22 37 {aeque bonique laturam: Cui de caetero}
 P2.L05 {diuturnam incolumitatem, et optatos apprecor rerum omnium successus.}
 P2.L06 {Datae Bruxellis XVI. mensis Novembris. Anno MDCXXXV.}

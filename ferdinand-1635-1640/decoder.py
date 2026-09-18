@@ -133,6 +133,7 @@ def audit(output):
         if row['id'] == 'V11':
             assert tokens[:4] == ['20', '0', '0', 'm']
             assert '20 c o m' in working
+            assert '1 11 9 p q 32 z' in working  # P2.L03 image re-reading, 18 Sept 2026
             tokens[:4] = ['20', 'c', 'o', 'm']
         expected = normalize_plain(row['plain'])
         for pos, (old, token, target) in enumerate(zip(original, tokens, expected), 1):

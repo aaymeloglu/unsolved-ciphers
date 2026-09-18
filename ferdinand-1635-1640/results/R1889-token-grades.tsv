@@ -441,8 +441,8 @@ P2.L03	13	19	l	C	Value from R954/R1889 known-plaintext alignment; see key-eviden
 P2.L03	14	34	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
 P2.L03	15	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
 P2.L03	16	q	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
-P2.L03	17	i	r	M	Disputed source glyph; literal value retained, see READING-1635.md
-P2.L03	18	u		M	Unmapped source sign
+P2.L03	17	1	h	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.L03	18	11	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
 P2.L03	19	9	b	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
 P2.L03	20	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
 P2.L03	21	q	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv

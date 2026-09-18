@@ -27,7 +27,7 @@ P1.L25 aerario{Regiae suae Cat.ca matis}brouisumfuit.)
 P1.L26 sustentationem.{Quibus, aliisque bene perpensis}
 P2.L01 {rationibus ac circumstantiis, nullatenus dubito, Regiam Dig.tem ac Dil.m vram}
 P2.L02 {quod}eiliticaesareoindictis.
-P2.L03 locisdifficulter.r⟦u⟧berna.con
+P2.L03 locisdifficulter.hiberna.con
 P2.L04 cedipossint{aeque bonique laturam: Cui de caetero}
 P2.L05 {diuturnam incolumitatem, et optatos apprecor rerum omnium successus.}
 P2.L06 {Datae Bruxellis XVI. mensis Novembris. Anno MDCXXXV.}
