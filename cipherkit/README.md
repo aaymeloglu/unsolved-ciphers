@@ -15,7 +15,7 @@ No dependencies beyond the standard library. Python 3.12, managed by uv.
 | `anneal` | `anneal(symbols, values, score, fixed=, bijective=, iters=, t0=, t1=, seed=, init=)` over a plain dict. `frequency_init` for a ranked homophonic start. `climb` for a greedy finish. `restarts(run, seeds, workers)` for several seeds in parallel. |
 | `controls` | `matched_control(corpus, target_tokens, design)` builds a synthetic cipher of the same length and symbol count. `mono_control`, `homophonic_control` (homophones apportioned by letter frequency). `key_recovery(found, true, weights)`. `permutation_z(score, tokens, n)` for the shuffle test. |
 | `tokens` | `parse(text, style)` for the four transcription formats we produce (`groups`, `mixed`, `annotated`, `letters`); `cipher_tokens`, `segments`, `symbol_counts`. |
-| `corpora` | `RECIPES` of Gutenberg ids per language (en, fr, de, it, es, la, nl), `fetch(lang)`, `text(lang)`. Every fetch prints the Gutenberg title and language line, because five of the first ids tried were the wrong edition. |
+| `corpora` | `RECIPES` of Gutenberg and Internet Archive sources per language (en, fr, it, de, es, la, sco, nl), `fetch(lang)`, `text(lang)`, `describe(lang)`, `clean_ocr`. See "Period corpora" below. |
 
 ## A homophonic solve, end to end
 
@@ -79,6 +79,38 @@ first so the target's number means something.
 tokens one bad swap costs 10 to 50; the defaults `t0=10, t1=0.1` read a 500-letter monoalphabetic
 control on every seed tried, and `t0=2` got stuck three seeds in four. Scale `t0` with the
 ciphertext length and always run several seeds.
+
+## Period corpora
+
+`python -m cipherkit.corpora fetch all` (about 40 s, 20 MB, gitignored) builds one corpus per
+language from sources chosen for period and register, not size. Documentary editions on the
+Internet Archive supply the diplomatic register the targets are written in; Gutenberg supplies
+clean literary prose of roughly the right century. Word counts after cleaning, 2026-09-18:
+
+| Lang | Words | Documentary sources (IA OCR) | Literary sources (Gutenberg) | Targets it serves |
+|---|---|---|---|---|
+| fr | 2.31 M | Henri IV lettres missives t.1 (Xivrey), Richelieu papiers d'Etat t.1 (Avenel) | Montaigne, Brantôme, Descartes | Forster 1644, Richelieu 1629, Cocquet 1616, Boreel 1653 |
+| it | 0.35 M | Dispacci veneti alla corte di Francia 1589, Albèri Relazioni s.1 v.1 | Machiavelli | Ottobon 1589 |
+| de | 0.34 M | Politische Correspondenz Friedrichs des Grossen v.22 (German half) | Lessing, Schiller/Goethe letters, Goethe | Starhemberg 1758, Ferdinand 1635 |
+| es | 0.84 M | CODOIN t.8 | Lazarillo, Hurtado de Mendoza, Cervantes | SP 53/22 f.52 |
+| la | 0.43 M | Petrarca Epistolae, Nadal Epistolae 1546-1577 | Caesar, Descartes | Worcester 1526, Ferdinand 1635 |
+| sco | 0.37 M | Diurnal of Occurrents 1513-1575, Knox Works v.1 | | Moray 1568, Davison 1584 |
+| nl | 0.13 M | | Vondel, Multatuli | Vande Perre 1653 |
+| en | 0.24 M | | Doyle, Dickens | test fixture, Burgess 1912 |
+
+`clean_ocr` runs on every file. It drops lines that are mostly non-letters (page furniture,
+tables, OCR garbage) and lines whose function words point to another language, which is how
+the French half of Frederick's correspondence, the editors' apparatus in every IA edition, and
+Montaigne's Latin quotations come out. The marker lists are disjoint across languages (a test
+checks this); `describe` prints the marker shares so a bad file shows. Known gaps: Fraktur
+editions (Arneth's Maria Theresia) OCR to nothing and are excluded; Dutch has no 17th-century
+letter edition online in plain text, so Vondel carries it; Italian is Venetian diplomatic
+prose, which is right for Ottobon but not for Tuscan targets.
+
+Every source id was verified by fetching it and reading the title and marker counts. Five of
+the first Gutenberg ids tried were wrong editions (a Finnish Nathan der Weise, two English
+translations, two Latin texts that were mostly English commentary), so add a source only
+through `fetch`, never by editing the table blind.
 
 ## Conventions this package assumes
 
