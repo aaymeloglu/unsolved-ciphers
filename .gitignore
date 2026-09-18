@@ -7,3 +7,6 @@ descartes.txt
 fr_50k.txt
 lexicon.txt
 wspages/
+.venv/
+corpora/
+*.pkl
