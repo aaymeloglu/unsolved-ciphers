@@ -30,7 +30,7 @@ Two things carried the Forster solve, and neither was cryptanalytic cleverness: 
 - Klaus Schmeh, [Top 50 unsolved encrypted messages](https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/)
 - Nick Pelling, [Cipher Mysteries](https://ciphermysteries.com/)
 
-Corpora used by the solvers (Corneille and Descartes from Project Gutenberg, a French frequency list) are not committed; the scripts say where to fetch them.
+The solvers build their language models from `cipherkit.corpora` (`uv run python -m cipherkit.corpora fetch all`); nothing else is needed.
 
 ## cipherkit
 
@@ -38,7 +38,7 @@ Shared solver pieces, so a new target does not start by copy-pasting a quadgram 
 annealing loop from the last one. See [`cipherkit/README.md`](cipherkit/README.md).
 
 ```bash
-uv sync --all-extras                      # Python 3.12 venv with the package, pytest, Pillow
+uv sync                                   # Python 3.12 venv with the package, pytest, Pillow
 uv run pytest -q                          # 38 tests, about 10 s
 uv run python -m cipherkit.corpora fetch fr   # period corpus into corpora/ (gitignored)
 uv run python -m cipherkit.transcribe layout page.jpg -o page.layout.json   # line strips, two-pass compare, review page

@@ -4,7 +4,7 @@ The pieces every solver in this repo needs, written once. Before this package th
 folder held 140 scripts with the same add-0.5 quadgram scorer copied 13 times and the same
 annealing loop 7 times, and matched controls were run on about half the targets.
 
-No dependencies beyond the standard library. Python 3.12, managed by uv.
+Python 3.12, managed by uv; Pillow is the one dependency.
 
 ## Modules
 
@@ -15,7 +15,7 @@ No dependencies beyond the standard library. Python 3.12, managed by uv.
 | `anneal` | `anneal(symbols, values, score, fixed=, bijective=, iters=, t0=, t1=, seed=, init=)` over a plain dict. `frequency_init` for a ranked homophonic start. `climb` for a greedy finish. `restarts(run, seeds, workers)` for several seeds in parallel. |
 | `controls` | `matched_control(corpus, target_tokens, design)` builds a synthetic cipher of the same length and symbol count. `mono_control`, `homophonic_control` (homophones apportioned by letter frequency). `key_recovery(found, true, weights)`. `permutation_z(score, tokens, n)` for the shuffle test. |
 | `tokens` | `parse(text, style)` for the four transcription formats we produce (`groups`, `mixed`, `annotated`, `letters`); `cipher_tokens`, `segments`, `symbol_counts`. |
-| `transcribe` | The transcription workflow as commands: `layout` (deskew by ink-profile variance, find line bands), `strips` (one PNG per line, labelled boards, manifest with source SHA-256 and boxes), `compare` (align two passes token by token, alternatives count), `consensus` (third pass with `{a/b}` at disagreements), `review` (self-contained HTML with strip, chips, key values, disputed highlights). Needs Pillow: `uv sync --all-extras`. |
+| `transcribe` | The transcription workflow as commands: `layout` (deskew by ink-profile variance, find line bands), `strips` (one PNG per line, labelled boards, manifest with source SHA-256 and boxes), `compare` (align two passes token by token, alternatives count), `consensus` (third pass with `{a/b}` at disagreements), `review` (self-contained HTML with strip, chips, key values, disputed highlights). |
 | `corpora` | `RECIPES` of Gutenberg and Internet Archive sources per language (en, fr, it, de, es, la, sco, nl), `fetch(lang)`, `text(lang)`, `describe(lang)`, `clean_ocr`. See "Period corpora" below. |
 
 ## A homophonic solve, end to end
@@ -124,7 +124,7 @@ clean literary prose of roughly the right century. Word counts after cleaning, 2
 | la | 0.43 M | Petrarca Epistolae, Nadal Epistolae 1546-1577 | Caesar, Descartes | Worcester 1526, Ferdinand 1635 |
 | sco | 0.37 M | Diurnal of Occurrents 1513-1575, Knox Works v.1 | | Moray 1568, Davison 1584 |
 | nl | 0.13 M | | Vondel, Multatuli | Vande Perre 1653 |
-| en | 0.24 M | | Doyle, Dickens | test fixture, Burgess 1912 |
+| en | 0.70 M | Bruce, Charles I in 1646; Evelyn correspondence v.4; Nicholas Papers v.1–2 | Doyle, Dickens | Royalist 1646, Boswell 1643, Burgess 1912 |
 
 `clean_ocr` runs on every file. It drops lines that are mostly non-letters (page furniture,
 tables, OCR garbage) and lines whose function words point to another language, which is how

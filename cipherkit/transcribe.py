@@ -22,7 +22,7 @@ Pass files are JSON `{"rows": [{"line": 1, "tokens": "d10 h40 {d53/d83} ?"}, ...
 Ottobon format) or plain text, one line of tokens per row, `#` for comments. `{a/b}` marks
 alternatives, `?` an unread sign.
 
-Images need Pillow (`uv sync --all-extras`). Never run this on images whose licence forbids
+Never run this on images whose licence forbids
 redistribution and then commit the strips; the manifest records where every pixel came from.
 """
 from __future__ import annotations
@@ -204,10 +204,7 @@ def consensus(a_rows: list[Row], b_rows: list[Row]) -> list[Row]:
 # ---------------------------------------------------------------- images
 
 def _pil():
-    try:
-        from PIL import Image, ImageDraw, ImageOps
-    except ImportError as e:  # pragma: no cover
-        raise SystemExit("Pillow is needed for image commands: uv sync --all-extras") from e
+    from PIL import Image, ImageDraw, ImageOps
     return Image, ImageDraw, ImageOps
 
 

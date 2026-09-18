@@ -14,7 +14,7 @@ Schmeh 2021 post + comments, klausschmeh.net, Cipher Mysteries, Codebreaking Gui
 Ramble House pages, Black Chamber blog Dec 2021, Brave/Bing/Marginalia/HN Algolia/GitHub. Unchecked:
 Klinger's 2023 LOC Crime Classics edition notes (no preview online; not on IA), ACA Facebook/The Cryptogram.
 
-## Tested and negative (scorer = quadgram model built from the book; the two known messages rank #1 and #2)
+## Tested and negative (scorer = quadgram model built from the book, `cipherkit.CharLM` since 18 Sept 2026; the two known messages still rank #1 and #2)
 - Per-story, 24 units: first/last letter of word k and word -k (k=1..12); sentence k / -k (1..8);
   paragraph k / -k (1..8); page k / -k (1..8); letter k / -k of story (1..20); middle letter/word;
   title letters/words; first/last italic; first quoted speech; word/para/page counts as letters;

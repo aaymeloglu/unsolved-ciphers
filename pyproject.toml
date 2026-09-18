@@ -3,13 +3,10 @@ name = "cipherkit"
 version = "0.1.0"
 description = "Shared solver pieces for the unsolved-ciphers repo: language models, annealing, matched controls, transcription parsing."
 requires-python = ">=3.12"
-dependencies = []
-
-[project.optional-dependencies]
-images = ["pillow>=10"]  # cipherkit.transcribe layout/strips/review
+dependencies = ["pillow>=10"]
 
 [dependency-groups]
-dev = ["pytest>=8", "pillow>=10"]
+dev = ["pytest>=8"]
 
 [build-system]
 requires = ["hatchling"]

@@ -6,27 +6,20 @@ requires-python = ">=3.12"
 name = "cipherkit"
 version = "0.1.0"
 source = { editable = "." }
-
-[package.optional-dependencies]
-images = [
+dependencies = [
     { name = "pillow" },
 ]
 
 [package.dev-dependencies]
 dev = [
-    { name = "pillow" },
     { name = "pytest" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "pillow", marker = "extra == 'images'", specifier = ">=10" }]
-provides-extras = ["images"]
+requires-dist = [{ name = "pillow", specifier = ">=10" }]
 
 [package.metadata.requires-dev]
-dev = [
-    { name = "pillow", specifier = ">=10" },
-    { name = "pytest", specifier = ">=8" },
-]
+dev = [{ name = "pytest", specifier = ">=8" }]
 
 [[package]]
 name = "colorama"

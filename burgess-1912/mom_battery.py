@@ -14,13 +14,14 @@ for s in stories:
     s['pagetexts']=[norm(p['text']) for p in s['pages'] if re.search('[A-Za-z]',norm(p['text']))]
 # intro pages 11-13
 intro=norm('\n'.join(clean(pages[n] or '') for n in (11,12,13)))
-# --- scorer: quadgram from book text
+# --- scorer: quadgram from the book's own text (cipherkit.CharLM, add-0.01)
+from cipherkit import CharLM
 alltxt=re.sub('[^A-Z]','',(intro+''.join(s['text'] for s in stories)).upper())
-Q=collections.Counter(alltxt[i:i+4] for i in range(len(alltxt)-3)); N=sum(Q.values())
+LM=CharLM.from_text(alltxt,order=4,alpha=0.01)
 def qscore(x):
     x=re.sub('[^A-Z]','',x.upper())
     if len(x)<4: return -99
-    return sum(math.log10((Q.get(x[i:i+4],0)+0.01)/N) for i in range(len(x)-3))/(len(x)-3)
+    return LM.per_window(x)
 words=set(w.strip().lower() for w in open('/usr/share/dict/words') if len(w.strip())>=4)
 def longwords(x,minlen=5):
     x=x.lower(); found=set()
