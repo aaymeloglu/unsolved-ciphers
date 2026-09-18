@@ -1,0 +1,57 @@
+{
+  "checked_utc_date": "2026-09-18",
+  "archive": "Brussels, Algemeen Rijksarchief, Secrétairerie d’État Allemande, inv. 540",
+  "images": [
+    {
+      "file": "IMG_R954_I4976_P1.png",
+      "bytes": 6467143,
+      "sha256": "9ff10dc594e376bab2bcfed2f0d00ead3377a221f6d8f7160dff7e1e3580251e"
+    },
+    {
+      "file": "IMG_R954_I4977_P2.png",
+      "bytes": 6387636,
+      "sha256": "e24b47840638f047713eac987f357e1979b64f9d6abd0d056c381d8ee445900e"
+    },
+    {
+      "file": "IMG_R1889_I9350_P1.png",
+      "bytes": 17279077,
+      "sha256": "288b3fc1914e062f51336b7d6a7ba47a48cb8524756cc6676e7d21d24830d3bb"
+    },
+    {
+      "file": "IMG_R1889_I9351_P2.png",
+      "bytes": 15102541,
+      "sha256": "1d88ccdf87ddcb8f5f915e0659f87f6b0eb6a38c525eeb1a5f23b4926665767a"
+    },
+    {
+      "file": "IMG_R1890_I9352_P1.png",
+      "bytes": 19810643,
+      "sha256": "c14a3dbce6f701e2be814f8f9bf2cef698823585b8b03d4cffd59e0a1a773aaf"
+    },
+    {
+      "file": "IMG_R1890_I9353_P2.png",
+      "bytes": 19737538,
+      "sha256": "6507656eab6adcfc43b48010b740d2b6d651403f5948a4712a83cdf357a743d2"
+    }
+  ],
+  "attachments": [
+    {
+      "record": 1889,
+      "url": "https://de-crypt.org/decrypt-custom/filesrv/?file=DOC_R1889_D3605_3605.txt",
+      "saved": "sources/R1889-DECODE.txt",
+      "sha256": "40e7638417967183b20b186a1f293cb6803e969111c6ec8b4e3b9c5f993bb20a"
+    },
+    {
+      "record": 1890,
+      "url": "https://de-crypt.org/decrypt-custom/filesrv/?file=DOC_R1890_D3604_3604.txt",
+      "saved": "sources/R1890-DECODE.txt",
+      "sha256": "2007c5023f8f2e3050672afbada1c5afbdb3ee2dd0908c12ad8588351b20c45e"
+    },
+    {
+      "record": 953,
+      "url": "https://de-crypt.org/decrypt-custom/filesrv/?file=DOC_R953_D2706_2706.txt",
+      "saved": "sources/R953-DECODE-rejected-comparison.txt",
+      "sha256": "08f54fa2abd377e001a3f773332efe5c07bda5bed9e203b21200e862af1139cb"
+    }
+  ],
+  "image_access_note": "Accessed with the DECODE project's permission; images are not redistributed."
+}

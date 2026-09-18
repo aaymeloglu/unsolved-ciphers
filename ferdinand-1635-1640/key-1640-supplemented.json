@@ -1,0 +1,890 @@
+{
+  "description": "Post-transfer 1640 supplement; 1635 values unchanged. Context-selected, not independently validated.",
+  "base_file": "key-expanded-1635.json",
+  "base_evidence": "key-evidence.tsv",
+  "base_sha256": "f14e42c705a090c16c753410b2eb2b371cacf1fe452cda3b5b6868ea62801aae",
+  "mappings": {
+    "0": "a",
+    "4": "d",
+    "10": "h",
+    "h": "i",
+    "8": "b",
+    "m": "e",
+    "c": "r",
+    "22": "n",
+    "n": "a",
+    "y": "u",
+    "p": "e",
+    "i": "r",
+    "f": "o",
+    "33": "q",
+    "23": "u",
+    "l": "o",
+    "3": "d",
+    "z": "a",
+    "37": "t",
+    "34": "t",
+    "15": "i",
+    "32": "n",
+    "g": "p",
+    "q": "r",
+    "24": "i",
+    "t": "a",
+    "d": "m",
+    "x": "c",
+    "39": "x",
+    "7": "c",
+    "38": "u",
+    "31": "s",
+    "6": "e",
+    "a": "o",
+    "1": "h",
+    "11": "i",
+    "25": "s",
+    "20": "p",
+    "12": "i",
+    "35": "u",
+    "5": "f",
+    "26": "s",
+    "17": "g",
+    "18": "l",
+    "19": "l",
+    "16": "g",
+    "2": "f",
+    "9": "b",
+    "e": "m",
+    "30": "q",
+    "o": "a",
+    "21": "o",
+    "36": "x",
+    "41": "le",
+    "42": "li",
+    "43": "lo",
+    "44": "lu",
+    "45": "na",
+    "46": "ne",
+    "47": "ni",
+    "48": "no",
+    "49": "nu",
+    "50": "ra",
+    "51": "re",
+    "52": "ri",
+    "53": "ro",
+    "54": "ru",
+    "pla": "ta",
+    "ple": "te",
+    "pli": "ti",
+    "plo": "to",
+    "plu": "tu",
+    "ca": "ma",
+    "ce": "me",
+    "ci": "mi",
+    "co": "mo",
+    "cu": "mu",
+    "ap": "ca",
+    "ep": "ce",
+    "ip": "ci",
+    "op": "co",
+    "up": "cu",
+    "ha": "da",
+    "he": "de",
+    "hi": "di",
+    "hu": "du",
+    "an": "sa",
+    "en": "se",
+    "in": "si",
+    "un": "su",
+    "tes": "be",
+    "tis": "bi",
+    "tos": "bo",
+    "tus": "bu",
+    "au": "pa",
+    "eu": "pe",
+    "ou": "po",
+    "uu": "pu",
+    "me": "fe",
+    "mi": "fi",
+    "mu": "fu",
+    "ga": "ha",
+    "gi": "hi",
+    "it": "gi",
+    "ot": "go",
+    "et": "ge",
+    "ko": "do",
+    "fu": "mu",
+    "lx": "oc",
+    "li": "xi",
+    "b": "m"
+  },
+  "supplement": {
+    "21": {
+      "plain": "o",
+      "selection_context": "P1.C26 dilectione; P1.C01 dilectioni; P1.C13 collectionem",
+      "occurrences": [
+        "P1.C01:11",
+        "P1.C08:7",
+        "P1.C13:11",
+        "P1.C22:18",
+        "P1.C26:10",
+        "P1.C26:19"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "36": {
+      "plain": "x",
+      "selection_context": "P2.C03 expositurus; P2.C10 expressum; P2.C12 expendant",
+      "occurrences": [
+        "P2.C03:10",
+        "P2.C10:12",
+        "P2.C12:11"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "41": {
+      "plain": "le",
+      "selection_context": "P1.C05 electore; P1.C26 dilectione; P1.C10 celeri",
+      "occurrences": [
+        "P1.C01:8",
+        "P1.C05:2",
+        "P1.C10:18",
+        "P1.C13:8",
+        "P1.C18:17",
+        "P1.C23:13",
+        "P1.C26:7",
+        "P2.C06:7"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "42": {
+      "plain": "li",
+      "selection_context": "P1.C04 militis; P1.C06 illius/circuli; P1.C18 circulus",
+      "occurrences": [
+        "P1.C02:12",
+        "P1.C04:2",
+        "P1.C04:17",
+        "P1.C06:1",
+        "P1.C06:7",
+        "P1.C07:18",
+        "P1.C09:12",
+        "P1.C11:16",
+        "P1.C13:15",
+        "P1.C15:18",
+        "P1.C16:16",
+        "P1.C16:19",
+        "P1.C18:11",
+        "P1.C19:2",
+        "P2.C10:3",
+        "P2.C13:8"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "43": {
+      "plain": "lo",
+      "selection_context": "P1.C05 coloniae; P1.C04 circulo; P2.C06 florenos",
+      "occurrences": [
+        "P1.C04:10",
+        "P1.C05:7",
+        "P1.C21:17",
+        "P2.C06:9",
+        "P2.C06:14"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "44": {
+      "plain": "lu",
+      "selection_context": "P1.C10 illud; P1.C18 circulus",
+      "occurrences": [
+        "P1.C10:10",
+        "P1.C18:21"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "45": {
+      "plain": "na",
+      "selection_context": "P1.C13 festinanter; P1.C19 ordinauimus; P2.C13 consignari",
+      "occurrences": [
+        "P1.C13:2",
+        "P1.C19:22",
+        "P2.C12:5",
+        "P2.C13:1"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "46": {
+      "plain": "ne",
+      "selection_context": "P1.C03 Castagneti; P1.C10 negotium; P1.C18 ne",
+      "occurrences": [
+        "P1.C03:2",
+        "P1.C10:12",
+        "P1.C13:12",
+        "P1.C17:9",
+        "P1.C18:14",
+        "P1.C25:14",
+        "P1.C26:11",
+        "P2.C09:10",
+        "P2.C12:8"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "47": {
+      "plain": "ni",
+      "selection_context": "P1.C05 coloniae; P1.C07 boni; P2.C03 omni",
+      "occurrences": [
+        "P1.C01:3",
+        "P1.C01:12",
+        "P1.C02:3",
+        "P1.C05:8",
+        "P1.C07:15",
+        "P1.C21:18",
+        "P2.C03:21",
+        "P2.C06:15"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "48": {
+      "plain": "no",
+      "selection_context": "P1.C03 nouum; P1.C25 nobis; P2.C07 nostrorum",
+      "occurrences": [
+        "P1.C03:13",
+        "P1.C12:18",
+        "P1.C19:4",
+        "P1.C25:1",
+        "P2.C06:11",
+        "P2.C07:5",
+        "P2.C11:3"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "49": {
+      "plain": "nu",
+      "selection_context": "P1.C14 numerum; P1.C26 denuo; P2.C01 quatenus",
+      "occurrences": [
+        "P1.C14:10",
+        "P1.C20:16",
+        "P1.C23:18",
+        "P1.C26:18",
+        "P2.C01:14",
+        "P2.C05:16"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "50": {
+      "plain": "ra",
+      "selection_context": "P1.C03 apparatum; P1.C22 transferre; P2.C05 grauitate",
+      "occurrences": [
+        "P1.C01:21",
+        "P1.C03:20",
+        "P1.C15:4",
+        "P1.C17:1",
+        "P1.C22:2",
+        "P1.C26:16",
+        "P2.C02:12",
+        "P2.C04:16",
+        "P2.C05:2",
+        "P2.C05:10",
+        "P2.C13:4"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "51": {
+      "plain": "re",
+      "selection_context": "P1.C05 electore; P1.C18 praecauere; P2.C04 habere",
+      "occurrences": [
+        "P1.C02:2",
+        "P1.C02:7",
+        "P1.C05:5",
+        "P1.C08:15",
+        "P1.C10:20",
+        "P1.C14:8",
+        "P1.C17:19",
+        "P1.C18:8",
+        "P1.C23:7",
+        "P1.C24:6",
+        "P2.C04:9",
+        "P2.C04:18",
+        "P2.C06:10",
+        "P2.C08:21",
+        "P2.C10:14",
+        "P2.C13:5"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "52": {
+      "plain": "ri",
+      "selection_context": "P1.C19 arbitrio; P1.C22 operi; P2.C08 commissariorum",
+      "occurrences": [
+        "P1.C10:19",
+        "P1.C19:9",
+        "P1.C22:20",
+        "P1.C23:14",
+        "P1.C25:18",
+        "P2.C02:21",
+        "P2.C08:9",
+        "P2.C13:2"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "53": {
+      "plain": "ro",
+      "selection_context": "P1.C11 pro; P1.C20 propter; P2.C07 nostrorum",
+      "occurrences": [
+        "P1.C11:20",
+        "P1.C20:8",
+        "P1.C24:21",
+        "P1.C25:5",
+        "P2.C07:8"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "54": {
+      "plain": "ru",
+      "selection_context": "P1.C14 numerum; P2.C03 expositurus; P2.C08 commissariorum",
+      "occurrences": [
+        "P1.C14:12",
+        "P2.C03:14",
+        "P2.C07:9",
+        "P2.C08:11",
+        "P2.C11:6"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "pla": {
+      "plain": "ta",
+      "selection_context": "P1.C05 statibus; P1.C23 celeritate; P2.C05 grauitate",
+      "occurrences": [
+        "P1.C02:21",
+        "P1.C05:14",
+        "P1.C23:15",
+        "P2.C01:6",
+        "P2.C04:17",
+        "P2.C05:5"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "ple": {
+      "plain": "te",
+      "selection_context": "P1.C05 electore; P1.C13 festinanter; P2.C01 quatenus",
+      "occurrences": [
+        "P1.C13:4",
+        "P1.C14:4",
+        "P1.C15:10",
+        "P1.C20:10",
+        "P1.C23:9",
+        "P1.C23:16",
+        "P2.C01:8",
+        "P2.C01:13",
+        "P2.C02:20",
+        "P2.C05:6",
+        "P2.C05:15",
+        "P2.C07:18",
+        "P2.C10:9"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "pli": {
+      "plain": "ti",
+      "selection_context": "P1.C04 militis; P1.C26 petimus/dilectione; P2.C03 distinctius",
+      "occurrences": [
+        "P1.C01:10",
+        "P1.C03:3",
+        "P1.C04:3",
+        "P1.C05:15",
+        "P1.C07:23",
+        "P1.C10:14",
+        "P1.C13:1",
+        "P1.C13:10",
+        "P1.C13:16",
+        "P1.C14:6",
+        "P1.C16:3",
+        "P1.C16:9",
+        "P1.C17:7",
+        "P1.C20:15",
+        "P1.C24:16",
+        "P1.C25:11",
+        "P1.C26:2",
+        "P1.C26:9",
+        "P2.C03:3",
+        "P2.C03:6",
+        "P2.C08:1",
+        "P2.C11:13",
+        "P2.C12:6"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "plo": {
+      "plain": "to",
+      "selection_context": "P1.C05 electore; P2.C02 orator; P2.C05 desideratos",
+      "occurrences": [
+        "P1.C01:22",
+        "P1.C02:11",
+        "P1.C05:4",
+        "P2.C02:13",
+        "P2.C05:11",
+        "P2.C07:1"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "plu": {
+      "plain": "tu",
+      "selection_context": "P1.C03 apparatum; P1.C16 instituamus; P2.C03 expositurus",
+      "occurrences": [
+        "P1.C03:21",
+        "P1.C06:12",
+        "P1.C09:11",
+        "P1.C10:6",
+        "P1.C14:20",
+        "P1.C15:5",
+        "P1.C16:10",
+        "P1.C19:17",
+        "P2.C02:9",
+        "P2.C03:13",
+        "P2.C06:3",
+        "P2.C11:1"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "ca": {
+      "plain": "ma",
+      "selection_context": "P1.C02 marchio; P1.C23 manum; P2.C10 mandatum",
+      "occurrences": [
+        "P1.C02:14",
+        "P1.C23:4",
+        "P1.C23:17",
+        "P2.C02:19",
+        "P2.C10:18"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "ce": {
+      "plain": "me",
+      "selection_context": "P1.C11 medio; P1.C14 numerum; P1.C20 comes",
+      "occurrences": [
+        "P1.C11:1",
+        "P1.C14:11",
+        "P1.C20:19"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "ci": {
+      "plain": "mi",
+      "selection_context": "P1.C04 militis; P1.C13 militis; P2.C06 mille",
+      "occurrences": [
+        "P1.C02:6",
+        "P1.C04:1",
+        "P1.C13:14",
+        "P2.C06:5",
+        "P2.C08:6",
+        "P2.C11:12"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "co": {
+      "plain": "mo",
+      "selection_context": "P1.C12 modus; P1.C08-09 incommoda; P2.C04 omnimodam",
+      "occurrences": [
+        "P1.C08:23",
+        "P1.C12:7",
+        "P1.C24:3",
+        "P2.C04:1"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "cu": {
+      "plain": "mu",
+      "selection_context": "P1.C16 instituamus; P1.C26 petimus; P2.C09 iniungimus",
+      "occurrences": [
+        "P1.C08:4",
+        "P1.C08:17",
+        "P1.C09:13",
+        "P1.C16:12",
+        "P1.C18:12",
+        "P1.C20:3",
+        "P1.C26:3",
+        "P2.C09:8"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "ap": {
+      "plain": "ca",
+      "selection_context": "P1.C02 catolici; P1.C03 circa; P1.C18 praecauere",
+      "occurrences": [
+        "P1.C01:4",
+        "P1.C02:10",
+        "P1.C02:19",
+        "P1.C03:12",
+        "P1.C18:5"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "ep": {
+      "plain": "ce",
+      "selection_context": "P1.C06 inceptum; P1.C10 celeri; P2.C06 centum",
+      "occurrences": [
+        "P1.C06:10",
+        "P1.C10:17",
+        "P1.C23:12",
+        "P1.C25:15",
+        "P2.C06:1"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "ip": {
+      "plain": "ci",
+      "selection_context": "P1.C04 circulo; P1.C07 iudicium; P1.C19 subiiciatur",
+      "occurrences": [
+        "P1.C02:13",
+        "P1.C03:10",
+        "P1.C04:7",
+        "P1.C06:4",
+        "P1.C07:11",
+        "P1.C07:19",
+        "P1.C18:18",
+        "P1.C19:15",
+        "P1.C24:13"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "op": {
+      "plain": "co",
+      "selection_context": "P1.C05 coloniae; P1.C13 collectionem; P2.C08 commissariorum",
+      "occurrences": [
+        "P1.C01:1",
+        "P1.C04:18",
+        "P1.C05:6",
+        "P1.C08:21",
+        "P1.C09:9",
+        "P1.C13:6",
+        "P1.C20:18",
+        "P1.C21:9",
+        "P1.C21:16",
+        "P2.C04:12",
+        "P2.C06:13",
+        "P2.C08:4",
+        "P2.C11:11",
+        "P2.C12:17"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "up": {
+      "plain": "cu",
+      "selection_context": "P1.C04 circulo; P1.C09 secum; P2.C13 curare",
+      "occurrences": [
+        "P1.C04:9",
+        "P1.C06:6",
+        "P1.C09:3",
+        "P1.C10:1",
+        "P1.C12:2",
+        "P1.C18:20",
+        "P2.C06:18",
+        "P2.C13:3"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "ha": {
+      "plain": "da",
+      "selection_context": "P1.C09 incommoda; P1.C15 extendat; P2.C10 mandatum",
+      "occurrences": [
+        "P1.C09:1",
+        "P1.C15:12",
+        "P2.C04:2",
+        "P2.C10:20",
+        "P2.C12:14"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "he": {
+      "plain": "de",
+      "selection_context": "P1.C26 denuo; P2.C04 fidem; P2.C05 desideratos",
+      "occurrences": [
+        "P1.C07:1",
+        "P1.C17:13",
+        "P1.C24:7",
+        "P1.C24:11",
+        "P1.C26:17",
+        "P2.C04:5",
+        "P2.C04:15",
+        "P2.C05:7",
+        "P2.C05:9",
+        "P2.C07:13"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "hi": {
+      "plain": "di",
+      "selection_context": "P1.C26 dilectione; P2.C02 praedictus; P2.C03 distinctius",
+      "occurrences": [
+        "P1.C01:7",
+        "P1.C07:10",
+        "P1.C11:2",
+        "P1.C11:6",
+        "P1.C14:18",
+        "P1.C17:3",
+        "P1.C19:21",
+        "P1.C21:5",
+        "P1.C26:6",
+        "P2.C02:7",
+        "P2.C03:1",
+        "P2.C07:2",
+        "P2.C11:19"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "hu": {
+      "plain": "du",
+      "selection_context": "P1.C12 modus",
+      "occurrences": [
+        "P1.C12:8"
+      ],
+      "status": "provisional singleton"
+    },
+    "an": {
+      "plain": "sa",
+      "selection_context": "P1.C25 necessariis; P2.C08 commissariorum",
+      "occurrences": [
+        "P1.C25:17",
+        "P2.C08:8"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "en": {
+      "plain": "se",
+      "selection_context": "P1.C02 serenissimi; P1.C09 secum; P1.C17 seruare",
+      "occurrences": [
+        "P1.C02:1",
+        "P1.C09:2",
+        "P1.C15:7",
+        "P1.C17:15",
+        "P1.C21:8",
+        "P2.C09:1"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "in": {
+      "plain": "si",
+      "selection_context": "P1.C16 si; P2.C02 sibi; P2.C04 considerata",
+      "occurrences": [
+        "P1.C02:5",
+        "P1.C09:6",
+        "P1.C16:14",
+        "P1.C17:6",
+        "P2.C02:1",
+        "P2.C03:12",
+        "P2.C04:14",
+        "P2.C05:8",
+        "P2.C12:3",
+        "P2.C12:19"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "un": {
+      "plain": "su",
+      "selection_context": "P1.C19 subiiciatur; P1.C25 sumptibus; P2.C10 expressum",
+      "occurrences": [
+        "P1.C19:11",
+        "P1.C25:8",
+        "P2.C10:16"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "tes": {
+      "plain": "be",
+      "selection_context": "P1.C16-17 liberam; P1.C24 debeat; P2.C04 habere",
+      "occurrences": [
+        "P1.C16:20",
+        "P1.C24:8",
+        "P2.C04:8"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "tis": {
+      "plain": "bi",
+      "selection_context": "P1.C19 arbitrio; P1.C25 nobis; P2.C02 sibi",
+      "occurrences": [
+        "P1.C01:5",
+        "P1.C17:12",
+        "P1.C19:7",
+        "P1.C25:2",
+        "P2.C02:2",
+        "P2.C07:12"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "tos": {
+      "plain": "bo",
+      "selection_context": "P1.C07 boni",
+      "occurrences": [
+        "P1.C07:14"
+      ],
+      "status": "provisional singleton"
+    },
+    "tus": {
+      "plain": "bu",
+      "selection_context": "P1.C05 statibus; P1.C16 partibus; P2.C08 quibus",
+      "occurrences": [
+        "P1.C05:16",
+        "P1.C16:4",
+        "P1.C24:17",
+        "P1.C25:12",
+        "P2.C08:16"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "au": {
+      "plain": "pa",
+      "selection_context": "P1.C03 apparatum; P1.C15 apparatus; P1.C16 partibus",
+      "occurrences": [
+        "P1.C03:19",
+        "P1.C15:3",
+        "P1.C16:1"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "eu": {
+      "plain": "pe",
+      "selection_context": "P1.C22 operi; P1.C26 petimus; P2.C01 perinstanter",
+      "occurrences": [
+        "P1.C22:19",
+        "P1.C26:1",
+        "P2.C01:1",
+        "P2.C12:12"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "ou": {
+      "plain": "po",
+      "selection_context": "P1.C14 potentiorem; P1.C17 dispositionem; P2.C03 expositurus",
+      "occurrences": [
+        "P1.C14:3",
+        "P1.C17:5",
+        "P1.C23:8",
+        "P2.C03:11"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "uu": {
+      "plain": "pu",
+      "selection_context": "P1.C07 publici",
+      "occurrences": [
+        "P1.C07:16"
+      ],
+      "status": "provisional singleton"
+    },
+    "me": {
+      "plain": "fe",
+      "selection_context": "P1.C12-13 festinanter; P1.C21 confestim; P1.C22 transferre",
+      "occurrences": [
+        "P1.C12:20",
+        "P1.C21:3",
+        "P1.C21:11",
+        "P1.C22:5",
+        "P2.C11:17"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "mi": {
+      "plain": "fi",
+      "selection_context": "P1.C24 deficientibus; P2.C04 fidem",
+      "occurrences": [
+        "P1.C24:12",
+        "P2.C04:4"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "mu": {
+      "plain": "fu",
+      "selection_context": "P1.C09 fusius",
+      "occurrences": [
+        "P1.C09:5"
+      ],
+      "status": "provisional singleton"
+    },
+    "ga": {
+      "plain": "ha",
+      "selection_context": "P2.C02 hac; P2.C04 habere; P2.C05 hactenus; P1.C04 Westphalico after glyph review",
+      "occurrences": [
+        "P1.C04:16",
+        "P1.C21:1",
+        "P2.C02:17",
+        "P2.C04:7",
+        "P2.C05:13",
+        "P2.C11:15"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "gi": {
+      "plain": "hi",
+      "selection_context": "P1.C02 marchio",
+      "occurrences": [
+        "P1.C02:17"
+      ],
+      "status": "provisional singleton"
+    },
+    "it": {
+      "plain": "gi",
+      "selection_context": "P1.C02 regis; P2.C09 iniungimus",
+      "occurrences": [
+        "P1.C02:8",
+        "P2.C09:7"
+      ],
+      "status": "contextual, corroborated in same letter"
+    },
+    "ot": {
+      "plain": "go",
+      "selection_context": "P1.C10 negotium",
+      "occurrences": [
+        "P1.C10:13"
+      ],
+      "status": "provisional singleton"
+    },
+    "et": {
+      "plain": "ge",
+      "selection_context": "P1.C11 indigeat",
+      "occurrences": [
+        "P1.C11:7"
+      ],
+      "status": "provisional singleton"
+    },
+    "ko": {
+      "plain": "do",
+      "selection_context": "P1.C08 domus",
+      "occurrences": [
+        "P1.C08:3"
+      ],
+      "status": "provisional singleton"
+    },
+    "fu": {
+      "plain": "mu",
+      "selection_context": "P1.C01 comunicabit (single m retained; mmu cannot be excluded from this occurrence alone)",
+      "occurrences": [
+        "P1.C01:2"
+      ],
+      "status": "provisional singleton"
+    },
+    "lx": {
+      "plain": "oc",
+      "selection_context": "P1.C12 occurrat (source group lx retained; singleton, provisional)",
+      "occurrences": [
+        "P1.C12:1"
+      ],
+      "status": "provisional singleton"
+    },
+    "li": {
+      "plain": "xi",
+      "selection_context": "P2.C07-08 existentium (source group li retained; singleton, provisional)",
+      "occurrences": [
+        "P2.C07:16"
+      ],
+      "status": "provisional singleton"
+    },
+    "b": {
+      "plain": "m",
+      "selection_context": "P1.C08 etiam; P1.C12 quam; P1.C14 quam; distinct source label from disputed 6",
+      "occurrences": [
+        "P1.C08:2",
+        "P1.C12:13",
+        "P1.C14:17"
+      ],
+      "status": "contextual, corroborated in same letter"
+    }
+  }
+}

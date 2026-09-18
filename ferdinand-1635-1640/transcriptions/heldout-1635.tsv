@@ -1,0 +1,13 @@
+id	cipher	plain	evidence
+V01	x 12 y 15 37 7 31	civitas	R1889 P1 L11 after Verum cum; R954 P1 right L21; arc beneath last 7 31, preserve apparent 7 rather than replacing it with n
+V02	34 q 6 35 15 i p 22 31 24 26	trevirensis	R1889 P1 L12; R954 P1 right L21
+V03	12 t 6 11 22 4 m z 4 y 7 p 32 34 15 25	iamindeaducentis	R1889 P1 L12-13; R954 P1 right L22; preserve apparent 6 in iam
+V04	t 32 22 24 25	annis	R1889 P1 L13; R954 P1 right L22
+V05	31 38 8	sub	R1889 P1 L13; R954 P1 right L23
+V06	31 37 m 34 g c a 37 p x 34 15 l 22 m	stetprotectione	R1889 P1 L13-14; R954 P1 right L23-24; stet revised insertion in draft
+V07	t 37 30 y 6	atque	R1889 P1 L14; R954 P1 right L24 abbreviation atq; do not infer 30 from validation
+V08	0 9 6 15 y 25	abeius	R1889 P1 L14; R954 P1 right L25; preserve 9
+V09	e 11 19 12 34 p	milite	R1889 P1 L14-15; R954 P1 right L25; unknown e and 19
+V10	2 35 p c 15 37	fuerit	R1889 P1 L15; R954 P1 right L27
+V11	20 0 0 m 26 12 4 24 f	praesidio	R1889 P1 L15-16; R954 P1 right L27; apparent 20 0 0 needs image review
+V12	d 23 22 11 34 z	munita	R1889 P1 L16; R954 P1 right L27

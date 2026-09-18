@@ -1,0 +1,7 @@
+id	cipher	plain	evidence
+F01	0 9 6 15 y 25	abeius	R1889 P1 L14; R954 P1 right ab eius; used only to assign 9=b after v1 holdout test
+F02	e 11 19 12 34 p	milite	R1889 P1 L14-15; R954 P1 right milite; confirms 19=l selected independently in E01/E06
+F03	t 37 30 y 6	atque	R1889 P1 L14; R954 P1 right atq abbreviation; only assigns 30=q
+F04	20 c o m	prae	R1889 P1 L15; scan shows c o where XZ has 0 0; R954 P1 right praesidio; assigns o=a
+F05	9 23 31	bus	R1889 P1 L21; ending of circum...tibus; R954 P2 circumvicinatibus; confirms 9=b
+F06	n 18 11 e m 22 34 0	alimenta	R1889 P1 L21; R954 P2 alimenta; confirms e=m

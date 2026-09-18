@@ -1,0 +1,13 @@
+# Frozen v1 holdout: raw first-pass transcription, not post-review corrections.
+V01	ciuitcs	civitas
+V02	treuirensis	trevirensis
+V03	iaeindeaducentis	iamindeaducentis
+V04	annis	annis
+V05	sub	sub
+V06	stetprotectione	stetprotectione
+V07	at⟦30⟧ue	atque
+V08	a⟦9⟧eius	abeius
+V09	⟦e⟧i⟦19⟧ite	milite
+V10	⟦2⟧uerit	fuerit
+V11	paaesidio	praesidio
+V12	munita	munita

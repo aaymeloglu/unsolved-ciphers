@@ -5,9 +5,9 @@ Python 3, standard library only. From the repo root:
 
     python3 docs/_build_site.py
 
-Writes four pages, all sharing the stylesheet of ottobon-1589/reading.html:
+Writes five pages, all sharing the stylesheet of ottobon-1589/reading.html:
 
-    index.html            the two readings, with links to everything else in the repo
+    index.html            the readings, with links to everything else in the repo
     ottobon-reading.html  ottobon-1589/reading.html, images pointed at the repo's raw files
     forster-reading.html  generated from forster-1644/ct.txt, mapping.json and verification.json
     starhemberg-reading.html  generated from starhemberg-1758/source-transcription.txt and two-table-output.txt
@@ -16,6 +16,8 @@ import html
 import json
 import re
 from pathlib import Path
+
+from _ferdinand import build as build_ferdinand
 
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
@@ -504,6 +506,14 @@ def index():
 
 <div class="entries">
   <div class="entry">
+    <h2><a href="ferdinand-reading.html">Ferdinand correspondence</a></h2>
+    <p class="where">Brussels / Vienna, 16 November 1635 and 22 February 1640</p>
+    <p class="status">Substantially deciphered · residual gaps</p>
+    <p>Winter quarters at Trier, recruitment in Westphalia, and a request for 100,000 florins. A known Latin draft supplies the 1635 alphabet; a separate syllable supplement extends the reading through both 1640 pages. Uncertain glyphs and copying errors remain explicit. No first-solve claim.</p>
+    <p class="go"><a href="ferdinand-reading.html">Ciphertext, Latin and English</a></p>
+    <p><a href="{REPO}/tree/main/ferdinand-1635-1640">Readings, key evidence, transcriptions and decoder</a>.</p>
+  </div>
+  <div class="entry">
     <h2><a href="ottobon-reading.html">Carta en cifra de Venecia</a></h2>
     <p class="where">Ottobon to Mocenigo, 27 April 1589 · BNE Mss/994, ff. 34–38</p>
     <p class="status">Substantially deciphered</p>
@@ -550,7 +560,7 @@ def index():
 </footer>"""
     (DOCS / "index.html").write_text(page(
         "Unsolved ciphers",
-        "Attempts on historical ciphers listed as unsolved: a Venetian dispatch of 1589 and a royalist letter of 1644 read, an Austrian letter of 1758 partly read, all reproducible.",
+        "Attempts on historical ciphers listed as unsolved: a Venetian dispatch of 1589 and a royalist letter of 1644 read, Ferdinand correspondence of 1635/1640 recovered, an Austrian letter of 1758 partly read, all reproducible.",
         body))
 
 
@@ -558,6 +568,7 @@ if __name__ == "__main__":
     ottobon_reading()
     forster_reading()
     starhemberg_reading()
+    build_ferdinand(ROOT, DOCS, page, CRUMBS, REPO)
     index()
     (DOCS / ".nojekyll").write_text("")
     print("built", ", ".join(sorted(p.name for p in DOCS.glob("*.html"))))

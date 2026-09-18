@@ -1,0 +1,61 @@
+symbol	plain	selection_context	all_reviewed_occurrences	status
+21	o	P1.C26 dilectione; P1.C01 dilectioni; P1.C13 collectionem	P1.C01:11;P1.C08:7;P1.C13:11;P1.C22:18;P1.C26:10;P1.C26:19	contextual, corroborated in same letter
+36	x	P2.C03 expositurus; P2.C10 expressum; P2.C12 expendant	P2.C03:10;P2.C10:12;P2.C12:11	contextual, corroborated in same letter
+41	le	P1.C05 electore; P1.C26 dilectione; P1.C10 celeri	P1.C01:8;P1.C05:2;P1.C10:18;P1.C13:8;P1.C18:17;P1.C23:13;P1.C26:7;P2.C06:7	contextual, corroborated in same letter
+42	li	P1.C04 militis; P1.C06 illius/circuli; P1.C18 circulus	P1.C02:12;P1.C04:2;P1.C04:17;P1.C06:1;P1.C06:7;P1.C07:18;P1.C09:12;P1.C11:16;P1.C13:15;P1.C15:18;P1.C16:16;P1.C16:19;P1.C18:11;P1.C19:2;P2.C10:3;P2.C13:8	contextual, corroborated in same letter
+43	lo	P1.C05 coloniae; P1.C04 circulo; P2.C06 florenos	P1.C04:10;P1.C05:7;P1.C21:17;P2.C06:9;P2.C06:14	contextual, corroborated in same letter
+44	lu	P1.C10 illud; P1.C18 circulus	P1.C10:10;P1.C18:21	contextual, corroborated in same letter
+45	na	P1.C13 festinanter; P1.C19 ordinauimus; P2.C13 consignari	P1.C13:2;P1.C19:22;P2.C12:5;P2.C13:1	contextual, corroborated in same letter
+46	ne	P1.C03 Castagneti; P1.C10 negotium; P1.C18 ne	P1.C03:2;P1.C10:12;P1.C13:12;P1.C17:9;P1.C18:14;P1.C25:14;P1.C26:11;P2.C09:10;P2.C12:8	contextual, corroborated in same letter
+47	ni	P1.C05 coloniae; P1.C07 boni; P2.C03 omni	P1.C01:3;P1.C01:12;P1.C02:3;P1.C05:8;P1.C07:15;P1.C21:18;P2.C03:21;P2.C06:15	contextual, corroborated in same letter
+48	no	P1.C03 nouum; P1.C25 nobis; P2.C07 nostrorum	P1.C03:13;P1.C12:18;P1.C19:4;P1.C25:1;P2.C06:11;P2.C07:5;P2.C11:3	contextual, corroborated in same letter
+49	nu	P1.C14 numerum; P1.C26 denuo; P2.C01 quatenus	P1.C14:10;P1.C20:16;P1.C23:18;P1.C26:18;P2.C01:14;P2.C05:16	contextual, corroborated in same letter
+50	ra	P1.C03 apparatum; P1.C22 transferre; P2.C05 grauitate	P1.C01:21;P1.C03:20;P1.C15:4;P1.C17:1;P1.C22:2;P1.C26:16;P2.C02:12;P2.C04:16;P2.C05:2;P2.C05:10;P2.C13:4	contextual, corroborated in same letter
+51	re	P1.C05 electore; P1.C18 praecauere; P2.C04 habere	P1.C02:2;P1.C02:7;P1.C05:5;P1.C08:15;P1.C10:20;P1.C14:8;P1.C17:19;P1.C18:8;P1.C23:7;P1.C24:6;P2.C04:9;P2.C04:18;P2.C06:10;P2.C08:21;P2.C10:14;P2.C13:5	contextual, corroborated in same letter
+52	ri	P1.C19 arbitrio; P1.C22 operi; P2.C08 commissariorum	P1.C10:19;P1.C19:9;P1.C22:20;P1.C23:14;P1.C25:18;P2.C02:21;P2.C08:9;P2.C13:2	contextual, corroborated in same letter
+53	ro	P1.C11 pro; P1.C20 propter; P2.C07 nostrorum	P1.C11:20;P1.C20:8;P1.C24:21;P1.C25:5;P2.C07:8	contextual, corroborated in same letter
+54	ru	P1.C14 numerum; P2.C03 expositurus; P2.C08 commissariorum	P1.C14:12;P2.C03:14;P2.C07:9;P2.C08:11;P2.C11:6	contextual, corroborated in same letter
+pla	ta	P1.C05 statibus; P1.C23 celeritate; P2.C05 grauitate	P1.C02:21;P1.C05:14;P1.C23:15;P2.C01:6;P2.C04:17;P2.C05:5	contextual, corroborated in same letter
+ple	te	P1.C05 electore; P1.C13 festinanter; P2.C01 quatenus	P1.C13:4;P1.C14:4;P1.C15:10;P1.C20:10;P1.C23:9;P1.C23:16;P2.C01:8;P2.C01:13;P2.C02:20;P2.C05:6;P2.C05:15;P2.C07:18;P2.C10:9	contextual, corroborated in same letter
+pli	ti	P1.C04 militis; P1.C26 petimus/dilectione; P2.C03 distinctius	P1.C01:10;P1.C03:3;P1.C04:3;P1.C05:15;P1.C07:23;P1.C10:14;P1.C13:1;P1.C13:10;P1.C13:16;P1.C14:6;P1.C16:3;P1.C16:9;P1.C17:7;P1.C20:15;P1.C24:16;P1.C25:11;P1.C26:2;P1.C26:9;P2.C03:3;P2.C03:6;P2.C08:1;P2.C11:13;P2.C12:6	contextual, corroborated in same letter
+plo	to	P1.C05 electore; P2.C02 orator; P2.C05 desideratos	P1.C01:22;P1.C02:11;P1.C05:4;P2.C02:13;P2.C05:11;P2.C07:1	contextual, corroborated in same letter
+plu	tu	P1.C03 apparatum; P1.C16 instituamus; P2.C03 expositurus	P1.C03:21;P1.C06:12;P1.C09:11;P1.C10:6;P1.C14:20;P1.C15:5;P1.C16:10;P1.C19:17;P2.C02:9;P2.C03:13;P2.C06:3;P2.C11:1	contextual, corroborated in same letter
+ca	ma	P1.C02 marchio; P1.C23 manum; P2.C10 mandatum	P1.C02:14;P1.C23:4;P1.C23:17;P2.C02:19;P2.C10:18	contextual, corroborated in same letter
+ce	me	P1.C11 medio; P1.C14 numerum; P1.C20 comes	P1.C11:1;P1.C14:11;P1.C20:19	contextual, corroborated in same letter
+ci	mi	P1.C04 militis; P1.C13 militis; P2.C06 mille	P1.C02:6;P1.C04:1;P1.C13:14;P2.C06:5;P2.C08:6;P2.C11:12	contextual, corroborated in same letter
+co	mo	P1.C12 modus; P1.C08-09 incommoda; P2.C04 omnimodam	P1.C08:23;P1.C12:7;P1.C24:3;P2.C04:1	contextual, corroborated in same letter
+cu	mu	P1.C16 instituamus; P1.C26 petimus; P2.C09 iniungimus	P1.C08:4;P1.C08:17;P1.C09:13;P1.C16:12;P1.C18:12;P1.C20:3;P1.C26:3;P2.C09:8	contextual, corroborated in same letter
+ap	ca	P1.C02 catolici; P1.C03 circa; P1.C18 praecauere	P1.C01:4;P1.C02:10;P1.C02:19;P1.C03:12;P1.C18:5	contextual, corroborated in same letter
+ep	ce	P1.C06 inceptum; P1.C10 celeri; P2.C06 centum	P1.C06:10;P1.C10:17;P1.C23:12;P1.C25:15;P2.C06:1	contextual, corroborated in same letter
+ip	ci	P1.C04 circulo; P1.C07 iudicium; P1.C19 subiiciatur	P1.C02:13;P1.C03:10;P1.C04:7;P1.C06:4;P1.C07:11;P1.C07:19;P1.C18:18;P1.C19:15;P1.C24:13	contextual, corroborated in same letter
+op	co	P1.C05 coloniae; P1.C13 collectionem; P2.C08 commissariorum	P1.C01:1;P1.C04:18;P1.C05:6;P1.C08:21;P1.C09:9;P1.C13:6;P1.C20:18;P1.C21:9;P1.C21:16;P2.C04:12;P2.C06:13;P2.C08:4;P2.C11:11;P2.C12:17	contextual, corroborated in same letter
+up	cu	P1.C04 circulo; P1.C09 secum; P2.C13 curare	P1.C04:9;P1.C06:6;P1.C09:3;P1.C10:1;P1.C12:2;P1.C18:20;P2.C06:18;P2.C13:3	contextual, corroborated in same letter
+ha	da	P1.C09 incommoda; P1.C15 extendat; P2.C10 mandatum	P1.C09:1;P1.C15:12;P2.C04:2;P2.C10:20;P2.C12:14	contextual, corroborated in same letter
+he	de	P1.C26 denuo; P2.C04 fidem; P2.C05 desideratos	P1.C07:1;P1.C17:13;P1.C24:7;P1.C24:11;P1.C26:17;P2.C04:5;P2.C04:15;P2.C05:7;P2.C05:9;P2.C07:13	contextual, corroborated in same letter
+hi	di	P1.C26 dilectione; P2.C02 praedictus; P2.C03 distinctius	P1.C01:7;P1.C07:10;P1.C11:2;P1.C11:6;P1.C14:18;P1.C17:3;P1.C19:21;P1.C21:5;P1.C26:6;P2.C02:7;P2.C03:1;P2.C07:2;P2.C11:19	contextual, corroborated in same letter
+hu	du	P1.C12 modus	P1.C12:8	provisional singleton
+an	sa	P1.C25 necessariis; P2.C08 commissariorum	P1.C25:17;P2.C08:8	contextual, corroborated in same letter
+en	se	P1.C02 serenissimi; P1.C09 secum; P1.C17 seruare	P1.C02:1;P1.C09:2;P1.C15:7;P1.C17:15;P1.C21:8;P2.C09:1	contextual, corroborated in same letter
+in	si	P1.C16 si; P2.C02 sibi; P2.C04 considerata	P1.C02:5;P1.C09:6;P1.C16:14;P1.C17:6;P2.C02:1;P2.C03:12;P2.C04:14;P2.C05:8;P2.C12:3;P2.C12:19	contextual, corroborated in same letter
+un	su	P1.C19 subiiciatur; P1.C25 sumptibus; P2.C10 expressum	P1.C19:11;P1.C25:8;P2.C10:16	contextual, corroborated in same letter
+tes	be	P1.C16-17 liberam; P1.C24 debeat; P2.C04 habere	P1.C16:20;P1.C24:8;P2.C04:8	contextual, corroborated in same letter
+tis	bi	P1.C19 arbitrio; P1.C25 nobis; P2.C02 sibi	P1.C01:5;P1.C17:12;P1.C19:7;P1.C25:2;P2.C02:2;P2.C07:12	contextual, corroborated in same letter
+tos	bo	P1.C07 boni	P1.C07:14	provisional singleton
+tus	bu	P1.C05 statibus; P1.C16 partibus; P2.C08 quibus	P1.C05:16;P1.C16:4;P1.C24:17;P1.C25:12;P2.C08:16	contextual, corroborated in same letter
+au	pa	P1.C03 apparatum; P1.C15 apparatus; P1.C16 partibus	P1.C03:19;P1.C15:3;P1.C16:1	contextual, corroborated in same letter
+eu	pe	P1.C22 operi; P1.C26 petimus; P2.C01 perinstanter	P1.C22:19;P1.C26:1;P2.C01:1;P2.C12:12	contextual, corroborated in same letter
+ou	po	P1.C14 potentiorem; P1.C17 dispositionem; P2.C03 expositurus	P1.C14:3;P1.C17:5;P1.C23:8;P2.C03:11	contextual, corroborated in same letter
+uu	pu	P1.C07 publici	P1.C07:16	provisional singleton
+me	fe	P1.C12-13 festinanter; P1.C21 confestim; P1.C22 transferre	P1.C12:20;P1.C21:3;P1.C21:11;P1.C22:5;P2.C11:17	contextual, corroborated in same letter
+mi	fi	P1.C24 deficientibus; P2.C04 fidem	P1.C24:12;P2.C04:4	contextual, corroborated in same letter
+mu	fu	P1.C09 fusius	P1.C09:5	provisional singleton
+ga	ha	P2.C02 hac; P2.C04 habere; P2.C05 hactenus; P1.C04 Westphalico after glyph review	P1.C04:16;P1.C21:1;P2.C02:17;P2.C04:7;P2.C05:13;P2.C11:15	contextual, corroborated in same letter
+gi	hi	P1.C02 marchio	P1.C02:17	provisional singleton
+it	gi	P1.C02 regis; P2.C09 iniungimus	P1.C02:8;P2.C09:7	contextual, corroborated in same letter
+ot	go	P1.C10 negotium	P1.C10:13	provisional singleton
+et	ge	P1.C11 indigeat	P1.C11:7	provisional singleton
+ko	do	P1.C08 domus	P1.C08:3	provisional singleton
+fu	mu	P1.C01 comunicabit (single m retained; mmu cannot be excluded from this occurrence alone)	P1.C01:2	provisional singleton
+lx	oc	P1.C12 occurrat (source group lx retained; singleton, provisional)	P1.C12:1	provisional singleton
+li	xi	P2.C07-08 existentium (source group li retained; singleton, provisional)	P2.C07:16	provisional singleton
+b	m	P1.C08 etiam; P1.C12 quam; P1.C14 quam; distinct source label from disputed 6	P1.C08:2;P1.C12:13;P1.C14:17	contextual, corroborated in same letter

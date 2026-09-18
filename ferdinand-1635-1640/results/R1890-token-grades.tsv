@@ -1,0 +1,783 @@
+row	cipher_position	symbol	literal	grade	basis
+P1.C01	1	op	co	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C01	2	fu	mu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C01	3	47	ni	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C01	4	ap	ca	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C01	5	tis	bi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C01	6	34	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C01	7	hi	di	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C01	8	41	le	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C01	9	x	c	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C01	10	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C01	11	21	o	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C01	12	47	ni	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C01	13	23	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C01	14	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C01	15	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C01	16	34	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C01	17	c	r	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P1.C01	18	o	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C01	19	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C01	20	f	o	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C01	21	50	ra	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C01	22	plo	to	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C01	23	?		M	Unmapped source sign
+P1.C02	1	en	se	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C02	2	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C02	3	47	ni	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C02	4	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C02	5	in	si	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C02	6	ci	mi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C02	7	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C02	8	it	gi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C02	9	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C02	10	ap	ca	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C02	11	plo	to	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C02	12	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C02	13	ip	ci	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C02	14	ca	ma	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C02	15	c	r	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P1.C02	16	7	c	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C02	17	gi	hi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C02	18	a	o	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C02	19	ap	ca	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C02	20	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C02	21	pla	ta	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C03	1	16	g	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C03	2	46	ne	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C03	3	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C03	4	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C03	5	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C03	6	30	q	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C03	7	23	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C03	8	z	a	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P1.C03	9	p	e	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P1.C03	10	ip	ci	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C03	11	c	r	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P1.C03	12	ap	ca	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C03	13	48	no	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C03	14	y	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C03	15	35	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C03	16	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C03	17	n	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C03	18	g	p	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C03	19	au	pa	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C03	20	50	ra	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C03	21	plu	tu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C03	22	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C04	1	ci	mi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C04	2	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C04	3	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C04	4	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C04	5	12	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C04	6	22	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C04	7	ip	ci	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C04	8	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C04	9	up	cu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C04	10	43	lo	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C04	11	38	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C04	12	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C04	13	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C04	14	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C04	15	20	p	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C04	16	ga	ha	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P1.C04	17	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C04	18	op	co	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C04	19	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C04	20	9	b	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C05	1	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C05	2	41	le	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C05	3	7	c	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C05	4	plo	to	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C05	5	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C05	6	op	co	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C05	7	43	lo	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C05	8	47	ni	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C05	9	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C05	10	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C05	11	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C05	12	34	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C05	13	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C05	14	pla	ta	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C05	15	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C05	16	tus	bu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C05	17	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C05	18	12	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C05	19	19	l	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C06	1	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C06	2	23	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C06	3	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C06	4	ip	ci	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C06	5	c	r	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P1.C06	6	up	cu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C06	7	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C06	8	15	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C06	9	22	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C06	10	ep	ce	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C06	11	20	p	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C06	12	plu	tu	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P1.C06	13	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C06	14	n	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C06	15	x	c	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C06	16	33	q	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C06	17	23	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C06	18	n	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C06	19	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C06	20	24	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C06	21	22	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C07	1	he	de	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C07	2	15	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C07	3	22	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C07	4	20	p	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C07	5	q	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C07	6	z	a	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P1.C07	7	6	e	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P1.C07	8	15	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C07	9	35	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C07	10	hi	di	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C07	11	ip	ci	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C07	12	y	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C07	13	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C07	14	tos	bo	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C07	15	47	ni	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C07	16	uu	pu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C07	17	8	b	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C07	18	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C07	19	ip	ci	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C07	20	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C07	21	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C07	22	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C07	23	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C08	1	o	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C08	2	b	m	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C08	3	ko	do	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C08	4	cu	mu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C08	5	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C08	6	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C08	7	21	o	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C08	8	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C08	9	34	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C08	10	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C08	11	z	a	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P1.C08	12	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C08	13	y	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C08	14	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C08	15	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C08	16	n	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C08	17	cu	mu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C08	18	q	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C08	19	24	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C08	20	22	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C08	21	op	co	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C08	22	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C08	23	co	mo	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C09	1	ha	da	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C09	2	en	se	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C09	3	up	cu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C09	4	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C09	5	mu	fu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C09	6	in	si	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C09	7	38	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C09	8	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C09	9	op	co	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C09	10	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C09	11	plu	tu	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P1.C09	12	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C09	13	cu	mu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C09	14	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C10	1	up	cu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C10	2	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C10	3	12	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C10	4	17	g	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C10	5	24	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C10	6	plu	tu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C10	7	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C10	8	15	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C10	9	19	l	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C10	10	44	lu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C10	11	4	d	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C10	12	46	ne	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C10	13	ot	go	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C10	14	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C10	15	y	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C10	16	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C10	17	ep	ce	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C10	18	41	le	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C10	19	52	ri	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C10	20	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C11	1	ce	me	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C11	2	hi	di	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C11	3	f	o	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C11	4	12	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C11	5	22	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C11	6	hi	di	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C11	7	et	ge	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C11	8	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C11	9	34	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C11	10	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C11	11	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C11	12	30	q	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C11	13	35	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C11	14	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C11	15	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C11	16	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C11	17	23	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C11	18	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C11	19	g	p	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C11	20	53	ro	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C11	21	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C11	22	f	o	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C12	1	lx	oc	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C12	2	up	cu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C12	3	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C12	4	q	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C12	5	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C12	6	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C12	7	co	mo	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C12	8	hu	du	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C12	9	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C12	10	30	q	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C12	11	35	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C12	12	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C12	13	b	m	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C12	14	23	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C12	15	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C12	16	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C12	17	34	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C12	18	48	no	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C12	19	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C12	20	me	fe	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C12	21	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C13	1	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C13	2	45	na	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C13	3	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C13	4	ple	te	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C13	5	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C13	6	op	co	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C13	7	18	l	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C13	8	41	le	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C13	9	x	c	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C13	10	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C13	11	21	o	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C13	12	46	ne	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C13	13	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C13	14	ci	mi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C13	15	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C13	16	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C13	17	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C13	18	30	q	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C13	19	23	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C13	20	11	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C14	1	15	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C14	2	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C14	3	ou	po	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C14	4	ple	te	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C14	5	22	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C14	6	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C14	7	f	o	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C14	8	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C14	9	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C14	10	49	nu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C14	11	ce	me	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C14	12	54	ru	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C14	13	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C14	14	33	q	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C14	15	y	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C14	16	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C14	17	b	m	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C14	18	hi	di	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C14	19	x	c	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C14	20	plu	tu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C14	21	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C15	1	o	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C15	2	g	p	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C15	3	au	pa	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C15	4	50	ra	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C15	5	plu	tu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C15	6	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C15	7	en	se	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C15	8	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C15	9	39	x	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C15	10	ple	te	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C15	11	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C15	12	ha	da	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C15	13	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C15	14	12	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C15	15	22	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C15	16	15	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C15	17	19	l	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C15	18	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C15	19	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C16	1	au	pa	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C16	2	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C16	3	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C16	4	tus	bu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C16	5	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C16	6	15	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C16	7	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C16	8	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C16	9	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C16	10	plu	tu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C16	11	n	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C16	12	cu	mu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C16	13	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C16	14	in	si	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C16	15	o	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C16	16	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C16	17	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C16	18	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C16	19	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C16	20	tes	be	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C17	1	50	ra	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C17	2	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C17	3	hi	di	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C17	4	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C17	5	ou	po	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C17	6	in	si	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C17	7	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C17	8	f	o	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C17	9	46	ne	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C17	10	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C17	11	12	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C17	12	tis	bi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C17	13	he	de	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C17	14	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C17	15	en	se	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C17	16	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C17	17	23	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C17	18	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C17	19	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C17	20	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C17	21	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C18	1	20	p	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C18	2	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C18	3	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C18	4	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C18	5	ap	ca	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C18	6	35	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C18	7	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C18	8	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C18	9	38	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C18	10	6	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C18	11	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C18	12	cu	mu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C18	13	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C18	14	46	ne	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C18	15	15	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C18	16	18	l	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C18	17	41	le	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C18	18	ip	ci	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C18	19	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C18	20	up	cu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C18	21	44	lu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C18	22	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C19	1	n	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C19	2	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C19	3	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C19	4	48	no	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C19	5	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C19	6	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C19	7	tis	bi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C19	8	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C19	9	52	ri	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C19	10	f	o	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C19	11	un	su	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C19	12	9	b	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C19	13	11	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C19	14	15	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C19	15	ip	ci	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C19	16	o	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C19	17	plu	tu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C19	18	q	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C19	19	f	o	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C19	20	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C19	21	hi	di	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C19	22	45	na	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C20	1	35	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C20	2	24	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C20	3	cu	mu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C20	4	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C20	5	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C20	6	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C20	7	20	p	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C20	8	53	ro	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C20	9	g	p	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C20	10	ple	te	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C20	11	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C20	12	33	q	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C20	13	35	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C20	14	n	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C20	15	pli	ti	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P1.C20	16	49	nu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C20	17	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C20	18	op	co	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C20	19	ce	me	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C20	20	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C21	1	ga	ha	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C21	2	14		M	Unmapped source sign
+P1.C21	3	me	fe	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C21	4	19	l	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C21	5	hi	di	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C21	6	35	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C21	7	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C21	8	en	se	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C21	9	op	co	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C21	10	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C21	11	me	fe	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C21	12	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C21	13	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C21	14	24	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C21	15	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C21	16	op	co	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C21	17	43	lo	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C21	18	47	ni	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C21	19	o	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C21	20	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	1	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	2	50	ra	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C22	3	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	4	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	5	me	fe	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C22	6	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	7	q	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	8	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	9	n	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	10	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	11	30	q	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	12	35	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	13	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	14	10	h	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	15	38	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	16	12	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	17	x	c	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C22	18	21	o	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C22	19	eu	pe	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C22	20	52	ri	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C23	1	33	q	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C23	2	23	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C23	3	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C23	4	ca	ma	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C23	5	24	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C23	6	f	o	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C23	7	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C23	8	ou	po	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C23	9	ple	te	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C23	10	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C23	11	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C23	12	ep	ce	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C23	13	41	le	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C23	14	52	ri	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C23	15	pla	ta	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C23	16	ple	te	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C23	17	ca	ma	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C23	18	49	nu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C23	19	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C24	1	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C24	2	4	d	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C24	3	co	mo	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P1.C24	4	y	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C24	5	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C24	6	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C24	7	he	de	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C24	8	tes	be	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C24	9	z	a	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P1.C24	10	34	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C24	11	he	de	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C24	12	mi	fi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C24	13	ip	ci	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C24	14	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C24	15	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C24	16	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C24	17	tus	bu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C24	18	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C24	19	y	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C24	20	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C24	21	53	ro	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C25	1	48	no	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C25	2	tis	bi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C25	3	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C25	4	g	p	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C25	5	53	ro	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C25	6	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C25	7	l	o	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C25	8	un	su	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C25	9	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C25	10	20	p	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C25	11	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C25	12	tus	bu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C25	13	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C25	14	46	ne	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C25	15	ep	ce	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C25	16	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C25	17	an	sa	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C25	18	52	ri	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C25	19	12	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C25	20	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C26	1	eu	pe	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C26	2	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C26	3	cu	mu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C26	4	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C26	5	o	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C26	6	hi	di	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C26	7	41	le	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C26	8	x	c	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C26	9	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C26	10	21	o	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C26	11	46	ne	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C26	12	23	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C26	13	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C26	14	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C26	15	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P1.C26	16	50	ra	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C26	17	he	de	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C26	18	49	nu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P1.C26	19	21	o	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C01	1	eu	pe	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C01	2	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	3	12	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	4	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	5	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	6	pla	ta	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C01	7	22	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	8	ple	te	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C01	9	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	10	30	q	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	11	y	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	12	o	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	13	ple	te	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C01	14	49	nu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C01	15	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	16	12	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	17	24	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	18	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	19	30	q	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	20	y	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	21	o	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C01	22	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C02	1	in	si	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C02	2	tis	bi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C02	3	20	p	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C02	4	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C02	5	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C02	6	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C02	7	hi	di	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C02	8	7	c	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C02	9	plu	tu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C02	10	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C02	11	f	o	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C02	12	50	ra	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C02	13	plo	to	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C02	14	q	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C02	15	15	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C02	16	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C02	17	ga	ha	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C02	18	7	c	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C02	19	ca	ma	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C02	20	ple	te	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C02	21	52	ri	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C03	1	hi	di	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C03	2	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C03	3	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C03	4	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C03	5	7	c	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C03	6	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C03	7	23	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C03	8	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C03	9	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C03	10	36	x	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C03	11	ou	po	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C03	12	in	si	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C03	13	plu	tu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C03	14	54	ru	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C03	15	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C03	16	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C03	17	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C03	18	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C03	19	f	o	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C03	20	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C03	21	47	ni	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C04	1	co	mo	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C04	2	ha	da	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C04	3	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C04	4	mi	fi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C04	5	he	de	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C04	6	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C04	7	ga	ha	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C04	8	tes	be	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C04	9	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C04	10	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C04	11	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C04	12	op	co	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C04	13	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C04	14	in	si	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C04	15	he	de	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C04	16	50	ra	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C04	17	pla	ta	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C04	18	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C04	19	15	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C05	1	17	g	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C05	2	50	ra	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C05	3	23	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C05	4	15	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C05	5	pla	ta	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C05	6	ple	te	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C05	7	he	de	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C05	8	in	si	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C05	9	he	de	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C05	10	50	ra	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C05	11	plo	to	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C05	12	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C05	13	ga	ha	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C05	14	7	c	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C05	15	ple	te	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C05	16	49	nu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C05	17	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C06	1	ep	ce	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C06	2	22	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C06	3	plu	tu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C06	4	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C06	5	ci	mi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C06	6	19	l	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C06	7	41	le	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C06	8	5	f	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C06	9	43	lo	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C06	10	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C06	11	48	no	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C06	12	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C06	13	op	co	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C06	14	43	lo	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C06	15	47	ni	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C06	16	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C06	17	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C06	18	up	cu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C06	19	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C07	1	plo	to	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C07	2	hi	di	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C07	3	z	a	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P2.C07	4	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C07	5	48	no	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C07	6	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C07	7	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C07	8	53	ro	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C07	9	54	ru	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C07	10	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C07	11	15	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C07	12	tis	bi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C07	13	he	de	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C07	14	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C07	15	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C07	16	li	xi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C07	17	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C07	18	ple	te	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C07	19	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C08	1	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C08	2	y	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C08	3	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C08	4	op	co	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C08	5	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C08	6	ci	mi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C08	7	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C08	8	an	sa	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C08	9	52	ri	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C08	10	f	o	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C08	11	54	ru	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C08	12	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C08	13	30	q	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C08	14	y	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C08	15	12	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C08	16	tus	bu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C08	17	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C08	18	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C08	19	39	x	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C08	20	g	p	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C08	21	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C08	22	3	d	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	1	en	se	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C09	2	12	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	3	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	4	15	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	5	35	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	6	22	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	7	it	gi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C09	8	cu	mu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C09	9	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	10	46	ne	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C09	11	33	q	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	12	23	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	13	12	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	14	4	d	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	15	30	q	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	16	38	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	17	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	18	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	19	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C09	20	39	x	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C10	1	24	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C10	2	18	l	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C10	3	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C10	4	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C10	5	g	p	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C10	6	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C10	7	z	a	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P2.C10	8	p	e	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P2.C10	9	ple	te	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C10	10	c	r	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C10	11	p	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C10	12	36	x	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C10	13	g	p	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C10	14	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C10	15	25	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C10	16	un	su	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C10	17	d	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C10	18	ca	ma	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C10	19	22	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C10	20	ha	da	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C11	1	plu	tu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C11	2	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C11	3	48	no	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C11	4	31	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C11	5	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C11	6	54	ru	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C11	7	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C11	8	z	a	I	Image/context-assisted source-label amendment; see R1890-review.tsv
+P2.C11	9	23	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C11	10	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C11	11	op	co	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C11	12	ci	mi	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C11	13	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C11	14	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C11	15	ga	ha	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C11	16	14		M	Unmapped source sign
+P2.C11	17	me	fe	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C11	18	18	l	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C11	19	hi	di	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C11	20	12	i	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C12	1	t	a	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C12	2	26	s	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C12	3	in	si	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C12	4	17	g	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C12	5	45	na	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C12	6	pli	ti	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C12	7	f	o	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C12	8	46	ne	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C12	9	e	m	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C12	10	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C12	11	36	x	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C12	12	eu	pe	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C12	13	22	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C12	14	ha	da	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C12	15	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C12	16	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C12	17	op	co	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C12	18	32	n	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C12	19	in	si	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C12	20	17	g	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C13	1	45	na	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C13	2	52	ri	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C13	3	up	cu	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C13	4	50	ra	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C13	5	51	re	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C13	6	23	u	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C13	7	m	e	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv
+P2.C13	8	42	li	M	Contextual 1640 supplement; no matched-control S claim; see key-1640-evidence.tsv
+P2.C13	9	37	t	C	Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv

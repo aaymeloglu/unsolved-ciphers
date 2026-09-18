@@ -1,0 +1,17 @@
+row	source_position	before	after	evidence_and_limit
+P1.C01	17	c?	c	I9352: same open c-form as adjacent unqueried c; high confidence
+P1.C02	15	c?	c	I9352: same open c-form as adjacent unqueried c; high confidence
+P1.C03	8	l/z?p	z p	I9352 C03 / I9353 C10: looped z-like sign followed by separate p; medium confidence
+P1.C03	10	c?	c	I9352: same open c-form as adjacent unqueried c; high confidence
+P1.C04	16	g^.a	ga	I9352 C04: ga with small mark above; mark has no demonstrated key function
+P1.C06	5	c?	c	I9352: same open c-form as adjacent unqueried c; high confidence
+P1.C06	12	plu_.	plu	I9352 C06: plu; trailing low stroke retained in source annotation
+P1.C07	6	l/z?6	z 6	I9352 C07: looped sign then 6-like sign; medium confidence
+P1.C08	11	l/z?	z	Looped a-encoding sign; choice of label z is provisional, supported by repeated contexts
+P1.C09	11	pla/u?	plu	I9352 C09: final vowel resembles u; contulimus supports, so not blind paleography
+P1.C20	15	ple/i?	pli	I9352 C20: final vowel resembles i; quatinus retained, not regularized to quatenus
+P1.C24	3	c/1?o/0?	co	I9352 C24: joined c-o group, compare other co groups; admouere context supports
+P1.C24	9	l/z?	z	Looped a-encoding sign; choice of label z is provisional, supported by repeated contexts
+P2.C07	3	l/z?	z	Looped a-encoding sign; choice of label z is provisional, supported by repeated contexts
+P2.C10	7	l/z?p	z p	I9352 C03 / I9353 C10: looped z-like sign followed by separate p; medium confidence
+P2.C11	8	l/z?	z	Looped a-encoding sign; choice of label z is provisional, supported by repeated contexts
