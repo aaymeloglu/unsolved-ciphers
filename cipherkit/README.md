@@ -124,7 +124,7 @@ clean literary prose of roughly the right century. Word counts after cleaning, 2
 | la | 0.43 M | Petrarca Epistolae, Nadal Epistolae 1546-1577 | Caesar, Descartes | Worcester 1526, Ferdinand 1635 |
 | sco | 0.37 M | Diurnal of Occurrents 1513-1575, Knox Works v.1 | | Moray 1568, Davison 1584 |
 | nl | 0.13 M | | Vondel, Multatuli | Vande Perre 1653 |
-| en | 0.24 M | | Doyle, Dickens | test fixture, Burgess 1912 |
+| en | 0.70 M | Bruce, Charles I in 1646; Evelyn correspondence v.4; Nicholas Papers v.1–2 | Doyle, Dickens | Royalist 1646, Boswell 1643, Burgess 1912 |
 
 `clean_ocr` runs on every file. It drops lines that are mostly non-letters (page furniture,
 tables, OCR garbage) and lines whose function words point to another language, which is how

@@ -30,7 +30,7 @@ Two things carried the Forster solve, and neither was cryptanalytic cleverness: 
 - Klaus Schmeh, [Top 50 unsolved encrypted messages](https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/)
 - Nick Pelling, [Cipher Mysteries](https://ciphermysteries.com/)
 
-Corpora used by the solvers (Corneille and Descartes from Project Gutenberg, a French frequency list) are not committed; the scripts say where to fetch them.
+The solvers build their language models from `cipherkit.corpora` (`uv run python -m cipherkit.corpora fetch all`); nothing else is needed.
 
 ## cipherkit
 

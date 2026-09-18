@@ -41,6 +41,10 @@ G, IA = "gutenberg", "ia"
 
 RECIPES: dict[str, list[Source]] = {
     "en": [
+        Source(IA, "charlesiin1646le00chariala", "Bruce, Charles I in 1646: letters to Queen Henrietta Maria (1646)"),
+        Source(IA, "diarycorresponde41evel", "Evelyn, Diary and Correspondence v.4 (17th c. letters)"),
+        Source(IA, "nicholaspapersc00nichgoog", "Nicholas Papers v.1 (1641-1652)"),
+        Source(IA, "thenicholaspaper02camduoft", "Nicholas Papers v.2 (1653-1655)"),
         Source(G, "1661", "Doyle, Adventures of Sherlock Holmes (1892)"),
         Source(G, "98", "Dickens, A Tale of Two Cities (1859)"),
     ],
