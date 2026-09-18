@@ -19,7 +19,7 @@ Working repo for attempts on historical ciphers that are short, context-rich, an
 
 ## Conventions and tracker
 
-[CONVENTIONS.md](CONVENTIONS.md): per-group grades (H key source, C known plaintext, S cryptanalytic with a control, M uncertain, I supplied), matched controls before any negative, printed editions before any campaign, absolute dates. [TARGETS.md](TARGETS.md): every target touched, its status, evidence and next step.
+[CONVENTIONS.md](CONVENTIONS.md): per-group grades (H key source, C known plaintext, S cryptanalytic with a control, M uncertain, I supplied), matched controls before any negative, printed editions before any campaign, absolute dates. [TARGETS.md](TARGETS.md): every target touched, its status, evidence and next step. [CATALOGUE.md](CATALOGUE.md): the 18 Sept 2026 sweep of DECODE, the BNE and PARES for undeciphered letters not on the standard lists, ranked by what stands between us and a reading.
 
 ## Method notes
 
