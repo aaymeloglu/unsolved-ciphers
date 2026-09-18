@@ -1,0 +1,7 @@
+# PARES signaturas already worked in cyphersolver (2026-09-18)
+EST,LEG,1394,247
+EST,LEG,8,150
+ESTADO,8715,N.45
+ESTADO,8715,N.57
+ESTADO,8715,N.60
+ESTADO,8715,N.73
