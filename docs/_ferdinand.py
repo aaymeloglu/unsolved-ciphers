@@ -242,7 +242,7 @@ def build(root, docs, page, crumbs, repo):
   <div>
     <div class="callout">
       <h3>What is not settled</h3>
-      <p>In 1635, one sign yields <em>e</em> where four words need <em>m</em>, and a 7-like sign yields <em>c</em> where <em>civitas</em> needs <em>a</em>; whether these are two glyphs conflated in transcription or copying errors is open, and the reading marks every such place rather than switching the key. The draft and the copy differ in wording at several points. In 1640 there is no plaintext witness at all: the reading rests on the alphabet carrying over and on the syllabary making sustained Latin sense across both pages. One sign at an obscured line end and the symbol <code>14</code> in Hatzfeld's name are unmapped; <em>igitua</em>, <em>materi</em> and <em>expredse</em> are apparent copying errors.</p>
+      <p>In 1635, one sign yields <em>e</em> where four words need <em>m</em>, and a 7 yields <em>c</em> where <em>civitas</em> needs <em>a</em>. On the photograph, checked on 18 September 2026, the four <em>m</em>-position signs have the same form as the <em>e</em>-position signs and the 7s are plain 7s, so these are the copy's own inconsistencies, not two glyphs conflated in transcription; the reading marks every such place rather than switching the key. The same check found that <em>hiberna</em> had been mis-transcribed (<code>1 11</code> read as <code>i u</code>) and it now decodes without repair. The draft and the copy differ in wording at several points. In 1640 there is no plaintext witness at all: the reading rests on the alphabet carrying over and on the syllabary making sustained Latin sense across both pages. One sign at an obscured line end and the symbol <code>14</code> in Hatzfeld's name are unmapped; <em>igitua</em>, <em>materi</em> and <em>expredse</em> are apparent copying errors.</p>
       <p>The draft-and-copy relationship was already in the catalogue, and no earlier reading of either letter was found in the sources checked, but novelty is not established: the Belgian archive lists nineteenth-century copies of this correspondence that were not inspected. No historical key sheet has been recovered.</p>
     </div>
     <h3>Reading the columns</h3>
@@ -298,7 +298,7 @@ def build(root, docs, page, crumbs, repo):
     <div>
       <h3>1635</h3>
       <ul>
-        <li>The <code>b</code>/<code>6</code>, <code>7</code>/<code>y</code>, <code>i</code>/<code>1</code> and <code>u</code>/<code>11</code>-like readings: glyph conflation in transcription or errors in the copy.</li>
+        <li>Four places where the copy writes the <em>e</em> sign for <em>m</em>, and two where it writes 7 for <em>a</em> or <em>u</em>: checked on the image, these are in the copy, not the transcription. The arc under <em>civitas</em> is unexplained.</li>
         <li>A marked <code>p</code> sign in <em>circumiacentibus</em>, apparent omissions and a doubled <em>n</em>.</li>
         <li>Wording differences between draft and copy (<em>circumvicinatibus</em> against <em>circumiacentibus</em>, <em>sumat</em> against <em>sumet</em>), and the order of the draft's late revisions.</li>
       </ul>

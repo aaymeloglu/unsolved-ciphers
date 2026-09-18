@@ -37,7 +37,7 @@ def grade_outputs(root):
                 if new not in decoder.PUNCT:
                     pos += 1
                     if token in extend_1640.REVIEW: changed.add((ident, pos))
-    doubtful35 = {('P1.L11',6), ('P1.L20',7), ('P1.L25',8), ('P2.L03',17)}
+    doubtful35 = {('P1.L11',6), ('P1.L20',7), ('P1.L25',8)}  # P2.L03 17-18 resolved on the image as 1 11, 18 Sept 2026
     summary = {}
     for record, suffix in [('R1889','working'), ('R1890','reviewed')]:
         counts = Counter()

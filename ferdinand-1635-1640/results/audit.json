@@ -16,8 +16,8 @@
   "warning": "Expanded key uses post-validation F evidence. Its coverage is not an independent validation. Symbol 6 is disputed.",
   "R1889_v1": {
     "tokens": 463,
-    "mapped_tokens": 434,
-    "unmapped_tokens": 29,
+    "mapped_tokens": 435,
+    "unmapped_tokens": 28,
     "unmapped_inventory": {
       "16": 2,
       "17": 1,
@@ -28,17 +28,15 @@
       "9": 4,
       "e": 4,
       "o": 1,
-      "p^": 1,
-      "u": 1
+      "p^": 1
     }
   },
   "R1889_expanded": {
     "tokens": 463,
-    "mapped_tokens": 461,
-    "unmapped_tokens": 2,
+    "mapped_tokens": 462,
+    "unmapped_tokens": 1,
     "unmapped_inventory": {
-      "p^": 1,
-      "u": 1
+      "p^": 1
     }
   },
   "R1890_v1": {
