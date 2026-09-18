@@ -20,7 +20,8 @@
       "table": "A",
       "code": "31443",
       "kind": "ordinary",
-      "value": "so"
+      "value": "so",
+      "grade": "H"
     },
     {
       "offset": 5,
@@ -35,7 +36,8 @@
       "table": "A",
       "code": "31047",
       "kind": "ordinary",
-      "value": "den"
+      "value": "den",
+      "grade": "H"
     },
     {
       "offset": 10,
@@ -50,7 +52,8 @@
       "table": "A",
       "code": "852",
       "kind": "control",
-      "value": "13"
+      "value": "13",
+      "grade": "-"
     },
     {
       "offset": 13,
@@ -65,7 +68,8 @@
       "table": "A",
       "code": "839",
       "kind": "control",
-      "value": "Marti"
+      "value": "Marti",
+      "grade": "-"
     },
     {
       "offset": 16,
@@ -80,7 +84,8 @@
       "table": "A",
       "code": "840",
       "kind": "switch",
-      "value": "[A→B]"
+      "value": "[A→B]",
+      "grade": "-"
     },
     {
       "offset": 19,
@@ -95,7 +100,8 @@
       "table": "B",
       "code": "44",
       "kind": "ordinary",
-      "value": "an"
+      "value": "an",
+      "grade": "H"
     },
     {
       "offset": 21,
@@ -110,7 +116,8 @@
       "table": "B",
       "code": "31065",
       "kind": "ordinary",
-      "value": "Euer Excellenz"
+      "value": "Euer Excellenz",
+      "grade": "H"
     },
     {
       "offset": 26,
@@ -125,7 +132,8 @@
       "table": "B",
       "code": "05",
       "kind": "ordinary",
-      "value": "ab"
+      "value": "ab",
+      "grade": "H"
     },
     {
       "offset": 28,
@@ -140,7 +148,8 @@
       "table": "B",
       "code": "31010",
       "kind": "ordinary",
-      "value": "ge/gn/gen"
+      "value": "ge/gn/gen",
+      "grade": "H"
     },
     {
       "offset": 33,
@@ -155,7 +164,8 @@
       "table": "B",
       "code": "31051",
       "kind": "ordinary",
-      "value": "fe"
+      "value": "fe",
+      "grade": "H"
     },
     {
       "offset": 38,
@@ -170,7 +180,8 @@
       "table": "B",
       "code": "31228",
       "kind": "ordinary",
-      "value": "r"
+      "value": "r",
+      "grade": "H"
     },
     {
       "offset": 43,
@@ -185,7 +196,8 @@
       "table": "B",
       "code": "31282",
       "kind": "ordinary",
-      "value": "t"
+      "value": "t",
+      "grade": "H"
     }
   ],
   "comparison_reading": "so den13Marti an EuerExcellenz abgefert…",

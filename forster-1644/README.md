@@ -1,5 +1,7 @@
 # Sir Richard Forster's ciphered letter, 13 May 1644: decipherment (2026-09-14)
 
+**Grades** ([CONVENTIONS.md](../CONVENTIONS.md)): 204 of 207 tokens S (read under a key found ciphertext-only; permutation control z = 8.8 in the independent review), 3 tokens I (the explicit emendations); no H or C, since no key source or contemporary decipherment is known. `python3 verify_solution.py` prints the counts.
+
 **Side-by-side reading:** [ciphertext, French and English](https://aaymeloglu.github.io/unsolved-ciphers/forster-reading.html).
 
 **Earlier decipherments:** this was not the first reading. Karen Britland told Robert Pitt that George Lasry supplied a decipherment after her 2013 article and that Norbert Biermann reached the same solution independently; Pitt reports this in his [forster-cipher](https://github.com/robertpitt/forster-cipher) repository, published a few hours before this one on 14 September 2026. His key and ours were reached separately and are identical. The earlier reading Britland passed on differs in a few words (*aucune voie*, *preveu seulement*, *soupir*). No priority is claimed here.

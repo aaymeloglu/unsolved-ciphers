@@ -2,6 +2,8 @@
 
 Generated from [transcription.json](transcription.json) and [key.json](key.json). Literal lookup and editorial reading are separate. See [notation and limitations](README.md#reproduce-the-literal-decoding) and [manuscript page locations](SOURCES.md#manuscript-page-locations).
 
+Grades per group follow [CONVENTIONS.md](../CONVENTIONS.md): H = looked up in the archival key, M = alternative labels, unread signs or absent from the key excerpt. Square brackets in a reading are supplied text (I); their count is given per row.
+
 ## f.35r
 
 ### f.35r, line 1
@@ -12,6 +14,8 @@ Literal: `ve | gnu | in | quest | a | ci | ta | fe | n | [1] | [5] | del | me | 
 
 Reading: Vegnu in questa cita fen 15 del mese
 
+Grades: `HHHHHHHHHHHHHH`
+
 ### f.35r, line 2
 
 `d32 f61 h52 g20 f42 c79 c47 f47 c28 g17 c75 c79`
@@ -19,6 +23,8 @@ Reading: Vegnu in questa cita fen 15 del mese
 Literal: `present | e | vi | rece | ssi | mo | il | signor | ge | ro | la | mo`
 
 Reading: presente, vi recessimo [ricevemmo?] il signor Gerolamo
+
+Grades: `HHHHHHHHHHHH` (1 supplied)
 
 ### f.35r, line 3
 
@@ -28,6 +34,8 @@ Literal: `go | n | di | et | i | l | {tre/c} | qua | le | che | ci | e`
 
 Reading: Gondi, et il [tre/c?] quale che ci e-
 
+Grades: `HHHHHHMHHHHH` (1 supplied)
+
 ### f.35r, line 4
 
 `a96 d10 h2 d70 c73 h40 h50 c10 a64 a14 h4 c22`
@@ -35,6 +43,8 @@ Reading: Gondi, et il [tre/c?] quale che ci e-
 Literal: `s | po | se | del | li | tra | va | gli | et | bi | so | gni`
 
 Reading: spose delli travagli et bisogni
+
+Grades: `HHHHHHHHHHHH`
 
 ### f.35r, line 5
 
@@ -44,6 +54,8 @@ Literal: `present | e | di | Sua Maesta Christianissima | e | gli | cusi | ne | 
 
 Reading: presente [sic] di Sua Maesta Christianissima. Egli cusi nella sua prima
 
+Grades: `HHHHHHHHHHHH` (1 supplied)
+
 ### f.35r, line 6
 
 `d53 f66 g99 f61 d55 h41 a32 g98 d10 c56 f66 d55`
@@ -51,6 +63,8 @@ Reading: presente [sic] di Sua Maesta Christianissima. Egli cusi nella sua prima
 Literal: `a | u | di | e | n | tia | come | do | po | in | u | n`
 
 Reading: audientia come dopo in un
+
+Grades: `HHHHHHHHHHHH`
 
 ### f.35r, line 7
 
@@ -60,6 +74,8 @@ Literal: `altr | a | che | he | be | da | noi | co | me | mo | ra | n`
 
 Reading: altra che hebe da noi, comemoran-
 
+Grades: `HHHHHHHHHHHH`
+
 ### f.35r, line 8
 
 `g98 a50 f64 d53 c79 c99 a64 d53 a82 h32 d2`
@@ -67,6 +83,8 @@ Reading: altra che hebe da noi, comemoran-
 Literal: `do | ci | l | a | mo | r | et | a | fe | ti | one`
 
 Reading: do ci l’amor et afetione
+
+Grades: `HHHHHHHHHHH`
 
 ### f.35r, line 9
 
@@ -76,6 +94,8 @@ Literal: `grand | e | che | quel | serenissim | o | re | po | r | ta | a | lla`
 
 Reading: grande che quel Serenissimo re porta alla
 
+Grades: `HHHHHHHHHHHH`
+
 ### f.35r, line 10
 
 `g15 d11 d54 c73 a52 f30 d53 a64 g9 h86 a35 a81 g99`
@@ -83,6 +103,8 @@ Reading: grande che quel Serenissimo re porta alla
 Literal: `re | pu | b | li | ca | nostr | a | et | quant | o | con | fi | di`
 
 Reading: republica nostra et quanto confidi
+
+Grades: `HHHHHHHHHHHHH`
 
 ### f.35r, line 11
 
@@ -92,6 +114,8 @@ Literal: `ne | lla | co | r | di | a | le | co | ri | s | po | n | de`
 
 Reading: nella cordiale corisponde-
 
+Grades: `HHHHHHHHHHHHH`
+
 ### f.35r, line 12
 
 `d55 h31 d70 d53 a82 h34 h86 h4 d53 f19 c79 f85 h88`
@@ -99,6 +123,8 @@ Reading: nella cordiale corisponde-
 Literal: `n | te | del | a | fe | tu | o | so | a | ni | mo | s | u`
 
 Reading: nte del afetuoso animo su-
+
+Grades: `HHHHHHHHHHHHH`
 
 ### f.35r, line 13
 
@@ -108,6 +134,8 @@ Literal: `o | ve | r | so | di | le | i | ne | ri | ce | r | co | con`
 
 Reading: o verso di lei, ne ricerco con
 
+Grades: `HHHHHHHHHHHHH`
+
 ### f.35r, line 14
 
 `c91 d53 c56 g38 d55 h41 g99 h4 h51 f19 c99 c74`
@@ -115,6 +143,8 @@ Reading: o verso di lei, ne ricerco con
 Literal: `molt | a | in | sta | n | tia | di | so | ve | ni | r | le`
 
 Reading: molta instantia di sovenirle
+
+Grades: `HHHHHHHHHHHH`
 
 ### f.35r, line 15
 
@@ -124,6 +154,8 @@ Literal: `in | tant | a | necess | i | ta | et | so | mi | ni | s | tra | r | le
 
 Reading: in tanta necessita et soministrarle
 
+Grades: `HHHHHHHHHHHHHH`
+
 ### f.35r, line 16
 
 `f6 h4 a49 c99 h4 d23 g15 h3 h32 c99 f5 f63 c78 f18`
@@ -132,6 +164,8 @@ Literal: `alcun | so | co | r | so | per | re | si | ti | r | al | i | mi | ne`
 
 Reading: alcun socorso per resitir al imine-
 
+Grades: `HHHHHHHHHHHHHH`
+
 ### f.35r, line 17
 
 `d55 h31 d8 g16 a49 c72 g99 g10 c75 a49 g17 f17 a64`
@@ -139,6 +173,8 @@ Reading: alcun socorso per resitir al imine-
 Literal: `n | te | pe | ri | co | lo | di | quel | la | co | ro | na | et`
 
 Reading: nte pericolo di quella corona et
+
+Grades: `HHHHHHHHHHHHH`
 
 ## f.35v
 
@@ -150,6 +186,8 @@ Literal: `a | ssi | cu | ra | r | si | dal | li | ne | mi | ci | del | [??]`
 
 Reading: assicurar si dalli nemici del[...]
 
+Grades: `HHHHHHHHHHHHM` (1 supplied)
+
 ### f.35v, line 2
 
 `{f66/h86} {f69/f29} d53 h53 f64 h30 c99 d10 f63 c74 h17 a80`
@@ -157,6 +195,8 @@ Reading: assicurar si dalli nemici del[...]
 Literal: `{u/o} | {n/nontio} | a | vo | l | ta | r | po | i | le | sue | fo`
 
 Reading: [...] voltar poi le sue fo-
+
+Grades: `MMHHHHHHHHHH` (1 supplied)
 
 ### f.35v, line 3
 
@@ -166,6 +206,8 @@ Literal: `ze | a | lla | re | cu | pe | ra | ti | one | di | sa | lu | zo | [??]
 
 Reading: ze alla recuperatione di Saluzo [...]
 
+Grades: `HHHHHHHHHHHHHM` (1 supplied)
+
 ### f.35v, line 4
 
 `h33? c10 g73 f47 h96? g99 h1 h53 c27 d53 f18 c70 ?`
@@ -173,6 +215,8 @@ Reading: ze alla recuperatione di Saluzo [...]
 Literal: `[h33??] | gli | dal | signor | [h96??] | di | sa | vo | gi | a | ne | lla | [??]`
 
 Reading: [to?]gli dal signor [duca?] di Savogia nella [gu-?]
+
+Grades: `MHHHMHHHHHHHM` (3 supplied)
 
 ### f.35v, line 5
 
@@ -182,6 +226,8 @@ Literal: `e | ra | che | e | no | ta | a | ca | da | u | no | [[?]?]`
 
 Reading: era che e nota a cadauno [in-?]
 
+Grades: `HHHHHHHHHHHM` (1 supplied)
+
 ### f.35v, line 6
 
 `h52 h30 d55 g98 a50 d53 d13 g41 g2 c72 ?`
@@ -189,6 +235,8 @@ Reading: era che e nota a cadauno [in-?]
 Literal: `vi | ta | n | do | ci | a | pre | sso | que | lo | [??]`
 
 Reading: vitandoci appresso que lo [...]
+
+Grades: `HHHHHHHHHHM` (1 supplied)
 
 ### f.35v, line 7
 
@@ -198,6 +246,8 @@ Literal: `ca | ssi | mo | be | ne | a | co | lle | ga | r | si | [[?]?]`
 
 Reading: cassimo bene a collegarsi [...]
 
+Grades: `HHHHHHHHHHHM` (1 supplied)
+
 ### f.35v, line 8
 
 `a64 a96 a85 d55 c28 c99 h3 c76 c27 h86 c89 h2 {a49/?}`
@@ -205,6 +255,8 @@ Reading: cassimo bene a collegarsi [...]
 Literal: `et | s | tri | n | ge | r | si | ma | gi | o | mente | se | {co/[??]}`
 
 Reading: et stringersi magio[r]mente se[co]
+
+Grades: `HHHHHHHHHHHHM` (2 supplied)
 
 ### f.35v, line 9
 
@@ -214,6 +266,8 @@ Literal: `in | qualche | u | ni | one | di | le | ga | a | ssi | cu | ra | [??]`
 
 Reading: in qualche unione di lega, assicura[...]
 
+Grades: `HHHHHHHHHHHHM` (1 supplied)
+
 ### f.35v, line 10
 
 `g98 f18 a28 f18 {h1/h2} g16 d53 f20 a83 h32 h49 f63 ?`
@@ -221,6 +275,8 @@ Reading: in qualche unione di lega, assicura[...]
 Literal: `do | ne | che | ne | {sa/se} | ri | a | no | fa | ti | tutt | i | [??]`
 
 Reading: done che ne [sariano/seriano] fati tutti [...]
+
+Grades: `HHHHMHHHHHHHM` (2 supplied)
 
 ### f.35v, line 11
 
@@ -230,6 +286,8 @@ Literal: `la | r | gi | et | a | va | n | ta | gi | o | si | [??]`
 
 Reading: largi et avantagiosi [par?]
 
+Grades: `HHHHHHHHHHHM` (1 supplied)
+
 ### f.35v, line 12
 
 `h32 h32 a28 h3? d10 h31 f42 c79 g72 h3 g72 g14 g15 ?`
@@ -237,6 +295,8 @@ Reading: largi et avantagiosi [par?]
 Literal: `ti | ti | che | [h3??] | po | te | ssi | mo | de | si | de | ra | re | [??]`
 
 Reading: titi che [si?] potessimo desiderare [Alla]
+
+Grades: `HHHMHHHHHHHHHM` (2 supplied)
 
 ### f.35v, line 13
 
@@ -246,6 +306,8 @@ Literal: `qual | sua | pro | po | sta | i | s | cu | sa | n | do | si | no | [??
 
 Reading: qual sua proposta, iscusandosi no[i]
 
+Grades: `HHHHHHHHHHHHHM` (1 supplied)
+
 ### f.35v, line 14
 
 `a49 c73 d32 f63 c79 h52 c77 d55 h32 a64 d23 f9 {f63/?}`
@@ -253,6 +315,8 @@ Reading: qual sua proposta, iscusandosi no[i]
 Literal: `co | li | present | i | mo | vi | me | n | ti | et | per | altr | {i/[??]}`
 
 Reading: co li presenti movimenti et per altr[i]
+
+Grades: `HHHHHHHHHHHHM` (1 supplied)
 
 ### f.35v, line 15
 
@@ -262,6 +326,8 @@ Literal: `nostr | i | gra | vi | ssi | mi | ri | spe | ti | di | non | {po/[??]}
 
 Reading: nostri gravissimi rispeti di non [po-]
 
+Grades: `HHHHHHHHHHHM` (1 supplied)
+
 ### f.35v, line 16
 
 `h31 c99 c26 h4 g99 a96 a83 g15 a32 h53 c74 d55`
@@ -269,6 +335,8 @@ Reading: nostri gravissimi rispeti di non [po-]
 Literal: `te | r | go | so | di | s | fa | re | come | vo | le | n`
 
 Reading: tergo [sic; tergli?] sodisfare come volen-
+
+Grades: `HHHHHHHHHHHH` (1 supplied)
 
 ### f.35v, line 17
 
@@ -278,6 +346,8 @@ Literal: `ti | e | ri | vo | re | ssi | mo | po | te | r | far | {habbia/lla} | 
 
 Reading: tieri voressimo poter far, [habbia]mo
 
+Grades: `HHHHHHHHHHHMM` (1 supplied)
+
 ### f.35v, line 18
 
 `g16 a96 d10 h7 g10 c72 a28 h51 g72 g15 h31 g73 ?`
@@ -285,6 +355,8 @@ Reading: tieri voressimo poter far, [habbia]mo
 Literal: `ri | s | po | sto | quel | lo | che | ve | de | re | te | dal | [??]`
 
 Reading: risposto quello che vederete dal[la]
+
+Grades: `HHHHHHHHHHHHM` (1 supplied)
 
 ### f.35v, line 19
 
@@ -294,6 +366,8 @@ Literal: `co | pi | a | che | vi | man | da | mo | co | l | [f4??]`
 
 Reading: copia che vi mandamo col[...]
 
+Grades: `HHHHHHHHHHM` (1 supplied)
+
 ### f.35v, line 20
 
 `c56 {a92/a94} c71 h1 f18 c69 d32 f63 d23 h70 d53 c56 ?`
@@ -302,6 +376,8 @@ Literal: `in | {[8]/c} | lu | sa | ne | lle | present | i | per | vostr | a | in
 
 Reading: in[c?]lusa nelle presenti per vostra in[forma-?]
 
+Grades: `HMHHHHHHHHHHM` (2 supplied)
+
 ### f.35v, line 21
 
 `h32 d2 a64 d24 c56 a80 c99 c76 h33 g99 g12 d53`
@@ -309,6 +385,8 @@ Reading: in[c?]lusa nelle presenti per vostra in[forma-?]
 Literal: `ti | one | et | perche | in | fo | r | ma | to | di | quest | a`
 
 Reading: tione et perche informato di questa
+
+Grades: `HHHHHHHHHHHH`
 
 ## f.36r
 
@@ -320,6 +398,8 @@ Literal: `tra | ta | ti | one | et | del | la | nostr | a | inte | n | ti | one 
 
 Reading: tratatione et della nostra intentione in
 
+Grades: `HHHHHHHHHHHHHH`
+
 ### f.36r, line 2
 
 `f61 h51 d55 h33 a28 h51 f18 f46 d7 c99 c75 h33 g70 h22 h86`
@@ -327,6 +407,8 @@ Reading: tratatione et della nostra intentione in
 Literal: `e | ve | n | to | che | ve | ne | sia | pa | r | la | to | da | Sua Maesta Christianissima | o`
 
 Reading: evento che ve ne sia parlato da Sua Maesta Christianissima o
+
+Grades: `HHHHHHHHHHHHHHH`
 
 ### f.36r, line 3
 
@@ -336,6 +418,8 @@ Literal: `da | alcun | de | sui | mi | n | s | tri | po | ssi | a | te | in | qu
 
 Reading: da alcun de sui ministri possiate in que-
 
+Grades: `HHHHHHHHHHHHHH`
+
 ### f.36r, line 4
 
 `g38 h86 a49 g15 d55 h75 c26 h51 c99 f17 c99 h52 a35 a80`
@@ -343,6 +427,8 @@ Reading: da alcun de sui ministri possiate in que-
 Literal: `sta | o | co | re | n | za | go | ve | r | na | r | vi | con | fo`
 
 Reading: sta occorenza governarvi confo-
+
+Grades: `HHHHHHHHHHHHHH`
 
 ### f.36r, line 5
 
@@ -352,6 +438,8 @@ Literal: `r | me | al | se | n | so | nostr | o | et | ri | s | po | n | de | r`
 
 Reading: rme al senso nostro et risponder
 
+Grades: `HHHHHHHHHHHHHHH`
+
 ### f.36r, line 6
 
 `c56 g10 c75 h4 g38 d55 h75 a28 c30 c79 f26 a83 h33 g99 g1`
@@ -359,6 +447,8 @@ Reading: rme al senso nostro et risponder
 Literal: `in | quel | la | so | sta | n | za | che | habbia | mo | noi | fa | to | di | qua`
 
 Reading: in quella sostanza che habbiamo noi fato di qua
+
+Grades: `HHHHHHHHHHHHHHH`
 
 ### f.36r, line 7
 
@@ -368,6 +458,8 @@ Literal: `ne | l | qual | ca | so | fa | re | te | quel | li | prudent | i | et 
 
 Reading: nel qual caso farete quelli prudenti et des-
 
+Grades: `HHHHHHHHHHHHHHH`
+
 ### f.36r, line 8
 
 `a85 h86 a81 a50 f63 a28 h52 ? ? a15 f19 f42 c79`
@@ -375,6 +467,8 @@ Reading: nel qual caso farete quelli prudenti et des-
 Literal: `tri | o | fi | ci | i | che | vi | [??] | [??] | be | ni | ssi | mo`
 
 Reading: tri oficii che vi [...] benissimo
+
+Grades: `HHHHHHHMMHHHH` (1 supplied)
 
 ### f.36r, line 9
 
@@ -384,6 +478,8 @@ Literal: `u | sa | re | a | fi | ne | che | si | co | no | sca | no | li`
 
 Reading: usare a fine che si conoscano li
 
+Grades: `HHHHHHHHHHHHH`
+
 ### f.36r, line 10
 
 `c27 f66 g40 f42 c78 g16 f36 h32 a28 a50 c41 f20 c56`
@@ -391,6 +487,8 @@ Reading: usare a fine che si conoscano li
 Literal: `gi | u | sti | ssi | mi | ri | spe | ti | che | ci | ha | no | in`
 
 Reading: giustissimi rispeti che ci hano in-
+
+Grades: `HHHHHHHHHHHHH`
 
 ### f.36r, line 11
 
@@ -400,6 +498,8 @@ Literal: `tra | te | nu | to | di | non | po | te | r | in | quest | a`
 
 Reading: tratenuto di non poter in questa
 
+Grades: `HHHHHHHHHHHH`
+
 ### f.36r, line 12
 
 `h86 a52 h3 d2 h4 g99 a96 a83 g15 d53 f26 c77 g72`
@@ -407,6 +507,8 @@ Reading: tratenuto di non poter in questa
 Literal: `o | ca | si | one | so | di | s | fa | re | a | noi | me | de`
 
 Reading: ocasione sodisfare a noi mede-
+
+Grades: `HHHHHHHHHHHHH`
 
 ### f.36r, line 13
 
@@ -416,6 +518,8 @@ Literal: `si | mi | et | a | lla | o | ti | ma | di | s | po | si | ti | one`
 
 Reading: simi et alla otima dispositione
 
+Grades: `HHHHHHHHHHHHHH`
+
 ### f.36r, line 14
 
 `f30 d53 h51 c99 h4 g10 c75 f44 d53 a49 g17 f17`
@@ -423,6 +527,8 @@ Reading: simi et alla otima dispositione
 Literal: `nostr | a | ve | r | so | quel | la | serenissim | a | co | ro | na`
 
 Reading: nostra verso quella serenissima corona
+
+Grades: `HHHHHHHHHHHH`
 
 ### f.36r, line 15
 
@@ -432,6 +538,8 @@ Literal: `con | gi | u | n | ta | con | u | n | so | mo | de | si | de`
 
 Reading: congiunta con un somo deside-
 
+Grades: `HHHHHHHHHHHHH`
+
 ### f.36r, line 16
 
 `g16 h86 g99 d1 c11 f61 h75 a64 d15 f36 g16 h30`
@@ -439,6 +547,8 @@ Reading: congiunta con un somo deside-
 Literal: `ri | o | di | ogni | grand | e | za | et | pro | spe | ri | ta`
 
 Reading: rio di ogni grandeza et prosperita
+
+Grades: `HHHHHHHHHHHH`
 
 Clear handwriting (brackets mark expansions or uncertainty):
 
@@ -454,6 +564,8 @@ Literal: `accio | che | po | ssi | a | te | con | tant | {o/[??]} | {ma/[??]}`
 
 Reading: accio che possiate con tant[o ma-]
 
+Grades: `HHHHHHHHMM` (1 supplied)
+
 ### f.36v, line 2
 
 `c27 h86 c99 a96 h34 {g99/g29} h86 d15 a48 g14 {c99/?}`
@@ -461,6 +573,8 @@ Reading: accio che possiate con tant[o ma-]
 Literal: `gi | o | r | s | tu | {di/regno} | o | pro | cu | ra | {r/[??]}`
 
 Reading: gior stu[di]o procura[r]
+
+Grades: `HHHHHMHHHHM` (2 supplied)
 
 ### f.36v, line 3
 
@@ -470,6 +584,8 @@ Literal: `u | n | a | s | tra | da | per | in | vi | a | r`
 
 Reading: una strada per inviar
 
+Grades: `HHHHHHHHHHH`
+
 ### f.36v, line 4
 
 `c63 a64 g70 c99 a50 c71 c77 d70 c74 a49 ?`
@@ -477,6 +593,8 @@ Reading: una strada per inviar
 Literal: `lettere | et | da | r | ci | lu | me | del | le | co | [??]`
 
 Reading: lettere et darci lume delle co[se che?]
+
+Grades: `HHHHHHHHHHM` (1 supplied)
 
 ### f.36v, line 5
 
@@ -486,6 +604,8 @@ Literal: `o | co | re | no | [null] | li | a | lla | giorn | a | {ta/[??]}`
 
 Reading: ocoreno [null] li alla giorna[ta]
 
+Grades: `HHHHHHHHHHM` (2 supplied)
+
 ### f.36v, line 6
 
 `g99 f30 d53 {h2/h1} {a54/f61} h30`
@@ -493,6 +613,8 @@ Reading: ocoreno [null] li alla giorna[ta]
 Literal: `di | nostr | a | {se/sa} | {cre/e} | ta`
 
 Reading: di nostra [unresolved ending]
+
+Grades: `HHHMMH` (1 supplied)
 
 Clear handwriting (brackets mark expansions or uncertainty):
 
@@ -510,6 +632,8 @@ Literal: `[1] | [5] | [8] | [9] | a | [2] | [4] | a | pri | l | co | pi | a`
 
 Reading: 1589 a 24 april, copia
 
+Grades: `HHHHHHHHHHHHH`
+
 ### f.37r, line 2
 
 `d70 c75 g33 g38 a83 h30 f5 f47 c26 d55 g99 f10 g99 a71`
@@ -517,6 +641,8 @@ Reading: 1589 a 24 april, copia
 Literal: `del | la | rispo | sta | fa | ta | al | signor | go | n | di | ambasc | di | francia`
 
 Reading: della risposta fata al signor Gondi, ambasc[iatore] di Francia.
+
+Grades: `HHHHHHHHHHHHHH` (1 supplied)
 
 ### f.37r, line 3
 
@@ -526,6 +652,8 @@ Literal: `signor | ambasc | la | molt | a | a | fe | ti | one | che | in | tutt 
 
 Reading: Signor ambasc[iatore], la molta afetione, che in tutti li tempo [sic]
 
+Grades: `HHHHHHHHHHHHHHH` (2 supplied)
+
 ### f.37r, line 4
 
 `d7 f40 h32 f61 g38 h30 d10 c99 h30 h30 a64 h49 d53 h52 d53`
@@ -533,6 +661,8 @@ Reading: Signor ambasc[iatore], la molta afetione, che in tutti li tempo [sic]
 Literal: `pa | ssa | ti | e | sta | ta | po | r | ta | ta | et | tutt | a | vi | a`
 
 Reading: passati è stata portata et tuttavia
+
+Grades: `HHHHHHHHHHHHHHH`
 
 ### f.37r, line 5
 
@@ -542,6 +672,8 @@ Literal: `po | r | ta | la | re | pu | b | li | ca | nostr | a | a | lla | seren
 
 Reading: porta la republica nostra alla Serenissima
 
+Grades: `HHHHHHHHHHHHHH`
+
 ### f.37r, line 6
 
 `d53 a49 g17 f17 g99 a71 f61 a47 a15 d55 f20 h30 f3 d1`
@@ -549,6 +681,8 @@ Reading: porta la republica nostra alla Serenissima
 Literal: `a | co | ro | na | di | francia | e | cusi | be | n | no | ta | ad | ogni`
 
 Reading: corona di Francia è cusi ben nota ad ogni
+
+Grades: `HHHHHHHHHHHHHH`
 
 ### f.37r, line 7
 
@@ -558,6 +692,8 @@ Literal: `u | no | quant | o | sia | chi | a | ri | ssi | mo | il | co | r | di`
 
 Reading: uno, quanto sia chiarissimo il cordi-
 
+Grades: `HHHHHHHHHHHHHH`
+
 ### f.37r, line 8
 
 `d53 c74 d53 c79 g15 a28 d10 c99 h30 c79 a64 c75 c11 f61 g40 c76`
@@ -565,6 +701,8 @@ Reading: uno, quanto sia chiarissimo il cordi-
 Literal: `a | le | a | mo | re | che | po | r | ta | mo | et | la | grand | e | sti | ma`
 
 Reading: ale amore che portamo et la grande stima
+
+Grades: `HHHHHHHHHHHHHHHH`
 
 ### f.37r, line 9
 
@@ -574,6 +712,8 @@ Literal: `che | fa | ci | mo | del | la | pa | r | ti | co | la | r | per | so |
 
 Reading: che facimo della particolar persona di
 
+Grades: `HHHHHHHHHHHHHHHH`
+
 ### f.37r, line 10
 
 `h22 d23 c47 h2 d55 h32 c79 g10 g99 f37 d53 a51 c99 d70 c74`
@@ -581,6 +721,8 @@ Reading: che facimo della particolar persona di
 Literal: `Sua Maesta Christianissima | per | il | se | n | ti | mo | quel | di | spi | a | ce | r | del | le`
 
 Reading: Sua Maestà Christianissima, per il[che?] sentimo quel dispiacer delle
+
+Grades: `HHHHHHHHHHHHHHH` (1 supplied)
 
 ### f.37r, line 11
 
@@ -590,6 +732,8 @@ Literal: `so | le | ti | one | di | quel | regno | et | del | li | tra | va | gl
 
 Reading: soletione [sic] di quel regno et delli travagli della ma-
 
+Grades: `HHHHHHHHHHHHHHHH` (1 supplied)
+
 ### f.37r, line 12
 
 `f61 g38 h16 a28 a35 d10 c99 h30 c75 g15 a50 d15 a52 a13 f17`
@@ -597,6 +741,8 @@ Reading: soletione [sic] di quel regno et delli travagli della ma-
 Literal: `e | sta | sua | che | con | po | r | ta | la | re | ci | pro | ca | bo | na`
 
 Reading: esta sua che conporta la reciproca bona
+
+Grades: `HHHHHHHHHHHHHHH`
 
 ### f.37r, line 13
 
@@ -606,6 +752,8 @@ Literal: `inte | li | ge | n | tia | et | che | ci | s | fo | r | za | l | o | t
 
 Reading: inteligentia, et che ci sforza l’oti-
 
+Grades: `HHHHHHHHHHHHHHH`
+
 ### f.37r, line 14
 
 `c76 g99 a96 d10 h3 h32 d2 a64 h86 f41 c99 h50 d55 h41`
@@ -613,6 +761,8 @@ Reading: inteligentia, et che ci sforza l’oti-
 Literal: `ma | di | s | po | si | ti | one | et | o | sse | r | va | n | tia`
 
 Reading: ma dispositione et osservantia
+
+Grades: `HHHHHHHHHHHHHH`
 
 ### f.37r, line 15
 
@@ -622,6 +772,8 @@ Literal: `nostr | a | ve | r | so | di | le | i | quant | o | a | le | ri | chi`
 
 Reading: nostra verso di lei. Quanto a le richi-
 
+Grades: `HHHHHHHHHHHHHH`
+
 ### f.37r, line 16
 
 `f61 g39 a83 h31 a50 g70 h70 d53 f47 f63 d53 c56 f20 c77`
@@ -629,6 +781,8 @@ Reading: nostra verso di lei. Quanto a le richi-
 Literal: `e | ste | fa | te | ci | da | vostr | a | signor | i | a | in | no | me`
 
 Reading: este fateci da vostra signoria in nome
+
+Grades: `HHHHHHHHHHHHHH`
 
 ### f.37r, line 17
 
@@ -638,6 +792,8 @@ Literal: `di | quel | serenissim | o | re | le | di | ci | mo | che | [null] | l
 
 Reading: di quel Serenissimo re, le dicimo che li
 
+Grades: `HHHHHHHHHHHHH`
+
 ### f.37r, line 18
 
 `h40 h50 c10 g99 h22 f18 h4 f20 a89 h86 d28 c19 h52`
@@ -645,6 +801,8 @@ Reading: di quel Serenissimo re, le dicimo che li
 Literal: `tra | va | gli | di | Sua Maesta Christianissima | ne | so | no | tant | o | piu | gra | vi`
 
 Reading: travagli di Sua Maestà Christianissima ne sono tanto più gravi
+
+Grades: `HHHHHHHHHHHHH`
 
 ### f.37r, line 19
 
@@ -654,6 +812,8 @@ Literal: `quant | o | che | ve | di | a | mo | di | non | po | te | r | hora`
 
 Reading: quanto che vediamo di non poter hora
 
+Grades: `HHHHHHHHHHHHH`
+
 ### f.37r, line 20
 
 `a35 c75 f30 d53 d15 d55 h30 h53 c72 d55 h30 h51 c99 h4`
@@ -661,6 +821,8 @@ Reading: quanto che vediamo di non poter hora
 Literal: `con | la | nostr | a | pro | n | ta | vo | lo | n | ta | ve | r | so`
 
 Reading: con la nostra pronta volontà verso
+
+Grades: `HHHHHHHHHHHHHH`
 
 ### f.37r, line 21
 
@@ -670,6 +832,8 @@ Literal: `il | se | r | vi | ti | o | di | le | i | a | con | pa | gna`
 
 Reading: il servitio di lei aconpagna-
 
+Grades: `HHHHHHHHHHHHH`
+
 ### f.37r, line 22
 
 `c99 d7 g16 f61 a82 h32 a32 f9 f61 h53 f64 h31 c30`
@@ -677,6 +841,8 @@ Reading: il servitio di lei aconpagna-
 Literal: `r | pa | ri | e | fe | ti | come | altr | e | vo | l | te | habbia`
 
 Reading: r pari efeti come altre volte habbia-
+
+Grades: `HHHHHHHHHHHHH`
 
 ### f.37r, line 23
 
@@ -686,6 +852,8 @@ Literal: `mo | fa | to | po | i | che | la | con | di | ti | one | de | tempo | 
 
 Reading: mo fato [poiche?] la conditione de tempo l’
 
+Grades: `HHHHHHHHHHHHHH` (1 supplied)
+
 ### f.37r, line 24
 
 `f65 f61 a83 h30 h30 c74 d23 c73 c79 h32 h52 f65 a28 h3`
@@ -693,6 +861,8 @@ Reading: mo fato [poiche?] la conditione de tempo l’
 Literal: `[null] | e | fa | ta | ta | le | per | li | mo | ti | vi | [null] | che | si`
 
 Reading: e fata tale per li motivi che si
+
+Grades: `HHHHHHHHHHHHHH`
 
 ## f.37v
 
@@ -704,6 +874,8 @@ Literal: `[null] | scriue | no | da | di | ve | r | se | pa | r | ti | che | fa 
 
 Reading: scriveno da diverse parti che fa[no?]
 
+Grades: `HHHHHHHHHHHHHM` (1 supplied)
+
 ### f.37v, line 2
 
 `d8 d55 h1 g15 a64 d15 h51 g72 g15 d53 c70 a35 h2 c99 ?`
@@ -711,6 +883,8 @@ Reading: scriveno da diverse parti che fa[no?]
 Literal: `pe | n | sa | re | et | pro | ve | de | re | a | lla | con | se | r | [??]`
 
 Reading: pensare et provedere alla conser[vation?]
+
+Grades: `HHHHHHHHHHHHHHM` (1 supplied)
 
 ### f.37v, line 3
 
@@ -720,6 +894,8 @@ Literal: `et | si | cu | r | ta | del | le | co | se | nostr | e | tutt | a | [?
 
 Reading: et sicurta delle cose nostre. Tutta[via]
 
+Grades: `HHHHHHHHHHHHHM` (1 supplied)
+
 ### f.37v, line 4
 
 `d23 g70 g15 d53 h22 g10 c76 c27 h86 h31 g40 c79 ?`
@@ -727,6 +903,8 @@ Reading: et sicurta delle cose nostre. Tutta[via]
 Literal: `per | da | re | a | Sua Maesta Christianissima | quel | ma | gi | o | te | sti | mo | [??]`
 
 Reading: Per dare a Sua Maesta Christianissima quel magio[r?] testimo[nio?]
+
+Grades: `HHHHHHHHHHHHM` (2 supplied)
 
 ### f.37v, line 5
 
@@ -736,6 +914,8 @@ Literal: `che | per | noi | si | pu | o | al | present | e | del | la | pro | [?
 
 Reading: che per noi si puo al presente della pro[nta?]
 
+Grades: `HHHHHHHHHHHHM` (1 supplied)
+
 ### f.37v, line 6
 
 `f30 d53 a64 a35 h32 f21 d53 h30 h53 c72 d55 h30 f18 {f64/?}`
@@ -743,6 +923,8 @@ Reading: che per noi si puo al presente della pro[nta?]
 Literal: `nostr | a | et | con | ti | nu | a | ta | vo | lo | n | ta | ne | {l/[??]}`
 
 Reading: nostra et continuata volonta ne[l]
+
+Grades: `HHHHHHHHHHHHHM` (1 supplied)
 
 ### f.37v, line 7
 
@@ -752,6 +934,8 @@ Literal: `de | si | de | ra | re | et | pro | cu | ra | re | il | be | ne`
 
 Reading: desiderare et procurare il bene
 
+Grades: `HHHHHHHHHHHHH`
+
 ### f.37v, line 8
 
 `c75 c11 f61 h75 g99 g10 c75 f44 d53 a49 g17 f17 a64`
@@ -759,6 +943,8 @@ Reading: desiderare et procurare il bene
 Literal: `la | grand | e | za | di | quel | la | serenissim | a | co | ro | na | et`
 
 Reading: la grandeza di quella serenissima corona et
+
+Grades: `HHHHHHHHHHHHH`
 
 ### f.37v, line 9
 
@@ -768,6 +954,8 @@ Literal: `pa | r | ti | co | la | r | co | mo | do | et | se | r | vi | [??]`
 
 Reading: particolar comodo et servi[tio?]
 
+Grades: `HHHHHHHHHHHHHM` (1 supplied)
+
 ### f.37v, line 10
 
 `d70 c75 h16 d23 h4 f17 g70 f26 a89 h86 h86 f41 {c99/?} ?`
@@ -775,6 +963,8 @@ Reading: particolar comodo et servi[tio?]
 Literal: `del | la | sua | per | so | na | da | noi | tant | o | o | sse | {r/[??]} | [??]`
 
 Reading: della sua persona da noi tanto osser[va-?]
+
+Grades: `HHHHHHHHHHHHMM` (1 supplied)
 
 ### f.37v, line 11
 
@@ -784,6 +974,8 @@ Literal: `ta | habbia | mo | de | li | be | ra | to | come | gi | a | fa | ce | 
 
 Reading: ta, habbiamo deliberato come gia facessimo
 
+Grades: `HHHHHHHHHHHHHHM`
+
 ### f.37v, line 12
 
 `d23 h86 a52 h3 d2 d70 c74 a49 h2 g99 h1 c71 h78 g72 c59`
@@ -791,6 +983,8 @@ Reading: ta, habbiamo deliberato come gia facessimo
 Literal: `per | o | ca | si | one | del | le | co | se | di | sa | lu | zo | de | inte`
 
 Reading: per ocasione delle cose di Saluzo de inte-
+
+Grades: `HHHHHHHHHHHHHHH`
 
 ### f.37v, line 13
 
@@ -800,6 +994,8 @@ Literal: `po | ne | r | al | present | e | ancor | con | no | ve | et | e | fi |
 
 Reading: poner al presente ancor con nove et eficace in-
 
+Grades: `HHHHHHHHHHHHHHHH`
+
 ### f.37v, line 14
 
 `g38 d55 h75 d13 g41 c47 h4 c79 d10 d55 h32 a81 a51 c75 c59 c99 a51`
@@ -807,6 +1003,8 @@ Reading: poner al presente ancor con nove et eficace in-
 Literal: `sta | n | za | pre | sso | il | so | mo | po | n | ti | fi | ce | la | inte | r | ce`
 
 Reading: stanza presso il somo pontifice la interce-
+
+Grades: `HHHHHHHHHHHHHHHHH`
 
 ### f.37v, line 15
 
@@ -816,6 +1014,8 @@ Literal: `ssi | one | del | la | re | pu | b | li | ca | nostr | a | perche | su
 
 Reading: ssione della republica nostra perche sua santita
 
+Grades: `HHHHHHHHHHHHHHHHH`
+
 ### f.37v, line 16
 
 `h3 c79 h52 d53 g98 h51 g15 a35 c75 h16 h4 c76 d53 f66 h33 g16 h30`
@@ -823,6 +1023,8 @@ Reading: ssione della republica nostra perche sua santita
 Literal: `si | mo | vi | a | do | ve | re | con | la | sua | so | ma | a | u | to | ri | ta`
 
 Reading: si movi a dovere con la sua soma autorita
+
+Grades: `HHHHHHHHHHHHHHHHH`
 
 ### f.37v, line 17
 
@@ -832,6 +1034,8 @@ Literal: `fa | vo | ri | re | o | ve | fa | ra | bi | so | gno | la | ca | u | s
 
 Reading: favorire ove fara bisogno la causa giu-
 
+Grades: `HHHHHHHHHHHHHHHHH`
+
 ### f.37v, line 18
 
 `f42 c76 d70 c75 c76 f61 g38 h16 f18 f64 d53 g2 h30 g15 c74`
@@ -839,6 +1043,8 @@ Reading: favorire ove fara bisogno la causa giu-
 Literal: `ssi | ma | del | la | ma | e | sta | sua | ne | l | a | que | ta | re | le`
 
 Reading: ssima della maesta sua nel aquetare le
+
+Grades: `HHHHHHHHHHHHHHH`
 
 ### f.37v, line 19
 
@@ -848,6 +1054,8 @@ Literal: `so | lle | va | ti | o | ni | di | quel | regno | et | a | mo | r | za
 
 Reading: sollevationi di quel regno et amorzare
 
+Grades: `HHHHHHHHHHHHHHH`
+
 ### f.37v, line 20
 
 `g12 h86 c56 a51 d55 g99 h86 g99 c25 f61 g14 c49 h3 h51 g72 a35`
@@ -855,6 +1063,8 @@ Reading: sollevationi di quel regno et amorzare
 Literal: `quest | o | in | ce | n | di | o | di | gu | e | ra | ilqual | si | ve | de | con`
 
 Reading: questo incendio di guera ilqual si vede con
+
+Grades: `HHHHHHHHHHHHHHHH`
 
 ### f.37v, line 21
 
@@ -864,6 +1074,8 @@ Literal: `cri | r | ti | ssi | mo | da | no | et | ma | gi | o | ri | pe | ri | 
 
 Reading: crirtissimo [sic; certissimo?] dano et magiori pericoli
 
+Grades: `HHHHHHHHHHHHHHHH` (1 supplied)
+
 ### f.37v, line 22
 
 `g99 h49 d53 c75 a55 g40 d53 f19 h30 h3 h50 d53 a51 d55 g72`
@@ -871,6 +1083,8 @@ Reading: crirtissimo [sic; certissimo?] dano et magiori pericoli
 Literal: `di | tutt | a | la | cri | sti | a | ni | ta | si | va | a | ce | n | de`
 
 Reading: di tutta la cristianita si va acenden-
+
+Grades: `HHHHHHHHHHHHHHH`
 
 ### f.37v, line 23
 
@@ -880,6 +1094,8 @@ Literal: `do | da | que | i | o | fi | ci | i | ne | spe | ra | mo | noi | per |
 
 Reading: do. Da quei oficii ne speramo noi per la
 
+Grades: `HHHHHHHHHHHHHHH`
+
 ### f.37v, line 24
 
 `d38 f63 d53 a64 d9 f61 h30 d70 c75 h1 d55 h32 h30 h16 g99`
@@ -888,6 +1104,8 @@ Literal: `prudent | i | a | et | pi | e | ta | del | la | sa | n | ti | ta | sua
 
 Reading: prudentia et pieta della santita sua di
 
+Grades: `HHHHHHHHHHHHHHH`
+
 ### f.37v, line 25
 
 `h51 g72 c99 d7 c99 h33 g16 c99 h3 f6 a74 h33 a64 g70 g2 f63`
@@ -895,6 +1113,8 @@ Reading: prudentia et pieta della santita sua di
 Literal: `ve | de | r | pa | r | to | ri | r | si | alcun | fru | to | et | da | que | i`
 
 Reading: veder partorirsi alcun fruto et da quei
+
+Grades: `HHHHHHHHHHHHHHHH`
 
 ## f.38r
 
@@ -906,6 +1126,8 @@ Literal: `me | de | mi | po | tra | Vostra Magnificentia | co | no | sce | re | 
 
 Reading: medemi potra Vostra Magnificentia conoscere qual sia la fe
 
+Grades: `HHHHHHHHHHHHHHH`
+
 ### f.38r, line 2
 
 `h83 d70 d53 f19 c79 f30 h86 h51 c99 h4 c75 c19 d55 g72 h75`
@@ -913,6 +1135,8 @@ Reading: medemi potra Vostra Magnificentia conoscere qual sia la fe
 Literal: `[null] | del | a | ni | mo | nostr | o | ve | r | so | la | gra | n | de | za`
 
 Reading: del animo nostro verso la grandeza
+
+Grades: `HHHHHHHHHHHHHHH`
 
 ### f.38r, line 3
 
@@ -922,6 +1146,8 @@ Literal: `et | ogni | pro | spe | ri | ta | di | le | i | et | ve | r | so | il`
 
 Reading: et ogni prosperita di lei et verso il
 
+Grades: `HHHHHHHHHHHHHH`
+
 ### f.38r, line 4
 
 `a15 f18 a64 c75 g3 f61 h31 d70 c75 a55 g40 d53 f19 h30`
@@ -929,6 +1155,8 @@ Reading: et ogni prosperita di lei et verso il
 Literal: `be | ne | et | la | qui | e | te | del | la | cri | sti | a | ni | ta`
 
 Reading: bene et la quiete della cristianita
+
+Grades: `HHHHHHHHHHHHHH`
 
 ### f.38r, line 5
 
@@ -938,6 +1166,8 @@ Literal: `et | che | quel | lo | che | piu | o | l | tre | hora | non`
 
 Reading: et che quello che piu oltre hora non
 
+Grades: `HHHHHHHHHHH`
+
 ### f.38r, line 6
 
 `a83 a50 d53 c79 f27 f17 f31 g70 c77 d55`
@@ -945,6 +1175,8 @@ Reading: et che quello che piu oltre hora non
 Literal: `fa | ci | a | mo | non | na | sce | da | me | n`
 
 Reading: faciamo non nasce da men
+
+Grades: `HHHHHHHHHH`
 
 ### f.38r, line 7
 
@@ -954,6 +1186,8 @@ Literal: `pro | n | ta | et | di | s | po | sta | vo | lo | n | ta`
 
 Reading: pronta et disposta volonta
 
+Grades: `HHHHHHHHHHHH`
+
 ### f.38r, line 8
 
 `c76 g70 f40 f63 a35 h51 f19 f61 d55 h32 f42 c78`
@@ -962,6 +1196,8 @@ Literal: `ma | da | ssa | i | con | ve | ni | e | n | ti | ssi | mi`
 
 Reading: ma dassai convenientissimi
 
+Grades: `HHHHHHHHHHHH`
+
 ### f.38r, line 9
 
 `a64 c56 d10 c99 a89 {f63/f67} f42 c78 g16 f36 h32`
@@ -969,6 +1205,8 @@ Reading: ma dassai convenientissimi
 Literal: `et | in | po | r | tant | {i/a} | ssi | mi | ri | spe | ti`
 
 Reading: et inportant[i/a]ssimi rispeti
+
+Grades: `HHHHHMHHHHH` (1 supplied)
 
 Clear handwriting (brackets mark expansions or uncertainty):
 

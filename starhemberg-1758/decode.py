@@ -34,3 +34,7 @@ for row in range(1,len(rows)+1):
 (P/'two-table-output.txt').write_text('\n'.join(lines)+'\n')
 print('tokens',len(out),'switches',[(t['offset'],t['code'],t['value']) for t in out if t['kind']=='switch'])
 print('invalid',[(t['offset'],t['code']) for t in out if t['kind']=='invalid'])
+grades={g:sum(t['grade']==g for t in out) for g in 'HM-'}
+report['grades']={'H':grades['H'],'M':grades['M'],'not_graded':grades['-'],'note':'H = in the 1752 tables, M = absent or malformed; repairs are I and stay in repair-cases.json'}
+(P/'two-table-parsing.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+print('grades',grades)

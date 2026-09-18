@@ -1,5 +1,7 @@
 # Ottobon–Mocenigo, 27 April 1589: substantial decipherment
 
+**Grades** ([CONVENTIONS.md](../CONVENTIONS.md)): of 1,585 group slots, 1,537 H (looked up in Ziffra prima), 48 M (alternative labels, unread signs, or absent from the key excerpt); 54 bracketed supplied readings (I) in the line readings. `python3 decode.py --check` prints the counts and [TRANSCRIPTION.md](TRANSCRIPTION.md) carries them per line.
+
 **The surviving Venetian key “Ziffra prima” (DECODE R1789) reads the seven cipher pages in BNE Mss/994, ff.35r–38r (DECODE R2252).** The covering dispatch is dated 27 April 1589; its enclosed reply to Gerolamo Gondi, ambassador of France, is dated 24 April. Both texts are substantially readable. Some handwriting, binding losses, and apparent encoding errors remain unresolved.
 
 Gondi asks Venice for assistance and a closer alliance, with discussion of recovering Saluzzo. Venice cannot provide the requested immediate aid and promises renewed intercession with the pope. The covering dispatch instructs Mocenigo how to explain that answer and separately reports intercepted correspondence.
