@@ -1,0 +1,2 @@
+# Preserve downloaded source attachments byte-for-byte, including whitespace.
+sources/*.txt -text -whitespace

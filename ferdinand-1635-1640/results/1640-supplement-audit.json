@@ -1,0 +1,23 @@
+{
+  "base_unchanged": true,
+  "base_mappings": 51,
+  "added_mappings": 60,
+  "base_labels_observed_in_reviewed_1640": 46,
+  "base_labels_absent_in_reviewed_1640": [
+    "0",
+    "1",
+    "2",
+    "h",
+    "i"
+  ],
+  "total_mappings": 111,
+  "reviewed_units": 782,
+  "mapped_units": 779,
+  "unmapped_units": 3,
+  "unknown_inventory": {
+    "?": 1,
+    "14": 2
+  },
+  "review_amendments": 16,
+  "warning": "Coverage is not accuracy. No independent 1640 plaintext witness; singleton values and glyph reviews qualified in evidence. 14 remains unassigned."
+}

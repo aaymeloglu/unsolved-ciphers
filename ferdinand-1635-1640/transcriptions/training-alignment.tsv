@@ -1,0 +1,18 @@
+id	cipher	plain	evidence
+A01	0 4	ad	R954 P1 right lines 9-10; R1889 P1 L05
+A02	10 h 8 m c 22 n	hiberna	R954 P1 right L09; R1889 P1 L05
+A03	y p i f	vero	R954 P1 right L09; R1889 P1 L05
+A04	33 23 l 3	quod	R954 P1 right L09; R1889 P1 L05
+A05	z 37 34 15 32 p 34	attinet	R954 P1 right L10; R1889 P1 L05
+A06	g q l	pro	R954 P1 right L11 insertion; R1889 P1 L06
+A07	24 t d	iam	R954 P1 right L12; R1889 P1 L06
+A08	3 15 x 34 f	dicto	R954 P1 right L12; R1889 P1 L06
+A09	p 39 m q 7 15 37 38	exercitu	R954 P1 right L12; R1889 P1 L06
+A10	x z m 31 t q 6 a	caesareo	R954 P1 right L12; R1889 P1 L07
+A11	15 22	in	R954 P1 right L13; R1889 P1 L07
+A12	n c 7 1 h m g 11 25 x f 20 t 37 38	archiepiscopatu	R954 P1 right L13; R1889 P1 L07; DECODE nc71h segmented n c 7 1 h
+A13	z 7	ac	R954 P1 right L14; R1889 P1 L07
+A14	x 12 35 15 37 n 34 p	civitate	R954 P1 right L14; R1889 P1 L08
+A15	37 q m 38 11 c 6 32 31 15	trevirensi	R954 P1 right L14; R1889 P1 L08; u/v normalized v
+A16	5 15 p i 24	fieri	R954 P1 right L15; R1889 P1 L08
+A17	3 p 26 15 4 m q n 37	desiderat	R954 P1 right L15; R1889 P1 L09

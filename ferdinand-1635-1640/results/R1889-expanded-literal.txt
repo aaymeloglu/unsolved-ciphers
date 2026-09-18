@@ -1,0 +1,34 @@
+# Cleartext in braces. Unmapped units in double brackets. No editorial repairs.
+P1.L01 {Serenissime Rex Dne Consobrine charissime. Lrae Regiae Dig.tis}
+P1.L02 {ac Dil.nis Vrae. decima quarta proxime elapsi mensis Octobris datae, mihi}
+P1.L03 {fuerunt gratissimae, ob laeta quae ex ijs de ulteriori exercitus Caesarei}
+P1.L04 {ad Saram fluvium facto felici progressu, percepi nuntia.}
+P1.L05 adhiberna.uero.quod.attinet{quae Regia}
+P1.L06 {Dig.tas ac Dil.o vra.}pro.iam.dictoexercitu
+P1.L07 caesareoinarchiepiscopatuac
+P1.L08 ciuitate.treuirensifieri.
+P1.L09 desiderat.{Desuper Regiam Dig.tem ac Dil.m vram celare}
+P1.L10 {nequeo, quod uti nihil mihi optabilius, quam eidem in omnibus grati-}
+P1.L11 {ficare, sic et in hac re lubenter vellem. Verum cum}ciuitcs
+P1.L12 treuirensis.iaeindeaducen-
+P1.L13 tis.annissub{Regiae suae Cat.ca matis,}stet
+P1.L14 protectione.atque{eo nomine}abeiusmil
+P1.L15 ite{semper quando id necessitas postulavit}fueritprae=
+P1.L16 sidio.munita.{uti etiam fuit cum}gallus
+P1.L17 uexillaregia.superanseandem
+P1.L18 occuparet;{Conveniens esse arbitror, ut}praesi
+P1.L19 diue.hocregiueindictaciua
+P1.L20 te.locisqcecircumiac⟦p^⟧nti
+P1.L21 bus{conservetur, ex quibus}sumetalimenta
+P1.L22 necessaria{tum ad}suiipsius.uti
+P1.L23 conuenittue.prinncipis
+P1.L24 electoris(cuihctenusex
+P1.L25 aerario{Regiae suae Cat.ca matis}brouisumfuit.)
+P1.L26 sustentationem.{Quibus, aliisque bene perpensis}
+P2.L01 {rationibus ac circumstantiis, nullatenus dubito, Regiam Dig.tem ac Dil.m vram}
+P2.L02 {quod}eiliticaesareoindictis.
+P2.L03 locisdifficulter.r⟦u⟧berna.con
+P2.L04 cedipossint{aeque bonique laturam: Cui de caetero}
+P2.L05 {diuturnam incolumitatem, et optatos apprecor rerum omnium successus.}
+P2.L06 {Datae Bruxellis XVI. mensis Novembris. Anno MDCXXXV.}
+P2.L07 {Regiae Dig.tis ac Dil.nis Vrae.}

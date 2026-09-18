@@ -1,0 +1,37 @@
+# Body line numbers count from Serenissime, excluding date/endorsements.
+# {...} clear text, unexpanded abbreviations; space-separated cipher units.
+# Based on XZ's attachment, checked selectively against I9350/I9351.
+# Retains unresolved glyphs. This is NOT an independent blind transcription.
+P1.L01 {Serenissime Rex Dne Consobrine charissime. Lrae Regiae Dig.tis}
+P1.L02 {ac Dil.nis Vrae. decima quarta proxime elapsi mensis Octobris datae, mihi}
+P1.L03 {fuerunt gratissimae, ob laeta quae ex ijs de ulteriori exercitus Caesarei}
+P1.L04 {ad Saram fluvium facto felici progressu, percepi nuntia.}
+P1.L05 0 4 10 h 8 m c 22 n . y p i f . 33 23 l 3 . z 37 34 15 32 p 34 {quae Regia}
+P1.L06 {Dig.tas ac Dil.o vra.} g q l . 24 t d . 3 15 x 34 f p 39 m q 7 15 37 38
+P1.L07 x z m 31 t q 6 a 15 22 n c 7 1 h m g 11 25 x f 20 t 37 38 z 7
+P1.L08 x 12 35 15 37 n 34 p . 37 q m 38 11 c 6 32 31 15 5 15 p i 24 .
+P1.L09 3 p 26 15 4 m q n 37 . {Desuper Regiam Dig.tem ac Dil.m vram celare}
+P1.L10 {nequeo, quod uti nihil mihi optabilius, quam eidem in omnibus grati-}
+P1.L11 {ficare, sic et in hac re lubenter vellem. Verum cum} x 12 y 15 37 7 31
+P1.L12 34 q 6 35 15 i p 22 31 24 26 . 12 t 6 11 22 4 m z 4 y 7 p 32 -
+P1.L13 34 15 25 . t 32 22 24 25 31 38 8 {Regiae suae Cat.ca matis,} 31 37 m 34
+P1.L14 g c a 37 p x 34 15 l 22 m . t 37 30 y 6 {eo nomine} 0 9 6 15 y 25 e 11 19
+P1.L15 12 34 p {semper quando id necessitas postulavit} 2 35 p c 15 37 20 c o m =
+P1.L16 26 12 4 24 f . d 23 22 11 34 z . {uti etiam fuit cum} 17 n 18 19 y 25
+P1.L17 23 m 39 15 19 18 0 q p 16 11 t . 31 38 g 6 q 0 22 31 p z 22 4 m e
+P1.L18 f 7 x y g t i m 37 ; {Conveniens esse arbitror, ut} g c z m 31 12
+P1.L19 4 15 23 6 . 10 f 7 i p 16 24 y m 12 32 4 11 x 34 t 7 15 23 z
+P1.L20 34 m . 18 f x 12 31 30 7 p 7 15 q x 35 d 12 n x p^ 22 34 11
+P1.L21 9 23 31 {conservetur, ex quibus} 26 y d m 37 n 18 11 e m 22 34 0
+P1.L22 32 p x m 26 31 n c 11 z {tum ad} 25 y 11 24 g 26 15 35 31 . 23 34 15
+P1.L23 7 l 22 38 m 32 15 34 37 35 6 . g c 11 22 32 7 15 20 24 25
+P1.L24 m 19 p x 37 f i 15 26 ( x y 15 10 7 34 m 22 38 31 p 39
+P1.L25 z m c t q 12 l {Regiae suae Cat.ca matis} 9 q f y 12 26 35 e 5 38 15 34 . )
+P1.L26 25 38 26 37 p 22 34 t 37 11 f 32 6 d . {Quibus, aliisque bene perpensis}
+P2.L01 {rationibus ac circumstantiis, nullatenus dubito, Regiam Dig.tem ac Dil.m vram}
+P2.L02 {quod} 6 12 19 11 34 24 x n m 26 z c p l 15 22 3 12 7 37 11 25 .
+P2.L03 18 f x 24 31 4 15 5 2 12 7 y 19 34 m q . i u 9 p q 32 z . 7 f 22
+P2.L04 x 6 3 15 20 f 31 26 12 22 37 {aeque bonique laturam: Cui de caetero}
+P2.L05 {diuturnam incolumitatem, et optatos apprecor rerum omnium successus.}
+P2.L06 {Datae Bruxellis XVI. mensis Novembris. Anno MDCXXXV.}
+P2.L07 {Regiae Dig.tis ac Dil.nis Vrae.}

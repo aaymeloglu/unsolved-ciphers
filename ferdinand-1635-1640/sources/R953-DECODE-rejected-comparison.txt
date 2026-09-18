@@ -1,0 +1,311 @@
+#KEY: original 
+#CATALOG NAME: ARA_Brus_SEA_inr.1_key17
+#IMAGE NAME: 4975.png 
+#LANGUAGE: DE, LA, EN 
+#TRANSCRIBER NAME: AP
+#DATE OF TRANSCRIPTION: May 09, 2020
+#TRANSCRIPTION TIME: 5h
+#STATUS: complete
+
+#ORIGIN-CITY: N/A
+#ORIGIN-COUNTRY: Germany
+#DATE: 1553-01-01 - 1729-12-31
+
+<CLEARTEXT LA A B C D E F G H I K L M N O P Q R S T V W X Y Z >
+<CLEARTEXT LA N Z L F O R T V N A M T^s E N^z T ^G A^s S S^n E^9 N^3 O^4 C E^10 T^12 >
+
+<CLEARTEXT LA Diktum>
+<CLEARTEXT LA nil fortunam tentase nocet>
+
+#COMMENT: The following say that the consonants given are placed on top of a word to increase the difficulty in deciphering.
+<CLEARTEXT LA Nulla sine nihil significantes sunt. Consonantes qua ni supraposita dicto non continentus uti sunt B. D. G. H. K.>
+<CLEARTEXT LA P. Q. W. X. Y. Z. qua hinc inde propter maiorem Difficultatem inseruntur>
+
+#COMMENT: The word Zÿphera appears multiple times, and it is believed to be the word cipher.
+<CLEARTEXT LA Alia Zÿphera>
+
+12|14 - A
+16 - B
+13 - C
+15 - D
+17|20 - E 
+18 - F
+19 - G
+23 - H
+25|21 - I 
+26 - K
+22 - L
+28 - M
+30 - N
+27|29 - O  
+32 - P
+31 - Q
+35 - R
+33 - S
+38 - T
+34|37 - V
+40 - W
+39 - X
+41|43 - Y
+42 - Z
+
+#COMMENT: I believe that the following says that if you replace a letter with the letters B C D F G K L S then it becomes a NULL.
+<CLEARTEXT LA nulla sine litera nihil significantes erunt, ves consonantes in differotes, hinc inde contextui inserta ut; B C D F G K L S>
+
+#COMMENT: By adding a vowel on top of a cipher, it becomes a NULL.
+<CLEARTEXT LA Similites nihil significantes sunt omnes zÿphera quibus votalis A I O U supra posita est, verbigra z3^a z9^>e 15^o etts^a:>
+
+#COMMENT: By adding a plus or an equal sign on top of a cipher, it becomes a NULL.
+<CLEARTEXT LA Eodem modo omnes zÿphera quibus eruxaliqua aut Dua Virgula supraducta sunt, uti 27^Cross 32^Cross 19^= 21^= eetS^a:>
+
+<CLEARTEXT DE S>
+da - Ambasador zu Beüneln
+de - Ambasador zu men
+di - Armada
+do - Adel
+du - Alebaffenburg
+dam - Agent
+dem - Anountg
+dim - Ambars margane
+dom - Ansolt
+dum - Acts Ecklexing
+das - zu die acst ecbelexen
+des - Artelereÿ
+<CLEARTEXT DE S>
+dos - Baÿern E?sectz?og
+dus - Braunschweig E?sectz?og
+ba - Buegnoÿ
+be - B**nell
+bi - Brandenburg
+bo - Bileboff
+bu - Boberin
+bam - Bobemilebe Stend?te
+bem - Betlebem Haboc?
+bim - Barbaracs
+bom - Bingen
+bum - Brodt
+as - Brodtbarkben
+es - Bruks
+is -  Bebamilebe *xiehs Armada
+os - Orcargraff zu Baden
+us - Bilehtbumb
+ad - Bafel
+<CLEARTEXT DE C> 
+ed - C' bucfuelt Orcanitz
+id - C' bucfuelt Esiex
+od - C' bucfuelt Cöln
+ud - C' bucfuelt Btaltz
+la - C' bucfuelt Sachsizen
+le - C' bucfuelt Brandenburg
+li - Catholilche Stände Imxeics
+lo - Catholilche Stände mobecöterceich
+lu - Catholilche Stände mzendecöltecreich
+sam - Csuetüclien*g
+sem - catholilche liga
+sim - crohn Behenin
+
+som - contribution
+sum - composition
+am - correspondece
+em - correspondir?ente
+im - Confoedecicte
+om - Calumilebe
+um - Compagnie hultolek
+ras - Compagnie Reuttec
+res - Calumilten
+ris - C' buctes gl?
+ros - Cöln Statt
+rus - Coblentz
+sas - Companien
+<CLEARTEXT DE D> 
+ses - Ducohzig
+sis - Duclacs Macgraff
+sos - Donlouÿs de Velastro
+<CLEARTEXT DE E> 
+sus - Ertzheczor?g? Albrecht
+far - Ertzheczor?g? Scoholdt
+fer - Ertzheczor?g? Earl
+fir - Eüox Tos
+for - Earcn
+fur - Eclans
+las - Engelender
+les - Ectzltiat
+lis - Ecnit soon 
+<CLEARTEXT DE F> 
+los - Fudt
+us - Fudt Christian von Ansalt
+ham - Franckrieh
+hem - Fulztolck
+him - Francfurtt
+hom - Friedt
+hum - Fücttering
+ab - Frücst
+eb - Freündt
+ib - Fridens tractation
+ob - Francbentbhal
+ub - Fridtberg
+dax - Feindt
+dex - Flailes
+<CLEARTEXT DE G>
+dic - Geltt
+dox - Genral
+dux - Gubernator
+
+gar - Güles
+ger - Gailtics
+gir - Gülgüebe landen
+gor - Gelandter
+gur - Geheninex kats
+lax - General Staden
+lex - Gräum zu Stanam
+lix - Grafl Johannson  Mann?an?o? d?' züngev
+lox - Grafl skiedecies von Solms zu Küdelheim
+lux - Gettecanorles xauen
+bal - Grafl Tampier
+bel - Grafl xomiles xeics
+bil - Grafl loon thucn
+bol - Grafl scantz Beörgoon sosen zollecn
+bul - Grafl soon Süelenberg
+kar - Grafl scencies soom berg
+ker - Grafl soon Snibten
+kir - Grafl znibneig V?ananas Sacbeüeken
+kor - Gorben
+<CLEARTEXT DE H>
+kur - Hextzog
+hac - Heblöbliej zanis Öltexbeies
+hec - Hiechit
+hic - Henaro
+hoc - Hungaru
+huc - Hungarilebec Landtag
+has - Heidelberg
+hes - Hextzog zu nouctenberg
+his - Hextzog in Lottingen
+hos - Holandt
+hus - Hamlee stätt
+ta - Heilbron
+te - H*ttjhaltex zu Szei*elberg
+ti - *****sku**
+<CLEARTEXT DE S>
+to - Sol
+tu - Shr
+mas - Scelof
+mes - Scelochhcs oft
+mis - Scelhucts gl
+mos - Staua
+mus - Scerasg zwasytt
+zam - Stalianilebe suclten
+<CLEARTEXT DE R>
+zem - Ra**zliebe szatent
+zim - Ra** margtt
+zom - Rönig
+zum - Rinigreros
+
+sal - Rönig Spanien
+sel - Rönig Scandceieb
+sil - Rönig Polen
+sol - Rönig Englandt
+sul - Rönig Dennemarck
+zaf - Rönig Schweden
+zef - Rönig Longarn
+zif - Rönig Boheim
+zof - Reiegs Armada
+hal - Rönigheim
+hel - Reieg
+hil - Reiegs rars
+hol - Reieegs leelex
+hul - Reiegs munition
+ap - Ranoam R seim
+ep - ***** **** **** **********
+ip - Rentxenges
+op - Raileclantern
+tam - Rocn
+tem - Rönig stäntt
+<CLEARTEXT DE L>
+tim - Landgraf ****** zu Sweden
+tom - Langraf lundinh zu Darm
+bar - Ltatt
+ber - Lutzemberg die Statt
+bir - Szecizoft zumb Luzembg
+bor - Leutenant
+fal - Leben
+fel - Leidsteben
+fil - statt Luttid
+fol - Luttenrlebe
+<CLEARTEXT DE M>
+ful - maltex Sorn
+pal - manitz
+pel - Mamiteomb
+pil - Multex boltz
+pol - marged *lebarn baben
+pul - Marques de Bedmax
+lax - Mziffen
+lex - Masfen
+tar - Maltex noeitzen
+ter - Marques Spinola
+tir - Maltex Speltzen
+tor - mell
+tur - meitzenmebl
+fas - Moenmeel
+fes - naltex Szaflern
+<CLEARTEXT DE N>
+fis - Numiins Apostiolieus
+fos - Miderlandt
+fus - Meniburf Szertzog
+taf - Nurnberg
+<CLEARTEXT DE O>
+tef - Ordinantz
+tif - Obrilter
+tof - Obruter Leutenant
+tuf - Obrerreids
+nal - Oberpotaltz
+nel - Opopoenheim
+nil - Oberolterceid
+nol - Onderolterceitd
+nul - Oflen
+<CLEARTEXT DE P>
+nam - Platz
+nem - poonten ober häfen
+nim - promant
+nom - pabit
+num - päbitl *eiglf
+nas - pag
+nes - protestinende *ufl
+nis - prouilian
+nos - ptexdt
+nus - pa**
+nax - pulnder
+nex - poladien
+nix - polen
+<CLEARTEXT DE Q>
+nox - quantier
+kam - quiqnartizn
+<CLEARTEXT DE R>
+kem - Rheniharn
+kim - Religion
+kom - Saxholites religion
+kum - rhemiloh reitterlehaff
+pas - Reids Stätt
+pes - Rebellen
+pis - Rottenber ander Danber
+pos - Reiehs Statt
+pus - Regiment
+bal - Reiehstag
+bel - Reimltromb
+<CLEARTEXT DE S>
+bil - Scehtzen sertzog
+bol - Saxphoien sertzog
+bul - Secretary
+ma - Statt
+me - Staaden
+mi - Stalzburg
+mo - Spelger
+mu - Sturbegelbutz
+mal - Suspensio amozu
+mel - Sutents
+mil - Solbaten
+mol - Soblelien
+mul - Sommern **** Szundsrudes
+<CLEARTEXT DE T>
+gal - Tentleslandt
+gel - Triecdre Statt
+gil - Turebeh

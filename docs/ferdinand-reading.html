@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ferdinand correspondence, 1635 / 1640</title>
+<meta name="description" content="Cipher transcriptions, recovered Latin and English translations of the Ferdinand correspondence, with evidence and explicit remaining gaps.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --paper:#ece9e1; --surface:#f6f4ee; --ink:#26221c; --muted:#6c655a; --rule:#d3cdc0; --accent:#933a2c; --link:#2e6270; --code:#e4e0d6;
+  --serif:"EB Garamond", Garamond, "Times New Roman", serif;
+  --sans:"IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono:"IBM Plex Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper:#1a1916; --surface:#23211d; --ink:#e7e2d7; --muted:#a69e90; --rule:#3b3730; --accent:#d78a76; --link:#86bcc6; --code:#2c2924; } }
+:root[data-theme="dark"] {
+  --paper:#1a1916; --surface:#23211d; --ink:#e7e2d7; --muted:#a69e90; --rule:#3b3730; --accent:#d78a76; --link:#86bcc6; --code:#2c2924; }
+* { box-sizing:border-box; }
+body { background:var(--paper); color:var(--ink); font-family:var(--sans); font-size:15.5px; line-height:1.55; padding-inline:clamp(16px,3vw,40px); padding-block:0 64px; }
+a { color:var(--link); text-decoration-thickness:1px; text-underline-offset:2px; }
+h1,h2,h3,h4 { font-family:var(--serif); font-weight:500; margin:0; text-wrap:balance; }
+.masthead { max-width:1400px; margin:0 auto; padding-block:40px 24px; border-bottom:1px solid var(--rule); }
+.eyebrow { font-family:var(--sans); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); margin:0 0 10px; }
+.masthead h1 { font-size:clamp(34px,5vw,58px); line-height:1.02; font-style:italic; font-weight:400; }
+.standfirst { font-family:var(--serif); font-size:clamp(18px,2vw,22px); line-height:1.4; max-width:62ch; margin:18px 0 0; }
+.lede { display:grid; grid-template-columns:1fr 1fr; gap:32px; max-width:1400px; margin:0 auto; padding-block:24px; border-bottom:1px solid var(--rule); }
+.lede p { margin:0 0 12px; max-width:62ch; }
+.lede h3 { font-size:20px; margin-bottom:8px; }
+.callout { border-left:3px solid var(--accent); padding-left:16px; }
+.legend { font-size:14px; color:var(--muted); }
+.legend code, .apparatus code { font-family:var(--mono); font-size:.9em; background:var(--code); padding:1px 4px; border-radius:3px; }
+nav.folios { position:sticky; top:env(safe-area-inset-top,0px); z-index:5; background:var(--paper); border-bottom:1px solid var(--rule); max-width:1400px; margin:0 auto; display:flex; gap:4px; overflow-x:auto; padding-block:8px; font-family:var(--serif); font-size:17px; }
+nav.folios a { text-decoration:none; padding:4px 10px; border-radius:4px; color:var(--ink); white-space:nowrap; }
+nav.folios a:hover, nav.folios a:focus-visible { background:var(--surface); outline:none; box-shadow:0 0 0 2px var(--accent); }
+.folio { max-width:1400px; margin:0 auto; padding-block:40px; border-bottom:1px solid var(--rule); scroll-margin-top:56px; }
+.folio-head { display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; margin-bottom:18px; }
+.folio-head h2 { font-size:30px; color:var(--accent); font-style:italic; }
+.folio-head p { margin:0; color:var(--muted); font-size:15px; }
+.cols { display:grid; grid-template-columns:minmax(260px,1fr) minmax(280px,1.15fr) minmax(280px,1.15fr); gap:32px; align-items:start; }
+.scan { margin:0; position:sticky; top:56px; }
+.scan .zoom { display:block; width:100%; padding:0; border:1px solid var(--rule); background:var(--surface); cursor:zoom-in; border-radius:2px; }
+.scan .zoom:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.scan img { display:block; width:100%; height:auto; }
+.scan figcaption { font-size:12.5px; color:var(--muted); margin-top:6px; letter-spacing:.02em; }
+.col h3 { font-size:13px; font-family:var(--sans); font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:10px; }
+.col p { margin:0 0 14px; }
+.col.it p { font-family:var(--serif); font-size:19px; line-height:1.45; }
+.col.en p { font-size:15.5px; line-height:1.6; }
+p.hand { font-family:var(--sans) !important; font-size:12px !important; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); margin:18px 0 6px !important; line-height:1.3 !important; }
+p.hand:first-child { margin-top:0 !important; }
+.apparatus { margin-top:28px; padding-top:18px; border-top:1px dashed var(--rule); }
+.apparatus h4 { font-family:var(--sans); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); font-weight:600; margin-bottom:8px; }
+.apparatus ul { margin:0; padding-left:18px; max-width:90ch; color:var(--ink); font-size:14.5px; }
+.apparatus li { margin-bottom:6px; }
+details.groups { margin-top:16px; }
+details.groups summary { cursor:pointer; color:var(--link); font-size:14.5px; }
+.scroll { overflow-x:auto; margin-top:10px; border:1px solid var(--rule); border-radius:3px; background:var(--surface); }
+table { border-collapse:collapse; font-size:13px; min-width:900px; }
+th, td { text-align:left; vertical-align:top; padding:6px 10px; border-bottom:1px solid var(--rule); }
+th { font-family:var(--sans); font-weight:600; font-size:11.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); }
+td.ln { font-variant-numeric:tabular-nums; color:var(--muted); }
+td.tok, td.lit { font-family:var(--mono); white-space:nowrap; }
+td.lit { color:var(--muted); }
+td.rd { font-family:var(--serif); font-size:15px; white-space:nowrap; }
+.fn { font-size:13px; color:var(--muted); margin:8px 0 0; }
+footer.colophon { max-width:1400px; margin:0 auto; padding-block:36px 0; display:grid; grid-template-columns:1fr 1fr; gap:32px; font-size:14px; color:var(--muted); }
+footer p { margin:0 0 10px; max-width:64ch; }
+footer h3 { font-size:18px; color:var(--ink); margin-bottom:8px; }
+dialog.lightbox { border:0; padding:0; background:var(--paper); color:var(--ink); width:min(100vw,1200px); max-width:100vw; height:100vh; max-height:100vh; margin:auto; }
+dialog.lightbox::backdrop { background:rgba(0,0,0,.72); }
+.lb-bar { display:flex; justify-content:space-between; align-items:center; padding:10px 16px; border-bottom:1px solid var(--rule); font-family:var(--serif); font-size:18px; position:sticky; top:0; background:var(--paper); }
+.lb-bar button { font:inherit; font-family:var(--sans); font-size:14px; background:var(--surface); color:var(--ink); border:1px solid var(--rule); padding:6px 12px; border-radius:4px; cursor:pointer; }
+.lb-bar button:focus-visible { outline:2px solid var(--accent); }
+.lb-body { overflow:auto; height:calc(100vh - 50px); }
+.lb-body img { display:block; width:100%; height:auto; }
+@media screen and (max-width: 1000px) { .cols { grid-template-columns:1fr 1fr; } .scan { grid-column:1 / -1; position:static; max-width:560px; } }
+@media screen and (max-width: 680px) { .cols, .lede, footer.colophon { grid-template-columns:1fr; } .scan { max-width:100%; } .col.it p { font-size:18px; } }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior:smooth; } }
+@media print {
+  .screen-only { display:none; }
+  @page { size: 11in 8.5in; margin: 0.45in 0.5in; }
+  body { background:#fff; color:#111; font-size:10.5px; padding-inline:0; padding-block:0; }
+  :root { --paper:#fff; --surface:#f5f5f2; --ink:#111; --muted:#555; --rule:#bbb; --accent:#7a2f24; --link:#1f4f5c; --code:#eee; }
+  nav.folios, dialog.lightbox, details.groups { display:none !important; }
+  a { color:inherit; text-decoration:none; }
+  .masthead { padding-block:0 12px; }
+  .masthead h1 { font-size:34px; }
+  .standfirst { font-size:14px; }
+  .lede { padding-block:12px; gap:24px; page-break-after:always; }
+  .lede h3 { font-size:14px; }
+  .folio { page-break-before:always; padding-block:0 12px; border-bottom:0; }
+  .folio-head { margin-bottom:8px; }
+  .folio-head h2 { font-size:22px; }
+  .cols { grid-template-columns:2.9in 1fr 1fr; gap:18px; }
+  .scan { position:static; max-width:none; }
+  .scan .zoom { break-inside:avoid; }
+  .scan .zoom { border:1px solid #ccc; }
+  .scan figcaption { font-size:9px; }
+  .col.it p { font-size:12.5px; line-height:1.35; }
+  .col.en p { font-size:10.5px; line-height:1.45; }
+  p.hand { font-size:8.5px !important; margin:10px 0 3px !important; }
+  .apparatus { margin-top:10px; padding-top:8px; }
+  .apparatus ul { font-size:9.5px; }
+  footer.colophon { page-break-before:always; padding-block:0; font-size:10px; }
+}
+
+.crumbs { max-width:1400px; margin:0 auto; padding-top:16px; font-size:14px; color:var(--muted); }
+.cipher p { font-family:var(--mono); font-size:13.5px; line-height:1.75; margin:0 0 14px; word-spacing:.15em; }
+.cipher p.clear { font-family:var(--serif); font-size:18px; font-style:italic; line-height:1.45; word-spacing:normal; }
+.cipher mark, td.tok mark { background:none; color:var(--accent); font-weight:500; border-bottom:1px solid var(--accent); }
+.col.it p.clear { font-style:italic; color:var(--muted); }
+.keytable { min-width:0; width:100%; }
+.entries { max-width:1400px; margin:0 auto; display:grid; grid-template-columns:repeat(3,1fr); gap:32px; padding-block:32px; border-bottom:1px solid var(--rule); }
+.entry h2 { font-size:30px; font-style:italic; color:var(--accent); margin-bottom:4px; }
+.entry .where { color:var(--muted); font-size:14px; margin:0 0 12px; }
+.entry p { margin:0 0 12px; max-width:62ch; }
+.entry .go { font-family:var(--serif); font-size:20px; }
+.more { max-width:1400px; margin:0 auto; padding-block:28px; border-bottom:1px solid var(--rule); }
+.more h3 { font-size:20px; margin-bottom:8px; }
+.more ul { margin:0; padding-left:18px; max-width:90ch; }
+.more li { margin-bottom:6px; }
+.entry .status { display:inline-block; margin:0 0 10px; font-size:11.5px; letter-spacing:.08em; text-transform:uppercase; border:1px solid var(--accent); color:var(--accent); padding:3px 8px; border-radius:3px; }
+.masthead .status { display:inline-block; margin-top:16px; font-size:12px; letter-spacing:.08em; text-transform:uppercase; border:1px solid var(--accent); color:var(--accent); padding:4px 10px; border-radius:3px; }
+.rows { border:1px solid var(--rule); background:var(--surface); border-radius:2px; padding:12px 14px; font-family:var(--mono); font-size:12.5px; line-height:1.5; color:var(--ink); }
+.rows p { margin:0 0 6px; word-break:break-word; }
+.rows p:last-child { margin-bottom:0; }
+.rows .rn { display:inline-block; min-width:2.2em; color:var(--muted); font-variant-numeric:tabular-nums; }
+td.lit b { color:var(--accent); font-weight:500; }
+td.lit i { color:var(--accent); }
+.wide { max-width:1400px; margin:0 auto; padding-block:40px; border-bottom:1px solid var(--rule); scroll-margin-top:56px; }
+.wide h2 { font-size:30px; color:var(--accent); font-style:italic; margin-bottom:18px; }
+.wide .two { display:grid; grid-template-columns:1fr 1fr; gap:32px; align-items:start; }
+.wide p { margin:0 0 12px; max-width:68ch; }
+.wide h3 { font-size:13px; font-family:var(--sans); font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:10px; }
+.wide ul { margin:0 0 14px; padding-left:18px; max-width:70ch; font-size:14.5px; }
+.wide li { margin-bottom:6px; }
+.checks { width:100%; font-size:14px; min-width:0; }
+.checks td:first-child { white-space:nowrap; font-variant-numeric:tabular-nums; }
+.checks td.ok { color:#3d6b3a; font-weight:500; white-space:nowrap; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .checks td.ok { color:#8fc48a; } }
+.repairs td.tok { white-space:nowrap; }
+.wide .scroll table { min-width:0; width:100%; }
+footer.colophon ul { margin:0 0 10px; padding-left:18px; }
+footer.colophon li { margin-bottom:4px; }
+@media screen and (max-width: 1000px) { .entries { grid-template-columns:1fr 1fr; } }
+@media screen and (max-width: 680px) { .entries, .wide .two { grid-template-columns:1fr; } }
+@media print { .wide { page-break-before:always; padding-block:0 12px; border-bottom:0; } .wide h2 { font-size:22px; } .rows { font-size:8.5px; } }
+</style>
+</head>
+<body>
+<p class="crumbs screen-only"><a href="index.html">Unsolved ciphers</a> / <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/ferdinand-1635-1640">Ferdinand: write-up and files</a></p>
+<header class="masthead">
+<p class="eyebrow">Brussels, Secrétairerie d'État Allemande, inv. 540 · 1635 / 1640</p>
+<h1>Winter quarters and the price of recruitment</h1>
+<p class="standfirst">Two ciphered letters between Cardinal-Infante Ferdinand and Ferdinand III: a refusal of imperial winter quarters at Trier, and an urgent request for 100,000 florins to raise troops in Westphalia.</p>
+<p class="status">Both bodies readable · residual signs and copying errors</p>
+</header>
+<div class="lede"><div>
+<h3>The recovered correspondence</h3>
+<p>In 1635 the Cardinal-Infante argues that Trier's royal garrison and the prince-elector need the local resources, making it difficult to quarter imperial troops there. In 1640 Ferdinand III orders counter-recruitment in response to preparations by the Elector of Cologne and the Westphalian estates. He asks for money to be placed with his commissioners in Cologne, subject to controlled disbursement.</p>
+<p><a href="#letter-1635">Read 1635</a> · <a href="#letter-1640">Read 1640</a> · <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/ferdinand-1635-1640">Evidence and reproducible decoder</a></p>
+<h3>How to read this edition</h3>
+<p>The columns show the transcription, edited Latin and English for each whole letter; they are not word-aligned. Cipher row labels are retained. Braces in the transcription enclose clear writing. Square brackets in the Latin mark supplied or repaired readings; the translation incorporates those restorations. Literal output below each letter preserves unknown signs and malformed words.</p>
+</div><div><div class="callout"><h3>What is established</h3>
+<p>The 1635 draft R954 and cipher R1889 were already linked by DECODE. Their alignment supplied the alphabet, which was tested on a separate passage. Applying it unchanged to 1640 was followed by a distinct syllable supplement: 60 added values, no changes to the earlier assignments. The two pages then read continuously. A complete historical key sheet has not been recovered.</p>
+<p>Prior publication remains unestablished. No first-solve or discovery claim is made. Several exact glyph readings, singleton assignments and apparent copying errors remain explicitly qualified.</p></div>
+<details><summary>Evidence grades and limitations</summary>
+<p>1635: 445 C, 18 M. Reviewed 1640: 416 C, 347 M, 19 I. C means a value derived from the 1635 plaintext draft. The contextual 1640 additions remain conservatively M, with no controlled cryptanalytic S claim. I marks reviewed source amendments. Grades concern the literal units, not the editorial restorations in the Latin.</p></details>
+</div></div>
+<section class="folio" id="letter-1635">
+<header class="folio-head"><h2>Winter quarters at Trier</h2><p>Brussels, 16 November 1635 · Cardinal-Infante Ferdinand to the future Ferdinand III</p></header>
+<div class="cols">
+<div class="col cipher"><h3>Cipher transcription</h3><div class="rows"><p><span class="rn">P1.L01</span> {Serenissime Rex Dne Consobrine charissime. Lrae Regiae Dig.tis}</p><p><span class="rn">P1.L02</span> {ac Dil.nis Vrae. decima quarta proxime elapsi mensis Octobris datae, mihi}</p><p><span class="rn">P1.L03</span> {fuerunt gratissimae, ob laeta quae ex ijs de ulteriori exercitus Caesarei}</p><p><span class="rn">P1.L04</span> {ad Saram fluvium facto felici progressu, percepi nuntia.}</p><p><span class="rn">P1.L05</span> 0 4 10 h 8 m c 22 n . y p i f . 33 23 l 3 . z 37 34 15 32 p 34 {quae Regia}</p><p><span class="rn">P1.L06</span> {Dig.tas ac Dil.o vra.} g q l . 24 t d . 3 15 x 34 f p 39 m q 7 15 37 38</p><p><span class="rn">P1.L07</span> x z m 31 t q 6 a 15 22 n c 7 1 h m g 11 25 x f 20 t 37 38 z 7</p><p><span class="rn">P1.L08</span> x 12 35 15 37 n 34 p . 37 q m 38 11 c 6 32 31 15 5 15 p i 24 .</p><p><span class="rn">P1.L09</span> 3 p 26 15 4 m q n 37 . {Desuper Regiam Dig.tem ac Dil.m vram celare}</p><p><span class="rn">P1.L10</span> {nequeo, quod uti nihil mihi optabilius, quam eidem in omnibus grati-}</p><p><span class="rn">P1.L11</span> {ficare, sic et in hac re lubenter vellem. Verum cum} x 12 y 15 37 7 31</p><p><span class="rn">P1.L12</span> 34 q 6 35 15 i p 22 31 24 26 . 12 t 6 11 22 4 m z 4 y 7 p 32 -</p><p><span class="rn">P1.L13</span> 34 15 25 . t 32 22 24 25 31 38 8 {Regiae suae Cat.ca matis,} 31 37 m 34</p><p><span class="rn">P1.L14</span> g c a 37 p x 34 15 l 22 m . t 37 30 y 6 {eo nomine} 0 9 6 15 y 25 e 11 19</p><p><span class="rn">P1.L15</span> 12 34 p {semper quando id necessitas postulavit} 2 35 p c 15 37 20 c o m =</p><p><span class="rn">P1.L16</span> 26 12 4 24 f . d 23 22 11 34 z . {uti etiam fuit cum} 17 n 18 19 y 25</p><p><span class="rn">P1.L17</span> 23 m 39 15 19 18 0 q p 16 11 t . 31 38 g 6 q 0 22 31 p z 22 4 m e</p><p><span class="rn">P1.L18</span> f 7 x y g t i m 37 ; {Conveniens esse arbitror, ut} g c z m 31 12</p><p><span class="rn">P1.L19</span> 4 15 23 6 . 10 f 7 i p 16 24 y m 12 32 4 11 x 34 t 7 15 23 z</p><p><span class="rn">P1.L20</span> 34 m . 18 f x 12 31 30 7 p 7 15 q x 35 d 12 n x p^ 22 34 11</p><p><span class="rn">P1.L21</span> 9 23 31 {conservetur, ex quibus} 26 y d m 37 n 18 11 e m 22 34 0</p><p><span class="rn">P1.L22</span> 32 p x m 26 31 n c 11 z {tum ad} 25 y 11 24 g 26 15 35 31 . 23 34 15</p><p><span class="rn">P1.L23</span> 7 l 22 38 m 32 15 34 37 35 6 . g c 11 22 32 7 15 20 24 25</p><p><span class="rn">P1.L24</span> m 19 p x 37 f i 15 26 ( x y 15 10 7 34 m 22 38 31 p 39</p><p><span class="rn">P1.L25</span> z m c t q 12 l {Regiae suae Cat.ca matis} 9 q f y 12 26 35 e 5 38 15 34 . )</p><p><span class="rn">P1.L26</span> 25 38 26 37 p 22 34 t 37 11 f 32 6 d . {Quibus, aliisque bene perpensis}</p><p><span class="rn">P2.L01</span> {rationibus ac circumstantiis, nullatenus dubito, Regiam Dig.tem ac Dil.m vram}</p><p><span class="rn">P2.L02</span> {quod} 6 12 19 11 34 24 x n m 26 z c p l 15 22 3 12 7 37 11 25 .</p><p><span class="rn">P2.L03</span> 18 f x 24 31 4 15 5 2 12 7 y 19 34 m q . i u 9 p q 32 z . 7 f 22</p><p><span class="rn">P2.L04</span> x 6 3 15 20 f 31 26 12 22 37 {aeque bonique laturam: Cui de caetero}</p><p><span class="rn">P2.L05</span> {diuturnam incolumitatem, et optatos apprecor rerum omnium successus.}</p><p><span class="rn">P2.L06</span> {Datae Bruxellis XVI. mensis Novembris. Anno MDCXXXV.}</p><p><span class="rn">P2.L07</span> {Regiae Dig.tis ac Dil.nis Vrae.}</p></div></div>
+<div class="col it"><h3>Readable Latin</h3><p>Serenissime Rex, Domine Consobrine charissime,</p><p>Litterae Regiae Dignitatis ac Dilectionis Vestrae, decima quarta proxime elapsi mensis Octobris datae, mihi fuerunt gratissimae, ob laeta quae ex iis de ulteriori exercitus Caesarei ad Saram fluvium facto felici progressu percepi nuntia.</p><p>Ad hiberna vero quod attinet, quae Regia Dignitas ac Dilectio Vestra pro iam dicto exercitu Caesareo in archiepiscopatu ac civitate Trevirensi fieri desiderat: desuper Regiam Dignitatem ac Dilectionem Vestram celare nequeo, quod, uti nihil mihi optabilius quam eidem in omnibus gratificare, sic et in hac re lubenter vellem.</p><p>Verum cum [civitas]¹ Trevirensis [iam]² inde a ducentis annis sub Regiae Suae Catholicae Maiestatis stet protectione, atque eo nomine ab eius milite semper, quando id necessitas postulavit, fuerit praesidio³ munita, uti etiam fuit cum Gallus vexilla regia superans eandem occuparet;⁴ conveniens esse arbitror, ut [praesidium]² hoc [regium]⁵ in dicta [civitate],⁶ [locisque]⁷ [circumiacentibus]⁸ conservetur, ex quibus sumet⁹ alimenta necessaria, tum ad sui ipsius, uti convenit, [tum]² [principis]¹⁰ electoris (cui [hactenus]¹¹ ex aerario Regiae Suae Catholicae Maiestatis [provisum]¹² fuit) sustentationem.</p><p>Quibus aliisque bene perpensis rationibus ac circumstantiis, nullatenus dubito Regiam Dignitatem ac Dilectionem Vestram, quod [militi]² Caesareo in dictis locis difficulter [hiberna]¹³ concedi possint, aeque bonique laturam; cui de caetero diuturnam incolumitatem et optatos apprecor rerum omnium successus.</p><p>Datae Bruxellis XVI mensis Novembris, anno MDCXXXV.</p><p>Regiae Dignitatis ac Dilectionis Vestrae [subscription not completed in this copy].</p></div>
+<div class="col en"><h3>English translation</h3><p>Most serene King, my lord and dearest cousin,</p><p>Your letter dated the fourteenth of last October was most welcome to me, for the good news it brought of the imperial army&#x27;s further successful advance to the River Saar.</p><p>As for the winter quarters that you wish to have established for the aforesaid imperial army in the archbishopric and city of Trier, I cannot conceal from you that, just as nothing would please me more than to oblige you in everything, I would gladly do so in this matter too.</p><p>But since the city of Trier has stood under His Catholic Majesty&#x27;s protection for two hundred years, and on that account has always been fortified with a garrison of his troops whenever necessity required it, as was also the case when the French, overcoming the royal forces, occupied it, I think it appropriate that this royal garrison should be maintained in the said city and the surrounding places. From these it will obtain the necessary supplies, both for its own support and, as is fitting, for the support of the prince-elector, for whom provision has hitherto been made from His Catholic Majesty&#x27;s treasury.</p><p>Having duly weighed these and the other reasons and circumstances, I have no doubt that you will take it in good part that winter quarters can only with difficulty be granted to the imperial troops in these places. I pray for your lasting well-being and for the desired success of all your affairs.</p><p>Given at Brussels, 16 November 1635.</p></div>
+</div>
+<div class="apparatus"><h4>Reading notes</h4><p>The draft supports the supplied readings, including civitas and iam. Their cipher signs remain disputed. The city name, surrounding-places wording and verb forms differ at some points between draft and copy.</p>
+<p><a href="https://github.com/aaymeloglu/unsolved-ciphers/blob/main/ferdinand-1635-1640/READING-1635.md">Full discrepancy apparatus</a> ·
+<a href="https://github.com/aaymeloglu/unsolved-ciphers/blob/main/ferdinand-1635-1640/transcriptions/R1889-working.txt">Transcription</a></p>
+<details><summary>Literal decoder output, with no editorial repairs</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;line-height:1.6"># Cleartext in braces. Unmapped units in double brackets. No editorial repairs.
+P1.L01 {Serenissime Rex Dne Consobrine charissime. Lrae Regiae Dig.tis}
+P1.L02 {ac Dil.nis Vrae. decima quarta proxime elapsi mensis Octobris datae, mihi}
+P1.L03 {fuerunt gratissimae, ob laeta quae ex ijs de ulteriori exercitus Caesarei}
+P1.L04 {ad Saram fluvium facto felici progressu, percepi nuntia.}
+P1.L05 adhiberna.uero.quod.attinet{quae Regia}
+P1.L06 {Dig.tas ac Dil.o vra.}pro.iam.dictoexercitu
+P1.L07 caesareoinarchiepiscopatuac
+P1.L08 ciuitate.treuirensifieri.
+P1.L09 desiderat.{Desuper Regiam Dig.tem ac Dil.m vram celare}
+P1.L10 {nequeo, quod uti nihil mihi optabilius, quam eidem in omnibus grati-}
+P1.L11 {ficare, sic et in hac re lubenter vellem. Verum cum}ciuitcs
+P1.L12 treuirensis.iaeindeaducen-
+P1.L13 tis.annissub{Regiae suae Cat.ca matis,}stet
+P1.L14 protectione.atque{eo nomine}abeiusmil
+P1.L15 ite{semper quando id necessitas postulavit}fueritprae=
+P1.L16 sidio.munita.{uti etiam fuit cum}gallus
+P1.L17 uexillaregia.superanseandem
+P1.L18 occuparet;{Conveniens esse arbitror, ut}praesi
+P1.L19 diue.hocregiueindictaciua
+P1.L20 te.locisqcecircumiac⟦p^⟧nti
+P1.L21 bus{conservetur, ex quibus}sumetalimenta
+P1.L22 necessaria{tum ad}suiipsius.uti
+P1.L23 conuenittue.prinncipis
+P1.L24 electoris(cuihctenusex
+P1.L25 aerario{Regiae suae Cat.ca matis}brouisumfuit.)
+P1.L26 sustentationem.{Quibus, aliisque bene perpensis}
+P2.L01 {rationibus ac circumstantiis, nullatenus dubito, Regiam Dig.tem ac Dil.m vram}
+P2.L02 {quod}eiliticaesareoindictis.
+P2.L03 locisdifficulter.r⟦u⟧berna.con
+P2.L04 cedipossint{aeque bonique laturam: Cui de caetero}
+P2.L05 {diuturnam incolumitatem, et optatos apprecor rerum omnium successus.}
+P2.L06 {Datae Bruxellis XVI. mensis Novembris. Anno MDCXXXV.}
+P2.L07 {Regiae Dig.tis ac Dil.nis Vrae.}
+</pre></details>
+</div></section><section class="folio" id="letter-1640">
+<header class="folio-head"><h2>Recruitment and 100,000 florins</h2><p>Vienna, 22 February 1640 · Ferdinand III to Cardinal-Infante Ferdinand</p></header>
+<div class="cols">
+<div class="col cipher"><h3>Cipher transcription</h3><div class="rows"><p><span class="rn">P1.C01</span> op fu 47 ap tis 34 hi 41 x pli 21 47 23 m 25 34 c o m f 50 plo ?</p><p><span class="rn">P1.C02</span> en 51 47 25 in ci 51 it 26 ap plo 42 ip ca c 7 gi a ap 31 pla</p><p><span class="rn">P1.C03</span> 16 46 pli m t 30 23 z p ip c ap 48 y 35 d n g au 50 plu d</p><p><span class="rn">P1.C04</span> ci 42 pli 26 12 22 ip c up 43 38 m 31 37 20 ga 42 op t 9</p><p><span class="rn">P1.C05</span> m 41 7 plo 51 op 43 47 t m p 34 25 pla pli tus 26 12 19</p><p><span class="rn">P1.C06</span> 42 23 31 ip c up 42 15 22 ep 20 plu d n x 33 23 n p 24 22</p><p><span class="rn">P1.C07</span> he 15 22 20 q z 6 15 35 hi ip y e tos 47 uu 8 42 ip m 37 p pli</p><p><span class="rn">P1.C08</span> o b ko cu 26 32 21 26 34 c z m y p 51 n cu q 24 22 op e co</p><p><span class="rn">P1.C09</span> ha en up e mu in 38 26 op 32 plu 42 cu 26</p><p><span class="rn">P1.C10</span> up d 12 17 24 plu t 15 19 44 4 46 ot pli y d ep 41 52 51</p><p><span class="rn">P1.C11</span> ce hi f 12 22 hi et t 34 32 m 30 35 p t 42 23 25 g 53 m f</p><p><span class="rn">P1.C12</span> lx up c q t 37 co hu 25 30 35 t b 23 37 m 34 48 26 me 25</p><p><span class="rn">P1.C13</span> pli 45 32 ple c op 18 41 x pli 21 46 e ci 42 pli 25 30 23 11</p><p><span class="rn">P1.C14</span> 15 32 ou ple 22 pli f 51 e 49 ce 54 e 33 y t b hi x plu 26</p><p><span class="rn">P1.C15</span> o g au 50 plu 31 en m 39 ple 32 ha 37 12 22 15 19 42 26</p><p><span class="rn">P1.C16</span> au c pli tus 31 15 32 26 pli plu n cu 25 in o 42 t 31 42 tes</p><p><span class="rn">P1.C17</span> 50 e hi 25 ou in pli f 46 d 12 tis he e en c 23 t 51 m 37</p><p><span class="rn">P1.C18</span> 20 c t p ap 35 m 51 38 6 42 cu 31 46 15 18 41 ip c up 44 31</p><p><span class="rn">P1.C19</span> n 42 m 48 t c tis 37 52 f un 9 11 15 ip o plu q f c hi 45</p><p><span class="rn">P1.C20</span> 35 24 cu 26 p t 20 53 g ple c 33 35 n pli 49 26 op ce 25</p><p><span class="rn">P1.C21</span> ga 14 me 19 hi 35 31 en op 32 me 25 37 24 d op 43 47 o e</p><p><span class="rn">P1.C22</span> 37 50 32 25 me c q m n 37 30 35 p 10 38 12 x 21 eu 52</p><p><span class="rn">P1.C23</span> 33 23 t ca 24 f 51 ou ple 25 37 ep 41 52 pla ple ca 49 d</p><p><span class="rn">P1.C24</span> t 4 co y p 51 he tes z 34 . he mi ip m 32 pli tus 26 y m 53</p><p><span class="rn">P1.C25</span> 48 tis 31 g 53 p l un e 20 pli tus 25 46 ep 25 an 52 12 31</p><p><span class="rn">P1.C26</span> eu pli cu 25 o hi 41 x pli 21 46 23 p 26 37 50 he 49 21</p><p><span class="rn">P2.C01</span> eu c 12 32 26 pla 22 ple c 30 y o ple 49 25 12 24 31 30 y o m</p><p><span class="rn">P2.C02</span> in tis 20 c t m hi 7 plu 26 f 50 plo q 15 32 ga 7 ca ple 52</p><p><span class="rn">P2.C03</span> hi 26 pli 32 7 pli 23 26 p 36 ou in plu 54 31 p 26 37 f d 47</p><p><span class="rn">P2.C04</span> co ha d mi he d ga tes 51 p 37 op 32 in he 50 pla 51 15</p><p><span class="rn">P2.C05</span> 17 50 23 15 pla ple he in he 50 plo 31 ga 7 ple 49 25</p><p><span class="rn">P2.C06</span> ep 22 plu d ci 19 41 5 43 51 48 25 op 43 47 t e up 26</p><p><span class="rn">P2.C07</span> plo hi z m 48 25 37 53 54 d 15 tis he d m li 31 ple 32</p><p><span class="rn">P2.C08</span> pli y e op e ci 25 an 52 f 54 d ( 30 y 12 tus 31 p 39 g 51 3</p><p><span class="rn">P2.C09</span> en 12 32 15 35 22 it cu 25 46 33 23 12 4 30 38 t d m 39</p><p><span class="rn">P2.C10</span> 24 18 42 25 g c z p ple c p 36 g 51 25 un d ca 22 ha</p><p><span class="rn">P2.C11</span> plu e 48 31 37 54 e z 23 37 op ci pli 26 ga 14 me 18 hi 12</p><p><span class="rn">P2.C12</span> t 26 in 17 45 pli f 46 e m 36 eu 22 ha 32 37 ) op 32 in 17</p><p><span class="rn">P2.C13</span> 45 52 up 50 51 23 m 42 37 {De catero eidem Dil^{oi} Vra}</p></div></div>
+<div class="col it"><h3>Readable Latin</h3><p>Ferdinandus Tertius, divina favente clementia electus Romanorum Imperator, semper Augustus, etc.</p><p>Reverendissime ac Serenissime Princeps, frater et consobrine charissime.</p><p>Comunicabit Dilectioni Vestrae orato[r] Serenissimi Regis Catolici, marchio Castagneti, ea quae circa novum apparatum militis in circulo Westphalico ab electore Coloniae et statibus illius circuli inceptum, ac quae inde in praeiudicium boni publici et etiam domus nostrae vereamur incommoda, secum fusius contulimus.</p><p>Cum [igitur] illud negotium celeri remedio indigeat neque alius pro eo occurrat modus quam ut et nos festinanter collectionem militis, qui in potentiorem numerum quam dictus apparatus se extendat, in illis partibus instituamus, si alias liberam dispositionem ibidem servare et praecavere velimus ne ille circulus alieno arbitrio subiiciatur, ordinavimus ea propter quatinus comes [Hatzfeldius] se confestim Coloniam transferre atque huic operi, qua maiore potest celeritate, manum admovere debeat.</p><p>Deficientibus vero nobis pro eo sumptibus necessariis, petimus a Dilectione Vestra denuo perinstanter quatenus iis quae sibi praedictus orator in [materia] distinctius expositurus est omnimodam fidem habere et, considerata rei gravitate, desideratos hactenus centum mille florenos Coloniam custodiae nostrorum ibidem existentium commissariorum (quibus [expresse] iniungimus ne quidquam ex illis praeter expressum mandatum nostrum aut comitis [Hatzfeldii] assignationem expendant) consignari curare velit.</p><p>De caetero eidem Dilectioni Vestrae a Deo praepotente omnia ad votum prospera ac felicia desideramus. Dabantur in civitate nostra Viennensi die vigesima secunda mensis Februarii, anni salutis millesimi sexcentesimi quadragesimi, regnorum nostrorum Romani quarto, Hungarici decimo quinto et Boemici decimo tertio.</p><p>Eiusdem Dilectionis Vestrae benevolus consobrinus et frater,</p><p>Ferdinandus.</p></div>
+<div class="col en"><h3>English translation</h3><p>Ferdinand III, by the favour of divine clemency elected Roman Emperor, ever august, etc.</p><p>Most reverend and most serene prince, dearest brother and cousin,</p><p>The ambassador of the Most Serene Catholic King, the Marquis of Castagneti, will inform you of the matters we have discussed with him at greater length concerning the new preparations for raising troops in the Westphalian Circle, begun by the Elector of Cologne and the estates of that Circle, and of the harm which we fear may result to the public good and also to our own house.</p><p>Since this affair therefore requires a speedy remedy, and no other course presents itself than for us also to undertake promptly the raising of troops in those parts, in greater numbers than the said preparations envisage, if we are to retain freedom of action there and prevent that Circle from being subjected to another&#x27;s control, we have accordingly ordered Count [Hatzfeld] to proceed immediately to Cologne and take this work in hand with all possible speed.</p><p>As we lack the funds necessary for this, we again ask you most urgently to place full confidence in what the aforesaid ambassador will explain to you more distinctly on this subject and, considering the gravity of the matter, to arrange for the hundred thousand florins previously requested to be delivered to Cologne into the custody of our commissioners residing there. We expressly instruct them to spend none of those funds except under our express command or Count [Hatzfeld]&#x27;s authorization.</p><p>For the rest, we wish you, from Almighty God, every prosperity and happiness according to your wishes. Given at our city of Vienna on 22 February 1640, the fourth year of our Roman reign, the fifteenth of our Hungarian reign, and the thirteenth of our Bohemian reign.</p><p>Your affectionate cousin and brother,</p><p>Ferdinand.</p></div>
+</div>
+<div class="apparatus"><h4>Reading notes</h4><p>One obscured sign and two occurrences of 14 remain unmapped. Hatzfeld is a probable name identification. The literal output retains igitua, materi and expredse; the Latin edition marks their repairs.</p>
+<p><a href="https://github.com/aaymeloglu/unsolved-ciphers/blob/main/ferdinand-1635-1640/READING-1640.md">Full discrepancy apparatus</a> ·
+<a href="https://github.com/aaymeloglu/unsolved-ciphers/blob/main/ferdinand-1635-1640/transcriptions/R1890-reviewed.txt">Transcription</a></p>
+<details><summary>Literal decoder output, with no editorial repairs</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;line-height:1.6"># Post-transfer supplement, no editorial repairs.
+P1.C01 comunicabitdilectioniuestraeorato⟦?⟧
+P1.C02 serenissimiregiscatolicimarchiocasta
+P1.C03 gnetieaquaecircanouumapparatum
+P1.C04 militisincirculouestphalicoab
+P1.C05 electorecoloniaeetstatibusil
+P1.C06 liuscirculiinceptumacquaein
+P1.C07 deinpraeiudiciumbonipublicieteti
+P1.C08 amdomusnostraeuereamurincommo
+P1.C09 dasecumfusiuscontulimus
+P1.C10 cumigituailludnegotiumcelerire
+P1.C11 medioindigeatnequealiusproeo
+P1.C12 occurratmodusquamutetnosfes
+P1.C13 tinantercollectionemmilitisqui
+P1.C14 inpotentioremnumerumquamdictus
+P1.C15 apparatusseextendatinillis
+P1.C16 partibusinstituamussialiaslibe
+P1.C17 ramdispositionemibidemseruareet
+P1.C18 praecauereuelimusneillecirculus
+P1.C19 alienoarbitriosubiiciaturordina
+P1.C20 uimuseapropterquatinuscomes
+P1.C21 ha⟦14⟧feldiusseconfestimcoloniam
+P1.C22 transferreatquehuicoperi
+P1.C23 quamaiorepotestceleritatemanum
+P1.C24 admoueredebeat.deficientibusuero
+P1.C25 nobisproeosumptibusnecessariis
+P1.C26 petimusadilectioneuestradenuo
+P2.C01 perinstanterquatenusiisquae
+P2.C02 sibipraedictusoratorinhacmateri
+P2.C03 distinctiusexpositurusestomni
+P2.C04 modamfidemhabereetconsideratarei
+P2.C05 grauitatedesideratoshactenus
+P2.C06 centummilleflorenoscoloniamcus
+P2.C07 todiaenostrorumibidemexisten
+P2.C08 tiumcommissariorum(quibusexpred
+P2.C09 seiniungimusnequidquamex
+P2.C10 illispraeterexpressummanda
+P2.C11 tumnostrumautcomitisha⟦14⟧feldii
+P2.C12 assignationemexpendant)consig
+P2.C13 naricurareuelit{De catero eidem Dil^{oi} Vra}
+</pre></details>
+</div></section>
+<footer class="colophon"><div><h3>Sources</h3>
+<p>DECODE <a href="https://de-crypt.org/decrypt-web/RecordsView/954">R954</a>, <a href="https://de-crypt.org/decrypt-web/RecordsView/1889">R1889</a> and <a href="https://de-crypt.org/decrypt-web/RecordsView/1890">R1890</a>. Source ciphertext transcriptions by XZ, January 2021; our working layers record normalization and image-review amendments. Manuscript images were accessed with the DECODE project's permission and are not redistributed.</p>
+<p><a href="https://github.com/aaymeloglu/unsolved-ciphers/blob/main/ferdinand-1635-1640/SOURCES.md">Source and prior-publication audit</a></p>
+</div><div><h3>Reproduce and inspect</h3><p>Run <code>python3 verify.py</code> in the published Ferdinand directory. It checks the committed readings, evidence tables and grades without modifying them. The full Latin apparatus distinguishes draft variants, source-review amendments and editorial repairs.</p>
+<p>Research and publication: 18 September 2026. <a href="https://github.com/aaymeloglu/unsolved-ciphers/blob/main/ferdinand-1635-1640/1634-ASSESSMENT.md">The separate 1634 cipher remains open.</a></p></div></footer>
+</body>
+</html>
