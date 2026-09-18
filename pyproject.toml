@@ -5,8 +5,11 @@ description = "Shared solver pieces for the unsolved-ciphers repo: language mode
 requires-python = ">=3.12"
 dependencies = []
 
+[project.optional-dependencies]
+images = ["pillow>=10"]  # cipherkit.transcribe layout/strips/review
+
 [dependency-groups]
-dev = ["pytest>=8"]
+dev = ["pytest>=8", "pillow>=10"]
 
 [build-system]
 requires = ["hatchling"]

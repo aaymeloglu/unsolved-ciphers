@@ -15,6 +15,7 @@ No dependencies beyond the standard library. Python 3.12, managed by uv.
 | `anneal` | `anneal(symbols, values, score, fixed=, bijective=, iters=, t0=, t1=, seed=, init=)` over a plain dict. `frequency_init` for a ranked homophonic start. `climb` for a greedy finish. `restarts(run, seeds, workers)` for several seeds in parallel. |
 | `controls` | `matched_control(corpus, target_tokens, design)` builds a synthetic cipher of the same length and symbol count. `mono_control`, `homophonic_control` (homophones apportioned by letter frequency). `key_recovery(found, true, weights)`. `permutation_z(score, tokens, n)` for the shuffle test. |
 | `tokens` | `parse(text, style)` for the four transcription formats we produce (`groups`, `mixed`, `annotated`, `letters`); `cipher_tokens`, `segments`, `symbol_counts`. |
+| `transcribe` | The transcription workflow as commands: `layout` (deskew by ink-profile variance, find line bands), `strips` (one PNG per line, labelled boards, manifest with source SHA-256 and boxes), `compare` (align two passes token by token, alternatives count), `consensus` (third pass with `{a/b}` at disagreements), `review` (self-contained HTML with strip, chips, key values, disputed highlights). Needs Pillow: `uv sync --all-extras`. |
 | `corpora` | `RECIPES` of Gutenberg and Internet Archive sources per language (en, fr, it, de, es, la, sco, nl), `fetch(lang)`, `text(lang)`, `describe(lang)`, `clean_ocr`. See "Period corpora" below. |
 
 ## A homophonic solve, end to end
@@ -79,6 +80,33 @@ first so the target's number means something.
 tokens one bad swap costs 10 to 50; the defaults `t0=10, t1=0.1` read a 500-letter monoalphabetic
 control on every seed tried, and `t0=2` got stuck three seeds in four. Scale `t0` with the
 ciphertext length and always run several seeds.
+
+## Transcription
+
+What we did by hand for Ottobon f38r (hand-typed line bounds, per-line strips, a blind reader,
+a token-by-token comparison, a review page) is now five commands:
+
+```bash
+uv run python -m cipherkit.transcribe layout ottobon-1589/pages/f38r.jpg -o f38r.layout.json
+#  -> 9 lines, rotate -3.25; f38r.layout.preview.png shows the bands. Edit the JSON if a band is wrong.
+uv run python -m cipherkit.transcribe strips f38r.layout.json -o strips/
+#  -> f38r-L01.png … f38r-L09.png, boards of four, manifest.json with the source hash and every box
+#  (give the boards to a reader who has not seen the key; they write one line of tokens per line)
+uv run python -m cipherkit.transcribe compare context.json blind.txt --names context,blind -o compare.json
+#  -> 114 paired: 77 agree, 10 via alternative, 27 differ; agreement 0.76
+uv run python -m cipherkit.transcribe consensus context.json blind.txt -o round2.json
+#  -> agreed tokens as they are, {x/y} where the readers differ: the input to the next pass
+uv run python -m cipherkit.transcribe review f38r.layout.json context.json --key ottobon-1589/key.json --compare compare.json -o review.html
+```
+
+The numbers above are the real f38r run against the blind reading from September 2026; the
+hand-made comparison in the research folder recorded 84 agreements and 30 disagreements on a
+slightly earlier context pass, so the tool reproduces the process. The line finder deskews by
+maximising the variance of the horizontal ink profile (the page is 3.25 degrees off), masks scan
+borders, finds text blocks, splits each block at its own valleys, and widens each line to the
+midpoint of the gap so superscript numbers stay in the strip. Alignment is Needleman-Wunsch over
+tokens, so an extra or missing token does not shift every later comparison. Layout files and
+manifests are the evidence record: a crop can be cited by file hash and box.
 
 ## Period corpora
 
