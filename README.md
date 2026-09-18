@@ -27,3 +27,15 @@ Two things carried the Forster solve, and neither was cryptanalytic cleverness: 
 - Nick Pelling, [Cipher Mysteries](https://ciphermysteries.com/)
 
 Corpora used by the solvers (Corneille and Descartes from Project Gutenberg, a French frequency list) are not committed; the scripts say where to fetch them.
+
+## cipherkit
+
+Shared solver pieces, so a new target does not start by copy-pasting a quadgram scorer and an
+annealing loop from the last one. See [`cipherkit/README.md`](cipherkit/README.md).
+
+```bash
+uv sync                                   # Python 3.12 venv with the package and pytest
+uv run pytest -q                          # 24 tests, about 10 s
+uv run python -m cipherkit.corpora fetch fr   # period corpus into corpora/ (gitignored)
+uv run python some-target/solve.py        # scripts import cipherkit from the venv
+```
