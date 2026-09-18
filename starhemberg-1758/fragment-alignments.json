@@ -32,7 +32,8 @@
           "table": "B",
           "code": "31384",
           "kind": "ordinary",
-          "value": "gi"
+          "value": "gi",
+          "grade": "H"
         },
         {
           "offset": 685,
@@ -47,7 +48,8 @@
           "table": "B",
           "code": "31042",
           "kind": "ordinary",
-          "value": "eb"
+          "value": "eb",
+          "grade": "H"
         },
         {
           "offset": 690,
@@ -62,7 +64,8 @@
           "table": "B",
           "code": "31238",
           "kind": "ordinary",
-          "value": "t"
+          "value": "t",
+          "grade": "H"
         },
         {
           "offset": 696,
@@ -77,7 +80,8 @@
           "table": "B",
           "code": "31325",
           "kind": "ordinary",
-          "value": "mir"
+          "value": "mir",
+          "grade": "H"
         },
         {
           "offset": 701,
@@ -92,7 +96,8 @@
           "table": "B",
           "code": "31466",
           "kind": "ordinary",
-          "value": "zu"
+          "value": "zu",
+          "grade": "H"
         },
         {
           "offset": 706,
@@ -107,7 +112,8 @@
           "table": "B",
           "code": "53",
           "kind": "ordinary",
-          "value": "mahl"
+          "value": "mahl",
+          "grade": "H"
         }
       ]
     },
@@ -131,7 +137,8 @@
           "table": "A",
           "code": "31005",
           "kind": "ordinary",
-          "value": "an"
+          "value": "an",
+          "grade": "H"
         },
         {
           "offset": 140,
@@ -146,7 +153,8 @@
           "table": "A",
           "code": "31019",
           "kind": "ordinary",
-          "value": "noch"
+          "value": "noch",
+          "grade": "H"
         },
         {
           "offset": 145,
@@ -161,7 +169,8 @@
           "table": "A",
           "code": "31033",
           "kind": "ordinary",
-          "value": "ge"
+          "value": "ge",
+          "grade": "H"
         },
         {
           "offset": 151,
@@ -176,7 +185,8 @@
           "table": "A",
           "code": "31334",
           "kind": "ordinary",
-          "value": "li"
+          "value": "li",
+          "grade": "H"
         },
         {
           "offset": 156,
@@ -191,7 +201,8 @@
           "table": "A",
           "code": "31223",
           "kind": "ordinary",
-          "value": "ng"
+          "value": "ng",
+          "grade": "H"
         },
         {
           "offset": 161,
@@ -206,7 +217,8 @@
           "table": "A",
           "code": "31113",
           "kind": "ordinary",
-          "value": "en"
+          "value": "en",
+          "grade": "H"
         },
         {
           "offset": 166,
@@ -221,7 +233,8 @@
           "table": "A",
           "code": "31181",
           "kind": "ordinary",
-          "value": "werden"
+          "value": "werden",
+          "grade": "H"
         }
       ]
     },
@@ -245,7 +258,8 @@
           "table": "A",
           "code": "31293",
           "kind": "ordinary",
-          "value": "dem"
+          "value": "dem",
+          "grade": "H"
         },
         {
           "offset": 505,
@@ -260,7 +274,8 @@
           "table": "A",
           "code": "31036",
           "kind": "ordinary",
-          "value": "Krieg"
+          "value": "Krieg",
+          "grade": "H"
         },
         {
           "offset": 510,
@@ -275,7 +290,8 @@
           "table": "A",
           "code": "31318",
           "kind": "ordinary",
-          "value": "ein"
+          "value": "ein",
+          "grade": "H"
         },
         {
           "offset": 515,
@@ -290,7 +306,8 @@
           "table": "A",
           "code": "31184",
           "kind": "ordinary",
-          "value": "ver"
+          "value": "ver",
+          "grade": "H"
         },
         {
           "offset": 520,
@@ -305,7 +322,8 @@
           "table": "A",
           "code": "31372",
           "kind": "ordinary",
-          "value": "gn"
+          "value": "gn",
+          "grade": "H"
         },
         {
           "offset": 525,
@@ -320,7 +338,8 @@
           "table": "A",
           "code": "31168",
           "kind": "ordinary",
-          "value": "u"
+          "value": "u",
+          "grade": "H"
         },
         {
           "offset": 530,
@@ -335,7 +354,8 @@
           "table": "A",
           "code": "31350",
           "kind": "ordinary",
-          "value": "gl"
+          "value": "gl",
+          "grade": "H"
         },
         {
           "offset": 535,
@@ -350,7 +370,8 @@
           "table": "A",
           "code": "31121",
           "kind": "ordinary",
-          "value": "ich"
+          "value": "ich",
+          "grade": "H"
         },
         {
           "offset": 540,
@@ -365,7 +386,8 @@
           "table": "A",
           "code": "31490",
           "kind": "ordinary",
-          "value": "re"
+          "value": "re",
+          "grade": "H"
         },
         {
           "offset": 545,
@@ -380,7 +402,8 @@
           "table": "A",
           "code": "69",
           "kind": "ordinary",
-          "value": "als"
+          "value": "als",
+          "grade": "H"
         },
         {
           "offset": 547,
@@ -395,7 +418,8 @@
           "table": "A",
           "code": "01",
           "kind": "ordinary",
-          "value": "die"
+          "value": "die",
+          "grade": "H"
         },
         {
           "offset": 549,
@@ -410,7 +434,8 @@
           "table": "A",
           "code": "31106",
           "kind": "ordinary",
-          "value": "der"
+          "value": "der",
+          "grade": "H"
         },
         {
           "offset": 554,
@@ -425,7 +450,8 @@
           "table": "A",
           "code": "31208",
           "kind": "ordinary",
-          "value": "mahl"
+          "value": "mahl",
+          "grade": "H"
         },
         {
           "offset": 559,
@@ -440,7 +466,8 @@
           "table": "A",
           "code": "31228",
           "kind": "ordinary",
-          "value": "ig"
+          "value": "ig",
+          "grade": "H"
         },
         {
           "offset": 565,
@@ -455,7 +482,8 @@
           "table": "A",
           "code": "31115",
           "kind": "ordinary",
-          "value": "ge"
+          "value": "ge",
+          "grade": "H"
         },
         {
           "offset": 570,
@@ -470,7 +498,8 @@
           "table": "A",
           "code": "31075",
           "kind": "ordinary",
-          "value": "st"
+          "value": "st",
+          "grade": "H"
         },
         {
           "offset": 575,
@@ -485,7 +514,8 @@
           "table": "A",
           "code": "31359",
           "kind": "ordinary",
-          "value": "al"
+          "value": "al",
+          "grade": "H"
         },
         {
           "offset": 580,
@@ -500,7 +530,8 @@
           "table": "A",
           "code": "62",
           "kind": "ordinary",
-          "value": "t"
+          "value": "t",
+          "grade": "H"
         },
         {
           "offset": 582,
@@ -515,7 +546,8 @@
           "table": "A",
           "code": "31041",
           "kind": "ordinary",
-          "value": "ist"
+          "value": "ist",
+          "grade": "H"
         },
         {
           "offset": 587,
@@ -530,7 +562,8 @@
           "table": "A",
           "code": "31333",
           "kind": "ordinary",
-          "value": "geben"
+          "value": "geben",
+          "grade": "H"
         }
       ]
     },
@@ -554,7 +587,8 @@
           "table": "A",
           "code": "95",
           "kind": "ordinary",
-          "value": "n"
+          "value": "n",
+          "grade": "H"
         },
         {
           "offset": 635,
@@ -569,7 +603,8 @@
           "table": "A",
           "code": "31346",
           "kind": "ordinary",
-          "value": "or"
+          "value": "or",
+          "grade": "H"
         },
         {
           "offset": 640,
@@ -584,7 +619,8 @@
           "table": "A",
           "code": "31000",
           "kind": "ordinary",
-          "value": "ab"
+          "value": "ab",
+          "grade": "H"
         },
         {
           "offset": 645,
@@ -599,7 +635,8 @@
           "table": "A",
           "code": "31169",
           "kind": "ordinary",
-          "value": "le"
+          "value": "le",
+          "grade": "H"
         },
         {
           "offset": 650,
@@ -614,7 +651,8 @@
           "table": "A",
           "code": "95",
           "kind": "ordinary",
-          "value": "n"
+          "value": "n",
+          "grade": "H"
         },
         {
           "offset": 652,
@@ -629,7 +667,8 @@
           "table": "A",
           "code": "31004",
           "kind": "ordinary",
-          "value": "fried"
+          "value": "fried",
+          "grade": "H"
         },
         {
           "offset": 657,
@@ -644,7 +683,8 @@
           "table": "A",
           "code": "31184",
           "kind": "ordinary",
-          "value": "ver"
+          "value": "ver",
+          "grade": "H"
         }
       ]
     },
@@ -668,7 +708,8 @@
           "table": "A",
           "code": "31149",
           "kind": "ordinary",
-          "value": "sehr"
+          "value": "sehr",
+          "grade": "H"
         },
         {
           "offset": 243,
@@ -683,7 +724,8 @@
           "table": "A",
           "code": "31438",
           "kind": "ordinary",
-          "value": "tr"
+          "value": "tr",
+          "grade": "H"
         },
         {
           "offset": 248,
@@ -698,7 +740,8 @@
           "table": "A",
           "code": "66",
           "kind": "ordinary",
-          "value": "e"
+          "value": "e",
+          "grade": "H"
         },
         {
           "offset": 250,
@@ -713,7 +756,8 @@
           "table": "A",
           "code": "31364",
           "kind": "ordinary",
-          "value": "fl"
+          "value": "fl",
+          "grade": "H"
         },
         {
           "offset": 255,
@@ -728,7 +772,8 @@
           "table": "A",
           "code": "31121",
           "kind": "ordinary",
-          "value": "ich"
+          "value": "ich",
+          "grade": "H"
         },
         {
           "offset": 260,
@@ -743,7 +788,8 @@
           "table": "A",
           "code": "31115",
           "kind": "ordinary",
-          "value": "ge"
+          "value": "ge",
+          "grade": "H"
         },
         {
           "offset": 265,
@@ -758,7 +804,8 @@
           "table": "A",
           "code": "31158",
           "kind": "ordinary",
-          "value": "fa"
+          "value": "fa",
+          "grade": "H"
         },
         {
           "offset": 270,
@@ -773,7 +820,8 @@
           "table": "A",
           "code": "31348",
           "kind": "ordinary",
-          "value": "ste"
+          "value": "ste",
+          "grade": "H"
         },
         {
           "offset": 275,
@@ -788,7 +836,8 @@
           "table": "A",
           "code": "31122",
           "kind": "ordinary",
-          "value": "me"
+          "value": "me",
+          "grade": "H"
         },
         {
           "offset": 280,
@@ -803,7 +852,8 @@
           "table": "A",
           "code": "31084",
           "kind": "ordinary",
-          "value": "mo"
+          "value": "mo",
+          "grade": "H"
         },
         {
           "offset": 285,
@@ -818,7 +868,8 @@
           "table": "A",
           "code": "31433",
           "kind": "ordinary",
-          "value": "ir"
+          "value": "ir",
+          "grade": "H"
         },
         {
           "offset": 290,
@@ -833,7 +884,8 @@
           "table": "A",
           "code": "31443",
           "kind": "ordinary",
-          "value": "so"
+          "value": "so",
+          "grade": "H"
         },
         {
           "offset": 295,
@@ -848,7 +900,8 @@
           "table": "A",
           "code": "31033",
           "kind": "ordinary",
-          "value": "ge"
+          "value": "ge",
+          "grade": "H"
         },
         {
           "offset": 300,
@@ -863,7 +916,8 @@
           "table": "A",
           "code": "31271",
           "kind": "ordinary",
-          "value": "sch"
+          "value": "sch",
+          "grade": "H"
         },
         {
           "offset": 305,
@@ -878,7 +932,8 @@
           "table": "A",
           "code": "31079",
           "kind": "ordinary",
-          "value": "i"
+          "value": "i",
+          "grade": "H"
         },
         {
           "offset": 310,
@@ -893,7 +948,8 @@
           "table": "A",
           "code": "31315",
           "kind": "ordinary",
-          "value": "ck"
+          "value": "ck",
+          "grade": "H"
         },
         {
           "offset": 316,
@@ -908,7 +964,8 @@
           "table": "A",
           "code": "62",
           "kind": "ordinary",
-          "value": "t"
+          "value": "t",
+          "grade": "H"
         },
         {
           "offset": 318,
@@ -923,7 +980,8 @@
           "table": "A",
           "code": "69",
           "kind": "ordinary",
-          "value": "als"
+          "value": "als",
+          "grade": "H"
         },
         {
           "offset": 320,
@@ -938,7 +996,8 @@
           "table": "A",
           "code": "31287",
           "kind": "ordinary",
-          "value": "vor"
+          "value": "vor",
+          "grade": "H"
         }
       ]
     },
@@ -962,7 +1021,8 @@
           "table": "B",
           "code": "31031",
           "kind": "ordinary",
-          "value": "mi"
+          "value": "mi",
+          "grade": "H"
         },
         {
           "offset": 967,
@@ -977,7 +1037,8 @@
           "table": "B",
           "code": "31183",
           "kind": "ordinary",
-          "value": "no"
+          "value": "no",
+          "grade": "H"
         },
         {
           "offset": 973,
@@ -992,7 +1053,8 @@
           "table": "B",
           "code": "31334",
           "kind": "ordinary",
-          "value": "r"
+          "value": "r",
+          "grade": "H"
         },
         {
           "offset": 978,
@@ -1007,7 +1069,8 @@
           "table": "B",
           "code": "31278",
           "kind": "ordinary",
-          "value": "ca"
+          "value": "ca",
+          "grade": "H"
         },
         {
           "offset": 983,
@@ -1022,7 +1085,8 @@
           "table": "B",
           "code": "44",
           "kind": "ordinary",
-          "value": "an"
+          "value": "an",
+          "grade": "H"
         },
         {
           "offset": 985,
@@ -1037,7 +1101,8 @@
           "table": "B",
           "code": "31345",
           "kind": "ordinary",
-          "value": "Spanien"
+          "value": "Spanien",
+          "grade": "H"
         },
         {
           "offset": 990,
@@ -1052,7 +1117,8 @@
           "table": "B",
           "code": "31208",
           "kind": "ordinary",
-          "value": "übr"
+          "value": "übr",
+          "grade": "H"
         },
         {
           "offset": 995,
@@ -1067,7 +1133,8 @@
           "table": "B",
           "code": "31361",
           "kind": "ordinary",
-          "value": "laß"
+          "value": "laß",
+          "grade": "H"
         },
         {
           "offset": 1000,
@@ -1082,7 +1149,8 @@
           "table": "B",
           "code": "09",
           "kind": "ordinary",
-          "value": "würde"
+          "value": "würde",
+          "grade": "H"
         }
       ]
     },
@@ -1106,7 +1174,8 @@
           "table": "B",
           "code": "31218",
           "kind": "ordinary",
-          "value": "gl"
+          "value": "gl",
+          "grade": "H"
         },
         {
           "offset": 883,
@@ -1121,7 +1190,8 @@
           "table": "B",
           "code": "31299",
           "kind": "ordinary",
-          "value": "ei"
+          "value": "ei",
+          "grade": "H"
         },
         {
           "offset": 888,
@@ -1136,7 +1206,8 @@
           "table": "B",
           "code": "31286",
           "kind": "ordinary",
-          "value": "ch"
+          "value": "ch",
+          "grade": "H"
         },
         {
           "offset": 893,
@@ -1151,7 +1222,8 @@
           "table": "B",
           "code": "31006",
           "kind": "ordinary",
-          "value": "fo"
+          "value": "fo",
+          "grade": "H"
         },
         {
           "offset": 898,
@@ -1166,7 +1238,8 @@
           "table": "B",
           "code": "31334",
           "kind": "ordinary",
-          "value": "r"
+          "value": "r",
+          "grade": "H"
         },
         {
           "offset": 903,
@@ -1181,7 +1254,8 @@
           "table": "B",
           "code": "31031",
           "kind": "ordinary",
-          "value": "mi"
+          "value": "mi",
+          "grade": "H"
         },
         {
           "offset": 908,
@@ -1196,7 +1270,8 @@
           "table": "B",
           "code": "31126",
           "kind": "ordinary",
-          "value": "gn/gen"
+          "value": "gn/gen",
+          "grade": "H"
         },
         {
           "offset": 913,
@@ -1211,7 +1286,8 @@
           "table": "B",
           "code": "31075",
           "kind": "ordinary",
-          "value": "aus"
+          "value": "aus",
+          "grade": "H"
         },
         {
           "offset": 918,
@@ -1226,7 +1302,8 @@
           "table": "B",
           "code": "31225",
           "kind": "ordinary",
-          "value": "ser"
+          "value": "ser",
+          "grade": "H"
         },
         {
           "offset": 923,
@@ -1241,7 +1318,8 @@
           "table": "B",
           "code": "31291",
           "kind": "ordinary",
-          "value": "ung"
+          "value": "ung",
+          "grade": "H"
         }
       ]
     },
@@ -1265,7 +1343,8 @@
           "table": "B",
           "code": "31182",
           "kind": "ordinary",
-          "value": "französ"
+          "value": "französ",
+          "grade": "H"
         },
         {
           "offset": 816,
@@ -1280,7 +1359,8 @@
           "table": "B",
           "code": "74",
           "kind": "ordinary",
-          "value": "bo"
+          "value": "bo",
+          "grade": "H"
         },
         {
           "offset": 818,
@@ -1295,7 +1375,8 @@
           "table": "B",
           "code": "31238",
           "kind": "ordinary",
-          "value": "t"
+          "value": "t",
+          "grade": "H"
         },
         {
           "offset": 823,
@@ -1310,7 +1391,8 @@
           "table": "B",
           "code": "31162",
           "kind": "ordinary",
-          "value": "schaff"
+          "value": "schaff",
+          "grade": "H"
         },
         {
           "offset": 828,
@@ -1325,7 +1407,8 @@
           "table": "B",
           "code": "31300",
           "kind": "ordinary",
-          "value": "te/ten/ter"
+          "value": "te/ten/ter",
+          "grade": "H"
         },
         {
           "offset": 834,
@@ -1340,7 +1423,8 @@
           "table": "B",
           "code": "31264",
           "kind": "ordinary",
-          "value": "fa"
+          "value": "fa",
+          "grade": "H"
         },
         {
           "offset": 839,
@@ -1355,7 +1439,8 @@
           "table": "B",
           "code": "31377",
           "kind": "ordinary",
-          "value": "st"
+          "value": "st",
+          "grade": "H"
         },
         {
           "offset": 844,
@@ -1370,7 +1455,8 @@
           "table": "B",
           "code": "31448",
           "kind": "ordinary",
-          "value": "zu"
+          "value": "zu",
+          "grade": "H"
         },
         {
           "offset": 849,
@@ -1385,7 +1471,8 @@
           "table": "B",
           "code": "31218",
           "kind": "ordinary",
-          "value": "gl"
+          "value": "gl",
+          "grade": "H"
         },
         {
           "offset": 854,
@@ -1400,7 +1487,8 @@
           "table": "B",
           "code": "31299",
           "kind": "ordinary",
-          "value": "ei"
+          "value": "ei",
+          "grade": "H"
         },
         {
           "offset": 859,
@@ -1415,7 +1503,8 @@
           "table": "B",
           "code": "02",
           "kind": "ordinary",
-          "value": "ch"
+          "value": "ch",
+          "grade": "H"
         },
         {
           "offset": 861,
@@ -1430,7 +1519,8 @@
           "table": "B",
           "code": "31014",
           "kind": "ordinary",
-          "value": "zeit"
+          "value": "zeit",
+          "grade": "H"
         },
         {
           "offset": 866,
@@ -1445,7 +1535,8 @@
           "table": "B",
           "code": "31010",
           "kind": "ordinary",
-          "value": "ge/gn/gen"
+          "value": "ge/gn/gen",
+          "grade": "H"
         },
         {
           "offset": 871,
@@ -1460,7 +1551,8 @@
           "table": "B",
           "code": "31403",
           "kind": "ordinary",
-          "value": "mach"
+          "value": "mach",
+          "grade": "H"
         },
         {
           "offset": 876,
@@ -1475,7 +1567,8 @@
           "table": "B",
           "code": "63",
           "kind": "ordinary",
-          "value": "genau"
+          "value": "genau",
+          "grade": "H"
         },
         {
           "offset": 878,
@@ -1490,7 +1583,8 @@
           "table": "B",
           "code": "31218",
           "kind": "ordinary",
-          "value": "gl"
+          "value": "gl",
+          "grade": "H"
         },
         {
           "offset": 883,
@@ -1505,7 +1599,8 @@
           "table": "B",
           "code": "31299",
           "kind": "ordinary",
-          "value": "ei"
+          "value": "ei",
+          "grade": "H"
         },
         {
           "offset": 888,
@@ -1520,7 +1615,8 @@
           "table": "B",
           "code": "31286",
           "kind": "ordinary",
-          "value": "ch"
+          "value": "ch",
+          "grade": "H"
         },
         {
           "offset": 893,
@@ -1535,7 +1631,8 @@
           "table": "B",
           "code": "31006",
           "kind": "ordinary",
-          "value": "fo"
+          "value": "fo",
+          "grade": "H"
         },
         {
           "offset": 898,
@@ -1550,7 +1647,8 @@
           "table": "B",
           "code": "31334",
           "kind": "ordinary",
-          "value": "r"
+          "value": "r",
+          "grade": "H"
         },
         {
           "offset": 903,
@@ -1565,7 +1663,8 @@
           "table": "B",
           "code": "31031",
           "kind": "ordinary",
-          "value": "mi"
+          "value": "mi",
+          "grade": "H"
         },
         {
           "offset": 908,
@@ -1580,7 +1679,8 @@
           "table": "B",
           "code": "31126",
           "kind": "ordinary",
-          "value": "gn/gen"
+          "value": "gn/gen",
+          "grade": "H"
         },
         {
           "offset": 913,
@@ -1595,7 +1695,8 @@
           "table": "B",
           "code": "31075",
           "kind": "ordinary",
-          "value": "aus"
+          "value": "aus",
+          "grade": "H"
         },
         {
           "offset": 918,
@@ -1610,7 +1711,8 @@
           "table": "B",
           "code": "31225",
           "kind": "ordinary",
-          "value": "ser"
+          "value": "ser",
+          "grade": "H"
         },
         {
           "offset": 923,
@@ -1625,7 +1727,8 @@
           "table": "B",
           "code": "31291",
           "kind": "ordinary",
-          "value": "ung"
+          "value": "ung",
+          "grade": "H"
         }
       ]
     },
@@ -1649,7 +1752,8 @@
           "table": "B",
           "code": "31342",
           "kind": "ordinary",
-          "value": "ver"
+          "value": "ver",
+          "grade": "H"
         },
         {
           "offset": 1186,
@@ -1664,7 +1768,8 @@
           "table": "B",
           "code": "31330",
           "kind": "ordinary",
-          "value": "le"
+          "value": "le",
+          "grade": "H"
         },
         {
           "offset": 1191,
@@ -1679,7 +1784,8 @@
           "table": "B",
           "code": "31151",
           "kind": "ordinary",
-          "value": "ge"
+          "value": "ge",
+          "grade": "H"
         },
         {
           "offset": 1196,
@@ -1694,7 +1800,8 @@
           "table": "B",
           "code": "31033",
           "kind": "ordinary",
-          "value": "heit"
+          "value": "heit",
+          "grade": "H"
         }
       ]
     },
@@ -1718,7 +1825,8 @@
           "table": "B",
           "code": "31455",
           "kind": "ordinary",
-          "value": "Courier"
+          "value": "Courier",
+          "grade": "H"
         },
         {
           "offset": 1291,
@@ -1733,7 +1841,8 @@
           "table": "B",
           "code": "14",
           "kind": "ordinary",
-          "value": "zi"
+          "value": "zi",
+          "grade": "H"
         },
         {
           "offset": 1293,
@@ -1748,7 +1857,8 @@
           "table": "B",
           "code": "31307",
           "kind": "ordinary",
-          "value": "n"
+          "value": "n",
+          "grade": "H"
         },
         {
           "offset": 1298,
@@ -1763,7 +1873,8 @@
           "table": "B",
           "code": "99",
           "kind": "ordinary",
-          "value": "er"
+          "value": "er",
+          "grade": "H"
         }
       ]
     },
@@ -1787,7 +1898,8 @@
           "table": "B",
           "code": "31448",
           "kind": "ordinary",
-          "value": "zu"
+          "value": "zu",
+          "grade": "H"
         },
         {
           "offset": 1305,
@@ -1802,7 +1914,8 @@
           "table": "B",
           "code": "31320",
           "kind": "ordinary",
-          "value": "erst"
+          "value": "erst",
+          "grade": "H"
         },
         {
           "offset": 1310,
@@ -1817,7 +1930,8 @@
           "table": "B",
           "code": "31090",
           "kind": "ordinary",
-          "value": "at"
+          "value": "at",
+          "grade": "H"
         },
         {
           "offset": 1315,
@@ -1832,7 +1946,8 @@
           "table": "B",
           "code": "31300",
           "kind": "ordinary",
-          "value": "te/ten/ter"
+          "value": "te/ten/ter",
+          "grade": "H"
         },
         {
           "offset": 1322,
@@ -1847,7 +1962,8 @@
           "table": "B",
           "code": "31210",
           "kind": "ordinary",
-          "value": "den"
+          "value": "den",
+          "grade": "H"
         },
         {
           "offset": 1327,
@@ -1862,7 +1978,8 @@
           "table": "B",
           "code": "31070",
           "kind": "ordinary",
-          "value": "fr/Bericht"
+          "value": "fr/Bericht",
+          "grade": "H"
         },
         {
           "offset": 1332,
@@ -1877,7 +1994,8 @@
           "table": "B",
           "code": "94",
           "kind": "ordinary",
-          "value": "mit"
+          "value": "mit",
+          "grade": "H"
         },
         {
           "offset": 1334,
@@ -1892,7 +2010,8 @@
           "table": "B",
           "code": "31457",
           "kind": "ordinary",
-          "value": "viel"
+          "value": "viel",
+          "grade": "H"
         },
         {
           "offset": 1339,
@@ -1907,7 +2026,8 @@
           "table": "B",
           "code": "31222",
           "kind": "ordinary",
-          "value": "m"
+          "value": "m",
+          "grade": "H"
         },
         {
           "offset": 1344,
@@ -1922,7 +2042,8 @@
           "table": "B",
           "code": "31342",
           "kind": "ordinary",
-          "value": "ver"
+          "value": "ver",
+          "grade": "H"
         }
       ]
     },
@@ -1946,7 +2067,8 @@
           "table": "A",
           "code": "31325",
           "kind": "ordinary",
-          "value": "ber"
+          "value": "ber",
+          "grade": "H"
         },
         {
           "offset": 1457,
@@ -1961,7 +2083,8 @@
           "table": "A",
           "code": "31062",
           "kind": "ordinary",
-          "value": "ei"
+          "value": "ei",
+          "grade": "H"
         },
         {
           "offset": 1462,
@@ -1976,7 +2099,8 @@
           "table": "A",
           "code": "62",
           "kind": "ordinary",
-          "value": "t"
+          "value": "t",
+          "grade": "H"
         },
         {
           "offset": 1464,
@@ -1991,7 +2115,8 @@
           "table": "A",
           "code": "31154",
           "kind": "ordinary",
-          "value": "s"
+          "value": "s",
+          "grade": "H"
         },
         {
           "offset": 1469,
@@ -2006,7 +2131,8 @@
           "table": "A",
           "code": "31112",
           "kind": "ordinary",
-          "value": "ein"
+          "value": "ein",
+          "grade": "H"
         },
         {
           "offset": 1474,
@@ -2021,7 +2147,8 @@
           "table": "A",
           "code": "31115",
           "kind": "ordinary",
-          "value": "ge"
+          "value": "ge",
+          "grade": "H"
         },
         {
           "offset": 1480,
@@ -2036,7 +2163,8 @@
           "table": "A",
           "code": "31271",
           "kind": "ordinary",
-          "value": "sch"
+          "value": "sch",
+          "grade": "H"
         },
         {
           "offset": 1485,
@@ -2051,7 +2179,8 @@
           "table": "A",
           "code": "31127",
           "kind": "ordinary",
-          "value": "la"
+          "value": "la",
+          "grade": "H"
         },
         {
           "offset": 1490,
@@ -2066,7 +2195,8 @@
           "table": "A",
           "code": "31342",
           "kind": "ordinary",
-          "value": "gen"
+          "value": "gen",
+          "grade": "H"
         },
         {
           "offset": 1495,
@@ -2081,7 +2211,8 @@
           "table": "A",
           "code": "31058",
           "kind": "ordinary",
-          "value": "en"
+          "value": "en",
+          "grade": "H"
         },
         {
           "offset": 1500,
@@ -2096,7 +2227,8 @@
           "table": "A",
           "code": "31391",
           "kind": "ordinary",
-          "value": "we?"
+          "value": "we?",
+          "grade": "H"
         },
         {
           "offset": 1505,
@@ -2111,7 +2243,8 @@
           "table": "A",
           "code": "31406",
           "kind": "ordinary",
-          "value": "eg"
+          "value": "eg",
+          "grade": "H"
         },
         {
           "offset": 1510,
@@ -2126,7 +2259,8 @@
           "table": "A",
           "code": "31314",
           "kind": "ordinary",
-          "value": "fo"
+          "value": "fo",
+          "grade": "H"
         },
         {
           "offset": 1515,
@@ -2141,7 +2275,8 @@
           "table": "A",
           "code": "90",
           "kind": "ordinary",
-          "value": "r"
+          "value": "r",
+          "grade": "H"
         },
         {
           "offset": 1517,
@@ -2156,7 +2291,8 @@
           "table": "A",
           "code": "31257",
           "kind": "ordinary",
-          "value": "t"
+          "value": "t",
+          "grade": "H"
         },
         {
           "offset": 1523,
@@ -2171,7 +2307,8 @@
           "table": "A",
           "code": "31394",
           "kind": "ordinary",
-          "value": "zu/zeig"
+          "value": "zu/zeig",
+          "grade": "H"
         },
         {
           "offset": 1528,
@@ -2186,7 +2323,8 @@
           "table": "A",
           "code": "31158",
           "kind": "ordinary",
-          "value": "fa"
+          "value": "fa",
+          "grade": "H"
         },
         {
           "offset": 1533,
@@ -2201,7 +2339,8 @@
           "table": "A",
           "code": "31116",
           "kind": "ordinary",
-          "value": "h"
+          "value": "h",
+          "grade": "H"
         },
         {
           "offset": 1538,
@@ -2216,7 +2355,8 @@
           "table": "A",
           "code": "31085",
           "kind": "ordinary",
-          "value": "ren"
+          "value": "ren",
+          "grade": "H"
         },
         {
           "offset": 1543,
@@ -2231,7 +2371,8 @@
           "table": "A",
           "code": "30000",
           "kind": "ordinary",
-          "value": "und"
+          "value": "und",
+          "grade": "H"
         },
         {
           "offset": 1548,
@@ -2246,7 +2387,8 @@
           "table": "A",
           "code": "31047",
           "kind": "ordinary",
-          "value": "den"
+          "value": "den",
+          "grade": "H"
         },
         {
           "offset": 1554,
@@ -2261,7 +2403,8 @@
           "table": "A",
           "code": "31466",
           "kind": "ordinary",
-          "value": "wa"
+          "value": "wa",
+          "grade": "H"
         },
         {
           "offset": 1559,
@@ -2276,7 +2419,8 @@
           "table": "A",
           "code": "31136",
           "kind": "ordinary",
-          "value": "l"
+          "value": "l",
+          "grade": "H"
         }
       ]
     },
@@ -2300,7 +2444,8 @@
           "table": "A",
           "code": "31184",
           "kind": "ordinary",
-          "value": "ver"
+          "value": "ver",
+          "grade": "H"
         },
         {
           "offset": 1677,
@@ -2315,7 +2460,8 @@
           "table": "A",
           "code": "31500",
           "kind": "ordinary",
-          "value": "trau"
+          "value": "trau",
+          "grade": "H"
         },
         {
           "offset": 1682,
@@ -2330,7 +2476,8 @@
           "table": "A",
           "code": "31058",
           "kind": "ordinary",
-          "value": "en"
+          "value": "en",
+          "grade": "H"
         },
         {
           "offset": 1687,
@@ -2345,7 +2492,8 @@
           "table": "A",
           "code": "31326",
           "kind": "ordinary",
-          "value": "aus"
+          "value": "aus",
+          "grade": "H"
         },
         {
           "offset": 1692,
@@ -2360,7 +2508,8 @@
           "table": "A",
           "code": "31451",
           "kind": "ordinary",
-          "value": "ser"
+          "value": "ser",
+          "grade": "H"
         },
         {
           "offset": 1697,
@@ -2375,7 +2524,8 @@
           "table": "A",
           "code": "31462",
           "kind": "ordinary",
-          "value": "ung"
+          "value": "ung",
+          "grade": "H"
         },
         {
           "offset": 1702,
@@ -2390,7 +2540,8 @@
           "table": "A",
           "code": "31089",
           "kind": "ordinary",
-          "value": "zu"
+          "value": "zu",
+          "grade": "H"
         },
         {
           "offset": 1707,
@@ -2405,7 +2556,8 @@
           "table": "A",
           "code": "31184",
           "kind": "ordinary",
-          "value": "ver"
+          "value": "ver",
+          "grade": "H"
         },
         {
           "offset": 1713,
@@ -2420,7 +2572,8 @@
           "table": "A",
           "code": "31263",
           "kind": "ordinary",
-          "value": "mög/lich"
+          "value": "mög/lich",
+          "grade": "H"
         }
       ]
     }

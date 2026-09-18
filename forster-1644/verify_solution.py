@@ -73,4 +73,8 @@ result = {
 }
 assert offset == 207 and len(counts) == 34
 assert [(m['group'], m['position_in_group']) for m in mismatches] == [(13, 8), (16, 2), (27, 8)]
+# Grades per CONVENTIONS.md: the key was found ciphertext-only and checked against a
+# permutation control, so every token that reads under it is S; the three emendations are I.
+result['grades'] = {'S': result['matches_to_minimally_emended_reading'],
+                    'I': len(result['mismatches']), 'H': 0, 'C': 0}
 print(json.dumps(result, ensure_ascii=False, indent=2))

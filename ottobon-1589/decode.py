@@ -18,19 +18,47 @@ def literal(tokens, mapping):
     return ' | '.join(decode_token(t, mapping) for t in tokens.split())
 
 
+def grade_token(token, mapping):
+    """Per-group grade (CONVENTIONS.md): H = looked up in the archival key,
+    M = alternative labels, unread signs, or absent from the key excerpt."""
+    if '?' in token or token.startswith('{'):
+        return 'M'
+    return 'H' if token in mapping else 'M'
+
+
+def grades(tokens, mapping):
+    return ''.join(grade_token(t, mapping) for t in tokens.split())
+
+
+def grade_counts(document, mapping):
+    counts = {'H': 0, 'M': 0, 'I': 0}
+    for folio in document['folios']:
+        for row in folio['rows']:
+            for g in grades(row['tokens'], mapping):
+                counts[g] += 1
+            counts['I'] += row['reading'].count('[')
+    return counts
+
+
 def render(document, mapping):
     out = ['# Ottobon–Mocenigo: line-by-line transcription', '',
            'Generated from [transcription.json](transcription.json) and '
            '[key.json](key.json). Literal lookup and editorial reading are separate. '
            'See [notation and limitations](README.md#reproduce-the-literal-decoding) '
-           'and [manuscript page locations](SOURCES.md#manuscript-page-locations).', '']
+           'and [manuscript page locations](SOURCES.md#manuscript-page-locations).', '',
+           'Grades per group follow [CONVENTIONS.md](../CONVENTIONS.md): '
+           'H = looked up in the archival key, M = alternative labels, unread signs or '
+           'absent from the key excerpt. Square brackets in a reading are supplied text (I); '
+           'their count is given per row.', '']
     for folio in document['folios']:
         out.extend([f'## f.{folio["folio"]}', ''])
         for row in folio['rows']:
             out.extend([f'### f.{folio["folio"]}, line {row["line"]}', '',
                         '`' + row['tokens'] + '`', '',
                         'Literal: `' + literal(row['tokens'], mapping) + '`', '',
-                        'Reading: ' + row['reading'], ''])
+                        'Reading: ' + row['reading'], '',
+                        'Grades: `' + grades(row['tokens'], mapping) + '`'
+                        + (f' ({n} supplied)' if (n := row['reading'].count('[')) else ''), ''])
         if folio.get('clear_text'):
             out.extend(['Clear handwriting (brackets mark expansions or uncertainty):', ''])
             for label, value in folio['clear_text'].items():
@@ -68,8 +96,11 @@ def main():
             errors.append('TRANSCRIPTION.md is stale; run --write')
         if errors:
             parser.exit(1, '\n'.join(errors) + '\n')
+        gc = grade_counts(document, mapping)
         print(f'PASS: {count} rows; {slots} provisional token slots; '
               f'{uncertain} explicitly uncertain slots. Markdown matches JSON/key.')
+        print(f'Grades: {gc["H"]} H (in key), {gc["M"]} M (uncertain or not in key excerpt), '
+              f'{gc["I"]} bracketed supplied readings (I).')
         print('Consistency check only; these counts do not measure handwriting accuracy.')
     elif not args.write:
         found = False

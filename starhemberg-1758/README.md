@@ -1,5 +1,7 @@
 # Starhemberg, Paris, 23 May 1758: partial decipherment
 
+**Grades** ([CONVENTIONS.md](../CONVENTIONS.md)): of 423 parsed units, 378 H (found in the 1752 Prima/Secunda tables), 6 M (absent from the working key or malformed), 39 nulls, controls and table switches ungraded; every digit repair is I and stays in [repair-cases.json](repair-cases.json), never in the baseline. [two-table-parsing.json](two-table-parsing.json) carries the grade per unit.
+
 **Substantial partial decipherment. The cipher system is identified; a complete, exact plaintext is not yet established.** The 1752 Prima/Secunda key in DECODE R1695/R1698 yields connected German across the letter. Work of 17-18 September 2026. This is a reproducible partial reading, not a claim of a complete or first decipherment.
 
 Square brackets identify material restorations or uncertain readings; ellipses identify omitted unresolved text. Word boundaries, capitalization, spelling, and grammatical expansions of abbreviated key entries are editorial. Unbracketed prose is not a claim that every ending is independently encoded. The unchanged ciphertext and literal roots are available separately.

@@ -1,0 +1,39 @@
+# Target tracker
+
+Every target touched since 13 September 2026, with status from the set in [CONVENTIONS.md](CONVENTIONS.md):
+`solved` · `partial` · `open` · `closed-negative` · `found-solved` · `blocked`. "Dir" is the public folder here, or
+*private* for work that stays in the research folder because it holds nothing publishable yet. Source lists:
+[Tomokiyo](https://cryptiana.web.fc2.com/code/unsolved.htm) (checked against the 6 September 2026 revision),
+[Schmeh Top 50](https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/),
+[DECODE](https://de-crypt.org/). Compiled 18 September 2026 from the per-target READMEs.
+
+| # | Target | Date | Lang | Size | Status | Dir | Evidence and next step |
+|---|---|---|---|---|---|---|---|
+| 1 | Ottobon → Mocenigo, with reply to Gondi (BNE Mss/994 ff.35r–38r; DECODE R2252) | 27 Apr 1589 | it | 118 rows, 1,585 groups | **solved** 16 Sept 2026 | [`ottobon-1589/`](ottobon-1589/) | Surviving key Ziffra prima (DECODE R1789) reads both letters; 1,537 H, 48 M, 54 I. Gaps are binding losses and two blotted groups. Next: registered copy in ASVe Senato, Secreti reg. 87 (no scans attached). |
+| 2 | Forster, 13 May 1644 (AD Val-d'Oise 68 H 8) | 1644 | fr | 207 tokens, 34 symbols | **found-solved**, read independently 14 Sept 2026 | [`forster-1644/`](forster-1644/) | Lasry and Biermann had it; Pitt the same day. Our key: 204 S, 3 I; permutation z = 8.8. Next: the manuscript, to see whether the three defects are Forster's or the transcriber's. |
+| 3 | Starhemberg, Paris (Cryptiana transcription, credited to Pillon) | 23 May 1758 | de | 1,721 digits, 423 units | **partial** 18 Sept 2026 | [`starhemberg-1758/`](starhemberg-1758/) | 1752 Prima/Secunda key (DECODE R1695/R1698) reads Wall, Spain, Minorca; 378 H, 6 M, eleven repairs I. Blocked on the original image (none found; try Frankreich Varia 28-14). |
+| 4 | Vande Perre → de Bruyne, three letters (Thurloe intercepts) | Oct–Nov 1653 | nl | 282 tokens, 22 symbols | **solved** 14 Sept 2026, unpublished | *private* | Bijective annealing on a Hooft 1642 model, 4 of 8 restarts agree; Birch's English glosses not used and agree. Four anomalies open. Next: write it up with grades and publish. |
+| 5 | Royalist intercepts, 13 and 21 May 1646 (BL Add MS 72438 ff.9–10) | 1646 | en | 715 + 156 tokens | **partial** 16 Sept 2026 | [`royalist-1646/`](royalist-1646/) | f.10 is Digby key no. 129; about 45 values C from the surviving key page and Evelyn's printed decipherments. Needs the contemporary decipher or the rest of the key (Add MS 72438 f.11, Tanner 59–60, SP 16/514; BL viewer offline). |
+| 6 | Cardinal-Infante Ferdinand, 16 Nov 1635 (R1889) and 22 Feb 1640 (R1890) | 1635–40 | la | 95 + 780 units | **partial** 18 Sept 2026 | *private* | R954's Latin draft gave a 42-symbol key; on a held-out 95-symbol passage 87 match, 5 unknown, 3 mismatch. On 1640 it covers 416 of 780. Next: values for R1890's syllable groups; check Manuscrits Divers 1151 for a prior reading. |
+| 7 | Regent Moray → John Wood (BL Add MS 32091 f.213) | 13 Jul 1568 | sco | 134 tokens, 32 symbols | **blocked** 16 Sept 2026 | *private* | Anneals degenerate; a 35-letter crib from Wood → Cecil (DECODE 2989) fixes ten letters, same glyph families. Needs the page image or Tomokiyo's glyph legend to map the rest. |
+| 8 | Gelett Burgess, *The Master of Mysteries*, third hidden message | 1912 | en | structural | **open** 13 Sept 2026 | [`burgess-1912/`](burgess-1912/) | Scorer validated on the two known messages (rank 1 and 2); acrostic, diagonal, every-nth and contents-page families negative. Untested: biliteral, word counts from page images, in-story cipher rules on the frame. Possibly no third message. |
+| 9 | Debosnys cryptograms | 1883 | ? | 1,139 groups, 365 labels | **open** 17 Sept 2026, eleven rounds | *private* | Transcription v1.3 does not reconcile with the published counts; no cross-block repeat over three glyphs; matched controls fail at the target's density. Needs human palaeography, not more solver time. |
+| 10 | Julius Petersen byline "46, 9, 4-57, 3, 5" (*Nær og Fjern*) | 1875 | da | six numbers | **open**, not attempted | *private* | Google Books sF9NAZgWBIQC now full view; sibling example 16,1,18,9,19 = PARIS shows the family. Next: pull the eight article pages, enumerate the described systems, stop at one rule that yields a name. |
+| 11 | Cocquet → Mangot, Rome (Clairambault 369 f.317) | Nov 1616 | fr | 191 tokens, 43 shapes | **blocked**, parked 16 Sept 2026 | *private* | Five rounds; no period key from Bongars volumes fr. 7129/7131 fits. BnF inquiry drafted, unsent. Resume only on request. |
+| 12 | Gun Wa advertisement cipher | 1889 | en | 77 letters | **open**, paused 14 Sept 2026 | *private* | Ciphertext-feedback family exhausted (1.95 M cases; 20 of 20 controls at rank 1, target not); permutation p = 0.83. Library outreach declined. |
+| 13 | SP 53/16 nos. 78–79 (Phelippes endorsements) | Dec 1585 | fr | 507 + 644 tokens | **closed-negative** 16 Sept 2026 | *private* | Controls: 3 homophones per letter readable, 6 (the real density) not. Every SP 53/22 key image excluded. Needs the key or more text in the same hand. |
+| 14 | SP 53/22 f.52, "Cifer with Spanish Spye" | 1585? | ? | 84 tokens, 22 symbols | **closed-negative** 16 Sept 2026 | *private* | Matched 84-letter controls solve (0.95–1.0) in six languages; the target scores a full gram worse under every hypothesis. All 61 key images negative. |
+| 15 | Charles I and Nicholas → Boswell (TNA SP 84/157) | 2 Nov 1643 | en | 445 tokens | **found-solved** (our attempt negative) | *private* | Six reconstructed 1642–44 keys scored at their shuffled baselines; three tokens per letter symbol was below n-gram resolution. R. Pitt solved the alphabet in Sept 2026 (recorded in cyphersolver, permutation z = 9.6), which is the crib-or-key route the negative predicted. |
+| 16 | Beverning and Vande Perre → Boreel (Thurloe) | Aug–Sept 1653 | nl | 128 tokens | **closed-negative** 14 Sept 2026 | *private* | Calibrated Dutch band −614 to −554; attacks top out at −650. Needs more text in the cipher or a Dutch-side crib. |
+| 17 | Richelieu → M. de Rancé (BnF fr. 3829 ff.87, 89) | 7 Jul 1629 | fr | ~280 groups | **found-solved** 14 Sept 2026 | *private* | In Avenel III (1858) nos. CXCIX, CCV with plaintext in footnotes. Full symbol key from the glosses not attempted. |
+| 18 | Davison → Walsingham | 27 Jul 1584 | en | 370 tokens, 29 labels | **found-solved** 16 Sept 2026 | *private* | Printed in Boyd, CSP Scotland VII no. 222. Our search read it before the print was found; five matched controls 77–94 %. |
+| 19 | Barney → Mallory, Confederate Navy dictionary code | 19 Mar 1863 | en | 17 groups | **found-solved** 13 Sept 2026 | *private* | Solved on r/codes Aug 2026 (Webster's 1850 dictionary); 16 of 17 verified on the HathiTrust scan; 113-3-85 open. |
+| 20 | Bishop of Worcester's Latin cipher letters (DECODE R8476, R8589, R8613) | 1526–29 | la | three letters | **found-solved** 16 Sept 2026 | *private* | Two printed in Latin (State Papers Henry VIII VI; L&P IV 5282); the third is the 22 July 1527 duplicate with a readable counterpart at Vitellius B IX f.127. No sign-level key. |
+
+## What to do next, in order
+
+1. **Publish Vande Perre** (row 4): the only solve not yet in this repo. Write-up with grades, control, and the four anomalies.
+2. **Ferdinand 1640** (row 6): the key is half known; values for the syllable groups are the work.
+3. **Petersen** (row 10): the cheapest untried item on any list.
+4. **Moray** (row 7) the moment a page image or the glyph legend arrives.
+5. Everything `closed-negative` stays closed until new text or a key surfaces; the controls that closed them are in each folder.
