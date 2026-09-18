@@ -1,0 +1,44 @@
+ROW 1: A:33115={33115} A:93=hab A:12=unterstütz A:17=Grossvezier A:31214=lich A:69=als A:31420=ich A:31078=nun A:31047=den A:31126=in A:95=n A:31382=halt A:31109=der A:31226=selb A:31033=ge A:31452=fu A:31265=n
+{33115}habunterstützGrossvezierlichalsichnundeninnhaltderselbgefun
+ROW 2: A:31047=den A:31443=so A:31191=groß A:31306=hoff A:31078=nun A:99=man A:31080=mach A:31268=mir A:854=, A:00=das A:31211=be A:31109=der A:31099=o A:31226=selb A:31005=an A:31019=noch A:31033=ge A:31334=li
+densogroßhoffnunmanmachmir,dasbederoselbannochgeli
+ROW 3: A:31223=ng A:31113=en A:31181=werden A:01=die A:70=durch A:31312=das A:31293=dem A:31075=st A:31027=at A:31168=u A:22=secret A:31099=o A:31466=wa A:31136=l A:31211=be A:31408=hand A:31228=ig A:31262=te A:31149=sehr
+ngenwerdendiedurchdasdemstatusecretowalbehandigtesehr
+ROW 4: A:31438=tr A:66=e A:31364=fl A:31121=ich A:31115=ge A:31158=fa A:31348=ste A:31122=me A:31084=mo A:31433=ir A:31443=so A:31033=ge A:31271=sch A:31079=i A:31315=ck A:62=t A:69=als A:31287=vor A:30073={30073}
+treflichgefastememoirsogeschicktalsvor{30073}
+ROW 5: A:31399=ti A:99=man A:31318=ein A:31115=ge A:31169=le A:31119=i A:31164=te A:31262=te A:31408=hand A:31078=nun A:31210=mer A:31116=h A:31428=ro A:31170=im A:31210=mer A:31383=off A:31089=zu A:31211=be A:31382=halt A:30000=und
+timaneingeleitetehandnunmerhroimmeroffzubehaltund
+ROW 6: A:31293=dem A:31471=Spanien A:31306=hoff A:73=nach A:11=französisch A:97=religion A:33139={33139} A:43=mittelst A:13=armee A:03=ganz A:12=unterstütz A:16=A A:31058=en A:31089=zu A:31171=ver? A:31263=mög/lich A:01=die A:31240=en A:62=t A:31163=weder A:31293=dem A:31036=Krieg A:31318=ein A:31184=ver A:31372=gn A:31168=u
+demSpanienhoffnachfranzösischreligion{33139}mittelstarmeeganzunterstützAenzuver?mög/lichdieentwederdemKriegeinvergnu
+ROW 7: A:31350=gl A:31121=ich A:31490=re A:69=als A:01=die A:31106=der A:31208=mahl A:31228=ig A:31115=ge A:31075=st A:31359=al A:62=t A:31041=ist A:31333=geben A:21=oder A:31303=uns A:31318=ein A:31061=er A:31222=spr A:31447=s A:31214=lich A:11=französisch
+glichrealsdiedermahliggestaltistgebenoderunseinersprslichfranzösisch
+ROW 8: A:93=hab A:13=armee A:28={28} A:95=n A:31346=or A:31000=ab A:31169=le A:95=n A:31004=fried A:31184=ver A:876=[A→B] B:31162=schaff B:31301=könnte B:870=, B:00=und B:31384=gi B:31042=eb B:31238=t B:31325=mir B:31466=zu B:53=mahl
+habarmee{28}norablenfriedver[A→B]schaffkönnte,undgiebtmirzumahl
+ROW 9: B:03=gemäß B:14=zi B:00=und B:31460=den B:31183=no B:31010=ge/gn/gen B:31272=n B:31057=Euer B:31087=ho B:31286=ch B:31117=geb B:31498=o B:31016=H B:31228=r B:31157=n B:00=und B:31306=von B:31460=den B:31315=wa B:33331={33331}
+gemäßziunddennoge/gn/gennEuerhochgeboHrnundvondenwa{33331}
+ROW 10: B:12=daß B:63=genau B:12=daß B:72=qua B:31210=den B:31182=französ B:74=bo B:31238=t B:31162=schaff B:31300=te/ten/ter B:31264=fa B:31377=st B:31448=zu B:31218=gl B:31299=ei B:02=ch B:31014=zeit B:31010=ge/gn/gen B:31403=mach B:63=genau
+daßgenaudaßquadenfranzösbotschaffte/ten/terfastzugleichzeitge/gn/genmachgenau
+ROW 11: B:31218=gl B:31299=ei B:31286=ch B:31006=fo B:31334=r B:31031=mi B:31126=gn/gen B:31075=aus B:31225=ser B:31291=ung B:31500=seh[r] B:31449=groß B:41=hof B:31089=nu B:99=er B:841=, B:12=daß B:31142=scho B:31157=n
+gleichformign/genausserungseh[r]großhofnuer,daßschon
+ROW 12: B:31031=mi B:31183=no B:31334=r B:31278=ca B:44=an B:31345=Spanien B:31208=übr B:31361=laß B:09=würde B:31437=wo B:31466=zu B:31365=sich B:31239=Frankreich B:31405=berg B:31034=i B:31259=t B:14=zi B:31151=ge B:54=un
+minorcaanSpanienübrlaßwürdewozusichFrankreichbergitzigeun
+ROW 13: B:31329=bund/brud? B:31091=woll B:31304=leicht B:55=hand B:31238=t B:31201=schluß B:31456=wird B:31274=al B:06=da B:31307=n B:26=dies B:41=hof B:44=an B:31210=den B:31144=krieg B:94=mit B:31458=theil B:31408=ne B:31016=H
+bund/brud?wollleichthandtschlußwirdaldandieshofandenkriegmittheilneH
+ROW 14: B:66=me B:00=und B:44=an B:31280=durch B:31210=den B:31389=ü B:31157=n B:31167=und B:31397=Preuss B:31272=n B:41=hof B:31073=in B:31500=seh[r] B:31449=groß B:31342=ver B:31330=le B:31151=ge B:31033=heit B:31246=se
+meundandurchdenünundPreussnhofinseh[r]großverlegeheitse
+ROW 15: B:31282=t B:31475=z B:55=hand B:09=würde B:897=. B:11=da B:30000=ich B:31089=nu B:31057=Euer B:31087=ho B:31286=ch B:31117=geb B:31498=o B:31016=H B:31334=r B:31157=n B:31280=durch B:31210=den B:31455=Courier B:14=zi
+tzhandwürde.daichnuEuerhochgeboHrndurchdenCourierzi
+ROW 16: B:31307=n B:99=er B:31448=zu B:31320=erst B:31090=at B:31300=te/ten/ter B:31210=den B:31070=fr/Bericht B:94=mit B:31457=viel B:31222=m B:31342=ver B:899=[B→A] A:31427=lan/lang/lau? A:31240=en A:31113=en A:62=t
+nerzuerstatte/ten/terdenfr/Berichtmitvielmver[B→A]lan/lang/lau?enent
+ROW 17: A:11=französisch A:59=ren A:53=re A:11=französisch A:54=für/sten A:31247=eh A:31443=so A:31264=brauch A:31130=in A:52=des/den A:31272=nicht A:31101=be A:31168=u A:31413=er A:31429=es A:31318=ein A:31424=rath A:69=als A:31130=in A:31293=dem
+französischrenrefranzösischfür/stenehsobrauchindes/dennichtbeuereseinrathalsindem
+ROW 18: A:31325=ber A:31062=ei A:62=t A:31154=s A:31112=ein A:31115=ge A:31271=sch A:31127=la A:31342=gen A:31058=en A:31391=we? A:31406=eg A:31314=fo A:90=r A:31257=t A:31394=zu/zeig A:31158=fa A:31116=h A:31085=ren
+bereitseingeschlagenenwe?egfortzu/zeigfahren
+ROW 19: A:30000=und A:31047=den A:31466=wa A:31136=l A:31443=so A:31492=viel A:31218=nur A:31170=im A:31210=mer A:31263=mög/lich A:70=durch A:31106=der A:31099=o A:99=man A:31271=sch A:31119=i A:31315=ck
+unddenwalsovielnurimmermög/lichdurchderomanschick
+ROW 20: A:31262=te A:31447=s A:31060=ben A:31247=eh A:31210=mer
+tesbenehmer
+ROW 21: A:31394=zu/zeig A:31484=wei A:31413=er A:31240=en A:31184=ver A:31500=trau A:31058=en A:31326=aus A:31451=ser A:31462=ung A:31089=zu
+zu/zeigweierenvertrauenausserungzu
+ROW 22: A:31184=ver A:31263=mög/lich A:3={3}
+vermög/lich{3}

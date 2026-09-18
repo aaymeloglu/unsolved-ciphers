@@ -1,0 +1,217 @@
+{
+  "status": "Additional local comparison; not an exact complete1756 edition",
+  "source": "Antal/Mírka/Kováč, DOI10.1080/01611194.2025.2457096, Figures1–2, printedp193",
+  "location": "Cipher row2 tail across row3 first half; independent of first53digit fragment",
+  "raw_transcription": "31.44.33104.785.28.398.404.4310.650.53.101.03.105.131.22.831.282",
+  "digits": "314433104785283984044310650531010310513122831282",
+  "digit_count": 48,
+  "literal_roots": "so / den / 13 / Marti / [A→B] / an / Euer Excellenz / ab / ge/gn/gen / fe / r / t",
+  "tokens": [
+    {
+      "offset": 0,
+      "source_start": [
+        1,
+        1
+      ],
+      "source_end": [
+        1,
+        5
+      ],
+      "table": "A",
+      "code": "31443",
+      "kind": "ordinary",
+      "value": "so"
+    },
+    {
+      "offset": 5,
+      "source_start": [
+        1,
+        6
+      ],
+      "source_end": [
+        1,
+        10
+      ],
+      "table": "A",
+      "code": "31047",
+      "kind": "ordinary",
+      "value": "den"
+    },
+    {
+      "offset": 10,
+      "source_start": [
+        1,
+        11
+      ],
+      "source_end": [
+        1,
+        13
+      ],
+      "table": "A",
+      "code": "852",
+      "kind": "control",
+      "value": "13"
+    },
+    {
+      "offset": 13,
+      "source_start": [
+        1,
+        14
+      ],
+      "source_end": [
+        1,
+        16
+      ],
+      "table": "A",
+      "code": "839",
+      "kind": "control",
+      "value": "Marti"
+    },
+    {
+      "offset": 16,
+      "source_start": [
+        1,
+        17
+      ],
+      "source_end": [
+        1,
+        19
+      ],
+      "table": "A",
+      "code": "840",
+      "kind": "switch",
+      "value": "[A→B]"
+    },
+    {
+      "offset": 19,
+      "source_start": [
+        1,
+        20
+      ],
+      "source_end": [
+        1,
+        21
+      ],
+      "table": "B",
+      "code": "44",
+      "kind": "ordinary",
+      "value": "an"
+    },
+    {
+      "offset": 21,
+      "source_start": [
+        1,
+        22
+      ],
+      "source_end": [
+        1,
+        26
+      ],
+      "table": "B",
+      "code": "31065",
+      "kind": "ordinary",
+      "value": "Euer Excellenz"
+    },
+    {
+      "offset": 26,
+      "source_start": [
+        1,
+        27
+      ],
+      "source_end": [
+        1,
+        28
+      ],
+      "table": "B",
+      "code": "05",
+      "kind": "ordinary",
+      "value": "ab"
+    },
+    {
+      "offset": 28,
+      "source_start": [
+        1,
+        29
+      ],
+      "source_end": [
+        1,
+        33
+      ],
+      "table": "B",
+      "code": "31010",
+      "kind": "ordinary",
+      "value": "ge/gn/gen"
+    },
+    {
+      "offset": 33,
+      "source_start": [
+        1,
+        34
+      ],
+      "source_end": [
+        1,
+        38
+      ],
+      "table": "B",
+      "code": "31051",
+      "kind": "ordinary",
+      "value": "fe"
+    },
+    {
+      "offset": 38,
+      "source_start": [
+        1,
+        39
+      ],
+      "source_end": [
+        1,
+        43
+      ],
+      "table": "B",
+      "code": "31228",
+      "kind": "ordinary",
+      "value": "r"
+    },
+    {
+      "offset": 43,
+      "source_start": [
+        1,
+        44
+      ],
+      "source_end": [
+        1,
+        48
+      ],
+      "table": "B",
+      "code": "31282",
+      "kind": "ordinary",
+      "value": "t"
+    }
+  ],
+  "comparison_reading": "so den13Marti an EuerExcellenz abgefert…",
+  "qualification": [
+    "End of word abgefertigt lies outside this checked window.",
+    "Control boundaries use visible marks together with source-key day/month entries; precise pen-mark placement is not mechanically measured.",
+    "The key table reads A852=13, A839=Marti, A840=switch; B31065=EuerExcellenz.",
+    "As in the first fragment, spelling, grammatical endings, and ge/gn/gen expansion require editorial reading."
+  ],
+  "additional_observations_not_counted_as_passed_control": [
+    {
+      "reading": "von der Vollziehung der damahligen …",
+      "evidence": "Surviving plaintext, plus partial cipher/key matches; the exact digit transcript includes unresolved3/8 and2/3 readings.",
+      "effect_on_target": "Prompted independent alphabetical/numerical rereading of B53 as mahl with s/en endings, superseding meist."
+    },
+    {
+      "reading": "B900 is a comma",
+      "evidence": "R1698I7486P3 bottom control row; candidate boundary in1756 row3."
+    },
+    {
+      "reading": "Title/Expresse span between original53digits and newwindow",
+      "status": "Not fully aligned; ambiguous digits and abbreviated roots. No claim of a continuous101digit match."
+    },
+    {
+      "reading": "Remaining lower portion of cipher illustration",
+      "status": "Inspected; several digit and mark ambiguities remain. Not included in calibration."
+    }
+  ]
+}

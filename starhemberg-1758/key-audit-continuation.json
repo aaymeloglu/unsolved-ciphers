@@ -1,0 +1,533 @@
+{
+  "status": "Source-based corrections; full inflection inventory still incomplete",
+  "sources": "DECODE R1695 alphabetical and R1698 numerical Prima/Secunda; source links and page identifiers in README.md. Later entries supersede explicitly marked earlier readings.",
+  "entries": [
+    {
+      "table": "B",
+      "code": "99",
+      "previous": "rr",
+      "reading": "er",
+      "evidence": [
+        "R1695 P3 E continuation: er 99,31293",
+        "R1698 P3 short-code row99: er; earlier rr was misreading"
+      ]
+    },
+    {
+      "table": "B",
+      "code": "31033",
+      "previous": "hei?",
+      "reading": "heit",
+      "evidence": [
+        "R1695 P4 H: heit31033",
+        "R1698 P3 numeric31033: heit"
+      ]
+    },
+    {
+      "table": "B",
+      "code": "31070",
+      "previous": "ein",
+      "reading": "fr/Bericht",
+      "evidence": [
+        "R1695 P3 F: fr31070; B: Bericht31070",
+        "R1698 P3 numeric31070: fr // Bericht with endings; prior ein wrong (E number misread)"
+      ]
+    },
+    {
+      "table": "B",
+      "code": "31282",
+      "previous": "man",
+      "reading": "t",
+      "evidence": [
+        "R1698 P3 numeric31282: t/tt // Gr.Kaunitz",
+        "Prior M man belongs31382, not31282; last-turn correction was wrong"
+      ]
+    },
+    {
+      "table": "B",
+      "code": "31300",
+      "previous": "co",
+      "reading": "te/ten/ter",
+      "evidence": [
+        "R1695 P3 T: te with endings,31289 and31300",
+        "R1698 P3 bottom of312xx column31300: te; C co belongs31360"
+      ]
+    },
+    {
+      "table": "B",
+      "code": "31320",
+      "previous": "verst",
+      "reading": "erst",
+      "evidence": [
+        "R1695 P3 E: erst with endings31320",
+        "R1698 P3 numeric31320: erst; prior verst inserted v"
+      ]
+    },
+    {
+      "table": "B",
+      "code": "31330",
+      "previous": "in",
+      "reading": "le",
+      "evidence": [
+        "R1695 P3 L: le31330",
+        "R1698 P3 numeric31330: le; I im is31336, in31073/31097"
+      ]
+    },
+    {
+      "table": "B",
+      "code": "31342",
+      "previous": "br",
+      "reading": "ver",
+      "evidence": [
+        "R1695 P3 V: ver31342,31214",
+        "R1695/R1698 numerical31342: ver (v/e had been misread b)"
+      ]
+    },
+    {
+      "table": "B",
+      "code": "31377",
+      "previous": "et",
+      "reading": "st",
+      "evidence": [
+        "R1695 P4 S: St31377 nearSpanien andSteffano",
+        "R1698 P3 numeric31377: st; prior et wrong"
+      ]
+    },
+    {
+      "table": "B",
+      "code": "31457",
+      "previous": "theil",
+      "reading": "viel",
+      "evidence": [
+        "R1695 P3 V: viel with endings31457",
+        "R1698 P3 numeric31457: viel; neither theil nor lieb;31458 isTheil"
+      ]
+    },
+    {
+      "table": "B",
+      "code": "53",
+      "previous": "nächst",
+      "reading": "meist",
+      "evidence": [
+        "R1698 P3 short53 reads meist with endings; former nächst incorrect."
+      ],
+      "confidence": "provisional",
+      "superseded": true,
+      "superseded_reason": "Alphabetical M and numerical rereading mahl with s/en endings; comparison-letter damahligen provides additional contextual support."
+    },
+    {
+      "table": "B",
+      "code": "63",
+      "previous": "genug",
+      "reading": "genau",
+      "evidence": [
+        "R1695 P3 G: genau, -lich63; numeric row63 agrees. Earlier eh/genug wrong."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31010",
+      "previous": "gn",
+      "reading": "ge/gn/gen",
+      "evidence": [
+        "R1695 P3 G / R1698 P3 numeric: ge/gen or gn/gen; retain first-root ambiguity explicitly. Context selects ge in Zeit ge-machten."
+      ],
+      "confidence": "provisional"
+    },
+    {
+      "table": "B",
+      "code": "31014",
+      "previous": "zwi",
+      "reading": "zeit",
+      "evidence": [
+        "R1695 P4 Z: zeit with en/ig endings31014; numeric row agrees. Earlier zwi was misreading."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31306",
+      "previous": "kon",
+      "reading": "von",
+      "evidence": [
+        "R1695 P3 V: von31306,31400; numerical row31306 agrees. Earlier kon wrong;31300 belongs te, not von."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31403",
+      "previous": "Mensch",
+      "reading": "mach",
+      "evidence": [
+        "R1695 P3 M: mach with endings31403; numeric row31403 agrees; first nearby M entry is marsch31271. Earlier Mensch wrong."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31405",
+      "previous": "wo",
+      "reading": "berg",
+      "evidence": [
+        "R1695 P3 B: berg31405; numeric row31405 agrees. Earlier wo misread W code; target bereit would still require restoration/alternate reading, not certified."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31329",
+      "previous": "bekannt",
+      "reading": "bund/brud?",
+      "evidence": [
+        "Numerical31329 whole-word entry still ambiguous (bund/brud?). Remove unsupported known label bekannt; proposed target31326=d is a separate hypothesis."
+      ],
+      "confidence": "provisional"
+    },
+    {
+      "table": "B",
+      "code": "31142",
+      "previous": "so",
+      "reading": "scho",
+      "evidence": [
+        "R1695 P4 S after Schloss: scho with endings31142. Target gives scho+n; conditional connective remains unresolved."
+      ],
+      "confidence": "provisional"
+    },
+    {
+      "table": "B",
+      "code": "31057",
+      "previous": "mer",
+      "reading": "Euer",
+      "evidence": [
+        "R1695 P3 E continuation explicitly Euer31057, numerical row31057. Repeated EuerHochgebohrn addresses recovered."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31246",
+      "previous": "er?",
+      "reading": "se",
+      "evidence": [
+        "R1695 P4 S se31246 (and second homophone); numeric31246."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31301",
+      "previous": "beist",
+      "reading": "könnte",
+      "evidence": [
+        "R1695 P3 K after können: könnte31301, numeric31301."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31304",
+      "previous": "mög",
+      "reading": "leicht",
+      "evidence": [
+        "R1695 P3 L leicht31304, numerical31304."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31397",
+      "previous": "genüg?",
+      "reading": "Preuss",
+      "evidence": [
+        "R1695 P3 P Preussisch31216/31397, numeric31397."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31399",
+      "previous": null,
+      "reading": "Engelland",
+      "evidence": [
+        "R1695 P3 E Engelland31399; numeric31399. Target31389 is NOT silently replaced."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "95",
+      "previous": null,
+      "reading": "en",
+      "evidence": [
+        "R1695 P3 E continuation en95,31158,31275; short95numeric."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31326",
+      "previous": null,
+      "reading": "d",
+      "evidence": [
+        "R1698 P3 numeric31326 D, with proper name alternative."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "A",
+      "code": "31004",
+      "previous": "fremd/fried?",
+      "reading": "fremd",
+      "evidence": [
+        "R1698 P1 numeric31004; remove target-driven Frieden from historical table."
+      ],
+      "confidence": "source-supported",
+      "superseded": true,
+      "superseded_reason": "Full alphabetical F entry and its endings distinguish fried/en/same; prior fremd reading wrong."
+    },
+    {
+      "table": "A",
+      "code": "31427",
+      "previous": "lau",
+      "reading": "lan/lang/lau?",
+      "evidence": [
+        "Both numerical copies show pf//lan(lau?) with a g alternative below; alphabetical L late addition31427. Lang is plausible but n/u and alternative layout not fully certified."
+      ],
+      "confidence": "provisional"
+    },
+    {
+      "table": "A",
+      "code": "31197",
+      "previous": null,
+      "reading": "bi",
+      "evidence": [
+        "R1698 P1 numeric31197 bi // Vaulgrenant. Does not by itself resolve court gap."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31400",
+      "previous": null,
+      "reading": "von",
+      "evidence": [
+        "R1695 alphabetical V: von31306,31400. Numerical31400 agrees."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "A",
+      "code": "31368",
+      "previous": null,
+      "reading": "s",
+      "evidence": [
+        "Numerical/alphabetical entry and independent interlinear worked example, where it supplies the s after König."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "A",
+      "code": "31036",
+      "previous": "engl",
+      "reading": "Krieg",
+      "evidence": [
+        "R1698 P1 numerical31036 and R1695 P6 alphabetical K late addition krieg31036"
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "A",
+      "code": "31490",
+      "previous": "werde",
+      "reading": "re",
+      "evidence": [
+        "R1698 P1 and R1695 P8 numerical31490; R1695 P7 alphabetical R re31490. Werden belongs31493, not31490."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "A",
+      "code": "73",
+      "previous": "was",
+      "reading": "nach",
+      "evidence": [
+        "R1698 P1 short73; R1695 P7 alphabetical N nach73,31123. Also independently present in the 1756 parallel-letter Nachricht."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "A",
+      "code": "31005",
+      "previous": "au",
+      "reading": "an",
+      "evidence": [
+        "R1698 P1 numerical31005; R1695 P6 alphabetical A an31005 between America and ander; au is31450. Parallel1756 Ankunft agrees."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "A",
+      "code": "31019",
+      "previous": "ch",
+      "reading": "noch",
+      "evidence": [
+        "R1698 P1 numerical31019; R1695 P7 alphabetical N noch31019. Target31005+31019 reads annoch."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "A",
+      "code": "31118",
+      "previous": null,
+      "reading": "hoff",
+      "evidence": [
+        "R1698 P1 numerical31118; independent1756 letter first line."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "A",
+      "code": "72",
+      "previous": null,
+      "reading": "kunft",
+      "evidence": [
+        "R1698 P1 short72 kunft with endings; independent1756 Ankunft."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "A",
+      "code": "31220",
+      "previous": null,
+      "reading": "richt",
+      "evidence": [
+        "R1698 P1 numerical31220; R1695 P7 alphabetical R richt31220; parallel1756 Nachricht."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "A",
+      "code": "31453",
+      "previous": null,
+      "reading": "u/uc/uck",
+      "evidence": [
+        "R1698 P1 numerical31453 has u with c/k alternatives and Mgr Migazzi proper-name alternative. Independent1756 gl+uck+lich."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "A",
+      "code": "31218",
+      "previous": "nu",
+      "reading": "nur",
+      "evidence": [
+        "Both numerical copies R1698 P1 and R1695 P8 row31218 have final r. Earlier nu dropped it."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "A",
+      "code": "31004",
+      "previous": "fremd",
+      "reading": "fried",
+      "evidence": [
+        "R1695 P6 alphabetical F: fried with en and same alternatives, after freund05 and before frisch50. Compare distinct freund entry immediately above.",
+        "R1698 P1 and R1695 P8 numerical31004: abbreviated fried with same/en endings. Earlier compressed-hand fremd reading was incorrect."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "53",
+      "previous": "meist",
+      "reading": "mahl",
+      "evidence": [
+        "R1695 I7472 P3 alphabetical M, between mach31403 and man31382: mahl53 with s/en endings.",
+        "R1698 I7486 P3 short53: mahl with s/en endings; prior meist/nächst readings wrong.",
+        "1756 comparison plaintext damahligen agrees with da+mahl+ig+en; digit reading around its ig code remains explicitly uncertain."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "05",
+      "previous": null,
+      "reading": "ab",
+      "evidence": [
+        "R1698 I7486 P3 numerical row05; added for1756 comparison, not inferred as a Starhemberg plaintext replacement."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "29",
+      "previous": null,
+      "reading": "der",
+      "evidence": [
+        "R1698 I7486 P3 numerical row29; added for1756 comparison, not inferred as a Starhemberg plaintext replacement."
+      ],
+      "confidence": "provisional"
+    },
+    {
+      "table": "B",
+      "code": "59",
+      "previous": null,
+      "reading": "der",
+      "evidence": [
+        "R1698 I7486 P3 numerical row59; added for1756 comparison, not inferred as a Starhemberg plaintext replacement."
+      ],
+      "confidence": "provisional"
+    },
+    {
+      "table": "B",
+      "code": "64",
+      "previous": null,
+      "reading": "voll",
+      "evidence": [
+        "R1698 I7486 P3 numerical row64; added for1756 comparison, not inferred as a Starhemberg plaintext replacement."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31051",
+      "previous": null,
+      "reading": "fe",
+      "evidence": [
+        "R1698 I7486 P3 numerical row31051; added for1756 comparison, not inferred as a Starhemberg plaintext replacement."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31065",
+      "previous": null,
+      "reading": "Euer Excellenz",
+      "evidence": [
+        "R1698 I7486 P3 numerical row31065; added for1756 comparison, not inferred as a Starhemberg plaintext replacement."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31086",
+      "previous": null,
+      "reading": "ig",
+      "evidence": [
+        "R1698 I7486 P3 numerical row31086; added for1756 comparison, not inferred as a Starhemberg plaintext replacement."
+      ],
+      "confidence": "source-supported"
+    },
+    {
+      "table": "B",
+      "code": "31200",
+      "previous": null,
+      "reading": "eh",
+      "evidence": [
+        "R1698 I7486 P3 numerical row31200; added for1756 comparison, not inferred as a Starhemberg plaintext replacement."
+      ],
+      "confidence": "source-supported"
+    }
+  ]
+}

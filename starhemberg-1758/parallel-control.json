@@ -1,0 +1,253 @@
+{
+  "status": "Limited independent lexical control; not exact whole-clause alignment",
+  "letter": "Kaunitz, Vienna, 17 April 1756",
+  "source": "Antal, Mírka and Kováč, Development of obfuscation techniques in Vienna during the early modern era, printed p.193, Figures 1–2 (PDF page 4)",
+  "doi": "10.1080/01611194.2025.2457096",
+  "ciphertext_transcription": "3107.83.111.86.3017.331.22.031.28.131.35.03.145.33.121.431.00.57.23.11.09",
+  "digits": "31078311186301733122031281313503145331214310057231109",
+  "ordinary_units": 13,
+  "literal_roots": "nun / hoff / bald / die / nach / richt / von / gl / u/uc/uck / lich / an / kunft / der",
+  "comparison_words": [
+    {
+      "plaintext_word": "Nachricht",
+      "codes": [
+        "73",
+        "31220"
+      ],
+      "selected_roots": [
+        "nach",
+        "richt"
+      ],
+      "qualification": "Spelling and endings expanded editorially."
+    },
+    {
+      "plaintext_word": "glücklichen",
+      "codes": [
+        "31350",
+        "31453",
+        "31214"
+      ],
+      "selected_roots": [
+        "gl",
+        "uck",
+        "lich"
+      ],
+      "qualification": "Spelling and endings expanded editorially."
+    },
+    {
+      "plaintext_word": "Ankunft",
+      "codes": [
+        "31005",
+        "72"
+      ],
+      "selected_roots": [
+        "an",
+        "kunft"
+      ],
+      "qualification": "Spelling and endings expanded editorially."
+    }
+  ],
+  "limitations": [
+    "The surviving plaintext includes an article after von which this fragment does not encode separately.",
+    "No control mark occurs within these first53digits; the next marked unit is excluded.",
+    "This checks mechanics and selected roots, not all target entries or proposed repairs.",
+    "The paper reports sixteen parallel letters, but they were not present in the available DECODE catalog snapshot."
+  ],
+  "tokens": [
+    {
+      "offset": 0,
+      "source_start": [
+        1,
+        1
+      ],
+      "source_end": [
+        1,
+        5
+      ],
+      "table": "A",
+      "code": "31078",
+      "kind": "ordinary",
+      "value": "nun"
+    },
+    {
+      "offset": 5,
+      "source_start": [
+        1,
+        6
+      ],
+      "source_end": [
+        1,
+        10
+      ],
+      "table": "A",
+      "code": "31118",
+      "kind": "ordinary",
+      "value": "hoff"
+    },
+    {
+      "offset": 10,
+      "source_start": [
+        1,
+        11
+      ],
+      "source_end": [
+        1,
+        12
+      ],
+      "table": "A",
+      "code": "63",
+      "kind": "ordinary",
+      "value": "bald"
+    },
+    {
+      "offset": 12,
+      "source_start": [
+        1,
+        13
+      ],
+      "source_end": [
+        1,
+        14
+      ],
+      "table": "A",
+      "code": "01",
+      "kind": "ordinary",
+      "value": "die"
+    },
+    {
+      "offset": 14,
+      "source_start": [
+        1,
+        15
+      ],
+      "source_end": [
+        1,
+        16
+      ],
+      "table": "A",
+      "code": "73",
+      "kind": "ordinary",
+      "value": "nach"
+    },
+    {
+      "offset": 16,
+      "source_start": [
+        1,
+        17
+      ],
+      "source_end": [
+        1,
+        21
+      ],
+      "table": "A",
+      "code": "31220",
+      "kind": "ordinary",
+      "value": "richt"
+    },
+    {
+      "offset": 21,
+      "source_start": [
+        1,
+        22
+      ],
+      "source_end": [
+        1,
+        26
+      ],
+      "table": "A",
+      "code": "31281",
+      "kind": "ordinary",
+      "value": "von"
+    },
+    {
+      "offset": 26,
+      "source_start": [
+        1,
+        27
+      ],
+      "source_end": [
+        1,
+        31
+      ],
+      "table": "A",
+      "code": "31350",
+      "kind": "ordinary",
+      "value": "gl"
+    },
+    {
+      "offset": 31,
+      "source_start": [
+        1,
+        32
+      ],
+      "source_end": [
+        1,
+        36
+      ],
+      "table": "A",
+      "code": "31453",
+      "kind": "ordinary",
+      "value": "u/uc/uck"
+    },
+    {
+      "offset": 36,
+      "source_start": [
+        1,
+        37
+      ],
+      "source_end": [
+        1,
+        41
+      ],
+      "table": "A",
+      "code": "31214",
+      "kind": "ordinary",
+      "value": "lich"
+    },
+    {
+      "offset": 41,
+      "source_start": [
+        1,
+        42
+      ],
+      "source_end": [
+        1,
+        46
+      ],
+      "table": "A",
+      "code": "31005",
+      "kind": "ordinary",
+      "value": "an"
+    },
+    {
+      "offset": 46,
+      "source_start": [
+        1,
+        47
+      ],
+      "source_end": [
+        1,
+        48
+      ],
+      "table": "A",
+      "code": "72",
+      "kind": "ordinary",
+      "value": "kunft"
+    },
+    {
+      "offset": 48,
+      "source_start": [
+        1,
+        49
+      ],
+      "source_end": [
+        1,
+        53
+      ],
+      "table": "A",
+      "code": "31109",
+      "kind": "ordinary",
+      "value": "der"
+    }
+  ]
+}

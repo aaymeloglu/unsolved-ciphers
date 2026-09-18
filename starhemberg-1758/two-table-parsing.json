@@ -1,0 +1,6353 @@
+{
+  "status": "partial; provisional key and unresolved source errors",
+  "hypotheses": [
+    "first mark interpreted at code 854, offset 109, rather than overlapping 885 at offset 108"
+  ],
+  "tokens": [
+    {
+      "offset": 0,
+      "source_start": [
+        1,
+        1
+      ],
+      "source_end": [
+        1,
+        1
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1,
+      "source_start": [
+        1,
+        2
+      ],
+      "source_end": [
+        1,
+        2
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 2,
+      "source_start": [
+        1,
+        4
+      ],
+      "source_end": [
+        1,
+        10
+      ],
+      "table": "A",
+      "code": "33115",
+      "kind": "invalid",
+      "value": "{33115}"
+    },
+    {
+      "offset": 7,
+      "source_start": [
+        1,
+        11
+      ],
+      "source_end": [
+        1,
+        14
+      ],
+      "table": "A",
+      "code": "93",
+      "kind": "ordinary",
+      "value": "hab"
+    },
+    {
+      "offset": 9,
+      "source_start": [
+        1,
+        15
+      ],
+      "source_end": [
+        1,
+        16
+      ],
+      "table": "A",
+      "code": "12",
+      "kind": "ordinary",
+      "value": "unterstütz"
+    },
+    {
+      "offset": 11,
+      "source_start": [
+        1,
+        18
+      ],
+      "source_end": [
+        1,
+        19
+      ],
+      "table": "A",
+      "code": "17",
+      "kind": "ordinary",
+      "value": "Grossvezier"
+    },
+    {
+      "offset": 13,
+      "source_start": [
+        1,
+        21
+      ],
+      "source_end": [
+        1,
+        26
+      ],
+      "table": "A",
+      "code": "31214",
+      "kind": "ordinary",
+      "value": "lich"
+    },
+    {
+      "offset": 18,
+      "source_start": [
+        1,
+        28
+      ],
+      "source_end": [
+        1,
+        29
+      ],
+      "table": "A",
+      "code": "69",
+      "kind": "ordinary",
+      "value": "als"
+    },
+    {
+      "offset": 20,
+      "source_start": [
+        1,
+        31
+      ],
+      "source_end": [
+        1,
+        37
+      ],
+      "table": "A",
+      "code": "31420",
+      "kind": "ordinary",
+      "value": "ich"
+    },
+    {
+      "offset": 25,
+      "source_start": [
+        1,
+        39
+      ],
+      "source_end": [
+        1,
+        44
+      ],
+      "table": "A",
+      "code": "31078",
+      "kind": "ordinary",
+      "value": "nun"
+    },
+    {
+      "offset": 30,
+      "source_start": [
+        1,
+        46
+      ],
+      "source_end": [
+        1,
+        51
+      ],
+      "table": "A",
+      "code": "31047",
+      "kind": "ordinary",
+      "value": "den"
+    },
+    {
+      "offset": 35,
+      "source_start": [
+        1,
+        54
+      ],
+      "source_end": [
+        1,
+        59
+      ],
+      "table": "A",
+      "code": "31126",
+      "kind": "ordinary",
+      "value": "in"
+    },
+    {
+      "offset": 40,
+      "source_start": [
+        1,
+        61
+      ],
+      "source_end": [
+        1,
+        62
+      ],
+      "table": "A",
+      "code": "95",
+      "kind": "ordinary",
+      "value": "n"
+    },
+    {
+      "offset": 42,
+      "source_start": [
+        1,
+        64
+      ],
+      "source_end": [
+        1,
+        70
+      ],
+      "table": "A",
+      "code": "31382",
+      "kind": "ordinary",
+      "value": "halt"
+    },
+    {
+      "offset": 47,
+      "source_start": [
+        1,
+        72
+      ],
+      "source_end": [
+        1,
+        77
+      ],
+      "table": "A",
+      "code": "31109",
+      "kind": "ordinary",
+      "value": "der"
+    },
+    {
+      "offset": 52,
+      "source_start": [
+        1,
+        79
+      ],
+      "source_end": [
+        1,
+        84
+      ],
+      "table": "A",
+      "code": "31226",
+      "kind": "ordinary",
+      "value": "selb"
+    },
+    {
+      "offset": 57,
+      "source_start": [
+        1,
+        86
+      ],
+      "source_end": [
+        1,
+        91
+      ],
+      "table": "A",
+      "code": "31033",
+      "kind": "ordinary",
+      "value": "ge"
+    },
+    {
+      "offset": 62,
+      "source_start": [
+        1,
+        93
+      ],
+      "source_end": [
+        1,
+        98
+      ],
+      "table": "A",
+      "code": "31452",
+      "kind": "ordinary",
+      "value": "fu"
+    },
+    {
+      "offset": 67,
+      "source_start": [
+        1,
+        100
+      ],
+      "source_end": [
+        2,
+        5
+      ],
+      "table": "A",
+      "code": "31265",
+      "kind": "ordinary",
+      "value": "n"
+    },
+    {
+      "offset": 72,
+      "source_start": [
+        2,
+        7
+      ],
+      "source_end": [
+        2,
+        12
+      ],
+      "table": "A",
+      "code": "31047",
+      "kind": "ordinary",
+      "value": "den"
+    },
+    {
+      "offset": 77,
+      "source_start": [
+        2,
+        14
+      ],
+      "source_end": [
+        2,
+        19
+      ],
+      "table": "A",
+      "code": "31443",
+      "kind": "ordinary",
+      "value": "so"
+    },
+    {
+      "offset": 82,
+      "source_start": [
+        2,
+        21
+      ],
+      "source_end": [
+        2,
+        27
+      ],
+      "table": "A",
+      "code": "31191",
+      "kind": "ordinary",
+      "value": "groß"
+    },
+    {
+      "offset": 87,
+      "source_start": [
+        2,
+        29
+      ],
+      "source_end": [
+        2,
+        34
+      ],
+      "table": "A",
+      "code": "31306",
+      "kind": "ordinary",
+      "value": "hoff"
+    },
+    {
+      "offset": 92,
+      "source_start": [
+        2,
+        36
+      ],
+      "source_end": [
+        2,
+        41
+      ],
+      "table": "A",
+      "code": "31078",
+      "kind": "ordinary",
+      "value": "nun"
+    },
+    {
+      "offset": 97,
+      "source_start": [
+        2,
+        43
+      ],
+      "source_end": [
+        2,
+        44
+      ],
+      "table": "A",
+      "code": "99",
+      "kind": "ordinary",
+      "value": "man"
+    },
+    {
+      "offset": 99,
+      "source_start": [
+        2,
+        46
+      ],
+      "source_end": [
+        2,
+        51
+      ],
+      "table": "A",
+      "code": "31080",
+      "kind": "ordinary",
+      "value": "mach"
+    },
+    {
+      "offset": 104,
+      "source_start": [
+        2,
+        53
+      ],
+      "source_end": [
+        2,
+        60
+      ],
+      "table": "A",
+      "code": "31268",
+      "kind": "ordinary",
+      "value": "mir"
+    },
+    {
+      "offset": 109,
+      "source_start": [
+        2,
+        61
+      ],
+      "source_end": [
+        2,
+        66
+      ],
+      "table": "A",
+      "code": "854",
+      "kind": "control",
+      "value": ","
+    },
+    {
+      "offset": 112,
+      "source_start": [
+        2,
+        68
+      ],
+      "source_end": [
+        2,
+        69
+      ],
+      "table": "A",
+      "code": "00",
+      "kind": "ordinary",
+      "value": "das"
+    },
+    {
+      "offset": 114,
+      "source_start": [
+        2,
+        71
+      ],
+      "source_end": [
+        2,
+        71
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 115,
+      "source_start": [
+        2,
+        73
+      ],
+      "source_end": [
+        2,
+        79
+      ],
+      "table": "A",
+      "code": "31211",
+      "kind": "ordinary",
+      "value": "be"
+    },
+    {
+      "offset": 120,
+      "source_start": [
+        2,
+        81
+      ],
+      "source_end": [
+        2,
+        87
+      ],
+      "table": "A",
+      "code": "31109",
+      "kind": "ordinary",
+      "value": "der"
+    },
+    {
+      "offset": 125,
+      "source_start": [
+        2,
+        89
+      ],
+      "source_end": [
+        2,
+        94
+      ],
+      "table": "A",
+      "code": "31099",
+      "kind": "ordinary",
+      "value": "o"
+    },
+    {
+      "offset": 130,
+      "source_start": [
+        2,
+        96
+      ],
+      "source_end": [
+        2,
+        101
+      ],
+      "table": "A",
+      "code": "31226",
+      "kind": "ordinary",
+      "value": "selb"
+    },
+    {
+      "offset": 135,
+      "source_start": [
+        2,
+        103
+      ],
+      "source_end": [
+        2,
+        109
+      ],
+      "table": "A",
+      "code": "31005",
+      "kind": "ordinary",
+      "value": "an"
+    },
+    {
+      "offset": 140,
+      "source_start": [
+        2,
+        111
+      ],
+      "source_end": [
+        2,
+        116
+      ],
+      "table": "A",
+      "code": "31019",
+      "kind": "ordinary",
+      "value": "noch"
+    },
+    {
+      "offset": 145,
+      "source_start": [
+        2,
+        118
+      ],
+      "source_end": [
+        2,
+        123
+      ],
+      "table": "A",
+      "code": "31033",
+      "kind": "ordinary",
+      "value": "ge"
+    },
+    {
+      "offset": 150,
+      "source_start": [
+        2,
+        125
+      ],
+      "source_end": [
+        2,
+        125
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 151,
+      "source_start": [
+        2,
+        127
+      ],
+      "source_end": [
+        3,
+        2
+      ],
+      "table": "A",
+      "code": "31334",
+      "kind": "ordinary",
+      "value": "li"
+    },
+    {
+      "offset": 156,
+      "source_start": [
+        3,
+        4
+      ],
+      "source_end": [
+        3,
+        9
+      ],
+      "table": "A",
+      "code": "31223",
+      "kind": "ordinary",
+      "value": "ng"
+    },
+    {
+      "offset": 161,
+      "source_start": [
+        3,
+        11
+      ],
+      "source_end": [
+        3,
+        17
+      ],
+      "table": "A",
+      "code": "31113",
+      "kind": "ordinary",
+      "value": "en"
+    },
+    {
+      "offset": 166,
+      "source_start": [
+        3,
+        19
+      ],
+      "source_end": [
+        3,
+        25
+      ],
+      "table": "A",
+      "code": "31181",
+      "kind": "ordinary",
+      "value": "werden"
+    },
+    {
+      "offset": 171,
+      "source_start": [
+        3,
+        26
+      ],
+      "source_end": [
+        3,
+        28
+      ],
+      "table": "A",
+      "code": "01",
+      "kind": "ordinary",
+      "value": "die"
+    },
+    {
+      "offset": 173,
+      "source_start": [
+        3,
+        29
+      ],
+      "source_end": [
+        3,
+        30
+      ],
+      "table": "A",
+      "code": "70",
+      "kind": "ordinary",
+      "value": "durch"
+    },
+    {
+      "offset": 175,
+      "source_start": [
+        3,
+        32
+      ],
+      "source_end": [
+        3,
+        37
+      ],
+      "table": "A",
+      "code": "31312",
+      "kind": "ordinary",
+      "value": "das"
+    },
+    {
+      "offset": 180,
+      "source_start": [
+        3,
+        39
+      ],
+      "source_end": [
+        3,
+        44
+      ],
+      "table": "A",
+      "code": "31293",
+      "kind": "ordinary",
+      "value": "dem"
+    },
+    {
+      "offset": 185,
+      "source_start": [
+        3,
+        46
+      ],
+      "source_end": [
+        3,
+        51
+      ],
+      "table": "A",
+      "code": "31075",
+      "kind": "ordinary",
+      "value": "st"
+    },
+    {
+      "offset": 190,
+      "source_start": [
+        3,
+        54
+      ],
+      "source_end": [
+        3,
+        59
+      ],
+      "table": "A",
+      "code": "31027",
+      "kind": "ordinary",
+      "value": "at"
+    },
+    {
+      "offset": 195,
+      "source_start": [
+        3,
+        61
+      ],
+      "source_end": [
+        3,
+        66
+      ],
+      "table": "A",
+      "code": "31168",
+      "kind": "ordinary",
+      "value": "u"
+    },
+    {
+      "offset": 200,
+      "source_start": [
+        3,
+        68
+      ],
+      "source_end": [
+        3,
+        69
+      ],
+      "table": "A",
+      "code": "22",
+      "kind": "ordinary",
+      "value": "secret"
+    },
+    {
+      "offset": 202,
+      "source_start": [
+        3,
+        71
+      ],
+      "source_end": [
+        3,
+        76
+      ],
+      "table": "A",
+      "code": "31099",
+      "kind": "ordinary",
+      "value": "o"
+    },
+    {
+      "offset": 207,
+      "source_start": [
+        3,
+        78
+      ],
+      "source_end": [
+        3,
+        83
+      ],
+      "table": "A",
+      "code": "31466",
+      "kind": "ordinary",
+      "value": "wa"
+    },
+    {
+      "offset": 212,
+      "source_start": [
+        3,
+        85
+      ],
+      "source_end": [
+        3,
+        90
+      ],
+      "table": "A",
+      "code": "31136",
+      "kind": "ordinary",
+      "value": "l"
+    },
+    {
+      "offset": 217,
+      "source_start": [
+        3,
+        93
+      ],
+      "source_end": [
+        3,
+        98
+      ],
+      "table": "A",
+      "code": "31211",
+      "kind": "ordinary",
+      "value": "be"
+    },
+    {
+      "offset": 222,
+      "source_start": [
+        3,
+        100
+      ],
+      "source_end": [
+        3,
+        105
+      ],
+      "table": "A",
+      "code": "31408",
+      "kind": "ordinary",
+      "value": "hand"
+    },
+    {
+      "offset": 227,
+      "source_start": [
+        3,
+        107
+      ],
+      "source_end": [
+        3,
+        112
+      ],
+      "table": "A",
+      "code": "31228",
+      "kind": "ordinary",
+      "value": "ig"
+    },
+    {
+      "offset": 232,
+      "source_start": [
+        3,
+        114
+      ],
+      "source_end": [
+        3,
+        114
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 233,
+      "source_start": [
+        3,
+        116
+      ],
+      "source_end": [
+        3,
+        121
+      ],
+      "table": "A",
+      "code": "31262",
+      "kind": "ordinary",
+      "value": "te"
+    },
+    {
+      "offset": 238,
+      "source_start": [
+        3,
+        123
+      ],
+      "source_end": [
+        4,
+        1
+      ],
+      "table": "A",
+      "code": "31149",
+      "kind": "ordinary",
+      "value": "sehr"
+    },
+    {
+      "offset": 243,
+      "source_start": [
+        4,
+        3
+      ],
+      "source_end": [
+        4,
+        8
+      ],
+      "table": "A",
+      "code": "31438",
+      "kind": "ordinary",
+      "value": "tr"
+    },
+    {
+      "offset": 248,
+      "source_start": [
+        4,
+        10
+      ],
+      "source_end": [
+        4,
+        11
+      ],
+      "table": "A",
+      "code": "66",
+      "kind": "ordinary",
+      "value": "e"
+    },
+    {
+      "offset": 250,
+      "source_start": [
+        4,
+        13
+      ],
+      "source_end": [
+        4,
+        18
+      ],
+      "table": "A",
+      "code": "31364",
+      "kind": "ordinary",
+      "value": "fl"
+    },
+    {
+      "offset": 255,
+      "source_start": [
+        4,
+        20
+      ],
+      "source_end": [
+        4,
+        25
+      ],
+      "table": "A",
+      "code": "31121",
+      "kind": "ordinary",
+      "value": "ich"
+    },
+    {
+      "offset": 260,
+      "source_start": [
+        4,
+        27
+      ],
+      "source_end": [
+        4,
+        32
+      ],
+      "table": "A",
+      "code": "31115",
+      "kind": "ordinary",
+      "value": "ge"
+    },
+    {
+      "offset": 265,
+      "source_start": [
+        4,
+        34
+      ],
+      "source_end": [
+        4,
+        40
+      ],
+      "table": "A",
+      "code": "31158",
+      "kind": "ordinary",
+      "value": "fa"
+    },
+    {
+      "offset": 270,
+      "source_start": [
+        4,
+        42
+      ],
+      "source_end": [
+        4,
+        47
+      ],
+      "table": "A",
+      "code": "31348",
+      "kind": "ordinary",
+      "value": "ste"
+    },
+    {
+      "offset": 275,
+      "source_start": [
+        4,
+        49
+      ],
+      "source_end": [
+        4,
+        54
+      ],
+      "table": "A",
+      "code": "31122",
+      "kind": "ordinary",
+      "value": "me"
+    },
+    {
+      "offset": 280,
+      "source_start": [
+        4,
+        56
+      ],
+      "source_end": [
+        4,
+        62
+      ],
+      "table": "A",
+      "code": "31084",
+      "kind": "ordinary",
+      "value": "mo"
+    },
+    {
+      "offset": 285,
+      "source_start": [
+        4,
+        63
+      ],
+      "source_end": [
+        4,
+        69
+      ],
+      "table": "A",
+      "code": "31433",
+      "kind": "ordinary",
+      "value": "ir"
+    },
+    {
+      "offset": 290,
+      "source_start": [
+        4,
+        71
+      ],
+      "source_end": [
+        4,
+        76
+      ],
+      "table": "A",
+      "code": "31443",
+      "kind": "ordinary",
+      "value": "so"
+    },
+    {
+      "offset": 295,
+      "source_start": [
+        4,
+        78
+      ],
+      "source_end": [
+        4,
+        83
+      ],
+      "table": "A",
+      "code": "31033",
+      "kind": "ordinary",
+      "value": "ge"
+    },
+    {
+      "offset": 300,
+      "source_start": [
+        4,
+        85
+      ],
+      "source_end": [
+        4,
+        90
+      ],
+      "table": "A",
+      "code": "31271",
+      "kind": "ordinary",
+      "value": "sch"
+    },
+    {
+      "offset": 305,
+      "source_start": [
+        4,
+        92
+      ],
+      "source_end": [
+        4,
+        98
+      ],
+      "table": "A",
+      "code": "31079",
+      "kind": "ordinary",
+      "value": "i"
+    },
+    {
+      "offset": 310,
+      "source_start": [
+        4,
+        100
+      ],
+      "source_end": [
+        4,
+        105
+      ],
+      "table": "A",
+      "code": "31315",
+      "kind": "ordinary",
+      "value": "ck"
+    },
+    {
+      "offset": 315,
+      "source_start": [
+        4,
+        107
+      ],
+      "source_end": [
+        4,
+        107
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 316,
+      "source_start": [
+        4,
+        109
+      ],
+      "source_end": [
+        4,
+        110
+      ],
+      "table": "A",
+      "code": "62",
+      "kind": "ordinary",
+      "value": "t"
+    },
+    {
+      "offset": 318,
+      "source_start": [
+        4,
+        112
+      ],
+      "source_end": [
+        4,
+        113
+      ],
+      "table": "A",
+      "code": "69",
+      "kind": "ordinary",
+      "value": "als"
+    },
+    {
+      "offset": 320,
+      "source_start": [
+        4,
+        115
+      ],
+      "source_end": [
+        4,
+        120
+      ],
+      "table": "A",
+      "code": "31287",
+      "kind": "ordinary",
+      "value": "vor"
+    },
+    {
+      "offset": 325,
+      "source_start": [
+        4,
+        122
+      ],
+      "source_end": [
+        5,
+        1
+      ],
+      "table": "A",
+      "code": "30073",
+      "kind": "invalid",
+      "value": "{30073}"
+    },
+    {
+      "offset": 330,
+      "source_start": [
+        5,
+        3
+      ],
+      "source_end": [
+        5,
+        8
+      ],
+      "table": "A",
+      "code": "31399",
+      "kind": "ordinary",
+      "value": "ti"
+    },
+    {
+      "offset": 335,
+      "source_start": [
+        5,
+        10
+      ],
+      "source_end": [
+        5,
+        11
+      ],
+      "table": "A",
+      "code": "99",
+      "kind": "ordinary",
+      "value": "man"
+    },
+    {
+      "offset": 337,
+      "source_start": [
+        5,
+        14
+      ],
+      "source_end": [
+        5,
+        19
+      ],
+      "table": "A",
+      "code": "31318",
+      "kind": "ordinary",
+      "value": "ein"
+    },
+    {
+      "offset": 342,
+      "source_start": [
+        5,
+        21
+      ],
+      "source_end": [
+        5,
+        21
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 343,
+      "source_start": [
+        5,
+        23
+      ],
+      "source_end": [
+        5,
+        28
+      ],
+      "table": "A",
+      "code": "31115",
+      "kind": "ordinary",
+      "value": "ge"
+    },
+    {
+      "offset": 348,
+      "source_start": [
+        5,
+        30
+      ],
+      "source_end": [
+        5,
+        35
+      ],
+      "table": "A",
+      "code": "31169",
+      "kind": "ordinary",
+      "value": "le"
+    },
+    {
+      "offset": 353,
+      "source_start": [
+        5,
+        37
+      ],
+      "source_end": [
+        5,
+        42
+      ],
+      "table": "A",
+      "code": "31119",
+      "kind": "ordinary",
+      "value": "i"
+    },
+    {
+      "offset": 358,
+      "source_start": [
+        5,
+        44
+      ],
+      "source_end": [
+        5,
+        49
+      ],
+      "table": "A",
+      "code": "31164",
+      "kind": "ordinary",
+      "value": "te"
+    },
+    {
+      "offset": 363,
+      "source_start": [
+        5,
+        51
+      ],
+      "source_end": [
+        5,
+        56
+      ],
+      "table": "A",
+      "code": "31262",
+      "kind": "ordinary",
+      "value": "te"
+    },
+    {
+      "offset": 368,
+      "source_start": [
+        5,
+        58
+      ],
+      "source_end": [
+        5,
+        63
+      ],
+      "table": "A",
+      "code": "31408",
+      "kind": "ordinary",
+      "value": "hand"
+    },
+    {
+      "offset": 373,
+      "source_start": [
+        5,
+        65
+      ],
+      "source_end": [
+        5,
+        70
+      ],
+      "table": "A",
+      "code": "31078",
+      "kind": "ordinary",
+      "value": "nun"
+    },
+    {
+      "offset": 378,
+      "source_start": [
+        5,
+        72
+      ],
+      "source_end": [
+        5,
+        77
+      ],
+      "table": "A",
+      "code": "31210",
+      "kind": "ordinary",
+      "value": "mer"
+    },
+    {
+      "offset": 383,
+      "source_start": [
+        5,
+        79
+      ],
+      "source_end": [
+        5,
+        84
+      ],
+      "table": "A",
+      "code": "31116",
+      "kind": "ordinary",
+      "value": "h"
+    },
+    {
+      "offset": 388,
+      "source_start": [
+        5,
+        86
+      ],
+      "source_end": [
+        5,
+        91
+      ],
+      "table": "A",
+      "code": "31428",
+      "kind": "ordinary",
+      "value": "ro"
+    },
+    {
+      "offset": 393,
+      "source_start": [
+        5,
+        93
+      ],
+      "source_end": [
+        5,
+        99
+      ],
+      "table": "A",
+      "code": "31170",
+      "kind": "ordinary",
+      "value": "im"
+    },
+    {
+      "offset": 398,
+      "source_start": [
+        5,
+        101
+      ],
+      "source_end": [
+        5,
+        106
+      ],
+      "table": "A",
+      "code": "31210",
+      "kind": "ordinary",
+      "value": "mer"
+    },
+    {
+      "offset": 403,
+      "source_start": [
+        5,
+        108
+      ],
+      "source_end": [
+        5,
+        113
+      ],
+      "table": "A",
+      "code": "31383",
+      "kind": "ordinary",
+      "value": "off"
+    },
+    {
+      "offset": 408,
+      "source_start": [
+        5,
+        115
+      ],
+      "source_end": [
+        5,
+        120
+      ],
+      "table": "A",
+      "code": "31089",
+      "kind": "ordinary",
+      "value": "zu"
+    },
+    {
+      "offset": 413,
+      "source_start": [
+        5,
+        122
+      ],
+      "source_end": [
+        5,
+        128
+      ],
+      "table": "A",
+      "code": "31211",
+      "kind": "ordinary",
+      "value": "be"
+    },
+    {
+      "offset": 418,
+      "source_start": [
+        5,
+        129
+      ],
+      "source_end": [
+        5,
+        135
+      ],
+      "table": "A",
+      "code": "31382",
+      "kind": "ordinary",
+      "value": "halt"
+    },
+    {
+      "offset": 423,
+      "source_start": [
+        5,
+        137
+      ],
+      "source_end": [
+        6,
+        1
+      ],
+      "table": "A",
+      "code": "30000",
+      "kind": "ordinary",
+      "value": "und"
+    },
+    {
+      "offset": 428,
+      "source_start": [
+        6,
+        3
+      ],
+      "source_end": [
+        6,
+        8
+      ],
+      "table": "A",
+      "code": "31293",
+      "kind": "ordinary",
+      "value": "dem"
+    },
+    {
+      "offset": 433,
+      "source_start": [
+        6,
+        10
+      ],
+      "source_end": [
+        6,
+        15
+      ],
+      "table": "A",
+      "code": "31471",
+      "kind": "ordinary",
+      "value": "Spanien"
+    },
+    {
+      "offset": 438,
+      "source_start": [
+        6,
+        17
+      ],
+      "source_end": [
+        6,
+        22
+      ],
+      "table": "A",
+      "code": "31306",
+      "kind": "ordinary",
+      "value": "hoff"
+    },
+    {
+      "offset": 443,
+      "source_start": [
+        6,
+        24
+      ],
+      "source_end": [
+        6,
+        25
+      ],
+      "table": "A",
+      "code": "73",
+      "kind": "ordinary",
+      "value": "nach"
+    },
+    {
+      "offset": 445,
+      "source_start": [
+        6,
+        27
+      ],
+      "source_end": [
+        6,
+        28
+      ],
+      "table": "A",
+      "code": "11",
+      "kind": "ordinary",
+      "value": "französisch"
+    },
+    {
+      "offset": 447,
+      "source_start": [
+        6,
+        30
+      ],
+      "source_end": [
+        6,
+        31
+      ],
+      "table": "A",
+      "code": "97",
+      "kind": "ordinary",
+      "value": "religion"
+    },
+    {
+      "offset": 449,
+      "source_start": [
+        6,
+        34
+      ],
+      "source_end": [
+        6,
+        40
+      ],
+      "table": "A",
+      "code": "33139",
+      "kind": "invalid",
+      "value": "{33139}"
+    },
+    {
+      "offset": 454,
+      "source_start": [
+        6,
+        41
+      ],
+      "source_end": [
+        6,
+        43
+      ],
+      "table": "A",
+      "code": "43",
+      "kind": "ordinary",
+      "value": "mittelst"
+    },
+    {
+      "offset": 456,
+      "source_start": [
+        6,
+        44
+      ],
+      "source_end": [
+        6,
+        45
+      ],
+      "table": "A",
+      "code": "13",
+      "kind": "ordinary",
+      "value": "armee"
+    },
+    {
+      "offset": 458,
+      "source_start": [
+        6,
+        47
+      ],
+      "source_end": [
+        6,
+        47
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 459,
+      "source_start": [
+        6,
+        48
+      ],
+      "source_end": [
+        6,
+        50
+      ],
+      "table": "A",
+      "code": "03",
+      "kind": "ordinary",
+      "value": "ganz"
+    },
+    {
+      "offset": 461,
+      "source_start": [
+        6,
+        51
+      ],
+      "source_end": [
+        6,
+        52
+      ],
+      "table": "A",
+      "code": "12",
+      "kind": "ordinary",
+      "value": "unterstütz"
+    },
+    {
+      "offset": 463,
+      "source_start": [
+        6,
+        54
+      ],
+      "source_end": [
+        6,
+        55
+      ],
+      "table": "A",
+      "code": "16",
+      "kind": "ordinary",
+      "value": "A"
+    },
+    {
+      "offset": 465,
+      "source_start": [
+        6,
+        56
+      ],
+      "source_end": [
+        6,
+        62
+      ],
+      "table": "A",
+      "code": "31058",
+      "kind": "ordinary",
+      "value": "en"
+    },
+    {
+      "offset": 470,
+      "source_start": [
+        6,
+        64
+      ],
+      "source_end": [
+        6,
+        69
+      ],
+      "table": "A",
+      "code": "31089",
+      "kind": "ordinary",
+      "value": "zu"
+    },
+    {
+      "offset": 475,
+      "source_start": [
+        6,
+        71
+      ],
+      "source_end": [
+        6,
+        71
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 476,
+      "source_start": [
+        6,
+        74
+      ],
+      "source_end": [
+        6,
+        79
+      ],
+      "table": "A",
+      "code": "31171",
+      "kind": "ordinary",
+      "value": "ver?"
+    },
+    {
+      "offset": 481,
+      "source_start": [
+        6,
+        81
+      ],
+      "source_end": [
+        6,
+        86
+      ],
+      "table": "A",
+      "code": "31263",
+      "kind": "ordinary",
+      "value": "mög/lich"
+    },
+    {
+      "offset": 486,
+      "source_start": [
+        6,
+        88
+      ],
+      "source_end": [
+        6,
+        89
+      ],
+      "table": "A",
+      "code": "01",
+      "kind": "ordinary",
+      "value": "die"
+    },
+    {
+      "offset": 488,
+      "source_start": [
+        6,
+        91
+      ],
+      "source_end": [
+        6,
+        96
+      ],
+      "table": "A",
+      "code": "31240",
+      "kind": "ordinary",
+      "value": "en"
+    },
+    {
+      "offset": 493,
+      "source_start": [
+        6,
+        98
+      ],
+      "source_end": [
+        6,
+        99
+      ],
+      "table": "A",
+      "code": "62",
+      "kind": "ordinary",
+      "value": "t"
+    },
+    {
+      "offset": 495,
+      "source_start": [
+        6,
+        101
+      ],
+      "source_end": [
+        6,
+        106
+      ],
+      "table": "A",
+      "code": "31163",
+      "kind": "ordinary",
+      "value": "weder"
+    },
+    {
+      "offset": 500,
+      "source_start": [
+        6,
+        108
+      ],
+      "source_end": [
+        6,
+        113
+      ],
+      "table": "A",
+      "code": "31293",
+      "kind": "ordinary",
+      "value": "dem"
+    },
+    {
+      "offset": 505,
+      "source_start": [
+        6,
+        115
+      ],
+      "source_end": [
+        6,
+        120
+      ],
+      "table": "A",
+      "code": "31036",
+      "kind": "ordinary",
+      "value": "Krieg"
+    },
+    {
+      "offset": 510,
+      "source_start": [
+        6,
+        122
+      ],
+      "source_end": [
+        6,
+        127
+      ],
+      "table": "A",
+      "code": "31318",
+      "kind": "ordinary",
+      "value": "ein"
+    },
+    {
+      "offset": 515,
+      "source_start": [
+        6,
+        129
+      ],
+      "source_end": [
+        6,
+        134
+      ],
+      "table": "A",
+      "code": "31184",
+      "kind": "ordinary",
+      "value": "ver"
+    },
+    {
+      "offset": 520,
+      "source_start": [
+        6,
+        136
+      ],
+      "source_end": [
+        6,
+        141
+      ],
+      "table": "A",
+      "code": "31372",
+      "kind": "ordinary",
+      "value": "gn"
+    },
+    {
+      "offset": 525,
+      "source_start": [
+        6,
+        143
+      ],
+      "source_end": [
+        7,
+        4
+      ],
+      "table": "A",
+      "code": "31168",
+      "kind": "ordinary",
+      "value": "u"
+    },
+    {
+      "offset": 530,
+      "source_start": [
+        7,
+        6
+      ],
+      "source_end": [
+        7,
+        11
+      ],
+      "table": "A",
+      "code": "31350",
+      "kind": "ordinary",
+      "value": "gl"
+    },
+    {
+      "offset": 535,
+      "source_start": [
+        7,
+        13
+      ],
+      "source_end": [
+        7,
+        18
+      ],
+      "table": "A",
+      "code": "31121",
+      "kind": "ordinary",
+      "value": "ich"
+    },
+    {
+      "offset": 540,
+      "source_start": [
+        7,
+        20
+      ],
+      "source_end": [
+        7,
+        25
+      ],
+      "table": "A",
+      "code": "31490",
+      "kind": "ordinary",
+      "value": "re"
+    },
+    {
+      "offset": 545,
+      "source_start": [
+        7,
+        27
+      ],
+      "source_end": [
+        7,
+        28
+      ],
+      "table": "A",
+      "code": "69",
+      "kind": "ordinary",
+      "value": "als"
+    },
+    {
+      "offset": 547,
+      "source_start": [
+        7,
+        30
+      ],
+      "source_end": [
+        7,
+        31
+      ],
+      "table": "A",
+      "code": "01",
+      "kind": "ordinary",
+      "value": "die"
+    },
+    {
+      "offset": 549,
+      "source_start": [
+        7,
+        33
+      ],
+      "source_end": [
+        7,
+        38
+      ],
+      "table": "A",
+      "code": "31106",
+      "kind": "ordinary",
+      "value": "der"
+    },
+    {
+      "offset": 554,
+      "source_start": [
+        7,
+        40
+      ],
+      "source_end": [
+        7,
+        45
+      ],
+      "table": "A",
+      "code": "31208",
+      "kind": "ordinary",
+      "value": "mahl"
+    },
+    {
+      "offset": 559,
+      "source_start": [
+        7,
+        47
+      ],
+      "source_end": [
+        7,
+        52
+      ],
+      "table": "A",
+      "code": "31228",
+      "kind": "ordinary",
+      "value": "ig"
+    },
+    {
+      "offset": 564,
+      "source_start": [
+        7,
+        54
+      ],
+      "source_end": [
+        7,
+        54
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 565,
+      "source_start": [
+        7,
+        56
+      ],
+      "source_end": [
+        7,
+        61
+      ],
+      "table": "A",
+      "code": "31115",
+      "kind": "ordinary",
+      "value": "ge"
+    },
+    {
+      "offset": 570,
+      "source_start": [
+        7,
+        63
+      ],
+      "source_end": [
+        7,
+        68
+      ],
+      "table": "A",
+      "code": "31075",
+      "kind": "ordinary",
+      "value": "st"
+    },
+    {
+      "offset": 575,
+      "source_start": [
+        7,
+        70
+      ],
+      "source_end": [
+        7,
+        75
+      ],
+      "table": "A",
+      "code": "31359",
+      "kind": "ordinary",
+      "value": "al"
+    },
+    {
+      "offset": 580,
+      "source_start": [
+        7,
+        77
+      ],
+      "source_end": [
+        7,
+        78
+      ],
+      "table": "A",
+      "code": "62",
+      "kind": "ordinary",
+      "value": "t"
+    },
+    {
+      "offset": 582,
+      "source_start": [
+        7,
+        81
+      ],
+      "source_end": [
+        7,
+        86
+      ],
+      "table": "A",
+      "code": "31041",
+      "kind": "ordinary",
+      "value": "ist"
+    },
+    {
+      "offset": 587,
+      "source_start": [
+        7,
+        88
+      ],
+      "source_end": [
+        7,
+        93
+      ],
+      "table": "A",
+      "code": "31333",
+      "kind": "ordinary",
+      "value": "geben"
+    },
+    {
+      "offset": 592,
+      "source_start": [
+        7,
+        95
+      ],
+      "source_end": [
+        7,
+        96
+      ],
+      "table": "A",
+      "code": "21",
+      "kind": "ordinary",
+      "value": "oder"
+    },
+    {
+      "offset": 594,
+      "source_start": [
+        7,
+        98
+      ],
+      "source_end": [
+        7,
+        103
+      ],
+      "table": "A",
+      "code": "31303",
+      "kind": "ordinary",
+      "value": "uns"
+    },
+    {
+      "offset": 599,
+      "source_start": [
+        7,
+        105
+      ],
+      "source_end": [
+        7,
+        110
+      ],
+      "table": "A",
+      "code": "31318",
+      "kind": "ordinary",
+      "value": "ein"
+    },
+    {
+      "offset": 604,
+      "source_start": [
+        7,
+        112
+      ],
+      "source_end": [
+        7,
+        117
+      ],
+      "table": "A",
+      "code": "31061",
+      "kind": "ordinary",
+      "value": "er"
+    },
+    {
+      "offset": 609,
+      "source_start": [
+        7,
+        119
+      ],
+      "source_end": [
+        7,
+        124
+      ],
+      "table": "A",
+      "code": "31222",
+      "kind": "ordinary",
+      "value": "spr"
+    },
+    {
+      "offset": 614,
+      "source_start": [
+        7,
+        126
+      ],
+      "source_end": [
+        7,
+        131
+      ],
+      "table": "A",
+      "code": "31447",
+      "kind": "ordinary",
+      "value": "s"
+    },
+    {
+      "offset": 619,
+      "source_start": [
+        7,
+        133
+      ],
+      "source_end": [
+        7,
+        139
+      ],
+      "table": "A",
+      "code": "31214",
+      "kind": "ordinary",
+      "value": "lich"
+    },
+    {
+      "offset": 624,
+      "source_start": [
+        7,
+        141
+      ],
+      "source_end": [
+        7,
+        142
+      ],
+      "table": "A",
+      "code": "11",
+      "kind": "ordinary",
+      "value": "französisch"
+    },
+    {
+      "offset": 626,
+      "source_start": [
+        8,
+        1
+      ],
+      "source_end": [
+        8,
+        3
+      ],
+      "table": "A",
+      "code": "93",
+      "kind": "ordinary",
+      "value": "hab"
+    },
+    {
+      "offset": 628,
+      "source_start": [
+        8,
+        4
+      ],
+      "source_end": [
+        8,
+        5
+      ],
+      "table": "A",
+      "code": "13",
+      "kind": "ordinary",
+      "value": "armee"
+    },
+    {
+      "offset": 630,
+      "source_start": [
+        8,
+        7
+      ],
+      "source_end": [
+        8,
+        8
+      ],
+      "table": "A",
+      "code": "28",
+      "kind": "ordinary",
+      "value": "{28}"
+    },
+    {
+      "offset": 632,
+      "source_start": [
+        8,
+        10
+      ],
+      "source_end": [
+        8,
+        10
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 633,
+      "source_start": [
+        8,
+        12
+      ],
+      "source_end": [
+        8,
+        13
+      ],
+      "table": "A",
+      "code": "95",
+      "kind": "ordinary",
+      "value": "n"
+    },
+    {
+      "offset": 635,
+      "source_start": [
+        8,
+        15
+      ],
+      "source_end": [
+        8,
+        20
+      ],
+      "table": "A",
+      "code": "31346",
+      "kind": "ordinary",
+      "value": "or"
+    },
+    {
+      "offset": 640,
+      "source_start": [
+        8,
+        22
+      ],
+      "source_end": [
+        8,
+        28
+      ],
+      "table": "A",
+      "code": "31000",
+      "kind": "ordinary",
+      "value": "ab"
+    },
+    {
+      "offset": 645,
+      "source_start": [
+        8,
+        30
+      ],
+      "source_end": [
+        8,
+        35
+      ],
+      "table": "A",
+      "code": "31169",
+      "kind": "ordinary",
+      "value": "le"
+    },
+    {
+      "offset": 650,
+      "source_start": [
+        8,
+        37
+      ],
+      "source_end": [
+        8,
+        38
+      ],
+      "table": "A",
+      "code": "95",
+      "kind": "ordinary",
+      "value": "n"
+    },
+    {
+      "offset": 652,
+      "source_start": [
+        8,
+        40
+      ],
+      "source_end": [
+        8,
+        45
+      ],
+      "table": "A",
+      "code": "31004",
+      "kind": "ordinary",
+      "value": "fried"
+    },
+    {
+      "offset": 657,
+      "source_start": [
+        8,
+        47
+      ],
+      "source_end": [
+        8,
+        52
+      ],
+      "table": "A",
+      "code": "31184",
+      "kind": "ordinary",
+      "value": "ver"
+    },
+    {
+      "offset": 662,
+      "source_start": [
+        8,
+        54
+      ],
+      "source_end": [
+        8,
+        59
+      ],
+      "table": "A",
+      "code": "876",
+      "kind": "switch",
+      "value": "[A→B]"
+    },
+    {
+      "offset": 665,
+      "source_start": [
+        8,
+        61
+      ],
+      "source_end": [
+        8,
+        66
+      ],
+      "table": "B",
+      "code": "31162",
+      "kind": "ordinary",
+      "value": "schaff"
+    },
+    {
+      "offset": 670,
+      "source_start": [
+        8,
+        68
+      ],
+      "source_end": [
+        8,
+        73
+      ],
+      "table": "B",
+      "code": "31301",
+      "kind": "ordinary",
+      "value": "könnte"
+    },
+    {
+      "offset": 675,
+      "source_start": [
+        8,
+        75
+      ],
+      "source_end": [
+        8,
+        80
+      ],
+      "table": "B",
+      "code": "870",
+      "kind": "control",
+      "value": ","
+    },
+    {
+      "offset": 678,
+      "source_start": [
+        8,
+        81
+      ],
+      "source_end": [
+        8,
+        82
+      ],
+      "table": "B",
+      "code": "00",
+      "kind": "ordinary",
+      "value": "und"
+    },
+    {
+      "offset": 680,
+      "source_start": [
+        8,
+        84
+      ],
+      "source_end": [
+        8,
+        89
+      ],
+      "table": "B",
+      "code": "31384",
+      "kind": "ordinary",
+      "value": "gi"
+    },
+    {
+      "offset": 685,
+      "source_start": [
+        8,
+        91
+      ],
+      "source_end": [
+        8,
+        97
+      ],
+      "table": "B",
+      "code": "31042",
+      "kind": "ordinary",
+      "value": "eb"
+    },
+    {
+      "offset": 690,
+      "source_start": [
+        8,
+        99
+      ],
+      "source_end": [
+        8,
+        104
+      ],
+      "table": "B",
+      "code": "31238",
+      "kind": "ordinary",
+      "value": "t"
+    },
+    {
+      "offset": 695,
+      "source_start": [
+        8,
+        106
+      ],
+      "source_end": [
+        8,
+        106
+      ],
+      "table": "B",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 696,
+      "source_start": [
+        8,
+        108
+      ],
+      "source_end": [
+        8,
+        113
+      ],
+      "table": "B",
+      "code": "31325",
+      "kind": "ordinary",
+      "value": "mir"
+    },
+    {
+      "offset": 701,
+      "source_start": [
+        8,
+        115
+      ],
+      "source_end": [
+        8,
+        120
+      ],
+      "table": "B",
+      "code": "31466",
+      "kind": "ordinary",
+      "value": "zu"
+    },
+    {
+      "offset": 706,
+      "source_start": [
+        8,
+        122
+      ],
+      "source_end": [
+        8,
+        123
+      ],
+      "table": "B",
+      "code": "53",
+      "kind": "ordinary",
+      "value": "mahl"
+    },
+    {
+      "offset": 708,
+      "source_start": [
+        9,
+        1
+      ],
+      "source_end": [
+        9,
+        3
+      ],
+      "table": "B",
+      "code": "03",
+      "kind": "ordinary",
+      "value": "gemäß"
+    },
+    {
+      "offset": 710,
+      "source_start": [
+        9,
+        4
+      ],
+      "source_end": [
+        9,
+        5
+      ],
+      "table": "B",
+      "code": "14",
+      "kind": "ordinary",
+      "value": "zi"
+    },
+    {
+      "offset": 712,
+      "source_start": [
+        9,
+        7
+      ],
+      "source_end": [
+        9,
+        8
+      ],
+      "table": "B",
+      "code": "00",
+      "kind": "ordinary",
+      "value": "und"
+    },
+    {
+      "offset": 714,
+      "source_start": [
+        9,
+        10
+      ],
+      "source_end": [
+        9,
+        15
+      ],
+      "table": "B",
+      "code": "31460",
+      "kind": "ordinary",
+      "value": "den"
+    },
+    {
+      "offset": 719,
+      "source_start": [
+        9,
+        17
+      ],
+      "source_end": [
+        9,
+        24
+      ],
+      "table": "B",
+      "code": "31183",
+      "kind": "ordinary",
+      "value": "no"
+    },
+    {
+      "offset": 724,
+      "source_start": [
+        9,
+        25
+      ],
+      "source_end": [
+        9,
+        25
+      ],
+      "table": "B",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 725,
+      "source_start": [
+        9,
+        27
+      ],
+      "source_end": [
+        9,
+        32
+      ],
+      "table": "B",
+      "code": "31010",
+      "kind": "ordinary",
+      "value": "ge/gn/gen"
+    },
+    {
+      "offset": 730,
+      "source_start": [
+        9,
+        34
+      ],
+      "source_end": [
+        9,
+        39
+      ],
+      "table": "B",
+      "code": "31272",
+      "kind": "ordinary",
+      "value": "n"
+    },
+    {
+      "offset": 735,
+      "source_start": [
+        9,
+        41
+      ],
+      "source_end": [
+        9,
+        46
+      ],
+      "table": "B",
+      "code": "31057",
+      "kind": "ordinary",
+      "value": "Euer"
+    },
+    {
+      "offset": 740,
+      "source_start": [
+        9,
+        48
+      ],
+      "source_end": [
+        9,
+        53
+      ],
+      "table": "B",
+      "code": "31087",
+      "kind": "ordinary",
+      "value": "ho"
+    },
+    {
+      "offset": 745,
+      "source_start": [
+        9,
+        55
+      ],
+      "source_end": [
+        9,
+        60
+      ],
+      "table": "B",
+      "code": "31286",
+      "kind": "ordinary",
+      "value": "ch"
+    },
+    {
+      "offset": 750,
+      "source_start": [
+        9,
+        62
+      ],
+      "source_end": [
+        9,
+        68
+      ],
+      "table": "B",
+      "code": "31117",
+      "kind": "ordinary",
+      "value": "geb"
+    },
+    {
+      "offset": 755,
+      "source_start": [
+        9,
+        70
+      ],
+      "source_end": [
+        9,
+        75
+      ],
+      "table": "B",
+      "code": "31498",
+      "kind": "ordinary",
+      "value": "o"
+    },
+    {
+      "offset": 760,
+      "source_start": [
+        9,
+        77
+      ],
+      "source_end": [
+        9,
+        82
+      ],
+      "table": "B",
+      "code": "31016",
+      "kind": "ordinary",
+      "value": "H"
+    },
+    {
+      "offset": 765,
+      "source_start": [
+        9,
+        84
+      ],
+      "source_end": [
+        9,
+        89
+      ],
+      "table": "B",
+      "code": "31228",
+      "kind": "ordinary",
+      "value": "r"
+    },
+    {
+      "offset": 770,
+      "source_start": [
+        9,
+        91
+      ],
+      "source_end": [
+        9,
+        91
+      ],
+      "table": "B",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 771,
+      "source_start": [
+        9,
+        93
+      ],
+      "source_end": [
+        9,
+        98
+      ],
+      "table": "B",
+      "code": "31157",
+      "kind": "ordinary",
+      "value": "n"
+    },
+    {
+      "offset": 776,
+      "source_start": [
+        9,
+        100
+      ],
+      "source_end": [
+        9,
+        101
+      ],
+      "table": "B",
+      "code": "00",
+      "kind": "ordinary",
+      "value": "und"
+    },
+    {
+      "offset": 778,
+      "source_start": [
+        9,
+        103
+      ],
+      "source_end": [
+        9,
+        108
+      ],
+      "table": "B",
+      "code": "31306",
+      "kind": "ordinary",
+      "value": "von"
+    },
+    {
+      "offset": 783,
+      "source_start": [
+        9,
+        110
+      ],
+      "source_end": [
+        9,
+        116
+      ],
+      "table": "B",
+      "code": "31460",
+      "kind": "ordinary",
+      "value": "den"
+    },
+    {
+      "offset": 788,
+      "source_start": [
+        9,
+        118
+      ],
+      "source_end": [
+        9,
+        123
+      ],
+      "table": "B",
+      "code": "31315",
+      "kind": "ordinary",
+      "value": "wa"
+    },
+    {
+      "offset": 793,
+      "source_start": [
+        9,
+        125
+      ],
+      "source_end": [
+        10,
+        5
+      ],
+      "table": "B",
+      "code": "33331",
+      "kind": "invalid",
+      "value": "{33331}"
+    },
+    {
+      "offset": 798,
+      "source_start": [
+        10,
+        6
+      ],
+      "source_end": [
+        10,
+        8
+      ],
+      "table": "B",
+      "code": "12",
+      "kind": "ordinary",
+      "value": "daß"
+    },
+    {
+      "offset": 800,
+      "source_start": [
+        10,
+        9
+      ],
+      "source_end": [
+        10,
+        11
+      ],
+      "table": "B",
+      "code": "63",
+      "kind": "ordinary",
+      "value": "genau"
+    },
+    {
+      "offset": 802,
+      "source_start": [
+        10,
+        12
+      ],
+      "source_end": [
+        10,
+        13
+      ],
+      "table": "B",
+      "code": "12",
+      "kind": "ordinary",
+      "value": "daß"
+    },
+    {
+      "offset": 804,
+      "source_start": [
+        10,
+        16
+      ],
+      "source_end": [
+        10,
+        17
+      ],
+      "table": "B",
+      "code": "72",
+      "kind": "ordinary",
+      "value": "qua"
+    },
+    {
+      "offset": 806,
+      "source_start": [
+        10,
+        19
+      ],
+      "source_end": [
+        10,
+        24
+      ],
+      "table": "B",
+      "code": "31210",
+      "kind": "ordinary",
+      "value": "den"
+    },
+    {
+      "offset": 811,
+      "source_start": [
+        10,
+        26
+      ],
+      "source_end": [
+        10,
+        31
+      ],
+      "table": "B",
+      "code": "31182",
+      "kind": "ordinary",
+      "value": "französ"
+    },
+    {
+      "offset": 816,
+      "source_start": [
+        10,
+        33
+      ],
+      "source_end": [
+        10,
+        34
+      ],
+      "table": "B",
+      "code": "74",
+      "kind": "ordinary",
+      "value": "bo"
+    },
+    {
+      "offset": 818,
+      "source_start": [
+        10,
+        36
+      ],
+      "source_end": [
+        10,
+        41
+      ],
+      "table": "B",
+      "code": "31238",
+      "kind": "ordinary",
+      "value": "t"
+    },
+    {
+      "offset": 823,
+      "source_start": [
+        10,
+        43
+      ],
+      "source_end": [
+        10,
+        48
+      ],
+      "table": "B",
+      "code": "31162",
+      "kind": "ordinary",
+      "value": "schaff"
+    },
+    {
+      "offset": 828,
+      "source_start": [
+        10,
+        50
+      ],
+      "source_end": [
+        10,
+        55
+      ],
+      "table": "B",
+      "code": "31300",
+      "kind": "ordinary",
+      "value": "te/ten/ter"
+    },
+    {
+      "offset": 833,
+      "source_start": [
+        10,
+        56
+      ],
+      "source_end": [
+        10,
+        56
+      ],
+      "table": "B",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 834,
+      "source_start": [
+        10,
+        58
+      ],
+      "source_end": [
+        10,
+        63
+      ],
+      "table": "B",
+      "code": "31264",
+      "kind": "ordinary",
+      "value": "fa"
+    },
+    {
+      "offset": 839,
+      "source_start": [
+        10,
+        65
+      ],
+      "source_end": [
+        10,
+        70
+      ],
+      "table": "B",
+      "code": "31377",
+      "kind": "ordinary",
+      "value": "st"
+    },
+    {
+      "offset": 844,
+      "source_start": [
+        10,
+        72
+      ],
+      "source_end": [
+        10,
+        77
+      ],
+      "table": "B",
+      "code": "31448",
+      "kind": "ordinary",
+      "value": "zu"
+    },
+    {
+      "offset": 849,
+      "source_start": [
+        10,
+        79
+      ],
+      "source_end": [
+        10,
+        84
+      ],
+      "table": "B",
+      "code": "31218",
+      "kind": "ordinary",
+      "value": "gl"
+    },
+    {
+      "offset": 854,
+      "source_start": [
+        10,
+        86
+      ],
+      "source_end": [
+        10,
+        91
+      ],
+      "table": "B",
+      "code": "31299",
+      "kind": "ordinary",
+      "value": "ei"
+    },
+    {
+      "offset": 859,
+      "source_start": [
+        10,
+        93
+      ],
+      "source_end": [
+        10,
+        94
+      ],
+      "table": "B",
+      "code": "02",
+      "kind": "ordinary",
+      "value": "ch"
+    },
+    {
+      "offset": 861,
+      "source_start": [
+        10,
+        96
+      ],
+      "source_end": [
+        10,
+        102
+      ],
+      "table": "B",
+      "code": "31014",
+      "kind": "ordinary",
+      "value": "zeit"
+    },
+    {
+      "offset": 866,
+      "source_start": [
+        10,
+        103
+      ],
+      "source_end": [
+        10,
+        109
+      ],
+      "table": "B",
+      "code": "31010",
+      "kind": "ordinary",
+      "value": "ge/gn/gen"
+    },
+    {
+      "offset": 871,
+      "source_start": [
+        10,
+        111
+      ],
+      "source_end": [
+        10,
+        116
+      ],
+      "table": "B",
+      "code": "31403",
+      "kind": "ordinary",
+      "value": "mach"
+    },
+    {
+      "offset": 876,
+      "source_start": [
+        10,
+        118
+      ],
+      "source_end": [
+        11,
+        1
+      ],
+      "table": "B",
+      "code": "63",
+      "kind": "ordinary",
+      "value": "genau"
+    },
+    {
+      "offset": 878,
+      "source_start": [
+        11,
+        3
+      ],
+      "source_end": [
+        11,
+        8
+      ],
+      "table": "B",
+      "code": "31218",
+      "kind": "ordinary",
+      "value": "gl"
+    },
+    {
+      "offset": 883,
+      "source_start": [
+        11,
+        10
+      ],
+      "source_end": [
+        11,
+        15
+      ],
+      "table": "B",
+      "code": "31299",
+      "kind": "ordinary",
+      "value": "ei"
+    },
+    {
+      "offset": 888,
+      "source_start": [
+        11,
+        17
+      ],
+      "source_end": [
+        11,
+        23
+      ],
+      "table": "B",
+      "code": "31286",
+      "kind": "ordinary",
+      "value": "ch"
+    },
+    {
+      "offset": 893,
+      "source_start": [
+        11,
+        25
+      ],
+      "source_end": [
+        11,
+        30
+      ],
+      "table": "B",
+      "code": "31006",
+      "kind": "ordinary",
+      "value": "fo"
+    },
+    {
+      "offset": 898,
+      "source_start": [
+        11,
+        32
+      ],
+      "source_end": [
+        11,
+        37
+      ],
+      "table": "B",
+      "code": "31334",
+      "kind": "ordinary",
+      "value": "r"
+    },
+    {
+      "offset": 903,
+      "source_start": [
+        11,
+        39
+      ],
+      "source_end": [
+        11,
+        44
+      ],
+      "table": "B",
+      "code": "31031",
+      "kind": "ordinary",
+      "value": "mi"
+    },
+    {
+      "offset": 908,
+      "source_start": [
+        11,
+        45
+      ],
+      "source_end": [
+        11,
+        51
+      ],
+      "table": "B",
+      "code": "31126",
+      "kind": "ordinary",
+      "value": "gn/gen"
+    },
+    {
+      "offset": 913,
+      "source_start": [
+        11,
+        53
+      ],
+      "source_end": [
+        11,
+        58
+      ],
+      "table": "B",
+      "code": "31075",
+      "kind": "ordinary",
+      "value": "aus"
+    },
+    {
+      "offset": 918,
+      "source_start": [
+        11,
+        60
+      ],
+      "source_end": [
+        11,
+        65
+      ],
+      "table": "B",
+      "code": "31225",
+      "kind": "ordinary",
+      "value": "ser"
+    },
+    {
+      "offset": 923,
+      "source_start": [
+        11,
+        67
+      ],
+      "source_end": [
+        11,
+        72
+      ],
+      "table": "B",
+      "code": "31291",
+      "kind": "ordinary",
+      "value": "ung"
+    },
+    {
+      "offset": 928,
+      "source_start": [
+        11,
+        74
+      ],
+      "source_end": [
+        11,
+        79
+      ],
+      "table": "B",
+      "code": "31500",
+      "kind": "ordinary",
+      "value": "seh[r]"
+    },
+    {
+      "offset": 933,
+      "source_start": [
+        11,
+        81
+      ],
+      "source_end": [
+        11,
+        87
+      ],
+      "table": "B",
+      "code": "31449",
+      "kind": "ordinary",
+      "value": "groß"
+    },
+    {
+      "offset": 938,
+      "source_start": [
+        11,
+        89
+      ],
+      "source_end": [
+        11,
+        90
+      ],
+      "table": "B",
+      "code": "41",
+      "kind": "ordinary",
+      "value": "hof"
+    },
+    {
+      "offset": 940,
+      "source_start": [
+        11,
+        92
+      ],
+      "source_end": [
+        11,
+        97
+      ],
+      "table": "B",
+      "code": "31089",
+      "kind": "ordinary",
+      "value": "nu"
+    },
+    {
+      "offset": 945,
+      "source_start": [
+        11,
+        99
+      ],
+      "source_end": [
+        11,
+        100
+      ],
+      "table": "B",
+      "code": "99",
+      "kind": "ordinary",
+      "value": "er"
+    },
+    {
+      "offset": 947,
+      "source_start": [
+        11,
+        102
+      ],
+      "source_end": [
+        11,
+        107
+      ],
+      "table": "B",
+      "code": "841",
+      "kind": "control",
+      "value": ","
+    },
+    {
+      "offset": 950,
+      "source_start": [
+        11,
+        108
+      ],
+      "source_end": [
+        11,
+        109
+      ],
+      "table": "B",
+      "code": "12",
+      "kind": "ordinary",
+      "value": "daß"
+    },
+    {
+      "offset": 952,
+      "source_start": [
+        11,
+        111
+      ],
+      "source_end": [
+        11,
+        116
+      ],
+      "table": "B",
+      "code": "31142",
+      "kind": "ordinary",
+      "value": "scho"
+    },
+    {
+      "offset": 957,
+      "source_start": [
+        11,
+        118
+      ],
+      "source_end": [
+        12,
+        1
+      ],
+      "table": "B",
+      "code": "31157",
+      "kind": "ordinary",
+      "value": "n"
+    },
+    {
+      "offset": 962,
+      "source_start": [
+        12,
+        3
+      ],
+      "source_end": [
+        12,
+        8
+      ],
+      "table": "B",
+      "code": "31031",
+      "kind": "ordinary",
+      "value": "mi"
+    },
+    {
+      "offset": 967,
+      "source_start": [
+        12,
+        9
+      ],
+      "source_end": [
+        12,
+        15
+      ],
+      "table": "B",
+      "code": "31183",
+      "kind": "ordinary",
+      "value": "no"
+    },
+    {
+      "offset": 972,
+      "source_start": [
+        12,
+        17
+      ],
+      "source_end": [
+        12,
+        17
+      ],
+      "table": "B",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 973,
+      "source_start": [
+        12,
+        19
+      ],
+      "source_end": [
+        12,
+        24
+      ],
+      "table": "B",
+      "code": "31334",
+      "kind": "ordinary",
+      "value": "r"
+    },
+    {
+      "offset": 978,
+      "source_start": [
+        12,
+        26
+      ],
+      "source_end": [
+        12,
+        31
+      ],
+      "table": "B",
+      "code": "31278",
+      "kind": "ordinary",
+      "value": "ca"
+    },
+    {
+      "offset": 983,
+      "source_start": [
+        12,
+        33
+      ],
+      "source_end": [
+        12,
+        34
+      ],
+      "table": "B",
+      "code": "44",
+      "kind": "ordinary",
+      "value": "an"
+    },
+    {
+      "offset": 985,
+      "source_start": [
+        12,
+        36
+      ],
+      "source_end": [
+        12,
+        41
+      ],
+      "table": "B",
+      "code": "31345",
+      "kind": "ordinary",
+      "value": "Spanien"
+    },
+    {
+      "offset": 990,
+      "source_start": [
+        12,
+        43
+      ],
+      "source_end": [
+        12,
+        48
+      ],
+      "table": "B",
+      "code": "31208",
+      "kind": "ordinary",
+      "value": "übr"
+    },
+    {
+      "offset": 995,
+      "source_start": [
+        12,
+        50
+      ],
+      "source_end": [
+        12,
+        56
+      ],
+      "table": "B",
+      "code": "31361",
+      "kind": "ordinary",
+      "value": "laß"
+    },
+    {
+      "offset": 1000,
+      "source_start": [
+        12,
+        58
+      ],
+      "source_end": [
+        12,
+        59
+      ],
+      "table": "B",
+      "code": "09",
+      "kind": "ordinary",
+      "value": "würde"
+    },
+    {
+      "offset": 1002,
+      "source_start": [
+        12,
+        61
+      ],
+      "source_end": [
+        12,
+        66
+      ],
+      "table": "B",
+      "code": "31437",
+      "kind": "ordinary",
+      "value": "wo"
+    },
+    {
+      "offset": 1007,
+      "source_start": [
+        12,
+        68
+      ],
+      "source_end": [
+        12,
+        73
+      ],
+      "table": "B",
+      "code": "31466",
+      "kind": "ordinary",
+      "value": "zu"
+    },
+    {
+      "offset": 1012,
+      "source_start": [
+        12,
+        75
+      ],
+      "source_end": [
+        12,
+        80
+      ],
+      "table": "B",
+      "code": "31365",
+      "kind": "ordinary",
+      "value": "sich"
+    },
+    {
+      "offset": 1017,
+      "source_start": [
+        12,
+        82
+      ],
+      "source_end": [
+        12,
+        87
+      ],
+      "table": "B",
+      "code": "31239",
+      "kind": "ordinary",
+      "value": "Frankreich"
+    },
+    {
+      "offset": 1022,
+      "source_start": [
+        12,
+        89
+      ],
+      "source_end": [
+        12,
+        94
+      ],
+      "table": "B",
+      "code": "31405",
+      "kind": "ordinary",
+      "value": "berg"
+    },
+    {
+      "offset": 1027,
+      "source_start": [
+        12,
+        96
+      ],
+      "source_end": [
+        12,
+        101
+      ],
+      "table": "B",
+      "code": "31034",
+      "kind": "ordinary",
+      "value": "i"
+    },
+    {
+      "offset": 1032,
+      "source_start": [
+        12,
+        103
+      ],
+      "source_end": [
+        12,
+        108
+      ],
+      "table": "B",
+      "code": "31259",
+      "kind": "ordinary",
+      "value": "t"
+    },
+    {
+      "offset": 1037,
+      "source_start": [
+        12,
+        110
+      ],
+      "source_end": [
+        12,
+        111
+      ],
+      "table": "B",
+      "code": "14",
+      "kind": "ordinary",
+      "value": "zi"
+    },
+    {
+      "offset": 1039,
+      "source_start": [
+        12,
+        113
+      ],
+      "source_end": [
+        12,
+        118
+      ],
+      "table": "B",
+      "code": "31151",
+      "kind": "ordinary",
+      "value": "ge"
+    },
+    {
+      "offset": 1044,
+      "source_start": [
+        12,
+        120
+      ],
+      "source_end": [
+        13,
+        1
+      ],
+      "table": "B",
+      "code": "54",
+      "kind": "ordinary",
+      "value": "un"
+    },
+    {
+      "offset": 1046,
+      "source_start": [
+        13,
+        3
+      ],
+      "source_end": [
+        13,
+        8
+      ],
+      "table": "B",
+      "code": "31329",
+      "kind": "ordinary",
+      "value": "bund/brud?"
+    },
+    {
+      "offset": 1051,
+      "source_start": [
+        13,
+        10
+      ],
+      "source_end": [
+        13,
+        16
+      ],
+      "table": "B",
+      "code": "31091",
+      "kind": "ordinary",
+      "value": "woll"
+    },
+    {
+      "offset": 1056,
+      "source_start": [
+        13,
+        18
+      ],
+      "source_end": [
+        13,
+        23
+      ],
+      "table": "B",
+      "code": "31304",
+      "kind": "ordinary",
+      "value": "leicht"
+    },
+    {
+      "offset": 1061,
+      "source_start": [
+        13,
+        25
+      ],
+      "source_end": [
+        13,
+        26
+      ],
+      "table": "B",
+      "code": "55",
+      "kind": "ordinary",
+      "value": "hand"
+    },
+    {
+      "offset": 1063,
+      "source_start": [
+        13,
+        28
+      ],
+      "source_end": [
+        13,
+        33
+      ],
+      "table": "B",
+      "code": "31238",
+      "kind": "ordinary",
+      "value": "t"
+    },
+    {
+      "offset": 1068,
+      "source_start": [
+        13,
+        35
+      ],
+      "source_end": [
+        13,
+        40
+      ],
+      "table": "B",
+      "code": "31201",
+      "kind": "ordinary",
+      "value": "schluß"
+    },
+    {
+      "offset": 1073,
+      "source_start": [
+        13,
+        42
+      ],
+      "source_end": [
+        13,
+        47
+      ],
+      "table": "B",
+      "code": "31456",
+      "kind": "ordinary",
+      "value": "wird"
+    },
+    {
+      "offset": 1078,
+      "source_start": [
+        13,
+        49
+      ],
+      "source_end": [
+        13,
+        54
+      ],
+      "table": "B",
+      "code": "31274",
+      "kind": "ordinary",
+      "value": "al"
+    },
+    {
+      "offset": 1083,
+      "source_start": [
+        13,
+        56
+      ],
+      "source_end": [
+        13,
+        57
+      ],
+      "table": "B",
+      "code": "06",
+      "kind": "ordinary",
+      "value": "da"
+    },
+    {
+      "offset": 1085,
+      "source_start": [
+        13,
+        59
+      ],
+      "source_end": [
+        13,
+        64
+      ],
+      "table": "B",
+      "code": "31307",
+      "kind": "ordinary",
+      "value": "n"
+    },
+    {
+      "offset": 1090,
+      "source_start": [
+        13,
+        66
+      ],
+      "source_end": [
+        13,
+        67
+      ],
+      "table": "B",
+      "code": "26",
+      "kind": "ordinary",
+      "value": "dies"
+    },
+    {
+      "offset": 1092,
+      "source_start": [
+        13,
+        69
+      ],
+      "source_end": [
+        13,
+        70
+      ],
+      "table": "B",
+      "code": "41",
+      "kind": "ordinary",
+      "value": "hof"
+    },
+    {
+      "offset": 1094,
+      "source_start": [
+        13,
+        72
+      ],
+      "source_end": [
+        13,
+        73
+      ],
+      "table": "B",
+      "code": "44",
+      "kind": "ordinary",
+      "value": "an"
+    },
+    {
+      "offset": 1096,
+      "source_start": [
+        13,
+        75
+      ],
+      "source_end": [
+        13,
+        80
+      ],
+      "table": "B",
+      "code": "31210",
+      "kind": "ordinary",
+      "value": "den"
+    },
+    {
+      "offset": 1101,
+      "source_start": [
+        13,
+        82
+      ],
+      "source_end": [
+        13,
+        87
+      ],
+      "table": "B",
+      "code": "31144",
+      "kind": "ordinary",
+      "value": "krieg"
+    },
+    {
+      "offset": 1106,
+      "source_start": [
+        13,
+        89
+      ],
+      "source_end": [
+        13,
+        90
+      ],
+      "table": "B",
+      "code": "94",
+      "kind": "ordinary",
+      "value": "mit"
+    },
+    {
+      "offset": 1108,
+      "source_start": [
+        13,
+        92
+      ],
+      "source_end": [
+        13,
+        98
+      ],
+      "table": "B",
+      "code": "31458",
+      "kind": "ordinary",
+      "value": "theil"
+    },
+    {
+      "offset": 1113,
+      "source_start": [
+        13,
+        100
+      ],
+      "source_end": [
+        13,
+        105
+      ],
+      "table": "B",
+      "code": "31408",
+      "kind": "ordinary",
+      "value": "ne"
+    },
+    {
+      "offset": 1118,
+      "source_start": [
+        13,
+        107
+      ],
+      "source_end": [
+        14,
+        1
+      ],
+      "table": "B",
+      "code": "31016",
+      "kind": "ordinary",
+      "value": "H"
+    },
+    {
+      "offset": 1123,
+      "source_start": [
+        14,
+        2
+      ],
+      "source_end": [
+        14,
+        4
+      ],
+      "table": "B",
+      "code": "66",
+      "kind": "ordinary",
+      "value": "me"
+    },
+    {
+      "offset": 1125,
+      "source_start": [
+        14,
+        5
+      ],
+      "source_end": [
+        14,
+        7
+      ],
+      "table": "B",
+      "code": "00",
+      "kind": "ordinary",
+      "value": "und"
+    },
+    {
+      "offset": 1127,
+      "source_start": [
+        14,
+        8
+      ],
+      "source_end": [
+        14,
+        11
+      ],
+      "table": "B",
+      "code": "44",
+      "kind": "ordinary",
+      "value": "an"
+    },
+    {
+      "offset": 1129,
+      "source_start": [
+        14,
+        12
+      ],
+      "source_end": [
+        14,
+        18
+      ],
+      "table": "B",
+      "code": "31280",
+      "kind": "ordinary",
+      "value": "durch"
+    },
+    {
+      "offset": 1134,
+      "source_start": [
+        14,
+        20
+      ],
+      "source_end": [
+        14,
+        25
+      ],
+      "table": "B",
+      "code": "31210",
+      "kind": "ordinary",
+      "value": "den"
+    },
+    {
+      "offset": 1139,
+      "source_start": [
+        14,
+        27
+      ],
+      "source_end": [
+        14,
+        32
+      ],
+      "table": "B",
+      "code": "31389",
+      "kind": "ordinary",
+      "value": "ü"
+    },
+    {
+      "offset": 1144,
+      "source_start": [
+        14,
+        34
+      ],
+      "source_end": [
+        14,
+        39
+      ],
+      "table": "B",
+      "code": "31157",
+      "kind": "ordinary",
+      "value": "n"
+    },
+    {
+      "offset": 1149,
+      "source_start": [
+        14,
+        41
+      ],
+      "source_end": [
+        14,
+        46
+      ],
+      "table": "B",
+      "code": "31167",
+      "kind": "ordinary",
+      "value": "und"
+    },
+    {
+      "offset": 1154,
+      "source_start": [
+        14,
+        48
+      ],
+      "source_end": [
+        14,
+        54
+      ],
+      "table": "B",
+      "code": "31397",
+      "kind": "ordinary",
+      "value": "Preuss"
+    },
+    {
+      "offset": 1159,
+      "source_start": [
+        14,
+        56
+      ],
+      "source_end": [
+        14,
+        61
+      ],
+      "table": "B",
+      "code": "31272",
+      "kind": "ordinary",
+      "value": "n"
+    },
+    {
+      "offset": 1164,
+      "source_start": [
+        14,
+        63
+      ],
+      "source_end": [
+        14,
+        64
+      ],
+      "table": "B",
+      "code": "41",
+      "kind": "ordinary",
+      "value": "hof"
+    },
+    {
+      "offset": 1166,
+      "source_start": [
+        14,
+        66
+      ],
+      "source_end": [
+        14,
+        71
+      ],
+      "table": "B",
+      "code": "31073",
+      "kind": "ordinary",
+      "value": "in"
+    },
+    {
+      "offset": 1171,
+      "source_start": [
+        14,
+        73
+      ],
+      "source_end": [
+        14,
+        78
+      ],
+      "table": "B",
+      "code": "31500",
+      "kind": "ordinary",
+      "value": "seh[r]"
+    },
+    {
+      "offset": 1176,
+      "source_start": [
+        14,
+        80
+      ],
+      "source_end": [
+        14,
+        85
+      ],
+      "table": "B",
+      "code": "31449",
+      "kind": "ordinary",
+      "value": "groß"
+    },
+    {
+      "offset": 1181,
+      "source_start": [
+        14,
+        87
+      ],
+      "source_end": [
+        14,
+        93
+      ],
+      "table": "B",
+      "code": "31342",
+      "kind": "ordinary",
+      "value": "ver"
+    },
+    {
+      "offset": 1186,
+      "source_start": [
+        14,
+        95
+      ],
+      "source_end": [
+        14,
+        100
+      ],
+      "table": "B",
+      "code": "31330",
+      "kind": "ordinary",
+      "value": "le"
+    },
+    {
+      "offset": 1191,
+      "source_start": [
+        14,
+        102
+      ],
+      "source_end": [
+        14,
+        107
+      ],
+      "table": "B",
+      "code": "31151",
+      "kind": "ordinary",
+      "value": "ge"
+    },
+    {
+      "offset": 1196,
+      "source_start": [
+        14,
+        109
+      ],
+      "source_end": [
+        14,
+        114
+      ],
+      "table": "B",
+      "code": "31033",
+      "kind": "ordinary",
+      "value": "heit"
+    },
+    {
+      "offset": 1201,
+      "source_start": [
+        14,
+        116
+      ],
+      "source_end": [
+        15,
+        2
+      ],
+      "table": "B",
+      "code": "31246",
+      "kind": "ordinary",
+      "value": "se"
+    },
+    {
+      "offset": 1206,
+      "source_start": [
+        15,
+        4
+      ],
+      "source_end": [
+        15,
+        9
+      ],
+      "table": "B",
+      "code": "31282",
+      "kind": "ordinary",
+      "value": "t"
+    },
+    {
+      "offset": 1211,
+      "source_start": [
+        15,
+        11
+      ],
+      "source_end": [
+        15,
+        17
+      ],
+      "table": "B",
+      "code": "31475",
+      "kind": "ordinary",
+      "value": "z"
+    },
+    {
+      "offset": 1216,
+      "source_start": [
+        15,
+        19
+      ],
+      "source_end": [
+        15,
+        20
+      ],
+      "table": "B",
+      "code": "55",
+      "kind": "ordinary",
+      "value": "hand"
+    },
+    {
+      "offset": 1218,
+      "source_start": [
+        15,
+        22
+      ],
+      "source_end": [
+        15,
+        23
+      ],
+      "table": "B",
+      "code": "09",
+      "kind": "ordinary",
+      "value": "würde"
+    },
+    {
+      "offset": 1220,
+      "source_start": [
+        15,
+        25
+      ],
+      "source_end": [
+        15,
+        30
+      ],
+      "table": "B",
+      "code": "897",
+      "kind": "control",
+      "value": "."
+    },
+    {
+      "offset": 1223,
+      "source_start": [
+        15,
+        32
+      ],
+      "source_end": [
+        15,
+        33
+      ],
+      "table": "B",
+      "code": "11",
+      "kind": "ordinary",
+      "value": "da"
+    },
+    {
+      "offset": 1225,
+      "source_start": [
+        15,
+        35
+      ],
+      "source_end": [
+        15,
+        40
+      ],
+      "table": "B",
+      "code": "30000",
+      "kind": "ordinary",
+      "value": "ich"
+    },
+    {
+      "offset": 1230,
+      "source_start": [
+        15,
+        42
+      ],
+      "source_end": [
+        15,
+        42
+      ],
+      "table": "B",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1231,
+      "source_start": [
+        15,
+        44
+      ],
+      "source_end": [
+        15,
+        49
+      ],
+      "table": "B",
+      "code": "31089",
+      "kind": "ordinary",
+      "value": "nu"
+    },
+    {
+      "offset": 1236,
+      "source_start": [
+        15,
+        51
+      ],
+      "source_end": [
+        15,
+        56
+      ],
+      "table": "B",
+      "code": "31057",
+      "kind": "ordinary",
+      "value": "Euer"
+    },
+    {
+      "offset": 1241,
+      "source_start": [
+        15,
+        58
+      ],
+      "source_end": [
+        15,
+        64
+      ],
+      "table": "B",
+      "code": "31087",
+      "kind": "ordinary",
+      "value": "ho"
+    },
+    {
+      "offset": 1246,
+      "source_start": [
+        15,
+        66
+      ],
+      "source_end": [
+        15,
+        71
+      ],
+      "table": "B",
+      "code": "31286",
+      "kind": "ordinary",
+      "value": "ch"
+    },
+    {
+      "offset": 1251,
+      "source_start": [
+        15,
+        73
+      ],
+      "source_end": [
+        15,
+        78
+      ],
+      "table": "B",
+      "code": "31117",
+      "kind": "ordinary",
+      "value": "geb"
+    },
+    {
+      "offset": 1256,
+      "source_start": [
+        15,
+        80
+      ],
+      "source_end": [
+        15,
+        85
+      ],
+      "table": "B",
+      "code": "31498",
+      "kind": "ordinary",
+      "value": "o"
+    },
+    {
+      "offset": 1261,
+      "source_start": [
+        15,
+        87
+      ],
+      "source_end": [
+        15,
+        92
+      ],
+      "table": "B",
+      "code": "31016",
+      "kind": "ordinary",
+      "value": "H"
+    },
+    {
+      "offset": 1266,
+      "source_start": [
+        15,
+        94
+      ],
+      "source_end": [
+        15,
+        99
+      ],
+      "table": "B",
+      "code": "31334",
+      "kind": "ordinary",
+      "value": "r"
+    },
+    {
+      "offset": 1271,
+      "source_start": [
+        15,
+        101
+      ],
+      "source_end": [
+        15,
+        106
+      ],
+      "table": "B",
+      "code": "31157",
+      "kind": "ordinary",
+      "value": "n"
+    },
+    {
+      "offset": 1276,
+      "source_start": [
+        15,
+        108
+      ],
+      "source_end": [
+        15,
+        113
+      ],
+      "table": "B",
+      "code": "31280",
+      "kind": "ordinary",
+      "value": "durch"
+    },
+    {
+      "offset": 1281,
+      "source_start": [
+        15,
+        115
+      ],
+      "source_end": [
+        15,
+        120
+      ],
+      "table": "B",
+      "code": "31210",
+      "kind": "ordinary",
+      "value": "den"
+    },
+    {
+      "offset": 1286,
+      "source_start": [
+        15,
+        122
+      ],
+      "source_end": [
+        15,
+        128
+      ],
+      "table": "B",
+      "code": "31455",
+      "kind": "ordinary",
+      "value": "Courier"
+    },
+    {
+      "offset": 1291,
+      "source_start": [
+        15,
+        129
+      ],
+      "source_end": [
+        16,
+        1
+      ],
+      "table": "B",
+      "code": "14",
+      "kind": "ordinary",
+      "value": "zi"
+    },
+    {
+      "offset": 1293,
+      "source_start": [
+        16,
+        3
+      ],
+      "source_end": [
+        16,
+        8
+      ],
+      "table": "B",
+      "code": "31307",
+      "kind": "ordinary",
+      "value": "n"
+    },
+    {
+      "offset": 1298,
+      "source_start": [
+        16,
+        10
+      ],
+      "source_end": [
+        16,
+        11
+      ],
+      "table": "B",
+      "code": "99",
+      "kind": "ordinary",
+      "value": "er"
+    },
+    {
+      "offset": 1300,
+      "source_start": [
+        16,
+        13
+      ],
+      "source_end": [
+        16,
+        18
+      ],
+      "table": "B",
+      "code": "31448",
+      "kind": "ordinary",
+      "value": "zu"
+    },
+    {
+      "offset": 1305,
+      "source_start": [
+        16,
+        20
+      ],
+      "source_end": [
+        16,
+        25
+      ],
+      "table": "B",
+      "code": "31320",
+      "kind": "ordinary",
+      "value": "erst"
+    },
+    {
+      "offset": 1310,
+      "source_start": [
+        16,
+        27
+      ],
+      "source_end": [
+        16,
+        32
+      ],
+      "table": "B",
+      "code": "31090",
+      "kind": "ordinary",
+      "value": "at"
+    },
+    {
+      "offset": 1315,
+      "source_start": [
+        16,
+        34
+      ],
+      "source_end": [
+        16,
+        39
+      ],
+      "table": "B",
+      "code": "31300",
+      "kind": "ordinary",
+      "value": "te/ten/ter"
+    },
+    {
+      "offset": 1320,
+      "source_start": [
+        16,
+        42
+      ],
+      "source_end": [
+        16,
+        42
+      ],
+      "table": "B",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1321,
+      "source_start": [
+        16,
+        43
+      ],
+      "source_end": [
+        16,
+        43
+      ],
+      "table": "B",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1322,
+      "source_start": [
+        16,
+        45
+      ],
+      "source_end": [
+        16,
+        50
+      ],
+      "table": "B",
+      "code": "31210",
+      "kind": "ordinary",
+      "value": "den"
+    },
+    {
+      "offset": 1327,
+      "source_start": [
+        16,
+        52
+      ],
+      "source_end": [
+        16,
+        57
+      ],
+      "table": "B",
+      "code": "31070",
+      "kind": "ordinary",
+      "value": "fr/Bericht"
+    },
+    {
+      "offset": 1332,
+      "source_start": [
+        16,
+        59
+      ],
+      "source_end": [
+        16,
+        60
+      ],
+      "table": "B",
+      "code": "94",
+      "kind": "ordinary",
+      "value": "mit"
+    },
+    {
+      "offset": 1334,
+      "source_start": [
+        16,
+        62
+      ],
+      "source_end": [
+        16,
+        67
+      ],
+      "table": "B",
+      "code": "31457",
+      "kind": "ordinary",
+      "value": "viel"
+    },
+    {
+      "offset": 1339,
+      "source_start": [
+        16,
+        69
+      ],
+      "source_end": [
+        16,
+        74
+      ],
+      "table": "B",
+      "code": "31222",
+      "kind": "ordinary",
+      "value": "m"
+    },
+    {
+      "offset": 1344,
+      "source_start": [
+        16,
+        76
+      ],
+      "source_end": [
+        16,
+        81
+      ],
+      "table": "B",
+      "code": "31342",
+      "kind": "ordinary",
+      "value": "ver"
+    },
+    {
+      "offset": 1349,
+      "source_start": [
+        16,
+        83
+      ],
+      "source_end": [
+        16,
+        88
+      ],
+      "table": "B",
+      "code": "899",
+      "kind": "switch",
+      "value": "[B→A]"
+    },
+    {
+      "offset": 1352,
+      "source_start": [
+        16,
+        90
+      ],
+      "source_end": [
+        16,
+        95
+      ],
+      "table": "A",
+      "code": "31427",
+      "kind": "ordinary",
+      "value": "lan/lang/lau?"
+    },
+    {
+      "offset": 1357,
+      "source_start": [
+        16,
+        97
+      ],
+      "source_end": [
+        16,
+        102
+      ],
+      "table": "A",
+      "code": "31240",
+      "kind": "ordinary",
+      "value": "en"
+    },
+    {
+      "offset": 1362,
+      "source_start": [
+        16,
+        104
+      ],
+      "source_end": [
+        16,
+        109
+      ],
+      "table": "A",
+      "code": "31113",
+      "kind": "ordinary",
+      "value": "en"
+    },
+    {
+      "offset": 1367,
+      "source_start": [
+        16,
+        111
+      ],
+      "source_end": [
+        16,
+        112
+      ],
+      "table": "A",
+      "code": "62",
+      "kind": "ordinary",
+      "value": "t"
+    },
+    {
+      "offset": 1369,
+      "source_start": [
+        17,
+        1
+      ],
+      "source_end": [
+        17,
+        2
+      ],
+      "table": "A",
+      "code": "11",
+      "kind": "ordinary",
+      "value": "französisch"
+    },
+    {
+      "offset": 1371,
+      "source_start": [
+        17,
+        4
+      ],
+      "source_end": [
+        17,
+        5
+      ],
+      "table": "A",
+      "code": "59",
+      "kind": "ordinary",
+      "value": "ren"
+    },
+    {
+      "offset": 1373,
+      "source_start": [
+        17,
+        7
+      ],
+      "source_end": [
+        17,
+        8
+      ],
+      "table": "A",
+      "code": "53",
+      "kind": "ordinary",
+      "value": "re"
+    },
+    {
+      "offset": 1375,
+      "source_start": [
+        17,
+        10
+      ],
+      "source_end": [
+        17,
+        11
+      ],
+      "table": "A",
+      "code": "11",
+      "kind": "ordinary",
+      "value": "französisch"
+    },
+    {
+      "offset": 1377,
+      "source_start": [
+        17,
+        13
+      ],
+      "source_end": [
+        17,
+        14
+      ],
+      "table": "A",
+      "code": "54",
+      "kind": "ordinary",
+      "value": "für/sten"
+    },
+    {
+      "offset": 1379,
+      "source_start": [
+        17,
+        16
+      ],
+      "source_end": [
+        17,
+        21
+      ],
+      "table": "A",
+      "code": "31247",
+      "kind": "ordinary",
+      "value": "eh"
+    },
+    {
+      "offset": 1384,
+      "source_start": [
+        17,
+        23
+      ],
+      "source_end": [
+        17,
+        23
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1385,
+      "source_start": [
+        17,
+        25
+      ],
+      "source_end": [
+        17,
+        25
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1386,
+      "source_start": [
+        17,
+        27
+      ],
+      "source_end": [
+        17,
+        32
+      ],
+      "table": "A",
+      "code": "31443",
+      "kind": "ordinary",
+      "value": "so"
+    },
+    {
+      "offset": 1391,
+      "source_start": [
+        17,
+        34
+      ],
+      "source_end": [
+        17,
+        39
+      ],
+      "table": "A",
+      "code": "31264",
+      "kind": "ordinary",
+      "value": "brauch"
+    },
+    {
+      "offset": 1396,
+      "source_start": [
+        17,
+        41
+      ],
+      "source_end": [
+        17,
+        46
+      ],
+      "table": "A",
+      "code": "31130",
+      "kind": "ordinary",
+      "value": "in"
+    },
+    {
+      "offset": 1401,
+      "source_start": [
+        17,
+        48
+      ],
+      "source_end": [
+        17,
+        49
+      ],
+      "table": "A",
+      "code": "52",
+      "kind": "ordinary",
+      "value": "des/den"
+    },
+    {
+      "offset": 1403,
+      "source_start": [
+        17,
+        51
+      ],
+      "source_end": [
+        17,
+        57
+      ],
+      "table": "A",
+      "code": "31272",
+      "kind": "ordinary",
+      "value": "nicht"
+    },
+    {
+      "offset": 1408,
+      "source_start": [
+        17,
+        58
+      ],
+      "source_end": [
+        17,
+        58
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1409,
+      "source_start": [
+        17,
+        60
+      ],
+      "source_end": [
+        17,
+        65
+      ],
+      "table": "A",
+      "code": "31101",
+      "kind": "ordinary",
+      "value": "be"
+    },
+    {
+      "offset": 1414,
+      "source_start": [
+        17,
+        67
+      ],
+      "source_end": [
+        17,
+        72
+      ],
+      "table": "A",
+      "code": "31168",
+      "kind": "ordinary",
+      "value": "u"
+    },
+    {
+      "offset": 1419,
+      "source_start": [
+        17,
+        74
+      ],
+      "source_end": [
+        17,
+        79
+      ],
+      "table": "A",
+      "code": "31413",
+      "kind": "ordinary",
+      "value": "er"
+    },
+    {
+      "offset": 1424,
+      "source_start": [
+        17,
+        81
+      ],
+      "source_end": [
+        17,
+        81
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1425,
+      "source_start": [
+        17,
+        83
+      ],
+      "source_end": [
+        17,
+        88
+      ],
+      "table": "A",
+      "code": "31429",
+      "kind": "ordinary",
+      "value": "es"
+    },
+    {
+      "offset": 1430,
+      "source_start": [
+        17,
+        90
+      ],
+      "source_end": [
+        17,
+        95
+      ],
+      "table": "A",
+      "code": "31318",
+      "kind": "ordinary",
+      "value": "ein"
+    },
+    {
+      "offset": 1435,
+      "source_start": [
+        17,
+        98
+      ],
+      "source_end": [
+        17,
+        104
+      ],
+      "table": "A",
+      "code": "31424",
+      "kind": "ordinary",
+      "value": "rath"
+    },
+    {
+      "offset": 1440,
+      "source_start": [
+        17,
+        105
+      ],
+      "source_end": [
+        17,
+        107
+      ],
+      "table": "A",
+      "code": "69",
+      "kind": "ordinary",
+      "value": "als"
+    },
+    {
+      "offset": 1442,
+      "source_start": [
+        17,
+        109
+      ],
+      "source_end": [
+        17,
+        114
+      ],
+      "table": "A",
+      "code": "31130",
+      "kind": "ordinary",
+      "value": "in"
+    },
+    {
+      "offset": 1447,
+      "source_start": [
+        17,
+        116
+      ],
+      "source_end": [
+        18,
+        1
+      ],
+      "table": "A",
+      "code": "31293",
+      "kind": "ordinary",
+      "value": "dem"
+    },
+    {
+      "offset": 1452,
+      "source_start": [
+        18,
+        3
+      ],
+      "source_end": [
+        18,
+        8
+      ],
+      "table": "A",
+      "code": "31325",
+      "kind": "ordinary",
+      "value": "ber"
+    },
+    {
+      "offset": 1457,
+      "source_start": [
+        18,
+        10
+      ],
+      "source_end": [
+        18,
+        15
+      ],
+      "table": "A",
+      "code": "31062",
+      "kind": "ordinary",
+      "value": "ei"
+    },
+    {
+      "offset": 1462,
+      "source_start": [
+        18,
+        17
+      ],
+      "source_end": [
+        18,
+        18
+      ],
+      "table": "A",
+      "code": "62",
+      "kind": "ordinary",
+      "value": "t"
+    },
+    {
+      "offset": 1464,
+      "source_start": [
+        18,
+        20
+      ],
+      "source_end": [
+        18,
+        26
+      ],
+      "table": "A",
+      "code": "31154",
+      "kind": "ordinary",
+      "value": "s"
+    },
+    {
+      "offset": 1469,
+      "source_start": [
+        18,
+        28
+      ],
+      "source_end": [
+        18,
+        33
+      ],
+      "table": "A",
+      "code": "31112",
+      "kind": "ordinary",
+      "value": "ein"
+    },
+    {
+      "offset": 1474,
+      "source_start": [
+        18,
+        35
+      ],
+      "source_end": [
+        18,
+        40
+      ],
+      "table": "A",
+      "code": "31115",
+      "kind": "ordinary",
+      "value": "ge"
+    },
+    {
+      "offset": 1479,
+      "source_start": [
+        18,
+        42
+      ],
+      "source_end": [
+        18,
+        42
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1480,
+      "source_start": [
+        18,
+        44
+      ],
+      "source_end": [
+        18,
+        49
+      ],
+      "table": "A",
+      "code": "31271",
+      "kind": "ordinary",
+      "value": "sch"
+    },
+    {
+      "offset": 1485,
+      "source_start": [
+        18,
+        51
+      ],
+      "source_end": [
+        18,
+        56
+      ],
+      "table": "A",
+      "code": "31127",
+      "kind": "ordinary",
+      "value": "la"
+    },
+    {
+      "offset": 1490,
+      "source_start": [
+        18,
+        58
+      ],
+      "source_end": [
+        18,
+        63
+      ],
+      "table": "A",
+      "code": "31342",
+      "kind": "ordinary",
+      "value": "gen"
+    },
+    {
+      "offset": 1495,
+      "source_start": [
+        18,
+        65
+      ],
+      "source_end": [
+        18,
+        70
+      ],
+      "table": "A",
+      "code": "31058",
+      "kind": "ordinary",
+      "value": "en"
+    },
+    {
+      "offset": 1500,
+      "source_start": [
+        18,
+        72
+      ],
+      "source_end": [
+        18,
+        77
+      ],
+      "table": "A",
+      "code": "31391",
+      "kind": "ordinary",
+      "value": "we?"
+    },
+    {
+      "offset": 1505,
+      "source_start": [
+        18,
+        79
+      ],
+      "source_end": [
+        18,
+        84
+      ],
+      "table": "A",
+      "code": "31406",
+      "kind": "ordinary",
+      "value": "eg"
+    },
+    {
+      "offset": 1510,
+      "source_start": [
+        18,
+        86
+      ],
+      "source_end": [
+        18,
+        91
+      ],
+      "table": "A",
+      "code": "31314",
+      "kind": "ordinary",
+      "value": "fo"
+    },
+    {
+      "offset": 1515,
+      "source_start": [
+        18,
+        93
+      ],
+      "source_end": [
+        18,
+        94
+      ],
+      "table": "A",
+      "code": "90",
+      "kind": "ordinary",
+      "value": "r"
+    },
+    {
+      "offset": 1517,
+      "source_start": [
+        18,
+        96
+      ],
+      "source_end": [
+        18,
+        101
+      ],
+      "table": "A",
+      "code": "31257",
+      "kind": "ordinary",
+      "value": "t"
+    },
+    {
+      "offset": 1522,
+      "source_start": [
+        18,
+        103
+      ],
+      "source_end": [
+        18,
+        103
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1523,
+      "source_start": [
+        18,
+        105
+      ],
+      "source_end": [
+        18,
+        111
+      ],
+      "table": "A",
+      "code": "31394",
+      "kind": "ordinary",
+      "value": "zu/zeig"
+    },
+    {
+      "offset": 1528,
+      "source_start": [
+        18,
+        113
+      ],
+      "source_end": [
+        18,
+        118
+      ],
+      "table": "A",
+      "code": "31158",
+      "kind": "ordinary",
+      "value": "fa"
+    },
+    {
+      "offset": 1533,
+      "source_start": [
+        18,
+        120
+      ],
+      "source_end": [
+        18,
+        125
+      ],
+      "table": "A",
+      "code": "31116",
+      "kind": "ordinary",
+      "value": "h"
+    },
+    {
+      "offset": 1538,
+      "source_start": [
+        18,
+        127
+      ],
+      "source_end": [
+        19,
+        5
+      ],
+      "table": "A",
+      "code": "31085",
+      "kind": "ordinary",
+      "value": "ren"
+    },
+    {
+      "offset": 1543,
+      "source_start": [
+        19,
+        7
+      ],
+      "source_end": [
+        19,
+        12
+      ],
+      "table": "A",
+      "code": "30000",
+      "kind": "ordinary",
+      "value": "und"
+    },
+    {
+      "offset": 1548,
+      "source_start": [
+        19,
+        14
+      ],
+      "source_end": [
+        19,
+        20
+      ],
+      "table": "A",
+      "code": "31047",
+      "kind": "ordinary",
+      "value": "den"
+    },
+    {
+      "offset": 1553,
+      "source_start": [
+        19,
+        22
+      ],
+      "source_end": [
+        19,
+        22
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1554,
+      "source_start": [
+        19,
+        24
+      ],
+      "source_end": [
+        19,
+        29
+      ],
+      "table": "A",
+      "code": "31466",
+      "kind": "ordinary",
+      "value": "wa"
+    },
+    {
+      "offset": 1559,
+      "source_start": [
+        19,
+        31
+      ],
+      "source_end": [
+        19,
+        36
+      ],
+      "table": "A",
+      "code": "31136",
+      "kind": "ordinary",
+      "value": "l"
+    },
+    {
+      "offset": 1564,
+      "source_start": [
+        19,
+        38
+      ],
+      "source_end": [
+        19,
+        38
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1565,
+      "source_start": [
+        19,
+        40
+      ],
+      "source_end": [
+        19,
+        45
+      ],
+      "table": "A",
+      "code": "31443",
+      "kind": "ordinary",
+      "value": "so"
+    },
+    {
+      "offset": 1570,
+      "source_start": [
+        19,
+        47
+      ],
+      "source_end": [
+        19,
+        52
+      ],
+      "table": "A",
+      "code": "31492",
+      "kind": "ordinary",
+      "value": "viel"
+    },
+    {
+      "offset": 1575,
+      "source_start": [
+        19,
+        54
+      ],
+      "source_end": [
+        19,
+        59
+      ],
+      "table": "A",
+      "code": "31218",
+      "kind": "ordinary",
+      "value": "nur"
+    },
+    {
+      "offset": 1580,
+      "source_start": [
+        19,
+        61
+      ],
+      "source_end": [
+        19,
+        66
+      ],
+      "table": "A",
+      "code": "31170",
+      "kind": "ordinary",
+      "value": "im"
+    },
+    {
+      "offset": 1585,
+      "source_start": [
+        19,
+        68
+      ],
+      "source_end": [
+        19,
+        73
+      ],
+      "table": "A",
+      "code": "31210",
+      "kind": "ordinary",
+      "value": "mer"
+    },
+    {
+      "offset": 1590,
+      "source_start": [
+        19,
+        75
+      ],
+      "source_end": [
+        19,
+        75
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1591,
+      "source_start": [
+        19,
+        77
+      ],
+      "source_end": [
+        19,
+        82
+      ],
+      "table": "A",
+      "code": "31263",
+      "kind": "ordinary",
+      "value": "mög/lich"
+    },
+    {
+      "offset": 1596,
+      "source_start": [
+        19,
+        85
+      ],
+      "source_end": [
+        19,
+        86
+      ],
+      "table": "A",
+      "code": "70",
+      "kind": "ordinary",
+      "value": "durch"
+    },
+    {
+      "offset": 1598,
+      "source_start": [
+        19,
+        88
+      ],
+      "source_end": [
+        19,
+        93
+      ],
+      "table": "A",
+      "code": "31106",
+      "kind": "ordinary",
+      "value": "der"
+    },
+    {
+      "offset": 1603,
+      "source_start": [
+        19,
+        95
+      ],
+      "source_end": [
+        19,
+        100
+      ],
+      "table": "A",
+      "code": "31099",
+      "kind": "ordinary",
+      "value": "o"
+    },
+    {
+      "offset": 1608,
+      "source_start": [
+        19,
+        102
+      ],
+      "source_end": [
+        19,
+        103
+      ],
+      "table": "A",
+      "code": "99",
+      "kind": "ordinary",
+      "value": "man"
+    },
+    {
+      "offset": 1610,
+      "source_start": [
+        19,
+        105
+      ],
+      "source_end": [
+        19,
+        110
+      ],
+      "table": "A",
+      "code": "31271",
+      "kind": "ordinary",
+      "value": "sch"
+    },
+    {
+      "offset": 1615,
+      "source_start": [
+        19,
+        112
+      ],
+      "source_end": [
+        19,
+        118
+      ],
+      "table": "A",
+      "code": "31119",
+      "kind": "ordinary",
+      "value": "i"
+    },
+    {
+      "offset": 1620,
+      "source_start": [
+        19,
+        120
+      ],
+      "source_end": [
+        20,
+        1
+      ],
+      "table": "A",
+      "code": "31315",
+      "kind": "ordinary",
+      "value": "ck"
+    },
+    {
+      "offset": 1625,
+      "source_start": [
+        20,
+        3
+      ],
+      "source_end": [
+        20,
+        8
+      ],
+      "table": "A",
+      "code": "31262",
+      "kind": "ordinary",
+      "value": "te"
+    },
+    {
+      "offset": 1630,
+      "source_start": [
+        20,
+        10
+      ],
+      "source_end": [
+        20,
+        15
+      ],
+      "table": "A",
+      "code": "31447",
+      "kind": "ordinary",
+      "value": "s"
+    },
+    {
+      "offset": 1635,
+      "source_start": [
+        20,
+        17
+      ],
+      "source_end": [
+        20,
+        22
+      ],
+      "table": "A",
+      "code": "31060",
+      "kind": "ordinary",
+      "value": "ben"
+    },
+    {
+      "offset": 1640,
+      "source_start": [
+        20,
+        24
+      ],
+      "source_end": [
+        20,
+        24
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1641,
+      "source_start": [
+        20,
+        26
+      ],
+      "source_end": [
+        20,
+        31
+      ],
+      "table": "A",
+      "code": "31247",
+      "kind": "ordinary",
+      "value": "eh"
+    },
+    {
+      "offset": 1646,
+      "source_start": [
+        20,
+        33
+      ],
+      "source_end": [
+        21,
+        4
+      ],
+      "table": "A",
+      "code": "31210",
+      "kind": "ordinary",
+      "value": "mer"
+    },
+    {
+      "offset": 1651,
+      "source_start": [
+        21,
+        6
+      ],
+      "source_end": [
+        21,
+        12
+      ],
+      "table": "A",
+      "code": "31394",
+      "kind": "ordinary",
+      "value": "zu/zeig"
+    },
+    {
+      "offset": 1656,
+      "source_start": [
+        21,
+        14
+      ],
+      "source_end": [
+        21,
+        19
+      ],
+      "table": "A",
+      "code": "31484",
+      "kind": "ordinary",
+      "value": "wei"
+    },
+    {
+      "offset": 1661,
+      "source_start": [
+        21,
+        21
+      ],
+      "source_end": [
+        21,
+        21
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1662,
+      "source_start": [
+        21,
+        23
+      ],
+      "source_end": [
+        21,
+        28
+      ],
+      "table": "A",
+      "code": "31413",
+      "kind": "ordinary",
+      "value": "er"
+    },
+    {
+      "offset": 1667,
+      "source_start": [
+        21,
+        30
+      ],
+      "source_end": [
+        21,
+        35
+      ],
+      "table": "A",
+      "code": "31240",
+      "kind": "ordinary",
+      "value": "en"
+    },
+    {
+      "offset": 1672,
+      "source_start": [
+        21,
+        37
+      ],
+      "source_end": [
+        21,
+        43
+      ],
+      "table": "A",
+      "code": "31184",
+      "kind": "ordinary",
+      "value": "ver"
+    },
+    {
+      "offset": 1677,
+      "source_start": [
+        21,
+        45
+      ],
+      "source_end": [
+        21,
+        50
+      ],
+      "table": "A",
+      "code": "31500",
+      "kind": "ordinary",
+      "value": "trau"
+    },
+    {
+      "offset": 1682,
+      "source_start": [
+        21,
+        52
+      ],
+      "source_end": [
+        21,
+        57
+      ],
+      "table": "A",
+      "code": "31058",
+      "kind": "ordinary",
+      "value": "en"
+    },
+    {
+      "offset": 1687,
+      "source_start": [
+        21,
+        59
+      ],
+      "source_end": [
+        21,
+        64
+      ],
+      "table": "A",
+      "code": "31326",
+      "kind": "ordinary",
+      "value": "aus"
+    },
+    {
+      "offset": 1692,
+      "source_start": [
+        21,
+        66
+      ],
+      "source_end": [
+        21,
+        71
+      ],
+      "table": "A",
+      "code": "31451",
+      "kind": "ordinary",
+      "value": "ser"
+    },
+    {
+      "offset": 1697,
+      "source_start": [
+        21,
+        73
+      ],
+      "source_end": [
+        21,
+        78
+      ],
+      "table": "A",
+      "code": "31462",
+      "kind": "ordinary",
+      "value": "ung"
+    },
+    {
+      "offset": 1702,
+      "source_start": [
+        21,
+        80
+      ],
+      "source_end": [
+        22,
+        2
+      ],
+      "table": "A",
+      "code": "31089",
+      "kind": "ordinary",
+      "value": "zu"
+    },
+    {
+      "offset": 1707,
+      "source_start": [
+        22,
+        4
+      ],
+      "source_end": [
+        22,
+        9
+      ],
+      "table": "A",
+      "code": "31184",
+      "kind": "ordinary",
+      "value": "ver"
+    },
+    {
+      "offset": 1712,
+      "source_start": [
+        22,
+        11
+      ],
+      "source_end": [
+        22,
+        11
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1713,
+      "source_start": [
+        22,
+        13
+      ],
+      "source_end": [
+        22,
+        18
+      ],
+      "table": "A",
+      "code": "31263",
+      "kind": "ordinary",
+      "value": "mög/lich"
+    },
+    {
+      "offset": 1718,
+      "source_start": [
+        22,
+        20
+      ],
+      "source_end": [
+        22,
+        20
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1719,
+      "source_start": [
+        22,
+        22
+      ],
+      "source_end": [
+        22,
+        22
+      ],
+      "table": "A",
+      "code": "8",
+      "kind": "null",
+      "value": ""
+    },
+    {
+      "offset": 1720,
+      "source_start": [
+        22,
+        23
+      ],
+      "source_end": [
+        22,
+        23
+      ],
+      "table": "A",
+      "code": "3",
+      "kind": "invalid",
+      "value": "{3}"
+    }
+  ]
+}

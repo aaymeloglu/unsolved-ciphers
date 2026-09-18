@@ -1,0 +1,1762 @@
+{
+  "status": "exhaustive minimum Levenshtein-distance structural alternatives up to two edits; no repairs accepted",
+  "limitations": "Fixed window endpoints; unmarked codes only; incomplete key cannot rank linguistic plausibility reliably.",
+  "windows": [
+    {
+      "label": "opening",
+      "table": "A",
+      "start": 2,
+      "end": 8,
+      "source": "331159",
+      "minimum_edits": 1,
+      "structurally_valid_candidates": 19,
+      "candidates": [
+        {
+          "digits": "31159",
+          "codes": [
+            "31159"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "so"
+          ]
+        },
+        {
+          "digits": "0331159",
+          "codes": [
+            "03",
+            "31159"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "ganz",
+            "so"
+          ]
+        },
+        {
+          "digits": "1331159",
+          "codes": [
+            "13",
+            "31159"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "armee",
+            "so"
+          ]
+        },
+        {
+          "digits": "4331159",
+          "codes": [
+            "43",
+            "31159"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "mittelst",
+            "so"
+          ]
+        },
+        {
+          "digits": "5331159",
+          "codes": [
+            "53",
+            "31159"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "re",
+            "so"
+          ]
+        },
+        {
+          "digits": "6331159",
+          "codes": [
+            "63",
+            "31159"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "bald",
+            "so"
+          ]
+        },
+        {
+          "digits": "7331159",
+          "codes": [
+            "73",
+            "31159"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "so"
+          ]
+        },
+        {
+          "digits": "831159",
+          "codes": [
+            "8",
+            "31159"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "∅",
+            "so"
+          ]
+        },
+        {
+          "digits": "9331159",
+          "codes": [
+            "93",
+            "31159"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "hab",
+            "so"
+          ]
+        },
+        {
+          "digits": "031159",
+          "codes": [
+            "03",
+            "11",
+            "59"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "ganz",
+            "französisch",
+            "ren"
+          ]
+        },
+        {
+          "digits": "131159",
+          "codes": [
+            "13",
+            "11",
+            "59"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "armee",
+            "französisch",
+            "ren"
+          ]
+        },
+        {
+          "digits": "431159",
+          "codes": [
+            "43",
+            "11",
+            "59"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "mittelst",
+            "französisch",
+            "ren"
+          ]
+        },
+        {
+          "digits": "531159",
+          "codes": [
+            "53",
+            "11",
+            "59"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "re",
+            "französisch",
+            "ren"
+          ]
+        },
+        {
+          "digits": "631159",
+          "codes": [
+            "63",
+            "11",
+            "59"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "bald",
+            "französisch",
+            "ren"
+          ]
+        },
+        {
+          "digits": "731159",
+          "codes": [
+            "73",
+            "11",
+            "59"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "ren"
+          ]
+        },
+        {
+          "digits": "931159",
+          "codes": [
+            "93",
+            "11",
+            "59"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "hab",
+            "französisch",
+            "ren"
+          ]
+        },
+        {
+          "digits": "2331159",
+          "codes": [
+            "23",
+            "31159"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "?",
+            "so"
+          ]
+        },
+        {
+          "digits": "3131159",
+          "codes": [
+            "31311",
+            "59"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "?",
+            "ren"
+          ]
+        },
+        {
+          "digits": "231159",
+          "codes": [
+            "23",
+            "11",
+            "59"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "?",
+            "französisch",
+            "ren"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "invalid vorsichtig unit",
+      "table": "A",
+      "start": 325,
+      "end": 330,
+      "source": "30073",
+      "minimum_edits": 1,
+      "structurally_valid_candidates": 11,
+      "candidates": [
+        {
+          "digits": "31073",
+          "codes": [
+            "31073"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "sich"
+          ]
+        },
+        {
+          "digits": "0073",
+          "codes": [
+            "00",
+            "73"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "das",
+            "nach"
+          ]
+        },
+        {
+          "digits": "030073",
+          "codes": [
+            "03",
+            "00",
+            "73"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "ganz",
+            "das",
+            "nach"
+          ]
+        },
+        {
+          "digits": "130073",
+          "codes": [
+            "13",
+            "00",
+            "73"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "armee",
+            "das",
+            "nach"
+          ]
+        },
+        {
+          "digits": "430073",
+          "codes": [
+            "43",
+            "00",
+            "73"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "mittelst",
+            "das",
+            "nach"
+          ]
+        },
+        {
+          "digits": "530073",
+          "codes": [
+            "53",
+            "00",
+            "73"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "re",
+            "das",
+            "nach"
+          ]
+        },
+        {
+          "digits": "630073",
+          "codes": [
+            "63",
+            "00",
+            "73"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "bald",
+            "das",
+            "nach"
+          ]
+        },
+        {
+          "digits": "730073",
+          "codes": [
+            "73",
+            "00",
+            "73"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "das",
+            "nach"
+          ]
+        },
+        {
+          "digits": "80073",
+          "codes": [
+            "8",
+            "00",
+            "73"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "∅",
+            "das",
+            "nach"
+          ]
+        },
+        {
+          "digits": "930073",
+          "codes": [
+            "93",
+            "00",
+            "73"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "hab",
+            "das",
+            "nach"
+          ]
+        },
+        {
+          "digits": "230073",
+          "codes": [
+            "23",
+            "00",
+            "73"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "?",
+            "das",
+            "nach"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Spanish court",
+      "table": "A",
+      "start": 443,
+      "end": 465,
+      "source": "7311973313943138031216",
+      "minimum_edits": 1,
+      "structurally_valid_candidates": 58,
+      "candidates": [
+        {
+          "digits": "731173313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "731193313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "93",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "hab",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "731197313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73110973313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "09",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "declara/tion",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73115973313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "59",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "ren",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73116973313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "69",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "als",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "7311873313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "8",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "∅",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119073313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "90",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "r",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119373313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "93",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "hab",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119473313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "94",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "interess",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119573313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "95",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "n",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119703313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "03",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "ganz",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119713313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "13",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "armee",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119743313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "43",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "mittelst",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119753313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "53",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "re",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119763313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "63",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "bald",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119773313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "7311978313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "8",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "∅",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119793313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "93",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "hab",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119973313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "99",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "man",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "7311970313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "03",
+            "13",
+            "94",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "ganz",
+            "armee",
+            "interess",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "7311971313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "13",
+            "13",
+            "94",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "armee",
+            "armee",
+            "interess",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "7311974313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "43",
+            "13",
+            "94",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "mittelst",
+            "armee",
+            "interess",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "7311975313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "53",
+            "13",
+            "94",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "re",
+            "armee",
+            "interess",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "7311976313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "63",
+            "13",
+            "94",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "bald",
+            "armee",
+            "interess",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "7311977313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "73",
+            "13",
+            "94",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "nach",
+            "armee",
+            "interess",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "7311979313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "93",
+            "13",
+            "94",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 0,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "hab",
+            "armee",
+            "interess",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "731973313943138031216",
+          "codes": [
+            "73",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73011973313943138031216",
+          "codes": [
+            "73",
+            "01",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "die",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73111973313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73112973313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "29",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73114973313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "49",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73117973313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "79",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119173313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "91",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119273313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "92",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119673313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "96",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119723313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "23",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "?",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119731313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "31313",
+            "94",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "?",
+            "interess",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73119873313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "98",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73121973313943138031216",
+          "codes": [
+            "73",
+            "12",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "unterstütz",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73131973313943138031216",
+          "codes": [
+            "73",
+            "13",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "armee",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73141973313943138031216",
+          "codes": [
+            "73",
+            "14",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "garan",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73161973313943138031216",
+          "codes": [
+            "73",
+            "16",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "A",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73171973313943138031216",
+          "codes": [
+            "73",
+            "17",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "Grossvezier",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73211973313943138031216",
+          "codes": [
+            "73",
+            "21",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "oder",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73411973313943138031216",
+          "codes": [
+            "73",
+            "41",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "Subsidien-tractat",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "7381973313943138031216",
+          "codes": [
+            "73",
+            "8",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "∅",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "7311972313943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "23",
+            "13",
+            "94",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "?",
+            "armee",
+            "interess",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "7311973113943138031216",
+          "codes": [
+            "73",
+            "11",
+            "97",
+            "31139",
+            "43",
+            "13",
+            "8",
+            "03",
+            "12",
+            "16"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "nach",
+            "französisch",
+            "religion",
+            "?",
+            "mittelst",
+            "armee",
+            "∅",
+            "ganz",
+            "unterstütz",
+            "A"
+          ]
+        },
+        {
+          "digits": "711973313943138031216",
+          "codes": [
+            "71",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 2,
+          "provisional_roots": [
+            "?",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73101973313943138031216",
+          "codes": [
+            "73",
+            "10",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 2,
+          "provisional_roots": [
+            "nach",
+            "?",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73151973313943138031216",
+          "codes": [
+            "73",
+            "15",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 2,
+          "provisional_roots": [
+            "nach",
+            "?",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73181973313943138031216",
+          "codes": [
+            "73",
+            "18",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 2,
+          "provisional_roots": [
+            "nach",
+            "?",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73191973313943138031216",
+          "codes": [
+            "73",
+            "19",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 2,
+          "provisional_roots": [
+            "nach",
+            "?",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73511973313943138031216",
+          "codes": [
+            "73",
+            "51",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 2,
+          "provisional_roots": [
+            "nach",
+            "?",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73611973313943138031216",
+          "codes": [
+            "73",
+            "61",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 2,
+          "provisional_roots": [
+            "nach",
+            "?",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73711973313943138031216",
+          "codes": [
+            "73",
+            "71",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 2,
+          "provisional_roots": [
+            "nach",
+            "?",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        },
+        {
+          "digits": "73911973313943138031216",
+          "codes": [
+            "73",
+            "91",
+            "19",
+            "73",
+            "31394",
+            "31380",
+            "31216"
+          ],
+          "unknown_entries": 2,
+          "provisional_roots": [
+            "nach",
+            "?",
+            "?",
+            "nach",
+            "zu/zeig",
+            "solch",
+            "resolution"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "four consecutive threes",
+      "table": "B",
+      "start": 793,
+      "end": 806,
+      "source": "3333112631272",
+      "minimum_edits": 1,
+      "structurally_valid_candidates": 2,
+      "candidates": [
+        {
+          "digits": "31333112631272",
+          "codes": [
+            "31333",
+            "11",
+            "26",
+            "31272"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "?",
+            "da",
+            "dies",
+            "n"
+          ]
+        },
+        {
+          "digits": "3133112631272",
+          "codes": [
+            "31331",
+            "12",
+            "63",
+            "12",
+            "72"
+          ],
+          "unknown_entries": 1,
+          "provisional_roots": [
+            "?",
+            "daß",
+            "genau",
+            "daß",
+            "qua"
+          ]
+        }
+      ]
+    }
+  ]
+}

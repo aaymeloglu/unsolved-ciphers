@@ -1,0 +1,141 @@
+{
+  "status": "Selective inventory, not a complete key edition. Superscript alternatives are preserved separately from baseline roots.",
+  "entries": [
+    {
+      "table": "A",
+      "code": "31115",
+      "base": "ge",
+      "alternative": "gege?",
+      "confidence": "provisional",
+      "sources": [
+        "R1698 P1 numerical",
+        "R1695 P8 numerical",
+        "R1695 P7 G"
+      ],
+      "effect": "Conditional shorter entgegensehe repair; see repair_cases.py. Exact last letter not settled."
+    },
+    {
+      "table": "A",
+      "code": "31033",
+      "base": "ge",
+      "alternative": "longer gege-like form",
+      "confidence": "provisional",
+      "sources": [
+        "R1698 P1 numerical"
+      ],
+      "effect": "No new target reading accepted."
+    },
+    {
+      "table": "A",
+      "code": "31121",
+      "base": "ich",
+      "alternative": "ending indicated after root",
+      "confidence": "ending not fully transcribed",
+      "sources": [
+        "R1698 P1 numerical"
+      ],
+      "effect": "Inflection expansion remains editorial; do not count as a digit repair."
+    },
+    {
+      "table": "A",
+      "code": "31210",
+      "base": "mer (one selected form)",
+      "alternative": "me with alternative endings",
+      "confidence": "partial inventory",
+      "sources": [
+        "R1698 P1 numerical",
+        "R1695 P7 alphabetical M"
+      ],
+      "effect": "Existing mer interpretations in immer/nunmehro remain compatible."
+    },
+    {
+      "table": "A",
+      "code": "31348",
+      "base": "ste",
+      "alternative": "multiple ending letters written beside ste",
+      "confidence": "partial inventory",
+      "sources": [
+        "R1698 P1 numerical"
+      ],
+      "effect": "ge+fa+ste may admit gefasste as an inflected key reading."
+    },
+    {
+      "table": "A",
+      "code": "31453",
+      "base": "u",
+      "alternatives": [
+        "uc",
+        "uck",
+        "Mgr Migazzi"
+      ],
+      "confidence": "source-supported",
+      "sources": [
+        "R1698 P1 numerical"
+      ],
+      "effect": "Explains independent1756 gl+uck+lich; proper-name-only transcript was incomplete."
+    },
+    {
+      "table": "A",
+      "code": "31484",
+      "base": "wei",
+      "alternative": "t and second s-like alternative",
+      "confidence": "weit source-supported; exact second alternative provisional",
+      "sources": [
+        "R1698 P1 numerical",
+        "R1695 P7 alphabetical W"
+      ],
+      "effect": "Closing weit+er+en requires no added ciphertext t. Baseline root kept wei."
+    },
+    {
+      "table": "A",
+      "code": "31427",
+      "base": "lan/lang/lau?",
+      "alternative": "g beneath the base; pf proper-letter alternative",
+      "confidence": "provisional",
+      "sources": [
+        "R1698 P1 numerical",
+        "R1695 P8 numerical",
+        "R1695 alphabetical L"
+      ],
+      "effect": "Verlangen plausible, not established."
+    },
+    {
+      "table": "B",
+      "code": "31183",
+      "base": "no",
+      "alternative": "Farinelli",
+      "confidence": "source-supported",
+      "sources": [
+        "R1698 P3 numerical"
+      ],
+      "effect": "No je alternate found to repair the sentence before EuerHochgebohrn."
+    },
+    {
+      "table": "B",
+      "code": "31405",
+      "base": "berg",
+      "alternative": "letter layout still potentially ambiguous",
+      "confidence": "no bereit alternate established",
+      "sources": [
+        "R1698 P3 numerical",
+        "R1695 alphabetical B"
+      ],
+      "effect": "Do not silently label bereit decoded."
+    },
+    {
+      "table": "A",
+      "code": "31004",
+      "base": "fried",
+      "alternatives": [
+        "Frieden",
+        "friedsame"
+      ],
+      "confidence": "source-supported",
+      "sources": [
+        "R1695 P6 alphabetical F",
+        "R1698 P1 and R1695 P8 numerical31004"
+      ],
+      "effect": "Supersedes fremd and retires target-specific Frieden override."
+    }
+  ]
+}

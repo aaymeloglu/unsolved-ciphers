@@ -1,0 +1,76 @@
+{
+  "status": "Unchanged-digit cross-context check of A31210 me/mer/men",
+  "source": "R1695P7 alphabetical M plus R1698P1 numerical31210; interpreted forms recorded in target-wide-key-audit.json",
+  "limitation": "This checks an explicitly read key alternative; not a global plaintext accuracy score.",
+  "words": [
+    {
+      "word": "nunmehro",
+      "hits": [
+        {
+          "start": 373,
+          "end": 393,
+          "codes": [
+            "31078",
+            "31210",
+            "31116",
+            "31428"
+          ],
+          "selected_roots": [
+            "nun",
+            "me",
+            "h",
+            "ro"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "immer",
+      "hits": [
+        {
+          "start": 393,
+          "end": 403,
+          "codes": [
+            "31170",
+            "31210"
+          ],
+          "selected_roots": [
+            "im",
+            "mer"
+          ]
+        },
+        {
+          "start": 1580,
+          "end": 1590,
+          "codes": [
+            "31170",
+            "31210"
+          ],
+          "selected_roots": [
+            "im",
+            "mer"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "benehmen",
+      "hits": [
+        {
+          "start": 1635,
+          "end": 1651,
+          "codes": [
+            "31060",
+            "31247",
+            "31210"
+          ],
+          "selected_roots": [
+            "ben",
+            "eh",
+            "men"
+          ]
+        }
+      ]
+    }
+  ]
+}

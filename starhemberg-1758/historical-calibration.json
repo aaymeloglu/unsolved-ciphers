@@ -1,0 +1,248 @@
+{
+  "status": "Exact historical code-boundary and table-switch agreement",
+  "digits": 202,
+  "units": 74,
+  "ordinary_occurrences": 34,
+  "shared_working_key_occurrences": 27,
+  "comparison": [
+    {
+      "table": "A",
+      "code": "31126",
+      "interlinear": "in",
+      "working_key": "in",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31397",
+      "interlinear": "meinem",
+      "working_key": "mein",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31338",
+      "interlinear": "letzten",
+      "working_key": "letzt",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31281",
+      "interlinear": "von",
+      "working_key": "von",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31405",
+      "interlinear": "dies",
+      "working_key": "dies",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "93",
+      "interlinear": "habe",
+      "working_key": "hab",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31047",
+      "interlinear": "den",
+      "working_key": "den",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31395",
+      "interlinear": "to",
+      "working_key": "to",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31186",
+      "interlinear": "d",
+      "working_key": "{31186}",
+      "in_working_key": false
+    },
+    {
+      "table": "A",
+      "code": "31284",
+      "interlinear": "fall",
+      "working_key": "{31284}",
+      "in_working_key": false
+    },
+    {
+      "table": "A",
+      "code": "52",
+      "interlinear": "des",
+      "working_key": "des/den",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31189",
+      "interlinear": "König/Königin",
+      "working_key": "{31189}",
+      "in_working_key": false
+    },
+    {
+      "table": "A",
+      "code": "31368",
+      "interlinear": "s",
+      "working_key": "s",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "30000",
+      "interlinear": "und",
+      "working_key": "und",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "00",
+      "interlinear": "daß",
+      "working_key": "das",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "01",
+      "interlinear": "die",
+      "working_key": "die",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31189",
+      "interlinear": "König/Königin",
+      "working_key": "{31189}",
+      "in_working_key": false
+    },
+    {
+      "table": "A",
+      "code": "31073",
+      "interlinear": "sich",
+      "working_key": "sich",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31056",
+      "interlinear": "auf",
+      "working_key": "{31056}",
+      "in_working_key": false
+    },
+    {
+      "table": "A",
+      "code": "31112",
+      "interlinear": "ein",
+      "working_key": "ein",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "24",
+      "interlinear": "lu",
+      "working_key": "{24}",
+      "in_working_key": false
+    },
+    {
+      "table": "A",
+      "code": "31075",
+      "interlinear": "st",
+      "working_key": "st",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31098",
+      "interlinear": "Schloß",
+      "working_key": "{31098}",
+      "in_working_key": false
+    },
+    {
+      "table": "A",
+      "code": "31211",
+      "interlinear": "be",
+      "working_key": "be",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31333",
+      "interlinear": "geben",
+      "working_key": "geben",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31318",
+      "interlinear": "ein",
+      "working_key": "ein",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31325",
+      "interlinear": "ber",
+      "working_key": "ber",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31420",
+      "interlinear": "ich",
+      "working_key": "ich",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31262",
+      "interlinear": "tet",
+      "working_key": "te",
+      "in_working_key": true
+    },
+    {
+      "table": "A",
+      "code": "31130",
+      "interlinear": "in",
+      "working_key": "in",
+      "in_working_key": true
+    },
+    {
+      "table": "B",
+      "code": "31218",
+      "interlinear": "gl",
+      "working_key": "gl",
+      "in_working_key": true
+    },
+    {
+      "table": "B",
+      "code": "65",
+      "interlinear": "e",
+      "working_key": "e",
+      "in_working_key": true
+    },
+    {
+      "table": "B",
+      "code": "30000",
+      "interlinear": "ich",
+      "working_key": "ich",
+      "in_working_key": true
+    },
+    {
+      "table": "B",
+      "code": "31275",
+      "interlinear": "en",
+      "working_key": "en",
+      "in_working_key": true
+    }
+  ],
+  "limitations": "Root comparison is for human review, not an automatic paleographic accuracy score; inflections and some control-only entries differ."
+}

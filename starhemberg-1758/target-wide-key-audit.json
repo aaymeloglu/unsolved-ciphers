@@ -1,0 +1,3055 @@
+{
+  "status": "Target-wide numerical-key audit; exact reading and expansion limits retained per entry",
+  "distinct_target_entries": 239,
+  "entries_with_interpreted_forms": 91,
+  "entries_with_unresolved_notes": 18,
+  "limitations": [
+    "All239distinct ordinary target entries were checked in the numerical-column pass. This is coverage, not an accuracy percentage.",
+    "Rows in malformed source spans are included; an ordinary-width parse does not prove the resulting code was intended.",
+    "Whole proper-name alternatives not relevant to target prose are not exhaustively transcribed.",
+    "Base roots and all baseline ciphertext are unchanged by this artifact.",
+    "Editorial forms must not automatically certify a repaired phrase."
+  ],
+  "entries": [
+    {
+      "table": "A",
+      "code": "00",
+      "working_root": "das",
+      "offsets": [
+        112
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "das",
+        "daß"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "01",
+      "working_root": "die",
+      "offsets": [
+        171,
+        486,
+        547
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "03",
+      "working_root": "ganz",
+      "offsets": [
+        459
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "ganz",
+        "gänzlich"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "11",
+      "working_root": "französisch",
+      "offsets": [
+        445,
+        624,
+        1369,
+        1375
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "unresolved_note": "Franz/French-related whole-word entry; exact expansion not fully settled; only used in malformed spans."
+    },
+    {
+      "table": "A",
+      "code": "12",
+      "working_root": "unterstütz",
+      "offsets": [
+        9,
+        461
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "unterstütz",
+        "unterstützen",
+        "unterstützung"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "13",
+      "working_root": "armee",
+      "offsets": [
+        456,
+        628
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "armee",
+        "armeen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "16",
+      "working_root": "A",
+      "offsets": [
+        463
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "17",
+      "working_root": "Grossvezier",
+      "offsets": [
+        11
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "21",
+      "working_root": "oder",
+      "offsets": [
+        592
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "22",
+      "working_root": "secret",
+      "offsets": [
+        200
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "secret",
+        "secretair",
+        "secretarius"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "28",
+      "working_root": "{28}",
+      "offsets": [
+        630
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "unresolved_note": "No entry28 in numerical short-code list; occurs inside damaged recto/verso join."
+    },
+    {
+      "table": "A",
+      "code": "43",
+      "working_root": "mittelst",
+      "offsets": [
+        454
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "52",
+      "working_root": "des/den",
+      "offsets": [
+        1401
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "des",
+        "den"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "53",
+      "working_root": "re",
+      "offsets": [
+        1373
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "54",
+      "working_root": "für/sten",
+      "offsets": [
+        1377
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "fürst",
+        "fürsten"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "59",
+      "working_root": "ren",
+      "offsets": [
+        1371
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "unresolved_note": "Ending/root not securely read in this pass; inside damaged closing."
+    },
+    {
+      "table": "A",
+      "code": "62",
+      "working_root": "t",
+      "offsets": [
+        316,
+        493,
+        580,
+        1367,
+        1462
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "66",
+      "working_root": "e",
+      "offsets": [
+        248
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "69",
+      "working_root": "als",
+      "offsets": [
+        18,
+        318,
+        545,
+        1440
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "70",
+      "working_root": "durch",
+      "offsets": [
+        173,
+        1596
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "73",
+      "working_root": "nach",
+      "offsets": [
+        443
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "90",
+      "working_root": "r",
+      "offsets": [
+        1515
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "93",
+      "working_root": "hab",
+      "offsets": [
+        7,
+        626
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "hab",
+        "habe",
+        "haben"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "95",
+      "working_root": "n",
+      "offsets": [
+        40,
+        633,
+        650
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "97",
+      "working_root": "religion",
+      "offsets": [
+        447
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "99",
+      "working_root": "man",
+      "offsets": [
+        97,
+        335,
+        1608
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "30000",
+      "working_root": "und",
+      "offsets": [
+        423,
+        1543
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31000",
+      "working_root": "ab",
+      "offsets": [
+        640
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31004",
+      "working_root": "fried",
+      "offsets": [
+        652
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "fried",
+        "frieden",
+        "friedsame"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31005",
+      "working_root": "an",
+      "offsets": [
+        135
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31019",
+      "working_root": "noch",
+      "offsets": [
+        140
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31027",
+      "working_root": "at",
+      "offsets": [
+        190
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31033",
+      "working_root": "ge",
+      "offsets": [
+        57,
+        145,
+        295
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "unresolved_note": "ge plus longer gege/gegn-like alternative; exact ending unresolved."
+    },
+    {
+      "table": "A",
+      "code": "31036",
+      "working_root": "Krieg",
+      "offsets": [
+        505
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "krieg",
+        "kriegs"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31041",
+      "working_root": "ist",
+      "offsets": [
+        582
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31047",
+      "working_root": "den",
+      "offsets": [
+        30,
+        72,
+        1548
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "den",
+        "dem"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31058",
+      "working_root": "en",
+      "offsets": [
+        465,
+        1495,
+        1682
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31060",
+      "working_root": "ben",
+      "offsets": [
+        1635
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31061",
+      "working_root": "er",
+      "offsets": [
+        604
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31062",
+      "working_root": "ei",
+      "offsets": [
+        1457
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31075",
+      "working_root": "st",
+      "offsets": [
+        185,
+        570
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31078",
+      "working_root": "nun",
+      "offsets": [
+        25,
+        92,
+        373
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "nu",
+        "nun"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31079",
+      "working_root": "i",
+      "offsets": [
+        305
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31080",
+      "working_root": "mach",
+      "offsets": [
+        99
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "mach",
+        "machen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31084",
+      "working_root": "mo",
+      "offsets": [
+        280
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31085",
+      "working_root": "ren",
+      "offsets": [
+        1538
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31089",
+      "working_root": "zu",
+      "offsets": [
+        408,
+        470,
+        1702
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "zu",
+        "zeige"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31099",
+      "working_root": "o",
+      "offsets": [
+        125,
+        202,
+        1603
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31101",
+      "working_root": "be",
+      "offsets": [
+        1409
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31106",
+      "working_root": "der",
+      "offsets": [
+        549,
+        1598
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "der",
+        "dem"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31109",
+      "working_root": "der",
+      "offsets": [
+        47,
+        120
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "der",
+        "dem"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31112",
+      "working_root": "ein",
+      "offsets": [
+        1469
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "ein",
+        "einer",
+        "einen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31113",
+      "working_root": "en",
+      "offsets": [
+        161,
+        1362
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31115",
+      "working_root": "ge",
+      "offsets": [
+        260,
+        343,
+        565,
+        1474
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "unresolved_note": "ge plus longer gege/gegn-like alternative; two-digit entgegensehe repair remains conditional."
+    },
+    {
+      "table": "A",
+      "code": "31116",
+      "working_root": "h",
+      "offsets": [
+        383,
+        1533
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31119",
+      "working_root": "i",
+      "offsets": [
+        353,
+        1615
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31121",
+      "working_root": "ich",
+      "offsets": [
+        255,
+        535
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "unresolved_note": "ich plus ending letter; exact expansion inventory incomplete."
+    },
+    {
+      "table": "A",
+      "code": "31122",
+      "working_root": "me",
+      "offsets": [
+        275
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31126",
+      "working_root": "in",
+      "offsets": [
+        35
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31127",
+      "working_root": "la",
+      "offsets": [
+        1485
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31130",
+      "working_root": "in",
+      "offsets": [
+        1396,
+        1442
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31136",
+      "working_root": "l",
+      "offsets": [
+        212,
+        1559
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31149",
+      "working_root": "sehr",
+      "offsets": [
+        238
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31154",
+      "working_root": "s",
+      "offsets": [
+        1464
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31158",
+      "working_root": "fa",
+      "offsets": [
+        265,
+        1528
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31163",
+      "working_root": "weder",
+      "offsets": [
+        495
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "weder"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31164",
+      "working_root": "te",
+      "offsets": [
+        358
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "te",
+        "ter",
+        "ten"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31168",
+      "working_root": "u",
+      "offsets": [
+        195,
+        525,
+        1414
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31169",
+      "working_root": "le",
+      "offsets": [
+        348,
+        645
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31170",
+      "working_root": "im",
+      "offsets": [
+        393,
+        1580
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31171",
+      "working_root": "ver?",
+      "offsets": [
+        476
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "unresolved_note": "ver-like root; retain previous question mark."
+    },
+    {
+      "table": "A",
+      "code": "31181",
+      "working_root": "werden",
+      "offsets": [
+        166
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "werde",
+        "werden"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31184",
+      "working_root": "ver",
+      "offsets": [
+        515,
+        657,
+        1672,
+        1707
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31191",
+      "working_root": "groß",
+      "offsets": [
+        82
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "groß",
+        "große",
+        "großen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31208",
+      "working_root": "mahl",
+      "offsets": [
+        554
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31210",
+      "working_root": "mer",
+      "offsets": [
+        378,
+        398,
+        1585,
+        1646
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "me",
+        "mer",
+        "men"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31211",
+      "working_root": "be",
+      "offsets": [
+        115,
+        217,
+        413
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31214",
+      "working_root": "lich",
+      "offsets": [
+        13,
+        619
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "lich",
+        "licher",
+        "lichen",
+        "liches"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31218",
+      "working_root": "nur",
+      "offsets": [
+        1575
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31222",
+      "working_root": "spr",
+      "offsets": [
+        609
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "unresolved_note": "spr/sp root remains difficult; ersprießlich uses editorial expansion."
+    },
+    {
+      "table": "A",
+      "code": "31223",
+      "working_root": "ng",
+      "offsets": [
+        156
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31226",
+      "working_root": "selb",
+      "offsets": [
+        52,
+        130
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "selb",
+        "selber",
+        "selben",
+        "selbst"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31228",
+      "working_root": "ig",
+      "offsets": [
+        227,
+        559
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "ig",
+        "iger",
+        "igen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31240",
+      "working_root": "en",
+      "offsets": [
+        488,
+        1357,
+        1667
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "en"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31247",
+      "working_root": "eh",
+      "offsets": [
+        1379,
+        1641
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31257",
+      "working_root": "t",
+      "offsets": [
+        1517
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31262",
+      "working_root": "te",
+      "offsets": [
+        233,
+        363,
+        1625
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "te",
+        "ter",
+        "ten",
+        "tet"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31263",
+      "working_root": "mög/lich",
+      "offsets": [
+        481,
+        1591,
+        1713
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "mög",
+        "mögen",
+        "möglich"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31264",
+      "working_root": "brauch",
+      "offsets": [
+        1391
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "brauch",
+        "brauchen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31265",
+      "working_root": "n",
+      "offsets": [
+        67
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31268",
+      "working_root": "mir",
+      "offsets": [
+        104
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31271",
+      "working_root": "sch",
+      "offsets": [
+        300,
+        1480,
+        1610
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31272",
+      "working_root": "nicht",
+      "offsets": [
+        1403
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31287",
+      "working_root": "vor",
+      "offsets": [
+        320
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31293",
+      "working_root": "dem",
+      "offsets": [
+        180,
+        428,
+        500,
+        1447
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31303",
+      "working_root": "uns",
+      "offsets": [
+        594
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31306",
+      "working_root": "hoff",
+      "offsets": [
+        87,
+        438
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31312",
+      "working_root": "das",
+      "offsets": [
+        175
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31314",
+      "working_root": "fo",
+      "offsets": [
+        1510
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31315",
+      "working_root": "ck",
+      "offsets": [
+        310,
+        1620
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31318",
+      "working_root": "ein",
+      "offsets": [
+        337,
+        510,
+        599,
+        1430
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "ein",
+        "einer",
+        "einen",
+        "eines"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31325",
+      "working_root": "ber",
+      "offsets": [
+        1452
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "ber",
+        "berg"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31326",
+      "working_root": "aus",
+      "offsets": [
+        1687
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31333",
+      "working_root": "geben",
+      "offsets": [
+        587
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "geb",
+        "geben"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31334",
+      "working_root": "li",
+      "offsets": [
+        151
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31342",
+      "working_root": "gen",
+      "offsets": [
+        1490
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31346",
+      "working_root": "or",
+      "offsets": [
+        635
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31348",
+      "working_root": "ste",
+      "offsets": [
+        270
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "ste",
+        "ster",
+        "sten",
+        "stes"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31350",
+      "working_root": "gl",
+      "offsets": [
+        530
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "gl"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31359",
+      "working_root": "al",
+      "offsets": [
+        575
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31364",
+      "working_root": "fl",
+      "offsets": [
+        250
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31372",
+      "working_root": "gn",
+      "offsets": [
+        520
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31382",
+      "working_root": "halt",
+      "offsets": [
+        42,
+        418
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "halt",
+        "halten"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31383",
+      "working_root": "off",
+      "offsets": [
+        403
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "off",
+        "offen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31391",
+      "working_root": "we?",
+      "offsets": [
+        1500
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "unresolved_note": "we-like root; supports Weeg with followingeg, exact letter form remains provisional."
+    },
+    {
+      "table": "A",
+      "code": "31394",
+      "working_root": "zu/zeig",
+      "offsets": [
+        1523,
+        1651
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "zu",
+        "zeige"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31399",
+      "working_root": "ti",
+      "offsets": [
+        330
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31406",
+      "working_root": "eg",
+      "offsets": [
+        1505
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31408",
+      "working_root": "hand",
+      "offsets": [
+        222,
+        368
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "hand",
+        "handlung"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31413",
+      "working_root": "er",
+      "offsets": [
+        1419,
+        1662
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31420",
+      "working_root": "ich",
+      "offsets": [
+        20
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31424",
+      "working_root": "rath",
+      "offsets": [
+        1435
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "rath",
+        "rathen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31427",
+      "working_root": "lan/lang/lau?",
+      "offsets": [
+        1352
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "unresolved_note": "lan/lang/lau alternative, with g below; not certified."
+    },
+    {
+      "table": "A",
+      "code": "31428",
+      "working_root": "ro",
+      "offsets": [
+        388
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31429",
+      "working_root": "es",
+      "offsets": [
+        1425
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31433",
+      "working_root": "ir",
+      "offsets": [
+        285
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "ir",
+        "irr"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31438",
+      "working_root": "tr",
+      "offsets": [
+        243
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31443",
+      "working_root": "so",
+      "offsets": [
+        77,
+        290,
+        1386,
+        1565
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31447",
+      "working_root": "s",
+      "offsets": [
+        614,
+        1630
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31451",
+      "working_root": "ser",
+      "offsets": [
+        1692
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31452",
+      "working_root": "fu",
+      "offsets": [
+        62
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31462",
+      "working_root": "ung",
+      "offsets": [
+        1697
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "ung",
+        "ungen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31466",
+      "working_root": "wa",
+      "offsets": [
+        207,
+        1554
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "A",
+      "code": "31471",
+      "working_root": "Spanien",
+      "offsets": [
+        433
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "Spanien",
+        "spanisch"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31484",
+      "working_root": "wei",
+      "offsets": [
+        1656
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "wei",
+        "weit"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31490",
+      "working_root": "re",
+      "offsets": [
+        540
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "re"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31492",
+      "working_root": "viel",
+      "offsets": [
+        1570
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1",
+      "interpreted_forms": [
+        "viel",
+        "viele",
+        "vielen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "A",
+      "code": "31500",
+      "working_root": "trau",
+      "offsets": [
+        1677
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7484 P1"
+    },
+    {
+      "table": "B",
+      "code": "00",
+      "working_root": "und",
+      "offsets": [
+        678,
+        712,
+        776,
+        1125
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "02",
+      "working_root": "ch",
+      "offsets": [
+        859
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "ch",
+        "chen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "03",
+      "working_root": "gemäß",
+      "offsets": [
+        708
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "unresolved_note": "Whole-word root remains difficult; occurs inside damaged central join."
+    },
+    {
+      "table": "B",
+      "code": "06",
+      "working_root": "da",
+      "offsets": [
+        1083
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "09",
+      "working_root": "würde",
+      "offsets": [
+        1000,
+        1218
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "würde",
+        "würden"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "11",
+      "working_root": "da",
+      "offsets": [
+        1223
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "12",
+      "working_root": "daß",
+      "offsets": [
+        798,
+        802,
+        950
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "14",
+      "working_root": "zi",
+      "offsets": [
+        710,
+        1037,
+        1291
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "26",
+      "working_root": "dies",
+      "offsets": [
+        1090
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "dies",
+        "dieser",
+        "diesen",
+        "dieses"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "41",
+      "working_root": "hof",
+      "offsets": [
+        938,
+        1092,
+        1164
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "hof",
+        "höfe",
+        "höfen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "44",
+      "working_root": "an",
+      "offsets": [
+        983,
+        1094,
+        1127
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "53",
+      "working_root": "mahl",
+      "offsets": [
+        706
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "mahl",
+        "mahls",
+        "mahlen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription.",
+      "additional_evidence": "Alphabetical M between mach and man; comparison-letter damahligen, local digit ambiguity retained."
+    },
+    {
+      "table": "B",
+      "code": "54",
+      "working_root": "un",
+      "offsets": [
+        1044
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "un",
+        "um"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "55",
+      "working_root": "hand",
+      "offsets": [
+        1061,
+        1216
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "hand",
+        "handlung",
+        "handlungen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "63",
+      "working_root": "genau",
+      "offsets": [
+        800,
+        876
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "genau",
+        "genaulich"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "66",
+      "working_root": "me",
+      "offsets": [
+        1123
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "me",
+        "men",
+        "mer"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "72",
+      "working_root": "qua",
+      "offsets": [
+        804
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "74",
+      "working_root": "bo",
+      "offsets": [
+        816
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "94",
+      "working_root": "mit",
+      "offsets": [
+        1106,
+        1332
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "99",
+      "working_root": "er",
+      "offsets": [
+        945,
+        1298
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "30000",
+      "working_root": "ich",
+      "offsets": [
+        1225
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31006",
+      "working_root": "fo",
+      "offsets": [
+        893
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31010",
+      "working_root": "ge/gn/gen",
+      "offsets": [
+        725,
+        866
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "unresolved_note": "gn with longer gegn/gen-like alternative; selected ge in gemachten remains editorial."
+    },
+    {
+      "table": "B",
+      "code": "31014",
+      "working_root": "zeit",
+      "offsets": [
+        861
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "zeit",
+        "zeiten"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31016",
+      "working_root": "H",
+      "offsets": [
+        760,
+        1118,
+        1261
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31031",
+      "working_root": "mi",
+      "offsets": [
+        903,
+        962
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31033",
+      "working_root": "heit",
+      "offsets": [
+        1196
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31034",
+      "working_root": "i",
+      "offsets": [
+        1027
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "unresolved_note": "i and vowel/letter alternative(s); no independently verified ei reading."
+    },
+    {
+      "table": "B",
+      "code": "31042",
+      "working_root": "eb",
+      "offsets": [
+        685
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31057",
+      "working_root": "Euer",
+      "offsets": [
+        735,
+        1236
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31070",
+      "working_root": "fr/Bericht",
+      "offsets": [
+        1327
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "fr",
+        "bericht",
+        "berichte",
+        "berichten"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31073",
+      "working_root": "in",
+      "offsets": [
+        1166
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31075",
+      "working_root": "aus",
+      "offsets": [
+        913
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31087",
+      "working_root": "ho",
+      "offsets": [
+        740,
+        1241
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31089",
+      "working_root": "nu",
+      "offsets": [
+        940,
+        1231
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "nu",
+        "nun"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31090",
+      "working_root": "at",
+      "offsets": [
+        1310
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31091",
+      "working_root": "woll",
+      "offsets": [
+        1051
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31117",
+      "working_root": "geb",
+      "offsets": [
+        750,
+        1251
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "geb",
+        "gebe",
+        "geben"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31126",
+      "working_root": "gn/gen",
+      "offsets": [
+        908
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "unresolved_note": "gn with longer gegn/gen-like alternative; exact longer form not fully transcribed."
+    },
+    {
+      "table": "B",
+      "code": "31142",
+      "working_root": "scho",
+      "offsets": [
+        952
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "unresolved_note": "scho plus alternatives including n; schon is plausible, conditional connective not established."
+    },
+    {
+      "table": "B",
+      "code": "31144",
+      "working_root": "krieg",
+      "offsets": [
+        1101
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31151",
+      "working_root": "ge",
+      "offsets": [
+        1039,
+        1191
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "ge",
+        "gen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31157",
+      "working_root": "n",
+      "offsets": [
+        771,
+        957,
+        1144,
+        1271
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "n",
+        "nn"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31162",
+      "working_root": "schaff",
+      "offsets": [
+        665,
+        823
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "schaff",
+        "schaffen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31167",
+      "working_root": "und",
+      "offsets": [
+        1149
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31182",
+      "working_root": "französ",
+      "offsets": [
+        811
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "französ",
+        "französisch"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31183",
+      "working_root": "no",
+      "offsets": [
+        719,
+        967
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31201",
+      "working_root": "schluß",
+      "offsets": [
+        1068
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "schluß",
+        "schließ",
+        "schließen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31208",
+      "working_root": "übr",
+      "offsets": [
+        990
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "übr",
+        "über",
+        "übrigen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31210",
+      "working_root": "den",
+      "offsets": [
+        806,
+        1096,
+        1134,
+        1281,
+        1322
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "den",
+        "dem"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31218",
+      "working_root": "gl",
+      "offsets": [
+        849,
+        878
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31222",
+      "working_root": "m",
+      "offsets": [
+        1339
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "m",
+        "mm"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31225",
+      "working_root": "ser",
+      "offsets": [
+        918
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31228",
+      "working_root": "r",
+      "offsets": [
+        765
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "r",
+        "rr"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31238",
+      "working_root": "t",
+      "offsets": [
+        690,
+        818,
+        1063
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "t",
+        "tt"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31239",
+      "working_root": "Frankreich",
+      "offsets": [
+        1017
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31246",
+      "working_root": "se",
+      "offsets": [
+        1201
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31259",
+      "working_root": "t",
+      "offsets": [
+        1032
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "t",
+        "tt"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31264",
+      "working_root": "fa",
+      "offsets": [
+        834
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31272",
+      "working_root": "n",
+      "offsets": [
+        730,
+        1159
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "n",
+        "nn"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31274",
+      "working_root": "al",
+      "offsets": [
+        1078
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "al",
+        "all"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31278",
+      "working_root": "ca",
+      "offsets": [
+        978
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31280",
+      "working_root": "durch",
+      "offsets": [
+        1129,
+        1276
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31282",
+      "working_root": "t",
+      "offsets": [
+        1206
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "t",
+        "tt"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31286",
+      "working_root": "ch",
+      "offsets": [
+        745,
+        888,
+        1246
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31291",
+      "working_root": "ung",
+      "offsets": [
+        923
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "ung",
+        "ungen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31299",
+      "working_root": "ei",
+      "offsets": [
+        854,
+        883
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31300",
+      "working_root": "te/ten/ter",
+      "offsets": [
+        828,
+        1315
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "te",
+        "ter",
+        "ten"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31301",
+      "working_root": "könnte",
+      "offsets": [
+        670
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31304",
+      "working_root": "leicht",
+      "offsets": [
+        1056
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "leicht",
+        "leichter",
+        "leichten"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31306",
+      "working_root": "von",
+      "offsets": [
+        778
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31307",
+      "working_root": "n",
+      "offsets": [
+        1085,
+        1293
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "n",
+        "nn"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31315",
+      "working_root": "wa",
+      "offsets": [
+        788
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31320",
+      "working_root": "erst",
+      "offsets": [
+        1305
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "erst",
+        "ersten",
+        "erstlich"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31325",
+      "working_root": "mir",
+      "offsets": [
+        696
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31329",
+      "working_root": "bund/brud?",
+      "offsets": [
+        1046
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "unresolved_note": "Brud/bund-like whole word, not d; proposed31326 remains separate."
+    },
+    {
+      "table": "B",
+      "code": "31330",
+      "working_root": "le",
+      "offsets": [
+        1186
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31334",
+      "working_root": "r",
+      "offsets": [
+        898,
+        973,
+        1266
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "r",
+        "rr"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31342",
+      "working_root": "ver",
+      "offsets": [
+        1181,
+        1344
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31345",
+      "working_root": "Spanien",
+      "offsets": [
+        985
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "Spanien",
+        "spanisch"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31361",
+      "working_root": "laß",
+      "offsets": [
+        995
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "laß",
+        "lassen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31365",
+      "working_root": "sich",
+      "offsets": [
+        1012
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31377",
+      "working_root": "st",
+      "offsets": [
+        839
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31384",
+      "working_root": "gi",
+      "offsets": [
+        680
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31389",
+      "working_root": "ü",
+      "offsets": [
+        1139
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "u",
+        "ü"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31397",
+      "working_root": "Preuss",
+      "offsets": [
+        1154
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "Preuss",
+        "preussisch"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31403",
+      "working_root": "mach",
+      "offsets": [
+        871
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "mach",
+        "machen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31405",
+      "working_root": "berg",
+      "offsets": [
+        1022
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "unresolved_note": "berg in alphabeticalB, ambiguous compact numeric form. No independent bereit/ber alternative established."
+    },
+    {
+      "table": "B",
+      "code": "31408",
+      "working_root": "ne",
+      "offsets": [
+        1113
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "ne",
+        "ner",
+        "nen",
+        "nes"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31437",
+      "working_root": "wo",
+      "offsets": [
+        1002
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31448",
+      "working_root": "zu",
+      "offsets": [
+        844,
+        1300
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "zu",
+        "zeige"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31449",
+      "working_root": "groß",
+      "offsets": [
+        933,
+        1176
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "groß",
+        "größe",
+        "größer",
+        "großen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31455",
+      "working_root": "Courier",
+      "offsets": [
+        1286
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31456",
+      "working_root": "wird",
+      "offsets": [
+        1073
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31457",
+      "working_root": "viel",
+      "offsets": [
+        1334
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "viel",
+        "viele",
+        "vielen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31458",
+      "working_root": "theil",
+      "offsets": [
+        1108
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "theil",
+        "theilen"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31460",
+      "working_root": "den",
+      "offsets": [
+        714,
+        783
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "den",
+        "dem"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31466",
+      "working_root": "zu",
+      "offsets": [
+        701,
+        1007
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "zu",
+        "zeige"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31475",
+      "working_root": "z",
+      "offsets": [
+        1211
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "interpreted_forms": [
+        "z",
+        "tz"
+      ],
+      "form_qualification": "Editorial expansions of source-written alternatives; capitalization and inflection not diplomatic transcription."
+    },
+    {
+      "table": "B",
+      "code": "31498",
+      "working_root": "o",
+      "offsets": [
+        755,
+        1256
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3"
+    },
+    {
+      "table": "B",
+      "code": "31500",
+      "working_root": "seh[r]",
+      "offsets": [
+        928,
+        1171
+      ],
+      "inspection": "Numerical entry inspected in target-wide column pass; not full paleographic certification",
+      "source": "DECODE R1698 I7486 P3",
+      "unresolved_note": "seh[r]-like root; larger spelling still abbreviated."
+    }
+  ]
+}

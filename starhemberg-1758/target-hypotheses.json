@@ -1,0 +1,169 @@
+{
+  "status": "unverified hypotheses; never applied to source transcription",
+  "offset_convention": "zero-based digit offset in unchanged 1721-digit stream",
+  "mark_hypotheses": [
+    {
+      "original_offset": 108,
+      "original_group": "885",
+      "candidate_offset": 109,
+      "candidate_group": "854",
+      "reason": "Original middle-digit placement overlaps ordinary group 31268; candidate aligns a Prima comma. Applied explicitly by decode.py."
+    }
+  ],
+  "target_key_hypotheses": [
+    {
+      "code": "99",
+      "candidate": "g",
+      "tables": [
+        "A",
+        "B"
+      ],
+      "supporting_offsets": [
+        97,
+        335,
+        945,
+        1608
+      ],
+      "counterevidence": "Prima99 is man; Secunda99 is er. Secunda occurrence1298 fits er, so a global99→g substitution is contradicted. Remaining four occurrences could reflect target variation or a misread glyph.",
+      "excluded_occurrences": [
+        {
+          "offset": 1298,
+          "table": "B",
+          "retained_reading": "er",
+          "reason": "zi+n+er gives courier Zinner; independently attested imperial courier in Wille, journal 5 September1759, p120."
+        }
+      ]
+    }
+  ],
+  "digit_emendations": [
+    {
+      "offset": 2,
+      "from": "3",
+      "to": "",
+      "reason": "Extra leading 3 prevents 31159 + 31217 + 31214 from parsing. Opening adjective unresolved."
+    },
+    {
+      "offset": 195,
+      "from": "31168",
+      "to": "31368",
+      "reason": "s rather than u in Statssecretario; do not replace the valid u at offset 525."
+    },
+    {
+      "offset": 325,
+      "from": "30073",
+      "to": "31073",
+      "reason": "Invalid group; sich gives vorsichtig with separate 99 hypothesis."
+    },
+    {
+      "offset": 1414,
+      "from": "31168",
+      "to": "31368",
+      "reason": "s rather than u in beseres; historical spelling/doubling editorial."
+    },
+    {
+      "offset": 1046,
+      "from": "31329",
+      "to": "31326",
+      "reason": "un+d rather than un+unresolved whole word; one9→6 substitution. Conjectural."
+    },
+    {
+      "offset": 1061,
+      "from": "55",
+      "to": "95",
+      "reason": "en+t+schluß/schliess gives entschließen; same5→9 repair proposed independently at1216."
+    },
+    {
+      "offset": 1139,
+      "from": "31389",
+      "to": "31399",
+      "reason": "Engelland rather than U, paired with Preuss; one8→9 substitution. English adjective ending editorial."
+    },
+    {
+      "offset": 1216,
+      "from": "55",
+      "to": "95",
+      "reason": "se+t+z+en gives setzen; same5→9 repair proposed at1061."
+    }
+  ],
+  "unresolved_runs": [
+    {
+      "start": 443,
+      "end": 465,
+      "note": "Possible extraneous 7 and 3 before zu solchen Resolutionen; not accepted."
+    },
+    {
+      "start": 624,
+      "end": 633,
+      "note": "Recto/verso boundary disrupts reading before honorablen; missing leading 3 alone does not resolve all roots."
+    },
+    {
+      "start": 706,
+      "end": 719,
+      "note": "Parsing misaligns around the 8/9 row boundary before plausible von/den words."
+    },
+    {
+      "start": 793,
+      "end": 806,
+      "note": "Run of four 3s contains invalid 33331."
+    },
+    {
+      "start": 1369,
+      "end": 1379,
+      "note": "Seven-digit insertion3111531 at1369 is separately modeled as entgegensehe. Not applied to public transcription; missing extent and alternative reconstructions remain uncertain."
+    },
+    {
+      "start": 1720,
+      "end": 1721,
+      "note": "Terminal 3 is incomplete under the recovered rule."
+    }
+  ],
+  "longer_conjectures": [
+    {
+      "offset": 1369,
+      "from": "",
+      "to": "3111531",
+      "reason": "Together with retained1159531154, produces31115ge+31115ge+95n+31154s, then31247eh. With preceding en+t this gives entgegenseh[e]. Seven inserted digits at a published row boundary; coherent, NOT uniquely established."
+    }
+  ],
+  "alternative_conjectures": [
+    {
+      "label": "shorter entgegensehe",
+      "offset": 1369,
+      "from": "",
+      "to": "31",
+      "mutually_exclusive_with": "seven-digit3111531 insertion at1369",
+      "requires_key_variant": {
+        "table": "A",
+        "code": "31115",
+        "reading": "gege",
+        "status": "provisional paleographic reading of secondary alternative"
+      },
+      "result": "en+t+gege+n+s+eh; final e editorial",
+      "evidence": [
+        "R1698 numerical P1 row31115 shows ge plus a longer alternative, apparently gege",
+        "R1695 numerical P8 row31115 independently shows same longer alternative",
+        "R1695 alphabetical P7 G, paired31033/31115, also has a superscript longer alternative"
+      ],
+      "limitation": "Boundary restoration is certain conditional on the insertion; the exact alternative letters still require careful reading. Neither repaired ciphertext is authenticated."
+    }
+  ],
+  "superseded_hypotheses": [
+    {
+      "code": "31004",
+      "former_hypothesis": [
+        {
+          "code": "31004",
+          "candidate": "Fried[en]",
+          "tables": [
+            "A"
+          ],
+          "supporting_offsets": [
+            652
+          ],
+          "counterevidence": "Prima31004 is fremd in the numerical source; Frieden remains a context-based conjecture incompatible with this entry."
+        }
+      ],
+      "reason": "No target-specific override needed: source-key rereading fried with en/same alternatives supports Frieden. See latest audit entry."
+    }
+  ]
+}

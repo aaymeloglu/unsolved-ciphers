@@ -1,0 +1,256 @@
+{
+  "status": "Explicit alternatives, never an authenticated corrected ciphertext",
+  "source_unchanged": true,
+  "cases": [
+    {
+      "label": "und wohl leicht entschließen wird",
+      "table": "B",
+      "start": 1044,
+      "end": 1078,
+      "offsets": [
+        1046,
+        1061
+      ],
+      "codes": "54 31326 31091 31304 95 31238 31201 31456",
+      "qualification": "Two substitutions. Inflected schließen is a key alternative/editorial expansion; future tense is directly wird.",
+      "edits": [
+        {
+          "offset": 1046,
+          "from": "31329",
+          "to": "31326",
+          "reason": "un+d rather than un+unresolved whole word; one9→6 substitution. Conjectural."
+        },
+        {
+          "offset": 1061,
+          "from": "55",
+          "to": "95",
+          "reason": "en+t+schluß/schliess gives entschließen; same5→9 repair proposed independently at1216."
+        }
+      ],
+      "source_digits": "5431329310913130455312383120131456",
+      "proposed_digits": "5431326310913130495312383120131456",
+      "literal_roots": "un / d / woll / leicht / en / t / schluß / wird",
+      "status": "CONJECTURE: segmentation checked, original not inspected"
+    },
+    {
+      "label": "English and Prussian courts",
+      "table": "B",
+      "start": 1134,
+      "end": 1166,
+      "offsets": [
+        1139
+      ],
+      "codes": "31210 31399 31157 31167 31397 31272 41",
+      "qualification": "One substitution, plus editorial adjectival endings; singular Hof is retained.",
+      "edits": [
+        {
+          "offset": 1139,
+          "from": "31389",
+          "to": "31399",
+          "reason": "Engelland rather than U, paired with Preuss; one8→9 substitution. English adjective ending editorial."
+        }
+      ],
+      "source_digits": "31210313893115731167313973127241",
+      "proposed_digits": "31210313993115731167313973127241",
+      "literal_roots": "den / Engelland / n / und / Preuss / n / hof",
+      "status": "CONJECTURE: segmentation checked, original not inspected"
+    },
+    {
+      "label": "Verlegenheit setzen würde",
+      "table": "B",
+      "start": 1181,
+      "end": 1220,
+      "offsets": [
+        1216
+      ],
+      "codes": "31342 31330 31151 31033 31246 31282 31475 95 09",
+      "qualification": "One substitution; Verlegenheit itself needs no digit edit. Ge/gen is an abbreviated key reading.",
+      "edits": [
+        {
+          "offset": 1216,
+          "from": "55",
+          "to": "95",
+          "reason": "se+t+z+en gives setzen; same5→9 repair proposed at1061."
+        }
+      ],
+      "source_digits": "313423133031151310333124631282314755509",
+      "proposed_digits": "313423133031151310333124631282314759509",
+      "literal_roots": "ver / le / ge / heit / se / t / z / en / würde",
+      "status": "CONJECTURE: segmentation checked, original not inspected"
+    },
+    {
+      "label": "entgegensehe",
+      "table": "A",
+      "start": 1362,
+      "end": 1384,
+      "offsets": [
+        1369
+      ],
+      "codes": "31113 62 31115 31115 95 31154 31247",
+      "qualification": "Seven inserted digits, with final e editorial. Substantially weaker evidence than the one-digit repairs; not unique.",
+      "edits": [
+        {
+          "offset": 1369,
+          "from": "",
+          "to": "3111531",
+          "reason": "Together with retained1159531154, produces31115ge+31115ge+95n+31154s, then31247eh. With preceding en+t this gives entgegenseh[e]. Seven inserted digits at a published row boundary; coherent, NOT uniquely established."
+        }
+      ],
+      "source_digits": "3111362115953115431247",
+      "proposed_digits": "31113623111531115953115431247",
+      "literal_roots": "en / t / ge / ge / n / s / eh",
+      "status": "CONJECTURE: segmentation checked, original not inspected"
+    },
+    {
+      "label": "entgegensehe, shorter variant-dependent alternative",
+      "table": "A",
+      "start": 1362,
+      "end": 1384,
+      "edits": [
+        {
+          "offset": 1369,
+          "from": "",
+          "to": "31"
+        }
+      ],
+      "codes": "31113 62 31115 95 31154 31247",
+      "conditional_key_readings": {
+        "31115": "gege"
+      },
+      "qualification": "Only two inserted digits IF the secondary 31115 reading is gege. Both numerical copies and the alphabetical G entry show a longer alternative; its precise ending remains provisional. Final e editorial. Do not combine this insertion with the seven-digit alternative.",
+      "source_digits": "3111362115953115431247",
+      "proposed_digits": "311136231115953115431247",
+      "literal_roots": "en / t / ge / n / s / eh",
+      "status": "CONJECTURE: segmentation checked, original not inspected",
+      "conditional_roots": "en / t / gege / n / s / eh"
+    },
+    {
+      "label": "opening extra 3",
+      "table": "A",
+      "start": 2,
+      "end": 18,
+      "offsets": [
+        2
+      ],
+      "codes": "31159 31217 31214",
+      "qualification": "Restores valid so/stat/lich segmentation, but the adjective remains unresolved; NOT proof of stattlich or tröstlich.",
+      "edits": [
+        {
+          "offset": 2,
+          "from": "3",
+          "to": "",
+          "reason": "Extra leading 3 prevents 31159 + 31217 + 31214 from parsing. Opening adjective unresolved."
+        }
+      ],
+      "source_digits": "3311593121731214",
+      "proposed_digits": "311593121731214",
+      "literal_roots": "so / stat? / lich",
+      "status": "CONJECTURE: segmentation checked, original not inspected"
+    },
+    {
+      "label": "court, two deletions",
+      "table": "A",
+      "start": 443,
+      "end": 465,
+      "edits": [
+        {
+          "offset": 443,
+          "from": "7",
+          "to": ""
+        },
+        {
+          "offset": 449,
+          "from": "3",
+          "to": ""
+        }
+      ],
+      "codes": "31197 31394 31380 31216",
+      "qualification": "Bi/zu/solch/resolution is mechanically possible. Bis zu is a conjecture, not an accepted repair.",
+      "source_digits": "7311973313943138031216",
+      "proposed_digits": "31197313943138031216",
+      "literal_roots": "bi / zu/zeig / solch / resolution",
+      "status": "CONJECTURE: segmentation checked, original not inspected"
+    },
+    {
+      "label": "four threes, three deletions",
+      "table": "B",
+      "start": 793,
+      "end": 806,
+      "edits": [
+        {
+          "offset": 793,
+          "from": "333",
+          "to": ""
+        }
+      ],
+      "codes": "31126 31272",
+      "qualification": "Gives gn/gen+n, but leaves preceding wa and the full syntax unresolved. Not accepted.",
+      "source_digits": "3333112631272",
+      "proposed_digits": "3112631272",
+      "literal_roots": "gn/gen / n",
+      "status": "CONJECTURE: segmentation checked, original not inspected"
+    },
+    {
+      "label": "after zumahl, extra zero",
+      "table": "B",
+      "start": 706,
+      "end": 719,
+      "edits": [
+        {
+          "offset": 708,
+          "from": "0",
+          "to": ""
+        }
+      ],
+      "codes": "53 31400 31460",
+      "qualification": "Gives mahl/von/den but does not resolve following no/ge/n and the sentence. B53 source correction supersedes meist. Not accepted.",
+      "source_digits": "5303140031460",
+      "proposed_digits": "533140031460",
+      "literal_roots": "mahl / von / den",
+      "status": "CONJECTURE: segmentation checked, original not inspected"
+    },
+    {
+      "label": "peace join, restore en before honorablen",
+      "table": "A",
+      "start": 624,
+      "end": 657,
+      "edits": [
+        {
+          "offset": 624,
+          "from": "",
+          "to": "31"
+        },
+        {
+          "offset": 626,
+          "from": "9",
+          "to": "3"
+        }
+      ],
+      "codes": "31113 31328 8 95 31346 31000 31169 95 31004",
+      "qualification": "Three digit edits: insert31 and substitute9→3. Gives en/ho/n/or/ab/le/n/fried after lich. Frieden itself is now source-supported; the join repair is unverified and nonunique.",
+      "source_digits": "119313288953134631000311699531004",
+      "proposed_digits": "31113313288953134631000311699531004",
+      "literal_roots": "en / ho /  / n / or / ab / le / n / fried",
+      "status": "CONJECTURE: segmentation checked, original not inspected"
+    },
+    {
+      "label": "peace join, remove three digits",
+      "table": "A",
+      "start": 624,
+      "end": 657,
+      "edits": [
+        {
+          "offset": 624,
+          "from": "119",
+          "to": ""
+        }
+      ],
+      "codes": "31328 8 95 31346 31000 31169 95 31004",
+      "qualification": "Competing three-edit hypothesis, deleting119 and expanding prior lich inflection editorially. Same honorablenFrieden sequence, different treatment of the join. Do not combine alternatives.",
+      "source_digits": "119313288953134631000311699531004",
+      "proposed_digits": "313288953134631000311699531004",
+      "literal_roots": "ho /  / n / or / ab / le / n / fried",
+      "status": "CONJECTURE: segmentation checked, original not inspected"
+    }
+  ]
+}
