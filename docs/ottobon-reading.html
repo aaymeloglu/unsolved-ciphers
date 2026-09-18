@@ -107,7 +107,7 @@ dialog.lightbox::backdrop { background:rgba(0,0,0,.72); }
 .cipher mark, td.tok mark { background:none; color:var(--accent); font-weight:500; border-bottom:1px solid var(--accent); }
 .col.it p.clear { font-style:italic; color:var(--muted); }
 .keytable { min-width:0; width:100%; }
-.entries { max-width:1400px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:32px; padding-block:32px; border-bottom:1px solid var(--rule); }
+.entries { max-width:1400px; margin:0 auto; display:grid; grid-template-columns:repeat(3,1fr); gap:32px; padding-block:32px; border-bottom:1px solid var(--rule); }
 .entry h2 { font-size:30px; font-style:italic; color:var(--accent); margin-bottom:4px; }
 .entry .where { color:var(--muted); font-size:14px; margin:0 0 12px; }
 .entry p { margin:0 0 12px; max-width:62ch; }
@@ -116,7 +116,32 @@ dialog.lightbox::backdrop { background:rgba(0,0,0,.72); }
 .more h3 { font-size:20px; margin-bottom:8px; }
 .more ul { margin:0; padding-left:18px; max-width:90ch; }
 .more li { margin-bottom:6px; }
-@media screen and (max-width: 680px) { .entries { grid-template-columns:1fr; } }
+.entry .status { display:inline-block; margin:0 0 10px; font-size:11.5px; letter-spacing:.08em; text-transform:uppercase; border:1px solid var(--accent); color:var(--accent); padding:3px 8px; border-radius:3px; }
+.masthead .status { display:inline-block; margin-top:16px; font-size:12px; letter-spacing:.08em; text-transform:uppercase; border:1px solid var(--accent); color:var(--accent); padding:4px 10px; border-radius:3px; }
+.rows { border:1px solid var(--rule); background:var(--surface); border-radius:2px; padding:12px 14px; font-family:var(--mono); font-size:12.5px; line-height:1.5; color:var(--ink); }
+.rows p { margin:0 0 6px; word-break:break-word; }
+.rows p:last-child { margin-bottom:0; }
+.rows .rn { display:inline-block; min-width:2.2em; color:var(--muted); font-variant-numeric:tabular-nums; }
+td.lit b { color:var(--accent); font-weight:500; }
+td.lit i { color:var(--accent); }
+.wide { max-width:1400px; margin:0 auto; padding-block:40px; border-bottom:1px solid var(--rule); scroll-margin-top:56px; }
+.wide h2 { font-size:30px; color:var(--accent); font-style:italic; margin-bottom:18px; }
+.wide .two { display:grid; grid-template-columns:1fr 1fr; gap:32px; align-items:start; }
+.wide p { margin:0 0 12px; max-width:68ch; }
+.wide h3 { font-size:13px; font-family:var(--sans); font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:10px; }
+.wide ul { margin:0 0 14px; padding-left:18px; max-width:70ch; font-size:14.5px; }
+.wide li { margin-bottom:6px; }
+.checks { width:100%; font-size:14px; min-width:0; }
+.checks td:first-child { white-space:nowrap; font-variant-numeric:tabular-nums; }
+.checks td.ok { color:#3d6b3a; font-weight:500; white-space:nowrap; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .checks td.ok { color:#8fc48a; } }
+.repairs td.tok { white-space:nowrap; }
+.wide .scroll table { min-width:0; width:100%; }
+footer.colophon ul { margin:0 0 10px; padding-left:18px; }
+footer.colophon li { margin-bottom:4px; }
+@media screen and (max-width: 1000px) { .entries { grid-template-columns:1fr 1fr; } }
+@media screen and (max-width: 680px) { .entries, .wide .two { grid-template-columns:1fr; } }
+@media print { .wide { page-break-before:always; padding-block:0 12px; border-bottom:0; } .wide h2 { font-size:22px; } .rows { font-size:8.5px; } }
 </style>
 
 <p class="crumbs screen-only"><a href="index.html">Unsolved ciphers</a> / <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/ottobon-1589">write-up and files</a></p>
@@ -327,7 +352,7 @@ dialog.lightbox::backdrop { background:rgba(0,0,0,.72); }
   </div>
   <div>
     <h3>Limits</h3>
-    <p>This is a critical reading, not an every-sign diplomatic transcript. The versos (ff. 35v, 37v) lose their line endings in the gutter; a few groups are blotted; the clerk skipped or miskeyed a handful of syllables. Those places are bracketed above and listed in the notes. A registered copy in ASVe, Senato, Deliberazioni, Secreti, reg. 87 (April 1589) would settle them; none has been located online.</p>
+    <p>This is a critical reading, not an every-sign diplomatic transcript. The versos (ff. 35v, 37v) lose their line endings in the gutter; a few groups are blotted; the clerk skipped or miskeyed a handful of syllables. Those places are bracketed above and listed in the notes. A registered copy in ASVe, Senato, Deliberazioni, Secreti, reg. 87 (April 1589) would settle them; none has been located online. Romanin's <em>Storia documentata di Venezia</em>, vol. VI, p. 409, summarising that register, gives the Senate's 1589 answer to Henri III in the same terms as the reply read here: no aid for now, because Venice had to watch Spanish movements in Italy, but good offices with Sixtus V. He cites Secreta, 3 June 1589, where a loan of money was also granted.</p>
     <p>Transcription, key excerpt and decoder: <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/ottobon-1589">github.com/aaymeloglu/unsolved-ciphers</a>. Prepared 16 September 2026. No claim of publication priority is made.</p>
   </div>
 </footer>

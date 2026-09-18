@@ -1,6 +1,6 @@
 # Unsolved ciphers
 
-**Site: [aaymeloglu.github.io/unsolved-ciphers](https://aaymeloglu.github.io/unsolved-ciphers/)** with side-by-side readings of [Ottobon 1589](https://aaymeloglu.github.io/unsolved-ciphers/ottobon-reading.html) and [Forster 1644](https://aaymeloglu.github.io/unsolved-ciphers/forster-reading.html).
+**Site: [aaymeloglu.github.io/unsolved-ciphers](https://aaymeloglu.github.io/unsolved-ciphers/)** with side-by-side readings of [Ottobon 1589](https://aaymeloglu.github.io/unsolved-ciphers/ottobon-reading.html) [Forster 1644](https://aaymeloglu.github.io/unsolved-ciphers/forster-reading.html) and, partially deciphered, [Starhemberg 1758](https://aaymeloglu.github.io/unsolved-ciphers/starhemberg-reading.html).
 
 Working repo for attempts on historical ciphers that are short, context-rich, and listed as unsolved. Started September 2026 after Vals AI reported Claude Fable 5.1 reading Thomas Urquhart's Cyphral Distich; the question was whether the same approach (an agent plus a person checking its work) gets anywhere on the rest of the list. Only open items and our own solves go here. Work uses Claude Code and native Codex agents. Scripts reproduce decoding from the transcriptions; handwriting judgments require comparison with the cited images.
 

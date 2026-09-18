@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Unsolved ciphers</title>
-<meta name="description" content="Attempts on historical ciphers listed as unsolved: a Venetian dispatch of 1589 and a royalist letter of 1644, read and reproducible.">
+<meta name="description" content="Attempts on historical ciphers listed as unsolved: a Venetian dispatch of 1589 and a royalist letter of 1644 read, an Austrian letter of 1758 partly read, all reproducible.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -113,7 +113,7 @@ dialog.lightbox::backdrop { background:rgba(0,0,0,.72); }
 .cipher mark, td.tok mark { background:none; color:var(--accent); font-weight:500; border-bottom:1px solid var(--accent); }
 .col.it p.clear { font-style:italic; color:var(--muted); }
 .keytable { min-width:0; width:100%; }
-.entries { max-width:1400px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:32px; padding-block:32px; border-bottom:1px solid var(--rule); }
+.entries { max-width:1400px; margin:0 auto; display:grid; grid-template-columns:repeat(3,1fr); gap:32px; padding-block:32px; border-bottom:1px solid var(--rule); }
 .entry h2 { font-size:30px; font-style:italic; color:var(--accent); margin-bottom:4px; }
 .entry .where { color:var(--muted); font-size:14px; margin:0 0 12px; }
 .entry p { margin:0 0 12px; max-width:62ch; }
@@ -122,7 +122,32 @@ dialog.lightbox::backdrop { background:rgba(0,0,0,.72); }
 .more h3 { font-size:20px; margin-bottom:8px; }
 .more ul { margin:0; padding-left:18px; max-width:90ch; }
 .more li { margin-bottom:6px; }
-@media screen and (max-width: 680px) { .entries { grid-template-columns:1fr; } }
+.entry .status { display:inline-block; margin:0 0 10px; font-size:11.5px; letter-spacing:.08em; text-transform:uppercase; border:1px solid var(--accent); color:var(--accent); padding:3px 8px; border-radius:3px; }
+.masthead .status { display:inline-block; margin-top:16px; font-size:12px; letter-spacing:.08em; text-transform:uppercase; border:1px solid var(--accent); color:var(--accent); padding:4px 10px; border-radius:3px; }
+.rows { border:1px solid var(--rule); background:var(--surface); border-radius:2px; padding:12px 14px; font-family:var(--mono); font-size:12.5px; line-height:1.5; color:var(--ink); }
+.rows p { margin:0 0 6px; word-break:break-word; }
+.rows p:last-child { margin-bottom:0; }
+.rows .rn { display:inline-block; min-width:2.2em; color:var(--muted); font-variant-numeric:tabular-nums; }
+td.lit b { color:var(--accent); font-weight:500; }
+td.lit i { color:var(--accent); }
+.wide { max-width:1400px; margin:0 auto; padding-block:40px; border-bottom:1px solid var(--rule); scroll-margin-top:56px; }
+.wide h2 { font-size:30px; color:var(--accent); font-style:italic; margin-bottom:18px; }
+.wide .two { display:grid; grid-template-columns:1fr 1fr; gap:32px; align-items:start; }
+.wide p { margin:0 0 12px; max-width:68ch; }
+.wide h3 { font-size:13px; font-family:var(--sans); font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:10px; }
+.wide ul { margin:0 0 14px; padding-left:18px; max-width:70ch; font-size:14.5px; }
+.wide li { margin-bottom:6px; }
+.checks { width:100%; font-size:14px; min-width:0; }
+.checks td:first-child { white-space:nowrap; font-variant-numeric:tabular-nums; }
+.checks td.ok { color:#3d6b3a; font-weight:500; white-space:nowrap; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .checks td.ok { color:#8fc48a; } }
+.repairs td.tok { white-space:nowrap; }
+.wide .scroll table { min-width:0; width:100%; }
+footer.colophon ul { margin:0 0 10px; padding-left:18px; }
+footer.colophon li { margin-bottom:4px; }
+@media screen and (max-width: 1000px) { .entries { grid-template-columns:1fr 1fr; } }
+@media screen and (max-width: 680px) { .entries, .wide .two { grid-template-columns:1fr; } }
+@media print { .wide { page-break-before:always; padding-block:0 12px; border-bottom:0; } .wide h2 { font-size:22px; } .rows { font-size:8.5px; } }
 </style>
 </head>
 <body>
@@ -136,6 +161,7 @@ dialog.lightbox::backdrop { background:rgba(0,0,0,.72); }
   <div class="entry">
     <h2><a href="ottobon-reading.html">Carta en cifra de Venecia</a></h2>
     <p class="where">Ottobon to Mocenigo, 27 April 1589 · BNE Mss/994, ff. 34–38</p>
+    <p class="status">Substantially deciphered</p>
     <p>A Venetian dispatch to the ambassador in France, with the enclosed reply to Henri III's envoy Gondi, who had come to ask for aid and a league. The Republic's surviving key, <em>Ziffra prima</em>, reads all seven cipher pages. Intercepted in Savoy in 1589 and broken then by Philip II's cipher secretary, whose working was lost.</p>
     <p class="go"><a href="ottobon-reading.html">Page-by-page reading</a></p>
     <p>Manuscript images, Italian and English side by side. <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/ottobon-1589">Write-up, transcription, key excerpt and decoder</a>.</p>
@@ -143,9 +169,18 @@ dialog.lightbox::backdrop { background:rgba(0,0,0,.72); }
   <div class="entry">
     <h2><a href="forster-reading.html">Les voyes de prudence</a></h2>
     <p class="where">Sir Richard Forster, 13 May 1644 · AD Val-d'Oise, 68 H 8</p>
+    <p class="status">Deciphered · not a first reading</p>
     <p>A ciphered passage in a letter by the treasurer of Henrietta Maria's household: counsel that preserving one's life is no failing before God. Mixed letter-and-number homophonic substitution, 207 symbols, three repairs. George Lasry and Norbert Biermann had read it earlier, and Robert Pitt published a key the same day; no priority is claimed.</p>
     <p class="go"><a href="forster-reading.html">Ciphertext, French and English</a></p>
     <p>With the 37 cipher words and the key. <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/forster-1644">Write-up, solver and verification</a>.</p>
+  </div>
+  <div class="entry">
+    <h2><a href="starhemberg-reading.html">Chiffre aus Paris</a></h2>
+    <p class="where">Starhemberg, Paris, 23 May 1758 · Cryptiana transcription</p>
+    <p class="status">Partially deciphered</p>
+    <p>A numerical cipher letter from Austria's ambassador at Versailles on drawing Spain into the Seven Years' War: the memorandum handed to Wall, Minorca as the price, a courier named Zinner. The 1752 Prima/Secunda key (DECODE R1695, R1698) gives connected German across the letter, but with no image of the original several joins do not parse and the exact full text is open.</p>
+    <p class="go"><a href="starhemberg-reading.html">Cipher rows, German and English</a></p>
+    <p>With the baseline key output, the proposed repairs and the checks. <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/starhemberg-1758">Write-up, keys, scripts and audit</a>.</p>
   </div>
 </div>
 
