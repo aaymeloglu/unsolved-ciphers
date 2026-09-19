@@ -1,0 +1,161 @@
+{
+  "scope": "Snapshot of the original bounded OCR search, not a validated Scots lexicon. One downloaded file is an HTTP error page; retained in the manifest to reproduce the actual inputs.",
+  "sources": [
+    {
+      "file": "scots_corpus.txt",
+      "sha256": "f27b6a1bbdbdc048f93022edc0c2d0b48e215c30d1b7c1e26a80b1cbca1352aa",
+      "bytes": 7023209,
+      "kind": "assembled local Scots corpus; exact input retained in research workspace"
+    },
+    {
+      "file": "lexicon/calendarofstatep08grea.txt",
+      "sha256": "971ee50dd0e7795d3e99a50cc5a43926b736460c63d90f98cf5c603c27d353d3",
+      "bytes": 2516515,
+      "url": "https://archive.org/download/calendarofstatep08grea/calendarofstatep08grea_djvu.txt",
+      "kind": "public OCR"
+    },
+    {
+      "file": "lexicon/calendarstatepa00baingoog.txt",
+      "sha256": "0e8bf8421ced635f56c2b3baf2fc4712d759f3ae11093d8e1f45f72d799eefa5",
+      "bytes": 3186980,
+      "url": "https://archive.org/download/calendarstatepa00baingoog/calendarstatepa00baingoog_djvu.txt",
+      "kind": "public OCR"
+    },
+    {
+      "file": "lexicon/historiecronicle03lind.txt",
+      "sha256": "49a9c1cd0393557f2486ee7fd1d78817e06d90911ec0e30cefcb5ad4b39cf405",
+      "bytes": 914664,
+      "url": "https://archive.org/download/historiecronicle03lind/historiecronicle03lind_djvu.txt",
+      "kind": "public OCR"
+    },
+    {
+      "file": "lexicon/registerofprivyc0002jjoh.txt",
+      "sha256": "fa646238f678491eba4a1aed08a29197f38454acc35383c5db402ef8e2737096",
+      "bytes": 3101309,
+      "url": "https://archive.org/download/registerofprivyc0002jjoh/registerofprivyc0002jjoh_djvu.txt",
+      "kind": "public OCR"
+    },
+    {
+      "file": "lexicon/registerprivyco01coungoog.txt",
+      "sha256": "5af6f9f966d2f1e1ff4a27d28945e9e73211569f58b99c8b1aa0851ee2348a02",
+      "bytes": 2330990,
+      "url": "https://archive.org/download/registerprivyco01coungoog/registerprivyco01coungoog_djvu.txt",
+      "kind": "public OCR"
+    },
+    {
+      "file": "lexicon/registerprivyco02coungoog.txt",
+      "sha256": "c2e9a1560f97383ed59a05f46f2a969e6b99cda1ff6de0cde5e66cdb49c8b300",
+      "bytes": 3593005,
+      "url": "https://archive.org/download/registerprivyco02coungoog/registerprivyco02coungoog_djvu.txt",
+      "kind": "public OCR"
+    },
+    {
+      "file": "lexicon/worksjohnknox06laingoog.txt",
+      "sha256": "61c2ec0736c871f0264221cf1871895ecad34362313e9de5e0fc4aebf6b750c6",
+      "bytes": 1533103,
+      "url": "https://archive.org/download/worksjohnknox06laingoog/worksjohnknox06laingoog_djvu.txt",
+      "kind": "public OCR"
+    },
+    {
+      "file": "lexicon/worksofjohnknox03knoxuoft.txt",
+      "sha256": "230b5bcf782da204e06faae8a5b643575cbfbc072f9797a9bc1bc6a2c41c31a5",
+      "bytes": 1323424,
+      "url": "https://archive.org/download/worksofjohnknox03knoxuoft/worksofjohnknox03knoxuoft_djvu.txt",
+      "kind": "public OCR"
+    },
+    {
+      "file": "lexicon/worksofjohnknox3knox.txt",
+      "sha256": "9e93ecf12d78a8c4c278708706bd249fe086983fb28f82eb880f5c7795043962",
+      "bytes": 170,
+      "url": "https://archive.org/download/worksofjohnknox3knox/worksofjohnknox3knox_djvu.txt",
+      "kind": "failed download: HTTP 500 HTML"
+    }
+  ],
+  "lattis_hits": [
+    {
+      "file": "scots_corpus.txt",
+      "line": 1,
+      "broken_prelattis": false,
+      "context": "ill first gif you hertlie thankes that fa planelie and lovinglie lattis me knaw quhat fic things ar reportit bot for the trewth of this mater i marvell greitlie "
+    },
+    {
+      "file": "historiecronicle03lind.txt",
+      "line": 15042,
+      "broken_prelattis": true,
+      "context": "ii.  68.  14 \nPrelacie,  sb.  prelacy,  i.  413.    I  ;  pre- \n\nlattis,  sb.  pi.  prelates,  i.   34.    28 \nPreminatioun,  sb.  premonition,  ii.  57.  9 \nPre"
+    },
+    {
+      "file": "worksjohnknox06laingoog.txt",
+      "line": 11849,
+      "broken_prelattis": true,
+      "context": "eseik  yow,  brethrene  and  sisteris,  to  exhorte  your  Pre- \nlattis  to  the  leamyng  of  the  word  of  God,  that  thei  at  the \nleast  may  be  eschamed"
+    },
+    {
+      "file": "worksjohnknox06laingoog.txt",
+      "line": 17448,
+      "broken_prelattis": true,
+      "context": "ndis,^  as  that  thei  did.    Which  perceaved  by  the  Pre- \nlattis  and  Preastis,  thei  procured  a  proclamatioun  to  be  pub- \niictlie  maid,  \"  That "
+    },
+    {
+      "file": "worksjohnknox06laingoog.txt",
+      "line": 17754,
+      "broken_prelattis": true,
+      "context": "  dispyte  of  Gk>d,  so  long  as  thei  that  then  war  Prc- \nlattis  lyved,  should  that  word  (called  the  Evangell)  never  be \n\u00a3!C!l!i^?  preached  wit"
+    },
+    {
+      "file": "worksjohnknox06laingoog.txt",
+      "line": 20206,
+      "broken_prelattis": true,
+      "context": "t  be  enacted  by  this  present  Parliament,  that  the  Pre- \nlattis  and  thare  OfBciaris^  be  removed  from  place  of  judge- \n\n*  In  Vautr.  edit.  \u2022* "
+    },
+    {
+      "file": "worksjohnknox06laingoog.txt",
+      "line": 21842,
+      "broken_prelattis": true,
+      "context": "ved  devised,  by  hir  and  hir  ungodlie  Counsale  the  Pro- \nlattis.\" \n\nThis  ansuer  was  gevin  to  hir  the  first  day  of  Juny,  and \nimmediatlie  the "
+    },
+    {
+      "file": "worksofjohnknox03knoxuoft.txt",
+      "line": 16356,
+      "broken_prelattis": false,
+      "context": ".\"  Reid  the  haill  chapter, \nand  gif  glorie  to  God  that  lattis  you  knaw  your  awn  infmnitie, \nthat  frome  Chryst  allone  ye  may  be  content  to "
+    }
+  ],
+  "boundary_word_counts": {
+    "a": 34553,
+    "au": 337,
+    "auo": 8,
+    "auoi": 0,
+    "auois": 0,
+    "i": 42923,
+    "is": 21209,
+    "k": 909,
+    "kn": 13,
+    "kna": 4,
+    "knau": 0,
+    "knauo": 0,
+    "knauoi": 0,
+    "knauois": 0,
+    "n": 4061,
+    "na": 1152,
+    "nau": 156,
+    "nauo": 0,
+    "nauoi": 0,
+    "nauois": 0,
+    "o": 1816,
+    "oi": 155,
+    "ois": 4,
+    "s": 23108,
+    "t": 4642,
+    "tn": 65,
+    "tna": 1,
+    "tnau": 0,
+    "tnauo": 0,
+    "tnauoi": 0,
+    "tnauois": 0,
+    "u": 732,
+    "uo": 13,
+    "uoi": 0,
+    "uois": 1
+  }
+}

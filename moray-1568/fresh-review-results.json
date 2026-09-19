@@ -1,0 +1,112 @@
+{
+  "status": "Unsolved; proposed readings remain hypotheses",
+  "source": "moray-1568/transcription.txt",
+  "token_counts": {
+    "L1": 46,
+    "L2": 43,
+    "L3": 38,
+    "L4": 7
+  },
+  "lattis_counts": {
+    "total": 8,
+    "broken_prelattis": 6
+  },
+  "strict_final_with_visual_n_u": {
+    "k": "knauois",
+    "t": "tnauois"
+  },
+  "boundary_patterns_per_reading": 64,
+  "corpus_supported_partitions": {
+    "knauois": [
+      [
+        "kna",
+        "uois"
+      ],
+      [
+        "kn",
+        "a",
+        "uois"
+      ],
+      [
+        "kn",
+        "au",
+        "ois"
+      ],
+      [
+        "kn",
+        "auo",
+        "is"
+      ],
+      [
+        "kna",
+        "uo",
+        "is"
+      ],
+      [
+        "kn",
+        "a",
+        "uo",
+        "is"
+      ],
+      [
+        "kn",
+        "au",
+        "o",
+        "is"
+      ]
+    ],
+    "tnauois": [
+      [
+        "tna",
+        "uois"
+      ],
+      [
+        "tn",
+        "a",
+        "uois"
+      ],
+      [
+        "tn",
+        "au",
+        "ois"
+      ],
+      [
+        "tn",
+        "auo",
+        "is"
+      ],
+      [
+        "tna",
+        "uo",
+        "is"
+      ],
+      [
+        "tn",
+        "a",
+        "uo",
+        "is"
+      ],
+      [
+        "tn",
+        "au",
+        "o",
+        "is"
+      ]
+    ]
+  },
+  "alternatives": {
+    "unknown_long_stroked_fifth": [
+      "lakkisnamairtospil[the]haille?ourefreindis",
+      "knau?is"
+    ],
+    "es_and_omit_fifth": [
+      "lakkisnamairtospil[the]haillesourefreindis",
+      "knauis"
+    ],
+    "haille_and_word_sign_as_and_omit_fifth": [
+      "lakkisnamairtospil[the]haille[as]ourefreindis",
+      "knauis"
+    ]
+  },
+  "caveat": "OCR counts do not establish historical word forms. No null, deletion, or compound W sign is established."
+}
