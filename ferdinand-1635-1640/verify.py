@@ -7,7 +7,6 @@ Run as `uv run python ferdinand-1635-1640/verify.py` from the repository root
 Context-only 1640 additions remain M: no matched-control S claim is made.
 """
 import argparse
-from collections import Counter
 import csv
 import hashlib
 import json
@@ -18,6 +17,8 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT.parent))
+from cipherkit.grades import Reading, counts  # noqa: E402
 
 
 def grade_outputs(root):
@@ -41,7 +42,7 @@ def grade_outputs(root):
     doubtful35 = {('P1.L11',6), ('P1.L20',7), ('P1.L25',8)}  # P2.L03 17-18 resolved on the image as 1 11, 18 Sept 2026
     summary = {}
     for record, suffix in [('R1889','working'), ('R1890','reviewed')]:
-        counts = Counter()
+        readings = []
         with (root/f'results/{record}-token-grades.tsv').open('w') as f:
             w = csv.writer(f, delimiter='\t', lineterminator='\n')
             w.writerow(['row','cipher_position','symbol','literal','grade','basis'])
@@ -57,9 +58,11 @@ def grade_outputs(root):
                     grade,basis = 'M','Disputed source glyph; literal value retained, see READING-1635.md'
                 else:
                     grade,basis = 'C','Value from R954/R1889 known-plaintext alignment; see key-evidence.tsv'
-                counts[grade] += 1
-                w.writerow([row,pos,token,value or '',grade,basis])
-        summary[record] = dict(sorted(counts.items()))
+                r = Reading(token, value or '', grade, basis)
+                readings.append(r)
+                w.writerow([row,pos,r.token,r.value,r.grade,r.basis])
+        # grades.json lists the grades present, alphabetically; the kit tally validates the labels.
+        summary[record] = {g: n for g, n in sorted(counts(readings).items()) if n}
     (root/'results/grades.json').write_text(json.dumps(summary,indent=2)+'\n')
     return summary
 
