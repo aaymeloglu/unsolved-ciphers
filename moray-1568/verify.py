@@ -81,6 +81,7 @@ def permutation_z(key, lines, n=1000, seed=0):
 
 def main():
     key, lines = load()
+    c = grades(key, lines)  # exits with a message if a glyph is missing from key.json
     text = render(key, lines)
     path = os.path.join(HERE, "reading.txt")
     header = "# Mechanical output of key.json over transcription.txt; \"|\" = gap on the page; [..] = word-sign; (..) = grade M or I.\n"
@@ -90,7 +91,6 @@ def main():
     committed = open(path).read()
     ok = committed == header + text
     print(text, end="")
-    c = grades(key, lines)
     print("grades:", {g: n for g, n in sorted(c.items()) if n}, "of", sum(c.values()), "glyphs")
     if "--z" in sys.argv:
         z, note = permutation_z(key, lines)

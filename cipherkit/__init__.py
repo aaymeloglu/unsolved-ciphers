@@ -2,7 +2,7 @@
 
 from .align import Assignment, align_rows, apply, holdout, read_tsv
 from .anneal import anneal, climb, frequency_init, restarts
-from .grades import GRADES, Reading, apply_key, counts, grade_token, render, summary_line
+from .grades import GRADES, Reading, apply_key, check_grade, counts, grade_token, render, summary_line
 from .controls import (
     homophonic_control,
     key_recovery,
@@ -30,7 +30,7 @@ __all__ = [
     "anneal", "climb", "frequency_init", "restarts",
     "homophonic_control", "key_recovery", "matched_control", "mono_control",
     "permutation_z", "permutation_z_key", "sample_plaintext", "spaced_control",
-    "GRADES", "Reading", "apply_key", "counts", "grade_token", "render", "summary_line",
+    "GRADES", "Reading", "apply_key", "check_grade", "counts", "grade_token", "render", "summary_line",
     "BackoffCharLM", "CharLM", "WordLM", "cached",
     "BASE_FOLDS", "EARLY_MODERN_FOLDS", "GERMAN_FOLDS", "LATIN", "normalize", "strip_gutenberg",
     "Segmenter",

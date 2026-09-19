@@ -19,7 +19,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1,
@@ -36,7 +36,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 2,
@@ -70,7 +70,7 @@
       "kind": "ordinary",
       "value": "hab",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 9,
@@ -87,7 +87,7 @@
       "kind": "ordinary",
       "value": "unterstütz",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 11,
@@ -104,7 +104,7 @@
       "kind": "ordinary",
       "value": "Grossvezier",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 13,
@@ -121,7 +121,7 @@
       "kind": "ordinary",
       "value": "lich",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 18,
@@ -138,7 +138,7 @@
       "kind": "ordinary",
       "value": "als",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 20,
@@ -155,7 +155,7 @@
       "kind": "ordinary",
       "value": "ich",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 25,
@@ -172,7 +172,7 @@
       "kind": "ordinary",
       "value": "nun",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 30,
@@ -189,7 +189,7 @@
       "kind": "ordinary",
       "value": "den",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 35,
@@ -206,7 +206,7 @@
       "kind": "ordinary",
       "value": "in",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 40,
@@ -223,7 +223,7 @@
       "kind": "ordinary",
       "value": "n",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 42,
@@ -240,7 +240,7 @@
       "kind": "ordinary",
       "value": "halt",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 47,
@@ -257,7 +257,7 @@
       "kind": "ordinary",
       "value": "der",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 52,
@@ -274,7 +274,7 @@
       "kind": "ordinary",
       "value": "selb",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 57,
@@ -291,7 +291,7 @@
       "kind": "ordinary",
       "value": "ge",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 62,
@@ -308,7 +308,7 @@
       "kind": "ordinary",
       "value": "fu",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 67,
@@ -325,7 +325,7 @@
       "kind": "ordinary",
       "value": "n",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 72,
@@ -342,7 +342,7 @@
       "kind": "ordinary",
       "value": "den",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 77,
@@ -359,7 +359,7 @@
       "kind": "ordinary",
       "value": "so",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 82,
@@ -376,7 +376,7 @@
       "kind": "ordinary",
       "value": "groß",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 87,
@@ -393,7 +393,7 @@
       "kind": "ordinary",
       "value": "hoff",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 92,
@@ -410,7 +410,7 @@
       "kind": "ordinary",
       "value": "nun",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 97,
@@ -427,7 +427,7 @@
       "kind": "ordinary",
       "value": "man",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 99,
@@ -444,7 +444,7 @@
       "kind": "ordinary",
       "value": "mach",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 104,
@@ -461,7 +461,7 @@
       "kind": "ordinary",
       "value": "mir",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 109,
@@ -478,7 +478,7 @@
       "kind": "control",
       "value": ",",
       "grade": "H",
-      "basis": "1752 marked codes for punctuation, dates and table changes (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1), 800 column: 854 coma"
     },
     {
       "offset": 112,
@@ -495,7 +495,7 @@
       "kind": "ordinary",
       "value": "das",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 114,
@@ -512,7 +512,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 115,
@@ -529,7 +529,7 @@
       "kind": "ordinary",
       "value": "be",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 120,
@@ -546,7 +546,7 @@
       "kind": "ordinary",
       "value": "der",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 125,
@@ -563,7 +563,7 @@
       "kind": "ordinary",
       "value": "o",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 130,
@@ -580,7 +580,7 @@
       "kind": "ordinary",
       "value": "selb",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 135,
@@ -597,7 +597,7 @@
       "kind": "ordinary",
       "value": "an",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 140,
@@ -614,7 +614,7 @@
       "kind": "ordinary",
       "value": "noch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 145,
@@ -631,7 +631,7 @@
       "kind": "ordinary",
       "value": "ge",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 150,
@@ -648,7 +648,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 151,
@@ -665,7 +665,7 @@
       "kind": "ordinary",
       "value": "li",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 156,
@@ -682,7 +682,7 @@
       "kind": "ordinary",
       "value": "ng",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 161,
@@ -699,7 +699,7 @@
       "kind": "ordinary",
       "value": "en",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 166,
@@ -716,7 +716,7 @@
       "kind": "ordinary",
       "value": "werden",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 171,
@@ -733,7 +733,7 @@
       "kind": "ordinary",
       "value": "die",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 173,
@@ -750,7 +750,7 @@
       "kind": "ordinary",
       "value": "durch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 175,
@@ -767,7 +767,7 @@
       "kind": "ordinary",
       "value": "das",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 180,
@@ -784,7 +784,7 @@
       "kind": "ordinary",
       "value": "dem",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 185,
@@ -801,7 +801,7 @@
       "kind": "ordinary",
       "value": "st",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 190,
@@ -818,7 +818,7 @@
       "kind": "ordinary",
       "value": "at",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 195,
@@ -835,7 +835,7 @@
       "kind": "ordinary",
       "value": "u",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 200,
@@ -852,7 +852,7 @@
       "kind": "ordinary",
       "value": "secret",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 202,
@@ -869,7 +869,7 @@
       "kind": "ordinary",
       "value": "o",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 207,
@@ -886,7 +886,7 @@
       "kind": "ordinary",
       "value": "wa",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 212,
@@ -903,7 +903,7 @@
       "kind": "ordinary",
       "value": "l",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 217,
@@ -920,7 +920,7 @@
       "kind": "ordinary",
       "value": "be",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 222,
@@ -937,7 +937,7 @@
       "kind": "ordinary",
       "value": "hand",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 227,
@@ -954,7 +954,7 @@
       "kind": "ordinary",
       "value": "ig",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 232,
@@ -971,7 +971,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 233,
@@ -988,7 +988,7 @@
       "kind": "ordinary",
       "value": "te",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 238,
@@ -1005,7 +1005,7 @@
       "kind": "ordinary",
       "value": "sehr",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 243,
@@ -1022,7 +1022,7 @@
       "kind": "ordinary",
       "value": "tr",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 248,
@@ -1039,7 +1039,7 @@
       "kind": "ordinary",
       "value": "e",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 250,
@@ -1056,7 +1056,7 @@
       "kind": "ordinary",
       "value": "fl",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 255,
@@ -1073,7 +1073,7 @@
       "kind": "ordinary",
       "value": "ich",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 260,
@@ -1090,7 +1090,7 @@
       "kind": "ordinary",
       "value": "ge",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 265,
@@ -1107,7 +1107,7 @@
       "kind": "ordinary",
       "value": "fa",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 270,
@@ -1124,7 +1124,7 @@
       "kind": "ordinary",
       "value": "ste",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 275,
@@ -1141,7 +1141,7 @@
       "kind": "ordinary",
       "value": "me",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 280,
@@ -1158,7 +1158,7 @@
       "kind": "ordinary",
       "value": "mo",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 285,
@@ -1175,7 +1175,7 @@
       "kind": "ordinary",
       "value": "ir",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 290,
@@ -1192,7 +1192,7 @@
       "kind": "ordinary",
       "value": "so",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 295,
@@ -1209,7 +1209,7 @@
       "kind": "ordinary",
       "value": "ge",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 300,
@@ -1226,7 +1226,7 @@
       "kind": "ordinary",
       "value": "sch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 305,
@@ -1243,7 +1243,7 @@
       "kind": "ordinary",
       "value": "i",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 310,
@@ -1260,7 +1260,7 @@
       "kind": "ordinary",
       "value": "ck",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 315,
@@ -1277,7 +1277,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 316,
@@ -1294,7 +1294,7 @@
       "kind": "ordinary",
       "value": "t",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 318,
@@ -1311,7 +1311,7 @@
       "kind": "ordinary",
       "value": "als",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 320,
@@ -1328,7 +1328,7 @@
       "kind": "ordinary",
       "value": "vor",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 325,
@@ -1362,7 +1362,7 @@
       "kind": "ordinary",
       "value": "ti",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 335,
@@ -1379,7 +1379,7 @@
       "kind": "ordinary",
       "value": "man",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 337,
@@ -1396,7 +1396,7 @@
       "kind": "ordinary",
       "value": "ein",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 342,
@@ -1413,7 +1413,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 343,
@@ -1430,7 +1430,7 @@
       "kind": "ordinary",
       "value": "ge",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 348,
@@ -1447,7 +1447,7 @@
       "kind": "ordinary",
       "value": "le",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 353,
@@ -1464,7 +1464,7 @@
       "kind": "ordinary",
       "value": "i",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 358,
@@ -1481,7 +1481,7 @@
       "kind": "ordinary",
       "value": "te",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 363,
@@ -1498,7 +1498,7 @@
       "kind": "ordinary",
       "value": "te",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 368,
@@ -1515,7 +1515,7 @@
       "kind": "ordinary",
       "value": "hand",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 373,
@@ -1532,7 +1532,7 @@
       "kind": "ordinary",
       "value": "nun",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 378,
@@ -1549,7 +1549,7 @@
       "kind": "ordinary",
       "value": "mer",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 383,
@@ -1566,7 +1566,7 @@
       "kind": "ordinary",
       "value": "h",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 388,
@@ -1583,7 +1583,7 @@
       "kind": "ordinary",
       "value": "ro",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 393,
@@ -1600,7 +1600,7 @@
       "kind": "ordinary",
       "value": "im",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 398,
@@ -1617,7 +1617,7 @@
       "kind": "ordinary",
       "value": "mer",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 403,
@@ -1634,7 +1634,7 @@
       "kind": "ordinary",
       "value": "off",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 408,
@@ -1651,7 +1651,7 @@
       "kind": "ordinary",
       "value": "zu",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 413,
@@ -1668,7 +1668,7 @@
       "kind": "ordinary",
       "value": "be",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 418,
@@ -1685,7 +1685,7 @@
       "kind": "ordinary",
       "value": "halt",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 423,
@@ -1702,7 +1702,7 @@
       "kind": "ordinary",
       "value": "und",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 428,
@@ -1719,7 +1719,7 @@
       "kind": "ordinary",
       "value": "dem",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 433,
@@ -1736,7 +1736,7 @@
       "kind": "ordinary",
       "value": "Spanien",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 438,
@@ -1753,7 +1753,7 @@
       "kind": "ordinary",
       "value": "hoff",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 443,
@@ -1770,7 +1770,7 @@
       "kind": "ordinary",
       "value": "nach",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 445,
@@ -1787,7 +1787,7 @@
       "kind": "ordinary",
       "value": "französisch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 447,
@@ -1804,7 +1804,7 @@
       "kind": "ordinary",
       "value": "religion",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 449,
@@ -1838,7 +1838,7 @@
       "kind": "ordinary",
       "value": "mittelst",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 456,
@@ -1855,7 +1855,7 @@
       "kind": "ordinary",
       "value": "armee",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 458,
@@ -1872,7 +1872,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 459,
@@ -1889,7 +1889,7 @@
       "kind": "ordinary",
       "value": "ganz",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 461,
@@ -1906,7 +1906,7 @@
       "kind": "ordinary",
       "value": "unterstütz",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 463,
@@ -1923,7 +1923,7 @@
       "kind": "ordinary",
       "value": "A",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 465,
@@ -1940,7 +1940,7 @@
       "kind": "ordinary",
       "value": "en",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 470,
@@ -1957,7 +1957,7 @@
       "kind": "ordinary",
       "value": "zu",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 475,
@@ -1974,7 +1974,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 476,
@@ -1991,7 +1991,7 @@
       "kind": "ordinary",
       "value": "ver?",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 481,
@@ -2008,7 +2008,7 @@
       "kind": "ordinary",
       "value": "mög/lich",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 486,
@@ -2025,7 +2025,7 @@
       "kind": "ordinary",
       "value": "die",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 488,
@@ -2042,7 +2042,7 @@
       "kind": "ordinary",
       "value": "en",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 493,
@@ -2059,7 +2059,7 @@
       "kind": "ordinary",
       "value": "t",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 495,
@@ -2076,7 +2076,7 @@
       "kind": "ordinary",
       "value": "weder",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 500,
@@ -2093,7 +2093,7 @@
       "kind": "ordinary",
       "value": "dem",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 505,
@@ -2110,7 +2110,7 @@
       "kind": "ordinary",
       "value": "Krieg",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 510,
@@ -2127,7 +2127,7 @@
       "kind": "ordinary",
       "value": "ein",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 515,
@@ -2144,7 +2144,7 @@
       "kind": "ordinary",
       "value": "ver",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 520,
@@ -2161,7 +2161,7 @@
       "kind": "ordinary",
       "value": "gn",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 525,
@@ -2178,7 +2178,7 @@
       "kind": "ordinary",
       "value": "u",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 530,
@@ -2195,7 +2195,7 @@
       "kind": "ordinary",
       "value": "gl",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 535,
@@ -2212,7 +2212,7 @@
       "kind": "ordinary",
       "value": "ich",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 540,
@@ -2229,7 +2229,7 @@
       "kind": "ordinary",
       "value": "re",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 545,
@@ -2246,7 +2246,7 @@
       "kind": "ordinary",
       "value": "als",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 547,
@@ -2263,7 +2263,7 @@
       "kind": "ordinary",
       "value": "die",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 549,
@@ -2280,7 +2280,7 @@
       "kind": "ordinary",
       "value": "der",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 554,
@@ -2297,7 +2297,7 @@
       "kind": "ordinary",
       "value": "mahl",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 559,
@@ -2314,7 +2314,7 @@
       "kind": "ordinary",
       "value": "ig",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 564,
@@ -2331,7 +2331,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 565,
@@ -2348,7 +2348,7 @@
       "kind": "ordinary",
       "value": "ge",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 570,
@@ -2365,7 +2365,7 @@
       "kind": "ordinary",
       "value": "st",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 575,
@@ -2382,7 +2382,7 @@
       "kind": "ordinary",
       "value": "al",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 580,
@@ -2399,7 +2399,7 @@
       "kind": "ordinary",
       "value": "t",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 582,
@@ -2416,7 +2416,7 @@
       "kind": "ordinary",
       "value": "ist",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 587,
@@ -2433,7 +2433,7 @@
       "kind": "ordinary",
       "value": "geben",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 592,
@@ -2450,7 +2450,7 @@
       "kind": "ordinary",
       "value": "oder",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 594,
@@ -2467,7 +2467,7 @@
       "kind": "ordinary",
       "value": "uns",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 599,
@@ -2484,7 +2484,7 @@
       "kind": "ordinary",
       "value": "ein",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 604,
@@ -2501,7 +2501,7 @@
       "kind": "ordinary",
       "value": "er",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 609,
@@ -2518,7 +2518,7 @@
       "kind": "ordinary",
       "value": "spr",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 614,
@@ -2535,7 +2535,7 @@
       "kind": "ordinary",
       "value": "s",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 619,
@@ -2552,7 +2552,7 @@
       "kind": "ordinary",
       "value": "lich",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 624,
@@ -2569,7 +2569,7 @@
       "kind": "ordinary",
       "value": "französisch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 626,
@@ -2586,7 +2586,7 @@
       "kind": "ordinary",
       "value": "hab",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 628,
@@ -2603,7 +2603,7 @@
       "kind": "ordinary",
       "value": "armee",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 630,
@@ -2637,7 +2637,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 633,
@@ -2654,7 +2654,7 @@
       "kind": "ordinary",
       "value": "n",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 635,
@@ -2671,7 +2671,7 @@
       "kind": "ordinary",
       "value": "or",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 640,
@@ -2688,7 +2688,7 @@
       "kind": "ordinary",
       "value": "ab",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 645,
@@ -2705,7 +2705,7 @@
       "kind": "ordinary",
       "value": "le",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 650,
@@ -2722,7 +2722,7 @@
       "kind": "ordinary",
       "value": "n",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 652,
@@ -2739,7 +2739,7 @@
       "kind": "ordinary",
       "value": "fried",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 657,
@@ -2756,7 +2756,7 @@
       "kind": "ordinary",
       "value": "ver",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 662,
@@ -2773,7 +2773,7 @@
       "kind": "switch",
       "value": "[A→B]",
       "grade": "H",
-      "basis": "1752 marked codes for punctuation, dates and table changes (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1), 800 column: 876 indic. Clav. Secundam"
     },
     {
       "offset": 665,
@@ -2790,7 +2790,7 @@
       "kind": "ordinary",
       "value": "schaff",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 670,
@@ -2807,7 +2807,7 @@
       "kind": "ordinary",
       "value": "könnte",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 675,
@@ -2824,7 +2824,7 @@
       "kind": "control",
       "value": ",",
       "grade": "H",
-      "basis": "1752 marked codes for punctuation, dates and table changes (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3), 800 column: 870 coma"
     },
     {
       "offset": 678,
@@ -2841,7 +2841,7 @@
       "kind": "ordinary",
       "value": "und",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 680,
@@ -2858,7 +2858,7 @@
       "kind": "ordinary",
       "value": "gi",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 685,
@@ -2875,7 +2875,7 @@
       "kind": "ordinary",
       "value": "eb",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 690,
@@ -2892,7 +2892,7 @@
       "kind": "ordinary",
       "value": "t",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 695,
@@ -2909,7 +2909,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 696,
@@ -2926,7 +2926,7 @@
       "kind": "ordinary",
       "value": "mir",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 701,
@@ -2943,7 +2943,7 @@
       "kind": "ordinary",
       "value": "zu",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 706,
@@ -2960,7 +2960,7 @@
       "kind": "ordinary",
       "value": "mahl",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 708,
@@ -2977,7 +2977,7 @@
       "kind": "ordinary",
       "value": "gemäß",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 710,
@@ -2994,7 +2994,7 @@
       "kind": "ordinary",
       "value": "zi",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 712,
@@ -3011,7 +3011,7 @@
       "kind": "ordinary",
       "value": "und",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 714,
@@ -3028,7 +3028,7 @@
       "kind": "ordinary",
       "value": "den",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 719,
@@ -3045,7 +3045,7 @@
       "kind": "ordinary",
       "value": "no",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 724,
@@ -3062,7 +3062,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 725,
@@ -3079,7 +3079,7 @@
       "kind": "ordinary",
       "value": "ge/gn/gen",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 730,
@@ -3096,7 +3096,7 @@
       "kind": "ordinary",
       "value": "n",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 735,
@@ -3113,7 +3113,7 @@
       "kind": "ordinary",
       "value": "Euer",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 740,
@@ -3130,7 +3130,7 @@
       "kind": "ordinary",
       "value": "ho",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 745,
@@ -3147,7 +3147,7 @@
       "kind": "ordinary",
       "value": "ch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 750,
@@ -3164,7 +3164,7 @@
       "kind": "ordinary",
       "value": "geb",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 755,
@@ -3181,7 +3181,7 @@
       "kind": "ordinary",
       "value": "o",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 760,
@@ -3198,7 +3198,7 @@
       "kind": "ordinary",
       "value": "H",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 765,
@@ -3215,7 +3215,7 @@
       "kind": "ordinary",
       "value": "r",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 770,
@@ -3232,7 +3232,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 771,
@@ -3249,7 +3249,7 @@
       "kind": "ordinary",
       "value": "n",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 776,
@@ -3266,7 +3266,7 @@
       "kind": "ordinary",
       "value": "und",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 778,
@@ -3283,7 +3283,7 @@
       "kind": "ordinary",
       "value": "von",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 783,
@@ -3300,7 +3300,7 @@
       "kind": "ordinary",
       "value": "den",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 788,
@@ -3317,7 +3317,7 @@
       "kind": "ordinary",
       "value": "wa",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 793,
@@ -3351,7 +3351,7 @@
       "kind": "ordinary",
       "value": "daß",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 800,
@@ -3368,7 +3368,7 @@
       "kind": "ordinary",
       "value": "genau",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 802,
@@ -3385,7 +3385,7 @@
       "kind": "ordinary",
       "value": "daß",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 804,
@@ -3402,7 +3402,7 @@
       "kind": "ordinary",
       "value": "qua",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 806,
@@ -3419,7 +3419,7 @@
       "kind": "ordinary",
       "value": "den",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 811,
@@ -3436,7 +3436,7 @@
       "kind": "ordinary",
       "value": "französ",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 816,
@@ -3453,7 +3453,7 @@
       "kind": "ordinary",
       "value": "bo",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 818,
@@ -3470,7 +3470,7 @@
       "kind": "ordinary",
       "value": "t",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 823,
@@ -3487,7 +3487,7 @@
       "kind": "ordinary",
       "value": "schaff",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 828,
@@ -3504,7 +3504,7 @@
       "kind": "ordinary",
       "value": "te/ten/ter",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 833,
@@ -3521,7 +3521,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 834,
@@ -3538,7 +3538,7 @@
       "kind": "ordinary",
       "value": "fa",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 839,
@@ -3555,7 +3555,7 @@
       "kind": "ordinary",
       "value": "st",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 844,
@@ -3572,7 +3572,7 @@
       "kind": "ordinary",
       "value": "zu",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 849,
@@ -3589,7 +3589,7 @@
       "kind": "ordinary",
       "value": "gl",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 854,
@@ -3606,7 +3606,7 @@
       "kind": "ordinary",
       "value": "ei",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 859,
@@ -3623,7 +3623,7 @@
       "kind": "ordinary",
       "value": "ch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 861,
@@ -3640,7 +3640,7 @@
       "kind": "ordinary",
       "value": "zeit",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 866,
@@ -3657,7 +3657,7 @@
       "kind": "ordinary",
       "value": "ge/gn/gen",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 871,
@@ -3674,7 +3674,7 @@
       "kind": "ordinary",
       "value": "mach",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 876,
@@ -3691,7 +3691,7 @@
       "kind": "ordinary",
       "value": "genau",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 878,
@@ -3708,7 +3708,7 @@
       "kind": "ordinary",
       "value": "gl",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 883,
@@ -3725,7 +3725,7 @@
       "kind": "ordinary",
       "value": "ei",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 888,
@@ -3742,7 +3742,7 @@
       "kind": "ordinary",
       "value": "ch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 893,
@@ -3759,7 +3759,7 @@
       "kind": "ordinary",
       "value": "fo",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 898,
@@ -3776,7 +3776,7 @@
       "kind": "ordinary",
       "value": "r",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 903,
@@ -3793,7 +3793,7 @@
       "kind": "ordinary",
       "value": "mi",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 908,
@@ -3810,7 +3810,7 @@
       "kind": "ordinary",
       "value": "gn/gen",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 913,
@@ -3827,7 +3827,7 @@
       "kind": "ordinary",
       "value": "aus",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 918,
@@ -3844,7 +3844,7 @@
       "kind": "ordinary",
       "value": "ser",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 923,
@@ -3861,7 +3861,7 @@
       "kind": "ordinary",
       "value": "ung",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 928,
@@ -3878,7 +3878,7 @@
       "kind": "ordinary",
       "value": "seh[r]",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 933,
@@ -3895,7 +3895,7 @@
       "kind": "ordinary",
       "value": "groß",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 938,
@@ -3912,7 +3912,7 @@
       "kind": "ordinary",
       "value": "hof",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 940,
@@ -3929,7 +3929,7 @@
       "kind": "ordinary",
       "value": "nu",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 945,
@@ -3946,7 +3946,7 @@
       "kind": "ordinary",
       "value": "er",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 947,
@@ -3963,7 +3963,7 @@
       "kind": "control",
       "value": ",",
       "grade": "H",
-      "basis": "1752 marked codes for punctuation, dates and table changes (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3), 800 column: 841 coma"
     },
     {
       "offset": 950,
@@ -3980,7 +3980,7 @@
       "kind": "ordinary",
       "value": "daß",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 952,
@@ -3997,7 +3997,7 @@
       "kind": "ordinary",
       "value": "scho",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 957,
@@ -4014,7 +4014,7 @@
       "kind": "ordinary",
       "value": "n",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 962,
@@ -4031,7 +4031,7 @@
       "kind": "ordinary",
       "value": "mi",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 967,
@@ -4048,7 +4048,7 @@
       "kind": "ordinary",
       "value": "no",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 972,
@@ -4065,7 +4065,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 973,
@@ -4082,7 +4082,7 @@
       "kind": "ordinary",
       "value": "r",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 978,
@@ -4099,7 +4099,7 @@
       "kind": "ordinary",
       "value": "ca",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 983,
@@ -4116,7 +4116,7 @@
       "kind": "ordinary",
       "value": "an",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 985,
@@ -4133,7 +4133,7 @@
       "kind": "ordinary",
       "value": "Spanien",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 990,
@@ -4150,7 +4150,7 @@
       "kind": "ordinary",
       "value": "übr",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 995,
@@ -4167,7 +4167,7 @@
       "kind": "ordinary",
       "value": "laß",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1000,
@@ -4184,7 +4184,7 @@
       "kind": "ordinary",
       "value": "würde",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1002,
@@ -4201,7 +4201,7 @@
       "kind": "ordinary",
       "value": "wo",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1007,
@@ -4218,7 +4218,7 @@
       "kind": "ordinary",
       "value": "zu",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1012,
@@ -4235,7 +4235,7 @@
       "kind": "ordinary",
       "value": "sich",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1017,
@@ -4252,7 +4252,7 @@
       "kind": "ordinary",
       "value": "Frankreich",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1022,
@@ -4269,7 +4269,7 @@
       "kind": "ordinary",
       "value": "berg",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1027,
@@ -4286,7 +4286,7 @@
       "kind": "ordinary",
       "value": "i",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1032,
@@ -4303,7 +4303,7 @@
       "kind": "ordinary",
       "value": "t",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1037,
@@ -4320,7 +4320,7 @@
       "kind": "ordinary",
       "value": "zi",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1039,
@@ -4337,7 +4337,7 @@
       "kind": "ordinary",
       "value": "ge",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1044,
@@ -4354,7 +4354,7 @@
       "kind": "ordinary",
       "value": "un",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1046,
@@ -4371,7 +4371,7 @@
       "kind": "ordinary",
       "value": "bund/brud?",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1051,
@@ -4388,7 +4388,7 @@
       "kind": "ordinary",
       "value": "woll",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1056,
@@ -4405,7 +4405,7 @@
       "kind": "ordinary",
       "value": "leicht",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1061,
@@ -4422,7 +4422,7 @@
       "kind": "ordinary",
       "value": "hand",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1063,
@@ -4439,7 +4439,7 @@
       "kind": "ordinary",
       "value": "t",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1068,
@@ -4456,7 +4456,7 @@
       "kind": "ordinary",
       "value": "schluß",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1073,
@@ -4473,7 +4473,7 @@
       "kind": "ordinary",
       "value": "wird",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1078,
@@ -4490,7 +4490,7 @@
       "kind": "ordinary",
       "value": "al",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1083,
@@ -4507,7 +4507,7 @@
       "kind": "ordinary",
       "value": "da",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1085,
@@ -4524,7 +4524,7 @@
       "kind": "ordinary",
       "value": "n",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1090,
@@ -4541,7 +4541,7 @@
       "kind": "ordinary",
       "value": "dies",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1092,
@@ -4558,7 +4558,7 @@
       "kind": "ordinary",
       "value": "hof",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1094,
@@ -4575,7 +4575,7 @@
       "kind": "ordinary",
       "value": "an",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1096,
@@ -4592,7 +4592,7 @@
       "kind": "ordinary",
       "value": "den",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1101,
@@ -4609,7 +4609,7 @@
       "kind": "ordinary",
       "value": "krieg",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1106,
@@ -4626,7 +4626,7 @@
       "kind": "ordinary",
       "value": "mit",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1108,
@@ -4643,7 +4643,7 @@
       "kind": "ordinary",
       "value": "theil",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1113,
@@ -4660,7 +4660,7 @@
       "kind": "ordinary",
       "value": "ne",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1118,
@@ -4677,7 +4677,7 @@
       "kind": "ordinary",
       "value": "H",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1123,
@@ -4694,7 +4694,7 @@
       "kind": "ordinary",
       "value": "me",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1125,
@@ -4711,7 +4711,7 @@
       "kind": "ordinary",
       "value": "und",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1127,
@@ -4728,7 +4728,7 @@
       "kind": "ordinary",
       "value": "an",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1129,
@@ -4745,7 +4745,7 @@
       "kind": "ordinary",
       "value": "durch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1134,
@@ -4762,7 +4762,7 @@
       "kind": "ordinary",
       "value": "den",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1139,
@@ -4779,7 +4779,7 @@
       "kind": "ordinary",
       "value": "ü",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1144,
@@ -4796,7 +4796,7 @@
       "kind": "ordinary",
       "value": "n",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1149,
@@ -4813,7 +4813,7 @@
       "kind": "ordinary",
       "value": "und",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1154,
@@ -4830,7 +4830,7 @@
       "kind": "ordinary",
       "value": "Preuss",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1159,
@@ -4847,7 +4847,7 @@
       "kind": "ordinary",
       "value": "n",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1164,
@@ -4864,7 +4864,7 @@
       "kind": "ordinary",
       "value": "hof",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1166,
@@ -4881,7 +4881,7 @@
       "kind": "ordinary",
       "value": "in",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1171,
@@ -4898,7 +4898,7 @@
       "kind": "ordinary",
       "value": "seh[r]",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1176,
@@ -4915,7 +4915,7 @@
       "kind": "ordinary",
       "value": "groß",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1181,
@@ -4932,7 +4932,7 @@
       "kind": "ordinary",
       "value": "ver",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1186,
@@ -4949,7 +4949,7 @@
       "kind": "ordinary",
       "value": "le",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1191,
@@ -4966,7 +4966,7 @@
       "kind": "ordinary",
       "value": "ge",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1196,
@@ -4983,7 +4983,7 @@
       "kind": "ordinary",
       "value": "heit",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1201,
@@ -5000,7 +5000,7 @@
       "kind": "ordinary",
       "value": "se",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1206,
@@ -5017,7 +5017,7 @@
       "kind": "ordinary",
       "value": "t",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1211,
@@ -5034,7 +5034,7 @@
       "kind": "ordinary",
       "value": "z",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1216,
@@ -5051,7 +5051,7 @@
       "kind": "ordinary",
       "value": "hand",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1218,
@@ -5068,7 +5068,7 @@
       "kind": "ordinary",
       "value": "würde",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1220,
@@ -5085,7 +5085,7 @@
       "kind": "control",
       "value": ".",
       "grade": "H",
-      "basis": "1752 marked codes for punctuation, dates and table changes (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3), 800 column: 897 punctum"
     },
     {
       "offset": 1223,
@@ -5102,7 +5102,7 @@
       "kind": "ordinary",
       "value": "da",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1225,
@@ -5119,7 +5119,7 @@
       "kind": "ordinary",
       "value": "ich",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1230,
@@ -5136,7 +5136,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1231,
@@ -5153,7 +5153,7 @@
       "kind": "ordinary",
       "value": "nu",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1236,
@@ -5170,7 +5170,7 @@
       "kind": "ordinary",
       "value": "Euer",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1241,
@@ -5187,7 +5187,7 @@
       "kind": "ordinary",
       "value": "ho",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1246,
@@ -5204,7 +5204,7 @@
       "kind": "ordinary",
       "value": "ch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1251,
@@ -5221,7 +5221,7 @@
       "kind": "ordinary",
       "value": "geb",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1256,
@@ -5238,7 +5238,7 @@
       "kind": "ordinary",
       "value": "o",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1261,
@@ -5255,7 +5255,7 @@
       "kind": "ordinary",
       "value": "H",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1266,
@@ -5272,7 +5272,7 @@
       "kind": "ordinary",
       "value": "r",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1271,
@@ -5289,7 +5289,7 @@
       "kind": "ordinary",
       "value": "n",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1276,
@@ -5306,7 +5306,7 @@
       "kind": "ordinary",
       "value": "durch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1281,
@@ -5323,7 +5323,7 @@
       "kind": "ordinary",
       "value": "den",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1286,
@@ -5340,7 +5340,7 @@
       "kind": "ordinary",
       "value": "Courier",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1291,
@@ -5357,7 +5357,7 @@
       "kind": "ordinary",
       "value": "zi",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1293,
@@ -5374,7 +5374,7 @@
       "kind": "ordinary",
       "value": "n",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1298,
@@ -5391,7 +5391,7 @@
       "kind": "ordinary",
       "value": "er",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1300,
@@ -5408,7 +5408,7 @@
       "kind": "ordinary",
       "value": "zu",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1305,
@@ -5425,7 +5425,7 @@
       "kind": "ordinary",
       "value": "erst",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1310,
@@ -5442,7 +5442,7 @@
       "kind": "ordinary",
       "value": "at",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1315,
@@ -5459,7 +5459,7 @@
       "kind": "ordinary",
       "value": "te/ten/ter",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1320,
@@ -5476,7 +5476,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1321,
@@ -5493,7 +5493,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1322,
@@ -5510,7 +5510,7 @@
       "kind": "ordinary",
       "value": "den",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1327,
@@ -5527,7 +5527,7 @@
       "kind": "ordinary",
       "value": "fr/Bericht",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1332,
@@ -5544,7 +5544,7 @@
       "kind": "ordinary",
       "value": "mit",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1334,
@@ -5561,7 +5561,7 @@
       "kind": "ordinary",
       "value": "viel",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1339,
@@ -5578,7 +5578,7 @@
       "kind": "ordinary",
       "value": "m",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1344,
@@ -5595,7 +5595,7 @@
       "kind": "ordinary",
       "value": "ver",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3)"
     },
     {
       "offset": 1349,
@@ -5612,7 +5612,7 @@
       "kind": "switch",
       "value": "[B→A]",
       "grade": "H",
-      "basis": "1752 marked codes for punctuation, dates and table changes (R1695/R1698)"
+      "basis": "1752 Clavis Secunda, numeric (R1698 I7486 P3), 800 column: 899 indic. Clav. Primam"
     },
     {
       "offset": 1352,
@@ -5629,7 +5629,7 @@
       "kind": "ordinary",
       "value": "lan/lang/lau?",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1357,
@@ -5646,7 +5646,7 @@
       "kind": "ordinary",
       "value": "en",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1362,
@@ -5663,7 +5663,7 @@
       "kind": "ordinary",
       "value": "en",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1367,
@@ -5680,7 +5680,7 @@
       "kind": "ordinary",
       "value": "t",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1369,
@@ -5697,7 +5697,7 @@
       "kind": "ordinary",
       "value": "französisch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1371,
@@ -5714,7 +5714,7 @@
       "kind": "ordinary",
       "value": "ren",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1373,
@@ -5731,7 +5731,7 @@
       "kind": "ordinary",
       "value": "re",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1375,
@@ -5748,7 +5748,7 @@
       "kind": "ordinary",
       "value": "französisch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1377,
@@ -5765,7 +5765,7 @@
       "kind": "ordinary",
       "value": "für/sten",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1379,
@@ -5782,7 +5782,7 @@
       "kind": "ordinary",
       "value": "eh",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1384,
@@ -5799,7 +5799,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1385,
@@ -5816,7 +5816,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1386,
@@ -5833,7 +5833,7 @@
       "kind": "ordinary",
       "value": "so",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1391,
@@ -5850,7 +5850,7 @@
       "kind": "ordinary",
       "value": "brauch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1396,
@@ -5867,7 +5867,7 @@
       "kind": "ordinary",
       "value": "in",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1401,
@@ -5884,7 +5884,7 @@
       "kind": "ordinary",
       "value": "des/den",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1403,
@@ -5901,7 +5901,7 @@
       "kind": "ordinary",
       "value": "nicht",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1408,
@@ -5918,7 +5918,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1409,
@@ -5935,7 +5935,7 @@
       "kind": "ordinary",
       "value": "be",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1414,
@@ -5952,7 +5952,7 @@
       "kind": "ordinary",
       "value": "u",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1419,
@@ -5969,7 +5969,7 @@
       "kind": "ordinary",
       "value": "er",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1424,
@@ -5986,7 +5986,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1425,
@@ -6003,7 +6003,7 @@
       "kind": "ordinary",
       "value": "es",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1430,
@@ -6020,7 +6020,7 @@
       "kind": "ordinary",
       "value": "ein",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1435,
@@ -6037,7 +6037,7 @@
       "kind": "ordinary",
       "value": "rath",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1440,
@@ -6054,7 +6054,7 @@
       "kind": "ordinary",
       "value": "als",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1442,
@@ -6071,7 +6071,7 @@
       "kind": "ordinary",
       "value": "in",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1447,
@@ -6088,7 +6088,7 @@
       "kind": "ordinary",
       "value": "dem",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1452,
@@ -6105,7 +6105,7 @@
       "kind": "ordinary",
       "value": "ber",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1457,
@@ -6122,7 +6122,7 @@
       "kind": "ordinary",
       "value": "ei",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1462,
@@ -6139,7 +6139,7 @@
       "kind": "ordinary",
       "value": "t",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1464,
@@ -6156,7 +6156,7 @@
       "kind": "ordinary",
       "value": "s",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1469,
@@ -6173,7 +6173,7 @@
       "kind": "ordinary",
       "value": "ein",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1474,
@@ -6190,7 +6190,7 @@
       "kind": "ordinary",
       "value": "ge",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1479,
@@ -6207,7 +6207,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1480,
@@ -6224,7 +6224,7 @@
       "kind": "ordinary",
       "value": "sch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1485,
@@ -6241,7 +6241,7 @@
       "kind": "ordinary",
       "value": "la",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1490,
@@ -6258,7 +6258,7 @@
       "kind": "ordinary",
       "value": "gen",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1495,
@@ -6275,7 +6275,7 @@
       "kind": "ordinary",
       "value": "en",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1500,
@@ -6292,7 +6292,7 @@
       "kind": "ordinary",
       "value": "we?",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1505,
@@ -6309,7 +6309,7 @@
       "kind": "ordinary",
       "value": "eg",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1510,
@@ -6326,7 +6326,7 @@
       "kind": "ordinary",
       "value": "fo",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1515,
@@ -6343,7 +6343,7 @@
       "kind": "ordinary",
       "value": "r",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1517,
@@ -6360,7 +6360,7 @@
       "kind": "ordinary",
       "value": "t",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1522,
@@ -6377,7 +6377,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1523,
@@ -6394,7 +6394,7 @@
       "kind": "ordinary",
       "value": "zu/zeig",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1528,
@@ -6411,7 +6411,7 @@
       "kind": "ordinary",
       "value": "fa",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1533,
@@ -6428,7 +6428,7 @@
       "kind": "ordinary",
       "value": "h",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1538,
@@ -6445,7 +6445,7 @@
       "kind": "ordinary",
       "value": "ren",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1543,
@@ -6462,7 +6462,7 @@
       "kind": "ordinary",
       "value": "und",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1548,
@@ -6479,7 +6479,7 @@
       "kind": "ordinary",
       "value": "den",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1553,
@@ -6496,7 +6496,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1554,
@@ -6513,7 +6513,7 @@
       "kind": "ordinary",
       "value": "wa",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1559,
@@ -6530,7 +6530,7 @@
       "kind": "ordinary",
       "value": "l",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1564,
@@ -6547,7 +6547,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1565,
@@ -6564,7 +6564,7 @@
       "kind": "ordinary",
       "value": "so",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1570,
@@ -6581,7 +6581,7 @@
       "kind": "ordinary",
       "value": "viel",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1575,
@@ -6598,7 +6598,7 @@
       "kind": "ordinary",
       "value": "nur",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1580,
@@ -6615,7 +6615,7 @@
       "kind": "ordinary",
       "value": "im",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1585,
@@ -6632,7 +6632,7 @@
       "kind": "ordinary",
       "value": "mer",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1590,
@@ -6649,7 +6649,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1591,
@@ -6666,7 +6666,7 @@
       "kind": "ordinary",
       "value": "mög/lich",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1596,
@@ -6683,7 +6683,7 @@
       "kind": "ordinary",
       "value": "durch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1598,
@@ -6700,7 +6700,7 @@
       "kind": "ordinary",
       "value": "der",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1603,
@@ -6717,7 +6717,7 @@
       "kind": "ordinary",
       "value": "o",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1608,
@@ -6734,7 +6734,7 @@
       "kind": "ordinary",
       "value": "man",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1610,
@@ -6751,7 +6751,7 @@
       "kind": "ordinary",
       "value": "sch",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1615,
@@ -6768,7 +6768,7 @@
       "kind": "ordinary",
       "value": "i",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1620,
@@ -6785,7 +6785,7 @@
       "kind": "ordinary",
       "value": "ck",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1625,
@@ -6802,7 +6802,7 @@
       "kind": "ordinary",
       "value": "te",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1630,
@@ -6819,7 +6819,7 @@
       "kind": "ordinary",
       "value": "s",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1635,
@@ -6836,7 +6836,7 @@
       "kind": "ordinary",
       "value": "ben",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1640,
@@ -6853,7 +6853,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1641,
@@ -6870,7 +6870,7 @@
       "kind": "ordinary",
       "value": "eh",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1646,
@@ -6887,7 +6887,7 @@
       "kind": "ordinary",
       "value": "mer",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1651,
@@ -6904,7 +6904,7 @@
       "kind": "ordinary",
       "value": "zu/zeig",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1656,
@@ -6921,7 +6921,7 @@
       "kind": "ordinary",
       "value": "wei",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1661,
@@ -6938,7 +6938,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1662,
@@ -6955,7 +6955,7 @@
       "kind": "ordinary",
       "value": "er",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1667,
@@ -6972,7 +6972,7 @@
       "kind": "ordinary",
       "value": "en",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1672,
@@ -6989,7 +6989,7 @@
       "kind": "ordinary",
       "value": "ver",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1677,
@@ -7006,7 +7006,7 @@
       "kind": "ordinary",
       "value": "trau",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1682,
@@ -7023,7 +7023,7 @@
       "kind": "ordinary",
       "value": "en",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1687,
@@ -7040,7 +7040,7 @@
       "kind": "ordinary",
       "value": "aus",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1692,
@@ -7057,7 +7057,7 @@
       "kind": "ordinary",
       "value": "ser",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1697,
@@ -7074,7 +7074,7 @@
       "kind": "ordinary",
       "value": "ung",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1702,
@@ -7091,7 +7091,7 @@
       "kind": "ordinary",
       "value": "zu",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1707,
@@ -7108,7 +7108,7 @@
       "kind": "ordinary",
       "value": "ver",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1712,
@@ -7125,7 +7125,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1713,
@@ -7142,7 +7142,7 @@
       "kind": "ordinary",
       "value": "mög/lich",
       "grade": "H",
-      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
+      "basis": "1752 Clavis Prima, numeric (R1698 I7484 P1)"
     },
     {
       "offset": 1718,
@@ -7159,7 +7159,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1719,
@@ -7176,7 +7176,7 @@
       "kind": "null",
       "value": "",
       "grade": "H",
-      "basis": "1752 instructions (R1696/R1697): standalone 8 is a null"
+      "basis": "1752 Nota, items 2 and 4 (R1696 I7480 P1): 8 is the errans (null) among two-digit numbers"
     },
     {
       "offset": 1720,
@@ -7206,6 +7206,6 @@
       "tables": 378,
       "instructions_and_marked_codes": 39
     },
-    "note": "H = ordinary unit in the 1752 tables, or a null, punctuation mark or table switch defined by the 1752 instructions and marked-code lists (see each token's basis); M = absent from the working key or malformed; repairs are I and stay in repair-cases.json"
+    "note": "H = ordinary unit in the 1752 tables, or a null per the 1752 Nota, or a punctuation mark or table switch listed in the numeric tables' 800 column (each token's basis names the DECODE record and image); M = absent from the working key or malformed; repairs are I and stay in repair-cases.json"
   }
 }
