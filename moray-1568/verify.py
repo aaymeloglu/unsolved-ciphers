@@ -60,25 +60,18 @@ def grades(key, lines):
 def permutation_z(key, lines, n=1000, seed=0):
     """Dictionary-segmentation score of the reading under the key, against the same score under
     keys that shuffle the letter values among the letter glyphs (word-signs fixed)."""
+    from cipherkit.segment import Segmenter
     try:
-        from cipherkit import corpora
-        raw = corpora.text("sco")
+        sc = Segmenter.from_corpus("sco")
     except Exception as e:  # corpus not fetched
         return None, f"no Scots corpus ({e.__class__.__name__}); run: python -m cipherkit.corpora fetch sco"
-    from solver import Scorer
-    sc = Scorer(raw)
     letters = {k: v["value"] for k, v in key.items() if not v["value"].startswith("[")}
     glyphs = list(letters)
     chunks = [grp for _, groups in lines for grp in groups]
 
     def score(m):
-        tot = 0.0
-        for grp in chunks:
-            s = "".join(m.get(t, "#") for t in grp)
-            for piece in s.split("#"):
-                if piece:
-                    tot += sc.segscore(piece.replace("?", "q"))
-        return tot
+        # Word-signs become "#" and break a chunk; the unread "?" is scored as a q.
+        return sc.score_chunks(["".join(m.get(t, "#") for t in grp).replace("?", "q") for grp in chunks])
 
     obs = score(letters)
     rnd = random.Random(seed)

@@ -11,7 +11,7 @@ is that scorer, written once. Its arithmetic is the Moray campaign's `Scorer`
   built on the corpus letters with spaces removed;
 - a chunk scores the best sum over splits into pieces of at most `max_word` letters.
 
-Scores are log10 probabilities, so a chunk of real prose scores tens of units above the same
+Scores are log10 probabilities; 40 words of real prose score a few hundred units above the same
 letters shuffled (`test_real_split_beats_shuffled`), which is the margin an annealer needs.
 """
 from __future__ import annotations
@@ -20,6 +20,7 @@ import collections
 import math
 import re
 
+ALPHABET = frozenset("abcdefghijklmnopqrstuvwxyz")
 _WORD = re.compile(r"[a-z]+")
 
 
@@ -46,7 +47,7 @@ class Segmenter:
         self.gram_total = sum(self.grams.values())
         self.oov = oov
         self.max_word = max_word
-        self.alphabet = frozenset(letters)
+        self.alphabet = ALPHABET
         self._gram_cache: dict[str, float] = {}
         self._score_cache: dict[str, float] = {}
 

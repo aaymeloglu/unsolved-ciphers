@@ -4,83 +4,25 @@
 Scores a glyph->letter map by the best segmentation of each gap-delimited chunk into corpus
 words (word unigram log-probabilities; unknown words fall back to a character 4-gram with a
 penalty), with a penalty for two glyphs sharing a letter. Moves: reassign one glyph, or swap
-two. Word-signs are fixed to "#" and act as breaks.
+two. Word-signs are fixed to "#" and act as breaks. The scorer is `cipherkit.segment.Segmenter`.
 
     python3 solver.py TRANSCRIPTION CORPUS RESTARTS SEED DUP_PENALTY [FIX]
 
-FIX is "glyph=letter,glyph=#,..." for values to hold. Standard library only. The corpus used
+FIX is "glyph=letter,glyph=#,..." for values to hold. The corpus used
 in the campaign was a 1.3M-word text of CSP Scotland vol. 2 (Bain 1900), Haynes 1740,
 Stevenson 1837 and HMC Salisbury i; cipherkit's `sco` corpus (Diurnal of Occurrents, Knox)
-gives the same behaviour and is what verify.py uses.
+gives the same behaviour and is what verify.py uses. Standard library plus cipherkit.
 """
-import collections
 import json
 import math
+import os
 import random
-import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from cipherkit.segment import Segmenter  # noqa: E402
+
 LET = "abcdefghiklmnopqrstuvwy"
-
-
-class Scorer:
-    def __init__(self, raw, order=4, oov=-6.0):
-        raw = raw.lower()
-        words = re.findall(r"[a-z]+", raw)
-        wc = collections.Counter(words)
-        tot = sum(wc.values())
-        self.wl = {w: math.log10(c / tot) for w, c in wc.items() if c >= 2}
-        txt = re.sub(r"[^a-z]", "", raw)
-        self.N = order
-        self.C = collections.Counter(txt[i:i + order] for i in range(len(txt) - order + 1))
-        self.NT = sum(self.C.values())
-        self.oov = oov
-        self.cache = {}
-
-    def lp(self, g):
-        v = self.cache.get(g)
-        if v is None:
-            v = math.log10((self.C.get(g, 0) + 0.5) / self.NT)
-            self.cache[g] = v
-        return v
-
-    def wordscore(self, w):
-        v = self.wl.get(w)
-        if v is not None:
-            return v
-        return self.oov + sum(self.lp(w[i:i + self.N]) for i in range(len(w) - self.N + 1))
-
-    def segscore(self, s):
-        n = len(s)
-        best = [-1e9] * (n + 1)
-        best[0] = 0.0
-        for i in range(1, n + 1):
-            for j in range(max(0, i - 14), i):
-                if best[j] < -1e8:
-                    continue
-                v = best[j] + self.wordscore(s[j:i])
-                if v > best[i]:
-                    best[i] = v
-        return best[n]
-
-    def segment(self, s):
-        n = len(s)
-        best = [-1e9] * (n + 1)
-        back = [0] * (n + 1)
-        best[0] = 0.0
-        for i in range(1, n + 1):
-            for j in range(max(0, i - 14), i):
-                if best[j] < -1e8:
-                    continue
-                v = best[j] + self.wordscore(s[j:i])
-                if v > best[i]:
-                    best[i] = v
-                    back[i] = j
-        out, i = [], n
-        while i > 0:
-            out.append(s[back[i]:i])
-            i = back[i]
-        return " ".join(reversed(out))
 
 
 def read_chunks(path):
@@ -100,17 +42,13 @@ def main():
     chunks = read_chunks(tpath)
     syms = sorted({t for c in chunks for t in c})
     free = [s for s in syms if s not in fix]
-    sc = Scorer(open(cpath).read())
+    sc = Segmenter(open(cpath).read())
 
     def render(m, c):
         return "".join(m[t] for t in c)
 
     def score(m):
-        tot = 0.0
-        for c in chunks:
-            for piece in render(m, c).split("#"):
-                if piece:
-                    tot += sc.segscore(piece)
+        tot = sc.score_chunks([render(m, c) for c in chunks])
         vals = [v for v in m.values() if v != "#"]
         return tot - pen * (len(vals) - len(set(vals)))
 
@@ -143,7 +81,7 @@ def main():
         return best, bm
 
     def show(m):
-        return " | ".join(sc.segment(p) if "#" not in p else p for c in chunks for p in [render(m, c)])
+        return " | ".join(" ".join(sc.segment(p)) if "#" not in p else p for c in chunks for p in [render(m, c)])
 
     res = []
     for r in range(nrest):
