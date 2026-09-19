@@ -18,6 +18,7 @@ import re
 from pathlib import Path
 
 from _ferdinand import build as build_ferdinand
+from _moray import build as build_moray
 
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
@@ -530,6 +531,14 @@ def index():
     <p>With the 37 cipher words and the key. <a href="{REPO}/tree/main/forster-1644">Write-up, solver and verification</a>.</p>
   </div>
   <div class="entry">
+    <h2><a href="moray-reading.html">The Regent's postscript</a></h2>
+    <p class="where">Moray to John Wood, Edinburgh, 13 July 1568 · BL Add MS 32091 f. 213v</p>
+    <p class="status">Substantially deciphered</p>
+    <p>Four ciphered lines at the foot of a letter to the Regent's agent at Elizabeth's court, on the day Mary was moved out of Carlisle: her being allowed to stay there, and the sending home of Lord Fleming, "hes done greit evil"; if she comes home, nothing more is wanting to ruin our friends. A simple substitution with homophones and word-signs, read from the page image; two person-signs and the last word open.</p>
+    <p class="go"><a href="moray-reading.html">Cipher, Scots and English</a></p>
+    <p><a href="{REPO}/tree/main/moray-1568">Write-up, transcription, key, verification</a>.</p>
+  </div>
+  <div class="entry">
     <h2><a href="starhemberg-reading.html">Chiffre aus Paris</a></h2>
     <p class="where">Starhemberg, Paris, 23 May 1758 · Cryptiana transcription</p>
     <p class="status">Partially deciphered</p>
@@ -560,7 +569,7 @@ def index():
 </footer>"""
     (DOCS / "index.html").write_text(page(
         "Unsolved ciphers",
-        "Attempts on historical ciphers listed as unsolved: a Venetian dispatch of 1589 and a royalist letter of 1644 read, Ferdinand correspondence of 1635/1640 recovered, an Austrian letter of 1758 partly read, all reproducible.",
+        "Attempts on historical ciphers listed as unsolved: a Venetian dispatch of 1589, a royalist letter of 1644 and a Scottish regent's postscript of 1568 read, Ferdinand correspondence of 1635/1640 recovered, an Austrian letter of 1758 partly read, all reproducible.",
         body))
 
 
@@ -569,6 +578,7 @@ if __name__ == "__main__":
     forster_reading()
     starhemberg_reading()
     build_ferdinand(ROOT, DOCS, page, CRUMBS, REPO)
+    build_moray(ROOT, DOCS, page, CRUMBS, REPO)
     index()
     (DOCS / ".nojekyll").write_text("")
     print("built", ", ".join(sorted(p.name for p in DOCS.glob("*.html"))))
