@@ -55,3 +55,12 @@ so that "since" claims can be checked against the source lists' last-modified da
 - A `decode.py` or `verify.py` that reproduces the reading from the transcription and key with
   the standard library plus `cipherkit`, and exits non-zero if the committed reading is stale.
 - Images only where the licence allows. DECODE images are never redistributed.
+
+## 6. Public pages state the current account
+
+Reading pages, summaries, and their tables must stand on their own for a new
+reader. State current beliefs and uncertainty directly; do not refer to earlier
+versions of the page or narrate the withdrawal or correction of absent claims.
+Keep revision history in audit files and Git. Preserve relevant provenance,
+competing interpretations, independent prior work, and experimental controls.
+See `AGENTS.md` for the site-wide editorial and regeneration rule.

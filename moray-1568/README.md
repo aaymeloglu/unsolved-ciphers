@@ -3,7 +3,7 @@
 **Status: partial; ending unresolved, 18 September 2026.** Most of the postscript is read.
 The fresh manuscript review favours `?nau?is` for its seven-sign ending. **Knauis**
 ("knows") is a plausible conjecture, but requires omitting an unexplained sign.
-The earlier eight-hit corpus argument for *lattis* is withdrawn: six hits were
+The corpus contains two genuine verb uses of *lattis*; six other hits are
 fragments of *prelattis*. Both *lattis* and *lakkis* remain possible.
 
 The preserved baseline has 119 of 134 glyphs S (cryptanalysis with a permutation
@@ -69,7 +69,7 @@ Conjecture only:
 > If [the Queen] comes home, nothing more is needed to ruin the whole, as our friends know.
 
 The visual review favours n at L4.2 and u at L4.4. With contextual k at L4.1,
-the old fifth-sign value o gives **knauois**, not *knauis*. Its long stroke differs
+assigning the fifth sign o gives **knauois**, not *knauis*. Its long stroke differs
 from the established o-signs, but neither a new value nor a cancellation/null is
 established. Reading *knauis* requires dropping this visible sign. Reading *es*
 ("as", attested in DOST) also requires assigning s to the singleton L3.26.
@@ -137,20 +137,19 @@ glyphs either.
 - **haom thair**: the glyphs are in the order h-a-o-m; read as *hame* (home) with a transposed
   letter, or an unrecognised spelling.
 - **la??is**: doubled `Zz`, also opening L4. Both *lattis* and *lakkis* are attested
-  in DOST. The former eight-versus-zero corpus preference for t is withdrawn: six
-  of the eight hits were hyphenated fragments of *prelattis*, and two genuine verb
-  hits cannot exclude k.
+  in DOST. Of eight raw corpus hits for *lattis*, six are hyphenated fragments
+  of *prelattis*. The two genuine verb hits cannot exclude k.
 - **s(p)il**: `s` occurs once; *spil* (spoil, ruin) by sense.
 - **haill e?**: the t-shaped sign at L3.26 is unresolved. *Es* is an attested spelling
   of *as*, making e+s possible; *haille* followed by a word-sign *as* is another
   unproved division.
 - **Line 4**: seven visible signs. Visual comparison favours `?nau?is`; the first
   sign remains k/t, and the fifth sign's identification as ordinary o is disputed.
-  Contextual k with the old o value gives *knauois*. *Knauis* (knows) requires
+  Contextual k with o at the fifth sign gives *knauois*. *Knauis* (knows) requires
   omitting the fifth sign; *knawis* requires a different unproved deletion and
-  value. No cancellation, null or compound w has been demonstrated. The earlier
-  negative DOST headword search for `??a?ois` tested a disputed transcription;
-  it does not eliminate the new alternatives.
+  value. No cancellation, null or compound w has been demonstrated. A
+  negative DOST headword search for `??a?ois` depends on identifying the fifth
+  sign as o; it does not eliminate alternatives to that transcription.
 - The person-signs `4̄` and `Ē`, and the lone dotted o read as *and*.
 
 ## Failure log

@@ -5,7 +5,7 @@ Python 3, standard library only. From the repo root:
 
     python3 docs/_build_site.py
 
-Writes five pages, all sharing the stylesheet of ottobon-1589/reading.html:
+Writes six pages, all sharing the stylesheet of ottobon-1589/reading.html:
 
     index.html            the readings, with links to everything else in the repo
     ottobon-reading.html  ottobon-1589/reading.html, images pointed at the repo's raw files
@@ -201,7 +201,7 @@ def forster_reading():
   <div>
     <div class="callout">
       <h3>Earlier readings</h3>
-      <p>Satoshi Tomokiyo's list still carried this passage as undeciphered when we read it on 14 September 2026, and we found no published solution. There were earlier ones. Britland has since told Robert Pitt that George Lasry supplied a decipherment after her 2013 article and that Norbert Biermann reached the same solution independently. Pitt published <a href="https://github.com/robertpitt/forster-cipher">his own key</a> a few hours before ours on the same day. Pitt's key and ours were reached separately and are identical; the earlier reading Britland passed on differs in a few words.</p>
+      <p>According to Karen Britland's account to Robert Pitt, George Lasry supplied a decipherment after her 2013 article, and Norbert Biermann reached the same solution independently. Pitt published <a href="https://github.com/robertpitt/forster-cipher">his own key</a> a few hours before ours on 14 September 2026. Pitt's key and ours were reached separately and are identical; the earlier reading Britland passed on differs in a few words.</p>
     </div>
     <h3>Reading the columns</h3>
     <p class="legend">Left: the ciphertext in Tomokiyo's transcription of Britland's printed text; commas are word breaks, and the two passages Forster left in clear are in italic. Middle: the key's output in the letter's own spelling, then modernised. Right: an English translation. Square brackets mark the three places where the key's output needs repair; the symbols concerned are marked in the ciphertext. No image of the manuscript is online, so whether those slips are Forster's or a transcriber's is not known.</p>
@@ -262,7 +262,7 @@ S_PASSAGES = [
          en="… now that I have seen the contents of the same, it gives me such great hope … that … Your Excellency will yet succeed in keeping open, from now on, the negotiation so skilfully and so cautiously begun through the very well drafted memorandum handed to Secretary of State Wall, and in bringing the Spanish court … to such resolutions …",
          notes=[
              "The row-1 adjective before <em>als ich</em> is unresolved. Removing one surplus 3 permits <em>so / stat / lich</em>, which establishes neither <em>stattlich</em> nor <em>tröstlich</em>.",
-             "<em>Annoch gelingen werde</em> comes from the uninterrupted <code>an / noch / ge / li / ng / en / werden</code>. Both <em>an</em> (31005) and <em>noch</em> (31019) had been misread in the working key; no target digit is changed.",
+             "<em>Annoch gelingen werde</em> comes from the uninterrupted <code>an / noch / ge / li / ng / en / werden</code>. The key gives <em>an</em> for 31005 and <em>noch</em> for 31019; no target digit is changed.",
              "<em>Wall</em> is spelled <code>wa + l</code> here and again in row 19. With the memorandum and the long closing, it supplies three separated anchors for the key match.",
              "<em>Stat[s]secretario</em> needs 31168→31368 at offset 195; <em>vor[sich]tig</em> needs the invalid 30073 read as 31073. Both wait on the original.",
              "The court passage (row 6) is a damaged join: two deletions yield <em>bi / zu / solch / resolution</em>. <em>Bis zu solchen Resolutionen</em> is a candidate, not an accepted restoration. The baseline output there (<em>nach französisch religion mittelst armee ganz</em>) is what an unrepaired parse produces and is not read as text.",
@@ -272,18 +272,18 @@ S_PASSAGES = [
          de="… die entweder dem Krieg eine vergnüglichere, als die dermahlige Gestalt ist, geben oder uns ein[en] erspr[ieß]lich[en] … honorablen Frieden verschaffen könnte, und gibt mir zumahl[en] …",
          en="… which could either give the war a more agreeable shape than its present one, or procure us a profitable … and honourable peace; and this gives me, moreover, …",
          notes=[
-             "Two key corrections, <strong>31036 = Krieg</strong> and <strong>31490 = re</strong>, recover the first alternative with no digit changes. The literal run is <code>dem / Krieg / ein / ver / gn / u / gl / ich / re / als / die / der / mahl / ig / ge / st / al / t / ist / geben</code>.",
-             "<strong>Frieden is source-supported.</strong> The alphabetical F entry reads <em>fried</em> with <em>en</em> and <em>same</em> endings; both numerical copies agree. The earlier reading <em>fremd</em> was wrong and its override has been retired.",
+             "The key values <strong>31036 = Krieg</strong> and <strong>31490 = re</strong> give the war alternative with no digit changes. The literal run is <code>dem / Krieg / ein / ver / gn / u / gl / ich / re / als / die / der / mahl / ig / ge / st / al / t / ist / geben</code>.",
+             "<strong>Frieden is source-supported.</strong> The alphabetical F entry reads <em>fried</em> with <em>en</em> and <em>same</em> endings; both numerical copies agree.",
              "The join before <em>honorablen</em> sits at the recto/verso boundary. Inserting 31 at 624 and changing 9→3 at 626 gives <code>en / ho / null / n / or / ab / le / n / fried</code>; deleting 119 at 624 is a competing three-edit repair. Neither is authenticated.",
              "After the join, <code>ver / [A→B] / schaff / könnte</code> follows unchanged: the table switch 876 falls inside <em>verschaffen</em>.",
-             "Secunda 53 is <strong>mahl</strong> (with <em>s</em>/<em>en</em> alternatives), not the earlier <em>meist</em>: the alphabetical entry sits between <em>mach</em> and <em>man</em>. So <code>gi / eb / t / mir / zu / mahl</code> reads <em>gibt mir zumahlen</em>. What follows, <code>von / den / no / ge / n …</code>, is unresolved.",
+             "Secunda 53 is <strong>mahl</strong> (with <em>s</em>/<em>en</em> alternatives): the alphabetical entry sits between <em>mach</em> and <em>man</em>. So <code>gi / eb / t / mir / zu / mahl</code> reads <em>gibt mir zumahlen</em>. What follows, <code>von / den / no / ge / n …</code>, is unresolved.",
          ]),
     dict(id="minorca", rows=(9, 15), h="Rows 9–15", sub="The matching statements, Minorca, and Spain's entry · Secunda",
          hand="Cipher, rows 9–15 · Secunda",
          de="… Euer Hochgebohrn … französischen Botschafter fast zu gleicher Zeit gemachten, genau gleichförmigen Äusserungen … sehr große Hoffnun[g], daß … Minorca an Spanien überlassen würde, wozu sich Frankreich [bereit?] zeige un[d] wohl leicht [en]tschließen wird, alsdann dieser Hof an dem Krieg mit Theil nehmen und andurch den [engländischen] und preußischen Hof in sehr große Verlegenheit setz[en] würde.",
          en="… the exactly matching statements made almost at the same time by Your Excellency … [and] the French ambassador … [give] very great hope that … Minorca would be ceded to Spain, to which France shows itself [ready?] and will surely readily resolve; whereupon this court would take part in the war and thereby put the [English] and Prussian courts in very great embarrassment.",
          notes=[
-             "The phrase from <em>französischen Botschafter</em> through <em>Äusserungen</em> uses <strong>unchanged digits</strong>. Correcting the key readings recovers <code>fa+st</code>, <code>zeit</code>, <code>ge+mach</code>, <code>genau</code> and <code>gl+ei+ch+fo+r+mi+gen+aus+ser+ung</code>. The abbreviated endings are editorial.",
+             "The phrase from <em>französischen Botschafter</em> through <em>Äusserungen</em> uses <strong>unchanged digits</strong>. The key gives <code>fa+st</code>, <code>zeit</code>, <code>ge+mach</code>, <code>genau</code> and <code>gl+ei+ch+fo+r+mi+gen+aus+ser+ung</code>. The abbreviated endings are editorial.",
              "<em>Minorca an Spanien überlassen würde</em> is unchanged code with grammatical endings expanded. <em>Preuss + n + Hof</em> and <code>ver / le / ge[n] / heit</code> are likewise unchanged.",
              "<em>[bereit?]</em> is <strong>not established</strong>: 31405 reads <em>berg</em> in the historical key.",
              "<em>Und wohl leicht entschließen wird</em> needs 31329→31326 at 1046 and 55→95 at 1061. <em>Setzen würde</em> needs the same 55→95 at 1216. One repair supplying <em>en</em> in two unrelated words is economical, and still a conjecture.",
@@ -526,7 +526,7 @@ def index():
     <h2><a href="forster-reading.html">Les voyes de prudence</a></h2>
     <p class="where">Sir Richard Forster, 13 May 1644 · AD Val-d'Oise, 68 H 8</p>
     <p class="status">Deciphered</p>
-    <p>A ciphered passage in a letter by the treasurer of Henrietta Maria's household: counsel that preserving one's life is no failing before God. Mixed letter-and-number homophonic substitution, 207 symbols, three repairs. George Lasry and Norbert Biermann had read it earlier, and Robert Pitt published a key the same day.</p>
+    <p>A ciphered passage in a letter by the treasurer of Henrietta Maria's household: counsel that preserving one's life is no failing before God. Mixed letter-and-number homophonic substitution, 207 symbols, three repairs. George Lasry and Norbert Biermann had read it earlier, and Robert Pitt published a key on 14 September 2026.</p>
     <p class="go"><a href="forster-reading.html">Ciphertext, French and English</a></p>
     <p>With the 37 cipher words and the key. <a href="{REPO}/tree/main/forster-1644">Write-up, solver and verification</a>.</p>
   </div>
