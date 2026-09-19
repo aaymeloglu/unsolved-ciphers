@@ -124,6 +124,39 @@ def marker_counts(text: str) -> dict[str, int]:
     return {lang: sum(words[m] for m in ms) for lang, ms in MARKERS.items()}
 
 
+_HYPHEN_BREAK = re.compile(r"[^\W\d_]-[ \t]*$")
+
+
+def dehyphenate(text: str) -> str:
+    """Join `xxx-\nyyy` into `xxxyyy\n` when a line ends with a hyphen and the next non-empty
+    line starts with a lowercase letter. A hyphen followed by an uppercase word keeps the
+    hyphen and the line break (Anglo-\nSaxon), and so does a hyphen with nothing after it.
+    Blank lines between the two halves are removed with the join.
+
+    OCR of a printed edition breaks words at the right margin, so a corpus built from
+    archive.org djvu text is full of fragments: six of eight corpus hits for Scots "lattis"
+    were the tail of "prelattis". Run before anything that counts words or judges lines."""
+    lines = text.splitlines()
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if _HYPHEN_BREAK.search(line):
+            j = i + 1
+            while j < len(lines) and not lines[j].strip():
+                j += 1
+            if j < len(lines):
+                head = lines[j].lstrip()
+                if head[:1].isalpha() and head[:1].islower():
+                    lines[j] = line.rstrip()[:-1] + head  # the joined line may break again
+                    i = j
+                    continue
+        out.append(line)
+        i += 1
+    joined = "\n".join(out)
+    return joined + "\n" if text.endswith("\n") else joined  # splitlines ate the last one
+
+
 def _line_lang(words: list[str], lang: str) -> tuple[str | None, int, int]:
     """(best language, its hit count, hits for `lang`) for one line. Scots counts English
     hits toward itself, since Scots prose is full of English function words too."""
@@ -139,9 +172,10 @@ def clean_ocr(text: str, lang: str, min_letters: float = 0.6, min_hits: int = 2,
     """Drop lines that are not `lang` prose. A line goes when (a) fewer than `min_letters`
     of its characters are letters or spaces, (b) another language wins at least `min_hits`
     marker hits, or (c) the line has `long_line` or more words, no marker of `lang` at all,
-    and at least one marker of another language. Short lines without markers are kept."""
+    and at least one marker of another language. Short lines without markers are kept.
+    `dehyphenate` runs first, so a word broken across a line break is judged as one line."""
     out = []
-    for line in text.splitlines():
+    for line in dehyphenate(text).splitlines():
         s = line.strip()
         if not s:
             out.append("")
