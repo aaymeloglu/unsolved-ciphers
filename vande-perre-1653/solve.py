@@ -19,7 +19,7 @@ from cipherkit.lm import CharLM  # noqa: E402
 from cipherkit.normalize import normalize  # noqa: E402
 
 KEY = {k: v for k, v in json.load(open(os.path.join(HERE, "key.json"))).items() if not k.startswith("_")}
-LETTERS = [k for k, v in KEY.items() if v["grade"] == "S"]
+LETTERS = [k for k, v in KEY.items() if v["grade"] == "S" and (len(v["value"]) == 1 or k == "frac")]
 RUNS = []
 for line in open(os.path.join(HERE, "transcription.txt")):
     if line.startswith("P"):

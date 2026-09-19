@@ -68,12 +68,13 @@ def main():
         from cipherkit.controls import permutation_z_key
         from cipherkit.segment import Segmenter
         sg = Segmenter.from_corpus("nl")
-        values = {k: v["value"] for k, v in key.items()}
+        # Only the cryptanalytic values (grade S) are scored as text; code groups read from
+        # the glosses (C), inferred values (I) and unread symbols break a chunk.
+        values = {k: (v["value"] if v["grade"] == "S" else "#") for k, v in key.items()}
         chunks = [toks for _, toks in lines]
 
         def score(m):
-            # Code groups and misset symbols ("?") break a chunk; "ij" is spelled out.
-            return sg.score_chunks(["".join(m[t] if m[t] != "?" else "#" for t in c) for c in chunks])
+            return sg.score_chunks(["".join(m[t] for t in c) for c in chunks])
 
         z = permutation_z_key(score, values, chunks, n=1000, seed=0)
         print("permutation z (key shuffle, printed digits, kit Dutch corpus): "
