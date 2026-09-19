@@ -2,7 +2,7 @@
 
     python -m cipherkit.transcribe layout  page.jpg -o f38r.layout.json [--crop l,t,r,b | --crop auto] [--rotate -3] [--scale 1.5]
     python -m cipherkit.transcribe strips  f38r.layout.json -o strips/
-    python -m cipherkit.transcribe gaps    strips/f38r-L03.png [--min-gap 12] [--min-ink 0.02]
+    python -m cipherkit.transcribe gaps    strips/f38r-L03.png [--min-gap 12] [--min-ink 0.02] [--dark 100]
     python -m cipherkit.transcribe compare passA.json passB.json -o compare.json
     python -m cipherkit.transcribe consensus passA.json passB.json -o passC.json
     python -m cipherkit.transcribe review  f38r.layout.json passA.json -o review.html [--key key.json] [--compare compare.json]
@@ -16,6 +16,9 @@ strips     cuts one PNG per line and contact-sheet boards of four lines with lab
            manifest with the source file's SHA-256 and every box, so a crop can be cited as evidence.
 gaps       measures the word gaps in one line strip: the column runs with no ink between the first
            and last inked column, so a "|" in a transcription can be checked against the page.
+           Pass `--dark` (0-255 on the contrast-stretched strip) when the page shows through from
+           the other side or the strip is nearly blank: the strip's own histogram then puts the
+           ink threshold between paper and show-through, and every faint column counts as ink.
 compare    aligns two independent passes token by token per line (insertions and deletions do not
            cascade) and counts agreement, agreement through a `{a/b}` alternative, and disagreement.
 consensus  writes a third pass: agreed tokens as they are, disagreements as `{a/b}`, tokens only one
@@ -290,18 +293,41 @@ def _paper_run(means: list[float], bright: float, margin: int) -> tuple[int, int
     return best
 
 
+def _frame_and_paper_levels(g, margin: int) -> tuple[float, float]:
+    """(frame, paper) brightness: the median of the outermost `margin` rows and columns, and
+    the median of the whole image, which the page dominates."""
+    w, h = g.size
+    px = g.load()
+    m = max(1, min(margin, w // 2, h // 2))
+    edge = [px[x, y] for y in range(h) for x in range(w) if x < m or x >= w - m or y < m or y >= h - m]
+    edge.sort()
+    hist = g.histogram()
+    half, acc, paper = sum(hist) / 2, 0, 0
+    for v, c in enumerate(hist):
+        acc += c
+        if acc >= half:
+            paper = v
+            break
+    return edge[len(edge) // 2], paper
+
+
 def page_bounds(image, margin: int = 8, bright: int | None = None) -> tuple[int, int, int, int]:
     """(left, top, right, bottom) of the paper inside a dark frame, as a PIL crop box (right and
-    bottom exclusive): the largest run of rows and of columns whose mean brightness exceeds
-    `bright` (default: the midpoint between the two histogram mass centres, as ink_profile
-    uses). A dark border thinner than `margin` pixels is not a frame (a scan edge), and a dark
-    band inside the page thinner than a tenth of the image is writing, not a frame. Returns the
-    full image when no frame is found. Columns are measured first and the rows only within
-    them, so the sides of a frame do not darken the rows of the page."""
+    bottom exclusive): the largest run of columns, then of rows within those columns, whose
+    mean brightness exceeds `bright`. The default `bright` is the midpoint between the frame
+    level (median of the outermost `margin` rows and columns) and the paper level (median of
+    the image, which the page dominates); the ink-profile histogram midpoint is too high for a
+    photographed page whose brightness falls off towards one side. A dark border thinner than
+    `margin` pixels is a scan edge, not a frame, and a dark band inside the page thinner than a
+    tenth of the image is writing, not a frame. Returns the full image when no frame is found:
+    no dark run thick enough, or a border no darker than the page (contrast under 32 of 255)."""
     g = _gray(image)
     w, h = g.size
     if bright is None:
-        bright = _split_level(g)
+        frame, paper = _frame_and_paper_levels(g, margin)
+        if paper - frame < 32:
+            return 0, 0, w, h
+        bright = (frame + paper) / 2
     px = g.load()
     col_means = [sum(px[x, y] for y in range(h)) / h for x in range(w)]
     left, right = _paper_run(col_means, bright, margin)
@@ -526,12 +552,13 @@ def gaps(strip, min_gap: int = 12, min_ink: float = 0.02, dark: int | None = Non
     return out
 
 
-def _inked_span(strip, min_ink: float = 0.02) -> list[int] | None:
+def _inked_span(strip, min_ink: float = 0.02, dark: int | None = None) -> list[int] | None:
     """[first, last + 1) of the inked columns, or None."""
     g = _gray(strip)
     w, h = g.size
     px = g.load()
-    dark = _split_level(g)
+    if dark is None:
+        dark = _split_level(g)
     inked = [sum(px[x, y] < dark for y in range(h)) / h >= min_ink for x in range(w)]
     if not any(inked):
         return None
@@ -622,6 +649,8 @@ def main(argv: list[str]) -> int:
     s = sub.add_parser("gaps", help="word gaps in one line strip, as JSON"); s.add_argument("strip")
     s.add_argument("--min-gap", type=int, default=12, help="columns; shorter blank runs are not gaps")
     s.add_argument("--min-ink", type=float, default=0.02, help="dark-pixel fraction that makes a column inked")
+    s.add_argument("--dark", type=int, default=None,
+                   help="ink threshold 0-255 after contrast stretch; default: the strip's histogram midpoint")
     s = sub.add_parser("compare"); s.add_argument("a"); s.add_argument("b"); s.add_argument("-o", "--out")
     s.add_argument("--names", default="a,b")
     s = sub.add_parser("consensus"); s.add_argument("a"); s.add_argument("b"); s.add_argument("-o", "--out", required=True)
@@ -646,9 +675,9 @@ def main(argv: list[str]) -> int:
     elif a.cmd == "gaps":
         Image, _, _ = _pil()
         strip = Image.open(a.strip)
-        found = gaps(strip, a.min_gap, a.min_ink)
+        found = gaps(strip, a.min_gap, a.min_ink, a.dark)
         out = {"source": a.strip, "source_sha256": sha256_file(a.strip), "size": [strip.width, strip.height],
-               "min_gap": a.min_gap, "min_ink": a.min_ink, "ink_span": _inked_span(strip, a.min_ink),
+               "min_gap": a.min_gap, "min_ink": a.min_ink, "dark": a.dark, "ink_span": _inked_span(strip, a.min_ink, a.dark),
                "gaps": [list(g) for g in found],
                "note": "gaps are [x0, x1) column ranges in the strip; ink_span is [first, last + 1) inked column"}
         print(json.dumps(out, indent=1))
