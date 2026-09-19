@@ -14,6 +14,7 @@ Python 3.12, managed by uv; Pillow is the one dependency.
 | `lm` | `CharLM` (order-n, add-alpha, log10, cached; `score`, `score_words`, `per_window`). `WordLM` (unigram + bigram, character backoff for unseen words). `BackoffCharLM` (stupid backoff, for scoring a single unseen word). `cached(path, build, loader)` to build once per target. |
 | `anneal` | `anneal(symbols, values, score, fixed=, bijective=, iters=, t0=, t1=, seed=, init=)` over a plain dict. `frequency_init` for a ranked homophonic start. `climb` for a greedy finish. `restarts(run, seeds, workers)` for several seeds in parallel. |
 | `controls` | `matched_control(corpus, target_tokens, design)` builds a synthetic cipher of the same length and symbol count. `mono_control`, `homophonic_control` (homophones apportioned by letter frequency), `spaced_control` (word gaps kept as tokens, whole words replaced by a sign). `key_recovery(found, true, weights)`. `permutation_z(score, tokens, n)` for the shuffle test. |
+| `align` | Known plaintext to key. `read_tsv(path)` loads rows of `id`, `cipher` (space-separated units), `plain`, `evidence`; `align_rows(rows, fold=)` pairs one unit with one letter and returns per-symbol `Assignment`s (majority letter, every occurrence as `A01:3`, every disagreement in `conflicts`); `holdout(rows, key, fold=)` scores rows the key never saw; `apply(units, key)`. |
 | `tokens` | `parse(text, style)` for the four transcription formats we produce (`groups`, `mixed`, `annotated`, `letters`); `cipher_tokens`, `segments`, `symbol_counts`. |
 | `transcribe` | The transcription workflow as commands: `layout` (deskew by ink-profile variance, find line bands), `strips` (one PNG per line, labelled boards, manifest with source SHA-256 and boxes), `compare` (align two passes token by token, alternatives count), `consensus` (third pass with `{a/b}` at disagreements), `review` (self-contained HTML with strip, chips, key values, disputed highlights). |
 | `corpora` | `RECIPES` of Gutenberg and Internet Archive sources per language (en, fr, it, de, es, la, sco, nl), `fetch(lang)`, `text(lang)`, `describe(lang)`, `clean_ocr`. See "Period corpora" below. |
@@ -56,6 +57,22 @@ print(permutation_z(lambda seq: lm.score("".join(best[t] for t in seq)), toks, n
 
 `workers=1` is needed when `run` is a lambda; give `restarts` a module-level function to use
 several processes.
+
+## A known-plaintext solve
+
+When a draft, a printed decipherment or an attached key gives the plaintext (grade C), the work
+is alignment, not search. Ferdinand 1635 is this shape: the R954 draft against the R1889 units.
+
+```python
+from cipherkit import align_rows, apply, holdout, read_tsv
+fold = lambda s: s.replace("v", "u")  # u/v folding is the caller's declared choice, never the cipher's
+key = {s: a.plain for s, a in align_rows(read_tsv("training-alignment.tsv"), fold=fold).items()}
+print(holdout(read_tsv("heldout-1635.tsv"), key, fold=fold))  # positions, agree, mismatches
+print(apply("10 h 8 m c 22 n".split(), key))  # hiberna
+```
+
+Keep `conflicts` in the README's evidence table: a symbol that met two letters is a transcription
+question or a homophone, and the majority vote is only a default.
 
 ## What the control numbers look like
 
