@@ -13,7 +13,7 @@ from __future__ import annotations
 import collections
 import random
 import statistics
-from collections.abc import Callable, Sequence
+from collections.abc import Callable, Mapping, Sequence
 
 
 def sample_plaintext(text: str, length: int, seed: int = 0, keep_spaces: bool = False) -> str:
@@ -96,23 +96,126 @@ def homophonic_control(
     return tokens, key
 
 
+def spaced_control(
+    plaintext: str,
+    n_homophones: int = 0,
+    word_signs: Mapping[str, str] | None = None,
+    seed: int = 0,
+    symbols: Sequence | None = None,
+) -> tuple[list[str], dict]:
+    """Homophonic substitution that keeps the word gaps and gives whole words their own sign,
+    the design of the period keys in this repo that keep their word gaps (Moray 1568: 23
+    letters, four homophones, two word-signs, word spacing).
+
+    `plaintext` is normalized with keep_spaces=True. `word_signs` maps a whole word to the
+    single symbol that replaces it (`{"the": "[THE]"}`); those words contribute no letters, so
+    the letter alphabet is the letters of the remaining words. The symbol count is therefore
+    `len(letters) + n_homophones + len(word_signs)`, where `letters` is taken after the
+    word-sign substitution: a letter occurring only inside a signed word gets no symbol.
+    `symbols` supplies the letter symbols only and must hold exactly
+    `len(letters) + n_homophones` of them; the word-signs bring their own.
+
+    Returns (tokens, key). Tokens are cipher symbols with " " kept as a token between words, so
+    `parse`/`segments` see the gaps. The key maps each letter symbol to its letter and each
+    word-sign symbol to its word, so decoding the tokens reproduces the plaintext.
+    """
+    signs = dict(word_signs or {})
+    words = plaintext.split()
+    letter_stream = "".join(w for w in words if w not in signs)
+    alphabet = sorted(set(letter_stream))
+    n_letter_symbols = len(alphabet) + n_homophones
+    if symbols is None:
+        symbols = list(range(n_letter_symbols))
+    else:
+        symbols = list(symbols)
+        if len(symbols) != n_letter_symbols:
+            raise ValueError(
+                f"need {n_letter_symbols} letter symbols "
+                f"({len(alphabet)} letters + {n_homophones} homophones), got {len(symbols)}"
+            )
+    clash = set(symbols) & set(signs.values())
+    if clash:
+        raise ValueError(f"word-sign symbols also used for letters: {sorted(map(str, clash))}")
+    letter_tokens, key = homophonic_control(
+        letter_stream, n_letter_symbols, seed=seed, symbols=symbols
+    )
+    key.update({sym: word for word, sym in signs.items()})
+    it = iter(letter_tokens)
+    tokens: list = []
+    for i, w in enumerate(words):
+        if i:
+            tokens.append(" ")
+        if w in signs:
+            tokens.append(signs[w])
+        else:
+            tokens.extend(next(it) for _ in w)
+    return tokens, key
+
+
+def _plaintext_for_tokens(
+    corpus: str, n_tokens: int, signs: Mapping[str, str], seed: int = 0
+) -> str:
+    """A spaced plaintext window that enciphers to exactly `n_tokens` non-space tokens under
+    `signs` (a signed word is one token, every other word one token per letter). Cuts the last
+    word short if a whole word would overshoot."""
+    pt = sample_plaintext(corpus, n_tokens * 3 + 10, seed, keep_spaces=True)
+    out, total = [], 0
+    for w in pt.split():
+        cost = 1 if w in signs else len(w)
+        if total + cost > n_tokens:
+            if w not in signs and total < n_tokens:
+                out.append(w[: n_tokens - total])
+                total = n_tokens
+            break
+        out.append(w)
+        total += cost
+    if total < n_tokens:
+        raise ValueError(f"corpus window too short: {total} of {n_tokens} tokens")
+    return " ".join(out)
+
+
 def matched_control(
     corpus: str,
     target_tokens: Sequence,
     design: str = "homophonic",
     seed: int = 0,
     n_symbols: int | None = None,
+    word_signs: Mapping[str, str] | None = None,
 ) -> tuple[list, dict, str]:
     """Control matched to `target_tokens` in length and symbol count, written in the target's
     own symbols so the same parsing and scoring code runs on both. Pass `n_symbols` to
-    override the count (the control then uses integer symbols). Returns (tokens, key, plaintext)."""
-    length = len(target_tokens)
+    override the count (the control then uses integer symbols). Returns (tokens, key, plaintext).
+
+    `design="spaced"` (word gaps kept, whole words replaced by a sign) takes `word_signs`
+    and matches the target's count of non-space tokens; " " is a token on both sides and is
+    not one of the symbols. The word-signs come out of the same symbol budget, so the letters
+    get `n_symbols - len(word_signs)` symbols and
+    `n_homophones = n_symbols - len(letters) - len(word_signs)`, clamped at 0. When the budget
+    is smaller than the sampled plaintext's alphabet the control cannot be matched at all and
+    `spaced_control` raises rather than return a control of the wrong shape.
+    """
     target_symbols = sorted(set(target_tokens), key=str)
     if n_symbols is None or n_symbols == len(target_symbols):
         symbols = target_symbols
     else:
         symbols = list(range(n_symbols))
-    pt = sample_plaintext(corpus, length, seed)
+    if design == "spaced":
+        signs = dict(word_signs or {})
+        length = sum(t != " " for t in target_tokens)
+        budget = len([s for s in symbols if s != " "])
+        pool = [s for s in symbols if s != " " and s not in signs.values()]
+        pool = pool[: max(0, budget - len(signs))]
+        pt = _plaintext_for_tokens(corpus, length, signs, seed)
+        n_letters = len({c for w in pt.split() if w not in signs for c in w})
+        tokens, key = spaced_control(
+            pt,
+            n_homophones=max(0, len(pool) - n_letters),
+            word_signs=signs,
+            seed=seed,
+            symbols=pool,
+        )
+        return tokens, key, pt
+    pt = sample_plaintext(corpus, len(target_tokens), seed)
     if design == "mono":
         tokens, key = mono_control(pt, symbols=symbols, seed=seed)
     elif design == "homophonic":
