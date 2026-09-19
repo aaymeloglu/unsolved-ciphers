@@ -272,11 +272,14 @@ def permutation_z_key(
     fixed: Sequence | None = None,
 ) -> dict:
     """Score `key` against `n` keys that shuffle its plaintext values among its non-fixed
-    symbols. Word-signs (any symbol whose value is longer than one character, such as
-    "[the]" or a whole word) and every symbol in `fixed` keep their values. `score(m)` decodes
-    `tokens` with the key under test and returns the model score; `tokens` is passed through
-    so the call site reads like `permutation_z` and the null is over the same text.
-    Returns observed, null mean, null sd, z, and the empirical p-value, as `permutation_z`."""
+    symbols. Every symbol whose value is longer than one character is held (a word-sign such
+    as "[the]" or a whole word), as is every symbol in `fixed`. That rule holds every entry of
+    a syllable key: pass `fixed` to say which symbols to hold there. `score(m)` decodes the
+    text with the key under test and returns the model score. `tokens` is not used here: it is
+    accepted so the call site reads like `permutation_z`, and the text is what `score`
+    closes over. Returns observed, null mean, null sd, z, and the empirical p-value, as
+    `permutation_z`."""
+    del tokens  # the call site's text; `score` already closes over it
     rnd = random.Random(seed)
     held = set(fixed or ())
     free = [s for s in key if s not in held and len(str(key[s])) == 1]

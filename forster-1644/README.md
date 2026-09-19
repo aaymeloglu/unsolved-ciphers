@@ -57,7 +57,8 @@ Run: `uv run python dict_solver.py 2000 -25 7` in this directory after `uv run p
 
 ## Permutation tests
 
-`permutation.py` scores the 207 decoded letters with a character 4-gram model built from
+`permutation.py` scores the literal decode of the 207 tokens under `mapping.json`, with the
+three emendations above not applied, using a character 4-gram model built from
 `cipherkit.corpora` fr (Xivrey, Avenel, Montaigne, Brantôme, Descartes; j folded to i, v to u)
 and compares that score with 1,000 shuffles under each of the kit's two nulls (seed 0):
 

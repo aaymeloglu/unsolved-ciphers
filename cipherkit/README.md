@@ -123,28 +123,29 @@ four seeds, 40,000 iterations each:
 | same, `frequency_init` start | 0.67 best, 0.38 worst |
 | same, 5-gram, 120,000 iterations | 0.55 on every seed |
 | 134 tokens, spaced, 29 symbols (27 for letters and homophones, two word-signs), Scots, `Segmenter.score_chunks` | 0.98 best, 0.00 worst |
-| same, quadgram `CharLM` over the letters with gaps dropped | 0.40 best, 0.00 worst |
+| same four controls, quadgram `CharLM` over the letters with gaps dropped | 0.39 best, 0.05 worst |
 
 At eight tokens per symbol a character model alone reads about half a homophonic key, and
 the failure mode is the reading collapsing into e, s, n and t. This is the same wall Forster
 hit, where word boundaries and a period lexicon (`WordLM`) carried the solve. Run the control
 first so the target's number means something.
 
-The spaced rows are the Moray 1568 shape, measured 19 September 2026: 134 tokens of Scots
+The spaced rows are the Moray 1568 shape, measured 19 September 2026 by
+`python -m cipherkit.measure_spaced_control`, which fixes every parameter: 134 tokens of Scots
 from `sco`, 29 symbols of which two are word-signs for *the* and *and*, the models built from
-the first 80% of the corpus and the four control plaintexts sampled from the last 20%. The
-windows hold 20 to 25 distinct letters, so the homophone count moves between two and seven.
-The first row scores the gap-delimited chunks with `Segmenter.score_chunks`, word-signs as
-`#`, which is the scorer the Moray solve used; recoveries are 0.98, 0.46, 0.14, 0.00 over
-seeds 1, 3, 0, 2, the same one-in-four-reads pattern as the Moray folder's own controls
-(0.99, 0.35, 0.09, fragments). The second row scores the decoded letters with the quadgram
-`CharLM`, gaps and word-signs dropped: 0.40, 0.25, 0.08, 0.00 over seeds 3, 2, 1, 0 (a re-run
-on the same four controls as the first row gave 0.39, 0.31, 0.05, 0.05). Four seeds, 40,000
-iterations, `frequency_init` start, the kit's default temperatures, recovery counted over the
-letter symbols. A spaced control is what a negative on a word-divided target has to be
-reported next to: at this length the character model reads none of the four and the
-segmenter reads one, so the segmenter is the scorer to run, and its negative is the one
-that means something.
+the first 80% of the corpus (cut at a word boundary) and the four control plaintexts drawn
+from the last 20% with `matched_control(design="spaced")`, seeds 0 to 3. The windows hold 20
+to 25 distinct letters, so the homophone count moves between two and seven. Both rows anneal
+the same four draws from the same `frequency_init` start, homophonic moves, 40,000 iterations,
+the kit's default temperatures, recovery token-weighted over the letter symbols. The first row
+scores the gap-delimited chunks with `Segmenter.score_chunks` (defaults; word-signs as `#`),
+the scorer the Moray solve used: 0.98, 0.46, 0.14, 0.00 over seeds 1, 3, 0, 2, the same
+one-in-four-reads pattern as the Moray folder's own controls (0.99, 0.35, 0.09, fragments).
+The second row scores the decoded letters with the quadgram `CharLM`, gaps and word-signs
+dropped: 0.39, 0.31, 0.05, 0.05 over seeds 3, 0, 1, 2. A spaced control is what a negative on
+a word-divided target has to be reported next to: at this length the character model reads
+none of the four and the segmenter reads one, so the segmenter is the scorer to run, and its
+negative is the one that means something.
 
 ```python
 target = [...]  # the target's tokens, " " kept where the page has a gap
