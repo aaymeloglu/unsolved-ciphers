@@ -14,7 +14,7 @@ Python 3.12, managed by uv; Pillow is the one dependency.
 | `lm` | `CharLM` (order-n, add-alpha, log10, cached; `score`, `score_words`, `per_window`). `WordLM` (unigram + bigram, character backoff for unseen words). `BackoffCharLM` (stupid backoff, for scoring a single unseen word). `cached(path, build, loader)` to build once per target. |
 | `segment` | `Segmenter(text, order, oov, min_count, max_word)`: score a letter string by its best split into corpus words, with an order-n character fallback for unseen words. `score`, `segment`, `score_chunks` (any non-letter such as a `#` word-sign breaks a chunk), `from_corpus(lang)`. The Moray scorer; the kit's answer to the wall below. |
 | `anneal` | `anneal(symbols, values, score, fixed=, bijective=, iters=, t0=, t1=, seed=, init=)` over a plain dict. `frequency_init` for a ranked homophonic start. `climb` for a greedy finish. `restarts(run, seeds, workers)` for several seeds in parallel. |
-| `controls` | `matched_control(corpus, target_tokens, design)` builds a synthetic cipher of the same length and symbol count. `mono_control`, `homophonic_control` (homophones apportioned by letter frequency), `spaced_control` (word gaps kept as tokens, whole words replaced by a sign). `key_recovery(found, true, weights)`. `permutation_z(score, tokens, n)` for the shuffle test. |
+| `controls` | `matched_control(corpus, target_tokens, design)` builds a synthetic cipher of the same length and symbol count. `mono_control`, `homophonic_control` (homophones apportioned by letter frequency), `spaced_control` (word gaps kept as tokens, whole words replaced by a sign). `key_recovery(found, true, weights)`. Two permutation tests with different nulls: `permutation_z(score, tokens, n)` shuffles the tokens (is the order informative under this key?); `permutation_z_key(score, key, tokens, n, fixed=)` shuffles the key's values among its glyphs (is this key better than a relabelling of the same glyphs?). |
 | `align` | Known plaintext to key. `read_tsv(path)` loads rows of `id`, `cipher` (space-separated units), `plain`, `evidence`; `align_rows(rows, fold=)` pairs one unit with one letter and returns per-symbol `Assignment`s (majority letter, every occurrence as `A01:3`, every disagreement in `conflicts`); `holdout(rows, key, fold=)` scores rows the key never saw; `apply(units, key)`. |
 | `tokens` | `parse(text, style)` for the four transcription formats we produce (`groups`, `mixed`, `annotated`, `letters`); `cipher_tokens`, `segments`, `symbol_counts`. |
 | `transcribe` | The transcription workflow as commands: `layout` (deskew by ink-profile variance, find line bands), `strips` (one PNG per line, labelled boards, manifest with source SHA-256 and boxes), `compare` (align two passes token by token, alternatives count), `consensus` (third pass with `{a/b}` at disagreements), `review` (self-contained HTML with strip, chips, key values, disputed highlights). |
@@ -52,9 +52,21 @@ runs = restarts(lambda s: anneal(symbols, letters, score, fixed=fixed, iters=400
                 range(8), workers=1)
 best = runs[0][1]
 
-# 3. Is the reading better than chance under this key?
+# 3. Is the reading better than chance? Two nulls, two questions; say which one you report.
+#    Token shuffle: is the order of the text informative under this key?
 print(permutation_z(lambda seq: lm.score("".join(best[t] for t in seq)), toks, n=1000))
+#    Key shuffle: is this key better than a relabelling of the same glyphs? (word-signs and
+#    `fixed` symbols keep their values)
+print(permutation_z_key(lambda m: lm.score("".join(m[t] for t in toks)), best, toks, n=1000))
 ```
+
+The token shuffle is the right test for a claimed *text*: it asks whether the real order
+scores above the same letters in any order, and a homophonic key that maps everything to
+common letters still fails it. The key shuffle is the right test for a claimed *key* found by
+search: it asks whether this assignment beats the other assignments of the same values to
+the same glyphs, which is what an annealer was competing against. A word-divided cipher
+scored by `Segmenter.score_chunks` needs the key shuffle, because shuffling the tokens also
+destroys the word gaps. The two z values are not comparable with each other.
 
 `workers=1` is needed when `run` is a lambda; give `restarts` a module-level function to use
 several processes.

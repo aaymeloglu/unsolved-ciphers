@@ -1,10 +1,14 @@
 import collections
 
+import random
+
 from cipherkit import (
     homophonic_control,
     key_recovery,
     matched_control,
+    mono_control,
     permutation_z,
+    permutation_z_key,
     sample_plaintext,
     spaced_control,
 )
@@ -56,6 +60,44 @@ def test_permutation_z_separates_true_key(english_lm, english_tail):
     r = permutation_z(score, tokens, n=200, seed=0)
     assert r["z"] > 5
     assert r["p"] < 0.01
+
+
+def test_permutation_z_key_separates_true_key(english_lm, english_tail):
+    pt = sample_plaintext(english_tail.replace(" ", ""), 300, seed=7)
+    tokens, key = mono_control(pt, seed=7)
+
+    def score(m):
+        return english_lm.score("".join(m[t] for t in tokens))
+
+    r = permutation_z_key(score, key, tokens, n=200, seed=0)
+    assert r["z"] > 5
+    assert r["p"] < 0.01
+    assert r["n"] == 200
+    assert r["observed"] == score(key)
+    # A random relabelling of the same glyphs is just another draw from the null.
+    vals = list(key.values())
+    random.Random(3).shuffle(vals)
+    wrong = dict(zip(key, vals))
+    assert permutation_z_key(score, wrong, tokens, n=200, seed=0)["z"] < 2
+
+
+def test_permutation_z_key_holds_fixed_symbols(english_lm, english_tail):
+    pt = sample_plaintext(english_tail, 200, seed=4, keep_spaces=True)
+    tokens, key = spaced_control(pt, n_homophones=2, word_signs={"the": "[THE]"}, seed=4)
+    seen = []
+
+    def score(m):
+        seen.append(dict(m))
+        return english_lm.score("".join(m[t] for t in tokens if t != " "))
+
+    permutation_z_key(score, key, tokens, n=5, seed=0, fixed=["[THE]"])
+    for m in seen:
+        assert m["[THE]"] == "the"
+        assert sorted(m.values()) == sorted(key.values())
+    # Word-signs (values that are not single letters) stay put even when `fixed` is not given.
+    seen.clear()
+    permutation_z_key(score, key, tokens, n=5, seed=0)
+    assert all(m["[THE]"] == "the" for m in seen)
 
 
 def test_spaced_control_keeps_gaps_and_signs(english_tail):
