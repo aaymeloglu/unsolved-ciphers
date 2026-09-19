@@ -143,8 +143,8 @@ four seeds, 40,000 iterations each:
 | 360 tokens, homophonic, 45 symbols, random start | 0.47 best, 0.00 worst |
 | same, `frequency_init` start | 0.67 best, 0.38 worst |
 | same, 5-gram, 120,000 iterations | 0.55 on every seed |
-| 134 tokens, spaced, 29 symbols (27 for letters and homophones, two word-signs), Scots, `Segmenter.score_chunks` | 0.23 best, 0.07 worst |
-| same four controls, quadgram `CharLM` over the letters with gaps dropped | 0.15 best, 0.00 worst |
+| 134 tokens, spaced, 29 symbols (27 for letters and homophones, two word-signs), Scots, eight seeds, `Segmenter.score_chunks` | 0.27 best, 0.16 median, 0.05 worst |
+| same eight controls, quadgram `CharLM` over the letters with gaps dropped | 0.49 best, 0.13 median, 0.00 worst |
 
 At eight tokens per symbol a character model alone reads about half a homophonic key, and
 the failure mode is the reading collapsing into e, s, n and t. This is the same wall Forster
@@ -155,20 +155,22 @@ The spaced rows are the Moray 1568 shape, measured 19 September 2026 on the `sco
 cleaned by cleaner 2 (dehyphenated) by `python -m cipherkit.measure_spaced_control`, which
 fixes every parameter: 134 tokens of Scots, 29 symbols of which two are word-signs for *the*
 and *and*, the models built from the first 80% of the corpus (cut at a word boundary) and the
-four control plaintexts drawn from the last 20% with `matched_control(design="spaced")`,
-seeds 0 to 3. The windows hold 21 to 24 distinct letters, so the homophone count moves
-between three and six. Both rows anneal the same four draws from the same `frequency_init`
+eight control plaintexts drawn from the last 20% with `matched_control(design="spaced")`,
+seeds 0 to 7. The windows hold 20 to 24 distinct letters, so the homophone count moves
+between three and seven. Both rows anneal the same eight draws from the same `frequency_init`
 start, homophonic moves, 40,000 iterations, the kit's default temperatures, recovery
 token-weighted over the letter symbols. The first row scores the gap-delimited chunks with
 `Segmenter.score_chunks` (defaults; word-signs as `#`), the scorer the Moray solve used:
-0.23, 0.22, 0.17, 0.07 over seeds 0, 2, 3, 1. The second row scores the decoded letters with
-the quadgram `CharLM`, gaps and word-signs dropped: 0.15, 0.11, 0.05, 0.00 over seeds 2, 3,
-1, 0. Neither scorer reads any of the four unconstrained; the Moray folder's own four
-controls, run during the campaign with hand-held word-signs and a duplicate-letter penalty,
-recovered 0.99, 0.35, 0.09 and fragments, and the published Moray reading rests on
-hand-iterated fixes, not on convergence. A spaced control is what a negative on a
-word-divided target has to be reported next to, and at this length the negative is the
-expected outcome for both scorers.
+0.23, 0.07, 0.22, 0.17, 0.27, 0.15, 0.11, 0.05 over seeds 0 to 7. The second row scores the
+decoded letters with the quadgram `CharLM`, gaps and word-signs dropped: 0.00, 0.05, 0.15,
+0.11, 0.49, 0.29, 0.42, 0.05. Neither scorer reads any of the eight unconstrained. The
+segmenter is the steadier of the two (every seed between 0.05 and 0.27) and the character
+model the more variable (three seeds above 0.29, three at 0.05 or below, and its best decodes
+are runs of e, o, t and f rather than words). The Moray folder's own four campaign controls,
+run with hand-held word-signs and a duplicate-letter penalty, recovered 0.99, 0.35, 0.09 and
+fragments, and the published Moray reading rests on hand-iterated fixes, not on convergence.
+A spaced control is what a negative on a word-divided target has to be reported next to, and
+at this length the negative is the expected outcome for both scorers.
 
 ```python
 target = [...]  # the target's tokens, " " kept where the page has a gap

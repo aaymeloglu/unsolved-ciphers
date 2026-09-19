@@ -3,13 +3,13 @@
     uv run python -m cipherkit.measure_spaced_control            # the two control rows
     uv run python -m cipherkit.measure_spaced_control --margin   # the "200 units" sentence
 
-Draws four spaced controls matched to moray-1568/transcription.txt and anneals each twice
+Draws eight spaced controls (seeds 0 to 7) matched to moray-1568/transcription.txt and anneals each twice
 from the same start, once scored by `Segmenter.score_chunks` over the gap-delimited chunks
 and once by a quadgram `CharLM` over the decoded letters with gaps and word-signs dropped, so
-the two README rows are measured on the same four samples. Every parameter is fixed here.
+the two README rows are measured on the same eight samples. Every parameter is fixed here.
 `--margin` instead scores five 40-word windows of held-out prose against the same letters
 shuffled, the margin the "A spaced solve" section quotes. Standard library plus cipherkit;
-needs the `sco` corpus; not run by CI. About 10 s.
+needs the `sco` corpus; not run by CI. About 20 s.
 """
 from __future__ import annotations
 
@@ -29,7 +29,7 @@ from .segment import Segmenter
 LANG = "sco"
 N_SYMBOLS = 29
 WORD_SIGNS = {"the": "[the]", "and": "[and]"}
-SEEDS = (0, 1, 2, 3)
+SEEDS = tuple(range(8))
 ITERS = 40000
 TRAIN_SHARE = 0.8  # models from the first 80% (cut at a word boundary), plaintexts from the rest
 SEGMENTER = dict(order=4, oov=-6.0, min_count=2, max_word=14)  # Segmenter defaults
