@@ -112,7 +112,11 @@ glyphs either.
   *François*), and a brute-force over the three free glyphs finds nothing. If the group is two
   words, the last four glyphs read *dois* (does, 134 attestations) with `Xs` a d-homophone, and
   the first three `t?a` (*twa*?). The letters b, k, q, w, x, z are otherwise unused in the
-  text, so `x3` and `Xs` are likely among them. Possibly a name. The idiom *cummis hame thair*
+  text, so `x3` and `Xs` are likely among them. The Dictionary of the Older Scottish Tongue
+  headword search returns no results for `??a?ois`, `t?a?ois`, `twa?ois` or `??a?oys`
+  (dsl.ac.uk, 18 September 2026); its 6–8-letter *-ois* headword forms are *purpois*,
+  *propois*, *suppois*, *repois*, *impois*, *inclois*, *unclois*, *undois* and the like, none of
+  which fits. Possibly a name. The idiom *cummis hame thair*
   occurs 43 times in the Register of the Privy Council ii.
 - The person-signs `4̄` and `Ē`, and the lone dotted o read as *and*.
 
