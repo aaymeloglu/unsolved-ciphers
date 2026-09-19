@@ -16,5 +16,9 @@ jobs:
       - run: uv run python ferdinand-1635-1640/verify.py
       - run: uv run python moray-1568/verify.py
       - run: uv run python moray-1568/fresh_review.py
+      - run: uv run python ottobon-1589/decode.py --check
+      - run: uv run python forster-1644/verify_solution.py > /dev/null
+      - run: uv run python starhemberg-1758/run_checks.py
+      - run: git diff --exit-code -- ottobon-1589 forster-1644 starhemberg-1758
       - run: uv run python docs/_build_site.py
       - run: git diff --exit-code -- docs/
