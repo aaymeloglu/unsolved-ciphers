@@ -1,0 +1,47 @@
+# Mechanical output of verify.py. printed: key.json over the printed digits, '?' unread.
+# edited: with repairs.json applied; (..) = M, [..] = I (a repair).
+P500.1
+  printed: in?nviandichland
+  edited:  in(?)nviandichland
+P500.2
+  printed: eenredelijckedisposilietothandelingewertgespenrtdieweldiendewaergenomen
+  edited:  eenredelijckedisposi[t]ietothandelingewertgespe[u]rtdieweldiendewaergenomen
+P500.3
+  printed: regeringemetimpatientieopnaderordrevanotsverwac
+  edited:  regeringemetimpatientieopnaderordrevano[n]sverwac
+P522.1
+  printed: ?goededisposilie
+  edited:  (?)goededisposi[t]ie
+P522.2
+  printed: diemnicvndament
+  edited:  diemnicvndament
+P522.3
+  printed: wijgeqnalifim?rteenigenaderepropositi?doen
+  edited:  wijgeq[u]alifi[c][ee]rteenigenaderepropositi[e]doen
+P522.4
+  printed: tenprincipaln
+  edited:  tenprincipaln
+P522.5
+  printed: ldaghen
+  edited:  [14]daghen
+P576.1
+  printed: onstotvoordeelgerekent
+  edited:  onstotvoordeelgerekent
+P582.1
+  printed: thientchepen
+  edited:  thien[s]chepen
+P582.2
+  printed: ?geloope?
+  edited:  (?)geloope[n]
+P582.3
+  printed: bewaren
+  edited:  bewaren
+P582.4
+  printed: ote
+  edited:  ote
+P582.5
+  printed: gebreck
+  edited:  gebreck
+P582.6
+  printed: masten
+  edited:  masten
