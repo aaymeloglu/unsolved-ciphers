@@ -40,6 +40,21 @@ CONTEXT = {
     "P582.5": "Here is also want of masts.",
     "P582.6": "van",
 }
+PAGE = {"P500": ("p. 500", "Westminster, 3 October 1653", "n529"), "P522": ("p. 522", "October 1653", "n551"),
+        "P576": ("p. 576", "London, 4/14 November 1653", "n605"), "P582": ("p. 582", "Westminster, 11/21 November 1653", "n611")}
+# Runs shown together because they share one printed line.
+MERGE = {"P582.6": "P582.5"}
+RAW = "https://raw.githubusercontent.com/aaymeloglu/unsolved-ciphers/main/vande-perre-1653/pages"
+STYLE = """<style>
+.run { margin:28px 0 34px; }
+.run .tag { font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted, #7a6f63); margin:0 0 6px; }
+.run img { width:100%; height:auto; display:block; border:1px solid rgba(0,0,0,.08); }
+.run dl { display:grid; grid-template-columns:max-content minmax(0,1fr); gap:4px 16px; margin:10px 0 0; }
+.run dt { font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted, #7a6f63); padding-top:3px; }
+.run dd { margin:0; min-width:0; overflow-wrap:anywhere; }
+.run dd code { word-break:break-all; }
+.run dd.nl { font-style:italic; }
+</style>"""
 LETTERS = [
     ("p. 500", "n529", "Westminster, 3 October 1653 NS"),
     ("p. 522", "n551", "October 1653"),
@@ -58,13 +73,23 @@ def build(root, docs, page, crumbs, repo):
     c = counts(r for rs in ed.values() for r in rs)
     ia = "https://archive.org/details/collectionofstat01thur/page/"
 
-    rows = "".join(
-        f"<tr><th>{tag}</th><td><em>{html.escape(CONTEXT[tag])}</em></td>"
-        f"<td class=\"ct\">{html.escape(' '.join(toks))}</td>"
-        f"<td><code>{html.escape(render(ed[tag]))}</code></td>"
-        f"<td>{html.escape(TEXT[tag][0]) or '<em>unresolved</em>'}</td>"
-        f"<td>{html.escape(TEXT[tag][1])}</td></tr>"
-        for tag, toks in lines)
+    blocks = []
+    for tag, toks in lines:
+        if tag in MERGE:
+            continue
+        tags = [tag] + [t for t, into in MERGE.items() if into == tag]
+        where, date, leaf = PAGE[tag.split(".")[0]]
+        reading = " | ".join(render(ed[t]) for t in tags)
+        dutch = " … ".join(TEXT[t][0] for t in tags if TEXT[t][0])
+        english = " … ".join(TEXT[t][1] for t in tags if TEXT[t][1])
+        label = tag if len(tags) == 1 else f"{tag}–{tags[-1].split('.')[1]}"
+        blocks.append(
+            f'<div class="run"><p class="tag">{label} · {where} · {html.escape(date)}</p>'
+            f'<a href="{ia}{leaf}" title="Full page on the Internet Archive"><img src="{RAW}/{tag}.jpg" alt="Birch, Thurloe State Papers i, {where}: the printed passage for {label}" loading="lazy"></a>'
+            f'<dl><dt>Decoded</dt><dd><code>{html.escape(reading)}</code></dd>'
+            f'<dt>Dutch</dt><dd class="nl">{html.escape(dutch) if dutch else "<em>unresolved</em>"}</dd>'
+            f'<dt>English</dt><dd>{html.escape(english)}</dd></dl></div>')
+    rows = "".join(blocks)
     letters = [(k, val["value"]) for k, val in key.items() if val["grade"] == "S"]
     keyrow = ("<table class=\"key\"><thead><tr>" + "".join(f"<th>{html.escape(k)}</th>" for k, _ in letters)
               + "</tr></thead><tbody><tr>" + "".join(f"<td>{html.escape(val)}</td>" for _, val in letters)
@@ -79,12 +104,17 @@ def build(root, docs, page, crumbs, repo):
 <header class="masthead">
   <p class="eyebrow">Deciphered · three code groups open · 14 September 2026</p>
   <h1>Vande Perre to de Bruyne, 1653</h1>
-  <p class="standfirst">The Dutch ambassador in London during the peace talks of 1653 wrote to the pensionary of Zeeland with his most sensitive words in cipher. Thurloe’s office intercepted the letters and translated them, leaving the ciphered words as numbers, and Birch printed them that way in 1742. A 22-letter alphabetical substitution with a few code groups, recovered from the printed digits alone.</p>
+  <p class="standfirst">The Dutch ambassador in London during the peace talks of 1653 wrote to the pensionary of Zeeland with his most sensitive words in cipher. Thurloe’s office intercepted the letters and translated them, leaving the ciphered words as numbers, and Birch printed them that way in 1742. The cipher, a 22-letter alphabetical substitution with a few code groups, covers short phrases only, and it was recovered from the printed digits alone.</p>
 </header>
+{STYLE}
+<section>
+  <h2>What is enciphered</h2>
+  <p>Not whole letters. Vande Perre wrote in Dutch and put only the sensitive phrases in cipher, a few words at a time. Thurloe’s office intercepted the letters and translated the clear parts into English, leaving the ciphered phrases as numbers; Birch printed the translations that way. Across four letters there are fifteen ciphered runs, 291 symbols in all. The longest is 70 symbols, one Dutch sentence (P500.2); most are one to five words. Solving it meant recovering the cipher alphabet from those fragments and reading each one.</p>
+  <p>Below, each run as it stands on Birch’s page, then the decoder’s output, the Dutch and an English translation. In the decoded line <code>(?)</code> is an unread code group and <code>[..]</code> a repair of an evident misprint. In the Dutch and English, square brackets hold code-group numbers and editorial supplements. The small English words over some runs are Birch’s glosses, which show that Thurloe’s office read those passages in 1653. Each image links to the full page on the Internet Archive.</p>
+</section>
 <section>
   <h2>The ciphered passages</h2>
-  <p>Every cipher run in four letters, in page order, with the clear English that precedes it in Birch’s translation. The reading is the decoder’s output: <code>(?)</code> is an unread code group, <code>[..]</code> a repair of an evident misprint. In the Dutch and English columns, square brackets hold code-group numbers and editorial supplements; <em>van</em> and <em>bevonden</em> in P582 stand in clear.</p>
-  <table class="reading"><thead><tr><th></th><th>Before the run</th><th>Printed digits</th><th>Reading</th><th>Dutch</th><th>English</th></tr></thead><tbody>{rows}</tbody></table>
+  {rows}
   <p>Birch printed short English glosses over some runs: “the good dispositions do”, “who upon good grounds”, “we were qualified with some farther propositions that would do”, “chiefly”, “fourteen days”, “ten ships at Yarmouth”, “were run away”, “left”. They show that Thurloe’s office read at least these passages in 1653. The key was found without them, and it reads <em>wij</em>, <em>gequalificeert</em>, <em>nadere propositie</em>, <em>principalen</em>, <em>thien schepen</em> and <em>geloopen</em> under the matching glosses. The London letter of 4/14 November has no gloss: its run reads “The said change [in the council] is <em>ons tot voordeel gerekent</em>”, reckoned to our advantage.</p>
 </section>
 <section>

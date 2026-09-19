@@ -37,7 +37,10 @@ Thurloe). The English glosses show that Thurloe's office read at least parts of 
 
 Mechanical output of [`verify.py`](verify.py) ([`reading.txt`](reading.txt)): the key over the
 printed digits, then with [`repairs.json`](repairs.json) applied. `(..)` is an unread code group,
-`[..]` a repair. Clear text from Birch's translation in quotes, for context.
+`[..]` a repair. Clear text from Birch's translation in quotes, for context. [`pages/`](pages/) has a
+crop of each run as printed (public-domain 1742 edition, from the Internet Archive scan); the
+[reading page](https://aaymeloglu.github.io/unsolved-ciphers/vandeperre-reading.html) shows them
+next to the decoded text.
 
 | Run | Context | Edited reading | Dutch | English |
 |---|---|---|---|---|
@@ -138,3 +141,4 @@ werken* I, and Multatuli, *Max Havelaar*):
 - `key.json`, `repairs.json`: the key and the proposed misprint repairs, graded.
 - `verify.py`: reproduces `reading.txt`, prints grade counts, `--z` for the control. Run in CI.
 - `solve.py`: the ciphertext-only search.
+- `pages/`: a crop of each run from Birch's page, used by the reading page.
