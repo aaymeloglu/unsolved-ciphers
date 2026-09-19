@@ -53,7 +53,7 @@
       "code": "852",
       "kind": "control",
       "value": "13",
-      "grade": "-"
+      "grade": "M"
     },
     {
       "offset": 13,
@@ -69,7 +69,7 @@
       "code": "839",
       "kind": "control",
       "value": "Marti",
-      "grade": "-"
+      "grade": "M"
     },
     {
       "offset": 16,
@@ -85,7 +85,7 @@
       "code": "840",
       "kind": "switch",
       "value": "[A→B]",
-      "grade": "-"
+      "grade": "M"
     },
     {
       "offset": 19,
