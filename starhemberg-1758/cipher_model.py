@@ -40,14 +40,27 @@ def parse_units(digits, controls, keys, locations=None, initial_table='A'):
             if digits[i] == '3' and (len(code) != 5 or not
                     (code == '30000' or 31000 <= int(code) <= 31500)):
                 kind = 'invalid'
-        # Grade per CONVENTIONS.md: H = found in the 1752 Prima/Secunda tables; M = not in the
-        # working key or malformed, and also the nulls, control marks and table switches, which
-        # the tables do not contain. Repairs (I) live in repair-cases.json, never here.
-        grade = check_grade('H' if kind == 'ordinary' and not value.startswith('{') else 'M')
+        # Grade per CONVENTIONS.md, H = looked up in the surviving key material:
+        #   ordinary unit in the 1752 Prima/Secunda tables (R1695/R1698)          -> H
+        #   standalone 8: the instructions (R1696/R1697) define it as a null     -> H
+        #   marked code whose value or switch is in the key's marked-code lists  -> H
+        #   unit absent from the working key, malformed, or an unlisted mark     -> M
+        # Repairs (I) live in repair-cases.json, never here.
+        if kind == 'ordinary':
+            grade, basis = ('M', 'absent from the working key') if value.startswith('{') \
+                else ('H', '1752 Prima/Secunda tables (R1695/R1698)')
+        elif kind == 'null':
+            grade, basis = 'H', '1752 instructions (R1696/R1697): standalone 8 is a null'
+        elif kind in ('control', 'switch') and not value.startswith('[' + code):
+            grade, basis = 'H', '1752 marked codes for punctuation, dates and table changes (R1695/R1698)'
+        elif kind == 'invalid':
+            grade, basis = 'M', 'malformed unit'
+        else:
+            grade, basis = 'M', 'marked code not in the key\'s lists'
         tokens.append({'offset': i, 'source_start': locations[i],
                        'source_end': locations[min(i + width - 1, len(digits) - 1)],
                        'table': before, 'code': code, 'kind': kind, 'value': value,
-                       'grade': grade})
+                       'grade': check_grade(grade), 'basis': basis})
         i += width
     assert ''.join(t['code'] for t in tokens) == digits
     return tokens
