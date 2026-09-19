@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact-unit decoder and reproducible evidence audit. Python standard library only.
+"""Exact-unit decoder and reproducible evidence audit. Standard library plus cipherkit.align.
 
 No language model, Latin correction, null removal, implicit token splitting,
 case folding, or context-dependent key switching occurs in this decoder.
@@ -11,6 +11,8 @@ import json
 import re
 from collections import Counter
 from pathlib import Path
+
+from cipherkit.align import align_rows
 
 ROOT = Path(__file__).resolve().parent
 PUNCT = {'.', ',', ';', ':', '-', '=', '(', ')'}
@@ -78,16 +80,13 @@ def normalize_plain(s):
     return s.replace('v', 'u')
 
 def derive(names):
-    key, evidence = {}, {}
-    for name in names:
-        for row in rows(name):
-            cipher, plain = row['cipher'].split(), normalize_plain(row['plain'])
-            assert len(cipher) == len(plain), row['id']
-            for pos, (symbol, value) in enumerate(zip(cipher, plain), 1):
-                assert symbol not in key or key[symbol] == value, (row['id'], symbol, value, key.get(symbol))
-                key[symbol] = value
-                evidence.setdefault(symbol, []).append(f"{row['id']}:{pos}")
-    return key, evidence
+    """Key and per-symbol occurrence evidence from the named alignment TSVs, via cipherkit.align.
+
+    Every symbol must meet one letter only: a conflict is an error here, not a majority vote."""
+    aligned = align_rows((row for name in names for row in rows(name)), fold=normalize_plain)
+    for symbol, a in aligned.items():
+        assert not a.conflicts, (symbol, a.plain, a.conflicts)
+    return {s: a.plain for s, a in aligned.items()}, {s: a.occurrences for s, a in aligned.items()}
 
 def sha(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
