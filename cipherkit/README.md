@@ -109,7 +109,7 @@ print(seg.segment("thelordofmurray"))  # ['the', 'lord', 'of', 'murray']
 
 Scores are log10; 40 words of unseen Scots prose score about 200 units above the same letters
 shuffled (measured 2026-09-19 on the `sco` corpus, five samples: 195 to 229). `moray-1568/verify.py --z`
-runs the shuffle test over keys with this scorer and reports z = 17.3.
+runs the key-shuffle test (`permutation_z_key`) with this scorer and reports z = 17.1.
 
 ## What the control numbers look like
 

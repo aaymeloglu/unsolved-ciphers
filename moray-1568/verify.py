@@ -1,16 +1,14 @@
 #!/usr/bin/env python3
 """Reproduce the Moray 1568 reading from transcription.txt and key.json, check it against the
 committed reading.txt, print the grade counts, and, when cipherkit's Scots corpus is present,
-the permutation z of the key against shuffled keys. Standard library plus cipherkit.
+the permutation z of the key against shuffled keys (the kit's key-shuffle null,
+`cipherkit.controls.permutation_z_key`). Standard library plus cipherkit.
 
     python3 moray-1568/verify.py            # check (exit 1 if reading.txt is stale)
     python3 moray-1568/verify.py --write    # rewrite reading.txt
 """
 import json
 import os
-import random
-import re
-import statistics
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -58,32 +56,23 @@ def grades(key, lines):
 
 
 def permutation_z(key, lines, n=1000, seed=0):
-    """Dictionary-segmentation score of the reading under the key, against the same score under
-    keys that shuffle the letter values among the letter glyphs (word-signs fixed)."""
+    """Key-shuffle null (cipherkit.controls.permutation_z_key): the dictionary-segmentation score
+    of the reading under the key, against keys that shuffle the letter values among the letter
+    glyphs. Word-signs ([the], [and], the person-signs) keep their values and break a chunk."""
+    from cipherkit.controls import permutation_z_key
     from cipherkit.segment import Segmenter
     try:
         sc = Segmenter.from_corpus("sco")
     except Exception as e:  # corpus not fetched
         return None, f"no Scots corpus ({e.__class__.__name__}); run: python -m cipherkit.corpora fetch sco"
-    letters = {k: v["value"] for k, v in key.items() if not v["value"].startswith("[")}
-    glyphs = list(letters)
+    values = {k: v["value"] for k, v in key.items()}
     chunks = [grp for _, groups in lines for grp in groups]
 
     def score(m):
         # Word-signs become "#" and break a chunk; the unread "?" is scored as a q.
-        return sc.score_chunks(["".join(m.get(t, "#") for t in grp).replace("?", "q") for grp in chunks])
+        return sc.score_chunks(["".join(m[t] if len(m[t]) == 1 else "#" for t in grp).replace("?", "q") for grp in chunks])
 
-    obs = score(letters)
-    rnd = random.Random(seed)
-    null = []
-    vals = [letters[g] for g in glyphs]
-    for _ in range(n):
-        v = vals[:]
-        rnd.shuffle(v)
-        null.append(score(dict(zip(glyphs, v))))
-    mu, sd = statistics.mean(null), statistics.pstdev(null)
-    return {"observed": obs, "null_mean": mu, "null_sd": sd, "z": (obs - mu) / sd,
-            "p": sum(x >= obs for x in null) / n, "n": n}, None
+    return permutation_z_key(score, values, chunks, n=n, seed=seed), None
 
 
 def main():
@@ -101,7 +90,7 @@ def main():
     print("grades:", dict(sorted(grades(key, lines).items())), "of", n, "glyphs")
     if "--z" in sys.argv:
         z, note = permutation_z(key, lines)
-        print("permutation z:", z if z else note)
+        print("permutation z (key shuffle, cipherkit.controls.permutation_z_key):", z if z else note)
     if not ok:
         print("reading.txt is stale; run with --write", file=sys.stderr)
         sys.exit(1)
