@@ -199,8 +199,8 @@ def forster_reading():
   </div>
   <div>
     <div class="callout">
-      <h3>Not the first reading</h3>
-      <p>Satoshi Tomokiyo's list still carried this passage as undeciphered when we read it on 14 September 2026, and we found no published solution. There were earlier ones. Britland has since told Robert Pitt that George Lasry supplied a decipherment after her 2013 article and that Norbert Biermann reached the same solution independently. Pitt published <a href="https://github.com/robertpitt/forster-cipher">his own key</a> a few hours before ours on the same day. Pitt's key and ours were reached separately and are identical; the earlier reading Britland passed on differs in a few words. No priority is claimed here.</p>
+      <h3>Earlier readings</h3>
+      <p>Satoshi Tomokiyo's list still carried this passage as undeciphered when we read it on 14 September 2026, and we found no published solution. There were earlier ones. Britland has since told Robert Pitt that George Lasry supplied a decipherment after her 2013 article and that Norbert Biermann reached the same solution independently. Pitt published <a href="https://github.com/robertpitt/forster-cipher">his own key</a> a few hours before ours on the same day. Pitt's key and ours were reached separately and are identical; the earlier reading Britland passed on differs in a few words.</p>
     </div>
     <h3>Reading the columns</h3>
     <p class="legend">Left: the ciphertext in Tomokiyo's transcription of Britland's printed text; commas are word breaks, and the two passages Forster left in clear are in italic. Middle: the key's output in the letter's own spelling, then modernised. Right: an English translation. Square brackets mark the three places where the key's output needs repair; the symbols concerned are marked in the ciphertext. No image of the manuscript is online, so whether those slips are Forster's or a transcriber's is not known.</p>
@@ -485,7 +485,7 @@ def starhemberg_reading():
   <div>
     <h3>Files and status</h3>
     <p>The published folder <a href="{REPO}/tree/main/starhemberg-1758">starhemberg-1758</a> holds the unchanged cipher rows, the working keys, the baseline parser, the fragment alignments, the two external calibrations, the audit ledger of key corrections, the proposed repairs, the eight joint candidates, and a one-command runner. This page is generated from <code>source-transcription.txt</code> and <code>two-table-output.txt</code> there.</p>
-    <p>This is a reproducible partial reading. It makes no claim to a complete or first decipherment, and the English on this page is a translation of a reconstruction, not of an established text. The unresolved connective before Minorca in particular means the summary must not be quoted as the letter's promise of Spanish participation.</p>
+    <p>This is a reproducible partial reading. It is not complete, and the English on this page is a translation of a reconstruction, not of an established text. The unresolved connective before Minorca in particular means the summary must not be quoted as the letter's promise of Spanish participation.</p>
   </div>
 </footer>"""
     (DOCS / "starhemberg-reading.html").write_text(page(
@@ -509,7 +509,7 @@ def index():
     <h2><a href="ferdinand-reading.html">Ferdinand correspondence</a></h2>
     <p class="where">Brussels / Vienna, 16 November 1635 and 22 February 1640</p>
     <p class="status">Substantially deciphered · residual gaps</p>
-    <p>Winter quarters at Trier, recruitment in Westphalia, and a request for 100,000 florins. A known Latin draft supplies the 1635 alphabet; a separate syllable supplement extends the reading through both 1640 pages. Uncertain glyphs and copying errors remain explicit. No first-solve claim.</p>
+    <p>Winter quarters at Trier, recruitment in Westphalia, and a request for 100,000 florins. A known Latin draft supplies the 1635 alphabet; a separate syllable supplement extends the reading through both 1640 pages. Uncertain glyphs and copying errors remain explicit.</p>
     <p class="go"><a href="ferdinand-reading.html">Ciphertext, Latin and English</a></p>
     <p><a href="{REPO}/tree/main/ferdinand-1635-1640">Readings, key evidence, transcriptions and decoder</a>.</p>
   </div>
@@ -524,8 +524,8 @@ def index():
   <div class="entry">
     <h2><a href="forster-reading.html">Les voyes de prudence</a></h2>
     <p class="where">Sir Richard Forster, 13 May 1644 · AD Val-d'Oise, 68 H 8</p>
-    <p class="status">Deciphered · not a first reading</p>
-    <p>A ciphered passage in a letter by the treasurer of Henrietta Maria's household: counsel that preserving one's life is no failing before God. Mixed letter-and-number homophonic substitution, 207 symbols, three repairs. George Lasry and Norbert Biermann had read it earlier, and Robert Pitt published a key the same day; no priority is claimed.</p>
+    <p class="status">Deciphered</p>
+    <p>A ciphered passage in a letter by the treasurer of Henrietta Maria's household: counsel that preserving one's life is no failing before God. Mixed letter-and-number homophonic substitution, 207 symbols, three repairs. George Lasry and Norbert Biermann had read it earlier, and Robert Pitt published a key the same day.</p>
     <p class="go"><a href="forster-reading.html">Ciphertext, French and English</a></p>
     <p>With the 37 cipher words and the key. <a href="{REPO}/tree/main/forster-1644">Write-up, solver and verification</a>.</p>
   </div>

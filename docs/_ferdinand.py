@@ -228,7 +228,7 @@ def build(root, docs, page, crumbs, repo):
   <p class="eyebrow">Brussels, Algemeen Rijksarchief, Secrétairerie d'État Allemande, inv. 540 · DECODE R954, R1889, R1890 · Latin, homophonic alphabet with a syllabary</p>
   <h1>Hiberna and florins</h1>
   <p class="standfirst">Two ciphered letters between the Cardinal-Infante Ferdinand, governor of the Spanish Netherlands, and his cousin Ferdinand, King of Hungary and from 1637 Emperor. In November 1635 the Cardinal-Infante declines to let the imperial army winter in Trier. In February 1640 the Emperor asks him for a hundred thousand florins to raise troops against the Elector of Cologne's levies in Westphalia. Read with an alphabet recovered from the surviving Latin draft of the first letter and a syllabary recovered from the second.</p>
-  <span class="status">Both letters substantially read · glyph and copying problems explicit · no first-solve claim</span>
+  <span class="status">Both letters substantially read · glyph and copying problems explicit</span>
 </header>
 
 <div class="lede">
@@ -322,7 +322,7 @@ def build(root, docs, page, crumbs, repo):
   <div>
     <h3>Files and status</h3>
     <p>The published folder <a href="{repo}/tree/main/ferdinand-1635-1640">ferdinand-1635-1640</a> holds the transcriptions, the frozen and expanded keys with their evidence, the decoder, the literal outputs, the per-unit grades, the two readings with their apparatus, and a one-command verifier. This page is generated from those files by <code>docs/_ferdinand.py</code>.</p>
-    <p>Both letters are read in substance; the Latin on this page is an edition of the decoder output with marked restorations, and the English translates that edition. Neither a first reading nor a complete one is claimed. Published 18 September 2026.</p>
+    <p>Both letters are read in substance; the Latin on this page is an edition of the decoder output with marked restorations, and the English translates that edition. The reading is not complete. Published 18 September 2026.</p>
   </div>
 </footer>"""
     (docs / "ferdinand-reading.html").write_text(page(
