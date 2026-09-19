@@ -20,6 +20,7 @@ from .normalize import (
     normalize,
     strip_gutenberg,
 )
+from .segment import Segmenter
 from .tokens import Token, cipher_tokens, parse, segments, symbol_counts
 
 __all__ = [
@@ -29,5 +30,6 @@ __all__ = [
     "permutation_z", "sample_plaintext", "spaced_control",
     "BackoffCharLM", "CharLM", "WordLM", "cached",
     "BASE_FOLDS", "EARLY_MODERN_FOLDS", "GERMAN_FOLDS", "LATIN", "normalize", "strip_gutenberg",
+    "Segmenter",
     "Token", "cipher_tokens", "parse", "segments", "symbol_counts",
 ]
