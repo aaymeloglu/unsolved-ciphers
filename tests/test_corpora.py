@@ -76,3 +76,41 @@ def test_markers_are_disjoint():
         for m in ms:
             assert m not in seen, f"{m!r} in both {seen.get(m)} and {lang}"
             seen[m] = lang
+
+
+def test_cleaner_stamp_round_trip(tmp_path):
+    from cipherkit.corpora import CLEANER_VERSION, read_stamp, write_stamp
+
+    assert CLEANER_VERSION == 2
+    lang_dir = tmp_path / "xx"
+    lang_dir.mkdir()
+    assert read_stamp(str(lang_dir)) is None
+    write_stamp(str(lang_dir))
+    assert read_stamp(str(lang_dir)) == CLEANER_VERSION
+    assert (lang_dir / ".cleaner").read_text().strip() == str(CLEANER_VERSION)
+
+
+def test_text_refuses_missing_or_stale_stamp(tmp_path):
+    import pytest
+
+    from cipherkit.corpora import CLEANER_VERSION, text, write_stamp
+
+    lang_dir = tmp_path / "xx"
+    lang_dir.mkdir()
+    (lang_dir / "a.txt").write_text("some words\n")
+    with pytest.raises(RuntimeError, match=r"fetch xx --force"):
+        text("xx", dest=str(tmp_path))
+    (lang_dir / ".cleaner").write_text(f"{CLEANER_VERSION - 1}\n")
+    with pytest.raises(RuntimeError, match=r"cleaner 1\b.*fetch xx --force"):
+        text("xx", dest=str(tmp_path))
+    write_stamp(str(lang_dir))
+    assert text("xx", dest=str(tmp_path)) == "some words\n"
+
+
+def test_text_still_reports_a_missing_corpus(tmp_path):
+    import pytest
+
+    from cipherkit.corpora import text
+
+    with pytest.raises(FileNotFoundError, match=r"fetch xx"):
+        text("xx", dest=str(tmp_path))

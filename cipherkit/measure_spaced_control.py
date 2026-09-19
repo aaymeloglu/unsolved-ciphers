@@ -1,18 +1,22 @@
 """Reproduce the spaced-control rows of the kit README (the Moray 1568 shape).
 
-    uv run python -m cipherkit.measure_spaced_control
+    uv run python -m cipherkit.measure_spaced_control            # the two control rows
+    uv run python -m cipherkit.measure_spaced_control --margin   # the "200 units" sentence
 
 Draws four spaced controls matched to moray-1568/transcription.txt and anneals each twice
 from the same start, once scored by `Segmenter.score_chunks` over the gap-delimited chunks
 and once by a quadgram `CharLM` over the decoded letters with gaps and word-signs dropped, so
 the two README rows are measured on the same four samples. Every parameter is fixed here.
-Standard library plus cipherkit; needs the `sco` corpus; not run by CI. About 15 s.
+`--margin` instead scores five 40-word windows of held-out prose against the same letters
+shuffled, the margin the "A spaced solve" section quotes. Standard library plus cipherkit;
+needs the `sco` corpus; not run by CI. About 10 s.
 """
 from __future__ import annotations
 
 import collections
 import json
 import os
+import random
 import sys
 
 from .anneal import anneal, frequency_init
@@ -30,6 +34,7 @@ ITERS = 40000
 TRAIN_SHARE = 0.8  # models from the first 80% (cut at a word boundary), plaintexts from the rest
 SEGMENTER = dict(order=4, oov=-6.0, min_count=2, max_word=14)  # Segmenter defaults
 CHARLM_ORDER = 4
+MARGIN_WORDS, MARGIN_SEEDS = 40, (0, 1, 2, 3, 4)
 TARGET = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "moray-1568", "transcription.txt")
 
 
@@ -45,10 +50,34 @@ def target_tokens(path: str = TARGET) -> list[str]:
     return out
 
 
-def measure(lang: str = LANG, seeds=SEEDS, iters: int = ITERS) -> dict:
+def split(lang: str = LANG) -> tuple[str, str]:
+    """(train, held): the normalized corpus cut at a word boundary at TRAIN_SHARE."""
     corpus = normalize(text(lang), keep_spaces=True)
     cut = corpus.rfind(" ", 0, int(len(corpus) * TRAIN_SHARE))
-    train, held = corpus[:cut], corpus[cut:]
+    return corpus[:cut], corpus[cut:]
+
+
+def margin(lang: str = LANG, seeds=MARGIN_SEEDS, n_words: int = MARGIN_WORDS) -> list[dict]:
+    """Segmenter score of a held-out window of `n_words` words minus the score of the same
+    letters shuffled, one window per seed (the start word and the shuffle share the seed)."""
+    train, held = split(lang)
+    seg = Segmenter(train, **SEGMENTER)
+    words = held.split()
+    out = []
+    for seed in seeds:
+        rnd = random.Random(seed)
+        start = rnd.randrange(0, len(words) - n_words)
+        real = "".join(words[start : start + n_words])
+        letters = list(real)
+        rnd.shuffle(letters)
+        out.append({"seed": seed, "start_word": start, "real": round(seg.score(real), 1),
+                    "shuffled": round(seg.score("".join(letters)), 1),
+                    "margin": round(seg.score(real) - seg.score("".join(letters)), 1)})
+    return out
+
+
+def measure(lang: str = LANG, seeds=SEEDS, iters: int = ITERS) -> dict:
+    train, held = split(lang)
     seg = Segmenter(train, **SEGMENTER)
     lm = CharLM.from_text(train.replace(" ", ""), order=CHARLM_ORDER)
     letters = sorted(set(train) - {" "})
@@ -87,4 +116,4 @@ def measure(lang: str = LANG, seeds=SEEDS, iters: int = ITERS) -> dict:
 
 
 if __name__ == "__main__":
-    print(json.dumps(measure(), indent=1))
+    print(json.dumps(margin() if "--margin" in sys.argv else measure(), indent=1))
