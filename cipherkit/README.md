@@ -122,24 +122,29 @@ four seeds, 40,000 iterations each:
 | 360 tokens, homophonic, 45 symbols, random start | 0.47 best, 0.00 worst |
 | same, `frequency_init` start | 0.67 best, 0.38 worst |
 | same, 5-gram, 120,000 iterations | 0.55 on every seed |
-| 134 tokens, spaced, 29 symbols (27 for letters and homophones, two word-signs), Scots | 0.40 best, 0.00 worst |
+| 134 tokens, spaced, 29 symbols (27 for letters and homophones, two word-signs), Scots, `Segmenter.score_chunks` | 0.98 best, 0.00 worst |
+| same, quadgram `CharLM` over the letters with gaps dropped | 0.40 best, 0.00 worst |
 
 At eight tokens per symbol a character model alone reads about half a homophonic key, and
 the failure mode is the reading collapsing into e, s, n and t. This is the same wall Forster
 hit, where word boundaries and a period lexicon (`WordLM`) carried the solve. Run the control
 first so the target's number means something.
 
-The spaced row is the Moray 1568 shape, measured 19 September 2026: 134 tokens of Scots from
-`sco`, 29 symbols of which two are word-signs for *the* and *and*, the model built from the
-first 80% of the corpus and the four control plaintexts sampled from the last 20%. The windows
-hold 20 to 24 distinct letters, so the homophone count moves between three and seven. The
-scorer is the quadgram `CharLM` over the decoded letters with the gaps and the word-signs
-dropped, because the kit has no dictionary-segmentation scorer; the Moray solve scored the
-gap-delimited chunks against a word list instead and its own four controls recovered 0.99,
-0.35, 0.09 and fragments. Recoveries here are 0.40, 0.25, 0.08, 0.00 over seeds 3, 2, 1, 0.
-Four seeds, 40,000 iterations, `frequency_init` start, as in the rows above. A spaced control
-is what a negative on a word-divided target has to be reported next to: at this length the
-character model alone reads none of the four.
+The spaced rows are the Moray 1568 shape, measured 19 September 2026: 134 tokens of Scots
+from `sco`, 29 symbols of which two are word-signs for *the* and *and*, the models built from
+the first 80% of the corpus and the four control plaintexts sampled from the last 20%. The
+windows hold 20 to 25 distinct letters, so the homophone count moves between two and seven.
+The first row scores the gap-delimited chunks with `Segmenter.score_chunks`, word-signs as
+`#`, which is the scorer the Moray solve used; recoveries are 0.98, 0.46, 0.14, 0.00 over
+seeds 1, 3, 0, 2, the same one-in-four-reads pattern as the Moray folder's own controls
+(0.99, 0.35, 0.09, fragments). The second row scores the decoded letters with the quadgram
+`CharLM`, gaps and word-signs dropped: 0.40, 0.25, 0.08, 0.00 over seeds 3, 2, 1, 0 (a re-run
+on the same four controls as the first row gave 0.39, 0.31, 0.05, 0.05). Four seeds, 40,000
+iterations, `frequency_init` start, the kit's default temperatures, recovery counted over the
+letter symbols. A spaced control is what a negative on a word-divided target has to be
+reported next to: at this length the character model reads none of the four and the
+segmenter reads one, so the segmenter is the scorer to run, and its negative is the one
+that means something.
 
 ```python
 target = [...]  # the target's tokens, " " kept where the page has a gap
