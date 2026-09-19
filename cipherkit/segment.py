@@ -32,8 +32,8 @@ class Segmenter:
     def __init__(self, text: str, order: int = 4, oov: float = -6.0, min_count: int = 2, max_word: int = 14):
         """`text` is a corpus, ideally already `normalize`d with keep_spaces=True; any run of
         characters outside a-z is a word boundary either way. `oov` is the log10 penalty an
-        unseen word pays on top of its character-model score (-6 means a hundred thousand
-        times less likely than a word that fills the whole lexicon). `max_word` bounds the
+        unseen word pays on top of its character-model score (-6 means a million times less
+        likely than a word that fills the whole lexicon). `max_word` bounds the
         split length the DP considers."""
         words = _WORD.findall(text.lower())
         counts = collections.Counter(words)

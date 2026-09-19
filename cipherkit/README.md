@@ -91,7 +91,7 @@ fixed = {"Z2": "#"}  # a word-sign
 def score(m):
     return seg.score_chunks(["".join(m[t] for t in c) for c in chunks])
 
-best, key = anneal(sorted({t for c in chunks for t in c}), "abcdefghiklmnopqrstuvwy", score, fixed=fixed)
+key, best = anneal(sorted({t for c in chunks for t in c}), "abcdefghiklmnopqrstuvwy", score, fixed=fixed)
 print(seg.segment("thelordofmurray"))  # ['the', 'lord', 'of', 'murray']
 ```
 
