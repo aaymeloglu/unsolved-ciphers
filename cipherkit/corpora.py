@@ -112,6 +112,14 @@ GUTENBERG_URL = "https://www.gutenberg.org/cache/epub/{id}/pg{id}.txt"
 IA_URL = "https://archive.org/download/{id}/{id}_djvu.txt"
 DEFAULT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "corpora")
 
+# Version of `clean_ocr`, stamped into corpora/<lang>/.cleaner at fetch time. The cache holds
+# cleaned text, so a corpus fetched under an older cleaner gives different models and
+# different published numbers; `text` refuses such a cache and asks for a --force fetch.
+#   1 = line filter only (18 September 2026)
+#   2 = dehyphenate + line filter (19 September 2026)
+CLEANER_VERSION = 2
+STAMP = ".cleaner"
+
 _WORD = re.compile(r"[^\W\d_]+")
 
 
@@ -204,12 +212,29 @@ def _gutenberg_title(raw: str) -> str:
     return f"{t.group(1).strip() if t else '?'} [{lg.group(1).strip() if lg else '?'}]"
 
 
+def write_stamp(lang_dir: str) -> None:
+    """Record CLEANER_VERSION in `lang_dir`/.cleaner."""
+    with open(os.path.join(lang_dir, STAMP), "w", encoding="utf-8") as f:
+        f.write(f"{CLEANER_VERSION}\n")
+
+
+def read_stamp(lang_dir: str) -> int | None:
+    """The cleaner version a corpus directory was fetched with, or None if unstamped."""
+    try:
+        with open(os.path.join(lang_dir, STAMP), encoding="utf-8") as f:
+            return int(f.read().strip())
+    except (FileNotFoundError, ValueError):
+        return None
+
+
 def fetch(lang: str, dest: str = DEFAULT_DIR, force: bool = False, log=sys.stderr) -> list[str]:
     """Download and clean every source for `lang`. Prints, per file, the Gutenberg title
     line or the IA identifier, the word count kept, and the top marker languages after
-    cleaning. Returns the file paths."""
+    cleaning. Returns the file paths. A directory stamped with an older CLEANER_VERSION is
+    refetched whole, as if `force` were given, and the new stamp is written at the end."""
     out_dir = os.path.join(dest, lang)
     os.makedirs(out_dir, exist_ok=True)
+    force = force or read_stamp(out_dir) != CLEANER_VERSION
     paths = []
     for src in RECIPES[lang]:
         path = os.path.join(out_dir, f"{src.id}.txt")
@@ -232,6 +257,7 @@ def fetch(lang: str, dest: str = DEFAULT_DIR, force: bool = False, log=sys.stder
         print(f"{lang} {src.id:28s} {src.label[:52]:52s} -> {title}", file=log)
         print(f"   {_summary(body, cleaned)}", file=log)
         paths.append(path)
+    write_stamp(out_dir)
     return paths
 
 
@@ -245,10 +271,19 @@ def _summary(raw: str, cleaned: str) -> str:
 
 
 def text(lang: str, dest: str = DEFAULT_DIR) -> str:
-    """Concatenate the fetched, cleaned texts for `lang` (not yet normalized)."""
+    """Concatenate the fetched, cleaned texts for `lang` (not yet normalized). Refuses a
+    directory whose .cleaner stamp is missing or is not CLEANER_VERSION: the cached text was
+    cleaned by a different `clean_ocr`, and every number built on it would differ."""
     out_dir = os.path.join(dest, lang)
     if not os.path.isdir(out_dir):
         raise FileNotFoundError(f"no corpus for {lang!r}; run: python -m cipherkit.corpora fetch {lang}")
+    stamp = read_stamp(out_dir)
+    if stamp != CLEANER_VERSION:
+        have = "no cleaner stamp" if stamp is None else f"cleaner {stamp}"
+        raise RuntimeError(
+            f"corpus {lang!r} has {have}, this cipherkit cleans with cleaner {CLEANER_VERSION}; "
+            f"run: python -m cipherkit.corpora fetch {lang} --force"
+        )
     parts = []
     for name in sorted(os.listdir(out_dir)):
         if name.endswith(".txt"):

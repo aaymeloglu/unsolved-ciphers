@@ -127,9 +127,10 @@ key, best = anneal(sorted({t for c in chunks for t in c}), "abcdefghiklmnopqrstu
 print(seg.segment("thelordofmurray"))  # ['the', 'lord', 'of', 'murray']
 ```
 
-Scores are log10; 40 words of unseen Scots prose score about 200 units above the same letters
-shuffled (measured 2026-09-19 on the `sco` corpus, five samples: 195 to 229). `moray-1568/verify.py --z`
-runs the key-shuffle test (`permutation_z_key`) with this scorer and reports z = 17.1.
+Scores are log10; 40 words of unseen Scots prose score about 180 units above the same letters
+shuffled (measured 19 September 2026 on the `sco` corpus, cleaner 2, five samples: 132 to 223;
+`python -m cipherkit.measure_spaced_control --margin`). `moray-1568/verify.py --z` runs the
+key-shuffle test (`permutation_z_key`) with this scorer and reports z = 17.0.
 
 ## What the control numbers look like
 
@@ -142,30 +143,32 @@ four seeds, 40,000 iterations each:
 | 360 tokens, homophonic, 45 symbols, random start | 0.47 best, 0.00 worst |
 | same, `frequency_init` start | 0.67 best, 0.38 worst |
 | same, 5-gram, 120,000 iterations | 0.55 on every seed |
-| 134 tokens, spaced, 29 symbols (27 for letters and homophones, two word-signs), Scots, `Segmenter.score_chunks` | 0.98 best, 0.00 worst |
-| same four controls, quadgram `CharLM` over the letters with gaps dropped | 0.39 best, 0.05 worst |
+| 134 tokens, spaced, 29 symbols (27 for letters and homophones, two word-signs), Scots, `Segmenter.score_chunks` | 0.23 best, 0.07 worst |
+| same four controls, quadgram `CharLM` over the letters with gaps dropped | 0.15 best, 0.00 worst |
 
 At eight tokens per symbol a character model alone reads about half a homophonic key, and
 the failure mode is the reading collapsing into e, s, n and t. This is the same wall Forster
 hit, where word boundaries and a period lexicon (`WordLM`) carried the solve. Run the control
 first so the target's number means something.
 
-The spaced rows are the Moray 1568 shape, measured 19 September 2026 by
-`python -m cipherkit.measure_spaced_control`, which fixes every parameter: 134 tokens of Scots
-from `sco`, 29 symbols of which two are word-signs for *the* and *and*, the models built from
-the first 80% of the corpus (cut at a word boundary) and the four control plaintexts drawn
-from the last 20% with `matched_control(design="spaced")`, seeds 0 to 3. The windows hold 20
-to 25 distinct letters, so the homophone count moves between two and seven. Both rows anneal
-the same four draws from the same `frequency_init` start, homophonic moves, 40,000 iterations,
-the kit's default temperatures, recovery token-weighted over the letter symbols. The first row
-scores the gap-delimited chunks with `Segmenter.score_chunks` (defaults; word-signs as `#`),
-the scorer the Moray solve used: 0.98, 0.46, 0.14, 0.00 over seeds 1, 3, 0, 2, the same
-one-in-four-reads pattern as the Moray folder's own controls (0.99, 0.35, 0.09, fragments).
-The second row scores the decoded letters with the quadgram `CharLM`, gaps and word-signs
-dropped: 0.39, 0.31, 0.05, 0.05 over seeds 3, 0, 1, 2. A spaced control is what a negative on
-a word-divided target has to be reported next to: at this length the character model reads
-none of the four and the segmenter reads one, so the segmenter is the scorer to run, and its
-negative is the one that means something.
+The spaced rows are the Moray 1568 shape, measured 19 September 2026 on the `sco` corpus as
+cleaned by cleaner 2 (dehyphenated) by `python -m cipherkit.measure_spaced_control`, which
+fixes every parameter: 134 tokens of Scots, 29 symbols of which two are word-signs for *the*
+and *and*, the models built from the first 80% of the corpus (cut at a word boundary) and the
+four control plaintexts drawn from the last 20% with `matched_control(design="spaced")`,
+seeds 0 to 3. The windows hold 21 to 24 distinct letters, so the homophone count moves
+between three and six. Both rows anneal the same four draws from the same `frequency_init`
+start, homophonic moves, 40,000 iterations, the kit's default temperatures, recovery
+token-weighted over the letter symbols. The first row scores the gap-delimited chunks with
+`Segmenter.score_chunks` (defaults; word-signs as `#`), the scorer the Moray solve used:
+0.23, 0.22, 0.17, 0.07 over seeds 0, 2, 3, 1. The second row scores the decoded letters with
+the quadgram `CharLM`, gaps and word-signs dropped: 0.15, 0.11, 0.05, 0.00 over seeds 2, 3,
+1, 0. Neither scorer reads any of the four unconstrained; the Moray folder's own four
+controls, run during the campaign with hand-held word-signs and a duplicate-letter penalty,
+recovered 0.99, 0.35, 0.09 and fragments, and the published Moray reading rests on
+hand-iterated fixes, not on convergence. A spaced control is what a negative on a
+word-divided target has to be reported next to, and at this length the negative is the
+expected outcome for both scorers.
 
 ```python
 target = [...]  # the target's tokens, " " kept where the page has a gap
@@ -224,6 +227,11 @@ clean literary prose of roughly the right century. Word counts after cleaning, 2
 | sco | 0.37 M | Diurnal of Occurrents 1513-1575, Knox Works v.1 | | Moray 1568, Davison 1584 |
 | nl | 0.13 M | | Vondel, Multatuli | Vande Perre 1653 |
 | en | 0.70 M | Bruce, Charles I in 1646; Evelyn correspondence v.4; Nicholas Papers v.1–2 | Doyle, Dickens | Royalist 1646, Boswell 1643, Burgess 1912 |
+
+The cache holds the cleaned text, so every published number is tied to the version of the
+cleaner that produced it: `fetch` writes `CLEANER_VERSION` (2 since 19 September 2026, when
+dehyphenation was added; 1 was the line filter alone) to `corpora/<lang>/.cleaner`, and `text`
+refuses a directory whose stamp is missing or older until `fetch <lang> --force` rebuilds it.
 
 `clean_ocr` runs on every file. It first rejoins words the printer broke at the right margin, so
 `pre-\nlattis` counts as `prelattis` and not as a spurious `lattis`, and a hyphen before a capital

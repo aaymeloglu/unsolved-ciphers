@@ -125,13 +125,16 @@ glyphs either.
 5. **Permutation test, key-shuffle null.** The dictionary-segmentation score of the text
    under the key, against 1,000 keys that shuffle the letter values among the letter-glyphs
    (`cipherkit.controls.permutation_z_key`; word-signs and person-signs keep their values):
-   **z = 17.1, p < 0.001** with cipherkit's `sco` corpus (Diurnal of Occurrents, Knox);
+   **z = 17.0, p < 0.001** with cipherkit's `sco` corpus (Diurnal of Occurrents, Knox);
    z = 13.1 against 300 shuffles with the CSP-based corpus used during the campaign
    (`verify.py --z`). This null asks whether the key beats a relabelling of the same glyphs.
    It is not comparable with the Forster key-shuffle z, which uses a different scorer (a
    4-gram character model over the decoded letters, not a dictionary segmentation of the gap
-   chunks) on a different text. Recomputed 19 September 2026 with cipherkit.controls.permutation_z_key; the earlier 17.3
-   came from the folder's own implementation of the same key-shuffle null.
+   chunks) on a different text. Recomputed 19 September 2026 with
+   cipherkit.controls.permutation_z_key on the `sco` corpus as cleaned by cleaner 2
+   (dehyphenated, `corpora/sco/.cleaner`); the earlier 17.3 came from the folder's own
+   implementation of the same key-shuffle null on the cleaner 1 cache, and 17.1 from the kit
+   function on that same older cache.
 
 ## Open points (baseline uncertainties and fresh transcription questions)
 
