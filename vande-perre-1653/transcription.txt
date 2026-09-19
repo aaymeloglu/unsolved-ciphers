@@ -4,6 +4,11 @@
 # "frac" is the fraction-like sort Birch sets as a small 1 over 1 beside a small 2 over 2.
 # Nothing here is repaired: repairs.json holds every proposed change to the printed digits.
 #
+# p.431, Westminster 29 Aug 1653 NS (IA leaf n460)
+# "Furthermore you will receive by a third hand a character to open a lockt chest"; followed by
+# "and that, which may make for my security. I desire you would keep it safe."
+P431.1: 12 5 13 26 7 9 9 10 7 77 17 5 3 8 8 7 24
+#
 # p.500, Westminster 3 Oct 1653 NS (IA leaf n529); clear text before each run in quotes
 # "keep me at present out of harm's way."
 P500.1: 12 17 57 17 28 12 3 17 6 12 5 10 14 3 17 6

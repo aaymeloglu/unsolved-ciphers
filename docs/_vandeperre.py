@@ -5,25 +5,27 @@ import importlib.util
 
 # Dutch and English per run, in transcription order. Blank Dutch = unresolved.
 TEXT = {
-    "P500.1": ("in [57] n viandich land", "in [?] hostile country"),
+    "P431.1": ("ick segghe een cijffer", "I mean a cipher"),
+    "P500.1": ("in een viandich land", "in a hostile country"),
     "P500.2": ("een redelijcke dispositie tot handelinge wert gespeurt, die wel diende waergenomen",
                "a reasonable disposition to negotiate is noticed, which ought to be taken up"),
     "P500.3": ("regeringe met impatientie op nader ordre van ons verwac[hten]",
                "the government await further orders from us with impatience"),
-    "P522.1": ("[617] goede dispositie", "[617] good disposition"),
-    "P522.2": ("", "Birch: “who upon good grounds”"),
+    "P522.1": ("de goede dispositie", "the good disposition"),
+    "P522.2": ("die m… fundament", "Birch: “who upon good grounds”"),
     "P522.3": ("wij gequalificeert eenige nadere propositie doen", "we [were] authorised to make some further proposal"),
-    "P522.4": ("ten principal[e]n", "chiefly"),
+    "P522.4": ("ten principal en", "chiefly, and"),
     "P522.5": ("14 daghen", "fourteen days"),
     "P576.1": ("ons tot voordeel gerekent", "reckoned to our advantage"),
     "P582.1": ("thien schepen", "ten ships"),
-    "P582.2": ("[115] geloopen", "run [115]"),
+    "P582.2": ("[Jarmuyen] geloopen", "[at Yarmouth] run [away]"),
     "P582.3": ("bewaren", "to guard"),
     "P582.4": ("", ""),
     "P582.5": ("gebreck", "want [of]"),
     "P582.6": ("masten", "masts [found]"),
 }
 CONTEXT = {
+    "P431.1": "a character to open a lockt chest",
     "P500.1": "keep me at present out of harm’s way.",
     "P500.2": "Adding only to this, that at present here",
     "P500.3": "We hear that many of",
@@ -40,7 +42,7 @@ CONTEXT = {
     "P582.5": "Here is also want of masts.",
     "P582.6": "van",
 }
-PAGE = {"P500": ("p. 500", "Westminster, 3 October 1653", "n529"), "P522": ("p. 522", "October 1653", "n551"),
+PAGE = {"P431": ("p. 431", "Westminster, 29 August 1653", "n460"), "P500": ("p. 500", "Westminster, 3 October 1653", "n529"), "P522": ("p. 522", "October 1653", "n551"),
         "P576": ("p. 576", "London, 4/14 November 1653", "n605"), "P582": ("p. 582", "Westminster, 11/21 November 1653", "n611")}
 # Runs shown together because they share one printed line.
 MERGE = {"P582.6": "P582.5"}
@@ -56,6 +58,7 @@ STYLE = """<style>
 .run dd.nl { font-style:italic; }
 </style>"""
 LETTERS = [
+    ("p. 431", "n460", "Westminster, 29 August 1653"),
     ("p. 500", "n529", "Westminster, 3 October 1653 NS"),
     ("p. 522", "n551", "October 1653"),
     ("p. 576", "n605", "London, 4/14 November 1653"),
@@ -102,15 +105,15 @@ def build(root, docs, page, crumbs, repo):
 
     body = f"""{crumbs.format(f'<a href="{repo}/tree/main/vande-perre-1653">write-up and files</a>')}
 <header class="masthead">
-  <p class="eyebrow">Deciphered · three code groups open · 14 September 2026</p>
+  <p class="eyebrow">Deciphered · two fragments open · 19 September 2026</p>
   <h1>Vande Perre to de Bruyne, 1653</h1>
-  <p class="standfirst">The Dutch ambassador in London during the peace talks of 1653 wrote to the pensionary of Zeeland with his most sensitive words in cipher. Thurloe’s office intercepted the letters and translated them, leaving the ciphered words as numbers, and Birch printed them that way in 1742. The cipher, a 22-letter alphabetical substitution with a few code groups, covers short phrases only, and it was recovered from the printed digits alone.</p>
+  <p class="standfirst">The Dutch ambassador in London during the peace talks of 1653 wrote to the pensionary of Zeeland with his most sensitive words in cipher. Thurloe’s office intercepted the letters and translated them, leaving the ciphered words as numbers, and Birch printed them that way in 1742. The cipher, a 22-letter alphabetical substitution with a symbol for <em>ee</em> and a few code groups, covers short phrases only, and it was recovered from the printed digits alone.</p>
 </header>
 {STYLE}
 <section>
   <h2>What is enciphered</h2>
-  <p>Not whole letters. Vande Perre wrote in Dutch and put only the sensitive phrases in cipher, a few words at a time. Thurloe’s office intercepted the letters and translated the clear parts into English, leaving the ciphered phrases as numbers; Birch printed the translations that way. Across four letters there are fifteen ciphered runs, 291 symbols in all. The longest is 70 symbols, one Dutch sentence (P500.2); most are one to five words. Solving it meant recovering the cipher alphabet from those fragments and reading each one.</p>
-  <p>Below, each run as it stands on Birch’s page, then the decoder’s output, the Dutch and an English translation. In the decoded line <code>(?)</code> is an unread code group and <code>[..]</code> a repair of an evident misprint. In the Dutch and English, square brackets hold code-group numbers and editorial supplements. The small English words over some runs are Birch’s glosses, which show that Thurloe’s office read those passages in 1653. Each image links to the full page on the Internet Archive.</p>
+  <p>Not whole letters. Vande Perre wrote in Dutch and put only the sensitive phrases in cipher, a few words at a time. Thurloe’s office intercepted the letters and translated the clear parts into English, leaving the ciphered phrases as numbers; Birch printed the translations that way. Across five letters there are sixteen ciphered runs, 308 symbols in all. The longest is 70 symbols, one Dutch sentence (P500.2); most are one to five words. Solving it meant recovering the cipher alphabet from those fragments and reading each one.</p>
+  <p>Below, each run as it stands on Birch’s page, then the decoder’s output, the Dutch and an English translation. In the decoded line <code>[..]</code> marks a repair of an evident misprint or an inferred value; in the Dutch and English, square brackets hold editorial supplements. The small English words over some runs are Birch’s glosses, which show that Thurloe’s office read those passages in 1653. Each image links to the full page on the Internet Archive.</p>
 </section>
 <section>
   <h2>The ciphered passages</h2>
@@ -119,9 +122,9 @@ def build(root, docs, page, crumbs, repo):
 </section>
 <section>
   <h2>Key</h2>
-  <p>{c['S']} of {sum(c.values())} printed symbols are read by this key (grade S), {c['M']} are unread code groups (57, 617, 115; M), and {c['I']} are repairs of misprints (I). No surviving key or contemporary Dutch decipherment has been found, so this is a cryptanalytic result. <code>frac</code> is the fraction-like sort Birch sets for 11; it reads <em>ij</em>.</p>
+  <p>{c['S']} of {sum(c.values())} printed symbols are read by this key (grade S), {c['C']} are code groups whose values come from Birch’s glosses (C: 617 <em>de</em> under “the good dispositions”, 115 Yarmouth under “ten ships at Yarmouth”, with <em>to</em> in clear before it), and {c['I']} are repairs of misprints or inferred values (I). The symbol 77 stands for <em>ee</em>: it occurs in <em>gequalificeert</em> and in <em>een cijffer</em>. The 57 of P500.1 sits where <em>een</em> needs its <em>ee</em>; it is a homophone of 77 or a misprint for it. No surviving key has been found; the letter values are a cryptanalytic result, and the two code groups rest on the 1653 translators. <code>frac</code> is the fraction-like sort Birch sets for 11; it reads <em>ij</em>.</p>
   {keyrow}
-  <p>A key-shuffle permutation on the printed digits, scored by dictionary segmentation under the repository’s Dutch corpus, gives z = 4.2 (p = 0.001, 1000 shuffles). The kit’s annealer, run ciphertext-only, recovers 16 to 19 of the 22 values and scores the key above every search result. Details in the <a href="{repo}/blob/main/vande-perre-1653/README.md#method-and-what-the-controls-say">method notes</a>.</p>
+  <p>A key-shuffle permutation on the printed digits, scored by dictionary segmentation under the repository’s Dutch corpus, gives z = 5.2 (p = 0.001, 1000 shuffles). The kit’s annealer, run ciphertext-only, recovers 16 to 19 of the 22 values and scores the key above every search result. Details in the <a href="{repo}/blob/main/vande-perre-1653/README.md#method-and-what-the-controls-say">method notes</a>.</p>
 </section>
 <section>
   <h2>Misprints repaired</h2>
@@ -131,9 +134,10 @@ def build(root, docs, page, crumbs, repo):
 <section>
   <h2>Open points</h2>
   <ul>
-    <li>Code groups 57, 617 and 115 occur once each. The glosses suggest 617 is an article or <em>de</em> and 115 is <em>wech</em> (away). If 57 stood for <em>ee</em>, P500.1 would read <em>in een viandich land</em> (in a hostile country). None is established.</li>
-    <li>P522.2 <code>diemnicvndament</code>, glossed “who upon good grounds”, does not divide into Dutch as printed. P582.4 <code>ote</code> (“the fleet [ote] will not go out”) is unresolved.</li>
-    <li>A short run in an earlier Vande Perre letter of the same volume, a few pages before p. 435, after “a character to open a lockt chest”, begins <em>ick segghe</em> (“I say”) under this key; the rest has not been checked against the page image.</li>
+    <li>P522.2 <code>diemnicvndament</code>, glossed “who upon good grounds”: <em>die m…</em> and <em>…ndament</em> point to <em>die met fundament</em> (who with good grounds), but the printed <em>12. 5.</em> between them would have to stand for <em>27. 8.</em> (<em>t f</em>), two errors in a row; with 28 read as <em>u</em> the rest fits. Not established.</li>
+    <li>P582.4 <code>ote</code> (“the fleet [ote] will not go out”) is unresolved: three symbols, no Dutch word, no gloss.</li>
+    <li>The letter values have no <em>u</em>: 28 is <em>v</em>, and <em>gespeurt</em> and <em>gequalificeert</em> print 17 (<em>n</em>) where <em>u</em> is wanted. Either <em>u</em> was written with the <em>n</em> symbol or the print confuses 16 and 17 (16 never occurs).</li>
+    <li>The 29 August letter announces a cipher sent “by a third hand”: “a character to open a lockt chest, <em>ick segghe een cijffer</em>”. That sentence is itself in the cipher read here, so what was sent may have been the code list rather than a new alphabet.</li>
     <li>The Beverning and Vande Perre letter to Boreel of 1 September 1653 (p. 435) uses a different cipher and remains unread.</li>
   </ul>
 </section>

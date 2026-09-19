@@ -1,5 +1,5 @@
 {
- "_comment": "Printed symbol -> plaintext. grade S: fixed by cryptanalysis (README: method and controls); M: unread. 'from' names words that fix the value. Printer's errors are not keyed here; they are in repairs.json.",
+ "_comment": "Printed symbol -> plaintext. grade S: fixed by cryptanalysis (README: method and controls); C: read from Birch's 1653 glosses; I: inferred; M: unread. 'from' names the words or glosses that fix the value. Printer's errors are in repairs.json.",
  "3": {
   "value": "a",
   "grade": "S",
@@ -111,24 +111,24 @@
   "from": "wel, wij, waergenomen, bewaren"
  },
  "57": {
-  "value": "?",
-  "grade": "M",
-  "from": "once, P500.1 between 'in' and 'nviandich land'; a code group, unread"
+  "value": "ee",
+  "grade": "I",
+  "from": "once, P500.1: in [57]n viandich land needs een, as P431.1 segghe [77]n. A homophone of 77 or a misprint for it; either way ee"
  },
  "617": {
-  "value": "?",
-  "grade": "M",
-  "from": "once, P522.1 before 'goede dispositie'; Birch glosses the run 'the good dispositions', so perhaps an article or 'de', unproved"
+  "value": "de",
+  "grade": "C",
+  "from": "once, P522.1: Birch's gloss 'the good dispositions' over [617] goede dispositie; the article (de or die)"
  },
  "115": {
-  "value": "?",
-  "grade": "M",
-  "from": "once, P582.2 before 'geloopen'; Birch glosses the run 'were run away', so perhaps 'wech' (away), unproved"
+  "value": "Jarmuyen",
+  "grade": "C",
+  "from": "once, P582.2: Birch's gloss 'ten ships at Yarmouth were run away' over thien schepen to [115] geloopen, with 'to' (tot) in clear; the place-name code. Spelling supplied"
  },
  "77": {
-  "value": "?",
-  "grade": "M",
-  "from": "once, P522.3; not a key symbol: Birch's '15. 77.' is a missetting, see repairs.json"
+  "value": "ee",
+  "grade": "S",
+  "from": "gequalifi(c)eert (P522.3), een cijffer (P431.1); a digraph symbol, not a missetting of 7. 7."
  },
  "71": {
   "value": "?",
