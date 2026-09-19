@@ -1,6 +1,6 @@
 # Sir Richard Forster's ciphered letter, 13 May 1644: decipherment (2026-09-14)
 
-**Grades** ([CONVENTIONS.md](../CONVENTIONS.md)): 204 of 207 tokens S (read under a key found ciphertext-only; permutation control z = 8.8 in the independent review), 3 tokens I (the explicit emendations); no H or C, since no key source or contemporary decipherment is known. `python3 verify_solution.py` prints the counts.
+**Grades** ([CONVENTIONS.md](../CONVENTIONS.md)): 204 of 207 tokens S (read under a key found ciphertext-only; key-shuffle permutation z = 11.2, token-shuffle z = 15.3, see "Permutation tests" below), 3 tokens I (the explicit emendations); no H or C, since no key source or contemporary decipherment is known. `python3 verify_solution.py` prints the counts; `uv run python permutation.py` reproduces the z values.
 
 **Side-by-side reading:** [ciphertext, French and English](https://aaymeloglu.github.io/unsolved-ciphers/forster-reading.html).
 
@@ -54,6 +54,22 @@ Spiritual counsel to someone whose life is in danger and who fears that saving i
 3. Beam search over a lexicon (dict_solver.py): originally 42k French words from Corneille/Descartes (Gutenberg) plus a modern frequency list, with generated 17th-c. variants (-oit, ie for je, y for i, s for circumflex, u/v). Constraint: same symbol = same letter; different symbols may share a letter. Words longer than 7 symbols allowed to be skipped. Beam 2000. The top state read "il ne a aucu? su?oet des?rupule ie manquera dieu lesrei?les ie perle?toon ... prudence pour ?onceruer uotre uie pour eclaire a doeu un plus traci sa?rofiee parla mu?toplica?ooc des uos serui?es pour ?esalut ie uos freres". Ported 18 Sept 2026 to a lexicon from `cipherkit.corpora` fr (Xivrey, Avenel, Montaigne, Brantôme, Descartes; words seen three or more times, folded to i/u, plus lex_old.txt and the same name list); the same run now reads "il ne a aucuc su?oet descrupule ee manquera dieu lesrei?les ee perlectoon ... prudence pour conceruer uotre uie pour eclaire a doeu un plus grace sacrofiee parla mu?toplica?ooc des uos seruices pour ?esalut ee uos freres". The corpus files of the original run were not kept; the ported scripts are the reproducible ones.
 
 Run: `uv run python dict_solver.py 2000 -25 7` in this directory after `uv run python -m cipherkit.corpora fetch fr`.
+
+## Permutation tests
+
+`permutation.py` scores the 207 decoded letters with a character 4-gram model built from
+`cipherkit.corpora` fr (Xivrey, Avenel, Montaigne, Brantôme, Descartes; j folded to i, v to u)
+and compares that score with 1,000 shuffles under each of the kit's two nulls (seed 0):
+
+| Null | Question | z | p |
+|---|---|---|---|
+| key shuffle (`permutation_z_key`): the 34 plaintext values shuffled among the symbols | is this key better than a relabelling of the same symbols? | 11.2 | < 0.001 |
+| token shuffle (`permutation_z`): the 207 tokens in random order under the key | is the order of the text informative under this key? | 15.3 | < 0.001 |
+
+The two answer different questions and are not comparable with each other, or with the
+Moray key-shuffle z, which uses a dictionary-segmentation score. The z = 8.8 that the 14
+September 2026 write-up quoted from the independent review was not reproducible from this
+folder: no script here computed it, and the review file does not record its null or model.
 
 ## Independent check (Codex, 2026-09-14)
 

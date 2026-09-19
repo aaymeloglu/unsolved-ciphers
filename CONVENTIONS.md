@@ -11,7 +11,7 @@ mandatory controls we take over; grades H, C, M, I mean the same thing in both r
 |---|---|---|
 | **H** | Read from a primary key source: the group is looked up in a surviving key or table | Ottobon groups found in Ziffra prima (DECODE R1789); Starhemberg groups found in the 1752 Prima/Secunda tables |
 | **C** | Read from known plaintext: a contemporary decipherment, a printed sibling, a minute in clear | Royalist 1646 values fixed from Evelyn's printed decipherments |
-| **S** | Determined by cryptanalysis alone, and only claimed alongside a control (section 2) | Forster 1644: 204 of 207 tokens under a key found ciphertext-only, permutation z = 8.8 |
+| **S** | Determined by cryptanalysis alone, and only claimed alongside a control (section 2) | Forster 1644: 204 of 207 tokens under a key found ciphertext-only, key-shuffle permutation z = 11.2 |
 | **M** | Uncertain: alternative readings, unread signs, groups absent from the key | Ottobon `{a84/a94}` and `?` slots; Starhemberg groups the tables do not contain |
 | **I** | Inferred or supplied: editorial restorations, emendations, repairs of the ciphertext | Ottobon *sole[va]tione*; Forster's three emended tokens; every Starhemberg digit repair |
 
@@ -26,7 +26,10 @@ Before saying a target resists an attack, run the same attack on a synthetic tex
 length, alphabet, symbol count and cipher design in the target's language
 (`cipherkit.controls.matched_control`), and report both numbers. "The annealer reads 5 of 6
 matched 134-letter controls but not the target" is a result. "The annealer found nothing" is not.
-Permutation z-scores (`permutation_z`) accompany any claimed reading that rests on statistics.
+Permutation z-scores accompany any claimed reading that rests on statistics, and the report
+names the null: `permutation_z` shuffles the tokens (is the order informative under this
+key?), `permutation_z_key` shuffles the key's values among the glyphs (is this key better than
+a relabelling of the same glyphs?). The two are not comparable with each other.
 
 ## 3. Check the printed editions before calling anything unsolved
 
