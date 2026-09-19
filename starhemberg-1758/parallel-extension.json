@@ -21,7 +21,8 @@
       "code": "31443",
       "kind": "ordinary",
       "value": "so",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 5,
@@ -37,7 +38,8 @@
       "code": "31047",
       "kind": "ordinary",
       "value": "den",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 10,
@@ -53,7 +55,8 @@
       "code": "852",
       "kind": "control",
       "value": "13",
-      "grade": "M"
+      "grade": "H",
+      "basis": "1752 marked codes for punctuation, dates and table changes (R1695/R1698)"
     },
     {
       "offset": 13,
@@ -69,7 +72,8 @@
       "code": "839",
       "kind": "control",
       "value": "Marti",
-      "grade": "M"
+      "grade": "H",
+      "basis": "1752 marked codes for punctuation, dates and table changes (R1695/R1698)"
     },
     {
       "offset": 16,
@@ -85,7 +89,8 @@
       "code": "840",
       "kind": "switch",
       "value": "[A→B]",
-      "grade": "M"
+      "grade": "H",
+      "basis": "1752 marked codes for punctuation, dates and table changes (R1695/R1698)"
     },
     {
       "offset": 19,
@@ -101,7 +106,8 @@
       "code": "44",
       "kind": "ordinary",
       "value": "an",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 21,
@@ -117,7 +123,8 @@
       "code": "31065",
       "kind": "ordinary",
       "value": "Euer Excellenz",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 26,
@@ -133,7 +140,8 @@
       "code": "05",
       "kind": "ordinary",
       "value": "ab",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 28,
@@ -149,7 +157,8 @@
       "code": "31010",
       "kind": "ordinary",
       "value": "ge/gn/gen",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 33,
@@ -165,7 +174,8 @@
       "code": "31051",
       "kind": "ordinary",
       "value": "fe",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 38,
@@ -181,7 +191,8 @@
       "code": "31228",
       "kind": "ordinary",
       "value": "r",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 43,
@@ -197,7 +208,8 @@
       "code": "31282",
       "kind": "ordinary",
       "value": "t",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     }
   ],
   "comparison_reading": "so den13Marti an EuerExcellenz abgefert…",

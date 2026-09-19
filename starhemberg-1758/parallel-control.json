@@ -68,7 +68,8 @@
       "code": "31078",
       "kind": "ordinary",
       "value": "nun",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 5,
@@ -84,7 +85,8 @@
       "code": "31118",
       "kind": "ordinary",
       "value": "hoff",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 10,
@@ -100,7 +102,8 @@
       "code": "63",
       "kind": "ordinary",
       "value": "bald",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 12,
@@ -116,7 +119,8 @@
       "code": "01",
       "kind": "ordinary",
       "value": "die",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 14,
@@ -132,7 +136,8 @@
       "code": "73",
       "kind": "ordinary",
       "value": "nach",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 16,
@@ -148,7 +153,8 @@
       "code": "31220",
       "kind": "ordinary",
       "value": "richt",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 21,
@@ -164,7 +170,8 @@
       "code": "31281",
       "kind": "ordinary",
       "value": "von",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 26,
@@ -180,7 +187,8 @@
       "code": "31350",
       "kind": "ordinary",
       "value": "gl",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 31,
@@ -196,7 +204,8 @@
       "code": "31453",
       "kind": "ordinary",
       "value": "u/uc/uck",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 36,
@@ -212,7 +221,8 @@
       "code": "31214",
       "kind": "ordinary",
       "value": "lich",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 41,
@@ -228,7 +238,8 @@
       "code": "31005",
       "kind": "ordinary",
       "value": "an",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 46,
@@ -244,7 +255,8 @@
       "code": "72",
       "kind": "ordinary",
       "value": "kunft",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     },
     {
       "offset": 48,
@@ -260,7 +272,8 @@
       "code": "31109",
       "kind": "ordinary",
       "value": "der",
-      "grade": "H"
+      "grade": "H",
+      "basis": "1752 Prima/Secunda tables (R1695/R1698)"
     }
   ]
 }
