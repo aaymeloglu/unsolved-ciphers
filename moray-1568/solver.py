@@ -6,7 +6,7 @@ words (word unigram log-probabilities; unknown words fall back to a character 4-
 penalty), with a penalty for two glyphs sharing a letter. Moves: reassign one glyph, or swap
 two. Word-signs are fixed to "#" and act as breaks. The scorer is `cipherkit.segment.Segmenter`.
 
-    python3 solver.py TRANSCRIPTION CORPUS RESTARTS SEED DUP_PENALTY [FIX]
+    uv run python moray-1568/solver.py TRANSCRIPTION CORPUS RESTARTS SEED DUP_PENALTY [FIX]
 
 FIX is "glyph=letter,glyph=#,..." for values to hold. The corpus used
 in the campaign was a 1.3M-word text of CSP Scotland vol. 2 (Bain 1900), Haynes 1740,
@@ -15,12 +15,10 @@ gives the same behaviour and is what verify.py uses. Standard library plus ciphe
 """
 import json
 import math
-import os
 import random
 import sys
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from cipherkit.segment import Segmenter  # noqa: E402
+from cipherkit.segment import Segmenter
 
 LET = "abcdefghiklmnopqrstuvwy"
 
