@@ -28,7 +28,7 @@
   "o2": {"value": "[and]", "grade": "I", "from": "stands alone between two clauses"},
   "4b": {"value": "[Q]",   "grade": "M", "from": "sign for a person or party after 'suffering of', presumably the Queen"},
   "Eb": {"value": "[Q2]",  "grade": "M", "from": "sign for a person or party after 'gif the'; plausibly the Queen again"},
-  "Zz": {"value": "k",     "grade": "M", "from": "lakkis / lattis; doubled in la??is"},
+  "Zz": {"value": "t",     "grade": "M", "from": "lattis (8 attestations in 190k word forms; lakkis none); doubled in la??is; opens the last word"},
   "s":  {"value": "p",     "grade": "M", "from": "spil"},
   "t":  {"value": "t",     "grade": "M", "from": "haill e?; letter unidentified"},
   "x3": {"value": "e",     "grade": "M", "from": "line 4, shape as x"},

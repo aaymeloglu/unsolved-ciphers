@@ -37,12 +37,12 @@ L4: (k)(e)a(?)ois
 Divided into words:
 
 > The suffering of [Q] remane in Carlyle, and sending haym of the Lord Fleming, hes done greit
-> evil. Gif the [Q2] cummis haom thair, la(kk)is na mair to s(p)il the haill e(t) oure freindis
-> (ke)a(?)ois.
+> evil. Gif the [Q2] cummis haom thair, la(tt)is na mair to s(p)il the haill e(t) oure freindis
+> (te)a(?)ois.
 
 > The allowing of [the Queen] to remain in Carlisle, and the sending home of Lord Fleming, has
-> done great harm. If the [Queen] comes home there, nothing more is wanting to ruin the whole
-> […] our friends […].
+> done great harm. If the [Queen] comes home there, [she/it] lets nothing more [stand] to ruin the
+> whole […] our friends […].
 
 Mary was moved from Carlisle to Bolton on 13–15 July 1568, the date of the letter. Lord Fleming,
 sent to Elizabeth with Herries in June, was back in Scotland in arms by 21 August (Bain, CSP
@@ -102,12 +102,18 @@ glyphs either.
   f or ff.
 - **haom thair**: the glyphs are in the order h-a-o-m; read as *hame* (home) with a transposed
   letter, or an unrecognised spelling.
-- **la(kk)is**: a doubled glyph `Zz`; *lakkis* (lacks) fits the sense, *lattis* (lets) the
-  corpus. `Zz` opens the last word too.
+- **la(tt)is**: a doubled glyph `Zz`. In a 190,000-form lexicon built from the Register of the
+  Privy Council i–ii, Bain i–ii and ix, Pitscottie and Knox, *lattis* (lets) has 8 attestations
+  and *lakkis* none; *laikis* 2. `Zz` opens the last word too.
 - **s(p)il**: `s` occurs once; *spil* (spoil, ruin) by sense.
 - **haill e(t)**: `t` occurs once; the two letters after *haill* are not resolved.
-- **Line 4** `(k)(e)a(?)ois`: one word of seven glyphs, three of them singletons (`Zz`, `x3`,
-  `Xs`); unread. Possibly a name.
+- **Line 4** `(t)(e)a(?)ois`: one word of seven glyphs, two of them singletons (`x3`, `Xs`);
+  unread. No seven-letter form `??a?ois` occurs in the 190,000-form lexicon (only OCR debris of
+  *François*), and a brute-force over the three free glyphs finds nothing. If the group is two
+  words, the last four glyphs read *dois* (does, 134 attestations) with `Xs` a d-homophone, and
+  the first three `t?a` (*twa*?). The letters b, k, q, w, x, z are otherwise unused in the
+  text, so `x3` and `Xs` are likely among them. Possibly a name. The idiom *cummis hame thair*
+  occurs 43 times in the Register of the Privy Council ii.
 - The person-signs `4̄` and `Ē`, and the lone dotted o read as *and*.
 
 ## Failure log
