@@ -40,6 +40,6 @@ print('invalid',[(t['offset'],t['code']) for t in out if t['kind']=='invalid'])
 grades=counts(Reading(t['code'],t['value'],t['grade'],t['basis']) for t in out)
 h_by_source={'tables':sum(t['grade']=='H' and t['kind']=='ordinary' for t in out),
              'instructions_and_marked_codes':sum(t['grade']=='H' and t['kind']!='ordinary' for t in out)}
-report['grades']={**grades,'H_by_source':h_by_source,'note':'H = ordinary unit in the 1752 tables, or a null, punctuation mark or table switch defined by the 1752 instructions and marked-code lists (see each token\'s basis); M = absent from the working key or malformed; repairs are I and stay in repair-cases.json'}
+report['grades']={**grades,'H_by_source':h_by_source,'note':'H = ordinary unit in the 1752 tables, or a null per the 1752 Nota, or a punctuation mark or table switch listed in the numeric tables\' 800 column (each token\'s basis names the DECODE record and image); M = absent from the working key or malformed; repairs are I and stay in repair-cases.json'}
 (P/'two-table-parsing.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print('grades',grades,'H by source',h_by_source)

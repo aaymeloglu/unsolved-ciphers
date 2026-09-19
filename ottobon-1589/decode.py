@@ -57,7 +57,8 @@ def grade_counts(document, key):
     return c
 
 
-def render(document, mapping, key):
+def render(document, key):
+    mapping = {t: k['value'] for t, k in key.items()}
     out = ['# Ottobon–Mocenigo: line-by-line transcription', '',
            'Generated from [transcription.json](transcription.json) and '
            '[key.json](key.json). Literal lookup and editorial reading are separate. '
@@ -97,7 +98,7 @@ def main():
     if args.tokens:
         print(literal(args.tokens, mapping))
         return
-    rendered = render(document, mapping, key)
+    rendered = render(document, key)
     if args.write:
         (ROOT / 'TRANSCRIPTION.md').write_text(rendered)
     if args.check:

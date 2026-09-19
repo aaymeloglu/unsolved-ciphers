@@ -17,6 +17,8 @@ from dataclasses import dataclass
 
 GRADES = ("H", "C", "S", "M", "I")
 
+__all__ = ["GRADES", "Reading", "check_grade", "grade_token", "apply_key", "counts", "render", "summary_line"]
+
 
 @dataclass
 class Reading:
