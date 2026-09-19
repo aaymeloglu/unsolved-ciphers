@@ -17,7 +17,7 @@ Python 3.12, managed by uv; Pillow is the one dependency.
 | `controls` | `matched_control(corpus, target_tokens, design)` builds a synthetic cipher of the same length and symbol count. `mono_control`, `homophonic_control` (homophones apportioned by letter frequency), `spaced_control` (word gaps kept as tokens, whole words replaced by a sign). `key_recovery(found, true, weights)`. Two permutation tests with different nulls: `permutation_z(score, tokens, n)` shuffles the tokens (is the order informative under this key?); `permutation_z_key(score, key, tokens, n, fixed=)` shuffles the key's values among its glyphs (is this key better than a relabelling of the same glyphs?). |
 | `align` | Known plaintext to key. `read_tsv(path)` loads rows of `id`, `cipher` (space-separated units), `plain`, `evidence`; `align_rows(rows, fold=)` pairs one unit with one letter and returns per-symbol `Assignment`s (majority letter, every occurrence as `A01:3`, every disagreement in `conflicts`); `holdout(rows, key, fold=)` scores rows the key never saw; `apply(units, key)`. |
 | `tokens` | `parse(text, style)` for the four transcription formats we produce (`groups`, `mixed`, `annotated`, `letters`); `cipher_tokens`, `segments`, `symbol_counts`. |
-| `transcribe` | The transcription workflow as commands: `layout` (deskew by ink-profile variance, find line bands), `strips` (one PNG per line, labelled boards, manifest with source SHA-256 and boxes), `compare` (align two passes token by token, alternatives count), `consensus` (third pass with `{a/b}` at disagreements), `review` (self-contained HTML with strip, chips, key values, disputed highlights). |
+| `transcribe` | The transcription workflow as commands: `layout` (deskew by ink-profile variance, find line bands; `--crop auto` finds the paper inside a dark photograph frame, `--flatten` removes its illumination gradient, `--slabs N` deskews a curled sheet in N pieces), `strips` (one PNG per line, labelled boards, manifest with source SHA-256 and boxes), `gaps` (word gaps in one line strip as column ranges), `compare` (align two passes token by token, alternatives count), `consensus` (third pass with `{a/b}` at disagreements), `review` (self-contained HTML with strip, chips, key values, disputed highlights). |
 | `grades` | The CONVENTIONS grade vocabulary: `GRADES` (H, C, S, M, I), `Reading(token, value, grade, basis)`, `grade_token` and `apply_key` over a key of the moray `key.json` shape (a token absent from the key reads `?` at grade M), `counts` (always all five grades; rejects any other label), `render` (bare for H, C, S; `(value)` for M; `[value]` for I), `summary_line`. |
 | `corpora` | `RECIPES` of Gutenberg and Internet Archive sources per language (en, fr, it, de, es, la, sco, nl), `fetch(lang)`, `text(lang)`, `describe(lang)`, `clean_ocr`. See "Period corpora" below. |
 
@@ -188,7 +188,7 @@ ciphertext length and always run several seeds.
 ## Transcription
 
 What we did by hand for Ottobon f38r (hand-typed line bounds, per-line strips, a blind reader,
-a token-by-token comparison, a review page) is now five commands:
+a token-by-token comparison, a review page) is now six commands:
 
 ```bash
 uv run python -m cipherkit.transcribe layout ottobon-1589/pages/f38r.jpg -o f38r.layout.json
@@ -196,12 +196,24 @@ uv run python -m cipherkit.transcribe layout ottobon-1589/pages/f38r.jpg -o f38r
 uv run python -m cipherkit.transcribe strips f38r.layout.json -o strips/
 #  -> f38r-L01.png … f38r-L09.png, boards of four, manifest.json with the source hash and every box
 #  (give the boards to a reader who has not seen the key; they write one line of tokens per line)
+uv run python -m cipherkit.transcribe gaps strips/f38r-L03.png --min-gap 12
+#  -> JSON with the blank column runs [x0, x1) between the first and last ink, to check a "|" in a transcription
+#  (Moray 1568 at 35 px/mm: --dark 100 --min-ink 0.1 --min-gap 30 found all 12 gaps the transcription marks;
+#  the leaf shows through, so without --dark a nearly blank line is all noise gaps; unmarked letter spaces
+#  are 30-44 px and marked gaps 37-80 px, so expect extra gaps to filter by eye, and the trailing margin)
 uv run python -m cipherkit.transcribe compare context.json blind.txt --names context,blind -o compare.json
 #  -> 114 paired: 77 agree, 10 via alternative, 27 differ; agreement 0.76
 uv run python -m cipherkit.transcribe consensus context.json blind.txt -o round2.json
 #  -> agreed tokens as they are, {x/y} where the readers differ: the input to the next pass
 uv run python -m cipherkit.transcribe review f38r.layout.json context.json --key ottobon-1589/key.json --compare compare.json -o review.html
 ```
+
+`layout --crop auto` takes the paper as the largest bright run of rows and of columns inside a dark
+frame, which is what a DECODE photograph of a page needs before the deskew and line finder can work.
+`--flatten` subtracts the blurred background so a page that darkens towards one side gets one ink
+threshold; `--slabs 4` deskews four horizontal pieces on their own when the sheet curls in the
+photograph (the Ferdinand 1635 photographs are level at the top and three degrees off at the foot),
+and `strips` cuts each line with its own residual angle from `line_rotate`.
 
 The numbers above are the real f38r run against the blind reading from September 2026; the
 hand-made comparison in the research folder recorded 84 agreements and 30 disagreements on a

@@ -1,7 +1,8 @@
 """Transcription tooling: the steps we did by hand for Ottobon and Debosnys, as commands.
 
-    python -m cipherkit.transcribe layout  page.jpg -o f38r.layout.json [--crop l,t,r,b] [--rotate -3] [--scale 1.5]
+    python -m cipherkit.transcribe layout  page.jpg -o f38r.layout.json [--crop l,t,r,b | --crop auto] [--flatten] [--slabs 3] [--rotate -3] [--scale 1.5]
     python -m cipherkit.transcribe strips  f38r.layout.json -o strips/
+    python -m cipherkit.transcribe gaps    strips/f38r-L03.png [--min-gap 12] [--min-ink 0.02] [--dark 100]
     python -m cipherkit.transcribe compare passA.json passB.json -o compare.json
     python -m cipherkit.transcribe consensus passA.json passB.json -o passC.json
     python -m cipherkit.transcribe review  f38r.layout.json passA.json -o review.html [--key key.json] [--compare compare.json]
@@ -9,8 +10,18 @@
 layout     finds the text lines of a page by its horizontal ink profile and writes a layout file
            (crop, rotation, scale, one [top, bottom] band per line) plus a preview PNG with the
            bands drawn. Edit the bands by hand where the detector is wrong; the file is the record.
+           `--crop auto` first finds the paper inside a dark frame (a photographed page), since the
+           frame defeats both the deskew and the line finder; the box chosen is recorded.
+           `--flatten` removes the illumination gradient of a photograph before the deskew and the
+           profile. `--slabs N` deskews N horizontal slabs of the page separately for a sheet that
+           curls in the photograph, and records each line's residual rotation for `strips`.
 strips     cuts one PNG per line and contact-sheet boards of four lines with labels, and writes a
            manifest with the source file's SHA-256 and every box, so a crop can be cited as evidence.
+gaps       measures the word gaps in one line strip: the column runs with no ink between the first
+           and last inked column, so a "|" in a transcription can be checked against the page.
+           Pass `--dark` (0-255 on the contrast-stretched strip) when the page shows through from
+           the other side or the strip is nearly blank: the strip's own histogram then puts the
+           ink threshold between paper and show-through, and every faint column counts as ink.
 compare    aligns two independent passes token by token per line (insertions and deletions do not
            cascade) and counts agreement, agreement through a `{a/b}` alternative, and disagreement.
 consensus  writes a third pass: agreed tokens as they are, disagreements as `{a/b}`, tokens only one
@@ -32,6 +43,7 @@ import hashlib
 import html
 import io
 import json
+import math
 import os
 import sys
 from typing import NamedTuple
@@ -216,12 +228,14 @@ def sha256_file(path: str) -> str:
     return h.hexdigest()
 
 
-def prepare(image, crop=None, rotate=0.0, scale=1.0):
-    """Apply the layout's processing chain in a fixed order: crop, rotate, scale."""
+def prepare(image, crop=None, rotate=0.0, scale=1.0, flatten_radius=None):
+    """Apply the layout's processing chain in a fixed order: crop, flatten, rotate, scale."""
     Image, _, _ = _pil()
     im = image
     if crop:
         im = im.crop(tuple(crop))
+    if flatten_radius:
+        im = flatten(im, flatten_radius)
     if rotate:
         im = im.rotate(rotate, Image.Resampling.BICUBIC, expand=False, fillcolor="white")
     if scale and scale != 1:
@@ -229,23 +243,121 @@ def prepare(image, crop=None, rotate=0.0, scale=1.0):
     return im
 
 
+def flatten(image, radius: int | None = None, gain: float = 2.0):
+    """Ink on white with the page's illumination gradient removed. The background is a
+    MaxFilter (which erases strokes, paper being brighter than ink) followed by a BoxBlur of
+    `radius` (default: a fortieth of the image height, a few line pitches); the result is
+    clamp(255 - (background - pixel) * gain), computed as ImageChops.subtract(gray, bg, 1/gain,
+    255). Subtraction was chosen over division: on a photographed photocopy the gradient is a
+    few dozen levels, division amplifies the grain of the dark side more than the ink, and the
+    fixed gain keeps the threshold in ink_profile meaningful on every page. Geometry is
+    unchanged, so bands and boxes measured on the flattened image apply to the source."""
+    from PIL import ImageChops, ImageFilter
+    g = image.convert("L")
+    if radius is None:
+        radius = max(4, g.height // 40)
+    size = 2 * max(1, radius // 8) + 1
+    bg = g.filter(ImageFilter.MaxFilter(size)).filter(ImageFilter.BoxBlur(radius))
+    return ImageChops.subtract(g, bg, 1.0 / gain, 255)
+
+
+def _gray(image):
+    """Grayscale, contrast-stretched copy: the form every measurement below works on."""
+    _, _, ImageOps = _pil()
+    return ImageOps.autocontrast(image.convert("L"))
+
+
+def _split_level(g) -> int:
+    """Threshold between paper and ink: midpoint of the two histogram mass centres, one pass."""
+    hist = g.histogram()
+    total = sum(hist)
+    mean = sum(i * c for i, c in enumerate(hist)) / total
+    low = [c for c in hist[: int(mean)]]
+    high = hist[int(mean):]
+    m_low = sum(i * c for i, c in enumerate(low)) / max(1, sum(low))
+    m_high = sum((int(mean) + i) * c for i, c in enumerate(high)) / max(1, sum(high))
+    return int((m_low + m_high) / 2)
+
+
 def ink_profile(image, dark: int | None = None) -> list[float]:
     """Fraction of dark pixels in each pixel row of a grayscale image."""
-    _, _, ImageOps = _pil()
-    g = ImageOps.autocontrast(image.convert("L"))
+    g = _gray(image)
     w, h = g.size
     px = g.load()
     if dark is None:
-        # Threshold between paper and ink: midpoint of the two mass centres, one pass.
-        hist = g.histogram()
-        total = sum(hist)
-        mean = sum(i * c for i, c in enumerate(hist)) / total
-        low = [c for c in hist[: int(mean)]]
-        high = hist[int(mean):]
-        m_low = sum(i * c for i, c in enumerate(low)) / max(1, sum(low))
-        m_high = sum((int(mean) + i) * c for i, c in enumerate(high)) / max(1, sum(high))
-        dark = int((m_low + m_high) / 2)
+        dark = _split_level(g)
     return [sum(px[x, y] < dark for x in range(w)) / w for y in range(h)]
+
+
+def _paper_run(means: list[float], bright: float, margin: int) -> tuple[int, int]:
+    """[start, end) of the paper along one axis, given the mean brightness of each row (or
+    column). Rows brighter than `bright` are paper. A dark run touching an image edge is frame
+    when it is at least `margin` thick (thinner is a scan edge). A dark run inside the image is
+    frame only when it is at least a tenth of the extent (the gutter of an open book, the frame
+    beyond a ruler laid along the edge); thinner interior dark runs are writing or ruled lines.
+    The paper is the longest bright run between frames. With no frame the full extent is
+    returned."""
+    n = len(means)
+    dark = [m <= bright for m in means]
+    runs, start = [], None
+    for i, d in enumerate(dark + [False]):
+        if d and start is None:
+            start = i
+        elif not d and start is not None:
+            runs.append((start, i))
+            start = None
+    frame = [(a, b) for a, b in runs if b - a >= (margin if a == 0 or b == n else max(margin, n // 10))]
+    if not frame:
+        return 0, n
+    best, cursor = (0, 0), 0
+    for a, b in frame + [(n, n)]:
+        if a - cursor > best[1] - best[0]:
+            best = (cursor, a)
+        cursor = b
+    return best
+
+
+def _frame_and_paper_levels(g, margin: int) -> tuple[float, float]:
+    """(frame, paper) brightness: the median of the outermost `margin` rows and columns, and
+    the median of the whole image, which the page dominates."""
+    w, h = g.size
+    px = g.load()
+    m = max(1, min(margin, w // 2, h // 2))
+    edge = [px[x, y] for y in range(h) for x in range(w) if x < m or x >= w - m or y < m or y >= h - m]
+    edge.sort()
+    hist = g.histogram()
+    half, acc, paper = sum(hist) / 2, 0, 0
+    for v, c in enumerate(hist):
+        acc += c
+        if acc >= half:
+            paper = v
+            break
+    return edge[len(edge) // 2], paper
+
+
+def page_bounds(image, margin: int = 8, bright: int | None = None) -> tuple[int, int, int, int]:
+    """(left, top, right, bottom) of the paper inside a dark frame, as a PIL crop box (right and
+    bottom exclusive): the largest run of columns, then of rows within those columns, whose
+    mean brightness exceeds `bright`. The default `bright` is the midpoint between the frame
+    level (median of the outermost `margin` rows and columns) and the paper level (median of
+    the image, which the page dominates); the ink-profile histogram midpoint is too high for a
+    photographed page whose brightness falls off towards one side. A dark border thinner than
+    `margin` pixels is a scan edge, not a frame, and a dark band inside the page thinner than a
+    tenth of the image is writing, not a frame. Returns the full image when no frame is found:
+    no dark run thick enough, or a border no darker than the page (contrast under 32 of 255)."""
+    g = _gray(image)
+    w, h = g.size
+    if bright is None:
+        frame, paper = _frame_and_paper_levels(g, margin)
+        if paper - frame < 32:
+            return 0, 0, w, h
+        bright = (frame + paper) / 2
+    px = g.load()
+    col_means = [sum(px[x, y] for y in range(h)) / h for x in range(w)]
+    left, right = _paper_run(col_means, bright, margin)
+    row_means = [sum(px[x, y] for x in range(left, right)) / (right - left) for y in range(h)]
+    top, bottom = _paper_run(row_means, bright, margin)
+    return left, top, right, bottom
 
 
 def _smooth(values: list[float], win: int) -> list[float]:
@@ -272,6 +384,19 @@ def _runs_above(values: list[float], cut: float) -> list[list[int]]:
     return bands
 
 
+def profile_levels(profile: list[float]) -> tuple[float, float]:
+    """(paper, ink) levels of a page's ink profile as find_lines' stage one uses them: the
+    median and the 95th percentile of the heavily smoothed profile with border rows masked."""
+    margin = max(3, len(profile) // 50)
+    prof = list(profile)
+    for y, v in enumerate(profile):
+        if v >= 0.85:
+            for k in range(max(0, y - margin), min(len(prof), y + margin + 1)):
+                prof[k] = 0.0
+    heavy = _smooth(prof, max(3, len(prof) // 200))
+    return _percentile(heavy, 0.5), _percentile(heavy, 0.95)
+
+
 def find_lines(profile: list[float], min_height: int = 8, min_gap: int = 3,
                threshold: float = 0.35, pad: int = 2, border: float = 0.85,
                expand: float = 0.45) -> list[list[int]]:
@@ -293,8 +418,7 @@ def find_lines(profile: list[float], min_height: int = 8, min_gap: int = 3,
             for k in range(max(0, y - margin), min(len(prof), y + margin + 1)):
                 prof[k] = 0.0
     heavy = _smooth(prof, max(3, len(prof) // 200))
-    paper = _percentile(heavy, 0.5)
-    ink = _percentile(heavy, 0.95)
+    paper, ink = _percentile(heavy, 0.5), _percentile(heavy, 0.95)
     if ink <= paper:
         return []
     blocks = [b for b in _runs_above(heavy, paper + 0.3 * (ink - paper)) if b[1] - b[0] >= min_height]
@@ -356,50 +480,119 @@ def deskew(image, limit: float = 4.0, step: float = 0.25) -> float:
 
 
 def layout(image_path: str, crop=None, rotate: float | None = None, scale=1.0,
-           label: str | None = None, **kw) -> dict:
-    """rotate=None means deskew automatically; pass 0.0 to keep the page as it is."""
+           label: str | None = None, flatten: bool = False, slabs: int = 1, **kw) -> dict:
+    """rotate=None means deskew automatically; pass 0.0 to keep the page as it is. crop is a
+    box (l, t, r, b), None for the whole image, or "auto" to take page_bounds of the source
+    (the paper inside a dark photograph frame); the box used is recorded in processing["crop"].
+    flatten=True removes the illumination gradient (see `flatten`) after the crop and before
+    the deskew and the ink profile; the radius used is recorded in processing["flatten"].
+    slabs=N splits the page into N horizontal slabs (overlapping), deskews each on
+    its own and finds lines per slab, for a sheet that curls in the photograph so that no one
+    angle fits the whole page. A slab whose profile contrast is under 0.3 of the whole page's
+    is blank and skipped, since the line finder scales its cut to whatever a slab holds.
+    processing["rotate"] is then the median slab angle and "line_rotate" holds each line's
+    residual angle, which `strips` applies when cutting."""
     Image, _, _ = _pil()
     src = Image.open(image_path)
-    if rotate is None:
-        rotate = deskew(src.crop(tuple(crop)) if crop else src)
-    im = prepare(src, crop, rotate, scale)
-    bands = find_lines(ink_profile(im), **kw)
+    if crop == "auto":
+        crop = list(page_bounds(src))
+    base = src.crop(tuple(crop)) if crop else src
+    radius = max(4, base.height // 40) if flatten else None
+    if radius:
+        base = globals()["flatten"](base, radius)
+    line_rotate = None
+    if slabs and slabs > 1:
+        h = base.height
+        step = h / slabs
+        # Slabs overlap by a tenth of their height, or by the rise of a line skewed to the
+        # deskew limit (four degrees) across the width if that is more. Each slab keeps only
+        # the lines whose centre falls in its own core (the page split without overlap), so a
+        # line cut by one slab's edge is taken whole from the neighbour and never twice.
+        overlap = max(0.1 * step, base.width * math.tan(math.radians(4.0)))
+        paper, ink = profile_levels(ink_profile(prepare(base, None, deskew(base), scale)))
+        kept = []
+        for k in range(slabs):
+            top = max(0, int(k * step - overlap))
+            bottom = min(h, int((k + 1) * step + overlap))
+            slab = base.crop((0, top, base.width, bottom))
+            ang = deskew(slab)
+            prof = ink_profile(prepare(slab, None, ang, scale))
+            s_paper, s_ink = profile_levels(prof)
+            if s_ink - s_paper < 0.3 * (ink - paper):
+                continue
+            core = (k * step * scale, (k + 1) * step * scale)
+            for t, b in find_lines(prof, **kw):
+                t, b = round(top * scale) + t, round(top * scale) + b
+                if core[0] <= (t + b) / 2 < core[1]:
+                    kept.append((t, b, ang))
+        kept.sort()
+        angles = sorted(a for _, _, a in kept) or [0.0]
+        if rotate is None:
+            rotate = angles[len(angles) // 2]
+        bands = [[t, b] for t, b, _ in kept]
+        line_rotate = [round(a - rotate, 2) for _, _, a in kept]
+        im = prepare(base, None, rotate, scale)
+    else:
+        if rotate is None:
+            rotate = deskew(base)
+        im = prepare(base, None, rotate, scale)
+        bands = find_lines(ink_profile(im), **kw)
     return {
         "label": label or os.path.splitext(os.path.basename(image_path))[0],
         "source": image_path,
         "source_sha256": sha256_file(image_path),
-        "source_size": list(Image.open(image_path).size),
-        "processing": {"crop": list(crop) if crop else None, "rotate": rotate, "scale": scale,
-                       "order": "crop, rotate about centre, scale"},
+        "source_size": list(src.size),
+        "processing": {"crop": list(crop) if crop else None, "flatten": radius, "rotate": rotate, "scale": scale,
+                       "slabs": slabs if slabs and slabs > 1 else 1,
+                       "order": "crop, flatten, rotate about centre, scale"},
         "processed_size": [im.width, im.height],
         "lines": bands,
-        "note": "Bands are [top, bottom] in processed coordinates. Edit by hand where the detector is wrong.",
+        "line_rotate": line_rotate,
+        "note": "Bands are [top, bottom] in processed coordinates. Edit by hand where the detector is wrong. "
+                "line_rotate, when present, is each line's extra rotation (degrees) that strips applies about the band's centre.",
     }
 
 
 def draw_preview(lay: dict, out_path: str) -> None:
     Image, ImageDraw, _ = _pil()
-    im = prepare(Image.open(lay["source"]), lay["processing"]["crop"], lay["processing"]["rotate"],
-                 lay["processing"]["scale"]).convert("RGB")
+    proc = lay["processing"]
+    im = prepare(Image.open(lay["source"]), proc["crop"], proc["rotate"], proc["scale"],
+                 proc.get("flatten")).convert("RGB")
     d = ImageDraw.Draw(im)
-    for k, (top, bottom) in enumerate(lay["lines"], 1):
+    rots = lay.get("line_rotate") or [0.0] * len(lay["lines"])
+    for k, ((top, bottom), rot) in enumerate(zip(lay["lines"], rots), 1):
         d.rectangle([0, top, im.width - 1, bottom], outline=(200, 40, 40), width=2)
-        d.text((6, top + 2), f"L{k:02d}", fill=(200, 40, 40))
+        d.text((6, top + 2), f"L{k:02d}" + (f" {rot:+.2f}" if rot else ""), fill=(200, 40, 40))
     im.save(out_path)
+
+
+def _cut_line(im, top: int, bottom: int, rot: float):
+    """The band [top, bottom) of `im`, rotated by `rot` degrees about the band's centre first
+    when rot is not zero: a taller window is cut, rotated, and the band taken from its middle."""
+    Image, _, _ = _pil()
+    if not rot:
+        return im.crop((0, top, im.width, bottom))
+    pad = int(im.width / 2 * math.tan(math.radians(abs(rot)))) + 4
+    win = im.crop((0, top - pad, im.width, bottom + pad))   # crop pads with black outside; fill below
+    win = win.rotate(rot, Image.Resampling.BICUBIC, expand=False, fillcolor="white")
+    return win.crop((0, pad, im.width, pad + (bottom - top)))
 
 
 def strips(lay: dict, out_dir: str, board_rows: int = 4) -> dict:
     Image, ImageDraw, _ = _pil()
     os.makedirs(out_dir, exist_ok=True)
     proc = lay["processing"]
-    im = prepare(Image.open(lay["source"]), proc["crop"], proc["rotate"], proc["scale"])
+    im = prepare(Image.open(lay["source"]), proc["crop"], proc["rotate"], proc["scale"], proc.get("flatten"))
     entries = []
-    for k, (top, bottom) in enumerate(lay["lines"], 1):
+    rots = lay.get("line_rotate") or [0.0] * len(lay["lines"])
+    for k, ((top, bottom), rot) in enumerate(zip(lay["lines"], rots), 1):
         name = f"{lay['label']}-L{k:02d}.png"
-        strip = im.crop((0, top, im.width, bottom))
+        strip = _cut_line(im, top, bottom, rot)
         strip.save(os.path.join(out_dir, name))
         entry = {"line": k, "file": name, "processed_box": [0, top, im.width, bottom]}
-        if not proc["rotate"] and (proc["scale"] or 1) == 1:
+        if rot:
+            entry["line_rotate"] = rot
+        if not proc["rotate"] and not rot and (proc["scale"] or 1) == 1:
             ox, oy = (proc["crop"] or [0, 0])[:2]
             entry["source_box"] = [ox, oy + top, ox + im.width, oy + bottom]
         entries.append(entry)
@@ -427,6 +620,50 @@ def strips(lay: dict, out_dir: str, board_rows: int = 4) -> dict:
         json.dump(manifest, f, indent=1)
         f.write("\n")
     return manifest
+
+
+# ---------------------------------------------------------------- word gaps
+
+def gaps(strip, min_gap: int = 12, min_ink: float = 0.02, dark: int | None = None) -> list[tuple[int, int]]:
+    """Column runs with no ink inside a line strip: [(x0, x1), ...] between the first and the
+    last inked column. A column is inked when its dark-pixel fraction is >= `min_ink` (`dark`
+    is the ink threshold, default as ink_profile). Each gap is half-open, [x0, x1): x0 is the
+    first blank column after an inked one, x1 the next inked column, so x1 - x0 is the gap's
+    width and strip.crop((x0, 0, x1, h)) is exactly the blank. Runs shorter than `min_gap`
+    columns are not gaps. Blank columns before the first or after the last ink are margins,
+    not gaps. A strip with no ink returns []."""
+    g = _gray(strip)
+    w, h = g.size
+    px = g.load()
+    if dark is None:
+        dark = _split_level(g)
+    inked = [sum(px[x, y] < dark for y in range(h)) / h >= min_ink for x in range(w)]
+    if not any(inked):
+        return []
+    first = inked.index(True)
+    last = w - 1 - inked[::-1].index(True)
+    out, start = [], None
+    for x in range(first, last + 1):
+        if not inked[x] and start is None:
+            start = x
+        elif inked[x] and start is not None:
+            if x - start >= min_gap:
+                out.append((start, x))
+            start = None
+    return out
+
+
+def _inked_span(strip, min_ink: float = 0.02, dark: int | None = None) -> list[int] | None:
+    """[first, last + 1) of the inked columns, or None."""
+    g = _gray(strip)
+    w, h = g.size
+    px = g.load()
+    if dark is None:
+        dark = _split_level(g)
+    inked = [sum(px[x, y] < dark for y in range(h)) / h >= min_ink for x in range(w)]
+    if not any(inked):
+        return None
+    return [inked.index(True), w - inked[::-1].index(True)]
 
 
 # ---------------------------------------------------------------- review page
@@ -494,6 +731,8 @@ nav a{{margin-right:12px}}#detail{{position:sticky;bottom:12px;background:#17364
 # ---------------------------------------------------------------- CLI
 
 def _box(s: str | None):
+    if s == "auto":
+        return "auto"
     return [int(x) for x in s.split(",")] if s else None
 
 
@@ -503,10 +742,18 @@ def main(argv: list[str]) -> int:
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = p.add_subparsers(dest="cmd", required=True)
     s = sub.add_parser("layout"); s.add_argument("image"); s.add_argument("-o", "--out", required=True)
-    s.add_argument("--crop"); s.add_argument("--rotate", type=float, default=None, help="degrees; default: deskew automatically")
+    s.add_argument("--crop", help="l,t,r,b in source pixels, or 'auto' to find the paper inside a dark frame")
+    s.add_argument("--rotate", type=float, default=None, help="degrees; default: deskew automatically")
+    s.add_argument("--flatten", action="store_true", help="remove the illumination gradient before detection")
+    s.add_argument("--slabs", type=int, default=1, help="deskew N horizontal slabs separately (curled sheet)")
     s.add_argument("--scale", type=float, default=1.0); s.add_argument("--label")
     s.add_argument("--min-height", type=int, default=8); s.add_argument("--threshold", type=float, default=0.35)
     s = sub.add_parser("strips"); s.add_argument("layout"); s.add_argument("-o", "--out", required=True)
+    s = sub.add_parser("gaps", help="word gaps in one line strip, as JSON"); s.add_argument("strip")
+    s.add_argument("--min-gap", type=int, default=12, help="columns; shorter blank runs are not gaps")
+    s.add_argument("--min-ink", type=float, default=0.02, help="dark-pixel fraction that makes a column inked")
+    s.add_argument("--dark", type=int, default=None,
+                   help="ink threshold 0-255 after contrast stretch; default: the strip's histogram midpoint")
     s = sub.add_parser("compare"); s.add_argument("a"); s.add_argument("b"); s.add_argument("-o", "--out")
     s.add_argument("--names", default="a,b")
     s = sub.add_parser("consensus"); s.add_argument("a"); s.add_argument("b"); s.add_argument("-o", "--out", required=True)
@@ -516,16 +763,28 @@ def main(argv: list[str]) -> int:
     a = p.parse_args(argv)
 
     if a.cmd == "layout":
-        lay = layout(a.image, _box(a.crop), a.rotate, a.scale, a.label, min_height=a.min_height, threshold=a.threshold)
+        lay = layout(a.image, _box(a.crop), a.rotate, a.scale, a.label, flatten=a.flatten, slabs=a.slabs,
+                     min_height=a.min_height, threshold=a.threshold)
         with open(a.out, "w", encoding="utf-8") as f:
             json.dump(lay, f, indent=1); f.write("\n")
         preview = os.path.splitext(a.out)[0] + ".preview.png"
         draw_preview(lay, preview)
-        print(f"{len(lay['lines'])} lines, rotate {lay['processing']['rotate']:+.2f} -> {a.out}, preview {preview}")
+        proc = lay["processing"]
+        print(f"{len(lay['lines'])} lines, crop {proc['crop'] or 'none'}, flatten {proc['flatten'] or 'no'}, "
+              f"slabs {proc['slabs']}, rotate {proc['rotate']:+.2f} -> {a.out}, preview {preview}")
     elif a.cmd == "strips":
         lay = json.load(open(a.layout, encoding="utf-8"))
         m = strips(lay, a.out)
         print(f"{len(m['strips'])} strips, {len(m['boards'])} boards -> {a.out}/manifest.json")
+    elif a.cmd == "gaps":
+        Image, _, _ = _pil()
+        strip = Image.open(a.strip)
+        found = gaps(strip, a.min_gap, a.min_ink, a.dark)
+        out = {"source": a.strip, "source_sha256": sha256_file(a.strip), "size": [strip.width, strip.height],
+               "min_gap": a.min_gap, "min_ink": a.min_ink, "dark": a.dark, "ink_span": _inked_span(strip, a.min_ink, a.dark),
+               "gaps": [list(g) for g in found],
+               "note": "gaps are [x0, x1) column ranges in the strip; ink_span is [first, last + 1) inked column"}
+        print(json.dumps(out, indent=1))
     elif a.cmd == "compare":
         names = tuple(a.names.split(","))
         c = compare(load_pass(a.a), load_pass(a.b), names)

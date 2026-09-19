@@ -10,9 +10,12 @@ from cipherkit.transcribe import (
     compare,
     consensus,
     find_lines,
+    flatten,
+    gaps,
     ink_profile,
     layout,
     load_pass,
+    page_bounds,
     review,
     save_pass,
     strips,
@@ -103,3 +106,199 @@ def test_layout_strips_and_review(page, tmp_path):
     assert page_html.count("<section") == 5
     assert 'class="chip disputed"' in page_html and "data:image/jpeg;base64," in page_html
     assert "<span>a</span>" in page_html and "<span>?</span>" in page_html  # g99 not in key
+
+
+# ---------------------------------------------------------------- framed photographs
+
+def _framed_page(lines=5, frame=60):
+    """A pale page inside a dark frame, as a photographed manuscript comes: paper 480 x 680 at
+    (60, 60) in a 600 x 800 image, five heavy bars of ink 400 px wide."""
+    im = Image.new("L", (600, 800), 20)
+    page = Image.new("L", (600 - 2 * frame, 800 - 2 * frame), 245)
+    d = ImageDraw.Draw(page)
+    for i in range(lines):
+        d.rectangle([40, 80 + i * 90, 440, 80 + i * 90 + 18], fill=0)
+    im.paste(page, (frame, frame))
+    return im
+
+
+def test_page_bounds_finds_paper():
+    l, t, r, b = page_bounds(_framed_page())
+    assert abs(l - 60) <= 4 and abs(t - 60) <= 4 and abs(r - 540) <= 4 and abs(b - 740) <= 4
+
+
+def test_page_bounds_without_frame_is_full_image():
+    im = Image.new("L", (300, 200), 240)
+    ImageDraw.Draw(im).rectangle([20, 50, 200, 60], fill=0)
+    assert page_bounds(im) == (0, 0, 300, 200)
+
+
+def test_page_bounds_ignores_ruler_and_uneven_frame():
+    """A bright strip along one edge (a ruler) and a thicker bottom frame: the paper is the
+    largest bright run, not the run touching the edge."""
+    im = Image.new("L", (600, 800), 20)
+    page = Image.new("L", (480, 600), 245)
+    im.paste(page, (60, 60))
+    ImageDraw.Draw(im).rectangle([0, 780, 599, 799], fill=230)   # ruler along the bottom edge
+    l, t, r, b = page_bounds(im)
+    assert abs(l - 60) <= 4 and abs(t - 60) <= 4 and abs(r - 540) <= 4 and abs(b - 660) <= 4
+
+
+def test_layout_auto_crop_counts_lines(tmp_path):
+    """Without a crop the frame rows and the heavy ink rows are both darker than find_lines'
+    border level, so every line is masked as a scan edge and the detector finds nothing."""
+    p = tmp_path / "f.png"
+    _framed_page().save(p)
+    assert len(layout(str(p), crop=None, rotate=0.0)["lines"]) != 5
+    lay = layout(str(p), crop="auto", rotate=0.0)
+    assert len(lay["lines"]) == 5
+    box = lay["processing"]["crop"]
+    assert isinstance(box, list) and len(box) == 4 and abs(box[0] - 60) <= 4 and abs(box[1] - 60) <= 4
+    assert lay["processed_size"] == [box[2] - box[0], box[3] - box[1]]
+
+
+def test_layout_auto_crop_then_strips_round_trip(tmp_path):
+    p = tmp_path / "f.png"
+    _framed_page().save(p)
+    lay = layout(str(p), crop="auto", rotate=0.0)
+    m = strips(lay, str(tmp_path / "strips"))
+    assert len(m["strips"]) == 5
+    assert m["strips"][0]["source_box"][0] == lay["processing"]["crop"][0]
+
+
+def test_gaps_between_words():
+    """Gaps are half-open column ranges [x0, x1): x0 is the first blank column after an inked
+    one, x1 the next inked column. Bars at 10..50, 80..120, 200..240 (inclusive)."""
+    strip = Image.new("L", (300, 30), 245)
+    d = ImageDraw.Draw(strip)
+    for x0 in (10, 80, 200):
+        d.rectangle([x0, 5, x0 + 40, 25], fill=0)
+    assert gaps(strip, min_gap=12) == [(51, 80), (121, 200)]
+    assert gaps(strip, min_gap=30) == [(121, 200)]
+    assert gaps(Image.new("L", (100, 20), 245)) == []
+
+
+def test_gaps_min_ink_ignores_specks():
+    strip = Image.new("L", (300, 40), 245)
+    d = ImageDraw.Draw(strip)
+    d.rectangle([10, 5, 50, 35], fill=0)
+    d.rectangle([200, 5, 240, 35], fill=0)
+    d.point((120, 20), fill=0)          # one dark pixel in a 40-row column: 2.5 %
+    assert gaps(strip, min_gap=12, min_ink=0.05) == [(51, 200)]
+    assert gaps(strip, min_gap=12, min_ink=0.02) == [(51, 120), (121, 200)]
+
+
+def test_gaps_cli_prints_json(tmp_path, capsys):
+    from cipherkit.transcribe import main
+    strip = Image.new("L", (300, 30), 245)
+    d = ImageDraw.Draw(strip)
+    for x0 in (10, 80, 200):
+        d.rectangle([x0, 5, x0 + 40, 25], fill=0)
+    p = str(tmp_path / "s.png")
+    strip.save(p)
+    assert main(["gaps", p, "--min-gap", "12"]) == 0
+    out = json.loads(capsys.readouterr().out)
+    assert out["gaps"] == [[51, 80], [121, 200]] and out["ink_span"] == [10, 241] and out["dark"] is None
+
+
+def test_gaps_dark_threshold_ignores_show_through(tmp_path, capsys):
+    """Two words of black ink with a broad mid-grey smudge between them (writing showing through
+    from the other side of the leaf). The strip's own histogram midpoint counts the smudge as
+    ink; an explicit `dark` below its level does not."""
+    from cipherkit.transcribe import main
+    strip = Image.new("L", (400, 40), 245)
+    d = ImageDraw.Draw(strip)
+    d.rectangle([10, 5, 60, 35], fill=0)
+    d.rectangle([300, 5, 350, 35], fill=0)
+    d.rectangle([120, 10, 240, 30], fill=150)
+    assert gaps(strip, min_gap=12, min_ink=0.1) == [(61, 120), (241, 300)]
+    assert gaps(strip, min_gap=12, min_ink=0.1, dark=100) == [(61, 300)]
+    p = str(tmp_path / "s.png")
+    strip.save(p)
+    assert main(["gaps", p, "--dark", "100"]) == 0
+    out = json.loads(capsys.readouterr().out)
+    assert out["gaps"] == [[61, 300]] and out["dark"] == 100
+
+
+# ---------------------------------------------------------------- gradient and curl
+
+def _gradient_page(lines=8, top=250, bottom=150, w=600, h=800, curl=0.0, length=400):
+    """Paper darkening from `top` at the first row to `bottom` at the last, eight bars of ink.
+    With `curl` the bars tilt more and more down the page, up to `curl` degrees."""
+    import math
+    im = Image.new("L", (w, h), 255)
+    px = im.load()
+    for y in range(h):
+        v = round(top + (bottom - top) * y / (h - 1))
+        for x in range(w):
+            px[x, y] = v
+    d = ImageDraw.Draw(im)
+    for i in range(lines):
+        y0 = 80 + i * 85
+        rise = length * math.tan(math.radians(curl * i / max(1, lines - 1)))
+        d.polygon([(60, y0), (60 + length, y0 - rise), (60 + length, y0 - rise + 14), (60, y0 + 14)], fill=0)
+    return im
+
+
+def test_flatten_recovers_lines_on_gradient_page(tmp_path):
+    """The global ink threshold lands inside the paper's range, so the darker foot of the page
+    reads as solid ink and the line finder masks it as a scan edge."""
+    p = tmp_path / "g.png"
+    _gradient_page().save(p)
+    assert len(layout(str(p), rotate=0.0)["lines"]) != 8
+    lay = layout(str(p), rotate=0.0, flatten=True)
+    assert len(lay["lines"]) == 8 and lay["processing"]["flatten"] == 20
+
+
+def test_flatten_leaves_flat_page_alone(page, tmp_path):
+    plain = layout(page, rotate=0.0, min_height=4)
+    flat = layout(page, rotate=0.0, min_height=4, flatten=True)
+    assert len(flat["lines"]) == len(plain["lines"]) == 5
+    assert flat["processing"]["flatten"] == 7 and plain["processing"]["flatten"] is None
+    m = strips(flat, str(tmp_path / "s"))
+    assert len(m["strips"]) == 5
+
+
+def test_flatten_output_is_ink_on_white():
+    fl = flatten(_gradient_page())
+    px = fl.load()
+    assert px[300, 40] >= 250 and px[300, 760] >= 250    # paper at both ends of the gradient
+    assert px[300, 87] < 60                               # ink stays ink
+
+
+def test_slabs_find_lines_on_curled_page(tmp_path):
+    """Lines level at the top and four degrees off at the foot: one angle cannot serve both,
+    so the whole-page profile smears the lower lines together. Bars are kept under 0.85 of
+    the width, or their rows read as scan edges."""
+    p = tmp_path / "c.png"
+    _gradient_page(curl=4.0, top=245, bottom=245, w=2400, length=2000).save(p)
+    one = layout(str(p), slabs=1)
+    assert len(one["lines"]) != 8 and one["line_rotate"] is None
+    lay = layout(str(p), slabs=4)
+    assert len(lay["lines"]) == 8 and lay["processing"]["slabs"] == 4
+    rots = lay["line_rotate"]
+    assert len(rots) == 8 and rots[0] > rots[-1]          # bars rise to the right: residuals fall down the page
+    m = strips(lay, str(tmp_path / "s"))
+    assert len(m["strips"]) == 8 and "line_rotate" in m["strips"][-1]
+    from cipherkit.transcribe import _cut_line, prepare
+    im = prepare(Image.open(str(p)), None, lay["processing"]["rotate"], 1.0)
+    top, bottom = lay["lines"][-1]
+    straight = ink_profile(_cut_line(im, top, bottom, rots[-1]))
+    flat = ink_profile(_cut_line(im, top, bottom, 0.0))
+    assert max(straight) > max(flat)                      # the residual rotation levels the bar
+    assert sum(straight) >= 0.9 * sum(flat)               # and the whole bar stays in the strip
+
+
+def test_slabs_skip_blank_slabs(tmp_path):
+    """Text in the top quarter only: the blank slabs must not turn their grain into lines."""
+    im = Image.new("L", (600, 800), 245)
+    d = ImageDraw.Draw(im)
+    for i in range(3):
+        d.rectangle([60, 40 + i * 50, 460, 54 + i * 50], fill=0)
+    for y in range(300, 800, 3):                          # faint speckle below the text
+        for x in range(60, 460, 7):
+            d.point((x, y), fill=200)
+    p = tmp_path / "b.png"
+    im.save(p)
+    lay = layout(str(p), slabs=4)
+    assert len(lay["lines"]) == 3
