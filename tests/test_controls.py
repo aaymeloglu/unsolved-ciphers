@@ -1,6 +1,13 @@
 import collections
 
-from cipherkit import homophonic_control, key_recovery, matched_control, permutation_z, sample_plaintext
+from cipherkit import (
+    homophonic_control,
+    key_recovery,
+    matched_control,
+    permutation_z,
+    sample_plaintext,
+    spaced_control,
+)
 
 
 def test_sample_plaintext_length_and_boundary(english_text):
@@ -49,3 +56,40 @@ def test_permutation_z_separates_true_key(english_lm, english_tail):
     r = permutation_z(score, tokens, n=200, seed=0)
     assert r["z"] > 5
     assert r["p"] < 0.01
+
+
+def test_spaced_control_keeps_gaps_and_signs(english_tail):
+    toks, key = spaced_control(english_tail[:600], n_homophones=4, word_signs={"the": "[THE]"}, seed=1)
+    assert " " in toks and "[THE]" in toks
+    letters = set(english_tail[:600].replace(" ", ""))
+    assert len(set(t for t in toks if t not in (" ", "[THE]"))) == len(letters) + 4
+    assert len(key) == len(letters) + 4 + 1
+
+
+def test_spaced_control_decodes_to_its_plaintext(english_tail):
+    pt = sample_plaintext(english_tail, 400, seed=3, keep_spaces=True)
+    toks, key = spaced_control(pt, n_homophones=3, word_signs={"the": "[THE]", "and": "[AND]"}, seed=3)
+    out = "".join(" " if t == " " else key[t] for t in toks)
+    assert out == " ".join(pt.split())
+    # Word-signs stand for whole words, so those letters are not in the letter key.
+    signed = [t for t in toks if t in ("[THE]", "[AND]")]
+    assert len(signed) == sum(w in ("the", "and") for w in pt.split())
+
+
+def test_matched_control_spaced_matches_symbol_count(english_text):
+    target = list("ab cd ef") * 30
+    toks, key, plain = matched_control(english_text, target, design="spaced", n_symbols=28, seed=0)
+    assert len(set(toks) - {" "}) == 28
+    assert len([t for t in toks if t != " "]) == len([t for t in target if t != " "])
+    assert " " in toks and " " in plain
+
+
+def test_matched_control_spaced_counts_word_signs_in_the_symbol_budget(english_text):
+    target = list("ab cd ef") * 30
+    signs = {"the": "[the]", "and": "[and]"}
+    toks, key, plain = matched_control(
+        english_text, target, design="spaced", n_symbols=28, word_signs=signs, seed=0
+    )
+    assert len(key) == 28
+    assert set(toks) - {" "} <= set(key)
+    assert len([t for t in toks if t != " "]) == len([t for t in target if t != " "])

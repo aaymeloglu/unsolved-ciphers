@@ -13,7 +13,7 @@ Python 3.12, managed by uv; Pillow is the one dependency.
 | `normalize` | `normalize(text, alphabet, folds, keep_spaces)` so the model and the decipherment share one alphabet. Folds run before accent stripping (ä to ae, not a). `GERMAN_FOLDS`, `EARLY_MODERN_FOLDS` (j to i, v to u). `strip_gutenberg`. |
 | `lm` | `CharLM` (order-n, add-alpha, log10, cached; `score`, `score_words`, `per_window`). `WordLM` (unigram + bigram, character backoff for unseen words). `BackoffCharLM` (stupid backoff, for scoring a single unseen word). `cached(path, build, loader)` to build once per target. |
 | `anneal` | `anneal(symbols, values, score, fixed=, bijective=, iters=, t0=, t1=, seed=, init=)` over a plain dict. `frequency_init` for a ranked homophonic start. `climb` for a greedy finish. `restarts(run, seeds, workers)` for several seeds in parallel. |
-| `controls` | `matched_control(corpus, target_tokens, design)` builds a synthetic cipher of the same length and symbol count. `mono_control`, `homophonic_control` (homophones apportioned by letter frequency). `key_recovery(found, true, weights)`. `permutation_z(score, tokens, n)` for the shuffle test. |
+| `controls` | `matched_control(corpus, target_tokens, design)` builds a synthetic cipher of the same length and symbol count. `mono_control`, `homophonic_control` (homophones apportioned by letter frequency), `spaced_control` (word gaps kept as tokens, whole words replaced by a sign). `key_recovery(found, true, weights)`. `permutation_z(score, tokens, n)` for the shuffle test. |
 | `tokens` | `parse(text, style)` for the four transcription formats we produce (`groups`, `mixed`, `annotated`, `letters`); `cipher_tokens`, `segments`, `symbol_counts`. |
 | `transcribe` | The transcription workflow as commands: `layout` (deskew by ink-profile variance, find line bands), `strips` (one PNG per line, labelled boards, manifest with source SHA-256 and boxes), `compare` (align two passes token by token, alternatives count), `consensus` (third pass with `{a/b}` at disagreements), `review` (self-contained HTML with strip, chips, key values, disputed highlights). |
 | `corpora` | `RECIPES` of Gutenberg and Internet Archive sources per language (en, fr, it, de, es, la, sco, nl), `fetch(lang)`, `text(lang)`, `describe(lang)`, `clean_ocr`. See "Period corpora" below. |
@@ -68,11 +68,30 @@ four seeds, 40,000 iterations each:
 | 360 tokens, homophonic, 45 symbols, random start | 0.47 best, 0.00 worst |
 | same, `frequency_init` start | 0.67 best, 0.38 worst |
 | same, 5-gram, 120,000 iterations | 0.55 on every seed |
+| 134 tokens, spaced, 29 symbols (27 for letters and homophones, two word-signs), Scots | 0.40 best, 0.00 worst |
 
 At eight tokens per symbol a character model alone reads about half a homophonic key, and
 the failure mode is the reading collapsing into e, s, n and t. This is the same wall Forster
 hit, where word boundaries and a period lexicon (`WordLM`) carried the solve. Run the control
 first so the target's number means something.
+
+The spaced row is the Moray 1568 shape, measured 19 September 2026: 134 tokens of Scots from
+`sco`, 29 symbols of which two are word-signs for *the* and *and*, the model built from the
+first 80% of the corpus and the four control plaintexts sampled from the last 20%. The windows
+hold 20 to 24 distinct letters, so the homophone count moves between three and seven. The
+scorer is the quadgram `CharLM` over the decoded letters with the gaps and the word-signs
+dropped, because the kit has no dictionary-segmentation scorer; the Moray solve scored the
+gap-delimited chunks against a word list instead and its own four controls recovered 0.99,
+0.35, 0.09 and fragments. Recoveries here are 0.40, 0.25, 0.08, 0.00 over seeds 3, 2, 1, 0.
+Four seeds, 40,000 iterations, `frequency_init` start, as in the rows above. A spaced control
+is what a negative on a word-divided target has to be reported next to: at this length the
+character model alone reads none of the four.
+
+```python
+target = [...]  # the target's tokens, " " kept where the page has a gap
+toks, key, pt = matched_control(corpus, target, design="spaced", n_symbols=29,
+                                word_signs={"the": "[the]", "and": "[and]"}, seed=0)
+```
 
 ## Temperatures
 
