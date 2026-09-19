@@ -14,6 +14,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, ROOT)
+from cipherkit.grades import apply_key, counts  # noqa: E402
 
 
 def load():
@@ -26,33 +27,36 @@ def load():
     return key, lines
 
 
+def readings(key, lines):
+    """One cipherkit Reading per glyph, in page order. Every glyph must be in key.json: a
+    missing one is a transcription or key error, not an M reading."""
+    missing = sorted({t for _, groups in lines for grp in groups for t in grp if t not in key})
+    if missing:
+        raise SystemExit(f"glyphs in transcription.txt but not in key.json: {' '.join(missing)}")
+    return [r for _, groups in lines for grp in groups for r in apply_key(grp, key)]
+
+
 def render(key, lines):
+    """The folder's own rendering: word-signs and S values bare, every other glyph in
+    parentheses, because square brackets already mean word-sign here."""
     out = []
     for tag, groups in lines:
         words = []
         for grp in groups:
             s = ""
-            for t in grp:
-                v, g = key[t]["value"], key[t]["grade"]
-                if v.startswith("["):
-                    s += v
-                elif g == "S":
-                    s += v
+            for r in apply_key(grp, key):
+                if r.value.startswith("[") or r.grade == "S":
+                    s += r.value
                 else:
-                    s += f"({v})"
+                    s += f"({r.value})"
             words.append(s)
         out.append(f"{tag}: " + " | ".join(words))
     return "\n".join(out) + "\n"
 
 
 def grades(key, lines):
-    from collections import Counter
-    c = Counter()
-    for _, groups in lines:
-        for grp in groups:
-            for t in grp:
-                c[key[t]["grade"]] += 1
-    return c
+    """Grade counts over the 134 glyphs, all five CONVENTIONS grades, zeros included."""
+    return counts(readings(key, lines))
 
 
 def permutation_z(key, lines, n=1000, seed=0):
@@ -86,8 +90,8 @@ def main():
     committed = open(path).read()
     ok = committed == header + text
     print(text, end="")
-    n = sum(grades(key, lines).values())
-    print("grades:", dict(sorted(grades(key, lines).items())), "of", n, "glyphs")
+    c = grades(key, lines)
+    print("grades:", {g: n for g, n in sorted(c.items()) if n}, "of", sum(c.values()), "glyphs")
     if "--z" in sys.argv:
         z, note = permutation_z(key, lines)
         print("permutation z (key shuffle, cipherkit.controls.permutation_z_key):", z if z else note)
