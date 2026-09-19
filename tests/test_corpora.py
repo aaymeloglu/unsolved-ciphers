@@ -1,4 +1,4 @@
-from cipherkit.corpora import G, IA, MARKERS, RECIPES, clean_ocr, marker_counts
+from cipherkit.corpora import G, IA, MARKERS, RECIPES, clean_ocr, dehyphenate, marker_counts
 
 
 MIXED_DE = """\
@@ -29,6 +29,28 @@ def test_clean_ocr_scots_keeps_english_function_words():
     assert clean_ocr(text, "sco").strip() == text.strip()
     # The same line is English to an English cleaner, and French is thrown out of Scots.
     assert clean_ocr("Le roi et la reine sont dans la ville avec vous.\n", "sco").strip() == ""
+
+
+def test_dehyphenate_joins_lowercase_continuation():
+    assert dehyphenate("the pre-\nlattis of\nRome") == "the prelattis of\nRome"
+
+
+def test_dehyphenate_keeps_hyphen_before_capital():
+    assert dehyphenate("Anglo-\nSaxon") == "Anglo-\nSaxon"
+
+
+def test_dehyphenate_joins_across_blank_lines_and_trailing_space():
+    assert dehyphenate("the pre- \n\nlattis") == "the prelattis"
+
+
+def test_dehyphenate_leaves_a_hyphen_at_the_end_of_the_text():
+    assert dehyphenate("the pre-") == "the pre-"
+    assert dehyphenate("the pre-\n\n") == "the pre-\n\n"
+
+
+def test_clean_ocr_applies_dehyphenate():
+    out = clean_ocr("the pre-\nlattis of the kirk", "en")
+    assert "prelattis" in out
 
 
 def test_marker_counts():

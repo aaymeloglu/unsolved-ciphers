@@ -126,14 +126,16 @@ clean literary prose of roughly the right century. Word counts after cleaning, 2
 | nl | 0.13 M | | Vondel, Multatuli | Vande Perre 1653 |
 | en | 0.70 M | Bruce, Charles I in 1646; Evelyn correspondence v.4; Nicholas Papers v.1–2 | Doyle, Dickens | Royalist 1646, Boswell 1643, Burgess 1912 |
 
-`clean_ocr` runs on every file. It drops lines that are mostly non-letters (page furniture,
-tables, OCR garbage) and lines whose function words point to another language, which is how
-the French half of Frederick's correspondence, the editors' apparatus in every IA edition, and
+`clean_ocr` runs on every file. It first rejoins words the printer broke at the right margin, so
+`pre-\nlattis` counts as `prelattis` and not as a spurious `lattis`, and a hyphen before a capital
+(`Anglo-\nSaxon`) is left alone. It then drops lines that are mostly non-letters (page furniture,
+tables, OCR garbage) and lines whose function words point to another language, which is how the
+French half of Frederick's correspondence, the editors' apparatus in every IA edition, and
 Montaigne's Latin quotations come out. The marker lists are disjoint across languages (a test
 checks this); `describe` prints the marker shares so a bad file shows. Known gaps: Fraktur
 editions (Arneth's Maria Theresia) OCR to nothing and are excluded; Dutch has no 17th-century
-letter edition online in plain text, so Vondel carries it; Italian is Venetian diplomatic
-prose, which is right for Ottobon but not for Tuscan targets.
+letter edition online in plain text, so Vondel carries it; Italian is Venetian diplomatic prose,
+which is right for Ottobon but not for Tuscan targets.
 
 Every source id was verified by fetching it and reading the title and marker counts. Five of
 the first Gutenberg ids tried were wrong editions (a Finnish Nathan der Weise, two English
