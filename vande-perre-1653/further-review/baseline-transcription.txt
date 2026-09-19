@@ -1,4 +1,4 @@
-# Vande Perre to de Bruyne, 1653: the 20 verified outbound cipher runs in Birch, Thurloe State Papers vol. 1 (1742),
+# Vande Perre to de Bruyne, 1653: every cipher run in Birch, Thurloe State Papers vol. 1 (1742),
 # read from the Internet Archive scan collectionofstat01thur and checked digit by digit.
 # One line per run, as printed; a run continues across Birch's line breaks and stops at clear text.
 # "frac" is the fraction-like sort Birch sets as a small 1 over 1 beside a small 2 over 2.
@@ -17,7 +17,7 @@ P500.2: 7 7 17 24 7 6 7 14 frac 5 13 7 6 12 26 22 21 26 12 14 12 7 27 21 27 10 3
 # "We hear that many of"; the run ends the letter ("I remain,")
 P500.3: 24 7 9 7 24 12 17 9 7 15 7 27 12 15 22 3 27 12 7 17 27 12 7 21 22 17 3 6 7 24 21 24 6 24 7 28 3 17 21 27 26 28 7 24 29 3 5
 #
-# p.522, Vande Perre to de Bruyne, 10 Oct 1653 NS (IA leaf n551). Birch prints short English glosses
+# p.522, Vande Perre to de Bruyne, Oct 1653 (IA leaf n551). Birch prints short English glosses
 # over parts of these runs; they are recorded in README.md and were not used to find the key.
 # "since there is no post come, which we very much long for."   gloss: "the good dispositions do"
 P522.1: 617 9 21 7 6 7 6 12 26 22 21 26 12 14 12 7
@@ -29,16 +29,6 @@ P522.3: 29 frac 9 7 23 17 3 14 12 8 12 15 77 24 27 7 7 17 12 9 7 17 3 6 7 24 7 2
 P522.4: 27 7 17 22 24 12 17 5 12 22 3 14 17
 # "within"   gloss: "fourteen days"; followed by "might be ended"
 P522.5: 14 6 3 9 10 7 17
-#
-# p.523, continuation of the 10 Oct 1653 NS letter (IA leaf n552).
-# gloss: M. G. Harrison
-P523.1: 109
-# gloss: Anabaptists
-P523.2: 3 17 3 43 22 27 12 26 27 7 17
-# gloss: Denmark
-P523.3: 76
-# gloss: queen of Sweden
-P523.4: 52
 #
 # p.576, London 4/14 Nov 1653 (letter begins p.575; IA leaf n605)
 # "It may be it is by reason of the new council ... The said change is"

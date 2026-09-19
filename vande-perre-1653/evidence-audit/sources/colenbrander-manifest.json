@@ -1,0 +1,914 @@
+[
+  {
+    "page": "I",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_i.html",
+    "bytes": 88,
+    "sha256": "3b114dce5312dff1946c999adf3d8950fc2d0ebbf0d974a20f8ec6389fd11030"
+  },
+  {
+    "page": "II",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_ii.html",
+    "bytes": 493,
+    "sha256": "01138c426dd3b80bff1212aedf07acaa84f702c237dd55e3b047028b5accec9e"
+  },
+  {
+    "page": "III",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_iii.html",
+    "bytes": 404,
+    "sha256": "51b0600df451034f78819a22173161fcc01c149676c78696855054957f2b1963"
+  },
+  {
+    "page": "IV",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_iv.html",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "page": "V",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_v.html",
+    "bytes": 3531,
+    "sha256": "fe966a963b42154361fa46fa7a311c4f74c75938a9a969aaf14cde240557190b"
+  },
+  {
+    "page": "VI",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_vi.html",
+    "bytes": 4406,
+    "sha256": "3d2d98d0859b65840bdb5e2ec3fbe3b32ecbaa3d1f53e21ad732df5ffeef88e5"
+  },
+  {
+    "page": "VII",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_vii.html",
+    "bytes": 2977,
+    "sha256": "b0f40213739bbbfa96f0d811c4d467be54950c80f172e0082176e3e2f4a3d793"
+  },
+  {
+    "page": "VIII",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_viii.html",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "page": "IX",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_ix.html",
+    "bytes": 2007,
+    "sha256": "5612932617b71e4f8e8f87350ee518fff59357a9a5dfb00b3027be2c112aef1b"
+  },
+  {
+    "page": "X",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_x.html",
+    "bytes": 3716,
+    "sha256": "38aff076c5d0060442e90eb7110a64596c3fe869366235e064090873269a1084"
+  },
+  {
+    "page": "XI",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xi.html",
+    "bytes": 2536,
+    "sha256": "38844c96928d468fc7f110aa666863bc9629b26121222d85257bfe0158c6c938"
+  },
+  {
+    "page": "XII",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xii.html",
+    "bytes": 3609,
+    "sha256": "69581c94785c2b94946e10c3c9c1fa615ef299cf2d038bd5b7d638b430fb455c"
+  },
+  {
+    "page": "XIII",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xiii.html",
+    "bytes": 4266,
+    "sha256": "6cced28b5600f5674a9f7c61a9d0d616d0a94dae915a114407650109996ae3c2"
+  },
+  {
+    "page": "XIV",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xiv.html",
+    "bytes": 4128,
+    "sha256": "ea8e0e38a2c2eb957dcbca372f22e1154dc15387621ab93202f034b0607de876"
+  },
+  {
+    "page": "XV",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xv.html",
+    "bytes": 3970,
+    "sha256": "f9c411bcce2b91d8efdd02f9889794e792fc7c95e40c3f26aaa9ddd3f18a007b"
+  },
+  {
+    "page": "XVI",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xvi.html",
+    "bytes": 4212,
+    "sha256": "82a7382324b487973774c37c1bb2bb680bdcb6958b28de4b165838276d0c0cec"
+  },
+  {
+    "page": "XVII",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xvii.html",
+    "bytes": 4602,
+    "sha256": "c06b512e4a4eb6208a4bc513fb5b052fbc6c2d5a73a7499eb89b874bd2382fdb"
+  },
+  {
+    "page": "XVIII",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xviii.html",
+    "bytes": 3875,
+    "sha256": "31b7383bcffe597d56c62ec6f88f575882a49327ebcc02e6ed726f6dbbe2c3c7"
+  },
+  {
+    "page": "XIX",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xix.html",
+    "bytes": 3784,
+    "sha256": "c610ca506fd815b1ae4d86d152b524f45c479915a5f9b842f016052eba82303e"
+  },
+  {
+    "page": "XX",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xx.html",
+    "bytes": 2713,
+    "sha256": "c61d69bbdcaab924f9ab353a2f960eb73ba047bc3aa72ba24adcd6a5f437c9bd"
+  },
+  {
+    "page": "XXI",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxi.html",
+    "bytes": 3794,
+    "sha256": "f7e3f89a6b6908eb6ec67f6257b9b29cb2e958c30f3d49dac15400689072b597"
+  },
+  {
+    "page": "XXII",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxii.html",
+    "bytes": 3959,
+    "sha256": "8c5d70e30b4516cb841aeac42fc502cb4330acea1c78fba66eb95ee6e393a3ff"
+  },
+  {
+    "page": "XXIII",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxiii.html",
+    "bytes": 2756,
+    "sha256": "8803ed2cb3f64bde90fec6316a3fcdebf86c37ed80ddb323c9db026a01a00734"
+  },
+  {
+    "page": "XXIV",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxiv.html",
+    "bytes": 2570,
+    "sha256": "4892901cfdee8bb0c39f04c1c12722a14d79c23dfd73f25240b025d81d99918c"
+  },
+  {
+    "page": "XXV",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxv.html",
+    "bytes": 2649,
+    "sha256": "619bab365aead9a64ec3013f2f4e67ab22275f6d2c8a4287209e347358fb9e98"
+  },
+  {
+    "page": "XXVI",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxvi.html",
+    "bytes": 2496,
+    "sha256": "1394745f59c8ba6b934880b57794f175eb325b816fe0c55cc5b6883c500fd52a"
+  },
+  {
+    "page": "XXVII",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxvii.html",
+    "bytes": 2806,
+    "sha256": "0d8c3d21896d04ce00dd396b655c80e0fec86f60e3a402a2841760e59bef2d11"
+  },
+  {
+    "page": "XXVIII",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxviii.html",
+    "bytes": 2790,
+    "sha256": "e87269b7dcc1c710ceb1257738389f2fcae91cd05d0d84f14f115db165472e2f"
+  },
+  {
+    "page": "XXIX",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxix.html",
+    "bytes": 2513,
+    "sha256": "5c9f4d9c0ead65c020905204306358eed57936d066d2891e1eb45df71c1e9bf8"
+  },
+  {
+    "page": "XXX",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxx.html",
+    "bytes": 2195,
+    "sha256": "c2430458171a7354e68e170e6fc3092892249d83de22eaf9b3486250446429cc"
+  },
+  {
+    "page": "XXXI",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxxi.html",
+    "bytes": 2584,
+    "sha256": "dbba6efe522f09426ef838c27344bd888acf6c620172ac832a486e44e7291fee"
+  },
+  {
+    "page": "XXXII",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxxii.html",
+    "bytes": 2594,
+    "sha256": "5957fdc28832402cdf1b2f7840b6dc54b5691d2ae879499125fa83a364cfb49f"
+  },
+  {
+    "page": "XXXIII",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxxiii.html",
+    "bytes": 2363,
+    "sha256": "320922a58720d16c65b4da8e04f8b3e32fc78b91f60ccf111f92de074ba24a91"
+  },
+  {
+    "page": "XXXIV",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxxiv.html",
+    "bytes": 2482,
+    "sha256": "66ce72d9519d92b78abea0eb49a9058906c404f716d2e44eea26e5efcf670be1"
+  },
+  {
+    "page": "XXXV",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxxv.html",
+    "bytes": 2628,
+    "sha256": "1c0d41dca0ee3cf8e920ff00805df110f3fe9f20895415b09d2128e52b38dd0f"
+  },
+  {
+    "page": "XXXVI",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxxvi.html",
+    "bytes": 2322,
+    "sha256": "8fc7e0688690544651be308d9eb5d93365a8fdade264fbd98e785e0a8dc2830c"
+  },
+  {
+    "page": "XXXVII",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxxvii.html",
+    "bytes": 2204,
+    "sha256": "246bfd8c309e5b87285b48fa10830f6a6193bc94bda0ccce863b67f816d6503b"
+  },
+  {
+    "page": "XXXVIII",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxxviii.html",
+    "bytes": 2147,
+    "sha256": "abc6c3eb7f2138cace415731212dd13ed36355043ffcadc8462a8c51988b29d3"
+  },
+  {
+    "page": "XXXIX",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xxxix.html",
+    "bytes": 2568,
+    "sha256": "9384766595dbc9e04c7938bf19327c9e688d08a1f40d39094b3ac0678782b89e"
+  },
+  {
+    "page": "XL",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_voorwerk_xl.html",
+    "bytes": 1587,
+    "sha256": "b12c2eb7f17531f355be4dc052c88c7cb5466137352c08952ac04c48e766778b"
+  },
+  {
+    "page": "1",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_001.html",
+    "bytes": 2121,
+    "sha256": "019775fbbb45cc8e0a0c00c434505f7715c58ee909f4d06d8d2590cf048ecc59"
+  },
+  {
+    "page": "2",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_002.html",
+    "bytes": 3114,
+    "sha256": "ad4aa8f1939ba72367370c806cc198c6dc08df793a0b1f23236c29992ff3b755"
+  },
+  {
+    "page": "3",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_003.html",
+    "bytes": 3232,
+    "sha256": "bc9dd78e6450c02236d6ff841c3a6a6e2c0e49c8f2f4aef6f9a6beed067d3859"
+  },
+  {
+    "page": "4",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_004.html",
+    "bytes": 3279,
+    "sha256": "6f1f669b62b7754a0f6fadce1414eafd187fb8e29b34ff4008b6866f03dcae7c"
+  },
+  {
+    "page": "5",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_005.html",
+    "bytes": 3434,
+    "sha256": "0c0d732784f53f216ffc14fba35c1ce88bc7f41f46a64b7c6dc0a4bfd6a14e92"
+  },
+  {
+    "page": "6",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_006.html",
+    "bytes": 3055,
+    "sha256": "38821d79eeb73907e20238646d0d6e89060118dd658cd748a44bef0667d3e8e3"
+  },
+  {
+    "page": "7",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_007.html",
+    "bytes": 2696,
+    "sha256": "41a05a983f9ad65318eb0fe5edcb7e142c5d8f321b05c5943e335bc2606480e6"
+  },
+  {
+    "page": "8",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_008.html",
+    "bytes": 2908,
+    "sha256": "57a2c46f0ebd38408dfadac87ccfdcb6ffe46a9b2abb9d11863e5308d9054d91"
+  },
+  {
+    "page": "9",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_009.html",
+    "bytes": 3607,
+    "sha256": "48ab1121901d63117a994e066a41cb901b2524756256192b033a3d11a35f5b20"
+  },
+  {
+    "page": "10",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_010.html",
+    "bytes": 3130,
+    "sha256": "26884244b5ac3225a44d798700d654312b0dbdb3af023f120e741370266b9599"
+  },
+  {
+    "page": "11",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_011.html",
+    "bytes": 2922,
+    "sha256": "995f476be4e4604efd16deb17b096909ce684a5a5f961a564347a1e0542262b0"
+  },
+  {
+    "page": "12",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_012.html",
+    "bytes": 2737,
+    "sha256": "aa9a2088485c1207fa4d79cbb40e0a098bcf3676d01b0f76d8ddc9e85189b66b"
+  },
+  {
+    "page": "13",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_013.html",
+    "bytes": 3113,
+    "sha256": "472eadfe8c1d21b374453c0ad2bb8c8f468b89858562e4d90d3091671ccd3004"
+  },
+  {
+    "page": "14",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_014.html",
+    "bytes": 2926,
+    "sha256": "c71c1aabab5257c7c1cdf8b5a45e4d2502ff5110d0d8d994206f0b26f0e0b0ca"
+  },
+  {
+    "page": "15",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_015.html",
+    "bytes": 2855,
+    "sha256": "c83e15e02dd88de7258f3fdd6c56f0384c244e7320cd6288b59c9ca6d22697ee"
+  },
+  {
+    "page": "16",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_016.html",
+    "bytes": 3112,
+    "sha256": "b45d407feb8c1be6678ce10cd2f260d2bbdc1f35228f60d27387032518f9638a"
+  },
+  {
+    "page": "17",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_017.html",
+    "bytes": 2555,
+    "sha256": "d7e486482e0838870095048d73f0d8f590a7920ec0580513d1047664551069b4"
+  },
+  {
+    "page": "18",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_018.html",
+    "bytes": 2900,
+    "sha256": "2dc07ea3aa869b8f9bcf89fd8cc93691f20adab2d1f49abddec94c4f00142741"
+  },
+  {
+    "page": "19",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_019.html",
+    "bytes": 3038,
+    "sha256": "fdbaa8e1690d5bccabc33d3060cf0e213009755e7e39b8c03a501b9c633f92dd"
+  },
+  {
+    "page": "20",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_020.html",
+    "bytes": 3680,
+    "sha256": "588beb07d280103a405136b714e52751d4488fd179dcf24fe7a13c46e1682101"
+  },
+  {
+    "page": "21",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_021.html",
+    "bytes": 2845,
+    "sha256": "b4203c6cc0529d25d01e39572fbad1cefa0a0c6e90452cae13a450dc8b1ef5fa"
+  },
+  {
+    "page": "22",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_022.html",
+    "bytes": 2792,
+    "sha256": "30167a192e07d372186609a1b0b306d2384aa5460abad0089c8ca901781796a6"
+  },
+  {
+    "page": "23",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_023.html",
+    "bytes": 2977,
+    "sha256": "8573f0a4b5e6091f3cad8aa75c748dddbb32a3b6f1560ea710ce639efa8f9afb"
+  },
+  {
+    "page": "24",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_024.html",
+    "bytes": 2858,
+    "sha256": "9d4585c01e4a4336900730c984628da15c942365c36b510d20d6f6108aaec797"
+  },
+  {
+    "page": "25",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_025.html",
+    "bytes": 2986,
+    "sha256": "1aada2da09736522e758ce43e3ea139d9efe0a74d49a8fa47a667410281a94be"
+  },
+  {
+    "page": "26",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_026.html",
+    "bytes": 3197,
+    "sha256": "644d78c456b9702a3e3eb42b8f0de9df365320309f4b82b1470f29fda92e7d59"
+  },
+  {
+    "page": "27",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_027.html",
+    "bytes": 3243,
+    "sha256": "1a63fc484d77a3fc120773051aedd2ea86ee7af4f36e9d238c7134fa9e49ab4d"
+  },
+  {
+    "page": "28",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_028.html",
+    "bytes": 2868,
+    "sha256": "006f956152623dc6fc33db0eac8b0be38b9360f379c7967edc3284c550a6e689"
+  },
+  {
+    "page": "29",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_029.html",
+    "bytes": 2952,
+    "sha256": "4e49f2827eaf4e967dfc201b8e54803f93b73780a9355c4df7e171c063100e92"
+  },
+  {
+    "page": "30",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_030.html",
+    "bytes": 3340,
+    "sha256": "08fecfae03570c1e91d3a6ff46b21c000a7b435f83ff2c10327d2653aa71794b"
+  },
+  {
+    "page": "31",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_031.html",
+    "bytes": 2779,
+    "sha256": "454c10a44e371743155cb151837f83130b61700f6f29f9ab38d12c89def52df3"
+  },
+  {
+    "page": "32",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_032.html",
+    "bytes": 2910,
+    "sha256": "280e8023e9476ff8e90f31fd395576012944e113e231eb1ee6bfb97c07d09435"
+  },
+  {
+    "page": "33",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_033.html",
+    "bytes": 2608,
+    "sha256": "cd30a01d75c98579cd5f6131c9e282355ee197cbfd6000d62ae42774edaaaef6"
+  },
+  {
+    "page": "34",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_034.html",
+    "bytes": 2957,
+    "sha256": "45242c92c12b038e940f2782e5396c3d25a4724433594262c2116010666751c6"
+  },
+  {
+    "page": "35",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_035.html",
+    "bytes": 3020,
+    "sha256": "1761949864db7b8121f9c143deeafb0f2317234c56a9a51ab325f140526fbb2e"
+  },
+  {
+    "page": "36",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_036.html",
+    "bytes": 3224,
+    "sha256": "d7d57797c5d320db2ec324f44d8c3e2c7483ea5b177616e1918f582fe4fea818"
+  },
+  {
+    "page": "37",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_037.html",
+    "bytes": 3208,
+    "sha256": "b41ac9d1b0725ae7ed2320f3e94a25c0063557d9e971e02f5f92b3b9aba100df"
+  },
+  {
+    "page": "38",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_038.html",
+    "bytes": 3695,
+    "sha256": "d82ee525278268d9e5e8dce43dbe5d733eb52c68aadd50fc7c2e49aa39961cb7"
+  },
+  {
+    "page": "39",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_039.html",
+    "bytes": 2887,
+    "sha256": "332759b2f5b9bda94d27b5f302f0c71023d80b54735715d43c76d6d8573fcc0d"
+  },
+  {
+    "page": "40",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_040.html",
+    "bytes": 2589,
+    "sha256": "ef0d7d2d10d43ca2e4c98fbe70e1677cc7e8095c47fb513969e33b47755d84f5"
+  },
+  {
+    "page": "41",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_041.html",
+    "bytes": 3243,
+    "sha256": "999b28e4d4b0cc8364d8df4494f9f21868290940b75309ef2d4893d0ccb754ba"
+  },
+  {
+    "page": "42",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_042.html",
+    "bytes": 3152,
+    "sha256": "c72b5e247707d616b3d0688d289db9a99e06261e580f48fa724ec916c5dff124"
+  },
+  {
+    "page": "43",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_043.html",
+    "bytes": 2839,
+    "sha256": "7e4c237ba789e5f0bb45bdc7719fe99e5e52cf2eec6c6d234839624c326d80e4"
+  },
+  {
+    "page": "44",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_044.html",
+    "bytes": 2900,
+    "sha256": "a7a34c8fc8b99c1b38063c8628b496fb6dff5faeb64bb6cfa2013dd1f200a727"
+  },
+  {
+    "page": "45",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_045.html",
+    "bytes": 3064,
+    "sha256": "5a5b5a27fea2002896eaa1fdc2e4c764fee53366cec97431b1ebf873039bd335"
+  },
+  {
+    "page": "46",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_046.html",
+    "bytes": 3318,
+    "sha256": "2e408c98f790afc6ed0198730ed0cf636210928f302440a0aea808b305a9a8c1"
+  },
+  {
+    "page": "47",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_047.html",
+    "bytes": 2944,
+    "sha256": "a705a9fedde5d2ab3dddb9649fdbc6a83d5d4cf3d6d7a766ff7ee0371b1cceeb"
+  },
+  {
+    "page": "48",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_048.html",
+    "bytes": 2965,
+    "sha256": "22eb1e669751d8e8eac3841d1b8b2544171528a7342a70a3480caadfc9d5e6bc"
+  },
+  {
+    "page": "49",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_049.html",
+    "bytes": 3107,
+    "sha256": "23f0fc8b3f72a5206cd2c24500dd35fb6c744c4a6f6a93db61ce99736264cfbe"
+  },
+  {
+    "page": "50",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_050.html",
+    "bytes": 2287,
+    "sha256": "482caccbb6918325cc4ebb013dd86aee36efd338c0e3cadaa2c73b2212c36806"
+  },
+  {
+    "page": "51",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_051.html",
+    "bytes": 2725,
+    "sha256": "a2f3a4396bc8b0935697b941fb253db7ec68dd4fc6ef934bf6bf2a9ec72857bc"
+  },
+  {
+    "page": "52",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_052.html",
+    "bytes": 2942,
+    "sha256": "ed66102a969a9a7bd799aac9092d86ed4d6285962de6b184d972afb52dac8cea"
+  },
+  {
+    "page": "53",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_053.html",
+    "bytes": 2749,
+    "sha256": "2edeb34b51207cac5028c36ff3eec2038b2580ebbdb7cb59984673b45582863b"
+  },
+  {
+    "page": "54",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_054.html",
+    "bytes": 3306,
+    "sha256": "931c98064760c1372e19a7e570174abb63e35eb3b448dbb9eeaca5bbbfbfc30d"
+  },
+  {
+    "page": "55",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_055.html",
+    "bytes": 3170,
+    "sha256": "bb2b6a41869ee11542e84bcd63aa8c126e8225bf548de927aa4e6a6c327dd081"
+  },
+  {
+    "page": "56",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_056.html",
+    "bytes": 2996,
+    "sha256": "86b2c85f76816e8cbb2de27785a339a85555db227346bc39c9f585d508e9a8da"
+  },
+  {
+    "page": "57",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_057.html",
+    "bytes": 2911,
+    "sha256": "e6847d831c0460dbf0494cf3b23c2775ec1313753f5c49d47abbc7c8f9fc29b1"
+  },
+  {
+    "page": "58",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_058.html",
+    "bytes": 3626,
+    "sha256": "3ea3dbbee6b26bbc20e70bd98161c1aa23b6dc77ba2a4a917678186f811cdab2"
+  },
+  {
+    "page": "59",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_059.html",
+    "bytes": 3326,
+    "sha256": "37cba27ba835495011ce5b08b47ae5f7788a29e73e88c4a8376dfa7ec2d826d6"
+  },
+  {
+    "page": "60",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_060.html",
+    "bytes": 3610,
+    "sha256": "29a29f356eb750b3467990000823420979582e56b2796bbfda6c44aba2e5ba5f"
+  },
+  {
+    "page": "61",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_061.html",
+    "bytes": 3160,
+    "sha256": "64dd5c2bed135499b77e119a7f2c694705360ec368aee16d61c790d35d48a491"
+  },
+  {
+    "page": "62",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_062.html",
+    "bytes": 3685,
+    "sha256": "e5a3a11614db546301e8548c815e45183730843aab8d305816455bcbe2003b17"
+  },
+  {
+    "page": "62a",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_062a.html",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "page": "62b",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_062b.html",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "page": "63",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_063.html",
+    "bytes": 2812,
+    "sha256": "c8fbca05f5c686f401ac9e840248362e81d0a3c8b87d564c93b4923a97a95ce6"
+  },
+  {
+    "page": "64",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_064.html",
+    "bytes": 2462,
+    "sha256": "331f449d0a50ad283d31a390c6a25cdba181b303b3aefab85914f64c1e45c0e2"
+  },
+  {
+    "page": "65",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_065.html",
+    "bytes": 2548,
+    "sha256": "d574fcffa9661f6be75d0ef82d5e2f85dfa46ca4a5c11f872f44f6f78ba7c75f"
+  },
+  {
+    "page": "66",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_066.html",
+    "bytes": 2837,
+    "sha256": "cd99a6b35f43685d91562be4c244d5b4847e88215291769d758129c82a17a8d2"
+  },
+  {
+    "page": "67",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_067.html",
+    "bytes": 2835,
+    "sha256": "d6c3721285925069e99317eecebbdc470e4c126265f865d88cb61478f50ef1c4"
+  },
+  {
+    "page": "68",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_068.html",
+    "bytes": 3101,
+    "sha256": "8360cf1cdd6792006e5369180e72c4164ffc81ab5f2d1b94611d03c4c5721629"
+  },
+  {
+    "page": "69",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_069.html",
+    "bytes": 3085,
+    "sha256": "a2ed4847950ca7b7af9da76a52a5eee117bc4d545dd99e0717692bbc08639032"
+  },
+  {
+    "page": "70",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_070.html",
+    "bytes": 3065,
+    "sha256": "2811316b40d06296fc477e86763fbdd3f0e803c891c95615daf97d90fc162b1a"
+  },
+  {
+    "page": "71",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_071.html",
+    "bytes": 3027,
+    "sha256": "48770e65c2bc40f1ca7babb4ed70d92c59c5d454c6cce806c49cfa508f063054"
+  },
+  {
+    "page": "72",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_072.html",
+    "bytes": 2955,
+    "sha256": "e6aec611b28b1029eb9454f6a7fca1c0c5c9cd9e8203611239610c591805e0db"
+  },
+  {
+    "page": "73",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_073.html",
+    "bytes": 3288,
+    "sha256": "0dcaedc84b1378c7800a887446b9bf41c9d9dc4b6e7bf9af202989b1424e520e"
+  },
+  {
+    "page": "74",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_074.html",
+    "bytes": 3334,
+    "sha256": "ab60eef6f860aa5e8e972adb60476f6f27dfb1a424aafe4e63c493c1b16827f8"
+  },
+  {
+    "page": "75",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_075.html",
+    "bytes": 3018,
+    "sha256": "14568cf371b2e2c14fe6cdc8bb3fcb3df760f2c651138b6820d72618aaf541fc"
+  },
+  {
+    "page": "76",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_076.html",
+    "bytes": 3281,
+    "sha256": "ccc54ee71b4fc79e000cd3bad124442931b231ddd26dd4e761da1cc78a60ab9e"
+  },
+  {
+    "page": "77",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_077.html",
+    "bytes": 3333,
+    "sha256": "6526b30894a5bf852b2d00e24194a52030b1a45b37b3e415299a270b798d905b"
+  },
+  {
+    "page": "78",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_078.html",
+    "bytes": 3306,
+    "sha256": "01af6df8dc14519a6aa5794ba91956328274f6d3c2ba61adae770683b0207f4c"
+  },
+  {
+    "page": "79",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_079.html",
+    "bytes": 3103,
+    "sha256": "8a07f29170152f8390ef5607284ca2de94e02959e6f9ae944a5b8bff722545cb"
+  },
+  {
+    "page": "80",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_080.html",
+    "bytes": 3318,
+    "sha256": "d2d860360b9f207c73bfdac6bef15bc7d216db247c39cd2c3c49f498d15e9f09"
+  },
+  {
+    "page": "81",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_081.html",
+    "bytes": 2896,
+    "sha256": "dbd13049691ddbe2c42a75ca4ae4982b165b7bc7664a516409278b572235c9c6"
+  },
+  {
+    "page": "82",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_082.html",
+    "bytes": 2768,
+    "sha256": "2dcb4385bfe39e7faf89ad0962fb917db99105f18e0c966a54f4f3e038bbd56e"
+  },
+  {
+    "page": "83",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_083.html",
+    "bytes": 2979,
+    "sha256": "248b3219854403932ab2882711e1a8b33ebf12f1a4f1df8373144cba2b6fef0d"
+  },
+  {
+    "page": "84",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_084.html",
+    "bytes": 3551,
+    "sha256": "7e876bf7b1507b743974ff511a6772a5777a77049dd332122e619aa2c3a80578"
+  },
+  {
+    "page": "85",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_085.html",
+    "bytes": 2748,
+    "sha256": "ca6abcef9c196cb8935489d8c018a85d3c95fa1a9bb08a4223612747c3c190dd"
+  },
+  {
+    "page": "86",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_086.html",
+    "bytes": 2767,
+    "sha256": "a5ad44dff25d84e3638c88a6eb68591e2c5aaa8df2651d2b858f44a8676bbf83"
+  },
+  {
+    "page": "87",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_087.html",
+    "bytes": 2994,
+    "sha256": "39a06d3a627c315131c3d50e83633a5a233c52ae3649bdba630fe098f8bb2d71"
+  },
+  {
+    "page": "88",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_088.html",
+    "bytes": 3195,
+    "sha256": "5ece494cf222b12790befb1e9eb0ce815471b014224223695cd2262db261e8ee"
+  },
+  {
+    "page": "89",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_089.html",
+    "bytes": 3007,
+    "sha256": "fdbca2637634fd0ae049e9b0a9b60376cada2d70bafc5754f2a482d85c19dc69"
+  },
+  {
+    "page": "90",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_090.html",
+    "bytes": 3117,
+    "sha256": "0facdb71f118f32abe17bdf64ec1cf2af1e39778cb44731a9e6e5c52860b31d9"
+  },
+  {
+    "page": "91",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_091.html",
+    "bytes": 2890,
+    "sha256": "ab65fce63f7825c35f718846c8fde3fd815018d2c3ce17c5d497a1ca9d25c0a2"
+  },
+  {
+    "page": "92",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_092.html",
+    "bytes": 3361,
+    "sha256": "08c4173af2794ab785768b4cc95659c14fd863312a73ac16d267e5cfb36eb8ca"
+  },
+  {
+    "page": "93",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_093.html",
+    "bytes": 3049,
+    "sha256": "34e46288e6beee5dda74d629e43363849389be410219d7d843a23d4a8ddf98fc"
+  },
+  {
+    "page": "94",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_094.html",
+    "bytes": 1383,
+    "sha256": "75a57d884a367f0ba17652c2148483c2ea3655832052ba6b9a961db436a71931"
+  },
+  {
+    "page": "420a",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_420a.html",
+    "bytes": 8464,
+    "sha256": "4ae76c9a5e4dcee80f331527235b3a6a2e15e338c23b527807236b40ac7f9826"
+  },
+  {
+    "page": "420b",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_420b.html",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "page": "607",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_607.html",
+    "bytes": 4651,
+    "sha256": "9f888ce3629fa639c413d03b0ab44ba967710f611767de1d3fc9596fac68d9d7"
+  },
+  {
+    "page": "608",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_608.html",
+    "bytes": 5214,
+    "sha256": "8b5d57f8099c4c26cea83ae7b42d087e9ff87d48071feecb6f1451106ea077a2"
+  },
+  {
+    "page": "609",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_609.html",
+    "bytes": 4627,
+    "sha256": "935e693c84dbc8cdb55048770627401d3899a3cbda1ec85c5fe5074b665600f6"
+  },
+  {
+    "page": "610",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_610.html",
+    "bytes": 5163,
+    "sha256": "3c662b7ce11054a69972d5012e46e23e939a270407e4a6b21061d7cc76e88f09"
+  },
+  {
+    "page": "611",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_611.html",
+    "bytes": 5374,
+    "sha256": "98936f06c9e35ad61255cd70286ab65a9e4e7abddd8411646f77ee394578a394"
+  },
+  {
+    "page": "612",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_612.html",
+    "bytes": 5293,
+    "sha256": "402609647bb14c8ae25792ec5337e340822bcd6b8d90a63af262a83eae47dbf5"
+  },
+  {
+    "page": "613",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_613.html",
+    "bytes": 5572,
+    "sha256": "e76cffa52ffe6dad3384bb6be63c8ddaa1f2c0828d955cff25bbe129ae874e0d"
+  },
+  {
+    "page": "614",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_614.html",
+    "bytes": 7320,
+    "sha256": "c4b21f147562263e7c4ece2f81d3bd2d34d356b870526641c8b9a45793883bfa"
+  },
+  {
+    "page": "615",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_615.html",
+    "bytes": 4947,
+    "sha256": "386fcc3792e3fd3bf6c9cfb4918eabb0a040b36b0cbf45af15bc91a98b863803"
+  },
+  {
+    "page": "616",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_616.html",
+    "bytes": 1156,
+    "sha256": "feb3cef9076e8a15bab9b412e12d1c92a7c5a702c5f47aedeec531e83dba71d4"
+  },
+  {
+    "page": "617",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_617.html",
+    "bytes": 2641,
+    "sha256": "df23887b788eb4c94076a7b4f565516af3bc2a93cddca405bdfbb17936794f16"
+  },
+  {
+    "page": "618",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_618.html",
+    "bytes": 1436,
+    "sha256": "2880817f9181b58284e78385915e956053fc3e5465f10f1421b130bdc082b246"
+  },
+  {
+    "page": "619",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_619.html",
+    "bytes": 3859,
+    "sha256": "efeacede36aaafbf6a80ec5e87c92231cdecb0b3f82a80152e451b568decd8f0"
+  },
+  {
+    "page": "620",
+    "url": "https://resources.huygens.knaw.nl/retroapp/service_zeeoorlogen/ks18/html/zeeoorlogen_ks18_620.html",
+    "bytes": 1441,
+    "sha256": "1d54385d21749cbd015e324758c76391de308b085f4e4b9706879d8d2eaa0c82"
+  }
+]

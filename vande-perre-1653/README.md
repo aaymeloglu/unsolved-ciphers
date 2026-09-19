@@ -1,162 +1,179 @@
 # Vande Perre to de Bruyne, 1653: the Dutch cipher in Thurloe
 
-**Status: solved, 14 September 2026; five letters read, two short fragments open (19 September
-2026).** A 22-letter alphabetical substitution with a symbol for *ee* and a few code groups, in
-Dutch, used for short phrases inside letters that are otherwise in clear. Of 308 printed
-symbols, 294 are S (key found by cryptanalysis, with a control), 2 C (code groups read from the
-1653 translators' glosses), 12 I (repairs of evident misprints and one inferred value). No
-surviving key has been found, so the letter values are a cryptanalytic result. Birch's English
-glosses over some runs were not used to find the key; they agree with it, and they fix the two
-code groups.
+**Alphabet recovered; five letters substantially read, two short fragments unresolved.**
+Evidence reviewed 19 September 2026. The verified outbound inventory has **20 runs and 322
+printed groups: 304 S, 5 C, 13 I** after the explicit repairs. These are token mapping grades,
+not percentages of securely understood meaning: the unresolved strings also contain S letters.
+No surviving key or target manuscript image has been located.
+
+The cipher uses a 22-letter alphabetical substitution, printed groups read as *ee*, and word
+codes. The alphabet was recovered from the digits without the English glosses; the glosses
+support readings and supply five code meanings. These passages had already been read by the
+contemporary translators. This work reconstructs their Dutch cipher text from Birch's print.
 
 ## The documents
 
-Johan van de Perre, one of the Dutch ambassadors in London during the peace talks of 1653, to
-Johan de Bruyne, raadpensionaris of Zeeland, in Birch's *A Collection of the State Papers of
-John Thurloe*, vol. 1 (1742). Vande Perre wrote in Dutch and put only the sensitive phrases in
-cipher, a few words at a time. Thurloe's office intercepted the letters and translated the clear
-parts into English, leaving the ciphered phrases as numbers; Birch printed the translations that
-way. Sixteen runs, 308 symbols; the longest is one 70-symbol sentence, most are one to five
-words. Page images are from the Internet Archive scan
-[collectionofstat01thur](https://archive.org/details/collectionofstat01thur); British History
-Online omits the cipher passages ("see page image"). [`pages/`](pages/) has a crop of each run
-as printed (public-domain 1742 edition); the
-[reading page](https://aaymeloglu.github.io/unsolved-ciphers/vandeperre-reading.html) shows
-them next to the decoded text.
+**Paulus van de Perre**, Dutch ambassador in London, wrote to Johan de Bruyne (de Brune),
+pensionary of Zeeland. Birch's index calls the envoy Paulus, as does the
+[NNBW biography](https://www.dbnl.org/tekst/molh003nieu05_01/molh003nieu05_01_0674.php).
+Thurloe's office intercepted the letters and translated the clear Dutch into English,
+leaving sensitive ciphered phrases as numbers. Thomas Birch printed the translations in
+*A Collection of the State Papers of John Thurloe*, vol. 1 (1742). Images below derive from
+the [Internet Archive scan](https://archive.org/details/collectionofstat01thur), a public-domain
+edition. They are not DECODE manuscript images.
 
-| Run | Page (IA leaf) | Letter |
+| Runs | Printed page | Letter date |
 |---|---|---|
-| P431.1 | [p. 431](https://archive.org/details/collectionofstat01thur/page/n460) | Westminster, 29 August 1653 NS |
-| P500.1–3 | [p. 500](https://archive.org/details/collectionofstat01thur/page/n529) | Westminster, 3 October 1653 NS |
-| P522.1–5 | [p. 522](https://archive.org/details/collectionofstat01thur/page/n551) | October 1653, "my last was the 3d of this month" |
-| P576.1 | [p. 576](https://archive.org/details/collectionofstat01thur/page/n605) | London, 4/14 November 1653 (begins p. 575) |
-| P582.1–6 | [p. 582](https://archive.org/details/collectionofstat01thur/page/n611) | Westminster, 11/21 November 1653 |
+| P431.1 | [431](https://archive.org/details/collectionofstat01thur/page/n460) | 29 August 1653 NS |
+| P500.1–3 | [500](https://archive.org/details/collectionofstat01thur/page/n529) | 3 October 1653 NS |
+| P522.1–5, P523.1–4 | [522](https://archive.org/details/collectionofstat01thur/page/n551), [523](https://archive.org/details/collectionofstat01thur/page/n552) | 10 October 1653 NS, dated at the conclusion on p. 523 |
+| P576.1 | [576](https://archive.org/details/collectionofstat01thur/page/n605) | 4/14 November 1653; begins p. 575 |
+| P582.1–6 | [582](https://archive.org/details/collectionofstat01thur/page/n611) | 11/21 November 1653 |
 
-Satoshi Tomokiyo's [unsolved list](https://cryptiana.web.fc2.com/code/unsolved.htm) says Thurloe
-"include[s] some undeciphered Dutch letters", naming Beverning and Vande Perre to Boreel,
-1 September 1653 (p. 435) as the example. That letter uses a different cipher and remains open
-(see Failure log). Bourdeau's [cyphersolver](https://github.com/dbourdeau/cyphersolver/tree/main/thurloe)
-works on the Boreel letter and three 1656 intercepts, not these. DECODE has no record for any of
-them (searched 19 September 2026 for Perre, Bruyne, Bruijne, Beverning, Nieupoort, Zeeland,
-Thurloe). The English glosses show that Thurloe's office read at least parts of the cipher in
-1653. We have found no published Dutch text or key.
+The longest run is 70 groups; most are one to five words. The inventory covers these verified
+passages, not every possible cipher in the correspondence. British History Online omits the
+numerical runs. The [reading page](https://aaymeloglu.github.io/unsolved-ciphers/vandeperre-reading.html)
+shows source crops, mechanical output, Dutch and English for every run.
 
 ## The reading
 
-Mechanical output of [`verify.py`](verify.py) ([`reading.txt`](reading.txt)): the key over the
-printed digits, then with [`repairs.json`](repairs.json) applied; `[..]` is a repair or an
-inferred value. Clear text from Birch's translation in quotes, for context.
+[`reading.txt`](reading.txt) is generated from the unaltered printed groups in
+[`transcription.txt`](transcription.txt), [`key.json`](key.json), and positional proposals in
+[`repairs.json`](repairs.json). In the edited output, `[..]` marks I and `(..)` marks M.
+English code labels in braces give meanings without claiming exact original Dutch wording.
+Editorial supplements in the Dutch below are not silently inserted into the mechanical output.
 
-| Run | Context | Edited reading | Dutch | English |
-|---|---|---|---|---|
-| P431.1 | "a character to open a lockt chest" | `ickseggheeenc[ij]ffer` | ick segghe een cijffer | I mean a cipher |
-| P500.1 | "keep me at present out of harm's way." | `in[ee]nviandichland` | in een viandich land | in a hostile country |
-| P500.2 | "that at present here" | `eenredelijckedisposi[t]ietothandelingewertgespe[u]rtdieweldiendewaergenomen` | een redelijcke dispositie tot handelinge wert gespeurt, die wel diende waergenomen | a reasonable disposition to negotiate is noticed, which ought to be taken up |
-| P500.3 | "We hear that many of" | `regeringemetimpatientieopnaderordrevano[n]sverwac` | regeringe met impatientie op nader ordre van ons verwac[hten] | the government await further orders from us with impatience |
-| P522.1 | "which we very much long for." | `degoededisposi[t]ie` | de goede dispositie | the good disposition |
-| P522.2 | "a person" | `diemnicvndament` | die m… fundament | Birch: "who upon good grounds" |
-| P522.3 | "in case" | `wijgeq[u]alifi[c]eerteenigenaderepropositi[e]doen` | wij gequalificeert eenige nadere propositie doen | we [were] authorised to make some further proposal |
-| P522.4 | "the work" | `tenprincipaln` | ten principal en | chiefly, and |
-| P522.5 | "within" | `[14]daghen` | 14 daghen | fourteen days |
-| P576.1 | "The said change is" | `onstotvoordeelgerekent` | ons tot voordeel gerekent | reckoned to our advantage |
-| P582.1 | "the men of" | `thien[s]chepen` | thien schepen | ten ships |
-| P582.2 | "to" | `Jarmuyengeloope[n]` | [tot] Jarmuyen geloopen | [at] Yarmouth run [away] |
-| P582.3 | "to look to them" | `bewaren` | bewaren | to guard |
-| P582.4 | "the fleet" | `ote` | unresolved | |
-| P582.5–6 | "want of masts." | `gebreck` van `masten` | gebreck van masten bevonden | want of masts found |
+| Runs | Reading or meaning |
+|---|---|
+| P431.1 | *ick segghe een cijffer*: I mean a cipher |
+| P500.1 | *in een viandich land*: in a hostile country |
+| P500.2 | *een redelijcke dispositie tot handelinge wert gespeurt, die wel diende waergenomen*: a reasonable disposition to negotiate is noticed, which ought to be taken up |
+| P500.3 | *regeringe met impatientie op nader ordre van ons verwac[hten]*: the government await further orders from us with impatience |
+| P522.1 | *de goede dispositie*: the good disposition |
+| P522.2 | Literal `diemnicvndament`, unresolved; English gloss “who upon good grounds” |
+| P522.3 | *wij gequalificeert eenige nadere propositie doen*: we [were] authorised to make some further proposal |
+| P522.4 | Literal `tenprincipaln`; proposed *ten principal [e]n*, chiefly, and |
+| P522.5 | *14 daghen*: fourteen days |
+| P523.1 | 109: Major-General Harrison, glossed |
+| P523.2 | Literal `ana?ptisten`; proposed *ana[ba]ptisten*, Anabaptists |
+| P523.3 | 76: Denmark, glossed |
+| P523.4 | 52: queen of Sweden, glossed |
+| P576.1 | *ons tot voordeel gerekent*: reckoned to our advantage |
+| P582.1–2 | *thien schepen* / *[Jarmuyen] geloopen*: ten ships / [at Yarmouth] run [away] |
+| P582.3 | *bewaren*: to guard |
+| P582.4 | Literal `ote`, unresolved |
+| P582.5–6 | *gebreck* van *masten* bevonden: want of masts found (van and bevonden in clear) |
 
-Birch's glosses, all consistent with the key: "the good dispositions do" (P522.1), "who upon good
-grounds" (P522.2), "we were qualified with some farther propositions that would do" (P522.3),
-"chiefly" and "and" (P522.4), "fourteen days" (P522.5), "ten ships at Yarmouth were run away"
-and "left" (P582.1–2). The key reads *wij*, *gequalificeert*, *nadere propositie*, *principal*,
-*en*, *thien schepen* and *geloopen* under the glosses without using them. P431.1 and P576.1
-have no gloss.
+The 10 October letter says Harrison and the Anabaptists are losing influence. Colonel Wurts
+presents himself as Denmark's envoy while receiving a pension from Sweden's queen. These
+meanings come from the historical glosses, not a first discovery of the events.
 
-The 29 August letter announces a cipher sent "by a third hand": "a character to open a lockt
-chest, *ick segghe een cijffer*". That sentence is itself in the cipher read here, so what was
-sent may have been the code list rather than a new alphabet.
-
-## Key
-
-[`key.json`](key.json). Values run in alphabetical order with gaps, the usual shape of a
-mid-century Dutch diplomatic alphabet:
+## Key and repairs
 
 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | frac | 12 | 13 | 14 | 15 | 17 | 21 | 22 | 23 | 24 | 26 | 27 | 28 | 29 | 77 |
 |---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
 | a | b | c | d | e | f | g | h | ij | i | k | l | m | n | o | p | q | r | s | t | v | w | ee |
 
-`frac` is the sort Birch sets for 11: a small 1 over 1 beside a small 2 over 2. It reads *ij*
-in *redelijcke*, *wij* and (repaired) *cijffer*. Numbers 1, 2, 16, 18–20 and 25 do not occur as
-letters. 77 is a digraph symbol for *ee*, in *gequalificeert* and *een cijffer*. The code groups:
+`frac` denotes Birch's fraction-like sort, read as *ij*. Printed **77** reads *ee* in
+*gequalificeert* and *een cijffer*; an intentional digraph and joined **7.7** are both possible.
+**57** is inferred as *ee* in *in een viandich land* (I).
 
-- **57** (P500.1, once): *in [57]n viandich land* needs *een*, exactly as *segghe [77]n cijffer*
-  does. A homophone of 77 or a misprint for it; read as *ee*, grade I.
-- **617** (P522.1, once): Birch's gloss "the good dispositions" over *[617] goede dispositie*;
-  the article *de* (or *die*). Grade C.
-- **115** (P582.2, once): "ten ships at Yarmouth were run away" over *thien schepen* to *[115]
-  geloopen*, with "to" (*tot*) in clear before it. The place-name code for Yarmouth; the Dutch
-  spelling (*Jarmuyen*) is supplied. Grade C.
+The five C groups are **617**, article *de* or *die*; **115**, Yarmouth (the spelling *Jarmuyen*
+is supplied); **109**, Major-General Harrison; **76**, Denmark; **52**, queen of Sweden.
+**43** remains M in the key. Its positional I reading *ba* gives *anabaptisten* and agrees with
+the gloss. Splitting **4.3** gives *ba* under the established alphabet; a syllable code is an
+alternative. **43=b** would produce *anabptisten* and is not adopted.
 
-The letter values have no *u*: 28 is *v* (*van*, *verwac*, *voordeel*), and *gespeurt* and
-*gequalificeert* print 17 (*n*) where *u* is wanted. Either *u* was written with the *n* symbol
-or the print confuses 16 and 17.
+Every repair is separately recorded with its reason. These include 14 (*l*) for *t* in both
+instances of *dispositie*; 17 (*n*) for *u* in *gespeurt* and *gequalificeert*; 15 for 5 (*c*);
+71 for 7 (*e*); 27 (*t*) for *n* in *ons* and for *s* in *schepen*; a dropped 7 in final 17
+(*geloopen*); and 3 (*a*) for *ij* in *cijffer*. The first 14 of *14 daghen* is read as the
+clear numeral, supported by the gloss. The print alone does not locate these defects in the
+writer's cipher, interception copy, translation, or typesetting.
 
-## Repairs (grade I)
-
-Every change to the printed digits is in [`repairs.json`](repairs.json) with its reason; the
-transcription is not altered.
-
-- *dispositie* is enciphered with 14 (*l*) for its *t* in both letters that use the word
-  (P500.2, P522.1), while 27 is *t* everywhere else (*tot*, *met*, *wert*, *masten*). A slip in
-  the writer's key or the decipherer's copy for this word; the text needs *t*.
-- *gespeurt* and *gequalificeert* need *u* where the print has 17 (*n*); see above.
-- Birch's "15." in *gequalificeert* is 5 (*c*); "71" in *propositie* is "7." with a stray 1.
-- 27 (*t*) for 17 (*n*) in *ons* (P500.3) and for 26 (*s*) in *schepen* (P582.1).
-- "1" at a line end in P582.2 is 17 with the 7 dropped (*geloopen*).
-- 3 (*a*) for the *ij* sort in *cijffer* (P431.1).
-- In P522.5 the first "14" is the numeral fourteen in clear, as Birch's gloss says; as the
-  *l* symbol it gives no word.
+No distinct *u* symbol is established: 28 reads *v*, and 17 occurs where *u* is needed.
+Sharing a symbol and confusion with an unprinted 16 remain possibilities.
 
 ## Method and what the controls say
 
-The key was found on 14 September 2026 by bijective simulated annealing over a 4-gram model
-built from Hooft's *Nederlandsche Historien* (1642, DBNL text `hoof001nede01`, not in this repo):
-four of eight restarts converged on the same key, and the few remaining values were read by hand.
-The glosses were not used as cribs; they were read against the result afterwards, and on
-19 September 2026 they fixed the two code groups and the division *principal en*.
+The alphabet was found on 14 September 2026 by bijective simulated annealing over a 4-gram
+model built from Hooft's *Nederlandsche Historien* (1642, DBNL `hoof001nede01`, not included).
+Four of eight restarts converged on the same key; remaining values were read by hand.
+English glosses were checked afterwards and supply the C values.
 
-Reproducible here, with the kit's Dutch corpus (`cipherkit.corpora` id `nl`: Vondel, *Complete
-werken* I, and Multatuli, *Max Havelaar*):
+The reproducible check uses `cipherkit.corpora` id `nl`: Vondel, *Complete werken* I, and
+Multatuli, *Max Havelaar*, cleaned with the repository's versioned cleaner. Fetch with
+`python3 -m cipherkit.corpora fetch nl` before running the optional statistical experiments.
 
-- `python3 vande-perre-1653/verify.py --z`: key-shuffle permutation (the kit's
-  `permutation_z_key`, dictionary segmentation, printed digits without repairs, only the
-  letter values scored as text, 1000 shuffles): **z = 5.2, p = 0.001**. No shuffled key scores
-  as well as the key. The z is modest because the text is about 300 letters in short runs.
-- `python3 vande-perre-1653/solve.py`: ciphertext-only search with the kit's annealer and
-  hill-climb over 16 seeds. The best seeds recover 17–18 of the 22 letter values (about 92
-  percent of the letters), confusing v/w and c/k/z. Under the same model `key.json` scores
-  −1369.2, better than every search result (best −1377.5), so the shortfall is in the search,
-  not a competing key the model prefers. The 17th-century prose corpus used for the original
-  search did better than the kit's mix of verse and 1860 prose.
+- `python3 vande-perre-1653/verify.py --z`: dictionary-segmentation key shuffle on all **322
+  printed groups**, without repairs: **z = 18.0, p = 0.001**, 1,000 shuffles, seed 0. All non-S
+  symbols are fixed boundaries. Multi-letter *ij* and *ee* are also held fixed; the 21
+  single-letter S values are permuted. This is a conditional comparison against random
+  relabellings, not a search-adjusted significance test or the probability that the reading
+  is correct. The observed score, null mean and standard deviation are retained in
+  [`evidence-audit/control-result.txt`](evidence-audit/control-result.txt).
+- `python3 vande-perre-1653/solve.py`: ciphertext-only annealing and hill-climbing, default
+  16 seeds, on the **archived 308-group discovery corpus**. The reported best seeds recover
+  17–18 of 22 letter values (about 92% of letter tokens), confusing v/w and c/k/z. The
+  reported key score is −1369.2, above the best search result −1377.5. This experiment is
+  scoped to the archived corpus and is not presented as a fresh 322-group search.
 
-## Open points
+The [source-review audit](further-review/README.md) preserves the discovery transcription,
+key and repairs. Its `verify_review.py` reproduces the inventory extension and exact repair
+costs. It is an audit snapshot, not a second current key.
 
-- P522.2 `diemnicvndament`, glossed "who upon good grounds": *die m…* and *…ndament* point to
-  *die met fundament*, and with 28 read as *u* the tail fits, but the printed *12. 5.* would
-  have to stand for *27. 8.* (*t f*), two errors in a row. Not established.
-- P582.4 `ote`, "the fleet [ote] will not go out": three symbols, no Dutch word, no gloss.
-- The *u* question above.
+## Unresolved readings
 
-## Failure log
+- **P522.2 `diemnicvndament`**: conjectural *die met fvndament* requires **three consecutive
+  substitutions**, positions 5–7: 17→7 (*n→e*), 12→27 (*i→t*), 5→8 (*c→f*). Normalizing *v/u*
+  is separate. The English gloss supports the sense but does not establish this wording.
+- **P582.4 `ote`**: possibly a retained Dutch ending, *[vl]ote* or *[vlo]ote*, immediately
+  after English “fleet”. The paragraph also mixes translated English with retained Dutch
+  *bewaren* and *gebreck van masten bevonden*. No proposed prefix is encoded; unresolved.
+- **P522.4 `tenprincipaln`**: *ten principal [e]n* requires an inserted *e*. The glosses do
+  not fix the word boundary or establish that exact restoration.
 
-- Beverning and Vande Perre to Boreel, 1 September 1653 (p. 435): a different system (letters
-  6–33, codes 113–527); 128 letters, calibrated Dutch band −614 to −554, attacks top out at −650.
-  Closed-negative 14 September 2026; needs more ciphertext in the same key or a Dutch-side crib.
+## Manuscript evidence and next steps
 
-## Files
+**Bodleian MS. Rawl. A.7, old p. 47**, Van de Perre to Bruyne, **17 October 1653**, is explicitly
+catalogued as a copy partly in Dutch and partly in cipher, omitted from Birch:
+[item record](https://archives.bodleian.ox.ac.uk/repositories/2/archival_objects/820123),
+[Macray col. 12, item 4](https://archive.org/details/CatalogiCodicumManuscriptorumBiblioth/page/n13/mode/1up).
+Its digits have not been seen; neither calendar style nor use of this key is verified.
+This is the strongest next retrieval target.
 
-- `transcription.txt`: every run as printed, with the clear text before it and Birch's glosses.
-- `key.json`, `repairs.json`: the key and the proposed misprint repairs, graded.
-- `verify.py`: reproduces `reading.txt`, prints grade counts, `--z` for the control. Run in CI.
-- `solve.py`: the ciphertext-only search.
-- `pages/`: a crop of each run from Birch's page, used by the reading page.
+Two verified Zeeuws Archief entries offer recipient-side evidence: access 2, inventory
+[3188](https://hdl.handle.net/21.12113/7EE8C3AD46AB40FC882D10532E14648A), De Brune's incoming
+letters 1652–1658, and [3101.1](https://hdl.handle.net/21.12113/22565F7402054D48A6003DDC0EFA75F3),
+England correspondence 1652–1656, explicitly including copies returned by the surviving
+envoys after Van de Perre's death. Both public manifests had empty `items` on 19 September
+2026. Their internal contents and any cipher enclosure are unverified.
+
+The key-dispatch trail runs through 29 August (Birch 431), 5 September (442), De Bruyne's
+27 September note (Macray A.6 p. 293), and the 3 October receipt/seal discussion (Birch 500).
+It does not identify a surviving alphabet or code list. For the damaged October passage,
+Birch literally prints **Vol. X p. 471**, but A.10 mainly covers December 1653–February 1654.
+Other 10 October letters at A.6 pp. 463 and 474 make **A.6 p. 471** a plausible alternative,
+not a verified correction. The November passage points to A.8 old p. 102.
+
+De Bruyne's reverse letter of **31 October 1653 NS**, [Birch p. 552](https://archive.org/details/collectionofstat01thur/page/n581/mode/1up),
+contains **118**, likely a code group but without a resolving gloss or demonstrated key.
+It remains separate from the 322 outbound groups. Nearby De Witt groups are not imported.
+
+The [evidence audit](evidence-audit/README.md) records the Birch OCR screen, all 152 retrieved
+Colenbrander pages, targeted *First Dutch War* searches, catalogue evidence, source hashes
+and limitations. The 1725 embassy *Verbael* remains incompletely inspected. No alternate
+text resolving the damaged phrases has been identified. The
+[retrieval specification](evidence-audit/ARCHIVAL-TARGETS.md) lists exact targets and reference
+warnings. No archive enquiry or order has been sent.
+
+## Other cipher and source-list scope
+
+Satoshi Tomokiyo's [unsolved list](https://cryptiana.web.fc2.com/code/unsolved.htm) names the
+Beverning and Vande Perre letter to Boreel, 1 September 1653 (Birch p. 435). It uses a different
+system: letters 6–33, codes 113–527. Its 128-letter attack scored about −650 against a
+calibrated Dutch band −614 to −554; recorded closed-negative 14 September 2026. It needs
+more same-key text or a Dutch-side crib and is not solved by this alphabet.
+[Bourdeau's Thurloe work](https://github.com/dbourdeau/cyphersolver/tree/main/thurloe) concerns
+that letter and three 1656 intercepts. DECODE searches on 19 September 2026 for Perre, Bruyne,
+Bruijne, Beverning, Nieupoort, Zeeland and Thurloe found no matching record.

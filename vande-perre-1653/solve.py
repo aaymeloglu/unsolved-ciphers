@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Find the Vande Perre key from the printed digits alone, as a check that key.json is what
 ciphertext-only search recovers. Bijective simulated annealing then a swap hill-climb (cipherkit.anneal, climb) over
-the 22 letter symbols, scored by a 4-gram character model of the kit's Dutch corpus with runs split
+the 22 letter symbols in the archived 308-group discovery corpus, scored by a 4-gram character model of the kit's Dutch corpus with runs split
 at code groups; no glosses, no cribs. Prints each seed's agreement with key.json.
 
     python3 vande-perre-1653/solve.py [n_seeds]      # default 16
@@ -21,7 +21,7 @@ from cipherkit.normalize import normalize  # noqa: E402
 KEY = {k: v for k, v in json.load(open(os.path.join(HERE, "key.json"))).items() if not k.startswith("_")}
 LETTERS = [k for k, v in KEY.items() if v["grade"] == "S" and (len(v["value"]) == 1 or k == "frac")]
 RUNS = []
-for line in open(os.path.join(HERE, "transcription.txt")):
+for line in open(os.path.join(HERE, "further-review", "baseline-transcription.txt")):
     if line.startswith("P"):
         cur = []
         for t in line.split(":", 1)[1].split():

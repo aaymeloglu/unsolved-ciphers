@@ -1,0 +1,88 @@
+[
+  {
+    "file": "thurloe-vol1.txt",
+    "url": "https://archive.org/download/collectionofstat01thur/collectionofstat01thur_djvu.txt",
+    "bytes": 4539345,
+    "sha256": "4d7fb577b9a137883102d6bc0f1cbf207169fa418ca479d613f5a246ac327900",
+    "retrieved": "2026-09-19",
+    "included": false
+  },
+  {
+    "file": "thurloe-p552.jpg",
+    "url": "https://archive.org/download/collectionofstat01thur/page/n581.jpg",
+    "bytes": 1345695,
+    "sha256": "4b7000142bd602d6157ff8f2057fc9260c24faa5a01135960304f601978d7ba0",
+    "retrieved": "2026-09-19",
+    "included": true
+  },
+  {
+    "file": "macray.txt",
+    "url": "https://archive.org/download/CatalogiCodicumManuscriptorumBiblioth/Catalogi_codicum_manuscriptorum_biblioth_djvu.txt",
+    "bytes": 1756801,
+    "sha256": "1a736a6633b280b1b9dd00ffdaa06152922db5f4d9f40402ea3698527ff8e825",
+    "retrieved": "2026-09-19",
+    "included": false
+  },
+  {
+    "file": "macray-n13.jpg",
+    "url": "https://archive.org/download/CatalogiCodicumManuscriptorumBiblioth/page/n13.jpg",
+    "bytes": 3173883,
+    "sha256": "d4543d07d68247afaefed573609eee99e39811ef9bafc71365c1e2b3868d5ef5",
+    "retrieved": "2026-09-19",
+    "included": true
+  },
+  {
+    "file": "firstdutchwar-5.txt",
+    "url": "https://archive.org/download/letterspapersrel05gard/letterspapersrel05gard_djvu.txt",
+    "bytes": 855184,
+    "sha256": "237fa6f8c757d00bc1a3f30c3e7453ae9e2a5bd420ef5c76f219e42bc11946dd",
+    "retrieved": "2026-09-19",
+    "included": false
+  },
+  {
+    "file": "firstdutchwar-6.txt",
+    "url": "https://archive.org/download/letterspapersrel06gard/letterspapersrel06gard_djvu.txt",
+    "bytes": 883556,
+    "sha256": "5415b3a03c8809758f6bff4d7fb547763c57fd58b22e723cda557fb6c138684b",
+    "retrieved": "2026-09-19",
+    "included": false
+  },
+  {
+    "file": "zeeuws-inventory-2.xml",
+    "url": "https://opendata.archieven.nl/index.php/nl/datasets/dataset?format=raw&function=download&adtId=239&type=oai_ead&guid=958507F20D50405293EBBB673AE38860",
+    "bytes": 3017665,
+    "sha256": "7212751e2f0180d231876d80e7864cac63c38450ce46a91e831a4f90680f0f9e",
+    "retrieved": "2026-09-19",
+    "included": false
+  },
+  {
+    "file": "zeeuws-3188-iiif.json",
+    "url": "https://proxy.archieven.nl/iiif/239/7EE8C3AD46AB40FC882D10532E14648A",
+    "bytes": 1003,
+    "sha256": "f0b138761c8ca69b43dafb5bdf2efcfc19cd4c7745c66ec483b02fb083ce1645",
+    "retrieved": "2026-09-19",
+    "included": true,
+    "download_sha256": "499317e9e500b8c6eb8c8f716bfc237aaccfaff52bc367ff3e1079f4d1a474ed",
+    "download_bytes": 1009,
+    "normalization": "Trailing line whitespace stripped; original download hash and size retained separately."
+  },
+  {
+    "file": "huygens-pages.json",
+    "url": "https://resources.huygens.knaw.nl/retroboeken/zeeoorlogen/pages.json?source=1",
+    "bytes": 225704,
+    "sha256": "3abef81bd985846143d809aba19215928ac2fb489a1d0dab89be3721f265126c",
+    "retrieved": "2026-09-19",
+    "included": false
+  },
+  {
+    "file": "zeeuws-3101-1-iiif.json",
+    "url": "https://proxy.archieven.nl/iiif/239/22565F7402054D48A6003DDC0EFA75F3",
+    "bytes": 1227,
+    "sha256": "d78019183f570b959e413ed8f7818486605657f3db5c0b07618fe231f0e922f8",
+    "retrieved": "2026-09-19",
+    "included": true,
+    "download_sha256": "0d898ad42269bcdf2c2953d09df0162a8e6fbdfc72f5ae23edb2376bc741a72c",
+    "download_bytes": 1233,
+    "normalization": "Trailing line whitespace stripped; original download hash and size retained separately."
+  }
+]

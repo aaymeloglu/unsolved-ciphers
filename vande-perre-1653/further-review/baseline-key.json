@@ -13,7 +13,7 @@
  "5": {
   "value": "c",
   "grade": "S",
-  "from": "redelijcke, gebreck, principal"
+  "from": "redelijcke, gebreck, principalen"
  },
  "6": {
   "value": "d",
@@ -48,7 +48,7 @@
  "12": {
   "value": "i",
   "grade": "S",
-  "from": "regeringe, impatientie, principal"
+  "from": "regeringe, impatientie, principalen"
  },
  "13": {
   "value": "k",
@@ -128,7 +128,7 @@
  "77": {
   "value": "ee",
   "grade": "S",
-  "from": "gequalifi(c)eert (P522.3), een cijffer (P431.1); reads ee. An intentional digraph and joined 7.7 are both possible; the print alone does not decide."
+  "from": "gequalifi(c)eert (P522.3), een cijffer (P431.1); a digraph symbol, not a missetting of 7. 7."
  },
  "71": {
   "value": "?",
@@ -139,25 +139,5 @@
   "value": "?",
   "grade": "M",
   "from": "once, P582.2 at a line end after 'geloope'; not a key symbol, see repairs.json"
- },
- "109": {
-  "value": "{Major-General Harrison}",
-  "grade": "C",
-  "from": "Birch p.523, 10 October 1653 NS: contemporary English gloss; original Dutch wording not recovered."
- },
- "76": {
-  "value": "{Denmark}",
-  "grade": "C",
-  "from": "Birch p.523, 10 October 1653 NS: contemporary English gloss; original Dutch wording not recovered."
- },
- "52": {
-  "value": "{queen of Sweden}",
-  "grade": "C",
-  "from": "Birch p.523, 10 October 1653 NS: contemporary English gloss; original Dutch wording not recovered."
- },
- "43": {
-  "value": "?",
-  "grade": "M",
-  "from": "P523.2 singleton; proposed ba from a split 4.3 or a syllable group, neither mechanism established. See repairs.json."
  }
 }

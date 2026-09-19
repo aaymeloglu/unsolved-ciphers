@@ -1,0 +1,34 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://proxy.archieven.nl/iiif/239/7EE8C3AD46AB40FC882D10532E14648A",
+  "type": "Manifest",
+  "label": { "none": [ "Ingekomen brieven, 1652\u002D1658. 1 omslag"] },
+  "homepage": [
+    {
+      "id": "https://proxy.archieven.nl/239/7EE8C3AD46AB40FC882D10532E14648A",
+      "type": "Text",
+      "label": { "nl": ["Bekijk op de site van de archiefdienst"] },
+      "format": "text/html"
+    }
+  ],
+  "metadata": [
+        { "label": { "none": [ "Vorm" ] }, "value": { "none": [ "1 omslag" ] } },
+        { "label": { "none": [ "Raadpleegvestiging" ] }, "value": { "none": [ "Middelburg, Hofplein" ] } }
+  ],
+  "behavior": [ "individuals" ],
+  "provider": [
+      {
+      "id": "http://www.zeeuwsarchief.nl/",
+      "type": "Agent",
+      "label": { "nl": [ "Zeeuws Archief" ] }
+    },
+
+    {
+      "id": "https://www.archieven.nl/",
+      "type": "Agent",
+      "label": { "nl": [ "Archieven.nl" ] }
+    }
+  ],
+ "items": [
+  ]
+}

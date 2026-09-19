@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-19",
+  "printed_reverse_letter": {
+    "id": "P552.reverse.1",
+    "sender": "Johan de Bruyne (de Brune)",
+    "recipient": "Paulus van de Perre",
+    "date_ns": "1653-10-31",
+    "printed_group": "118",
+    "preceding_clear_text": "met",
+    "meaning": null,
+    "same_key_verified": false,
+    "status": "Visually confirmed printed number, likely code group; no decipherment claimed",
+    "scan_url": "https://archive.org/download/collectionofstat01thur/page/n581.jpg",
+    "manuscript_reference_as_printed": "Vol. vii. p. 211."
+  },
+  "unprinted_cipher_letter": {
+    "shelfmark": "MS. Rawl. A. 7",
+    "old_page": 47,
+    "date_as_catalogued": "17 October 1653",
+    "calendar_style_verified": false,
+    "sender": "Van de Perre",
+    "recipient": "Bruyne",
+    "witness_type": "copy",
+    "catalogue_description": "Partly in Dutch and partly in cipher",
+    "catalogue_url": "https://archives.bodleian.ox.ac.uk/repositories/2/archival_objects/820123",
+    "catalogue_scan_url": "https://archive.org/download/CatalogiCodicumManuscriptorumBiblioth/page/n13.jpg",
+    "manuscript_image_seen": false,
+    "same_key_verified": false
+  }
+}

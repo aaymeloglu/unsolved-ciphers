@@ -1,0 +1,31 @@
+<excerpts>
+<ns0:c06 xmlns:ns0="urn:isbn:1-931666-22-9" level="file">
+                  <ns0:did id="MF1302310">
+                    <ns0:unitid type="guid">22565F7402054D48A6003DDC0EFA75F3</ns0:unitid>
+                    <ns0:unitid>3101.1</ns0:unitid>
+                    <ns0:unitid audience="internal" type="handle">https://hdl.handle.net/21.12113/22565F7402054D48A6003DDC0EFA75F3</ns0:unitid>
+                    <ns0:unittitle>1652-1656</ns0:unittitle>
+                    <ns0:unitdate calendar="gregorian" era="ce" normal="1652/1656" />
+                  </ns0:did>
+                  <ns0:odd type="VORM">
+                    <ns0:p>1 pak</ns0:p>
+                  </ns0:odd>
+                  <ns0:scopecontent>
+                    <ns0:p>Hierbij een bundel afschriften, welke na het overlijden van Van de Perre in 1653 door de drie overlevende gezanten met een begeleidend schrijven aan de Gecommitteerde Raden is gezonden</ns0:p>
+                  </ns0:scopecontent>
+                </ns0:c06>
+
+<ns0:c05 xmlns:ns0="urn:isbn:1-931666-22-9" level="file">
+                <ns0:did id="MF1302463">
+                  <ns0:unitid type="guid">7EE8C3AD46AB40FC882D10532E14648A</ns0:unitid>
+                  <ns0:unitid>3188</ns0:unitid>
+                  <ns0:unitid audience="internal" type="handle">https://hdl.handle.net/21.12113/7EE8C3AD46AB40FC882D10532E14648A</ns0:unitid>
+                  <ns0:unittitle>Ingekomen brieven, 1652-1658. 1 omslag</ns0:unittitle>
+                  <ns0:unitdate calendar="gregorian" era="ce" normal="1652/1658">1652-1658</ns0:unitdate>
+                </ns0:did>
+                <ns0:odd type="VORM">
+                  <ns0:p>1 omslag</ns0:p>
+                </ns0:odd>
+              </ns0:c05>
+
+</excerpts>

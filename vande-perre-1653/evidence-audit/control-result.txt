@@ -1,0 +1,7 @@
+19 September 2026
+Command: python3 vande-perre-1653/verify.py --z
+Corpus: cipherkit nl, cleaner version 2, Vondel 21800 and Multatuli 11024
+Null: shuffle 21 single-letter S values; hold non-S boundaries, ij and ee fixed.
+Input: 20 runs, 322 printed groups; no repairs. 1,000 shuffles, seed 0.
+grades (edited): 0 H, 5 C, 304 S, 0 M, 13 I of 322 symbols
+permutation z (key shuffle, printed digits, kit Dutch corpus): z = 18.0, observed -435.0, null mean -628.1 sd 10.7, p = 0.0010, n = 1000

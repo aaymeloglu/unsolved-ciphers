@@ -27,6 +27,18 @@ P522.4
 P522.5
   printed: ldaghen
   edited:  [14]daghen
+P523.1
+  printed: {Major-General Harrison}
+  edited:  {Major-General Harrison}
+P523.2
+  printed: ana?ptisten
+  edited:  ana[ba]ptisten
+P523.3
+  printed: {Denmark}
+  edited:  {Denmark}
+P523.4
+  printed: {queen of Sweden}
+  edited:  {queen of Sweden}
 P576.1
   printed: onstotvoordeelgerekent
   edited:  onstotvoordeelgerekent

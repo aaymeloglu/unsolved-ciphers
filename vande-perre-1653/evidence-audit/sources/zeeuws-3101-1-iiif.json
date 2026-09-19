@@ -1,0 +1,35 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://proxy.archieven.nl/iiif/239/22565F7402054D48A6003DDC0EFA75F3",
+  "type": "Manifest",
+  "label": { "none": [ "1652\u002D1656"] },
+  "homepage": [
+    {
+      "id": "https://proxy.archieven.nl/239/22565F7402054D48A6003DDC0EFA75F3",
+      "type": "Text",
+      "label": { "nl": ["Bekijk op de site van de archiefdienst"] },
+      "format": "text/html"
+    }
+  ],
+  "metadata": [
+        { "label": { "none": [ "Vorm" ] }, "value": { "none": [ "1 pak" ] } },
+        { "label": { "none": [ "NB" ] }, "value": { "none": [ "Hierbij een bundel afschriften, welke na het overlijden van Van de Perre in 1653 door de drie overlevende gezanten met een begeleidend schrijven aan de Gecommitteerde Raden is gezonden" ] } },
+        { "label": { "none": [ "Raadpleegvestiging" ] }, "value": { "none": [ "Middelburg, Hofplein" ] } }
+  ],
+  "behavior": [ "individuals" ],
+  "provider": [
+      {
+      "id": "http://www.zeeuwsarchief.nl/",
+      "type": "Agent",
+      "label": { "nl": [ "Zeeuws Archief" ] }
+    },
+
+    {
+      "id": "https://www.archieven.nl/",
+      "type": "Agent",
+      "label": { "nl": [ "Archieven.nl" ] }
+    }
+  ],
+ "items": [
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "source": "https://archive.org/details/collectionofstat01thur/page/n552",
+  "printed_page": 523,
+  "letter_date": "1653-10-10 NS",
+  "transcription_basis": "Read directly from the full page image p523.jpg, not from OCR.",
+  "runs": [
+    {"id": "P523.1", "tokens": ["109"], "gloss": "M. G. Harrison", "meaning": "Major-General Harrison"},
+    {"id": "P523.2", "tokens": ["3", "17", "3", "43", "22", "27", "12", "26", "27", "7", "17"], "gloss": "Anabaptists", "meaning": "Anabaptists"},
+    {"id": "P523.3", "tokens": ["76"], "gloss": "Denmark", "meaning": "Denmark"},
+    {"id": "P523.4", "tokens": ["52"], "gloss": "queen of Sweden", "meaning": "queen of Sweden"}
+  ],
+  "gloss_values": {
+    "109": {"value": "{Major-General Harrison}", "grade": "C"},
+    "76": {"value": "{Denmark}", "grade": "C"},
+    "52": {"value": "{queen of Sweden}", "grade": "C"}
+  },
+  "proposals": {
+    "43": {
+      "value": "ba",
+      "grade": "I",
+      "reason": "Splitting printed 43 into 4.3 gives ba under the existing alphabet and completes anabaptisten, agreeing with the English gloss. A dedicated ba group is an alternative; neither mechanism is established from this singleton. Do not add b or ba as a secure cryptanalytic key value."
+    }
+  }
+}

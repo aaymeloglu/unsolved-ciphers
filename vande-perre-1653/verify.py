@@ -70,13 +70,17 @@ def main():
         sg = Segmenter.from_corpus("nl")
         # Only the cryptanalytic values (grade S) are scored as text; code groups read from
         # the glosses (C), inferred values (I) and unread symbols break a chunk.
+        # Hold these boundaries fixed; the generic helper would otherwise shuffle "#".
+        # Multi-letter ij and ee are also held by permutation_z_key. This is a
+        # conditional random-key comparison, not a search-adjusted probability.
         values = {k: (v["value"] if v["grade"] == "S" else "#") for k, v in key.items()}
         chunks = [toks for _, toks in lines]
 
         def score(m):
             return sg.score_chunks(["".join(m[t] for t in c) for c in chunks])
 
-        z = permutation_z_key(score, values, chunks, n=1000, seed=0)
+        z = permutation_z_key(score, values, chunks, n=1000, seed=0,
+                              fixed=[k for k, v in key.items() if v["grade"] != "S"])
         print("permutation z (key shuffle, printed digits, kit Dutch corpus): "
               f"z = {z['z']:.1f}, observed {z['observed']:.1f}, null mean {z['mean']:.1f} sd {z['sd']:.1f}, p = {z['p']:.4f}, n = {z['n']}")
     if not os.path.exists(path) or open(path).read() != header + text:
