@@ -1,4 +1,4 @@
-"""Reproduce the partial edition using only Python's standard library."""
+"""Reproduce the partial edition with Python's standard library plus cipherkit."""
 from pathlib import Path
 import subprocess
 import sys
