@@ -198,6 +198,7 @@ uv run python -m cipherkit.transcribe strips f38r.layout.json -o strips/
 #  (give the boards to a reader who has not seen the key; they write one line of tokens per line)
 uv run python -m cipherkit.transcribe gaps strips/f38r-L03.png --min-gap 12
 #  -> JSON with the blank column runs [x0, x1) between the first and last ink, to check a "|" in a transcription
+#  (add --dark 100 when the leaf shows through or the strip is nearly blank, else the faint columns count as ink)
 uv run python -m cipherkit.transcribe compare context.json blind.txt --names context,blind -o compare.json
 #  -> 114 paired: 77 agree, 10 via alternative, 27 differ; agreement 0.76
 uv run python -m cipherkit.transcribe consensus context.json blind.txt -o round2.json

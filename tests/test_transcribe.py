@@ -197,4 +197,23 @@ def test_gaps_cli_prints_json(tmp_path, capsys):
     strip.save(p)
     assert main(["gaps", p, "--min-gap", "12"]) == 0
     out = json.loads(capsys.readouterr().out)
-    assert out["gaps"] == [[51, 80], [121, 200]] and out["ink_span"] == [10, 241]
+    assert out["gaps"] == [[51, 80], [121, 200]] and out["ink_span"] == [10, 241] and out["dark"] is None
+
+
+def test_gaps_dark_threshold_ignores_show_through(tmp_path, capsys):
+    """Two words of black ink with a broad mid-grey smudge between them (writing showing through
+    from the other side of the leaf). The strip's own histogram midpoint counts the smudge as
+    ink; an explicit `dark` below its level does not."""
+    from cipherkit.transcribe import main
+    strip = Image.new("L", (400, 40), 245)
+    d = ImageDraw.Draw(strip)
+    d.rectangle([10, 5, 60, 35], fill=0)
+    d.rectangle([300, 5, 350, 35], fill=0)
+    d.rectangle([120, 10, 240, 30], fill=150)
+    assert gaps(strip, min_gap=12, min_ink=0.1) == [(61, 120), (241, 300)]
+    assert gaps(strip, min_gap=12, min_ink=0.1, dark=100) == [(61, 300)]
+    p = str(tmp_path / "s.png")
+    strip.save(p)
+    assert main(["gaps", p, "--dark", "100"]) == 0
+    out = json.loads(capsys.readouterr().out)
+    assert out["gaps"] == [[61, 300]] and out["dark"] == 100
