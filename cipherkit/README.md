@@ -18,7 +18,27 @@ Python 3.12, managed by uv; Pillow is the one dependency.
 | `align` | Known plaintext to key. `read_tsv(path)` loads rows of `id`, `cipher` (space-separated units), `plain`, `evidence`; `align_rows(rows, fold=)` pairs one unit with one letter and returns per-symbol `Assignment`s (majority letter, every occurrence as `A01:3`, every disagreement in `conflicts`); `holdout(rows, key, fold=)` scores rows the key never saw; `apply(units, key)`. |
 | `tokens` | `parse(text, style)` for the four transcription formats we produce (`groups`, `mixed`, `annotated`, `letters`); `cipher_tokens`, `segments`, `symbol_counts`. |
 | `transcribe` | The transcription workflow as commands: `layout` (deskew by ink-profile variance, find line bands), `strips` (one PNG per line, labelled boards, manifest with source SHA-256 and boxes), `compare` (align two passes token by token, alternatives count), `consensus` (third pass with `{a/b}` at disagreements), `review` (self-contained HTML with strip, chips, key values, disputed highlights). |
+| `grades` | The CONVENTIONS grade vocabulary: `GRADES` (H, C, S, M, I), `Reading(token, value, grade, basis)`, `grade_token` and `apply_key` over a key of the moray `key.json` shape (a token absent from the key reads `?` at grade M), `counts` (always all five grades; rejects any other label), `render` (bare for H, C, S; `(value)` for M; `[value]` for I), `summary_line`. |
 | `corpora` | `RECIPES` of Gutenberg and Internet Archive sources per language (en, fr, it, de, es, la, sco, nl), `fetch(lang)`, `text(lang)`, `describe(lang)`, `clean_ocr`. See "Period corpora" below. |
+
+## Grading a reading
+
+Every decoder grades each group it reads and its README gives the counts (CONVENTIONS section 1).
+The vocabulary lives in one place so a folder cannot invent a sixth grade or spell M three ways.
+
+```python
+from cipherkit import Reading, apply_key, counts, render, summary_line
+
+key = {"A": {"value": "a", "grade": "S", "from": "remane, haill"},
+       "Z2": {"value": "[the]", "grade": "S"}}
+rs = apply_key(["A", "Z2", "Q"], key)        # Q is not in the key: Reading("Q", "?", "M")
+rs.append(Reading("31005", "an", "I", "digit repair"))
+print(render(rs))                             # a[the](?)[an]
+print(summary_line(counts(rs)))               # 0 H, 0 C, 2 S, 1 M, 1 I
+```
+
+`counts` raises on a label outside H, C, S, M, I, so a decoder that still carries a "not graded"
+bucket fails at the tally rather than in the README.
 
 ## A homophonic solve, end to end
 
