@@ -1,5 +1,6 @@
 """Shared pieces for the solvers in this repo. See cipherkit/README.md."""
 
+from .align import Assignment, align_rows, apply, holdout, read_tsv
 from .anneal import anneal, climb, frequency_init, restarts
 from .controls import (
     homophonic_control,
@@ -22,6 +23,7 @@ from .normalize import (
 from .tokens import Token, cipher_tokens, parse, segments, symbol_counts
 
 __all__ = [
+    "Assignment", "align_rows", "apply", "holdout", "read_tsv",
     "anneal", "climb", "frequency_init", "restarts",
     "homophonic_control", "key_recovery", "matched_control", "mono_control",
     "permutation_z", "sample_plaintext", "spaced_control",
