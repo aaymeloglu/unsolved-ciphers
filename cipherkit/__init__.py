@@ -8,6 +8,7 @@ from .controls import (
     matched_control,
     mono_control,
     permutation_z,
+    permutation_z_key,
     sample_plaintext,
     spaced_control,
 )
@@ -27,7 +28,7 @@ __all__ = [
     "Assignment", "align_rows", "apply", "holdout", "read_tsv",
     "anneal", "climb", "frequency_init", "restarts",
     "homophonic_control", "key_recovery", "matched_control", "mono_control",
-    "permutation_z", "sample_plaintext", "spaced_control",
+    "permutation_z", "permutation_z_key", "sample_plaintext", "spaced_control",
     "BackoffCharLM", "CharLM", "WordLM", "cached",
     "BASE_FOLDS", "EARLY_MODERN_FOLDS", "GERMAN_FOLDS", "LATIN", "normalize", "strip_gutenberg",
     "Segmenter",

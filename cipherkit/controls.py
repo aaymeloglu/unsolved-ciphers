@@ -5,8 +5,11 @@ design as the target, enciphered from a real text in the target's language. If t
 reads the control and not the target, the target is the problem. If the solver reads
 neither, the solver is.
 
-Also here: the permutation z-score we used on Forster and Boswell (shuffle the ciphertext
-tokens, rescore under the found key, see how far the real order stands from the null).
+Also here: two permutation z-scores with different nulls. `permutation_z` shuffles the
+ciphertext tokens and rescores under the found key: is the order of the text informative
+under this key? `permutation_z_key` keeps the text and shuffles the key's values among its
+symbols: is this key better than a relabelling of the same glyphs? Report which one a number
+came from; they answer different questions and are not comparable.
 """
 from __future__ import annotations
 
@@ -253,6 +256,38 @@ def permutation_z(
     for _ in range(n):
         rnd.shuffle(pool)
         null.append(score(pool))
+    mean = statistics.fmean(null)
+    sd = statistics.pstdev(null) if n > 1 else 0.0
+    z = (observed - mean) / sd if sd else float("inf")
+    p = (1 + sum(v >= observed for v in null)) / (n + 1)
+    return {"observed": observed, "mean": mean, "sd": sd, "z": z, "p": p, "n": n}
+
+
+def permutation_z_key(
+    score: Callable[[Mapping], float],
+    key: Mapping,
+    tokens: Sequence,
+    n: int = 1000,
+    seed: int = 0,
+    fixed: Sequence | None = None,
+) -> dict:
+    """Score `key` against `n` keys that shuffle its plaintext values among its non-fixed
+    symbols. Word-signs (any symbol whose value is longer than one character, such as
+    "[the]" or a whole word) and every symbol in `fixed` keep their values. `score(m)` decodes
+    `tokens` with the key under test and returns the model score; `tokens` is passed through
+    so the call site reads like `permutation_z` and the null is over the same text.
+    Returns observed, null mean, null sd, z, and the empirical p-value, as `permutation_z`."""
+    rnd = random.Random(seed)
+    held = set(fixed or ())
+    free = [s for s in key if s not in held and len(str(key[s])) == 1]
+    observed = score(dict(key))
+    pool = [key[s] for s in free]
+    null = []
+    for _ in range(n):
+        rnd.shuffle(pool)
+        m = dict(key)
+        m.update(zip(free, pool))
+        null.append(score(m))
     mean = statistics.fmean(null)
     sd = statistics.pstdev(null) if n > 1 else 0.0
     z = (observed - mean) / sd if sd else float("inf")
