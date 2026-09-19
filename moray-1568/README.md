@@ -127,9 +127,10 @@ glyphs either.
    (`cipherkit.controls.permutation_z_key`; word-signs and person-signs keep their values):
    **z = 17.1, p < 0.001** with cipherkit's `sco` corpus (Diurnal of Occurrents, Knox);
    z = 13.1 against 300 shuffles with the CSP-based corpus used during the campaign
-   (`verify.py --z`). This null asks whether the key beats a relabelling of the same glyphs;
-   it is not the token-shuffle test used on Forster, and the two z values do not compare.
-   Recomputed 19 September 2026 with cipherkit.controls.permutation_z_key; the earlier 17.3
+   (`verify.py --z`). This null asks whether the key beats a relabelling of the same glyphs.
+   It is not comparable with the Forster key-shuffle z, which uses a different scorer (a
+   4-gram character model over the decoded letters, not a dictionary segmentation of the gap
+   chunks) on a different text. Recomputed 19 September 2026 with cipherkit.controls.permutation_z_key; the earlier 17.3
    came from the folder's own implementation of the same key-shuffle null.
 
 ## Open points (baseline uncertainties and fresh transcription questions)

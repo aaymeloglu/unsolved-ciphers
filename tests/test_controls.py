@@ -1,7 +1,6 @@
 import collections
 
 import random
-
 from cipherkit import (
     homophonic_control,
     key_recovery,
