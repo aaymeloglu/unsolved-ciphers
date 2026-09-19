@@ -122,10 +122,15 @@ glyphs either.
    reads; the target behaved like the other three. The reading therefore rests on the
    hand-iterated fixes, not on convergence, and its statistical warrant is the permutation
    test.
-5. **Permutation test.** The dictionary-segmentation score of the text under the key, against
-   1,000 keys that shuffle the letter values among the letter-glyphs: **z = 17.3, p < 0.001**
-   with cipherkit's `sco` corpus (Diurnal of Occurrents, Knox); z = 13.1 against 300 shuffles
-   with the CSP-based corpus used during the campaign (`verify.py --z`).
+5. **Permutation test, key-shuffle null.** The dictionary-segmentation score of the text
+   under the key, against 1,000 keys that shuffle the letter values among the letter-glyphs
+   (`cipherkit.controls.permutation_z_key`; word-signs and person-signs keep their values):
+   **z = 17.1, p < 0.001** with cipherkit's `sco` corpus (Diurnal of Occurrents, Knox);
+   z = 13.1 against 300 shuffles with the CSP-based corpus used during the campaign
+   (`verify.py --z`). This null asks whether the key beats a relabelling of the same glyphs;
+   it is not the token-shuffle test used on Forster, and the two z values do not compare.
+   Recomputed 19 September 2026 with cipherkit.controls.permutation_z_key; the earlier 17.3
+   came from the folder's own implementation of the same key-shuffle null.
 
 ## Open points (baseline uncertainties and fresh transcription questions)
 
@@ -165,7 +170,7 @@ with break signs; the key found as above.
 
 `transcription.txt` (134 glyph labels with shape legend and gaps) · `key.json` (glyph → value,
 grade, and the words that fix it) · `reading.txt` (mechanical output) · `verify.py` (rebuilds
-the reading, checks it, counts grades, `--z` runs the permutation test) · `solver.py` (the
+the reading, checks it, counts grades, `--z` runs the key-shuffle permutation test) · `solver.py` (the
 annealer; needs a corpus file). Corpus for the published numbers: cipherkit `sco`
 (`python -m cipherkit.corpora fetch sco`). Glyph sheets and the DECODE images stay outside the
 repository.
