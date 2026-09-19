@@ -10,9 +10,11 @@ from cipherkit.transcribe import (
     compare,
     consensus,
     find_lines,
+    gaps,
     ink_profile,
     layout,
     load_pass,
+    page_bounds,
     review,
     save_pass,
     strips,
@@ -103,3 +105,96 @@ def test_layout_strips_and_review(page, tmp_path):
     assert page_html.count("<section") == 5
     assert 'class="chip disputed"' in page_html and "data:image/jpeg;base64," in page_html
     assert "<span>a</span>" in page_html and "<span>?</span>" in page_html  # g99 not in key
+
+
+# ---------------------------------------------------------------- framed photographs
+
+def _framed_page(lines=5, frame=60):
+    """A pale page inside a dark frame, as a photographed manuscript comes: paper 480 x 680 at
+    (60, 60) in a 600 x 800 image, five heavy bars of ink 400 px wide."""
+    im = Image.new("L", (600, 800), 20)
+    page = Image.new("L", (600 - 2 * frame, 800 - 2 * frame), 245)
+    d = ImageDraw.Draw(page)
+    for i in range(lines):
+        d.rectangle([40, 80 + i * 90, 440, 80 + i * 90 + 18], fill=0)
+    im.paste(page, (frame, frame))
+    return im
+
+
+def test_page_bounds_finds_paper():
+    l, t, r, b = page_bounds(_framed_page())
+    assert abs(l - 60) <= 4 and abs(t - 60) <= 4 and abs(r - 540) <= 4 and abs(b - 740) <= 4
+
+
+def test_page_bounds_without_frame_is_full_image():
+    im = Image.new("L", (300, 200), 240)
+    ImageDraw.Draw(im).rectangle([20, 50, 200, 60], fill=0)
+    assert page_bounds(im) == (0, 0, 300, 200)
+
+
+def test_page_bounds_ignores_ruler_and_uneven_frame():
+    """A bright strip along one edge (a ruler) and a thicker bottom frame: the paper is the
+    largest bright run, not the run touching the edge."""
+    im = Image.new("L", (600, 800), 20)
+    page = Image.new("L", (480, 600), 245)
+    im.paste(page, (60, 60))
+    ImageDraw.Draw(im).rectangle([0, 780, 599, 799], fill=230)   # ruler along the bottom edge
+    l, t, r, b = page_bounds(im)
+    assert abs(l - 60) <= 4 and abs(t - 60) <= 4 and abs(r - 540) <= 4 and abs(b - 660) <= 4
+
+
+def test_layout_auto_crop_counts_lines(tmp_path):
+    """Without a crop the frame rows and the heavy ink rows are both darker than find_lines'
+    border level, so every line is masked as a scan edge and the detector finds nothing."""
+    p = tmp_path / "f.png"
+    _framed_page().save(p)
+    assert len(layout(str(p), crop=None, rotate=0.0)["lines"]) != 5
+    lay = layout(str(p), crop="auto", rotate=0.0)
+    assert len(lay["lines"]) == 5
+    box = lay["processing"]["crop"]
+    assert isinstance(box, list) and len(box) == 4 and abs(box[0] - 60) <= 4 and abs(box[1] - 60) <= 4
+    assert lay["processed_size"] == [box[2] - box[0], box[3] - box[1]]
+
+
+def test_layout_auto_crop_then_strips_round_trip(tmp_path):
+    p = tmp_path / "f.png"
+    _framed_page().save(p)
+    lay = layout(str(p), crop="auto", rotate=0.0)
+    m = strips(lay, str(tmp_path / "strips"))
+    assert len(m["strips"]) == 5
+    assert m["strips"][0]["source_box"][0] == lay["processing"]["crop"][0]
+
+
+def test_gaps_between_words():
+    """Gaps are half-open column ranges [x0, x1): x0 is the first blank column after an inked
+    one, x1 the next inked column. Bars at 10..50, 80..120, 200..240 (inclusive)."""
+    strip = Image.new("L", (300, 30), 245)
+    d = ImageDraw.Draw(strip)
+    for x0 in (10, 80, 200):
+        d.rectangle([x0, 5, x0 + 40, 25], fill=0)
+    assert gaps(strip, min_gap=12) == [(51, 80), (121, 200)]
+    assert gaps(strip, min_gap=30) == [(121, 200)]
+    assert gaps(Image.new("L", (100, 20), 245)) == []
+
+
+def test_gaps_min_ink_ignores_specks():
+    strip = Image.new("L", (300, 40), 245)
+    d = ImageDraw.Draw(strip)
+    d.rectangle([10, 5, 50, 35], fill=0)
+    d.rectangle([200, 5, 240, 35], fill=0)
+    d.point((120, 20), fill=0)          # one dark pixel in a 40-row column: 2.5 %
+    assert gaps(strip, min_gap=12, min_ink=0.05) == [(51, 200)]
+    assert gaps(strip, min_gap=12, min_ink=0.02) == [(51, 120), (121, 200)]
+
+
+def test_gaps_cli_prints_json(tmp_path, capsys):
+    from cipherkit.transcribe import main
+    strip = Image.new("L", (300, 30), 245)
+    d = ImageDraw.Draw(strip)
+    for x0 in (10, 80, 200):
+        d.rectangle([x0, 5, x0 + 40, 25], fill=0)
+    p = str(tmp_path / "s.png")
+    strip.save(p)
+    assert main(["gaps", p, "--min-gap", "12"]) == 0
+    out = json.loads(capsys.readouterr().out)
+    assert out["gaps"] == [[51, 80], [121, 200]] and out["ink_span"] == [10, 241]
