@@ -84,14 +84,14 @@ The earlier report said 780 imported 1640 units, with 364 unmapped under the exp
 
 ## Reproduction
 
-From this directory, with Python 3 (standard library only):
+From the repository root, with Python 3.12 and `cipherkit` (installed by `uv sync`):
 
 ```sh
-python3 import_1640.py
-python3 decoder.py --check
-python3 extend_1640.py
-python3 decoder.py transcriptions/R1889-working.txt --key key-v1.json
-python3 decoder.py transcriptions/R1890-working.txt --key key-expanded-1635.json
+uv run python ferdinand-1635-1640/import_1640.py
+uv run python ferdinand-1635-1640/decoder.py --check
+uv run python ferdinand-1635-1640/extend_1640.py
+uv run python ferdinand-1635-1640/decoder.py ferdinand-1635-1640/transcriptions/R1889-working.txt --key ferdinand-1635-1640/key-v1.json
+uv run python ferdinand-1635-1640/decoder.py ferdinand-1635-1640/transcriptions/R1890-working.txt --key ferdinand-1635-1640/key-expanded-1635.json
 ```
 
 The audit regenerates literal files, per-occurrence holdout results, lookup coverage, and `key-evidence.tsv`. It checks the frozen hash, reproduces every key assignment from its alignment table, checks the holdout totals, and verifies that unknown groups and case distinctions survive unchanged. Expected totals are assertions against this saved research checkpoint, not a replacement for source inspection.

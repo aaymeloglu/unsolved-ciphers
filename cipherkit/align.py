@@ -1,8 +1,8 @@
 """Known-plaintext alignment: derive a key from cipher units paired letter by letter with plaintext.
 
-This is the shape of every solve that rests on a draft, a printed decipherment or an attached key
-(grade C in CONVENTIONS.md): Ferdinand 1635 aligned the R954 draft to R1889 units, Worcester 1526
-and Trauttmansdorff have the same evidence. Rows are the TSV the Ferdinand folder uses: columns
+This is the shape of a solve that rests on a draft, a printed decipherment or an attached key
+(grade C in CONVENTIONS.md). The worked example is Ferdinand 1635, where the R954 draft was
+aligned to the R1889 units. Rows are the TSV the Ferdinand folder uses: columns
 `id`, `cipher` (space-separated units), `plain` (one letter per unit), `evidence` (free text).
 Folding of the plaintext (u/v, i/j) is the caller's job through `fold`; ciphertext is never folded.
 
@@ -51,11 +51,8 @@ def align_rows(rows: Iterable[Mapping[str, str]], fold: Callable[[str], str] | N
             seen.setdefault(symbol, []).append((f"{row_id}:{i}", letter))
     key: dict[str, Assignment] = {}
     for symbol, met in seen.items():
-        counts = Counter(letter for _, letter in met)
-        first = {}
-        for _, letter in met:
-            first.setdefault(letter, len(first))
-        winner = max(counts, key=lambda letter: (counts[letter], -first[letter]))
+        counts = Counter(letter for _, letter in met)  # insertion-ordered, so max() breaks ties by first seen
+        winner = max(counts, key=counts.__getitem__)
         key[symbol] = Assignment(
             symbol=symbol,
             plain=winner,

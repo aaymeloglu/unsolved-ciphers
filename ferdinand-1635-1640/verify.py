@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Verify committed research artifacts without modifying them; --write regenerates.
 
-Standard library only. Grades follow ../CONVENTIONS.md. C denotes a value from
+Run as `uv run python ferdinand-1635-1640/verify.py` from the repository root
+(decoder.py imports cipherkit). Grades follow ../CONVENTIONS.md. C denotes a value from
 1635 known-plaintext alignment, not independent paleographic certainty in 1640.
 Context-only 1640 additions remain M: no matched-control S claim is made.
 """

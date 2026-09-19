@@ -22,6 +22,23 @@ def test_align_rows_majority_ties_first_seen_and_all_occurrences_kept():
     assert isinstance(key["7"], Assignment) and key["7"].symbol == "7"
 
 
+def test_align_rows_majority_beats_first_seen():
+    rows = [{"id": "A", "cipher": "7", "plain": "x", "evidence": ""},
+            {"id": "B", "cipher": "7", "plain": "y", "evidence": ""},
+            {"id": "C", "cipher": "7", "plain": "y", "evidence": ""}]
+    key = align_rows(rows)
+    assert key["7"].plain == "y"
+    assert key["7"].conflicts == [("A:1", "x")]
+
+
+def test_align_rows_two_two_tie_goes_to_first_seen_letter():
+    rows = [{"id": "A", "cipher": "7 7", "plain": "yx", "evidence": ""},
+            {"id": "B", "cipher": "7 7", "plain": "xy", "evidence": ""}]
+    key = align_rows(rows)
+    assert key["7"].plain == "y"
+    assert key["7"].conflicts == [("A:2", "x"), ("B:1", "x")]
+
+
 def test_align_rows_fold_applies_to_plain():
     rows = [{"id": "A", "cipher": "1 2", "plain": "vu", "evidence": ""}]
     key = align_rows(rows, fold=lambda s: s.replace("v", "u"))

@@ -12,7 +12,7 @@ import re
 from collections import Counter
 from pathlib import Path
 
-from cipherkit.align import align_rows
+from cipherkit.align import align_rows, read_tsv
 
 ROOT = Path(__file__).resolve().parent
 PUNCT = {'.', ',', ';', ':', '-', '=', '(', ')'}
@@ -72,8 +72,7 @@ def units(path):
                 yield ident, pos, token
 
 def rows(name):
-    with (ROOT / 'transcriptions' / name).open() as f:
-        return list(csv.DictReader(f, delimiter='\t'))
+    return read_tsv(ROOT / 'transcriptions' / name)
 
 def normalize_plain(s):
     # Only the declared Latin u/v normalization, never ciphertext normalization.

@@ -18,13 +18,13 @@ Applied **unchanged** to 1640, that map covers 416 of 779 imported cipher units.
 
 ## Reproduce
 
-Python 3, standard library only. Run from this directory:
+Python 3.12 with `cipherkit` (installed by `uv sync`). Run from the repository root:
 
 ```sh
-python3 verify.py
+uv run python ferdinand-1635-1640/verify.py
 ```
 
-This checks the committed artifacts without modifying them. For regeneration: `python3 verify.py --write`.
+This checks the committed artifacts without modifying them. For regeneration: `uv run python ferdinand-1635-1640/verify.py --write`.
 
 These regenerate the frozen-key audit, unchanged-transfer outputs, evidence tables, glyph-review layer and supplemented 1640 outputs. `key-v1.json` is hash-checked. The expanded 1635 map is reconstructed from its alignment tables; the 1640 supplement asserts that no old assignment is overwritten. [Literal outputs](results/) retain unknowns and malformed words. The readable editions explicitly distinguish editorial repairs.
 
