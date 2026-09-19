@@ -10,6 +10,7 @@ from cipherkit.transcribe import (
     compare,
     consensus,
     find_lines,
+    flatten,
     gaps,
     ink_profile,
     layout,
@@ -217,3 +218,87 @@ def test_gaps_dark_threshold_ignores_show_through(tmp_path, capsys):
     assert main(["gaps", p, "--dark", "100"]) == 0
     out = json.loads(capsys.readouterr().out)
     assert out["gaps"] == [[61, 300]] and out["dark"] == 100
+
+
+# ---------------------------------------------------------------- gradient and curl
+
+def _gradient_page(lines=8, top=250, bottom=150, w=600, h=800, curl=0.0, length=400):
+    """Paper darkening from `top` at the first row to `bottom` at the last, eight bars of ink.
+    With `curl` the bars tilt more and more down the page, up to `curl` degrees."""
+    import math
+    im = Image.new("L", (w, h), 255)
+    px = im.load()
+    for y in range(h):
+        v = round(top + (bottom - top) * y / (h - 1))
+        for x in range(w):
+            px[x, y] = v
+    d = ImageDraw.Draw(im)
+    for i in range(lines):
+        y0 = 80 + i * 85
+        rise = length * math.tan(math.radians(curl * i / max(1, lines - 1)))
+        d.polygon([(60, y0), (60 + length, y0 - rise), (60 + length, y0 - rise + 14), (60, y0 + 14)], fill=0)
+    return im
+
+
+def test_flatten_recovers_lines_on_gradient_page(tmp_path):
+    """The global ink threshold lands inside the paper's range, so the darker foot of the page
+    reads as solid ink and the line finder masks it as a scan edge."""
+    p = tmp_path / "g.png"
+    _gradient_page().save(p)
+    assert len(layout(str(p), rotate=0.0)["lines"]) != 8
+    lay = layout(str(p), rotate=0.0, flatten=True)
+    assert len(lay["lines"]) == 8 and lay["processing"]["flatten"] == 20
+
+
+def test_flatten_leaves_flat_page_alone(page, tmp_path):
+    plain = layout(page, rotate=0.0, min_height=4)
+    flat = layout(page, rotate=0.0, min_height=4, flatten=True)
+    assert len(flat["lines"]) == len(plain["lines"]) == 5
+    assert flat["processing"]["flatten"] == 7 and plain["processing"]["flatten"] is None
+    m = strips(flat, str(tmp_path / "s"))
+    assert len(m["strips"]) == 5
+
+
+def test_flatten_output_is_ink_on_white():
+    fl = flatten(_gradient_page())
+    px = fl.load()
+    assert px[300, 40] >= 250 and px[300, 760] >= 250    # paper at both ends of the gradient
+    assert px[300, 87] < 60                               # ink stays ink
+
+
+def test_slabs_find_lines_on_curled_page(tmp_path):
+    """Lines level at the top and four degrees off at the foot: one angle cannot serve both,
+    so the whole-page profile smears the lower lines together. Bars are kept under 0.85 of
+    the width, or their rows read as scan edges."""
+    p = tmp_path / "c.png"
+    _gradient_page(curl=4.0, top=245, bottom=245, w=2400, length=2000).save(p)
+    one = layout(str(p), slabs=1)
+    assert len(one["lines"]) != 8 and one["line_rotate"] is None
+    lay = layout(str(p), slabs=4)
+    assert len(lay["lines"]) == 8 and lay["processing"]["slabs"] == 4
+    rots = lay["line_rotate"]
+    assert len(rots) == 8 and rots[0] > rots[-1]          # bars rise to the right: residuals fall down the page
+    m = strips(lay, str(tmp_path / "s"))
+    assert len(m["strips"]) == 8 and "line_rotate" in m["strips"][-1]
+    from cipherkit.transcribe import _cut_line, prepare
+    im = prepare(Image.open(str(p)), None, lay["processing"]["rotate"], 1.0)
+    top, bottom = lay["lines"][-1]
+    straight = ink_profile(_cut_line(im, top, bottom, rots[-1]))
+    flat = ink_profile(_cut_line(im, top, bottom, 0.0))
+    assert max(straight) > max(flat)                      # the residual rotation levels the bar
+    assert sum(straight) >= 0.9 * sum(flat)               # and the whole bar stays in the strip
+
+
+def test_slabs_skip_blank_slabs(tmp_path):
+    """Text in the top quarter only: the blank slabs must not turn their grain into lines."""
+    im = Image.new("L", (600, 800), 245)
+    d = ImageDraw.Draw(im)
+    for i in range(3):
+        d.rectangle([60, 40 + i * 50, 460, 54 + i * 50], fill=0)
+    for y in range(300, 800, 3):                          # faint speckle below the text
+        for x in range(60, 460, 7):
+            d.point((x, y), fill=200)
+    p = tmp_path / "b.png"
+    im.save(p)
+    lay = layout(str(p), slabs=4)
+    assert len(lay["lines"]) == 3

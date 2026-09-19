@@ -15,7 +15,7 @@ Python 3.12, managed by uv; Pillow is the one dependency.
 | `anneal` | `anneal(symbols, values, score, fixed=, bijective=, iters=, t0=, t1=, seed=, init=)` over a plain dict. `frequency_init` for a ranked homophonic start. `climb` for a greedy finish. `restarts(run, seeds, workers)` for several seeds in parallel. |
 | `controls` | `matched_control(corpus, target_tokens, design)` builds a synthetic cipher of the same length and symbol count. `mono_control`, `homophonic_control` (homophones apportioned by letter frequency). `key_recovery(found, true, weights)`. `permutation_z(score, tokens, n)` for the shuffle test. |
 | `tokens` | `parse(text, style)` for the four transcription formats we produce (`groups`, `mixed`, `annotated`, `letters`); `cipher_tokens`, `segments`, `symbol_counts`. |
-| `transcribe` | The transcription workflow as commands: `layout` (deskew by ink-profile variance, find line bands; `--crop auto` finds the paper inside a dark photograph frame first), `strips` (one PNG per line, labelled boards, manifest with source SHA-256 and boxes), `gaps` (word gaps in one line strip as column ranges), `compare` (align two passes token by token, alternatives count), `consensus` (third pass with `{a/b}` at disagreements), `review` (self-contained HTML with strip, chips, key values, disputed highlights). |
+| `transcribe` | The transcription workflow as commands: `layout` (deskew by ink-profile variance, find line bands; `--crop auto` finds the paper inside a dark photograph frame, `--flatten` removes its illumination gradient, `--slabs N` deskews a curled sheet in N pieces), `strips` (one PNG per line, labelled boards, manifest with source SHA-256 and boxes), `gaps` (word gaps in one line strip as column ranges), `compare` (align two passes token by token, alternatives count), `consensus` (third pass with `{a/b}` at disagreements), `review` (self-contained HTML with strip, chips, key values, disputed highlights). |
 | `corpora` | `RECIPES` of Gutenberg and Internet Archive sources per language (en, fr, it, de, es, la, sco, nl), `fetch(lang)`, `text(lang)`, `describe(lang)`, `clean_ocr`. See "Period corpora" below. |
 
 ## A homophonic solve, end to end
@@ -94,7 +94,9 @@ uv run python -m cipherkit.transcribe strips f38r.layout.json -o strips/
 #  (give the boards to a reader who has not seen the key; they write one line of tokens per line)
 uv run python -m cipherkit.transcribe gaps strips/f38r-L03.png --min-gap 12
 #  -> JSON with the blank column runs [x0, x1) between the first and last ink, to check a "|" in a transcription
-#  (add --dark 100 when the leaf shows through or the strip is nearly blank, else the faint columns count as ink)
+#  (Moray 1568 at 35 px/mm: --dark 100 --min-ink 0.1 --min-gap 30 found all 12 gaps the transcription marks;
+#  the leaf shows through, so without --dark a nearly blank line is all noise gaps; unmarked letter spaces
+#  are 30-44 px and marked gaps 37-80 px, so expect extra gaps to filter by eye, and the trailing margin)
 uv run python -m cipherkit.transcribe compare context.json blind.txt --names context,blind -o compare.json
 #  -> 114 paired: 77 agree, 10 via alternative, 27 differ; agreement 0.76
 uv run python -m cipherkit.transcribe consensus context.json blind.txt -o round2.json
@@ -104,6 +106,10 @@ uv run python -m cipherkit.transcribe review f38r.layout.json context.json --key
 
 `layout --crop auto` takes the paper as the largest bright run of rows and of columns inside a dark
 frame, which is what a DECODE photograph of a page needs before the deskew and line finder can work.
+`--flatten` subtracts the blurred background so a page that darkens towards one side gets one ink
+threshold; `--slabs 4` deskews four horizontal pieces on their own when the sheet curls in the
+photograph (the Ferdinand 1635 photographs are level at the top and three degrees off at the foot),
+and `strips` cuts each line with its own residual angle from `line_rotate`.
 
 The numbers above are the real f38r run against the blind reading from September 2026; the
 hand-made comparison in the research folder recorded 84 agreements and 30 disagreements on a
