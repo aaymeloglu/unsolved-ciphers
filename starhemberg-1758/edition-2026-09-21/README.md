@@ -2,7 +2,7 @@
 
 ## Result and status
 
-**A continuous proposed German reading and English translation are available. It is not a fully verified, exact decipherment.** The manuscript collation supplies five digits absent from the Cryptiana transcription. The historical key identifies **Farinelli** as the speaker addressing the recipient, paired with **Wall** addressing the French ambassador. The two statements were made at nearly the same time and closely agreed.
+**Substantially deciphered, with a complete proposed reading.** The German reconstruction and English translation cover the whole letter. Remaining uncertainty concerns particular words, repairs and conventions, rather than large unread passages. A fully verified, exact decipherment is not established. The manuscript collation supplies five digits absent from the Cryptiana transcription. The historical key identifies **Farinelli** as the speaker addressing the recipient, paired with **Wall** addressing the French ambassador. The two statements were made at nearly the same time and closely agreed.
 
 The edition below distinguishes the readable reconstruction from the literal code output. Square brackets mark material lexical uncertainties and restorations; ordinary expansion of abbreviated key entries, inflection, capitalization, punctuation and doubled consonants are editorial throughout. Eleven proposed digit-edit sites, four contextual readings of99 as g, and an interpretation of the boundary group883 remain explicit assumptions. A grammatical continuous reconstruction does not authenticate those assumptions.
 
@@ -106,4 +106,4 @@ Under the repository [conventions](../../CONVENTIONS.md), the manuscript parse h
 
 ## Further work
 
-The strongest remaining routes are a full transcription of the key’s handwritten alternatives, comparison with contemporary decipherments using this key, and examination of related letters for the encipherer’s treatment of 99 and repeated 55. These could distinguish a scribal convention from mistakes in this letter. The current contextual repairs are not uniquely proved by a grammatical result. The source photographs are available for research; source access is not the present limitation.
+Further investigation could include a complete audit of the key’s handwritten alternatives and extended comparison with surviving worked examples and contemporary decipherments, especially for 99 and repeated 55. These avenues have not been exhausted, but no specific comparison has been identified that would resolve those readings, and no recovery from these proposed checks has been demonstrated. Whether further work would improve the decipherment is unknown. The proposed repairs remain conjectural.

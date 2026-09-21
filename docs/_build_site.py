@@ -315,8 +315,8 @@ def index():
   <div class="entry">
     <h2><a href="starhemberg-reading.html">Chiffre aus Paris</a></h2>
     <p class="where">Starhemberg, Paris, 23 May 1758 · Manuscript collation</p>
-    <p class="status">Partially deciphered</p>
-    <p>A continuous proposed reading of a letter about bringing Spain into the Seven Years’ War. The 1752 key identifies Farinelli’s statement to the recipient alongside Wall’s statement to the French ambassador. Photographs support 1,726 manuscript digits; eleven conjectural repair sites and several uncertain words remain explicit.</p>
+    <p class="status">Substantially deciphered</p>
+    <p>A complete proposed reading of a substantially deciphered letter about bringing Spain into the Seven Years’ War. The 1752 key identifies Farinelli’s statement to the recipient alongside Wall’s statement to the French ambassador. Photographs support 1,726 manuscript digits; eleven conjectural repair sites and several uncertain words remain explicit.</p>
     <p class="go"><a href="starhemberg-reading.html">Cipher rows, German and English</a></p>
     <p>With graded source output, a separate repair ledger and reproducible checks. <a href="{REPO}/tree/main/starhemberg-1758">Write-up, keys, scripts and audit</a>.</p>
   </div>

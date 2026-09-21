@@ -1,6 +1,6 @@
 # Starhemberg, Paris, 23 May 1758
 
-**Status: partial.** A continuous proposed German reading and English translation cover the letter, including Farinelli’s statement to the recipient and Wall’s matching statement to the French ambassador. An exact decipherment is not established: eleven conjectural digit repairs, four contextual readings of 99 as g, and several uncertain key alternatives remain explicit.
+**Substantially deciphered, with a complete proposed reading.** The German reconstruction and English translation cover the whole letter, including Farinelli’s statement to the recipient and Wall’s matching statement to the French ambassador. Remaining uncertainty concerns particular words, repairs and conventions, rather than large unread passages. An exact decipherment is not established: eleven conjectural digit repairs, four contextual readings of 99 as g, and several uncertain key alternatives remain explicit.
 
 Read the [annotated edition](edition-2026-09-21/README.md) or the [side-by-side public page](https://aaymeloglu.github.io/unsolved-ciphers/starhemberg-reading.html).
 
