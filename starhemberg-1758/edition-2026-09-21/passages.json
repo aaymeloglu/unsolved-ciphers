@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Cleartext opening",
+    "de": "Hochgebohrner Herr Graf!\n\nEw. Hochgebohrn letztere an den Hof erstattete Bericht-Schreiben durch die Post, und jenes, so Dieselbe durch einen aus Cadix gekommenen französischen Courier abgehen lassen, habe richtig erhalten, und an des Herrn Hof-Canzlers Excellenz gehörig eingeschickt, und zumahlen das letztere noch den nämlichen Tag, als ich es überkommen, durch einen eben zur Abreise fertig gestandenen Courier ohne Verzug weiters expediert.",
+    "en": "High-born Count,\n\nI have duly received Your Lordship's latest reports to the court sent by post, and the one you sent through a French courier who had come from Cadiz. I forwarded them to His Excellency the Court Chancellor. In particular, I sent the latter onward without delay on the very day I received it, through a courier who was already ready to depart.",
+    "rows": [],
+    "note": "Lightly normalized manuscript prose. The word gehörig and some endings remain less secure; these are not decoded cipher groups."
+  },
+  {
+    "title": "The memorandum to Wall",
+    "de": "So [stattlich?], als ich nun den Innhalt derselben gefunden, so große Hoffnun[g] mache mir, daß [es] deroselben annoch gelingen werde, die durch das dem Stat[s]secretario Wall behändigte sehr treflich gefasste Memoir so geschickt als vor[sich]ti[g] eingeleitete Handlung nunmehro immer offen zu behalten und den spanischen Hof [bis zu] solchen Resolutionen zu vermögen, die entweder dem Krieg eine vergnüglichere, als die dermahlige Gestalt ist, geben oder uns einen erspr[ieß]lichen [†] honorablen Frieden verschaffen könnten;",
+    "en": "[Impressive?] as I found their contents, I have great hopes that you will still succeed in keeping open the negotiation so skillfully and cautiously initiated through the excellently drafted memorandum delivered to Secretary of State Wall, and in persuading the Spanish court to adopt decisions that would either give the war a more favorable turn than its present state or secure for us an advantageous and honorable peace.",
+    "rows": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7",
+      "V1"
+    ],
+    "note": "The first cipher paragraph ends partway through V1. † marks the defective 119 at the recto/verso join. Deleting it and restoring an encoded en have equal edit cost; no extra substantive word is claimed."
+  },
+  {
+    "title": "Farinelli, Wall and Minorca",
+    "de": "und gibt mir zumahlen die von dem **Farinelli gegen Euer Hochgebohrn** und von dem **Wall gegen den französischen Botschafter** fast zu gleicher Zeit gemachte, genau gleichförmige Äusserung sehr große Hoffnun[g], daß schon Minorca an Spanien überlassen würde, wozu sich Frankreich [bereit?] zeige un[d] wohl leicht [en]tschließen wird, alsdann dieser Hof an dem Krieg mit Theil nehmen und andurch den [engländischen] und preußischen Hof in sehr große Verlegenheit setz[en] würde.",
+    "en": "In particular, the closely agreeing statement made by **Farinelli to Your Lordship** and by **Wall to the French ambassador**, at nearly the same time, gives me very great hope that Minorca would indeed be ceded to Spain. France shows itself [ready?] to do this and will probably readily resolve upon it. This court would then participate in the war and thereby place the English and Prussian courts in very great difficulty.",
+    "rows": [
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5",
+      "V6",
+      "V7",
+      "V8"
+    ],
+    "note": "The paragraph begins within V1 and ends within V8, so these boundary lines appear in adjacent sections. Farinelli and no are both explicit values of Secunda 31183. The longer ge-variants remain tentative. Schon is rendered as indeed; the passage expresses hope, not an unconditional Spanish promise."
+  },
+  {
+    "title": "The courier and further negotiations",
+    "de": "Da ich nun Euer Hochgebohrn durch den Courier Zinner zu erstattenden Berichten mit vielem Ver[langen?] entgegensehe, so brauche indessen nichts Be[s]eres einrathen, als in dem bereits eingeschlagenen Weeg fortzufahren und den Wall so viel nur immer möglich durch dero [g]schicktes Benehmen zu weiteren Vertrauenausserungen zu vermögen.",
+    "en": "As I await with great [eagerness?] the reports Your Lordship is to send through the courier Zinner, I can advise nothing better in the meantime than to continue along the course already taken, and through your skillful dealings persuade Wall, as far as possible, to make further confidential disclosures.",
+    "rows": [
+      "V8",
+      "V9",
+      "V10",
+      "V11",
+      "V12",
+      "V13",
+      "V14"
+    ],
+    "note": "Verlangen remains uncertain. The two digits 31 at the end of V9 are visible. Ziner is normalized to Zinner; the code 99 keeps its ordinary Secunda value er here. Other occurrences interpreted as g are explicit inferences."
+  },
+  {
+    "title": "Cleartext closing",
+    "de": "Ich beharre mit aller Hochachtung\n\nEw. Hochgebohrn\n\ngehorsamster Diener\n\nGeorg Graf und Herr von Starhemberg\n\nParis den 23ten May 1758.",
+    "en": "I remain, with the greatest respect, Your Lordship's most obedient servant,\n\nGeorg, Count and Lord of Starhemberg\n\nParis, 23 May 1758.",
+    "rows": [],
+    "note": "Signature and date are visible. The recipient’s personal name is not supplied by the letter; Rosenberg remains a contextual identification."
+  }
+]

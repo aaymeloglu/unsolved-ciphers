@@ -1,0 +1,36 @@
+{
+  "status": "All21physical cipher lines visually collated; uncertain interpretations kept separate",
+  "old_digits": 1721,
+  "manuscript_digits": 1726,
+  "observed_insertions": [
+    {
+      "old_offset": 708,
+      "insert": "5",
+      "line": "V1"
+    },
+    {
+      "old_offset": 794,
+      "insert": "11",
+      "line": "V2"
+    },
+    {
+      "old_offset": 1369,
+      "insert": "31",
+      "line": "V9"
+    }
+  ],
+  "other_notes": [
+    "Opening88331159 and closing883 are present in the photograph; all digits are preserved.",
+    "Original bracketed2,51,1,10 at former rows14,15,19,21 are now visible in margin supplement.",
+    "Punctuation retained from Cryptiana transcript; control placements require explicit interpretations, not mechanically reading carets.",
+    "R7 ending11 and V1 opening9 remain visible: peace-join119 is a manuscript problem, not a demonstrated transcription omission."
+  ],
+  "transcription_uncertainties": [
+    {
+      "line": "V5",
+      "adopted": "31405",
+      "alternative": "31406",
+      "note": "Final5/6 shape remains ambiguous; retain prior31405 provisionally. Neither choice currently provides a verified bereit reading."
+    }
+  ]
+}

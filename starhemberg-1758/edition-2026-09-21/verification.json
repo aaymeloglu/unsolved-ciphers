@@ -1,0 +1,38 @@
+{
+  "source_sha256": "37e7eb52848dff4ff360a346836ca0b037a089787de0894cad61612a26100ec7",
+  "old_digits": 1721,
+  "observed_new_digits": 5,
+  "manuscript_digits": 1726,
+  "manuscript_tokens": 413,
+  "grade_counts": {
+    "manuscript": {
+      "H": 398,
+      "I": 3,
+      "M": 12
+    },
+    "emended": {
+      "H": 378,
+      "I": 18,
+      "M": 8
+    }
+  },
+  "manuscript_invalid_groups": [
+    [
+      325,
+      "30073"
+    ],
+    [
+      449,
+      "33139"
+    ]
+  ],
+  "emended_digits": 1721,
+  "emended_invalid_groups": 0,
+  "conjectural_edit_sites": 11,
+  "specified_digit_edit_cost": 13,
+  "switches": [
+    "A876→B",
+    "B899→A"
+  ],
+  "qualification": "Mechanical consistency and digit accounting; not independent authentication of conjectures."
+}

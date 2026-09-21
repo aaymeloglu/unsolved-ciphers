@@ -11,4 +11,5 @@ for script in (
 ):
     print(f'Running {script}', flush=True)
     subprocess.run([sys.executable, str(HERE / script)], cwd=HERE, check=True)
+subprocess.run([sys.executable, str(HERE / 'edition-2026-09-21/build.py'), '--check'], cwd=HERE, check=True)
 print('All checks completed; this does not certify a complete decipherment.')
