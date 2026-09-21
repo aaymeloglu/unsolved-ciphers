@@ -44,18 +44,34 @@ Biblioteca Digital Hispánica, PARES. The printed-edition check in `CONVENTIONS.
 almost entirely archive.org text search, and it is the step that caught Richelieu 1629 (Avenel
 1858) and Worcester 1526 (State Papers VI) before a solver was wasted on them.
 
-**4. A DECODE account.** This is the one credential worth setting up in advance. Register at
-[de-crypt.org](https://de-crypt.org/). A basic account sees metadata and thumbnails; full-size
-images for many holdings (British Library, The National Archives) need permission from the DECODE
-team, which was granted here on request to the project PI, Beata Megyesi (Stockholm University);
-the `decode@` address on older pages bounces. After permission changes, log out and back in or
-the old session keeps the old rights. Images obtained this way may not be redistributed.
+**4. DECODE, through `tools/decode.py`.** Most targets here are DECODE records
+([de-crypt.org](https://de-crypt.org/)). Fetch them with the tool, not by hand:
 
-Once logged in, curl works and is faster than a browser: `ImagesList?showmaster=records&fk_id=<record>`
-lists the image files and `/decrypt-custom/filesrv/?file=<name>` serves them at full resolution;
-`DocumentsList` does the same for attached keys and transcriptions. Many attachments labelled
-"Key" are Tomokiyo's reconstructed alphabets for a different letter, and a few are modern
-worksheets. Check what an attachment actually is before testing it as a key.
+    python3 tools/decode.py meta R8345      # metadata, image and attachment names; no login
+    python3 tools/decode.py fetch R8345     # everything, into decode-private/R8345/ with a manifest
+
+Records marked Public serve full images with no account at all. Attached documents, and images
+from restricted holdings (British Library, The National Archives and others), need a login. When
+one is needed and none is stored, `fetch` downloads what it can, exits 2, and prints what to do:
+ask the user once for their DECODE username and password, and store them with
+`python3 tools/decode.py login`. Run that yourself; with no terminal attached it opens a form in
+the user's browser, so the password never passes through the conversation. In a session with no
+local browser, the user pastes the login in chat and you pipe it to
+`login --username USER --password-stdin`. Either way it is verified against DECODE and saved to
+`~/.config/decode/credentials` (mode 0600, outside the repo), and every later session and every
+subagent uses it without asking. `DECODE_USER` / `DECODE_PASSWORD` in the environment override
+the file. Do not read the credentials file yourself; call the tool.
+
+Access to restricted holdings is granted per account by the DECODE team. If an account lacks it,
+`fetch` exits 4 and says so; offer the user a drafted request to the project lead (the tool names
+her), and meanwhile look for a public copy of the manuscript in the holding library's own viewer.
+Once access is granted, rerun the fetch; the tool logs in again by itself. Many attachments
+labelled "Key" are Tomokiyo's reconstructed alphabets for a different letter, and a few are
+modern worksheets: check what an attachment is (`meta` shows its label and category) before
+testing it as a key.
+
+Exit codes: 0 done, 2 no login stored, 3 login refused, 4 no permission for some files,
+5 network or unknown record.
 
 **5. A browser, for what HTTP will not do.** British History Online and HathiTrust refuse curl
 (CAPTCHA and 403) but work in a browser; so do some publisher PDFs behind a cloud challenge. We
@@ -111,8 +127,7 @@ there is a result to report.
 
 | Symptom | What is happening |
 |---|---|
-| DECODE image list empty or forbidden while logged in | Your account lacks permission for that holding. Request it, then log out and in again. |
-| DECODE "Key" attachment does not fit | Often a modern reconstruction for a different letter. Moray's R8347/R8348 were Tomokiyo's alphabets for other correspondents. |
+| A DECODE image downloads as a small PNG saying "Insufficient permissions" | That is filesrv's answer to anything it will not serve, with HTTP 200. `tools/decode.py` detects it and reports exit 4 rather than saving it. |
 | British History Online CAPTCHA | Blocks curl and WebFetch. Use a browser. |
 | HathiTrust 403 | Same; a browser gets the page. |
 | PARES TLS error | Incomplete certificate chain; curl gets through. The "Ver Imágenes" flag in results lists is unreliable; count pages in the viewer instead. |
@@ -124,6 +139,7 @@ there is a result to report.
 
     uv sync --frozen
     uv run python -m cipherkit.corpora fetch all
+    python3 tools/decode.py fetch R4736                 # a public record: no login needed
     uv run python -m cipherkit.transcribe layout page.jpg -o page.layout.json
     uv run python -m cipherkit.transcribe strips page.layout.json -o strips/
     # read the strips, transcribe with {a/b} alternatives, then solve with a control first
@@ -139,7 +155,8 @@ the verifier to `.github/workflows/ci.yml`, update the row in `TARGETS.md` and t
 ## House rules
 
 Do not commit images from DECODE or the British Library, or any image whose licence does not
-allow it. Our own transcriptions made from those images may be published with a provenance note
+allow it. DECODE downloads stay in `decode-private/` (gitignored); `tests/test_decode_tool.py`
+fails if a DECODE image or attachment is tracked. Our own transcriptions made from those images may be published with a provenance note
 saying the image is not redistributed.
 
 Do not email archives, libraries or list maintainers from a research run. Reporting is a separate,
