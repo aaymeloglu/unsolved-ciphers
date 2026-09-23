@@ -1,0 +1,26 @@
+{
+  "literal_unit_grades": {
+    "H": 0,
+    "C": 17,
+    "S": 0,
+    "M": 457,
+    "I": 0
+  },
+  "tokens": 474,
+  "unknown": 13,
+  "assigned_empty": 7,
+  "editorial_grading": "Literal unit grades are separate from proposed text. Non-orthographic changed/supplied letters in emendation or conjecture spans are I; none is installed in the key.",
+  "editorial_I_spans": [
+    "A01",
+    "A08",
+    "A12",
+    "A16",
+    "A17",
+    "A21",
+    "A22",
+    "A24",
+    "A26",
+    "A27",
+    "A32"
+  ]
+}

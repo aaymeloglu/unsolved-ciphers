@@ -1,0 +1,49 @@
+{
+  "corrections": {
+    "s1t197": {"token":"tus","certainty":"probable","alternatives":["fus"],"reason":"Short upright t without the long below-baseline loop seen in fus at P2.C16; compare L2-06a and L2-16a. The remaining 10 8 10 is retained as three tokens."},
+    "s1t104": {"token":"ib","certainty":"probable","alternatives":["lb"],"reason":"Looped ascender after a short initial stroke resembles ib; no independent proof of the vowel. Compare L2-00b with ib in L2-02a."},
+    "s2t001": {"token":"Ft","certainty":"high","alternatives":[],"reason":"Short crossed f shape, not the section-sign curl used for S. Both already have value t; L2-10b."},
+    "s2t042": {"token":"O_bar","certainty":"high","alternatives":[],"reason":"Horizontal barred oval without the long descending stem of G; L2-12b and right page edge. Separate shape; value not assigned in the conservative decode."},
+    "s2t046": {"token":"ib","certainty":"probable","alternatives":["16"],"reason":"Tall looped second ascender is compatible with b, unlike the compact 6 of 16 at the end of the preceding line. Compare L2-13a with L2-12b. The reading mihi supports but does not prove this choice."},
+    "s2t047": {"token":"G","certainty":"probable","alternatives":["Eb"],"reason":"Barred loop with long descender and lower cross-stroke resembles the G immediately later in L2-13b and the haud sign on p3. It differs from the small e-under-oval compound at s2t086."},
+    "s2t086": {"token":"O_bar_e","certainty":"high","alternatives":[],"reason":"A small e-like component below the barred oval, not the long descending G form; L2-15b. Compound value remains unknown."},
+    "s2t159": {"token":"D4short","certainty":"probable","alternatives":["4"],"reason":"Triangular 4-like shape has a much shorter lower stem than adjacent ordinary 4 signs; L2-20a versus L2-19b. Candidate n in non is contextual and is not installed as a key value."}
+  },
+  "insertions": {
+    "s1t205": {"id":"s1t205a","token":"#","certainty":"high","alternatives":[],"reason":"Separate sharp/crossed-double-t is visible between hi and G; L2-06b. Omitted from pass2. Established value s."},
+    "s2t044": {"id":"s2t044a","token":"p?","certainty":"partial","alternatives":["pin"],"reason":"After fir, an additional p-initial group is clipped by the dark right border. The p descender and following strokes are visible in L2-12b and the uncropped rotated page. pin=li is a completion, not a fully visible group. Counted as one provisional group."}
+  },
+  "uncertainties": {
+    "s0t006":{"alternatives":["his","hus","lus"],"reason":"The title requires gu under the proposed reading. hus and lus both yield gu in v4; compare lus at s2t140. The first letter/vowel are not sufficiently clear to elect a new transcription."},
+    "s0t017":{"alternatives":["ib","ub"],"reason":"First domus formula: short initial minim currently reads ib=mi. ub=mu is contextual; shape not decisively settled."},
+    "s1t008":{"alternatives":["Z2","Z"],"reason":"Rounded 2/z-like sign. Matching Z=u would still leave the noun unresolved; retained separately."},
+    "s1t009":{"alternatives":["ltu","tus","tu"],"reason":"Extra initial tall stroke and unclear final group; do not replace with su to manufacture ausus."},
+    "s1t012":{"alternatives":["Z2","Z","y"],"reason":"Same broad 2/z shape as s1t008, but quos would require a different reading or missing o. This constrains the proposed relative clause."},
+    "s1t045":{"alternatives":["9"],"reason":"An e-valued loop is visibly present. Omitting it to make coniecerint is an editorial deletion, not a confirmed transcription correction."},
+    "s1t049":{"alternatives":["tun"],"reason":"Additional ru-valued group appears present. Nearby overlapping descenders complicate diacritics; no null marker securely established."},
+    "s1t106":{"alternatives":["tin","tun"],"reason":"The intermissurum candidate needs tun=ru. Image still resembles tin, including an apparent dot; retain tin."},
+    "s1t130":{"alternatives":["ten","tin"],"reason":"ten looks e-like in source; intended minoris needs tin. Retain observed ten, mark editorial e/i change."},
+    "s1t156":{"alternatives":["ed","id"],"reason":"Source e-like vowel retained; Dilectionis needs i. Context alone is insufficient to change the transcript."},
+    "s1t167":{"alternatives":["4"],"reason":"quas versus intended quam/other comparative construction is not resolved by the shape."},
+    "s1t170":{"alternatives":["146","46"],"reason":"Leading stroke in 146 retained; v4 gives both 146 and 46 pa. This does not independently support regrouping 10 8 as 108."},
+    "s1t190":{"alternatives":["Z"],"reason":"The z-like sign remains visible inside quautum. Replacing u by n to obtain quantum is editorial."},
+    "s1t198":{"alternatives":["10","108(with-next)"],"reason":"10 and 8 have appreciable spacing; no repeated 108 token. Merging requires a separate hypothesis."},
+    "s1t199":{"alternatives":["8","108(with-previous)"],"reason":"Digit 8 retained independently. 108=b is not in the recovered key."},
+    "s1t237":{"alternatives":["hes","he"],"reason":"hes is visually legible and v4 gives ge. Intended intendere would require de, a different frame value, or a redundant final s in the cipher group. Not silently repaired."},
+    "s2t026":{"alternatives":["T"],"reason":"Triangle n-sign visible; illorun is not silently changed to illorum."},
+    "s2t067":{"alternatives":["F91"],"reason":"Diacritic position/identity not securely resolved; v4 assigns m contextually. Retain this compound label."},
+    "s2t073":{"alternatives":["adb","idb"],"reason":"Barred two-letter group; vowel and value uncertain. Kept as a compound instead of importing ad=na."},
+    "s2t083":{"alternatives":["H91"],"reason":"Compound h-like sign with superscript marks; value not recovered."},
+    "s2t102":{"alternatives":["xir","xur"],"reason":"xir appears in the source; intended motu requires xur. Retain source and record i/u emendation."},
+    "s2t114":{"alternatives":["A","Z"],"reason":"Crossed a-like sign is visible; intended commune needs u instead of its established i. No source-supported substitution elected."},
+    "s2t123":{"alternatives":["cal"],"reason":"cal=que is inherited from context in v4, not established as an ordinary vowel-preserving family."},
+    "s2t151":{"alternatives":["ub","ib","16"],"reason":"Tall loop and preceding short stroke are ambiguous; pass2 ub=mu retained, but source may be ib. No confidence upgrade from domus context."},
+    "s2t157":{"alternatives":["4"],"reason":"Long-stem 4 after comuodu remains; m needed for commodum is not justified by setting all 4 signs to m."},
+    "s2t169":{"alternatives":["C"],"reason":"C=l is visible. The edited ea requires changing its value to a at this occurrence; keep discrepancy explicit."}
+  },
+  "conditional_assignments": {
+    "O_bar":{"value":"f","status":"conjecture","basis":"facilius after animis, with clipped p? completed to pin. A distinct shape is secure, its value is not."},
+    "D4short":{"value":"n","status":"conjecture","basis":"Would give non before minor. Short-stem shape helps distinguish it, but only one elected occurrence."},
+    "108":{"value":"b","status":"conjecture","basis":"Would help form subvertendis after tus. Requires merging separate 10 and 8; no independent occurrence."}
+  }
+}

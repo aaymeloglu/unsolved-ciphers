@@ -1,6 +1,6 @@
 """Build docs/ferdinand-reading.html from the published Ferdinand editions.
 
-One page, two letters. Each letter is split into passages; each passage shows the cipher rows
+One page, three letters. The 1634 partial reading is built by _ferdinand1634. Each letter is split into passages; each passage shows the cipher rows
 as transcribed (left, sticky), the readable Latin (middle) and the English (right), then the
 apparatus notes whose locations fall in that passage, and a fold-out table of cipher row against
 literal decoder output. The key, the checks, the grades and the open points follow. Everything is
@@ -9,6 +9,8 @@ read from ferdinand-1635-1640/ at build time; nothing on the page is typed in tw
 import html
 import json
 import re
+
+from _ferdinand1634 import build_section as build_1634
 
 # ---------------------------------------------------------------- markdown helpers
 
@@ -219,29 +221,33 @@ def build(root, docs, page, crumbs, repo):
     fam_rows = "".join(f"<tr><td class='tok'>{inline(a)}</td><td>{inline(b)}</td></tr>" for a, b in fam)
 
     g35, g40 = grades["R1889"], grades["R1890"]
-    nav = "".join(
+    section1634 = build_1634(root, repo)
+    nav = '<a href="#letter-1634">1634 · Rhine</a>' + "".join(
         f'<a href="#{p["id"]}">{p["nav"]}</a>' for L in letters for p in L["passages"]
     ) + '<a href="#key">Key</a><a href="#checks">Checks</a><a href="#open">Open</a>'
 
     body = f"""{crumbs.format(f'<a href="{repo}/tree/main/ferdinand-1635-1640">write-up and files</a>')}
 <header class="masthead">
-  <p class="eyebrow">Brussels, Algemeen Rijksarchief, Secrétairerie d'État Allemande, inv. 540 · DECODE R954, R1889, R1890 · Latin, homophonic alphabet with a syllabary</p>
-  <h1>Hiberna and florins</h1>
-  <p class="standfirst">Two ciphered letters between the Cardinal-Infante Ferdinand, governor of the Spanish Netherlands, and his cousin Ferdinand, King of Hungary and from 1637 Emperor. In November 1635 the Cardinal-Infante declines to let the imperial army winter in Trier. In February 1640 the Emperor asks him for a hundred thousand florins to raise troops against the Elector of Cologne's levies in Westphalia. Read with an alphabet recovered from the surviving Latin draft of the first letter and a syllabary recovered from the second.</p>
-  <span class="status">Both letters substantially read · glyph and copying problems explicit</span>
+  <p class="eyebrow">Brussels, Algemeen Rijksarchief, Secrétairerie d'État Allemande, inv. 540 · DECODE R1887, R954, R1889, R1890 · Latin, homophonic alphabet with a syllabary</p>
+  <h1>Rhine, hiberna and florins</h1>
+  <p class="standfirst">Three ciphered letters between the Cardinal-Infante Ferdinand, governor of the Spanish Netherlands, and his cousin Ferdinand, King of Hungary and from 1637 Emperor. In October 1634 the King writes about a French Rhine expedition and seeks an armed diversion. In November 1635 the Cardinal-Infante declines to let the imperial army winter in Trier. In February 1640 the Emperor asks him for a hundred thousand florins to raise troops against the Elector of Cologne's levies in Westphalia. The 1634 letter has a separate, partly reconstructed cipher. The later two are read with an alphabet recovered from the surviving 1635 Latin draft and a contextual 1640 syllable supplement.</p>
+  <span class="status">1634 partial · 1635 and 1640 substantially read · uncertainties explicit</span>
 </header>
 
 <div class="lede">
   <div>
     <h3>What the letters say</h3>
+    <p>The 1634 letter, from Stuttgart, concerns French preparations to cross the Rhine, the restoration of protected princes, and military action in the interests of the House of Austria. The names Württemberg and Durlach and several connected phrases are readable. Gaps in the construction and the request remain, so its English column summarizes recognizable content rather than offering a complete translation.</p>
     <p>The 1635 letter answers one of 14 October in which the King had asked for winter quarters for the imperial army, then advancing on the Saar, in the archbishopric and city of Trier. The Cardinal-Infante would gladly oblige, but Trier has stood under the King of Spain's protection for two hundred years and has been garrisoned by his troops whenever necessary, as when the French seized it; the garrison and the Elector, whose upkeep has hitherto come from the Spanish treasury, need the city and its surroundings. Imperial troops can only with difficulty be quartered there, and he trusts the King will take that in good part.</p>
     <p>The 1640 letter, from Vienna, says the Spanish ambassador, the Marquis of Castañeda, will explain the new levies begun in the Westphalian Circle by the Elector of Cologne and the estates, and the harm the Emperor fears from them. The only remedy is to raise a larger force there at once, so that the Circle does not fall under another's control; Count Hatzfeld has been ordered to Cologne. Lacking the money, the Emperor asks again, most urgently, that the hundred thousand florins previously requested be paid to his commissioners at Cologne, to be spent only on his express order or on Hatzfeld's assignment.</p>
     <h3>How they were read</h3>
+    <p>The 1634 reading uses repeated phrases, vowel-preserving syllable families and the surrounding clear Latin. Its ending repeats in clear immediately after the cipher, giving a direct check. No external key or corresponding draft was used. Source alternatives, literal output and editorial proposals are separated in the <a href="{repo}/tree/main/ferdinand-1634">1634 edition</a>, reviewed on 23 September 2026.</p>
     <p>DECODE catalogues R954, a partly ciphered draft of the 1635 letter with its Latin in clear, beside R1889, the cipher copy. Aligning the two gave a 42-symbol alphabet from the first cipher paragraph; the next paragraph, held out, then read at 87 of 95 letter positions, while the fully assessed key and transcription give 93 of 95 in the comparison passage. The frozen-key holdout is the independent check; the 93-of-95 result includes evidence from that passage. Applied unchanged to the 1640 letter, that alphabet covers 416 of 779 units. The rest fell to a syllabary found in the 1640 text itself: sixty values in regular families (<code>pla ple pli plo plu</code> for <em>ta te ti to tu</em>, <code>41–54</code> for <em>le li lo lu na ne ni no nu ra re ri ro ru</em>), with all fifty-one assignments of the 1635 alphabet retained. Work of 18 September 2026 by a native Codex agent; everything is reproducible from the <a href="{repo}/tree/main/ferdinand-1635-1640">published files</a> with <code>python3 verify.py</code>.</p>
   </div>
   <div>
     <div class="callout">
       <h3>What is not settled</h3>
+      <p>In 1634, several key values and source signs remain uncertain. Thirteen occurrences are unmapped, seven have inherited empty values, and even mapped strings sometimes require editorial changes. The 474-group inventory includes one partly clipped group. Coverage is not verified accuracy; the three proposed gap readings remain bracketed conjectures.</p>
       <p>In 1635, one sign yields <em>e</em> where four words need <em>m</em>, and a 7 yields <em>c</em> where <em>civitas</em> needs <em>a</em>. On the photograph, checked on 18 September 2026, the four <em>m</em>-position signs have the same form as the <em>e</em>-position signs and the 7s are plain 7s, so these are the copy's own inconsistencies, not two glyphs conflated in transcription; the reading marks every such place rather than switching the key. The photographed signs in <em>hiberna</em> read <code>1 11</code>; the word decodes without repair. The draft and the copy differ in wording at several points. In 1640 there is no plaintext witness at all: the reading rests on the alphabet carrying over and on the syllabary making sustained Latin sense across both pages. One sign at an obscured line end and the symbol <code>14</code> in Hatzfeld's name are unmapped; <em>igitua</em>, <em>materi</em> and <em>expredse</em> are apparent copying errors.</p>
       <p>The draft-and-copy relationship is recorded in the DECODE catalogue, and no earlier reading of either letter was found in the sources checked, but novelty is not established: the Belgian archive lists nineteenth-century copies of this correspondence that were not inspected. No historical key sheet has been recovered.</p>
     </div>
@@ -251,13 +257,14 @@ def build(root, docs, page, crumbs, repo):
 </div>
 
 <nav class="folios" aria-label="Passages">{nav}</nav>
+{section1634}
 {letter_header(letters[0])}
 {"".join(section(letters[0], p) for p in letters[0]["passages"])}
 {letter_header(letters[1])}
 {"".join(section(letters[1], p) for p in letters[1]["passages"])}
 
 <section class="wide" id="key">
-  <h2>The key as reconstructed</h2>
+  <h2>The 1635/1640 key as reconstructed</h2>
   <div class="two">
     <div>
       <p>Transliterated glyph labels, not a facsimile of a historical key. The 1635 alphabet has two to five signs per letter; forty-two assignments were frozen from the first paragraph and nine added from the held-out and final passages with their evidence recorded. Plaintext <em>u</em> and <em>v</em> are one letter. The 1640 supplement keeps all fifty-one and adds sixty syllable values; <code>b</code> is <em>m</em> there, which bears on the 1635 <em>e</em>/<em>m</em> problem without settling it.</p>
@@ -272,7 +279,7 @@ def build(root, docs, page, crumbs, repo):
 </section>
 
 <section class="wide" id="checks">
-  <h2>Checks and grades</h2>
+  <h2>Checks and grades for 1635/1640</h2>
   <div class="two">
     <div>
       <div class="scroll"><table class="checks"><thead><tr><th>Check</th><th>Result</th></tr></thead><tbody>
@@ -304,11 +311,11 @@ def build(root, docs, page, crumbs, repo):
       </ul>
     </div>
     <div>
-      <h3>1640, and both</h3>
+      <h3>1640, and the correspondence</h3>
       <ul>
         <li>One obscured end-of-line sign; the value of <code>14</code> in Hatzfeld's name; a few singleton syllable values; the copying errors <em>igitua</em>, <em>materi</em>, <em>expredse</em>.</li>
         <li>No independent 1640 plaintext; the countersignatures read provisionally <em>Furstenberg</em> and <em>Jo: Georgius Pucher[g?]</em>.</li>
-        <li>Prior publication: Manuscrits Divers 1151 at the Belgian archive (nineteenth-century copies) not inspected; no historical key sheet found. A separate 1634 cipher in the same fonds is <a href="{repo}/blob/main/ferdinand-1635-1640/1634-ASSESSMENT.md">assessed but not attempted</a>.</li>
+        <li>Prior publication: Manuscrits Divers 1151 at the Belgian archive (nineteenth-century copies) not inspected; no historical key sheet found. The separate 1634 cipher remains partly deciphered: its rare signs, numerical grouping and incomplete syntax need a matching key or another witness. See the <a href="{repo}/tree/main/ferdinand-1634">1634 evidence and apparatus</a>.</li>
       </ul>
     </div>
   </div>
@@ -317,15 +324,15 @@ def build(root, docs, page, crumbs, repo):
 <footer class="colophon">
   <div>
     <h3>Sources</h3>
-    <p>DECODE <a href="https://de-crypt.org/decrypt-web/RecordsView/954">R954</a> (draft, 16 November 1635), <a href="https://de-crypt.org/decrypt-web/RecordsView/1889">R1889</a> (cipher copy) and <a href="https://de-crypt.org/decrypt-web/RecordsView/1890">R1890</a> (22 February 1640), Brussels, Algemeen Rijksarchief, Secrétairerie d'État Allemande inv. 540. Ciphertext transcriptions by XZ, January 2021, on the DECODE records; our working layers record normalisation and review amendments. Manuscript images were accessed with the DECODE project's permission and are not redistributed, which is why this page has no scans. <a href="{repo}/blob/main/ferdinand-1635-1640/SOURCES.md">Source and prior-publication audit</a>.</p>
+    <p>DECODE <a href="https://de-crypt.org/decrypt-web/RecordsView/1887">R1887</a> (28 October 1634), <a href="https://de-crypt.org/decrypt-web/RecordsView/954">R954</a> (draft, 16 November 1635), <a href="https://de-crypt.org/decrypt-web/RecordsView/1889">R1889</a> (cipher copy) and <a href="https://de-crypt.org/decrypt-web/RecordsView/1890">R1890</a> (22 February 1640), Brussels, Algemeen Rijksarchief, Secrétairerie d'État Allemande inv. 540. The 1634 transcription is our own LLM-assisted collation, reviewed on 23 September 2026; source hashes and review scope are in <a href="{repo}/blob/main/ferdinand-1634/sources.json">sources.json</a>. The 1635/1640 ciphertext transcriptions are by XZ, January 2021, on the DECODE records; our working layers record normalisation and review amendments. Manuscript images were accessed with the DECODE project's permission and are not redistributed, which is why this page has no scans. <a href="{repo}/blob/main/ferdinand-1635-1640/SOURCES.md">Source and prior-publication audit</a>.</p>
   </div>
   <div>
     <h3>Files and status</h3>
-    <p>The published folder <a href="{repo}/tree/main/ferdinand-1635-1640">ferdinand-1635-1640</a> holds the transcriptions, the frozen and expanded keys with their evidence, the decoder, the literal outputs, the per-unit grades, the two readings with their apparatus, and a one-command verifier. This page is generated from those files by <code>docs/_ferdinand.py</code>.</p>
-    <p>Both letters are read in substance; the Latin on this page is an edition of the decoder output with marked restorations, and the English translates that edition. The reading is not complete. Published 18 September 2026.</p>
+    <p>The published folder <a href="{repo}/tree/main/ferdinand-1635-1640">ferdinand-1635-1640</a> holds the transcriptions, the frozen and expanded keys with their evidence, the decoder, the literal outputs, the per-unit grades, the two readings with their apparatus, and a one-command verifier. The separate <a href="{repo}/tree/main/ferdinand-1634">ferdinand-1634</a> folder holds its transcription, key, literal output, source observations, complete apparatus and portable verifier. This page is generated from both editions.</p>
+    <p>The 1635/1640 bodies are read in substance, with marked restorations translated into English. The 1634 reading remains partial, with conjectures and an explicitly limited English summary. Work dated 18 September 2026 (1635/1640) and 23 September 2026 (1634).</p>
   </div>
 </footer>"""
     (docs / "ferdinand-reading.html").write_text(page(
-        "Hiberna and florins",
-        "Two ciphered Latin letters between the Cardinal-Infante Ferdinand and Ferdinand III, 1635 and 1640: cipher rows, Latin, English, the reconstructed key, checks, grades and what remains open.",
+        "Rhine, hiberna and florins",
+        "Three ciphered Latin letters between the Cardinal-Infante Ferdinand and Ferdinand III, 1634, 1635 and 1640: cipher rows, Latin, English, the reconstructed key, checks, grades and what remains open.",
         body))

@@ -1,0 +1,40 @@
+%% R1887 pass 2 (native-resolution recheck). Labels as pass1 plus:
+%% # = both crossed-tt and sharp (same value s) ; F = long f ; Ft = short crossed f ; Zb = z with bar (≯) ;
+%% Z4 = ʒ/crossed-4 form (i) ; Q4 = crossed 4 (ꝗ) ; G9 = g with e-loop ; Yx = crossed y ; lb = looped 'lb' ;
+%% ib/ub/16 distinguished by shape (loop b vs 6) ; G = o with bar (h) ; Eb = e with overbar ; F91 = f with superscript 91 ;
+%% H91 = 'h' with superscript 91 ; adb = 'ad' with overbar ; ^x = x written above (null marker) ; ^9 = 9 written above
+[cum]
+for ub id # X 10 his # xir tis eb od # Ft M 9 ho ib # tas
+pun xir Zb # xar sil pin 42 he tan Ft A y L Fs
+[summopere requirat ... facile colligere liceat]
+Z4 DB tus F
+ud 13 oc X Z2 ltu # 3 Z2 # ten # xir xur 9 T hi # A ^9/7
+ic 5 Z Z4 43 ir he F X N xur xer pan Q4 G9 DB tis uc tes
+for T 9 A 9 fer tun tin T 8 DB M 43 fir 48 sul Zx 43
+DB M A ib Zx ^9Z A ^x4 M xer ^xF T sed M lis for 9 S hu
+16 pan fer p tis DB M Yx ur xur ton # 9 tes N 16 9
+hi he tin S 43 xer M lb tus tin F 9 R Z p T
+xur # 10 9 ton 43 he N M A 45 hu # odl T
+ib od ten 4 Pb ob pun eb p xir Z 9 J he S M A eb
+p xir ten sul # hi pen ^9N A y ed # Z 9 # S M
+9 3 Z X 4 eb ic 146 M xer 4 tis S X ^9/13 X xur
+fun # A he y fur F 3 10 X Z xur F 43 eb ec S
+fus 10 8 10 9 M xer T hi G ic fer for ub ^9T A
+45 od # S M 9 ho ub Zx gam oc xir Z F for T ^xad X xir
+sul # 43 xer T hes ten od p he tis ad F
+[idem illud studium in Dil: Vestra excitare maximopere necessarium duxi. Eandem perbenevole rogans]
+10 S eb hi 41 xer X pin 5 Z y
+5 10 A hi # S M X N xir # SS C pon tun T 43
+hi 10 9 M tas Zx 46 16 xer # X id ib # G X fir
+uc 16 Eb A X K 12 16 X les T hu F G 10 ^xN
+T N A 15 tos tun F91 3 Z 9 4 ib adb p xir M
+A 4 4 xir 4 ten H91 X S Eb ed los fir Z F X
+M ob fun F fus y fun F ob xir 9 S hi 10 9 M
+tis y ed for ^9/4 A ed 3 10 y K Z xer 16 cal DB
+M 9 xer T hi ub Zx DB M Pb hi N xer X Z lus
+# xir tis eb od # S M 9 ho ub # for ub y hu 4
+od 4 ib od 16 R 10 ^x41 X F 9 C V Q
+[quae ex conflictu Nordlingensi maximo suo merito ipsi apud seram posteritatem debetur gloria]
+DB M y ob 10 9 ten G X Z K
+he hi b ed xur 16 R V Gs
+[promovere haud dedignetur.]

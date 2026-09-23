@@ -1,0 +1,69 @@
+%% Pass 3. Generated from pass2 plus edition3/observations.json.
+%% Two additions, one clipped/partial. Candidate plaintext is NOT a key.
+%% See alignment.tsv for source uncertainty, images, IDs and baseline.
+%% p? = clipped p-initial group; O_bar/O_bar_e/D4short are distinct graphic labels.
+[cum]
+%% P1.C01
+for ub id # X 10 his # xir tis eb od # Ft M 9 ho ib # tas
+%% P1.C02
+pun xir Zb # xar sil pin 42 he tan Ft A y L Fs
+[summopere requirat ... facile colligere liceat]
+%% P1.C03
+Z4 DB tus F
+%% P1.C04
+ud 13 oc X Z2 ltu # 3 Z2 # ten # xir xur 9 T hi # A ^9/7
+%% P1.C05
+ic 5 Z Z4 43 ir he F X N xur xer pan Q4 G9 DB tis uc tes
+%% P1.C06
+for T 9 A 9 fer tun tin T 8 DB M 43 fir 48 sul Zx 43
+%% P1.C07
+DB M A ib Zx ^9Z A ^x4 M xer ^xF T sed M lis for 9 S hu
+%% P1.C08
+16 pan fer p tis DB M Yx ur xur ton # 9 tes N 16 9
+%% P2.C01
+hi he tin S 43 xer M ib tus tin F 9 R Z p T
+%% P2.C02
+xur # 10 9 ton 43 he N M A 45 hu # odl T
+%% P2.C03
+ib od ten 4 Pb ob pun eb p xir Z 9 J he S M A eb
+%% P2.C04
+p xir ten sul # hi pen ^9N A y ed # Z 9 # S M
+%% P2.C05
+9 3 Z X 4 eb ic 146 M xer 4 tis S X ^9/13 X xur
+%% P2.C06
+fun # A he y fur F 3 10 X Z xur F 43 eb ec S
+%% P2.C07
+tus 10 8 10 9 M xer T hi # G ic fer for ub ^9T A
+%% P2.C08
+45 od # S M 9 ho ub Zx gam oc xir Z F for T ^xad X xir
+%% P2.C09
+sul # 43 xer T hes ten od p he tis ad F
+[idem illud studium in Dil: Vestra excitare maximopere necessarium duxi. Eandem perbenevole rogans]
+%% P2.C10
+10 Ft eb hi 41 xer X pin 5 Z y
+%% P2.C11
+5 10 A hi # S M X N xir # SS C pon tun T 43
+%% P2.C12
+hi 10 9 M tas Zx 46 16 xer # X id ib # O_bar X fir p?
+%% P2.C13
+uc ib G A X K 12 16 X les T hu F G 10 ^xN
+%% P2.C14
+T N A 15 tos tun F91 3 Z 9 4 ib adb p xir M
+%% P2.C15
+A 4 4 xir 4 ten H91 X S O_bar_e ed los fir Z F X
+%% P2.C16
+M ob fun F fus y fun F ob xir 9 S hi 10 9 M
+%% P2.C17
+tis y ed for ^9/4 A ed 3 10 y K Z xer 16 cal DB
+%% P2.C18
+M 9 xer T hi ub Zx DB M Pb hi N xer X Z lus
+%% P2.C19
+# xir tis eb od # S M 9 ho ub # for ub y hu 4
+%% P2.C20
+od D4short ib od 16 R 10 ^x41 X F 9 C V Q
+[quae ex conflictu Nordlingensi maximo suo merito ipsi apud seram posteritatem debetur gloria]
+%% P3.C01
+DB M y ob 10 9 ten G X Z K
+%% P3.C02
+he hi b ed xur 16 R V Gs
+[promovere haud dedignetur.]

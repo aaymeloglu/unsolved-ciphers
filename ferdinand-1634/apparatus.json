@@ -1,0 +1,1263 @@
+[
+  {
+    "id": "A01",
+    "segment": 0,
+    "first": "s0t000",
+    "last": "s0t018",
+    "token_ids": [
+      "s0t000",
+      "s0t001",
+      "s0t002",
+      "s0t003",
+      "s0t004",
+      "s0t005",
+      "s0t006",
+      "s0t007",
+      "s0t008",
+      "s0t009",
+      "s0t010",
+      "s0t011",
+      "s0t012",
+      "s0t013",
+      "s0t014",
+      "s0t015",
+      "s0t016",
+      "s0t017",
+      "s0t018"
+    ],
+    "literal": "comunisaugistisimenostredomis",
+    "proposed": "communis Augustissimae nostrae domus",
+    "status": "emendation",
+    "note": "Title vowel and domus vowel remain source-ambiguous; ae and doubling normalized.",
+    "edits": [
+      {
+        "operation": "insert",
+        "raw_start": 2,
+        "raw_end": 2,
+        "before": "",
+        "after": "m"
+      },
+      {
+        "operation": "replace",
+        "raw_start": 10,
+        "raw_end": 11,
+        "before": "i",
+        "after": "u"
+      },
+      {
+        "operation": "insert",
+        "raw_start": 15,
+        "raw_end": 15,
+        "before": "",
+        "after": "s"
+      },
+      {
+        "operation": "insert",
+        "raw_start": 17,
+        "raw_end": 17,
+        "before": "",
+        "after": "a"
+      },
+      {
+        "operation": "insert",
+        "raw_start": 23,
+        "raw_end": 23,
+        "before": "",
+        "after": "a"
+      },
+      {
+        "operation": "replace",
+        "raw_start": 27,
+        "raw_end": 28,
+        "before": "i",
+        "after": "u"
+      }
+    ]
+  },
+  {
+    "id": "A02",
+    "segment": 0,
+    "first": "s0t019",
+    "last": "s0t032",
+    "token_ids": [
+      "s0t019",
+      "s0t020",
+      "s0t021",
+      "s0t022",
+      "s0t023",
+      "s0t024",
+      "s0t025",
+      "s0t026",
+      "s0t027",
+      "s0t028",
+      "s0t029",
+      "s0t030",
+      "s0t031",
+      "s0t032"
+    ],
+    "literal": "salutisstabilienderatio",
+    "proposed": "salutis stabiliendae ratio",
+    "status": "normalization",
+    "note": "ae/e only.",
+    "edits": [
+      {
+        "operation": "insert",
+        "raw_start": 17,
+        "raw_end": 17,
+        "before": "",
+        "after": "a"
+      }
+    ]
+  },
+  {
+    "id": "A03",
+    "segment": 0,
+    "first": "s0t033",
+    "last": "s0t034",
+    "token_ids": [
+      "s0t033",
+      "s0t034"
+    ],
+    "literal": "",
+    "proposed": null,
+    "status": "terminal",
+    "note": "Two signs assigned empty by v4; this is inherited, not independently proved.",
+    "edits": []
+  },
+  {
+    "id": "A04",
+    "segment": 1,
+    "first": "s1t000",
+    "last": "s1t006",
+    "token_ids": [
+      "s1t000",
+      "s1t001",
+      "s1t002",
+      "s1t003",
+      "s1t004",
+      "s1t005",
+      "s1t006"
+    ],
+    "literal": "ipsumnullos",
+    "proposed": "ipsum nullos",
+    "status": "literal",
+    "note": "",
+    "edits": []
+  },
+  {
+    "id": "A05",
+    "segment": 1,
+    "first": "s1t007",
+    "last": "s1t013",
+    "token_ids": [
+      "s1t007",
+      "s1t008",
+      "s1t009",
+      "s1t010",
+      "s1t011",
+      "s1t012",
+      "s1t013"
+    ],
+    "literal": "a??sq?s",
+    "proposed": null,
+    "status": "unresolved",
+    "note": "Noun and following relative unresolved. ausus quos is not adopted.",
+    "edits": []
+  },
+  {
+    "id": "A06",
+    "segment": 1,
+    "first": "s1t014",
+    "last": "s1t024",
+    "token_ids": [
+      "s1t014",
+      "s1t015",
+      "s1t016",
+      "s1t017",
+      "s1t018",
+      "s1t019",
+      "s1t020",
+      "s1t021",
+      "s1t022",
+      "s1t023",
+      "s1t024"
+    ],
+    "literal": "restituendisillis",
+    "proposed": "restituendis illis",
+    "status": "literal",
+    "note": "",
+    "edits": []
+  },
+  {
+    "id": "A07",
+    "segment": 1,
+    "first": "s1t025",
+    "last": "s1t042",
+    "token_ids": [
+      "s1t025",
+      "s1t026",
+      "s1t027",
+      "s1t028",
+      "s1t029",
+      "s1t030",
+      "s1t031",
+      "s1t032",
+      "s1t033",
+      "s1t034",
+      "s1t035",
+      "s1t036",
+      "s1t037",
+      "s1t038",
+      "s1t039",
+      "s1t040",
+      "s1t041",
+      "s1t042"
+    ],
+    "literal": "quiinfidemactutelamipsiusse",
+    "proposed": "qui in fidem ac tutelam ipsius se",
+    "status": "literal",
+    "note": "",
+    "edits": []
+  },
+  {
+    "id": "A08",
+    "segment": 1,
+    "first": "s1t043",
+    "last": "s1t052",
+    "token_ids": [
+      "s1t043",
+      "s1t044",
+      "s1t045",
+      "s1t046",
+      "s1t047",
+      "s1t048",
+      "s1t049",
+      "s1t050",
+      "s1t051",
+      "s1t052"
+    ],
+    "literal": "coneiecerurint",
+    "proposed": "coniecerint",
+    "status": "emendation",
+    "note": "Deletes visible e and ru material; neither deletion is a secure null assignment.",
+    "edits": [
+      {
+        "operation": "delete",
+        "raw_start": 3,
+        "raw_end": 4,
+        "before": "e",
+        "after": ""
+      },
+      {
+        "operation": "delete",
+        "raw_start": 9,
+        "raw_end": 11,
+        "before": "ur",
+        "after": ""
+      }
+    ]
+  },
+  {
+    "id": "A09",
+    "segment": 1,
+    "first": "s1t053",
+    "last": "s1t065",
+    "token_ids": [
+      "s1t053",
+      "s1t054",
+      "s1t055",
+      "s1t056",
+      "s1t057",
+      "s1t058",
+      "s1t059",
+      "s1t060",
+      "s1t061",
+      "s1t062",
+      "s1t063",
+      "s1t064",
+      "s1t065"
+    ],
+    "literal": "principibusinprimis",
+    "proposed": "principibus in primis",
+    "status": "literal",
+    "note": "",
+    "edits": []
+  },
+  {
+    "id": "A10",
+    "segment": 1,
+    "first": "s1t066",
+    "last": "s1t084",
+    "token_ids": [
+      "s1t066",
+      "s1t067",
+      "s1t068",
+      "s1t069",
+      "s1t070",
+      "s1t071",
+      "s1t072",
+      "s1t073",
+      "s1t074",
+      "s1t075",
+      "s1t076",
+      "s1t077",
+      "s1t078",
+      "s1t079",
+      "s1t080",
+      "s1t081",
+      "s1t082",
+      "s1t083",
+      "s1t084"
+    ],
+    "literal": "uirtenbergicoetdurlacensi",
+    "proposed": "Wirtenbergico et Durlacensi",
+    "status": "normalization",
+    "note": "Initial u rendered W for the name; cipher nulls retain their separate rows.",
+    "edits": [
+      {
+        "operation": "replace",
+        "raw_start": 0,
+        "raw_end": 1,
+        "before": "u",
+        "after": "w"
+      }
+    ]
+  },
+  {
+    "id": "A11",
+    "segment": 1,
+    "first": "s1t085",
+    "last": "s1t100",
+    "token_ids": [
+      "s1t085",
+      "s1t086",
+      "s1t087",
+      "s1t088",
+      "s1t089",
+      "s1t090",
+      "s1t091",
+      "s1t092",
+      "s1t093",
+      "s1t094",
+      "s1t095",
+      "s1t096",
+      "s1t097",
+      "s1t098",
+      "s1t099",
+      "s1t100"
+    ],
+    "literal": "profuturosesecrediderit",
+    "proposed": "profuturos esse crediderit",
+    "status": "normalization",
+    "note": "Single s normalized to ss.",
+    "edits": [
+      {
+        "operation": "insert",
+        "raw_start": 12,
+        "raw_end": 12,
+        "before": "",
+        "after": "s"
+      }
+    ]
+  },
+  {
+    "id": "A12",
+    "segment": 1,
+    "first": "s1t101",
+    "last": "s1t107",
+    "token_ids": [
+      "s1t101",
+      "s1t102",
+      "s1t103",
+      "s1t104",
+      "s1t105",
+      "s1t106",
+      "s1t107"
+    ],
+    "literal": "intermisurim",
+    "proposed": "intermissurum",
+    "status": "conjecture",
+    "note": "Probable ib rereading supplies mi; tin must still change to tun; ss normalization.",
+    "edits": [
+      {
+        "operation": "insert",
+        "raw_start": 8,
+        "raw_end": 8,
+        "before": "",
+        "after": "s"
+      },
+      {
+        "operation": "replace",
+        "raw_start": 10,
+        "raw_end": 11,
+        "before": "i",
+        "after": "u"
+      }
+    ]
+  },
+  {
+    "id": "A13",
+    "segment": 1,
+    "first": "s1t108",
+    "last": "s1t114",
+    "token_ids": [
+      "s1t108",
+      "s1t109",
+      "s1t110",
+      "s1t111",
+      "s1t112",
+      "s1t113",
+      "s1t114"
+    ],
+    "literal": "equnntus",
+    "proposed": null,
+    "status": "unresolved",
+    "note": "eq unntus remains; quantus is not adopted.",
+    "edits": []
+  },
+  {
+    "id": "A14",
+    "segment": 1,
+    "first": "s1t115",
+    "last": "s1t119",
+    "token_ids": [
+      "s1t115",
+      "s1t116",
+      "s1t117",
+      "s1t118",
+      "s1t119"
+    ],
+    "literal": "ueroinde",
+    "proposed": "vero inde",
+    "status": "normalization",
+    "note": "u/v only.",
+    "edits": [
+      {
+        "operation": "replace",
+        "raw_start": 0,
+        "raw_end": 1,
+        "before": "u",
+        "after": "v"
+      }
+    ]
+  },
+  {
+    "id": "A15",
+    "segment": 1,
+    "first": "s1t120",
+    "last": "s1t125",
+    "token_ids": [
+      "s1t120",
+      "s1t121",
+      "s1t122",
+      "s1t123",
+      "s1t124",
+      "s1t125"
+    ],
+    "literal": "crisdus",
+    "proposed": null,
+    "status": "unresolved",
+    "note": "crisdus remains unresolved.",
+    "edits": []
+  },
+  {
+    "id": "A16",
+    "segment": 1,
+    "first": "s1t126",
+    "last": "s1t150",
+    "token_ids": [
+      "s1t126",
+      "s1t127",
+      "s1t128",
+      "s1t129",
+      "s1t130",
+      "s1t131",
+      "s1t132",
+      "s1t133",
+      "s1t134",
+      "s1t135",
+      "s1t136",
+      "s1t137",
+      "s1t138",
+      "s1t139",
+      "s1t140",
+      "s1t141",
+      "s1t142",
+      "s1t143",
+      "s1t144",
+      "s1t145",
+      "s1t146",
+      "s1t147",
+      "s1t148",
+      "s1t149",
+      "s1t150"
+    ],
+    "literal": "nonminoresemolumentiueldetrimentirebus",
+    "proposed": "non minoris emolumenti vel detrimenti rebus",
+    "status": "emendation",
+    "note": "ten gives re where minoris needs ri; u/v normalized.",
+    "edits": [
+      {
+        "operation": "replace",
+        "raw_start": 8,
+        "raw_end": 9,
+        "before": "e",
+        "after": "i"
+      },
+      {
+        "operation": "replace",
+        "raw_start": 20,
+        "raw_end": 21,
+        "before": "u",
+        "after": "v"
+      }
+    ]
+  },
+  {
+    "id": "A17",
+    "segment": 1,
+    "first": "s1t151",
+    "last": "s1t163",
+    "token_ids": [
+      "s1t151",
+      "s1t152",
+      "s1t153",
+      "s1t154",
+      "s1t155",
+      "s1t156",
+      "s1t157",
+      "s1t158",
+      "s1t159",
+      "s1t160",
+      "s1t161",
+      "s1t162",
+      "s1t163"
+    ],
+    "literal": "dilectionesuestre",
+    "proposed": "Dilectionis Vestrae",
+    "status": "emendation",
+    "note": "ed gives ne where Dilectionis needs ni; ae and u/v normalized.",
+    "edits": [
+      {
+        "operation": "replace",
+        "raw_start": 9,
+        "raw_end": 10,
+        "before": "e",
+        "after": "i"
+      },
+      {
+        "operation": "replace",
+        "raw_start": 11,
+        "raw_end": 12,
+        "before": "u",
+        "after": "v"
+      },
+      {
+        "operation": "insert",
+        "raw_start": 16,
+        "raw_end": 16,
+        "before": "",
+        "after": "a"
+      }
+    ]
+  },
+  {
+    "id": "A18",
+    "segment": 1,
+    "first": "s1t164",
+    "last": "s1t173",
+    "token_ids": [
+      "s1t164",
+      "s1t165",
+      "s1t166",
+      "s1t167",
+      "s1t168",
+      "s1t169",
+      "s1t170",
+      "s1t171",
+      "s1t172",
+      "s1t173"
+    ],
+    "literal": "quasmeispartes",
+    "proposed": null,
+    "status": "unresolved",
+    "note": "Literal quas meis partes retained; comparative syntax not repaired.",
+    "edits": []
+  },
+  {
+    "id": "A19",
+    "segment": 1,
+    "first": "s1t174",
+    "last": "s1t181",
+    "token_ids": [
+      "s1t174",
+      "s1t175",
+      "s1t176",
+      "s1t177",
+      "s1t178",
+      "s1t179",
+      "s1t180",
+      "s1t181"
+    ],
+    "literal": "sitallaturus",
+    "proposed": "sit allaturus",
+    "status": "literal",
+    "note": "",
+    "edits": []
+  },
+  {
+    "id": "A20",
+    "segment": 1,
+    "first": "s1t182",
+    "last": "s1t186",
+    "token_ids": [
+      "s1t182",
+      "s1t183",
+      "s1t184",
+      "s1t185",
+      "s1t186"
+    ],
+    "literal": "ideocum",
+    "proposed": "ideo cum",
+    "status": "literal",
+    "note": "",
+    "edits": []
+  },
+  {
+    "id": "A21",
+    "segment": 1,
+    "first": "s1t187",
+    "last": "s1t196",
+    "token_ids": [
+      "s1t187",
+      "s1t188",
+      "s1t189",
+      "s1t190",
+      "s1t191",
+      "s1t192",
+      "s1t193",
+      "s1t194",
+      "s1t195",
+      "s1t196"
+    ],
+    "literal": "quautuminmeest",
+    "proposed": "quantum in me est",
+    "status": "emendation",
+    "note": "Visible Z=u changed to n in quantum, not a confirmed source correction.",
+    "edits": [
+      {
+        "operation": "replace",
+        "raw_start": 3,
+        "raw_end": 4,
+        "before": "u",
+        "after": "n"
+      }
+    ]
+  },
+  {
+    "id": "A22",
+    "segment": 1,
+    "first": "s1t197",
+    "last": "s1t205a",
+    "token_ids": [
+      "s1t197",
+      "s1t198",
+      "s1t199",
+      "s1t200",
+      "s1t201",
+      "s1t202",
+      "s1t203",
+      "s1t204",
+      "s1t205",
+      "s1t205a"
+    ],
+    "literal": "suutuertendis",
+    "proposed": "subvertendis",
+    "status": "conjecture",
+    "note": "Probable tus plus confirmed final #; requires joining 10+8 as new 108=b. Not adopted into key.",
+    "edits": [
+      {
+        "operation": "replace",
+        "raw_start": 2,
+        "raw_end": 5,
+        "before": "utu",
+        "after": "bv"
+      }
+    ]
+  },
+  {
+    "id": "A23",
+    "segment": 1,
+    "first": "s1t206",
+    "last": "s1t233",
+    "token_ids": [
+      "s1t206",
+      "s1t207",
+      "s1t208",
+      "s1t209",
+      "s1t210",
+      "s1t211",
+      "s1t212",
+      "s1t213",
+      "s1t214",
+      "s1t215",
+      "s1t216",
+      "s1t217",
+      "s1t218",
+      "s1t219",
+      "s1t220",
+      "s1t221",
+      "s1t222",
+      "s1t223",
+      "s1t224",
+      "s1t225",
+      "s1t226",
+      "s1t227",
+      "s1t228",
+      "s1t229",
+      "s1t230",
+      "s1t231",
+      "s1t232",
+      "s1t233"
+    ],
+    "literal": "hiscecomunisnostredomushostiumconatibus",
+    "proposed": "hisce communis nostrae domus hostium conatibus",
+    "status": "normalization",
+    "note": "Doubling and ae normalized; explicitly marked null signs retain their rows.",
+    "edits": [
+      {
+        "operation": "insert",
+        "raw_start": 7,
+        "raw_end": 7,
+        "before": "",
+        "after": "m"
+      },
+      {
+        "operation": "insert",
+        "raw_start": 17,
+        "raw_end": 17,
+        "before": "",
+        "after": "a"
+      }
+    ]
+  },
+  {
+    "id": "A24",
+    "segment": 1,
+    "first": "s1t234",
+    "last": "s1t244",
+    "token_ids": [
+      "s1t234",
+      "s1t235",
+      "s1t236",
+      "s1t237",
+      "s1t238",
+      "s1t239",
+      "s1t240",
+      "s1t241",
+      "s1t242",
+      "s1t243",
+      "s1t244"
+    ],
+    "literal": "intengerenondesinam",
+    "proposed": "intendere non desinam",
+    "status": "emendation",
+    "note": "hes yields ge in v4; proposed de remains editorial.",
+    "edits": [
+      {
+        "operation": "replace",
+        "raw_start": 5,
+        "raw_end": 6,
+        "before": "g",
+        "after": "d"
+      }
+    ]
+  },
+  {
+    "id": "A25",
+    "segment": 2,
+    "first": "s2t000",
+    "last": "s2t010",
+    "token_ids": [
+      "s2t000",
+      "s2t001",
+      "s2t002",
+      "s2t003",
+      "s2t004",
+      "s2t005",
+      "s2t006",
+      "s2t007",
+      "s2t008",
+      "s2t009",
+      "s2t010"
+    ],
+    "literal": "utmediantealiquo",
+    "proposed": "ut mediante aliquo",
+    "status": "literal",
+    "note": "Source S-to-Ft relabel does not change t value.",
+    "edits": []
+  },
+  {
+    "id": "A26",
+    "segment": 2,
+    "first": "s2t011",
+    "last": "s2t041",
+    "token_ids": [
+      "s2t011",
+      "s2t012",
+      "s2t013",
+      "s2t014",
+      "s2t015",
+      "s2t016",
+      "s2t017",
+      "s2t018",
+      "s2t019",
+      "s2t020",
+      "s2t021",
+      "s2t022",
+      "s2t023",
+      "s2t024",
+      "s2t025",
+      "s2t026",
+      "s2t027",
+      "s2t028",
+      "s2t029",
+      "s2t030",
+      "s2t031",
+      "s2t032",
+      "s2t033",
+      "s2t034",
+      "s2t035",
+      "s2t036",
+      "s2t037",
+      "s2t038",
+      "s2t039",
+      "s2t040",
+      "s2t041"
+    ],
+    "literal": "quidistractisillorunindiuersaspartesanimis",
+    "proposed": "qui distractis illorum in diversas partes animis",
+    "status": "emendation",
+    "note": "Visible n-sign in illorun changed to m; u/v normalized.",
+    "edits": [
+      {
+        "operation": "replace",
+        "raw_start": 19,
+        "raw_end": 20,
+        "before": "n",
+        "after": "m"
+      },
+      {
+        "operation": "replace",
+        "raw_start": 24,
+        "raw_end": 25,
+        "before": "u",
+        "after": "v"
+      }
+    ]
+  },
+  {
+    "id": "A27",
+    "segment": 2,
+    "first": "s2t042",
+    "last": "s2t048",
+    "token_ids": [
+      "s2t042",
+      "s2t043",
+      "s2t044",
+      "s2t044a",
+      "s2t045",
+      "s2t046",
+      "s2t047",
+      "s2t048"
+    ],
+    "literal": "?aci?usmihi",
+    "proposed": "facilius mihi",
+    "status": "conjecture",
+    "note": "Requires O_bar=f and completion of clipped p? to pin=li. ib and G rereadings are probable, not certain.",
+    "edits": [
+      {
+        "operation": "replace",
+        "raw_start": 0,
+        "raw_end": 1,
+        "before": "?",
+        "after": "f"
+      },
+      {
+        "operation": "replace",
+        "raw_start": 4,
+        "raw_end": 5,
+        "before": "?",
+        "after": "li"
+      }
+    ]
+  },
+  {
+    "id": "A28",
+    "segment": 2,
+    "first": "s2t049",
+    "last": "s2t062",
+    "token_ids": [
+      "s2t049",
+      "s2t050",
+      "s2t051",
+      "s2t052",
+      "s2t053",
+      "s2t054",
+      "s2t055",
+      "s2t056",
+      "s2t057",
+      "s2t058",
+      "s2t059",
+      "s2t060",
+      "s2t061",
+      "s2t062"
+    ],
+    "literal": "adperagendumhunc",
+    "proposed": "ad peragendum hunc",
+    "status": "literal",
+    "note": "hunc is retained despite unresolved agreement with the later neuter negotium.",
+    "edits": []
+  },
+  {
+    "id": "A29",
+    "segment": 2,
+    "first": "s2t063",
+    "last": "s2t070",
+    "token_ids": [
+      "s2t063",
+      "s2t064",
+      "s2t065",
+      "s2t066",
+      "s2t067",
+      "s2t068",
+      "s2t069",
+      "s2t070"
+    ],
+    "literal": "ipsorumque",
+    "proposed": "ipsorumque",
+    "status": "literal",
+    "note": "Compound F91=m remains inherited and uncertain.",
+    "edits": []
+  },
+  {
+    "id": "A30",
+    "segment": 2,
+    "first": "s2t071",
+    "last": "s2t086",
+    "token_ids": [
+      "s2t071",
+      "s2t072",
+      "s2t073",
+      "s2t074",
+      "s2t075",
+      "s2t076",
+      "s2t077",
+      "s2t078",
+      "s2t079",
+      "s2t080",
+      "s2t081",
+      "s2t082",
+      "s2t083",
+      "s2t084",
+      "s2t085",
+      "s2t086"
+    ],
+    "literal": "smi?ntirisstisre?at?",
+    "proposed": null,
+    "status": "unresolved",
+    "note": "Rare compounds and repeated 4-like signs remain undeciphered; no grammatical filler.",
+    "edits": []
+  },
+  {
+    "id": "A31",
+    "segment": 2,
+    "first": "s2t087",
+    "last": "s2t100",
+    "token_ids": [
+      "s2t087",
+      "s2t088",
+      "s2t089",
+      "s2t090",
+      "s2t091",
+      "s2t092",
+      "s2t093",
+      "s2t094",
+      "s2t095",
+      "s2t096",
+      "s2t097",
+      "s2t098",
+      "s2t099",
+      "s2t100"
+    ],
+    "literal": "negociumarmorumquorum",
+    "proposed": "negotium armorum quorum",
+    "status": "normalization",
+    "note": "negocium rendered negotium; records c/t change explicitly.",
+    "edits": [
+      {
+        "operation": "replace",
+        "raw_start": 4,
+        "raw_end": 5,
+        "before": "c",
+        "after": "t"
+      }
+    ]
+  },
+  {
+    "id": "A32",
+    "segment": 2,
+    "first": "s2t101",
+    "last": "s2t115",
+    "token_ids": [
+      "s2t101",
+      "s2t102",
+      "s2t103",
+      "s2t104",
+      "s2t105",
+      "s2t106",
+      "s2t107",
+      "s2t108",
+      "s2t109",
+      "s2t110",
+      "s2t111",
+      "s2t112",
+      "s2t113",
+      "s2t114",
+      "s2t115"
+    ],
+    "literal": "motietdiuersionecomine",
+    "proposed": "motu et diversione commune",
+    "status": "emendation",
+    "note": "xir=ti changed to tu; co-mi-ne needs co-mu-ne and consonant doubling.",
+    "edits": [
+      {
+        "operation": "replace",
+        "raw_start": 3,
+        "raw_end": 4,
+        "before": "i",
+        "after": "u"
+      },
+      {
+        "operation": "replace",
+        "raw_start": 8,
+        "raw_end": 9,
+        "before": "u",
+        "after": "v"
+      },
+      {
+        "operation": "replace",
+        "raw_start": 19,
+        "raw_end": 20,
+        "before": "i",
+        "after": "mu"
+      }
+    ]
+  },
+  {
+    "id": "A33",
+    "segment": 2,
+    "first": "s2t116",
+    "last": "s2t131",
+    "token_ids": [
+      "s2t116",
+      "s2t117",
+      "s2t118",
+      "s2t119",
+      "s2t120",
+      "s2t121",
+      "s2t122",
+      "s2t123",
+      "s2t124",
+      "s2t125",
+      "s2t126",
+      "s2t127",
+      "s2t128",
+      "s2t129",
+      "s2t130",
+      "s2t131"
+    ],
+    "literal": "quoduterquepretendimus",
+    "proposed": "quod uterque praetendimus",
+    "status": "normalization",
+    "note": "ae/e. cal=que remains inherited contextual assignment.",
+    "edits": [
+      {
+        "operation": "insert",
+        "raw_start": 13,
+        "raw_end": 13,
+        "before": "",
+        "after": "a"
+      }
+    ]
+  },
+  {
+    "id": "A34",
+    "segment": 2,
+    "first": "s2t132",
+    "last": "s2t152",
+    "token_ids": [
+      "s2t132",
+      "s2t133",
+      "s2t134",
+      "s2t135",
+      "s2t136",
+      "s2t137",
+      "s2t138",
+      "s2t139",
+      "s2t140",
+      "s2t141",
+      "s2t142",
+      "s2t143",
+      "s2t144",
+      "s2t145",
+      "s2t146",
+      "s2t147",
+      "s2t148",
+      "s2t149",
+      "s2t150",
+      "s2t151",
+      "s2t152"
+    ],
+    "literal": "predicteaugustisimenostredomus",
+    "proposed": "praedictae Augustissimae nostrae domus",
+    "status": "normalization",
+    "note": "ae and doubling normalized; elected ub has ib/16 source alternatives.",
+    "edits": [
+      {
+        "operation": "insert",
+        "raw_start": 2,
+        "raw_end": 2,
+        "before": "",
+        "after": "a"
+      },
+      {
+        "operation": "insert",
+        "raw_start": 7,
+        "raw_end": 7,
+        "before": "",
+        "after": "a"
+      },
+      {
+        "operation": "insert",
+        "raw_start": 16,
+        "raw_end": 16,
+        "before": "",
+        "after": "s"
+      },
+      {
+        "operation": "insert",
+        "raw_start": 18,
+        "raw_end": 18,
+        "before": "",
+        "after": "a"
+      },
+      {
+        "operation": "insert",
+        "raw_start": 24,
+        "raw_end": 24,
+        "before": "",
+        "after": "a"
+      }
+    ]
+  },
+  {
+    "id": "A35",
+    "segment": 2,
+    "first": "s2t153",
+    "last": "s2t169",
+    "token_ids": [
+      "s2t153",
+      "s2t154",
+      "s2t155",
+      "s2t156",
+      "s2t157",
+      "s2t158",
+      "s2t159",
+      "s2t160",
+      "s2t161",
+      "s2t162",
+      "s2t163",
+      "s2t164",
+      "s2t165",
+      "s2t166",
+      "s2t167",
+      "s2t168",
+      "s2t169"
+    ],
+    "literal": "comuodusno?minorquamel",
+    "proposed": null,
+    "status": "unresolved",
+    "note": "Literal comuodus no?minor quamel remains. Neither non minori nor ea is adopted.",
+    "edits": []
+  },
+  {
+    "id": "A36",
+    "segment": 2,
+    "first": "s2t170",
+    "last": "s2t171",
+    "token_ids": [
+      "s2t170",
+      "s2t171"
+    ],
+    "literal": "??",
+    "proposed": null,
+    "status": "terminal",
+    "note": "V Q unresolved; not silently declared null.",
+    "edits": []
+  },
+  {
+    "id": "A37",
+    "segment": 3,
+    "first": "s3t000",
+    "last": "s3t016",
+    "token_ids": [
+      "s3t000",
+      "s3t001",
+      "s3t002",
+      "s3t003",
+      "s3t004",
+      "s3t005",
+      "s3t006",
+      "s3t007",
+      "s3t008",
+      "s3t009",
+      "s3t010",
+      "s3t011",
+      "s3t012",
+      "s3t013",
+      "s3t014",
+      "s3t015",
+      "s3t016"
+    ],
+    "literal": "promouerehauddedignetur",
+    "proposed": "promovere haud dedignetur",
+    "status": "normalization",
+    "note": "u/v only; directly checked against following cleartext.",
+    "edits": [
+      {
+        "operation": "replace",
+        "raw_start": 5,
+        "raw_end": 6,
+        "before": "u",
+        "after": "v"
+      }
+    ]
+  },
+  {
+    "id": "A38",
+    "segment": 3,
+    "first": "s3t017",
+    "last": "s3t019",
+    "token_ids": [
+      "s3t017",
+      "s3t018",
+      "s3t019"
+    ],
+    "literal": "q??",
+    "proposed": null,
+    "status": "terminal",
+    "note": "R=q plus V/Gs unresolved. Terminal position alone does not establish null values.",
+    "edits": []
+  }
+]
