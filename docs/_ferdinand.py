@@ -231,7 +231,7 @@ def build(root, docs, page, crumbs, repo):
   <p class="eyebrow">Brussels, Algemeen Rijksarchief, Secrétairerie d'État Allemande, inv. 540 · DECODE R1887, R954, R1889, R1890 · Latin, homophonic alphabet with a syllabary</p>
   <h1>Rhine, hiberna and florins</h1>
   <p class="standfirst">Three ciphered letters between the Cardinal-Infante Ferdinand, governor of the Spanish Netherlands, and his cousin Ferdinand, King of Hungary and from 1637 Emperor. In October 1634 the King writes about a French Rhine expedition and seeks an armed diversion. In November 1635 the Cardinal-Infante declines to let the imperial army winter in Trier. In February 1640 the Emperor asks him for a hundred thousand florins to raise troops against the Elector of Cologne's levies in Westphalia. The 1634 letter has a separate, partly reconstructed cipher. The later two are read with an alphabet recovered from the surviving 1635 Latin draft and a contextual 1640 syllable supplement.</p>
-  <span class="status">1634 partial · 1635 and 1640 substantially read · uncertainties explicit</span>
+  <span class="status">1634: substantial reading with gaps · 1635/1640: readable throughout, with local uncertainties</span>
 </header>
 
 <div class="lede">
@@ -315,7 +315,7 @@ def build(root, docs, page, crumbs, repo):
       <ul>
         <li>One obscured end-of-line sign; the value of <code>14</code> in Hatzfeld's name; a few singleton syllable values; the copying errors <em>igitua</em>, <em>materi</em>, <em>expredse</em>.</li>
         <li>No independent 1640 plaintext; the countersignatures read provisionally <em>Furstenberg</em> and <em>Jo: Georgius Pucher[g?]</em>.</li>
-        <li>Prior publication: Manuscrits Divers 1151 at the Belgian archive (nineteenth-century copies) not inspected; no historical key sheet found. The separate 1634 cipher remains partly deciphered: its rare signs, numerical grouping and incomplete syntax need a matching key or another witness. See the <a href="{repo}/tree/main/ferdinand-1634">1634 evidence and apparatus</a>.</li>
+        <li>Prior publication is unestablished. Manuscrits Divers 1151 contains nineteenth-century copies of the correspondence, catalogued as Spanish; inclusion of this Latin letter is unknown. No matching historical key sheet was found. The separate 1634 cipher has unresolved signs and syntax. A matching key or another witness could test these readings; further progress is not ruled out. See the <a href="{repo}/blob/main/ferdinand-1634/SOURCES.md">1634 source search and its limits</a>.</li>
       </ul>
     </div>
   </div>
