@@ -275,8 +275,8 @@ def index():
   <div class="entry">
     <h2><a href="ferdinand-reading.html">Ferdinand correspondence</a></h2>
     <p class="where">Stuttgart / Brussels / Vienna, 28 October 1634, 16 November 1635 and 22 February 1640</p>
-    <p class="status">1634 partial · 1635/1640 substantially deciphered</p>
-    <p>A French Rhine expedition, winter quarters at Trier, and recruitment in Westphalia with a request for 100,000 florins. The separate 1634 cipher is partly reconstructed; its gaps and conjectures remain explicit. A known Latin draft supplies the 1635 alphabet; a separate syllable supplement extends the reading through both 1640 pages. Uncertain glyphs and copying errors remain explicit.</p>
+    <p class="status">Substantial readings · 1634 has unresolved passages</p>
+    <p>A French Rhine expedition, winter quarters at Trier, and recruitment in Westphalia with a request for 100,000 florins. The separate 1634 cipher has six unresolved spans and three conjectural readings; its literal output and editorial changes remain explicit. A known Latin draft supplies the 1635 alphabet; a separate syllable supplement extends the reading through both 1640 pages. Uncertain glyphs and copying errors remain explicit.</p>
     <p class="go"><a href="ferdinand-reading.html">Three letters, their readings and evidence</a></p>
     <p><a href="{REPO}/tree/main/ferdinand-1635-1640">Readings, key evidence, transcriptions and decoder</a>.</p>
   </div>

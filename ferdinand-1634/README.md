@@ -1,6 +1,6 @@
 # Ferdinand to the Cardinal-Infante, 28 October 1634
 
-**Partial decipherment.** This Latin letter from Stuttgart discusses French preparations to cross the Rhine, princes under French protection, and a requested armed diversion in the interests of the House of Austria. Connected stretches are readable, but several passages and parts of the sentence structure remain uncertain. No complete English translation is claimed.
+**Substantial reading with unresolved passages** (`partial` status). This Latin letter from Stuttgart discusses French preparations to cross the Rhine, princes under French protection, and a requested armed diversion in the interests of the House of Austria. Connected stretches are readable, but several passages and parts of the sentence structure remain uncertain. No complete English translation is claimed.
 
 The letter is [DECODE R1887](https://de-crypt.org/decrypt-web/RecordsView/1887), Brussels, Algemeen Rijksarchief, Secrétairerie d'État Allemande, inv. 540. The sender was then King of Hungary and Bohemia, later Emperor Ferdinand III; the recipient was his cousin, Cardinal-Infante Ferdinand. The public [Ferdinand correspondence page](https://aaymeloglu.github.io/unsolved-ciphers/ferdinand-reading.html#letter-1634) presents this alongside their 1635 and 1640 letters.
 
@@ -20,7 +20,9 @@ The literal output has **13 unmapped occurrences and seven assigned empty values
 | *subvertendis* | `suutuertendis` | A probable tus reading and visible final s help. Reading `10 8` as `108=b` is unverified; the digits are visibly separated and there is no independent occurrence. |
 | *facilius mihi* | `?aci?usmihi` | Assign the distinct flat oval f, complete the clipped p? to pin=li, and accept the probable ib/G rereadings. |
 
-These are conjectures. Their required new assignments are listed separately in `observations.json` and are **not** added to `key.json`. The request paragraph and the final comparison remain incomplete, and a polished translation would conceal that uncertainty.
+The apparatus marks six spans as unresolved and three as conjectural; other readable spans include explicit emendations. These categories describe the extent of uncertainty, not an accuracy percentage. The surviving 1635 draft gives the later letters stronger external support for their shared alphabet; this separate 1634 reconstruction relies more heavily on context.
+
+These three candidates are conjectures. Their required new assignments are listed separately in `observations.json` and are **not** added to `key.json`. The request paragraph and the final comparison remain incomplete, and a polished translation would conceal that uncertainty.
 
 ## Grades and verification
 
@@ -38,8 +40,8 @@ This checks occurrence conservation, source-label changes, all literal assignmen
 
 Manuscript photographs DECODE I9345–I9348 were consulted with permission. **Images and derived crops are not redistributed.** Strip filenames in the alignment identify local evidence, not public image links. `sources.json` records the holding, source hashes and review scope. The transcription and interpretation are LLM-assisted work, reviewed 23 September 2026. A second-model review independently reproduced all 474 literal assignments and all 38 spans, checked the source additions and revised forms, and retained the three gap readings as conjectures.
 
-The [AP transcription of R953](../ferdinand-1635-1640/sources/R953-DECODE-rejected-comparison.txt) was checked as a candidate key. Its numerical and syllabic values conflict with established assignments here. R945's public metadata was inspected, but no matching key was established and its images were not checked. Targeted searches did not locate another witness or settle publication priority. This is not an exhaustive image-level survey of the SEA keys or printed correspondence.
+Selected images from all 17 Brussels SEA key records R937–R953 and images or attached transcriptions from ten Vienna candidates were checked. No usable matching table or second witness of this letter was found. The [source audit](SOURCES.md) records the inspected scope, explicit conflicts, independent historical context and untested archival leads. It is not an exhaustive search and does not establish publication priority.
 
 `transcription-pass2.txt` preserves the baseline; `transcription.txt` is the elected transcription with stable line labels. `observations.json` records each amendment, alternative and unadopted hypothesis. `alignment.tsv`, `key.json` and `literal.txt` define the literal reading. `apparatus.json` and `READING.md` distinguish normalization, emendation, conjecture and unresolved material. `token-grades.tsv` and `grades.json` give the evidence grades.
 
-A matching key or another letter with the same repertoire would be the strongest next evidence for the rare signs and disputed numerical grouping.
+A matching key or another letter with the same repertoire would provide stronger evidence for the rare signs and disputed numerical grouping. Neighbouring letters in SEA 540 are a targeted lead, but another use of the key has not been established. The current gaps do not demonstrate that further progress is impossible.

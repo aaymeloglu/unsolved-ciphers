@@ -9,6 +9,8 @@ def build_section(root, repo):
     rows = list(csv.DictReader((folder / 'alignment.tsv').open(), delimiter='\t'))
     spans = json.loads((folder / 'apparatus.json').read_text())
     grades = json.loads((folder / 'grades.json').read_text())
+    unresolved = sum(a['status'] == 'unresolved' for a in spans)
+    conjectures = sum(a['status'] == 'conjecture' for a in spans)
     escape = html.escape
     link = f'{repo}/blob/main/ferdinand-1634'
     descriptions = [
@@ -38,9 +40,10 @@ def build_section(root, repo):
 <section class="wide" id="letter-1634">
   <h2>1634: the French Rhine expedition</h2>
   <p class="legend">Ferdinand, King of Hungary and Bohemia, to Cardinal-Infante Ferdinand · Stuttgart, 28 October 1634 · DECODE R1887</p>
-  <span class="status">Partial decipherment · several passages remain unresolved</span>
+  <span class="status">Substantial reading · several passages remain unresolved</span>
   <p>This letter uses a separate repertoire of graphic signs, numbers and syllable groups. Repeated formulas and the surrounding clear Latin constrain a proposed key; no external key or corresponding plaintext draft was used. The cleartext repetition of the closing phrase provides a direct check.</p>
   <p>The elected transcription contains {grades['tokens']} groups, including one partly clipped group provisionally counted as one. {grades['unknown']} occurrences are unmapped and {grades['assigned_empty']} have inherited empty assignments. Assigned values are not a measure of verified accuracy. The <a href="{link}/alignment.tsv">source alignment</a> retains probable readings and alternatives.</p>
+  <p>The apparatus marks {unresolved} spans as unresolved and {conjectures} further spans as conjectural. Other readable spans include explicit editorial emendations. These categories describe the extent of the gaps, not an accuracy percentage. The 1635 draft provides stronger external support for its alphabet and the values carried into 1640; the 1634 reading relies more heavily on context.</p>
   <p class="legend">Left: elected cipher labels. Middle: proposed Latin; † marks an editorial emendation, [word?] a conjecture, and ⟦…⟧ unresolved literal output. Orthographic normalization is recorded in the apparatus. Right: the sense of recognizable stretches, not a continuous translation. Each fold-out shows literal output and the evidence needed for the proposed reading.</p>
 </section>''']
     for seg, (title, context, sense) in enumerate(descriptions):
@@ -81,5 +84,6 @@ def build_section(root, repo):
     <p>Literal grades: <b>17 C, 457 M</b>. C is restricted to the closing phrase directly matched to cleartext. M covers contextual assignments and unresolved signs, without implying that all are equally doubtful. Non-orthographic supplied or changed letters in the proposed text are separately graded I. There is no H or S claim for 1634.</p>
     <p>The <a href="{link}/verify.py">portable verifier</a> reproduces 474 groups and checks all 38 reading spans, the amendments, grades and isolation of conjectural values. It checks consistency, not the truth of every reading. Exploratory fixed-key shuffle scores were not adjusted for key search and manual selection and are not used here as accuracy claims.</p>
   </div></div>
+  <p>Selected images from 17 Brussels SEA key records and material from ten Vienna candidates yielded no matching table. The search does not exhaust the surviving keys or correspondence. Neighbouring letters in SEA 540 are a concrete lead, but another use of this repertoire has not been established. <a href="{link}/SOURCES.md">Source checks, historical context and remaining leads</a>.</p>
 </section>''')
     return '\n'.join(parts)
