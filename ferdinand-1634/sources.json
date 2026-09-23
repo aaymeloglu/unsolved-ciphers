@@ -1,0 +1,19 @@
+{
+  "record": "R1887",
+  "url": "https://de-crypt.org/decrypt-web/RecordsView/1887",
+  "holding": "Brussels, Algemeen Rijksarchief, Secrétairerie d’État Allemande, inv. 540",
+  "date": "1634-10-28",
+  "origin": "Stuttgart",
+  "sender": "Ferdinand, King of Hungary and Bohemia (later Emperor Ferdinand III)",
+  "recipient": "Cardinal-Infante Ferdinand",
+  "image_policy": "Private DECODE manuscript photographs consulted locally; images and derived crops are not redistributed. Strip names in alignment.tsv identify local review evidence only.",
+  "image_sha256": {
+    "IMG_R1887_I9345_P1.png": "80307b5af60ebd21ff509640472673d175d8ec593a4cc034b9828a44d5bf9cc7",
+    "IMG_R1887_I9346_P2.png": "b7003ac10251819075b2bccb616ca82bd49b08d1bc7a78ac39c3509a262fab4a",
+    "IMG_R1887_I9347_P3.png": "57a9c21a4384c71c16708fbeca71fa349de5e825413609c938f5c4a363f07433",
+    "IMG_R1887_I9348_P4.png": "d69b0dd46f0a2a2fc2aa40be1431da14778f683d8eec84f11fc0ba9154c59ab6"
+  },
+  "method": "LLM-assisted context-based reconstruction, checked against the manuscript and mechanically verified. No external key or plaintext draft used. Closing repeats in clear.",
+  "review_date": "2026-09-23",
+  "independent_review": "A second-model review reproduced all 474 literal assignments and all 38 spans, checked the additions and revised graphic forms against private source crops, and retained the three gap readings as conjectures. This is a review of the supplied reading, not a blind solve."
+}

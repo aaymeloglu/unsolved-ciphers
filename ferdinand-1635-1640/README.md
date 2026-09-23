@@ -12,7 +12,7 @@ Applied **unchanged** to 1640, that map covers 416 of 779 imported cipher units.
 - [1640 Latin, English translation, and apparatus](READING-1640.md)
 - [Frozen-key validation, unchanged transfer, and subsequent supplement](VALIDATION.md)
 - [Sources, attachments, scholarship, and novelty limits](SOURCES.md)
-- [1634: why it was separate and available evidence](1634-ASSESSMENT.md)
+- [1634: the separate partial decipherment and its evidence](../ferdinand-1634/README.md)
 - [Key overview](KEY.md), [1635 occurrence evidence](key-evidence.tsv), and [1640 additional mapping evidence](key-1640-evidence.tsv)
 - [Transcription conventions](transcriptions/README.md), [R954 draft](transcriptions/R954-draft.md), [R1889 cipher](transcriptions/R1889-working.txt), [R1890 imported cipher](transcriptions/R1890-working.txt), [R1890 reviewed cipher](transcriptions/R1890-reviewed.txt), and [review amendments](transcriptions/R1890-review.tsv)
 
