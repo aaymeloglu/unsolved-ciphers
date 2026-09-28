@@ -8,8 +8,14 @@ Python 3.12, managed by uv; Pillow is the one dependency.
 
 ## Modules
 
+[Scoring diagnostics, source rejection evidence, and corpus coverage](DIAGNOSTICS.md)
+document the checks added after the Debosnys investigation, including a real-data replay.
+
 | Module | What it gives you |
 |---|---|
+| `diagnostics` | `perturbation_report`: change one symbol assignment at a time from a known key; count higher-scoring mistakes, ties, and lower scores, with optional singleton-only diagnosis. |
+| `evidence` | `rejection_record`: input-bound length and repeated-glyph contradictions for a fixed nonempty string model. `verify_rejection` independently checks witnesses; JSONL verification CLI. Limits and absent contradictions are inconclusive. |
+| `coverage` | `coverage_report`: token, row and window lookup coverage; missing words ranked by windows a correction would recover. JSON CLI. |
 | `normalize` | `normalize(text, alphabet, folds, keep_spaces)` so the model and the decipherment share one alphabet. Folds run before accent stripping (ä to ae, not a). `GERMAN_FOLDS`, `EARLY_MODERN_FOLDS` (j to i, v to u). `strip_gutenberg`. |
 | `lm` | `CharLM` (order-n, add-alpha, log10, cached; `score`, `score_words`, `per_window`). `WordLM` (unigram + bigram, character backoff for unseen words). `BackoffCharLM` (stupid backoff, for scoring a single unseen word). `cached(path, build, loader)` to build once per target. |
 | `segment` | `Segmenter(text, order, oov, min_count, max_word)`: score a letter string by its best split into corpus words, with an order-n character fallback for unseen words. `score`, `segment`, `score_chunks` (any non-letter such as a `#` word-sign breaks a chunk), `from_corpus(lang)`. The Moray scorer; the kit's answer to the wall below. |
