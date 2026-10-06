@@ -20,7 +20,54 @@ from collections.abc import Callable, Iterable, Mapping, Sequence
 from dataclasses import dataclass, field
 from pathlib import Path
 
-__all__ = ["Assignment", "align_rows", "apply", "holdout", "read_tsv"]
+__all__ = ["Assignment", "align_rows", "apply", "holdout", "read_tsv", "literal_crib_scan"]
+
+
+def literal_crib_scan(units: Sequence[str | None], plaintext: str) -> dict:
+    """Check every literal placement under a consistent glyph -> one-letter key.
+
+    Distinct glyphs may be homophones. None is one unknown glyph position and
+    imposes no equality constraint; it is NOT a null/deletion or a span of
+    unknown length. Scan separate segments to avoid crossing such spans.
+    No normalization is performed, even for spaces or punctuation. No word
+    codes, nulls, variable expansions or transcription errors are modelled.
+
+    Zero conflicts means a consistent local assignment exists, not that the
+    crib is correct. Witness offsets are zero-based absolute token positions.
+    Runtime is O(number of windows * crib length), with no optional dependencies.
+    """
+    units = list(units)
+    if not isinstance(plaintext, str) or not plaintext:
+        raise ValueError("plaintext must be a nonempty string")
+    if any(t is not None and (not isinstance(t, str) or not t) for t in units):
+        raise ValueError("units must be nonempty strings or None")
+    windows = []
+    n = len(plaintext)
+    for offset in range(len(units) - n + 1):
+        counts = {}
+        totals = Counter()
+        first = {}
+        conflicts = 0
+        witness = None
+        for j, letter in enumerate(plaintext):
+            symbol = units[offset + j]
+            if symbol is None:
+                continue
+            bucket = counts.setdefault(symbol, Counter())
+            conflicts += totals[symbol] - bucket[letter]
+            if symbol not in first:
+                first[symbol] = (offset + j, letter)
+            elif witness is None and first[symbol][1] != letter:
+                i, earlier = first[symbol]
+                witness = dict(symbol=symbol, offsets=[i, offset + j], letters=[earlier, letter])
+            bucket[letter] += 1
+            totals[symbol] += 1
+        windows.append(dict(offset=offset, conflicting_pairs=conflicts, witness=witness))
+    return dict(
+        model="one_glyph_one_letter", unknown="None consumes one unconstrained position",
+        tokens=len(units), crib=plaintext, windows=windows,
+        exact_offsets=[w["offset"] for w in windows if w["conflicting_pairs"] == 0],
+    )
 
 
 @dataclass
