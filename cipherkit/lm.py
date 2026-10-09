@@ -6,15 +6,148 @@ WordLM  unigram + bigram over words with a character backoff for out-of-vocabula
         Homophonic solves with known word boundaries (Forster) needed this and the char
         model alone went nowhere.
 
-Both pickle to a cache file so a target directory builds its model once.
+CharLM and WordLM use pickle caches. InterpolatedCharLM is an opt-in
+conditional model with input-stamped JSON caches.
 """
 from __future__ import annotations
 
 import collections
+import hashlib
+import json
 import math
 import os
 import pickle
 from collections.abc import Iterable
+from pathlib import Path
+
+
+class InterpolatedCharLM:
+    """Opt-in normalized conditional model with recursive interpolation.
+
+    For context h, P(c|h) = (count(hc) + T(h)*P(c|suffix(h))) /
+    (N(h) + T(h)), where N counts observed successors and T their distinct
+    types. An unseen context backs off completely; unigrams use add-alpha.
+    Input must already be normalized to the explicit alphabet. Nothing is
+    silently dropped. Existing CharLM/BackoffCharLM behavior is unchanged.
+    """
+
+    CACHE_VERSION = 1
+
+    def __init__(self, counts, *, alphabet: str, order: int, alpha: float,
+                 training_sha256: str):
+        self._validate(alphabet, order, alpha)
+        self.alphabet = alphabet
+        self.order = order
+        self.alpha = alpha
+        self.training_sha256 = training_sha256
+        self.counts = collections.Counter(counts)
+        self._letters = frozenset(alphabet)
+        if any(not isinstance(g, str) or not 1 <= len(g) <= order
+               or not set(g) <= self._letters or type(n) is not int or n <= 0
+               for g, n in self.counts.items()):
+            raise ValueError("invalid n-gram counts")
+        self._totals = collections.Counter()
+        self._types = collections.Counter()
+        for gram, count in self.counts.items():
+            if len(gram) > 1:
+                self._totals[gram[:-1]] += count
+                self._types[gram[:-1]] += 1
+        self._unigrams = sum(n for g, n in self.counts.items() if len(g) == 1)
+        self._cache = {}
+
+    @staticmethod
+    def _validate(alphabet, order, alpha):
+        if not isinstance(alphabet, str) or not alphabet or len(set(alphabet)) != len(alphabet):
+            raise ValueError("alphabet must be a nonempty string of distinct characters")
+        if type(order) is not int or order < 1:
+            raise ValueError("order must be a positive integer")
+        if not isinstance(alpha, (int, float)) or not math.isfinite(alpha) or alpha <= 0:
+            raise ValueError("alpha must be finite and positive")
+
+    @classmethod
+    def from_text(cls, text: str, *, alphabet: str, order: int = 4,
+                  alpha: float = 1.0) -> "InterpolatedCharLM":
+        cls._validate(alphabet, order, alpha)
+        if not isinstance(text, str) or not set(text) <= set(alphabet):
+            raise ValueError("training text contains characters outside the alphabet")
+        counts = collections.Counter()
+        for n in range(1, order + 1):
+            counts.update(text[i:i + n] for i in range(len(text) - n + 1))
+        return cls(counts, alphabet=alphabet, order=order, alpha=alpha,
+                   training_sha256=hashlib.sha256(text.encode("utf-8")).hexdigest())
+
+    def _probability(self, context, letter):
+        if not context:
+            return (self.counts[letter] + self.alpha) / (
+                self._unigrams + self.alpha * len(self.alphabet))
+        lower = self._probability(context[1:], letter)
+        total = self._totals[context]
+        if not total:
+            return lower
+        types = self._types[context]
+        return (self.counts[context + letter] + types * lower) / (total + types)
+
+    def logp(self, gram: str) -> float:
+        """Log10 P(last character | prefix), for a gram of length 1..order."""
+        if not isinstance(gram, str) or not 1 <= len(gram) <= self.order:
+            raise ValueError("gram length must be between 1 and order")
+        if not set(gram) <= self._letters:
+            raise ValueError("gram contains characters outside the alphabet")
+        if gram not in self._cache:
+            self._cache[gram] = math.log10(self._probability(gram[:-1], gram[-1]))
+        return self._cache[gram]
+
+    def score(self, text: str) -> float:
+        """Sum conditional logs, including shorter contexts at the start.
+
+        Score segments separately across missing text. To reproduce a fixed
+        n-gram scorer that omits the first order-1 positions, sum logp(window)
+        over full-length windows explicitly instead.
+        """
+        if not isinstance(text, str) or not set(text) <= self._letters:
+            raise ValueError("text contains characters outside the alphabet")
+        return sum(self.logp(text[max(0, i - self.order + 1):i + 1]) for i in range(len(text)))
+
+    def _stamp(self):
+        return dict(version=self.CACHE_VERSION, alphabet=self.alphabet, order=self.order,
+                    alpha=self.alpha, training_sha256=self.training_sha256)
+
+    def save(self, path: str) -> None:
+        """Portable JSON counts and input stamp; never executes a pickle."""
+        Path(path).write_text(json.dumps(dict(stamp=self._stamp(), counts=self.counts),
+                                        ensure_ascii=False, sort_keys=True), encoding="utf-8")
+
+    @classmethod
+    def load(cls, path: str) -> "InterpolatedCharLM":
+        data = json.loads(Path(path).read_text(encoding="utf-8"))
+        stamp = dict(data["stamp"])
+        if stamp.pop("version") != cls.CACHE_VERSION:
+            raise ValueError("unsupported interpolated model cache version")
+        return cls(data["counts"], **stamp)
+
+    @classmethod
+    def cached_from_text(cls, path: str, text: str, *, alphabet: str,
+                         order: int = 4, alpha: float = 1.0) -> "InterpolatedCharLM":
+        """Load only if training text, alphabet, parameters and version match.
+
+        Stale or malformed caches are rebuilt. Use this method instead of the
+        generic existence-only cached() helper when training inputs may change.
+        """
+        cls._validate(alphabet, order, alpha)
+        if not isinstance(text, str) or not set(text) <= set(alphabet):
+            raise ValueError("training text contains characters outside the alphabet")
+        expected = dict(version=cls.CACHE_VERSION, alphabet=alphabet, order=order,
+                        alpha=alpha, training_sha256=hashlib.sha256(text.encode("utf-8")).hexdigest())
+        try:
+            model = cls.load(path)
+            if model._stamp() == expected:
+                return model
+        except (OSError, ValueError, KeyError, TypeError, AttributeError):
+            pass
+        model = cls.from_text(text, alphabet=alphabet, order=order, alpha=alpha)
+        Path(path).parent.mkdir(parents=True, exist_ok=True)
+        model.save(path)
+        return model
 
 
 class CharLM:

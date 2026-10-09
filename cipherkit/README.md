@@ -17,15 +17,109 @@ document the checks added after the Debosnys investigation, including a real-dat
 | `evidence` | `rejection_record`: input-bound length and repeated-glyph contradictions for a fixed nonempty string model. `verify_rejection` independently checks witnesses; JSONL verification CLI. Limits and absent contradictions are inconclusive. |
 | `coverage` | `coverage_report`: token, row and window lookup coverage; missing words ranked by windows a correction would recover. JSON CLI. |
 | `normalize` | `normalize(text, alphabet, folds, keep_spaces)` so the model and the decipherment share one alphabet. Folds run before accent stripping (ä to ae, not a). `GERMAN_FOLDS`, `EARLY_MODERN_FOLDS` (j to i, v to u). `strip_gutenberg`. |
-| `lm` | `CharLM` (order-n, add-alpha, log10, cached; `score`, `score_words`, `per_window`). `WordLM` (unigram + bigram, character backoff for unseen words). `BackoffCharLM` (stupid backoff, for scoring a single unseen word). `cached(path, build, loader)` to build once per target. |
+| `lm` | `CharLM` (order-n, add-alpha, log10, cached; `score`, `score_words`, `per_window`). `WordLM` (unigram + bigram, character backoff for unseen words). `BackoffCharLM` (stupid backoff, for scoring a single unseen word). `cached(path, build, loader)` to build once per target. Optional `InterpolatedCharLM` provides normalized conditional interpolation with input-stamped JSON caches. |
 | `segment` | `Segmenter(text, order, oov, min_count, max_word)`: score a letter string by its best split into corpus words, with an order-n character fallback for unseen words. `score`, `segment`, `score_chunks` (any non-letter such as a `#` word-sign breaks a chunk), `from_corpus(lang)`. The Moray scorer; the kit's answer to the wall below. |
 | `anneal` | `anneal(symbols, values, score, fixed=, bijective=, iters=, t0=, t1=, seed=, init=)` over a plain dict. `frequency_init` for a ranked homophonic start. `climb` for a greedy finish. `restarts(run, seeds, workers)` for several seeds in parallel. |
 | `controls` | `matched_control(corpus, target_tokens, design)` builds a synthetic cipher of the same length and symbol count. `mono_control`, `homophonic_control` (homophones apportioned by letter frequency), `spaced_control` (word gaps kept as tokens, whole words replaced by a sign). `key_recovery(found, true, weights)`. Two permutation tests with different nulls: `permutation_z(score, tokens, n)` shuffles the tokens (is the order informative under this key?); `permutation_z_key(score, key, tokens, n, fixed=)` shuffles the key's values among its glyphs (is this key better than a relabelling of the same glyphs?). |
-| `align` | Known plaintext to key. `read_tsv(path)` loads rows of `id`, `cipher` (space-separated units), `plain`, `evidence`; `align_rows(rows, fold=)` pairs one unit with one letter and returns per-symbol `Assignment`s (majority letter, every occurrence as `A01:3`, every disagreement in `conflicts`); `holdout(rows, key, fold=)` scores rows the key never saw; `apply(units, key)`. |
-| `tokens` | `parse(text, style)` for the four transcription formats we produce (`groups`, `mixed`, `annotated`, `letters`); `cipher_tokens`, `segments`, `symbol_counts`. |
+| `align` | Known plaintext to key. `read_tsv(path)` loads rows of `id`, `cipher` (space-separated units), `plain`, `evidence`; `align_rows(rows, fold=)` pairs one unit with one letter and returns per-symbol `Assignment`s (majority letter, every occurrence as `A01:3`, every disagreement in `conflicts`); `holdout(rows, key, fold=)` scores rows the key never saw; `apply(units, key)`. `literal_crib_scan(units, plaintext)` checks all one-letter placements and reports conflict witnesses. |
+| `tokens` | `parse(text, style)` for the four transcription formats we produce (`groups`, `mixed`, `annotated`, `letters`); `cipher_tokens`, `segments(gaps=...)`, `symbol_counts`, and `transformation_report` for a position-preserving relabelling ledger. |
 | `transcribe` | The transcription workflow as commands: `layout` (deskew by ink-profile variance, find line bands; `--crop auto` finds the paper inside a dark photograph frame, `--flatten` removes its illumination gradient, `--slabs N` deskews a curled sheet in N pieces), `strips` (one PNG per line, labelled boards, manifest with source SHA-256 and boxes), `gaps` (word gaps in one line strip as column ranges), `compare` (align two passes token by token, alternatives count), `consensus` (third pass with `{a/b}` at disagreements), `review` (self-contained HTML with strip, chips, key values, disputed highlights). |
 | `grades` | The CONVENTIONS grade vocabulary: `GRADES` (H, C, S, M, I), `Reading(token, value, grade, basis)`, `grade_token` and `apply_key` over a key of the moray `key.json` shape (a token absent from the key reads `?` at grade M), `counts` (always all five grades; rejects any other label), `render` (bare for H, C, S; `(value)` for M; `[value]` for I), `summary_line`. |
 | `corpora` | `RECIPES` of Gutenberg and Internet Archive sources per language (en, fr, it, de, es, la, sco, nl), `fetch(lang)`, `text(lang)`, `describe(lang)`, `clean_ocr`. See "Period corpora" below. |
+
+## Source preservation, literal cribs and optional interpolation
+
+Use explicit `groups` parsing for glyph labels. Auto-detection is a convenience
+for other formats, not a guarantee that unfamiliar glyph notation is preserved.
+The parser keeps superscripts, attached dots and case; proposed mergers should
+be separate, auditable transformations. Gap labels are explicit and remain in
+the parsed source even when they interrupt scoring:
+
+```python
+from cipherkit import parse, segments, transformation_report, literal_crib_scan
+
+tokens = parse("ax a^y [gap] B^v Bo B:", style="groups")
+chunks = segments(tokens, gaps={"[gap]"})
+assert chunks == [["ax", "a^y"], ["B^v", "Bo", "B:"]]
+ledger = transformation_report(["ax", "a^y"], ["ax", "ax"])
+assert ledger["mergers"] == {"ax": ["a^y", "ax"]}
+
+scan = literal_crib_scan(["X", "A", "A"], "ab")
+assert scan["exact_offsets"] == [0]
+assert scan["windows"][1]["witness"]["offsets"] == [1, 2]
+```
+
+The transformation ledger records zero-based positions, both ordered-input hashes
+and every many-to-one merger, including collisions with unchanged labels. It
+rejects length changes and empty labels; insertions/deletions require a separate
+alignment. A ledger documents a transformation, not its historical correctness.
+
+The crib scan permits homophones but requires each repeated symbol to stand for
+one consistent letter. All characters are literal; normalize the plaintext
+explicitly if appropriate. `None` consumes one unknown glyph position without
+an equality constraint. It is not a null or an unknown-length gap; scan separate
+chunks across those boundaries. An exact placement establishes only a locally
+consistent assignment. Negative results concern this literal spelling under
+this specific model, not ciphers with word codes, nulls or transcription errors.
+Each failed window includes a conflicting pair of absolute token positions.
+
+`InterpolatedCharLM` is an additional conditional model; existing defaults and
+solvers are unchanged. It interpolates observed successor counts with shorter
+contexts, falling back to add-alpha unigrams. Every next-character distribution
+is normalized, including unseen contexts. Alphabet and already-normalized text
+are explicit; unsupported characters raise an error instead of disappearing.
+
+```python
+from cipherkit import InterpolatedCharLM
+
+lm = InterpolatedCharLM.cached_from_text(
+    "corpora/example-interpolated.json", "ababa", alphabet="abc", order=4,
+)
+assert abs(sum(10 ** lm.logp("abc" + c) for c in "abc") - 1) < 1e-12
+score = sum(lm.score(chunk) for chunk in ["aba", "cab"])
+```
+
+`logp(gram)` is log10 P(last character | prefix), for lengths 1 through `order`.
+`score(text)` includes shorter starting contexts. For parity with a fixed-window
+C scorer that omits starting positions, sum `logp` only over full-length windows.
+Score separated chunks independently; do not join across missing text. JSON
+`save`/`load` preserves the model. `cached_from_text` rebuilds when the training
+text hash, alphabet (including order), model order, alpha or cache version changes.
+The older generic `cached` helper remains existence-only.
+
+### Validation and limits
+
+The Ferdinand round-3 replay on 6 October 2026 verified the shared code against
+separately stored research, without adding images or model binaries to this repo:
+
+| Check | Result |
+|---|---|
+| Source transformation ledger | 537 changed positions of 3,136; 336 labels become 105 |
+| Four literal cribs on two transcriptions | Same windows, exact placements and five best conflict counts as the saved scans |
+| Conditional probability table | All 194,481 values equal the experimental interpolated table |
+| Same 744-letter synthetic control | Original and interpolated models both recover 97.715% in seven of eight saved runs; eighth fails under both |
+| Known-key single-symbol diagnostic | 21 original / 20 interpolated incorrect alternatives outscore truth, out of 1,180; six symbols affected under each |
+
+This is a parity check and a limited comparison, not proof of a stronger general
+solver. The control has clean letter homophony and does not model the target's
+unknown codes, nulls or transcription errors. The original comparison model is
+Ferdinand's local conditional add-0.1 scorer, not shared `CharLM` or `BackoffCharLM`.
+The latter shared models were not benchmarked against this new option.
+
+Public tests use synthetic labels and the existing public English corpus fixture.
+They cover conflict counts against exhaustive pair enumeration, normalized
+conditional distributions, held-out text versus shuffle, source preservation,
+short/empty inputs and cache invalidation. The optional real-data replay needs
+the trusted local research directory and its exact normalized training text:
+
+```sh
+python tools/check_ferdinand_round3.py /path/to/ferdinand-1498 \
+  --training-text /path/to/normalized-training.txt --output /tmp/ferdinand-replay.json
+```
+
+That replay reads legacy local model pickles, so its inputs must be trusted.
+It does not rerun annealing or fetch sources. Failed variable-length/syllabic
+experiments are not part of the shared API; no decipherment is claimed.
 
 ## Grading a reading
 
