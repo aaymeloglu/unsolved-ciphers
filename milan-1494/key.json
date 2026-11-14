@@ -55,8 +55,32 @@
     "c"
    ],
    "grade": "H",
-   "shape": "÷ (dash with dot above and/or below)",
-   "basis": "key sheet MAP LXXII 183 lists ÷ under both n and c; dots not resolvable at 1272 px"
+   "shape": "÷, dots not made out",
+   "basis": "key sheet MAP LXXII 183 lists ÷ under both n and c; used only where the dots cannot be made out (see N' and N,)"
+  },
+  "N'": {
+   "values": [
+    "n"
+   ],
+   "sheet": [
+    "n",
+    "c"
+   ],
+   "grade": "C",
+   "shape": "dash with a tick or dot above it, with or without a dot below; the dash straight or sloping",
+   "basis": "split of the sheet's ÷ by dot position: in doc. 114 gloss (LXXIV 114, cc. 258v, 259v) dot-above signs stand over n in 32 of 34; in letters 112, 113, 115 all 73 are n where the word decides (34 forced words)"
+  },
+  "N,": {
+   "values": [
+    "c"
+   ],
+   "sheet": [
+    "n",
+    "c"
+   ],
+   "grade": "C",
+   "shape": "dash with a dot below only, the dash usually arched",
+   "basis": "split of the sheet's ÷ by dot position: in letters 112, 113, 115 all 34 are c where the word decides (20 forced words); in doc. 114 gloss (LXXIV 114, cc. 258v, 259v) 14 of 21 (the gloss mask hid most dots there)"
   },
   "/": {
    "values": [
@@ -68,8 +92,32 @@
     "c"
    ],
    "grade": "H",
-   "shape": "÷ (Alamanni transcription label)",
+   "shape": "÷ (Alamanni), dots not made out",
    "basis": "key sheet MAP LXXII 183 lists ÷ under both n and c"
+  },
+  "/'": {
+   "values": [
+    "n"
+   ],
+   "sheet": [
+    "n",
+    "c"
+   ],
+   "grade": "C",
+   "shape": "Alamanni: dash with a tick above the right end, with or without a dot below",
+   "basis": "as N'; in Alamanni's letter all 12 in forced words are n"
+  },
+  "/,": {
+   "values": [
+    "c"
+   ],
+   "sheet": [
+    "n",
+    "c"
+   ],
+   "grade": "C",
+   "shape": "Alamanni: arched dash with a dot below only",
+   "basis": "as N,; in Alamanni's letter all 6 in forced words are c"
   },
   "Z": {
    "values": [
@@ -80,8 +128,39 @@
     "d"
    ],
    "grade": "H",
-   "shape": "open h-like sign with a top bar",
-   "basis": "key sheet MAP LXXII 183 gives d as a crossed h; the l-sign (crossed b) is often written open, so this shape is a d/l class"
+   "shape": "tall hook sign, form not made out",
+   "basis": "d/l class, used only where the form cannot be made out (see Zh, Za)"
+  },
+  "Zh": {
+   "values": [
+    "d"
+   ],
+   "sheet": [
+    "d"
+   ],
+   "grade": "C",
+   "shape": "tall slanted stem ending in an open angular hook, no arm to the right at the baseline; with or without a bar across the stem",
+   "basis": "in doc. 114 gloss (LXXIV 114, cc. 258v, 259v) this form stands over d in 38 of 43; in letters 112, 113, 115 all 57 are d where the word decides"
+  },
+  "Za": {
+   "values": [
+    "l"
+   ],
+   "sheet": [
+    "l"
+   ],
+   "grade": "C",
+   "shape": "the same hook with a horizontal arm leaving the stem to the right at the baseline (h- or 4-like)",
+   "basis": "in doc. 114 gloss (LXXIV 114, cc. 258v, 259v) this form stands over l in 32 of 33; in letters 112, 113, 115 all 32 are l where the word decides"
+  },
+  "LL": {
+   "values": [
+    "ll"
+   ],
+   "sheet": [],
+   "grade": "C",
+   "shape": "d-shape: bowl to the left of a right-leaning stem, with a long bar across the ascender",
+   "basis": "in doc. 114 gloss (LXXIV 114, cc. 258v, 259v) it stands where the gloss has ll (quella, alla, quello, fanciullo, Isabella, quelli); Gabbrielli's copy of the 1492 Alamanni key (no. 25) lists it under 'doppie' as ll"
   },
   "Zd": {
    "values": [
@@ -113,7 +192,7 @@
     "l"
    ],
    "grade": "H",
-   "shape": "round closed bowl with a crossed ascender (Ridolfi); form with a foot to the right (Alamanni)",
+   "shape": "Alamanni: stem turning into an arm to the right at the baseline (his l-form). Ridolfi: only 112r:5.8, a stem with a bar at x-height, form unclear",
    "basis": "key sheet MAP LXXII 183 (l = crossed b)"
   },
   "b": {
@@ -469,7 +548,7 @@
    "sheet": [],
    "grade": "S",
    "shape": "closed circle with a vertical stroke through it",
-   "basis": "not on the sheet; fitted to arriuando, uorrei (Ridolfi) and guerra, serrarci (Alamanni); no gloss seen"
+   "basis": "not on the sheet; fitted to arriuando, uorrei (Ridolfi) and guerra, serrarci (Alamanni); no gloss seen; corroborated: Gabbrielli's copy of the 1492 Alamanni key (no. 25) lists this sign under 'doppie' as rr"
   },
   "NN": {
    "values": [
@@ -478,16 +557,16 @@
    "sheet": [],
    "grade": "S",
    "shape": "large e-like loop",
-   "basis": "not on the sheet; fitted to innanzi, danno, Donnino, Giovanni, hanno; no gloss seen"
+   "basis": "not on the sheet; fitted to innanzi, danno, Donnino, Giovanni, hanno; no gloss seen; corroborated: Gabbrielli's copy of the 1492 Alamanni key (no. 25) lists this sign under 'doppie' as nn"
   },
   "BB": {
    "values": [
     "bb"
    ],
    "sheet": [],
-   "grade": "S",
+   "grade": "C",
    "shape": "cross with dots",
-   "basis": "not on the sheet; fitted to habbiate and habbia (one stem); no gloss seen"
+   "basis": "doc. 114 gloss (LXXIV 114, cc. 258v, 259v): gioverebbe, harebbe, passerebbe, sarebbe (4 of 4); before that fitted from habbiate, habbia"
   },
   "CC": {
    "values": [
@@ -547,18 +626,18 @@
     "[Re]"
    ],
    "sheet": [],
-   "grade": "I",
+   "grade": "C",
    "shape": "2 with a long tail and a raised c",
-   "basis": "person sign not on the sheet and not glossed; read as the King of France from four contexts"
+   "basis": "doc. 114 gloss (LXXIV 114, cc. 258v, 259v): glossed 'Re' five times (c. 259v lines 3, 8, 12, 16, 20); not on the key sheet"
   },
   "RD": {
    "values": [
-    "[Duca o Lodovico]"
+    "[Duca]"
    ],
    "sheet": [],
    "grade": "I",
    "shape": "2 with a long tail and a raised d/l sign",
-   "basis": "person sign not on the sheet and not glossed; the Duke of Milan or Lodovico Sforza, unresolved"
+   "basis": "doc. 114 gloss (LXXIV 114, cc. 258v, 259v): the same long-tailed base with a different raised letter is glossed 'Duca' twice (c. 259v lines 3-4); the raised letter there is not certainly the one in 112, so the identity stays inferred"
   },
   "N22": {
    "values": [
