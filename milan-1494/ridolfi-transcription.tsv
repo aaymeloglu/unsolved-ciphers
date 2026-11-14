@@ -146,7 +146,7 @@ id	leaf	line	kind	tokens	tier	reading	note
 112r:19.3	112r	19	word	a i c Za 7 v c	strict	qualita	
 112r:19.4	112r	19	word	Zh c	strict	da	
 112r:19.5	112r	19	word	TH	strict	non	
-112r:19.6	112r	19	word	Za 7	strict	li	d/l: "da non li manchare scusa"
+112r:19.6	112r	19	word	Za 7	strict	li	"da non li manchare scusa"
 112r:19.7	112r	19	word	x c Na Nb UT=h 11 4 m	forced	manchare	
 112r:19.8	112r	19	word	L=s Nb p o 11	forced	scusa	
 112r:19.9	112r	19	null	9n	null		
@@ -244,7 +244,7 @@ id	leaf	line	kind	tokens	tier	reading	note
 113r:8.3	113r	8	word	2 P 4 gd UT=h P	forced	borgho	
 113r:8.4	113r	8	word	11	strict	a	
 113r:8.5	113r	8	word	L=s 11 Na	lenient	san	
-113r:8.6	113r	8	word	Zh P NN 7 Na P	strict	donnino	d/l, n/c: Borgo San Donnino
+113r:8.6	113r	8	word	Zh P NN 7 Na P	strict	donnino	Borgo San Donnino
 113r:8.7	113r	8	word	v 4 P p oo	strict	trouo	
 113r:8.8	113r	8	word	p m o v 7 Z°x v P	strict	uestito	
 113r:8.9	113r	8	word	11	strict	a	

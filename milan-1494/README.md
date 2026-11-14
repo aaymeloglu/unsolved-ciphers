@@ -54,7 +54,7 @@ Each cipher word is assigned a tier for how its reading was chosen, then a grade
 
 `verify.py` enforces the tier rules (a strict word may not contain a two-valued sign, a second shape reading or a poorly seen sign) and checks that every editorial reading spells exactly what the key gives, apart from [bracketed] letters, accents, apostrophes and u/v. Abbreviations are graded at the level of the enciphered letters (*prta* is H; the expansion *pr[efa]ta* is editorial).
 
-The read fractions are coverage, not accuracy. On a blind test (below), about three words in four came out right, so the lenient figures include wrong words.
+The read fractions are coverage, not accuracy. On the blind calibration on Ridolfi's hand (below), about three words in four came out right, so the lenient figures include wrong words.
 
 ## Controls and calibration
 

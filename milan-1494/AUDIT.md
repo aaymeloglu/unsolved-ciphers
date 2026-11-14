@@ -51,6 +51,6 @@ This file is the research history behind [README.md](README.md). Steps 1 to 6 ar
 | Gabbrielli no. 34 "does not bear on" the letters is too absolute | Now "is not the alphabet of the October 1494 letters" |
 | "Two letters" for four letters; "secure parts are H or C" equates provenance with a sure reading | Reworded |
 
-Not applied from the second review: demoting every sign the sorters marked low confidence. Only the two where the doubt is the stem foot itself, as the review advised.
+Not applied from the second review: demoting every sign the sorters marked low confidence. Only the two strict words where the doubt is the stem foot itself, as the review advised; the other low-confidence stem signs are in words that were already forced, lenient or doubtful.
 
 Not applied: the first review's suggestion to publish a separate diplomatic expansion for every word. The literal key output of every word is in reading.txt and the editorial form beside it, which covers the same need.
