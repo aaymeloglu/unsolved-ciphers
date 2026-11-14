@@ -14,7 +14,7 @@ LETTERS = {
         md="ridolfi-reading.md",
         title="Ridolfi to Piero de' Medici, October 1494",
         short="Ridolfi, Milan, 1494",
-        eyebrow="Partial · two groups unread · 13 November 2026",
+        eyebrow="Partial · two groups unread · 14 November 2026",
         standfirst="Three despatches of Giovan Battista Ridolfi, Florentine envoy in Milan, to Piero de' Medici, 16, 21 and 30 October 1494 (ASF, Mediceo avanti il Principato LXXIV docs 112, 113, 115), as Charles VIII came through Lombardy and Gian Galeazzo Sforza died at Pavia. Read with the embassy's key sheet, MAP LXXII 183.",
         desc="Ridolfi's cipher despatches from Milan, October 1494, read in part with the surviving Florentine key sheet: the King at Pavia with Duchess Bona, the death of Gian Galeazzo, and Milanese opinion that Florence cannot resist.",
     ),
@@ -24,7 +24,7 @@ LETTERS = {
         md="alamanni-reading.md",
         title="Alamanni to Piero de' Medici, 26 April 1494",
         short="Alamanni, Vigevano, 1494",
-        eyebrow="Partial · eleven words unread · 13 November 2026",
+        eyebrow="Partial · nine words unread · 14 November 2026",
         standfirst="A letter of Piero Alamanni, Florentine orator at Lodovico Sforza's court, to Piero de' Medici, Vigevano, 26 April 1494 (ASF, Mediceo avanti il Principato LXXIV doc. 96), with cipher passages urging the Neapolitan stroke against Genoa. Read with the same key sheet as Ridolfi's letters, MAP LXXII 183.",
         desc="Alamanni's cipher passages from Vigevano, April 1494, read in part with the surviving Florentine key sheet: the plan to turn Genoa as the one remedy, done in time and under cover.",
     ),
@@ -152,6 +152,6 @@ def build(root, docs, page, crumbs, repo):
 </section>
 <section>
   <h2>Sources</h2>
-  <p>Archivio di Stato di Firenze, Mediceo avanti il Principato, online images (not redistributed here; as of 13 November 2026 the server answers only from Italy). Daniel Bourdeau, <a href="https://github.com/dbourdeau/cyphersolver">cyphersolver</a>, catalogue entries 2381 and 2382. This page is generated from the transcriptions, <code>reading.txt</code>, <code>key.json</code> and the reading file in the <a href="{repo}/tree/main/milan-1494">repository</a>.</p>
+  <p>Archivio di Stato di Firenze, Mediceo avanti il Principato, online images (not redistributed here; on 13 November 2026 the server answered only from Italy, on 14 November from the US as well). Daniel Bourdeau, <a href="https://github.com/dbourdeau/cyphersolver">cyphersolver</a>, catalogue entries 2381 and 2382. This page is generated from the transcriptions, <code>reading.txt</code>, <code>key.json</code> and the reading file in the <a href="{repo}/tree/main/milan-1494">repository</a>.</p>
 </section>"""
         (docs / cfg["page"]).write_text(page(cfg["short"], cfg["desc"], body))
