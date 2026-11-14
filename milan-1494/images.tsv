@@ -1,0 +1,33 @@
+# ASF Mediceo avanti il Principato images used for the milan-1494 readings. Fetch with fetch_images.py (Italian IP needed as of 13 Nov 2026).
+# sha256 and size are of our copies, fetched 13 Nov 2026 at the server maximum width (1272 px); a re-fetch may differ in bytes if the server re-encodes.
+image_id	filza	doc	leaf	role	width	height	sha256	viewer_url
+81733	LXXIV	96	c. 220 r	Alamanni: clear opening	1272	1872	5ff6aeaf1e3ed91df5e80d3716cc90ee3d2a9171c425512df2eb2958873f8b5e	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81733
+81734	LXXIV	96	c. 220 v	Alamanni: cipher from line 6	1272	1872	317c97862cef9317041107346d48d70bc944fc910282bb03d98bdd54ea7efe3e	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81734
+81735	LXXIV	96	c. 221 r	Alamanni: cipher lines 1-6, 9-14, 20-24	1272	1872	a6d864b507d84b68ebfc64e05dbe42721366733c792e7c40d808b25fb6bfc41e	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81735
+81736	LXXIV	96	c. 221 v	Alamanni: cipher first lines, the three things, signature	1272	1872	07e86f2063f4b3f092558662610f180f0f899d52a49cabab5ff95b1bfe4f7352	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81736
+81807	LXXIV	112	c. 256 r	Ridolfi 16 Oct: three cipher blocks	1272	1848	4643160f6f9cfbbb0713ac76881642f88791ee9a2353c374c59962784693ac6d	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81807
+81808	LXXIV	112	c. 256 v	Ridolfi 16 Oct: show-through only, no cipher	1272	1848	6da327eb6142b57fa89e482f2d1739eb25f96c6cb78d35c09c5d68546934aa4f	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81808
+81809	LXXIV	112	c. 261 r	Ridolfi 16 Oct: second leaf	1272	1848	79c1948c3c26d2083e204b95074ebc47f74e7b65e2c1debd41072df83c736cb9	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81809
+81810	LXXIV	112	c. 261 v	Ridolfi 16 Oct: address	1272	1848	23f7189a5c30dd1db61b2c6791be55dc5abb42636fe6d6eebba0c81d484eb216	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81810
+81811	LXXIV	113	c. 257 r	Ridolfi 21 Oct: cipher, lower third (two blocks)	1272	1848	afce24af85bd3a7574e5dd5186450c68f7a3e28c601f6580cff0feea6b3e7c6e	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81811
+81812	LXXIV	113	c. 257 v	Ridolfi 21 Oct: cipher, 2 lines	1272	1848	f651e27c13ad4859bbf4039ad2e987824e03d2ea29f057b2b1c48e644f2ba3fc	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81812
+81813	LXXIV	113	c. 260 r	Ridolfi 21 Oct: second leaf	1272	1848	84c143673f47ccbfb22d99a12b4ae08d35528856fc65854a5968db7c590f18c6	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81813
+81814	LXXIV	113	c. 260 v	Ridolfi 21 Oct: address	1272	1848	4c091cb9e4ce298ffca65a80e847072c6ff6e04a46407b7567c87cd76e8401dd	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81814
+81819	LXXIV	115	c. 263 r	Ridolfi 30 Oct: four cipher runs, lines 5-12	1272	1848	0e82794988df7fae40ad2385586a3f1f9a8333910828a887ea7635897cb0f014	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81819
+81820	LXXIV	115	c. 263 v	Ridolfi 30 Oct: verso	1272	1848	1c1e8c6f43ec39c27e4111547a26c5b1005e6a437658c0e209644e2181788be6	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81820
+81821	LXXIV	115	c. 265 r	Ridolfi 30 Oct: second leaf	1272	1848	e7878dc897388ab4587ba3b1199900266bc99a4e7fcad696765d418d4eb1b3d2	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81821
+81822	LXXIV	115	c. 265 v	Ridolfi 30 Oct: address	1272	1848	3c26cccf3c23a3d7f1ee1a59d67445f4cd273615808c3a25bd857d2cc61b8c51	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81822
+81775	LXXIV	107	c. 241 r	glossed sibling: key fit; gloss "S. Lco" over 22	1272	1854	01b963f482b66426c8940b228011fa56b53c097acc544f3b5050cb94f4ac8685	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81775
+81776	LXXIV	107	c. 241 v	glossed sibling: blind calibration (38 words)	1272	1854	733ab735cadcc6eeeee4bfd4370b2c8011f4456069b21a40147af83f5441c4ee	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81776
+81777	LXXIV	107	c. 242 r	glossed sibling	1272	1854	990bbfcce348dff8c9deb4b4b72311417f629141d95a1fadfe85d9349e037ec3	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81777
+81778	LXXIV	107	c. 242 v	glossed sibling	1272	1854	b13273e16a7df5ee0dfd39d42e75f525fcefb6e8c05250ce727b14ef134df5d5	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81778
+81795	LXXIV	110	c. 250 r	glossed sibling: key fit; gloss "no[n]" over the theta sign; tt	1272	1848	4ffd555296a25edfee5f97371455d40978692dea7ee37e366493e7d3315514eb	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81795
+81796	LXXIV	110	c. 250 v	glossed sibling	1272	1848	23c55340a330160345486281c6fd471c9058b09707eab3940e2fbe02bcdf3bca	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81796
+81797	LXXIV	110	c. 248 r	glossed sibling	1272	1848	0a211dc9e2decf9ffb9b0e64f649848e4a7f6e6551b0ca245d3150a83c4b6d19	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81797
+81798	LXXIV	110	c. 248 v	glossed sibling	1272	1848	bc566c2619648fbff24c0b1e0afcaa0a881d21251c012db630cfbfe9c9a305a4	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81798
+81799	LXXIV	110	c. 249 r	glossed sibling	1272	1848	17a9b6051e92c6272da7d70f6177ce2e46c5c15ac20a65d502a007ccb66d72e1	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81799
+81800	LXXIV	110	c. 249 v	glossed sibling	1272	1848	e938bdcf914e6351394860bf8dacfc8c1defa7a89ff991feb5f96f1d8a8b1fe3	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81800
+81801	LXXIV	110	c. 251 r	glossed sibling	1272	1848	6d33a6f24dfdea59cf40d40c9e11a54640997e0261ca4eeece044b562aab06a9	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81801
+81802	LXXIV	110	c. 251 v	glossed sibling	1272	1848	2f8fdf0432139d6b8bbca56d21912c646c2ceb4b7fef86ae6768d424f184695c	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81802
+79536	LXXII	183	r	key sheet: alphabet, codes, names 10-59	1272	1742	2f6650f75f7e09967adf4c765c9f7d9114e90a3635e7f43c4e64b5ee57177343	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=79536
+79537	LXXII	183	v	key sheet: endorsement "Cifra con Paulantonio Soderini"	1272	1742	6bfe14a32c3e9415d817d98e7d0a95b1e97cd7a6f34ed2979e950d649a3d8d80	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=79537
