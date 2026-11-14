@@ -33,6 +33,10 @@ Every target touched since 13 September 2026, with status from the set in [CONVE
 
 | 22 | Van de Perre → Bruyne, Bodleian MS. Rawl. A.7 old p. 47 | 17 Oct 1653, calendar style unspecified | nl | Unseen | **blocked**, 19 Sept 2026 | [evidence audit](vande-perre-1653/evidence-audit/README.md) | Modern catalogue and Macray col. 12 item 4 explicitly describe a copy partly Dutch/partly cipher, omitted from Birch. No manuscript image; use of row 4’s key unverified. Obtain the full item, translation and any enclosures. |
 
+| 23 | Piero Alamanni → Piero de' Medici, Vigevano (ASF MAP LXXIV 96; cyphersolver catalogue 2381) | 26 Apr 1494 | it | 91 cipher words (provisional) | **partial**, 13 Nov 2026 | [`milan-1494/`](milan-1494/) | Key = Milan embassy key sheet MAP LXXII 183, identified 13 Nov 2026 from Ridolfi's glossed letters. 80 of 91 words read (37 strict, 24 forced, 19 lenient); grades 31 H, 5 C, 25 S, 26 M, 4 I. Name number 22 probably Lodovico (one gloss, Ridolfi 107; the sheet says S. di Pesaro). Four unread places at the limit of the 1272 px scans; needs a better photograph. |
+
+| 24 | Giovan Battista Ridolfi → Piero de' Medici, Milan (ASF MAP LXXIV 112, 113, 115; cyphersolver catalogue 2382) | 16, 21, 30 Oct 1494 | it | 283 cipher words | **partial**, 13 Nov 2026 | [`milan-1494/`](milan-1494/) | Same key (LXXII 183). 279 of 283 words have a proposed reading, but 104 strict, 90 forced, 85 lenient; grades 88 H, 12 C, 88 S, 87 M, 8 I; blind calibration on a glossed sibling 28/38 words right. Two person signs unglossed; two groups unread, two doubtful. Next: an exemplar table from the glossed letters LXXIV 101-110, 114 to test the fitted doubled-consonant signs. |
+
 ## What to do next, in order
 
 0. **Catalogue sweep leads** ([CATALOGUE.md](CATALOGUE.md), 18 Sept 2026): the Plzeň Trauttmansdorff letters (key attached, images public), Brulart de Sillery on Gallica. The Moray key check is done: R8347/R8348 carry Tomokiyo's Mary–Hamilton and Throckmorton–Moray alphabets, not this key, but R8345 has the page image, which is what read the postscript (row 7).

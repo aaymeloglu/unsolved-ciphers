@@ -19,6 +19,7 @@ import re
 from pathlib import Path
 
 from _ferdinand import build as build_ferdinand
+from _milan1494 import build as build_milan1494
 from _moray import build as build_moray
 from _vandeperre import build as build_vandeperre
 
@@ -313,6 +314,14 @@ def index():
     <p><a href="{REPO}/tree/main/moray-1568">Write-up, transcription, key, verification</a>.</p>
   </div>
   <div class="entry">
+    <h2><a href="ridolfi-reading.html">Florentine orators at the Milanese court</a></h2>
+    <p class="where">Alamanni, Vigevano, 26 April 1494 · Ridolfi, Milan, 16, 21 and 30 October 1494 · ASF, Mediceo avanti il Principato LXXIV</p>
+    <p class="status">Partial readings</p>
+    <p>Both men used the embassy cipher whose key sheet survives in the same archive (MAP LXXII 183). In April Alamanni privately urges the Neapolitan stroke against Genoa as the one remedy, done in time and under cover. In October Ridolfi reports the King at Pavia with Duchess Bona, the death of Gian Galeazzo Sforza and Milanese opinion that Florence cannot resist. Ridolfi's three letters have a proposed reading for all but two groups, Alamanni's for 80 of 91 words; only a third to two fifths of the words are free of a choice between sign values, and a blind test on a deciphered sibling got about three words in four right.</p>
+    <p class="go"><a href="alamanni-reading.html">Alamanni, April 1494</a> · <a href="ridolfi-reading.html">Ridolfi, October 1494</a></p>
+    <p><a href="{REPO}/tree/main/milan-1494">Write-up, key, transcriptions, verifier and review</a>.</p>
+  </div>
+  <div class="entry">
     <h2><a href="starhemberg-reading.html">Chiffre aus Paris</a></h2>
     <p class="where">Starhemberg, Paris, 23 May 1758 · Manuscript collation</p>
     <p class="status">Substantially deciphered</p>
@@ -354,6 +363,7 @@ if __name__ == "__main__":
     build_ferdinand(ROOT, DOCS, page, CRUMBS, REPO)
     build_moray(ROOT, DOCS, page, CRUMBS, REPO)
     build_vandeperre(ROOT, DOCS, page, CRUMBS, REPO)
+    build_milan1494(ROOT, DOCS, page, CRUMBS, REPO)
     index()
     (DOCS / ".nojekyll").write_text("")
     print("built", ", ".join(sorted(p.name for p in DOCS.glob("*.html"))))
