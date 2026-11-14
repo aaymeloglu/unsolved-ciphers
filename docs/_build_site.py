@@ -85,7 +85,7 @@ def page(title, desc, body):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
-{HEAD_LINKS}<style>{STYLE}{EXTRA_STYLE}</style>
+{ICON_LINKS}{HEAD_LINKS}<style>{STYLE}{EXTRA_STYLE}</style>
 </head>
 <body>
 {body}
@@ -93,6 +93,12 @@ def page(title, desc, body):
 </html>
 """
 
+
+ICON_LINKS = (
+    '<link rel="icon" href="favicon.svg" type="image/svg+xml">\n'
+    '<link rel="icon" href="favicon.png" type="image/png" sizes="32x32">\n'
+    '<link rel="apple-touch-icon" href="apple-touch-icon.png">\n'
+)
 
 CRUMBS = '<p class="crumbs screen-only"><a href="index.html">Unsolved ciphers</a> / {}</p>'
 
@@ -102,6 +108,7 @@ CRUMBS = '<p class="crumbs screen-only"><a href="index.html">Unsolved ciphers</a
 def ottobon_reading():
     src = OTTOBON.replace('src="pages/', f'src="{RAW}/ottobon-1589/pages/')
     src = src.replace("</style>", EXTRA_STYLE + "</style>", 1)
+    src = src.replace('<link rel="preconnect"', ICON_LINKS + '<link rel="preconnect"', 1)
     crumbs = CRUMBS.format(f'<a href="{REPO}/tree/main/ottobon-1589">write-up and files</a>')
     src = src.replace('<header class="masthead">', crumbs + '\n<header class="masthead">', 1)
     (DOCS / "ottobon-reading.html").write_text(src)
@@ -267,7 +274,7 @@ def starhemberg_reading():
 
 def index():
     body = f"""<header class="masthead">
-  <p class="eyebrow">Working notes · September 2026</p>
+  <p class="eyebrow">Working notes · September to November 2026</p>
   <h1>Unsolved ciphers</h1>
   <p class="standfirst">Attempts on historical ciphers that are short, context-rich, and listed as unsolved. Started after Vals AI reported Claude Fable 5.1 reading Thomas Urquhart's Cyphral Distich; the question was whether the same approach, an agent plus a person checking its work, gets anywhere on the rest of the list.</p>
 </header>
