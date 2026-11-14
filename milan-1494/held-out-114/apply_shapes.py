@@ -3,7 +3,9 @@
 position (Na/Nb, /a and /b) and Ridolfi's stem signs by form (Zh, Za, LL), keeping the two-valued label or the
 recorded alternative wherever the sorter's confidence was low, then move to strict the words that no longer hold
 an ambiguous sign. Record of what was done on 14 November 2026; the committed transcriptions are its output plus
-hand edits (spellings with ll, person-sign rows, Alamanni 220v:21.4 and 221v:3-4).
+hand edits (spellings with ll, person-sign rows, Alamanni 220v:21.4 and 221v:3-4, and the
+alternatives and notes added after the second review: Ridolfi 112r:10.6, Alamanni 220v:10.2,
+221v:2.6, 221v:4.6, and the bare n/c and d/l notes removed from strict rows).
 usage: python3 apply_shapes.py <dir holding the 46dec7b transcriptions and key.json>"""
 import csv, json, re, sys, os
 D = sys.argv[1]; F = os.path.dirname(os.path.abspath(__file__))

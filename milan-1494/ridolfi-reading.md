@@ -2,7 +2,7 @@
 
 Giovan Battista Ridolfi, Florentine envoy at the Milanese court, to Piero di Lorenzo de' Medici: three letters with cipher passages, Archivio di Stato di Firenze, Mediceo avanti il Principato (MAP) LXXIV docs 112 (16 October), 113 (21 October) and 115 (30 October 1494). Key: the Milan embassy key sheet MAP LXXII 183, plus signs not on the sheet (see [README.md](README.md) and [key.json](key.json)).
 
-This is a partial reading. Every cipher word has a proposed reading except two groups in doc 113, and about two thirds of the words are free of a choice between sign values, now that the ÷ sign and the d and l signs are told apart by shape (14 November 2026; see [held-out-114](held-out-114/README.md)). On a held-out glossed letter the key output of a blind transcription agreed with the printed text at 0.838, just under the 0.85 bar, so expect wrong words. Treat the connected text as a proposal whose secure parts are the words graded H or C in [reading.txt](reading.txt).
+This is a partial reading. Every cipher word has a proposed reading except two groups in doc 113, and about two thirds of the words are free of a choice between sign values, now that the ÷ sign and the d and l signs are told apart by shape (14 November 2026; see [held-out-114](held-out-114/README.md)). On a held-out glossed letter the key output of a blind transcription agreed with the printed text at 0.838, under the 0.85 bar set beforehand, so expect wrong words. Treat the connected text as a proposal. The best-supported parts are the words graded H or C in [reading.txt](reading.txt), whose sign values come from the key sheet or a contemporary gloss; a sign can still have been misread.
 
 How to read the text below:
 

@@ -40,12 +40,12 @@ id	leaf	line	kind	tokens	tier	reading	note
 112r:6.12	112r	6	null	9n	null		
 112r:6.13	112r	6	clear		clear	che pur	
 112r:7.1	112r	7	clear		clear	fussi	
-112r:7.2	112r	7	word	Na m	strict	ne	n/c
+112r:7.2	112r	7	word	Na m	strict	ne	
 112r:7.3	112r	7	word	LL eo PSI P	strict	lletto	with ne before it: nel letto
 112r:7.4	112r	7	word	x c b=l 11 v P	forced	malato	
 112r:7.5	112r	7	clear		clear	altro particular non s'intese.	
 112r:8.1	112r	8	null	F	null		
-112r:8.2	112r	8	word	Na m	strict	ne	n/c
+112r:8.2	112r	8	word	Na m	strict	ne	
 112r:8.3	112r	8	word	gd P 4 Na 6=i	lenient	g[i]orni	
 112r:8.4	112r	8	word	8 NN 11 Na 6=z{pb} 7	forced	innanzi	
 112r:8.5	112r	8	clear		clear	dicono che sendo ito	
@@ -63,14 +63,14 @@ id	leaf	line	kind	tokens	tier	reading	note
 112r:9.5	112r	9	word	7 Za	strict	il	
 112r:9.6	112r	9	word	Zh c 6=z{pb} 7 P	lenient	dazio	
 112r:9.7	112r	9	word	Zh{X3} eo LL 11	forced	della	
-112r:9.8	112r	9	word	x c Nb 8 Na m	strict	macine	n/c twice: "dazio de la macine" (the Milanese milling tax)
+112r:9.8	112r	9	word	x c Nb 8 Na m	strict	macine	c and n by their dots: "dazio della macine" (the Milanese milling tax)
 112r:9.9	112r	9	word	a i eo LL 7	strict	quelli	
 112r:9.10	112r	9	word	Nb 7 PSI 11 Zh 7 Na 8	strict	cittadini	
 112r:10.2	112r	10	word	L=s 8 4 6=i o v 4 7 Na L=s P Na oo	lenient	siristrinsono	si ristrinsono; first sign L (s), h excluded by sense
 112r:10.3	112r	10	word	7 Na L=s 7 eo x eo	forced	insieme	
 112r:10.4	112r	10	word	ET	strict	et	
 112r:10.5	112r	10	clear		clear	mandorono	
-112r:10.6	112r	10	word	11 5	strict	al	
+112r:10.6	112r	10	word	11 5{Zh}	lenient	al	second sign: heavy ink at the foot, the arm crosses the stem on both sides; l taken, the armless d-form not excluded
 112r:10.7	112r	10	word	RD	lenient	[il Duca]	person sign, not on the key sheet; the same base with a raised letter is glossed "Duca" twice in doc. 114 (raised letter not certainly the same)
 112r:10.8	112r	10	null	9n	null		
 112r:10.9	112r	10	word	11	strict	a	
@@ -89,8 +89,8 @@ id	leaf	line	kind	tokens	tier	reading	note
 112r:12.3	112r	12	word	Za 11	strict	la	
 112r:12.4	112r	12	word	pb=p 11 gd UT=h c Q{9} 7 Na P	forced	paghassino	
 112r:12.5	112r	12	word	TH	strict	non	
-112r:12.6	112r	12	word	Na m	strict	ne	n/c
-112r:12.7	112r	12	word	Za 7	strict	li	d/l
+112r:12.6	112r	12	word	Na m	strict	ne	
+112r:12.7	112r	12	word	Za 7	strict	li	
 112r:12.8	112r	12	word	L=s v 9 7 gd Na m 4 3 BB? eo	doubt	strignerebbe	penultimate sign is a crossed 7 with a dot, read as the bb sign by likeness to 115r; if not, "strignere" + 2 unread signs
 112r:12.9	112r	12	word	B	strict	che	
 112r:12.10	112r	12	word	n c Nb m Q 7 Na oo	strict	facessino	
@@ -103,13 +103,13 @@ id	leaf	line	kind	tokens	tier	reading	note
 112r:13.6	112r	13	word	Zh 7 Nb m p c	strict	diceua	
 112r:13.7	112r	13	word	B	strict	che	
 112r:13.8	112r	13	word	pb=p 11 gd c Q 8 Na P	forced	pagassino	
-112r:13.9	112r	13	word	Na eo	strict	ne	n/c
+112r:13.9	112r	13	word	Na eo	strict	ne	
 112r:13.10	112r	13	word	B	strict	che	
 112r:13.11	112r	13	word	TH	strict	non	
 112r:13.12	112r	13	word	S c gf 11 Q 8 Na oo	strict	pagassino	
 112r:13.13	112r	13	clear		clear	Credo	
 112r:14.1	112r	14	clear		clear	però che	
-112r:14.2	112r	14	word	Za eo	strict	le	d/l
+112r:14.2	112r	14	word	Za eo	strict	le	
 112r:14.3	112r	14	word	pb=p P o v eo	forced	poste	
 112r:14.4	112r	14	word	L=s 7 c Na P	forced	siano	
 112r:14.5	112r	14	word	Za m gd c v eo	strict	legate	
@@ -117,7 +117,7 @@ id	leaf	line	kind	tokens	tier	reading	note
 112r:14.7	112r	14	word	x P Zh oo	strict	modo	
 112r:14.8	112r	14	word	B	strict	che	
 112r:14.9	112r	14	clear		clear	di questo sia	
-112r:14.10	112r	14	word	Zh c	strict	da	d/l
+112r:14.10	112r	14	word	Zh c	strict	da	
 112r:14.11	112r	14	word	n c 4 Na eo	strict	farne	
 112r:15.1	112r	15	word	pb=p P Nb oo	lenient	poco	
 112r:15.2	112r	15	word	Nb 11 o oo	strict	caso	
@@ -137,14 +137,14 @@ id	leaf	line	kind	tokens	tier	reading	note
 112r:18.3	112r	18	word	oo	strict	o	
 112r:18.4	112r	18	word	Nb 11 o oo	strict	caso	
 112r:18.5	112r	18	word	B	strict	che	
-112r:18.6	112r	18	word	Na m	strict	ne	n/c
+112r:18.6	112r	18	word	Na m	strict	ne	
 112r:18.7	112r	18	word	c p eo Na 7 Q 8	strict	auenissi	
 112r:18.8	112r	18	word	B	strict	che	
 112r:18.9	112r	18	clear		clear	per quanto comprendo	
 112r:19.1	112r	19	word	m	strict	e	
 112r:19.2	112r	19	word	Zh 7	strict	di	
 112r:19.3	112r	19	word	a i c Za 7 v c	strict	qualita	
-112r:19.4	112r	19	word	Zh c	strict	da	d/l
+112r:19.4	112r	19	word	Zh c	strict	da	
 112r:19.5	112r	19	word	TH	strict	non	
 112r:19.6	112r	19	word	Za 7	strict	li	d/l: "da non li manchare scusa"
 112r:19.7	112r	19	word	x c Na Nb UT=h 11 4 m	forced	manchare	
@@ -177,7 +177,7 @@ id	leaf	line	kind	tokens	tier	reading	note
 113r:1.14	113r	1	word	UT=h P 9 eo	forced	hore	
 113r:2.1	113r	2	clear		clear	iij?	
 113r:2.2	113r	2	word	n i	strict	fu	
-113r:2.3	113r	2	word	Nb P Na	strict	con	n/c
+113r:2.3	113r	2	word	Nb P Na	strict	con	
 113r:2.4	113r	2	word	Za 11	strict	la	
 113r:2.5	113r	2	word	Zh i B Q 11	strict	duchessa	
 113r:2.6	113r	2	word	2 P Na c	strict	bona	
@@ -193,7 +193,7 @@ id	leaf	line	kind	tokens	tier	reading	note
 113r:3.1	113r	3	word	m Za	strict	el	
 113r:3.2	113r	3	word	n 7 gd Za i P Za P	strict	figl[i]uolo	
 113r:3.3	113r	3	word	Zh eo b=l	forced	del	
-113r:3.4	113r	3	word	Nb P Na v eo	strict	conte	n/c
+113r:3.4	113r	3	word	Nb P Na v eo	strict	conte	
 113r:3.5	113r	3	word	Zh 7	strict	di	
 113r:3.6	113r	3	word	L=s 11 x	lenient	sam	first sign L (s)
 113r:3.7	113r	3	word	pb=p P b=l P	lenient	polo	l/z: Sam Polo = Saint-Pol
@@ -218,7 +218,7 @@ id	leaf	line	kind	tokens	tier	reading	note
 113r:4.13	113r	4	null	9n	null		
 113r:5.1	113r	5	clear		clear	anchora che	
 113r:5.2	113r	5	word	Za 11	strict	la	
-113r:5.3	113r	5	word	Na m	strict	ne	n/c
+113r:5.3	113r	5	word	Na m	strict	ne	
 113r:5.4	113r	5	word	n p Q 7	strict	fussi	
 113r:5.5	113r	5	word	4 8 Nb UT=h 8 eo o v 11	forced	richiesta	
 113r:5.6	113r	5	word	S 7 gd Za 11 Na Zh P	strict	pigl[i]ando	
@@ -261,7 +261,7 @@ id	leaf	line	kind	tokens	tier	reading	note
 113r:9.10	113r	9	word	7 N=n v eo N=n Zh m 4 3 v eo	lenient	intenderete	
 113r:9.11	113r	9	word	Zh ??	unread	?	last group on the recto: d/l + one unclear sign
 113v:1.1	113v	1	word	9? m v? eo	unread	?	first group on the verso, 4 signs (9? m v? eo = "rete"?); with the previous group possibly one word; not read
-113v:1.2	113v	1	word	Zh c	strict	da	d/l
+113v:1.2	113v	1	word	Zh c	strict	da	
 113v:1.3	113v	1	word	Za p 7	strict	lui	
 113v:1.4	113v	1	word	c	strict	a	
 113v:1.5	113v	1	word	2 oo CC c	strict	bocca	
@@ -293,7 +293,7 @@ id	leaf	line	kind	tokens	tier	reading	note
 115r:6.3	115r	6	word	9 eo L=s 6=i o X3 m 9 3	forced	resistere	
 115r:6.4	115r	6	word	pb=p m 9	forced	per	
 115r:6.5	115r	6	word	i 3 Na 6=i 9 m	forced	uenire	
-115r:6.6	115r	6	word	Nb oo Na	strict	con	n/c
+115r:6.6	115r	6	word	Nb oo Na	strict	con	
 115r:6.7	115r	6	word	gd 9 11 Na Zh 8	strict	grandi	
 115r:6.8	115r	6	word	n P 9 b=z m	forced	forze	
 115r:6.9	115r	6	word	ET	strict	et	
@@ -302,7 +302,7 @@ id	leaf	line	kind	tokens	tier	reading	note
 115r:6.12	115r	6	word	Na v m Na Zh m 4 m	strict	'ntendere	a 'ntendere
 115r:7.2	115r	7	word	B	strict	che	
 115r:7.3	115r	7	word	Nb P o v 8	strict	costi	
-115r:7.4	115r	7	word	Na 3	strict	ne	n/c
+115r:7.4	115r	7	word	Na 3	strict	ne	
 115r:7.5	115r	7	word	LL 11	strict	lla	with ne before it: nella
 115r:7.6	115r	7	word	Nb 8 PSI 11	strict	citta	
 115r:7.7	115r	7	word	UT=h 11 BB 7 c	forced	habbia	

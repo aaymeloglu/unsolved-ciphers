@@ -14,6 +14,8 @@ Clear-text readings below are quick readings from the image, only meant for loca
 
 c259r: no cipher (0 lines); whole leaf is clear text.
 
+Found after scoring (the frozen transcription and reference keep the boundaries above): block 5 probably starts later, after the clear abbreviation *ch[e] q[ua]n[do]*, and the *si* before "trovava" is clear text in the margin, so it is not part of block 5. The raised two-sign mark of lines 4, 13, 16 is cipher (raised *ta*); the transcriber was told to leave it out.
+
 ## Cipher lines
 
 - c258v: 8 lines - 14, 15, 16, 17, 19, 20, 21, 23 (15 and 16 are cipher only; the others are mixed).

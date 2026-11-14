@@ -9,7 +9,7 @@ id	leaf	line	kind	tokens	tier	reading	note
 220v:8.1	220v	8	word	p P b=l u c 4 m	forced	voltare	
 220v:8.2	220v	8	word	gd m /a P p c	strict	Genova	
 220v:10.1	220v	10	word	u p PSI P	strict	tutto	
-220v:10.2	220v	10	word	a i m o u P	strict	questo	first sign open a (q); could be a slanted 11
+220v:10.2	220v	10	word	a{11} i m o u P	forced	questo	first sign a joined open a-form (q) rather than two strokes; a slanted 11 would give no word
 220v:10.3	220v	10	word	x c 5 m	strict	male	
 220v:11.1	220v	11	word	N22	lenient	[22: probably S. Lodovico; cf. Ridolfi 107 gloss; sheet: S. di Pesaro]	preceded by a struck clear word, possibly "questo S[ignor]e"
 220v:11.2	220v	11	word	?	unread	?	lambda-like sign, unidentified (q? a code sign for come or per?)
@@ -81,7 +81,7 @@ id	leaf	line	kind	tokens	tier	reading	note
 221v:2.3	221v	2	word	## 8	unread	?	letters "i"; a dot before the 8
 221v:2.4	221v	2	word	m{n} c 4	unread	?	letters "ear"; "[c]i [f]ar" would be conjecture
 221v:2.5	221v	2	word	x c Zd m	unread	?	letters "made"; "male" would need the l-form, which the contact sheet does not show
-221v:2.6	221v	2	word	Zd 7	strict	di	d/l form not individually checked
+221v:2.6	221v	2	word	Zd 7	strict	di	open hook without an arm (shape sort, high confidence)
 221v:2.7	221v	2	word	gd eo /a P p c	strict	Genova	
 221v:3.1	221v	3	word	c{o} Q 11 7	forced	assai	
 221v:3.2	221v	3	word	u eo /a i u P	strict	tenuto	
@@ -91,5 +91,5 @@ id	leaf	line	kind	tokens	tier	reading	note
 221v:4.3	221v	4	word	E9 P	unread	?	letters "o" after a null; not understood
 221v:4.4	221v	4	word	Zd 7	strict	di	
 221v:4.5	221v	4	word	o eo PHI 11 4 /b 7	strict	serrarci	
-221v:4.6	221v	4	word	5 11	strict	la	
+221v:4.6	221v	4	word	5{Zd} 11	lenient	la	first sign: heavy blot at the stem-arm corner, a small filled loop (the d-form) not excluded
 221v:4.7	221v	4	word	p 7 c	strict	via	

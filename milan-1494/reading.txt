@@ -53,7 +53,7 @@
 112r:10.2	siristrinsono	siristrinsono	lenient	M
 112r:10.3	insieme	insieme	forced	S
 112r:10.4	et	et	strict	H
-112r:10.6	al	al	strict	H
+112r:10.6	al	al	lenient	M
 112r:10.7	[Duca]	[il Duca]	lenient	I
 112r:10.9	a	a	strict	H
 112r:10.10	dolersi	dolersi	strict	C
@@ -283,7 +283,7 @@
 115r:12.4	corte	corte	strict	H
 115r:12.5	di	di	strict	C
 115r:12.7	[Re]	[il Re]	strict	C
-ridolfi: 283 cipher words | strict 194 (68.6%) | +forced 248 (87.6%) | +lenient 279 (98.6%) | doubtful 2 | unread 2 | grades 98 H, 89 C, 55 S, 37 M, 4 I
+ridolfi: 283 cipher words | strict 193 (68.2%) | +forced 247 (87.3%) | +lenient 279 (98.6%) | doubtful 2 | unread 2 | grades 97 H, 89 C, 55 S, 38 M, 4 I
 ## alamanni
 220v:6.1	da	da	strict	H
 220v:7.1	napoli	Napoli	forced	S
@@ -292,7 +292,7 @@ ridolfi: 283 cipher words | strict 194 (68.6%) | +forced 248 (87.6%) | +lenient 
 220v:8.1	uoltare	voltare	forced	S
 220v:8.2	genoua	Genova	strict	H
 220v:10.1	tutto	tutto	strict	C
-220v:10.2	questo	questo	strict	H
+220v:10.2	questo	questo	forced	S
 220v:10.3	male	male	strict	H
 220v:11.1	[22]	[22: probably S. Lodovico; cf. Ridolfi 107 gloss; sheet: S. di Pesaro]	lenient	I
 220v:11.2	?	?	unread	M
@@ -374,6 +374,6 @@ ridolfi: 283 cipher words | strict 194 (68.6%) | +forced 248 (87.6%) | +lenient 
 221v:4.3	o	?	unread	M
 221v:4.4	di	di	strict	H
 221v:4.5	serrarci	serrarci	strict	S
-221v:4.6	la	la	strict	H
+221v:4.6	la	la	lenient	M
 221v:4.7	uia	via	strict	H
-alamanni: 91 cipher words | strict 53 (58.2%) | +forced 64 (70.3%) | +lenient 80 (87.9%) | doubtful 2 | unread 9 | grades 45 H, 6 C, 13 S, 24 M, 3 I
+alamanni: 91 cipher words | strict 51 (56.0%) | +forced 63 (69.2%) | +lenient 80 (87.9%) | doubtful 2 | unread 9 | grades 43 H, 6 C, 14 S, 25 M, 3 I
