@@ -2,7 +2,7 @@
 
 Piero Alamanni, Florentine orator at Lodovico Sforza's court, to Piero di Lorenzo de' Medici, Archivio di Stato di Firenze, Mediceo avanti il Principato (MAP) LXXIV doc. 96, cc. 220-221. Clear letter with cipher passages on 220v, 221r and 221v. Key: the Milan embassy key sheet MAP LXXII 183, the same key Ridolfi used in October 1494 (see [README.md](README.md) and [key.json](key.json)).
 
-This is a partial reading: 82 of the 91 cipher words counted in [alamanni-transcription.tsv](alamanni-transcription.tsv) have a proposed reading (two of them doubtful), 9 are unread, and the word count is itself provisional where the word division of an unread run is unknown. Six words in ten are free of a choice between sign values, now that the ÷ sign is told apart as n or c by its dots (14 November 2026; see [held-out-114](held-out-114/README.md)). The secure parts are the words graded H or C in [reading.txt](reading.txt).
+This is a partial reading: 82 of the 91 cipher words counted in [alamanni-transcription.tsv](alamanni-transcription.tsv) have a proposed reading (two of them doubtful), 9 are unread, and the word count is itself provisional where the word division of an unread run is unknown. Nearly six words in ten are free of a choice between sign values, now that the ÷ sign is told apart as n or c by its dots (14 November 2026; see [held-out-114](held-out-114/README.md)). The secure parts are the words graded H or C in [reading.txt](reading.txt).
 
 How to read the text below:
 

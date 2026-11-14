@@ -17,7 +17,7 @@ Mag[nifi]ce maior honor[ande]. Adì xiij scripsi l'ultima ad V. M[agnificen]tia.
 
 *Intendo che arrivando in Pav[i]a*, quando *[il Re] fu entrato in castello, la duchessa Bona* si li fece incontro *in certa sala, dove fu la prima visitatione; et di quivi* dipoi(?) smontando(?) *alla camera del [Duca]*, che pur fussi *nel letto malato*, altro particular non s'intese.
 
-*Ne' g[i]orni innanzi* dicono che, sendo ito *a Pavia lo edicto(?) ha fatto di fare ricomperare il dazio de la macine, quelli cittadini si ristrinsono insieme et* mandorono *al [Duca] a dolersi di tale gravezza, et che* non potevano supportare. Dicono *[il Duca] rispose loro* che quando *non la pagassino, non ne li strignerebbe(?); che facessino quello che pareva loro, che non diceva che pagassino né che non pagassino.* Credo però che *le poste siano legate in modo che* di questo sia *da farne poco caso.*
+*Ne' g[i]orni innanzi* dicono che, sendo ito *a Pavia lo edicto(?) ha fatto di fare ricomperare il dazio della macine, quelli cittadini si ristrinsono insieme et* mandorono *al [Duca] a dolersi di tale gravezza, et che* non potevano supportare. Dicono *[il Duca] rispose loro* che quando *non la pagassino, non ne li strignerebbe(?); che facessino quello che pareva loro, che non diceva che pagassino né che non pagassino.* Credo però che *le poste siano legate in modo che* di questo sia *da farne poco caso.*
 
 Voi vedrete quanto scrivo a' S[igno]ri Octo del mio soprastar qui. Et oltre alla cagione *dico per quella, non vorrei che qualchuno si pigliassi piacere d'ogni sinistro o caso che ne avenissi, che* per quanto comprendo *è di qualità da non li manchare scusa; et chi havessi male, saria suo danno.* Ad V. M. mi racomando, quale Dio felice conservi. M[edio]l[an]i die xvi octobris 1494. Jo. Baptista de Ridolphis or[ator].
 
@@ -41,7 +41,7 @@ Non havendo vostre l[ette]re, né sentendo molto di nuovo di qua, non so che dir
 
 Alcontinuo(?) riscaldano(?) per quello s'intende le preparationi di mandare a' danni vostri: se già la morte del Duca non li farà mutare proposito. Fate ogni opera che Franzesi non vi si allogino in casa: che non li possendo comportare gl'amici in casa di chi e' sono al presente, è da considerare quanto e' sarebbono insopportabili ne' luoghi che e' riputassino inimici.
 
-*Intendo che quando [il Re] fu a Pavia, la sera di notte a hore* iij(?) *fu con la duchessa Bona per presso a due hore sua M[aes]tà sola con el figl[i]uolo del conte di Sam Polo, che è nipote de la pr[efa]ta duchessa Bona. La duchessa Isabella dice non volle a[p]resentarsi al [Re],* anchora che *la ne fussi richiesta, pigl[i]ando scusa di sentirsi indisposta.* Altro non *s'intende.*
+*Intendo che quando [il Re] fu a Pavia, la sera di notte a hore* iij(?) *fu con la duchessa Bona per presso a due hore sua M[aes]tà sola con el figl[i]uolo del conte di Sam Polo, che è nipote della pr[efa]ta duchessa Bona. La duchessa Isabella dice non volle a[p]resentarsi al [Re],* anchora che *la ne fussi richiesta, pigl[i]ando scusa di sentirsi indisposta.* Altro non *s'intende.*
 
 Questo cavallaro, che è Camprianino(?), *dice che in camino tra Parma et il Borgho a San Donnino trovò, vestito a uso di cavallaro, fra Lauro; et dice li quello intenderete* **[?] [?]** *da lui a bocca. Lorenzo et G[i]ovanni di Pierfranc[esc]o dice erono a Modona.* Né altro. Ad V. M. mi racomando, la quale Dio felice conservi. Mediolani die xxi octobris 1494.
 
@@ -61,7 +61,7 @@ This courier, who is Camprianino(?), says that on the road between Parma and Bor
 
 Held until the 19th hour; I sent again to messer B. Calco: he confirms the death is true, and that he has had no letters. Giovan Battista Ridolfi, envoy.
 
-Notes. (1) The hour numeral before "fu con" is in clear and is small; iij is the likeliest reading. (2) The son of the Count of Saint-Pol is Louis de Luxembourg, count of Ligny, whose mother was a sister of Bona of Savoy; this identification has not been verified against a reference work, and the cipher gives only "nipote de la pr[efa]ta duchessa Bona". (3) "Camprianino" and the two clear-text phrases marked (?) are doubtful readings of the clear hand, not of the cipher.
+Notes. (1) The hour numeral before "fu con" is in clear and is small; iij is the likeliest reading. (2) The son of the Count of Saint-Pol is Louis de Luxembourg, count of Ligny, whose mother was a sister of Bona of Savoy; this identification has not been verified against a reference work, and the cipher gives only "nipote della pr[efa]ta duchessa Bona". (3) "Camprianino" and the two clear-text phrases marked (?) are doubtful readings of the clear hand, not of the cipher.
 
 ## Doc 115, c. 263r, Milan, 30 October 1494
 

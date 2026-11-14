@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
-"""Apply the blind shape classes (ridolfi-shapes/, alamanni-shapes/) to the published transcriptions:
-relabel ÷ by dot position and the d/l stem signs by form, then re-tier words that no longer hold an ambiguous sign.
-usage: apply_shapes.py <milan-1494 dir>"""
+"""Apply the shape classes in shapes/ to the transcriptions as published at commit 46dec7b: relabel ÷ by dot
+position (Na/Nb, /a and /b) and Ridolfi's stem signs by form (Zh, Za, LL), keeping the two-valued label or the
+recorded alternative wherever the sorter's confidence was low, then move to strict the words that no longer hold
+an ambiguous sign. Record of what was done on 14 November 2026; the committed transcriptions are its output plus
+hand edits (spellings with ll, person-sign rows, Alamanni 220v:21.4 and 221v:3-4).
+usage: python3 apply_shapes.py <dir holding the 46dec7b transcriptions and key.json>"""
 import csv, json, re, sys, os
 D = sys.argv[1]; F = os.path.dirname(os.path.abspath(__file__))
 TOKEN = re.compile(r"^(\^?)([^=\{\?]+|\?)(?:=([^\{\?]*))?(?:\{([^}]*)\})?(\?)?$")
@@ -12,8 +15,8 @@ def new_label(letter, fam, r):
     if fam == 'A':
         gen = 'N' if letter == 'ridolfi' else '/'
         if not hi: return None
-        if 'above' in r['dots']: return gen + "'"
-        if r['dots'] == 'below': return gen + ","
+        if 'above' in r['dots']: return gen + 'a'
+        if r['dots'] == 'below': return gen + 'b'
         return None
     c = r['class']
     if letter == 'ridolfi':
@@ -21,12 +24,13 @@ def new_label(letter, fam, r):
         return {'B1': 'Zh', 'B6': 'Zh', 'B2': 'Za', 'B5': 'LL'}.get(c)
     return None
 stats = {}
-for letter, fn, sd in (('ridolfi', 'ridolfi-transcription.tsv', 'ridolfi-shapes'), ('alamanni', 'alamanni-transcription.tsv', 'alamanni-shapes')):
+for letter, fn, sd in (('ridolfi', 'ridolfi-transcription.tsv', 'ridolfi'), ('alamanni', 'alamanni-transcription.tsv', 'alamanni')):
     rel = {}
     for fam in 'AB':
-        for r in load(os.path.join(F, sd, fam + '.tsv')):
+        for r in load(os.path.join(F, 'shapes', sd + '-' + fam + '.tsv')):
             nl = new_label(letter, fam, r)
             if nl: rel[(r['id'], int(r['j']))] = (nl, r)
+    conf = {(r['id'], int(r['j'])): r['confidence'] for r in load(os.path.join(F, 'shapes', sd + '-B.tsv'))}
     lines = open(os.path.join(D, fn)).read().split('\n'); out = []; n_rel = n_strict = 0
     for line in lines:
         f = line.split('\t')
@@ -40,16 +44,15 @@ for letter, fn, sd in (('ridolfi', 'ridolfi-transcription.tsv', 'ridolfi-shapes'
                 if lab not in ('N', '/', 'Z', 'Zx', '5'): raise SystemExit(f"{f[0]} {j}: unexpected label {lab}")
                 if alts and set(alts.split(',')) <= {'Z', '5'}: alts = None      # both were the same arm/hook form
                 toks[j] = raised + nl + ('{' + alts + '}' if alts else '') + (low or ''); changed = True; n_rel += 1
-        if letter == 'alamanni':                     # d/l alternatives settled by the arm (B3) / no arm (B1)
+        if letter == 'alamanni':                     # a d/l alternative is dropped only on a high-confidence sort
             for j, t in enumerate(toks):
-                if t == '5{Zd}': toks[j] = '5'; changed = True
-                if t == 'Zd{5}': toks[j] = 'Zd'; changed = True
+                if t in ('5{Zd}', 'Zd{5}') and conf.get((f[0], j)) == 'high': toks[j] = t.split('{')[0]; changed = True
         f[4] = ' '.join(toks)
         if changed and f[5] in ('forced', 'lenient'):
             clean = True
             for t in toks:
                 raised, lab, chosen, alts, low = TOKEN.match(t).groups()
-                if lab not in key and lab not in ("N'", "N,", "/'", "/,", 'Zh', 'Za', 'LL'): raise SystemExit(lab)
+                if lab not in key and lab not in ('Na', 'Nb', '/a', '/b', 'Zh', 'Za', 'LL'): raise SystemExit(lab)
                 multi = lab in key and len(key[lab]['values']) > 1
                 if multi or alts or low or lab == '?' or (lab in key and key[lab]['grade'] == 'I'): clean = False
             if clean: f[5] = 'strict'; n_strict += 1

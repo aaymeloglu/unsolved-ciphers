@@ -15,7 +15,7 @@ Checks, for every cipher word:
   v written u, spells exactly what the key gives (person signs and unidentified signs excepted).
 
 Grades (CONVENTIONS.md section 1) are assigned per word: unread or doubtful words M; words
-using a person sign or a name number I; words whose reading depends on an unidentified sign I;
+using a sign whose identity is inferred (name number 22, the Duke's person sign) I; words whose reading depends on an unidentified sign I;
 other lenient words (the choice among the signs' values was made by sense) M; forced words
 (only one choice gives a word) S, or M if a sign in them is poorly seen; strict words take the
 weakest provenance of their signs' values: H for a value on the key sheet, C for a value fixed

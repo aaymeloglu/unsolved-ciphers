@@ -56,31 +56,29 @@
    ],
    "grade": "H",
    "shape": "÷, dots not made out",
-   "basis": "key sheet MAP LXXII 183 lists ÷ under both n and c; used only where the dots cannot be made out (see N' and N,)"
+   "basis": "key sheet MAP LXXII 183 has ÷ under both n and c, told apart by the dots (see Na, Nb); this label is used only where the dots cannot be made out"
   },
-  "N'": {
+  "Na": {
    "values": [
     "n"
    ],
    "sheet": [
-    "n",
-    "c"
+    "n"
    ],
-   "grade": "C",
+   "grade": "H",
    "shape": "dash with a tick or dot above it, with or without a dot below; the dash straight or sloping",
-   "basis": "split of the sheet's ÷ by dot position: in doc. 114 gloss (LXXIV 114, cc. 258v, 259v) dot-above signs stand over n in 32 of 34; in letters 112, 113, 115 all 73 are n where the word decides (34 forced words)"
+   "basis": "key sheet MAP LXXII 183, cells enlarged: under c the dash has a dot below only; under n the two forms have a dot above, one of them with a second dot below; confirmed by the gloss of doc. 114 (dot-above signs stand over n in 32 of 34) and by every word-forced value in letters 112, 113, 115 (34 signs)"
   },
-  "N,": {
+  "Nb": {
    "values": [
     "c"
    ],
    "sheet": [
-    "n",
     "c"
    ],
-   "grade": "C",
+   "grade": "H",
    "shape": "dash with a dot below only, the dash usually arched",
-   "basis": "split of the sheet's ÷ by dot position: in letters 112, 113, 115 all 34 are c where the word decides (20 forced words); in doc. 114 gloss (LXXIV 114, cc. 258v, 259v) 14 of 21 (the gloss mask hid most dots there)"
+   "basis": "key sheet MAP LXXII 183, cells enlarged: under c the dash has a dot below only; under n the two forms have a dot above, one of them with a second dot below; every word-forced value in letters 112, 113, 115 agrees (20 signs); in the gloss of doc. 114 dot-below signs stand over c in 14 of 21, the gloss mask having hidden most dots there"
   },
   "/": {
    "values": [
@@ -95,29 +93,27 @@
    "shape": "÷ (Alamanni), dots not made out",
    "basis": "key sheet MAP LXXII 183 lists ÷ under both n and c"
   },
-  "/'": {
+  "/a": {
    "values": [
     "n"
    ],
    "sheet": [
-    "n",
-    "c"
+    "n"
    ],
-   "grade": "C",
+   "grade": "H",
    "shape": "Alamanni: dash with a tick above the right end, with or without a dot below",
-   "basis": "as N'; in Alamanni's letter all 12 in forced words are n"
+   "basis": "key sheet MAP LXXII 183, cells enlarged: under c the dash has a dot below only; under n the two forms have a dot above, one of them with a second dot below; in Alamanni's letter all 12 in forced words are n"
   },
-  "/,": {
+  "/b": {
    "values": [
     "c"
    ],
    "sheet": [
-    "n",
     "c"
    ],
-   "grade": "C",
+   "grade": "H",
    "shape": "Alamanni: arched dash with a dot below only",
-   "basis": "as N,; in Alamanni's letter all 6 in forced words are c"
+   "basis": "key sheet MAP LXXII 183, cells enlarged: under c the dash has a dot below only; under n the two forms have a dot above, one of them with a second dot below; in Alamanni's letter all 6 in forced words are c"
   },
   "Z": {
    "values": [
@@ -160,7 +156,7 @@
    "sheet": [],
    "grade": "C",
    "shape": "d-shape: bowl to the left of a right-leaning stem, with a long bar across the ascender",
-   "basis": "in doc. 114 gloss (LXXIV 114, cc. 258v, 259v) it stands where the gloss has ll (quella, alla, quello, fanciullo, Isabella, quelli); Gabbrielli's copy of the 1492 Alamanni key (no. 25) lists it under 'doppie' as ll"
+   "basis": "doc. 114 gloss (LXXIV 114): the sign stands where the gloss has ll, the two l's visible in the ink at q[ue]lla and alla (c. 258v lines 15-16), and in 9 of 9 uses the print has ll or l+l; Gabbrielli's copy of the 1492 Alamanni key (no. 25) lists it under 'doppie' as ll"
   },
   "Zd": {
    "values": [
@@ -566,7 +562,7 @@
    "sheet": [],
    "grade": "C",
    "shape": "cross with dots",
-   "basis": "doc. 114 gloss (LXXIV 114, cc. 258v, 259v): gioverebbe, harebbe, passerebbe, sarebbe (4 of 4); before that fitted from habbiate, habbia"
+   "basis": "doc. 114 gloss (LXXIV 114): gioverebbe, harebbe, passerebbe, sarebbe (4 of 4), the two b's visible in the ink at giouerebbe (c. 258v line 20) and passerebbe (c. 259v line 19); before that fitted from habbiate, habbia"
   },
   "CC": {
    "values": [
@@ -637,7 +633,7 @@
    "sheet": [],
    "grade": "I",
    "shape": "2 with a long tail and a raised d/l sign",
-   "basis": "doc. 114 gloss (LXXIV 114, cc. 258v, 259v): the same long-tailed base with a different raised letter is glossed 'Duca' twice (c. 259v lines 3-4); the raised letter there is not certainly the one in 112, so the identity stays inferred"
+   "basis": "doc. 114 gloss (LXXIV 114): the same long-tailed base is glossed 'Duca' twice (c. 259v lines 3-4, the sickbed scene), once with a raised 3-like letter and once with a raised hook like the one in 112, each followed by the 9-null as in 112; read by that inference, Lodovico not excluded"
   },
   "N22": {
    "values": [
