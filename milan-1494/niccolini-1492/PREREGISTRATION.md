@@ -43,3 +43,5 @@ the c. 176r gloss (each change recorded with its ground).
 ## Frozen transcription
 (appended at freeze)
 - alias.json sha256 4ccbfc7b7a6acd9c3eca4415394f56d66ab9bcf393c06256299383bafda937d6 (neutral label -> key.json label), fixed before transcription.
+- transcription-176r-neutral.tsv sha256 db553e65df590eb2fe02b3477655dd34e7f13fdc1b20ba64cd2883e9e1b1fbd5 (144 cipher signs, 15 Nov 2026), frozen before the decoder was run.
+- reference-gloss-176r.tsv sha256 e1a8afaf623b5aa8e16c284e8addfcbc0fb6036dd0f4bdf36b586085492ab77b, read by the gloss agent before scoring; illegible gloss letters are '?', which the normalisation drops.
