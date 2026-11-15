@@ -48,3 +48,4 @@ the c. 176r gloss (each change recorded with its ground).
 
 ## Result (15 Nov 2026)
 - Pre-registered agreement 0.358 (first value only 0.351); best of 1,000 shuffles 0.247, mean 0.173. Bar 0.85: **failed**. Output and reference per block in result-gloss-176r.txt. Anything after this line is after the fact.
+- transcription-bare-A-neutral.tsv sha256 ff3d4a0886e609d1b267223cac2d0021f866bfd3595380f6c202da532e506c3e and transcription-bare-B-neutral.tsv sha256 4bd4a682225e8d4e2436f3f8195fdb5252042c3005c773bce927f935c6c4fbee (176 signs each, two blind passes, 148/176 labels agree), committed before any decoding of the bare passages.
