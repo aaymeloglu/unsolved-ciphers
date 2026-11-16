@@ -21,7 +21,7 @@ Reading, translation and word table: [reading.md](reading.md), [reading-words.ts
 
 ## Name number 22 = Lodovico
 
-Niccolini's own glossed letters gloss **22** as "S. L.o" eight times (docs 6, 59, 62 and 72; [work/table/align.tsv](work/table/align.tsv)) and **24** as "As." (Ascanio) three times. On sheet 183, 15 is S. Lodovico, 22 is S. di Pesaro and Ascanio is 56. Ridolfi's letter LXXIV 107 has the same gloss ("S. Lco") over a 22, so Niccolini and Ridolfi used a name list that is not the sheet's; in Alamanni's letter 22 fits Lodovico by context only. That list's 15 is not glossed anywhere we looked.
+Niccolini's own glossed letters gloss **22** as "S. L.o" eight times (docs 6, 59, 62 and 72; [work/table/align.tsv](work/table/align.tsv)) and **24** as "As." (Ascanio) three times. On sheet 183, 15 is S. Lodovico, 22 is S. di Pesaro and Ascanio is 56. Ridolfi's letter LXXIV 107 has the same gloss ("S. Lco") over a 22, so Niccolini and Ridolfi used a name list that is not the sheet's; in Alamanni's letter 22 fits Lodovico by context only. That list's 15 is not glossed anywhere we looked. A second agent, given only the page images and asked to report what is written over every free-standing number, with no expected answer, found "s. L^o" / "s. L^ro" over 22 twelve times with high confidence and six with medium, "As." over 24 five times and "Ta." once (c. 42v line 10), "Re" over 100 and "Duca" over 40 ([work/numcheck/numbers.md](work/numcheck/numbers.md)).
 
 ## Tests
 
