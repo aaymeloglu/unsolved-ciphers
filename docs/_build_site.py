@@ -329,6 +329,14 @@ def index():
     <p><a href="{REPO}/tree/main/milan-1494">Write-up, key, transcriptions, verifier and review</a>.</p>
   </div>
   <div class="entry">
+    <h2><a href="{REPO}/blob/main/mantua-1524/reading.md">Letters to the Marquis of Mantua</a></h2>
+    <p class="where">Suardino, Vitoria?, 26 February 1524 · f. 68r, January 1524 · Capino, Robbio, 8 April 1524 · BAV Vat. lat. 8214, ff. 298r-v, 68r, 198r</p>
+    <p class="status">Partial readings</p>
+    <p>Three leaves sent to Federico II Gonzaga share one homophonic cipher, with no surviving key. In February Suardino reports from the Imperial court on Carpi, granted to Prospero Colonna without investiture. In January a "we" told not to ride out feigns illness, with urine "made to be dyed on purpose with blood", the deception Federico confessed to Castiglione; its covering letter dates it to about 20-25 January. In April Capino writes that the army will fall back "from river to river, and then to Pavia, Cremona and Milan", "as Barbon says". The key was rebuilt from the text alone, and 141 of 227 segments read strictly. On new ciphertext in Vat. lat. 8211, transcribed blind from a poor microfilm, the frozen key read 30% of segments against 11% by chance, under the 40% bar set beforehand.</p>
+    <p class="go"><a href="{REPO}/blob/main/mantua-1524/reading.md">Italian and English, leaf by leaf</a></p>
+    <p><a href="{REPO}/tree/main/mantua-1524">Write-up, key, transcriptions, verifier, held-out test and review</a>.</p>
+  </div>
+  <div class="entry">
     <h2><a href="starhemberg-reading.html">Chiffre aus Paris</a></h2>
     <p class="where">Starhemberg, Paris, 23 May 1758 · Manuscript collation</p>
     <p class="status">Substantially deciphered</p>
