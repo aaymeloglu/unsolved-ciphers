@@ -115,6 +115,43 @@ dialog.lightbox::backdrop { background:rgba(0,0,0,.72); }
 .entry .where { color:var(--muted); font-size:14px; margin:0 0 12px; }
 .entry p { margin:0 0 12px; max-width:62ch; }
 .entry .go { font-family:var(--serif); font-size:20px; }
+.ledger { max-width:1400px; margin:0 auto; padding-block:28px 32px; border-bottom:1px solid var(--rule); }
+.legend { font-size:13px; color:var(--muted); margin:0 0 16px; display:flex; flex-wrap:wrap; gap:6px 10px; align-items:center; }
+.legend .pill { margin-left:8px; }
+.legend .pill:first-child { margin-left:0; }
+table.ciphers { width:100%; min-width:0; border-collapse:collapse; font-size:14.5px; }
+table.ciphers th { text-align:left; font-family:var(--sans); font-weight:600; font-size:11.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); padding:8px 12px; border-bottom:1px solid var(--rule); }
+table.ciphers td { vertical-align:top; padding:14px 12px; border-bottom:1px solid var(--rule); }
+table.ciphers tr { border-left:4px solid transparent; }
+table.ciphers tr.solved { border-left-color:var(--ok-ink); }
+table.ciphers tr.substantial { border-left-color:var(--sub-ink); }
+table.ciphers tr.partial { border-left-color:var(--part-ink); }
+table.ciphers tr.open { border-left-color:var(--open-ink); }
+table.ciphers td.yr { font-family:var(--serif); font-size:20px; font-variant-numeric:tabular-nums; color:var(--muted); white-space:nowrap; }
+table.ciphers td.name { width:22%; }
+table.ciphers td.name a { font-family:var(--serif); font-size:21px; font-style:italic; line-height:1.15; }
+table.ciphers td.name .where { display:block; color:var(--muted); font-size:13px; margin-top:6px; line-height:1.4; }
+table.ciphers td.st { width:12%; }
+table.ciphers td.st .note { display:block; font-size:12.5px; color:var(--muted); margin-top:6px; }
+table.ciphers td.sum { line-height:1.5; }
+table.ciphers td.links { width:16%; font-size:14px; }
+.pill { display:inline-block; font-size:11px; font-weight:600; letter-spacing:.07em; text-transform:uppercase; padding:3px 9px; border-radius:999px; white-space:nowrap; }
+.pill.solved { background:var(--ok-bg); color:var(--ok-ink); }
+.pill.substantial { background:var(--sub-bg); color:var(--sub-ink); }
+.pill.partial { background:var(--part-bg); color:var(--part-ink); }
+.pill.open { background:var(--open-bg); color:var(--open-ink); }
+:root { --ok-bg:#d9e8d2; --ok-ink:#2f5d2a; --sub-bg:#d5e5e8; --sub-ink:#245560; --part-bg:#f2e1bf; --part-ink:#7d5410; --open-bg:#e2ddd2; --open-ink:#6c655a; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --ok-bg:#24361f; --ok-ink:#a3d297; --sub-bg:#1d3236; --sub-ink:#90c6d0; --part-bg:#3b2f17; --part-ink:#e6c07a; --open-bg:#2c2924; --open-ink:#a69e90; } }
+:root[data-theme="dark"] { --ok-bg:#24361f; --ok-ink:#a3d297; --sub-bg:#1d3236; --sub-ink:#90c6d0; --part-bg:#3b2f17; --part-ink:#e6c07a; --open-bg:#2c2924; --open-ink:#a69e90; }
+@media screen and (max-width: 900px) {
+  table.ciphers thead { display:none; }
+  table.ciphers, table.ciphers tbody, table.ciphers tr, table.ciphers td { display:block; width:auto; }
+  table.ciphers tr { padding:14px 0 14px 14px; border-bottom:1px solid var(--rule); }
+  table.ciphers td { border:0; padding:4px 0; }
+  table.ciphers td.name, table.ciphers td.st, table.ciphers td.links { width:auto; }
+  table.ciphers td.st .note { display:inline; margin:0 0 0 8px; }
+  table.ciphers td.yr { font-size:15px; }
+}
 .more { max-width:1400px; margin:0 auto; padding-block:28px; border-bottom:1px solid var(--rule); }
 .more h3 { font-size:20px; margin-bottom:8px; }
 .more ul { margin:0; padding-left:18px; max-width:90ch; }
