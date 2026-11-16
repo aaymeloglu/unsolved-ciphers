@@ -22,3 +22,17 @@ reference is a gloss read at 1272 px, not a printed text; set before the data). 
 
 ## Frozen inputs
 (appended at freeze)
+
+## Amendment (15 Nov 2026, before any transcription of doc. 97 exists and before anything was scored)
+Found when the gloss was read: the gloss is a running decipherment over each whole cipher line, not letter over
+sign, and only 902 of 1,314 gloss letters are legible (69%). Under the rule above (a '?' dropped from the reference
+while the output keeps its full length) a perfect table could not score above about 0.69, under the 0.80 bar. So:
+- Blocks are whole cipher lines (32 blocks: 26 on c.222r, 6 on c.222v); the gloss agent found no unglossed tail and
+  could not tie name or word signs to positions, so nothing is excluded on either side.
+- Scorer: heldout97/score97.py (sha256 d5412bce551976db4fa704237fb35dd31f224310ffd3f454f1b97c37d23cd579). An illegible letter '?'
+  stays in the reference as a free position: it may take one output character or none at no cost, never counts as
+  a match, and an output character on it leaves the denominator. Per block: matched / max(output characters not on
+  a '?', legible reference letters). Otherwise as score.py. Value sets from niccolini-table.json with key fallback.
+- Bar unchanged: 0.80. The writer is Niccolini, but the letter is of 20 July 1494 (dateline "die xx Julij 1494",
+  endorsement "a di 22 di luglio"), not 1492-93: it also tests whether his table holds two years later.
+- reference-gloss-97.tsv sha256 814b74f9b59a7190f4809b5ee1d8cd727e530c7887cdb91f2912f5d3d37a36f5, fixed now.
