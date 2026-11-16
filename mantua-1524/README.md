@@ -29,7 +29,7 @@ Files: [reading.md](reading.md) (Italian, English and notes per leaf), [reading-
 
 The grant to Colonna without investiture is already reported in Petrucci's life of Prospero Colonna (DBI 27, 1982); the letter gives the state of the question at the Imperial court in February 1524. BOX is a code sign: the Emperor where he is the grantor, the Marquis more naturally in "che [BOX] fosse preposto ad ogni altro".
 
-**f. 68r, a feigned illness.** (Its covering letter, Calandra to Castiglione, endorsed 29 January 1524, is in Vat. lat. 8211, frame 36R, old f. 33. It dates the letter to about 20-25 January 1524 and makes Castiglione its likely addressee.) A "we" told not to ride out pretends to be ill:
+**f. 68r, a feigned illness.** (Its covering letter, Calandra to Castiglione, endorsed 29 January 1524, is in Vat. lat. 8211, frame 36R, old f. 33. It dates the letter by 29 January 1524 and makes Castiglione its likely addressee.) A "we" told not to ride out pretends to be ill:
 
 > **havemo questa matina mandato fori alli medici** in sala? **orine fatte tingere a posta con sangue** [..] **facendo uscire voce che havemo** [..] **orinato sangue** ... **da poter mostrare al [..] Duca di Sessa et a chi ve parirà, ma per la verità siamo sano et gagliardo como mai fossimo.**
 
