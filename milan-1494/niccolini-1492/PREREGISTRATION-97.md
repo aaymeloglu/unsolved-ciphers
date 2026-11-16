@@ -37,3 +37,6 @@ while the output keeps its full length) a perfect table could not score above ab
   endorsement "a di 22 di luglio"), not 1492-93: it also tests whether his table holds two years later.
 - reference-gloss-97.tsv sha256 814b74f9b59a7190f4809b5ee1d8cd727e530c7887cdb91f2912f5d3d37a36f5, fixed now.
 - heldout97/transcription-97-neutral.tsv sha256 fc6d1afcd46d1f41f5fe4287dc039869141d62eeb5f88b917ac9483e4ef458a9 (1,246 signs, 32 blocks), frozen before scoring.
+
+## Result (15 Nov 2026)
+- Agreement 0.527 (first value only 0.482); best of 1,000 shuffles 0.306, mean 0.236. Bar 0.80: **failed**. Per block in heldout97/result-97.txt. Anything after this line is after the fact.
