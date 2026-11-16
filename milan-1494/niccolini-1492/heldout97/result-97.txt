@@ -1,0 +1,101 @@
+signs: 1246 labels: 53 wild: ['N14', 'N17', 'N7', 'N8', 'S30', 'S66', 'T:N13', 'X']
+legible reference letters: 902
+agreement (any-of rule): 0.5265
+agreement (first value only): 0.4819
+shuffles: n=1000 best=0.3058 mean=0.2363
+
+[B1] output (45): (h/s)ooor?(d/l)s(d/l)s(d/l)r?chean(d/l)aparconcomiri?n(d/l)a?o(i/p)ognar?
+[B1] gloss  (44): ho?nodluinnula??andare???onromu?s??eabologna
+
+[B2] output (2): co
+[B2] gloss  (3): ?no
+
+[B3] output (46): et(i/p)ot?ritract?an?iscou?u(d/l)qsamru?(i/p)oi(n/u)agget(n/u)a(a/f)?t
+[B3] gloss  (53): nonpote??????e?e??en???la?ratsappinopo??????nouha??de
+
+[B4] output (43): chena(n/u)?r(n/u)ito?ma(d/l)(n/u)?(i/p)i(d/l)itanaoiruac(d/l)o?raaromar
+[B4] gloss  (35): ??h??rmitoama?????didan??neraar??he
+
+[B5] output (49): (d/l)(d/l)qu(i/p)(n/u)imi(d/l)i(n/u)?anda(n/u)(a/f)a(d/l)(n/u)ccar?(i/p)i(i/p)oian(d/l)rarittoagtco(n/u)a
+[B5] gloss  (48): ?repri??m?dix??pi?raaluchapipo?andat?????agenoua
+
+[B6] output (42): r(d/l)ou?cre(d/l)itroparet(d/l)?sco(d/l)?r?rita(n/u)i(n/u)namg(d/l)ais
+[B6] gloss  (54): douestet?trouareilluinnulanelredifrancia?ebra?ounamala
+
+[B7] output (43): (i/p)os(d/l)?(d/l)?nontra(d/l)it?eti?s?(a/f)n(d/l)o(d/l)e(n/u)aet(d/l)esi(d/l)era(n/u)g
+[B7] gloss  (70): despo???o???d??c???mo????????????????illuin????ond?dolo?a????fi?ernan?
+
+[B8] output (39): pot?rt(d/l)e(n/u)artiquestacoiama(n/u)q(d/l)im(n/u)tadioce(a/f)
+[B8] gloss  (43): ?ohorelauan??questanoct?ma??medim?t?a?o?e??
+
+[B9] output (7): icarsar
+[B9] gloss  (6): inar??
+
+[B10] output (47): qche?g(d/l)assoruatruooamig(d/l)e(d/l)?pereprime(d/l)?perac(d/l)arr
+[B10] gloss  (45): ?ti?es??annoquattrofamigliede?primedellacitta
+
+[B11] output (44): (d/l)?quaoitesg(d/l)(h/s)onoquesta(i/p)raticactnpionecio(d/l)?r?
+[B11] gloss  (45): ?logna???on??ono???????ainlionenelredifran?a?
+
+[B12] output (46): qche(h/s)assoor(d/l)inato??coperrsrsicome?(d/l)?sa(n/u)ic(i/p)nar?
+[B12] gloss  (41): ????pemm?od?male?o?pr??????en?l????aumi?a
+
+[B13] output (42): repoicomru(d/l)iquattro?a(i/p)untor(n/u)operiint?nertt
+[B13] gloss  (44): ?op?uromi?diquattroappu??suolli?t??d?reelche
+
+[B14] output (48): ?(d/l)c(h/s)ir(d/l)ic?nons?ntricor(d/l)a(n/u)iurmachen(h/s)a(n/u)?aunoricogo
+[B14] gloss  (41): dir?no?on??r?dare?ma??nehaue??aunoricordo
+
+[B15] output (41): (n/u)e(d/l)enonon(d/l)o(i/p)ot?rttec?imecosan(i/p)a(a/f)argoins?o
+[B15] gloss  (41): uedendodi?????poteretenere??trosantapar?e
+
+[B16] output (45): pt?ctirorconertr(h/s)moo(d/l)i(i/p)egsuasichet(n/u)enir(i/p)in(h/s)ir
+[B16] gloss  (51): in?erpre?arenondextromodolapersuasi????pi?e???n?po?
+
+[B17] output (44): ccostircheandariatro(n/u)art(i/p)arci(n/u)esco(n/u)onroq(i/p)arr
+[B17] gloss  (35): ???oandassiatrouareloarciuescouo?ro
+
+[B18] output (41): (d/l)ar(i/p)i(i/p)arg?oiturogus?r(n/u)i(d/l)or(d/l)?(d/l)?etimon?tran
+[B18] gloss  (48): etparlarlilargo???dihu???????pru?dor?????????ola
+
+[B19] output (43): o(d/l)icheestn?(i/p)otrea?(a/f)artouo(h/s)aaqussto(i/p)eri(n/u)inc(n/u)
+[B19] gloss  (56): m???hi?ndoli???bene???otri????arebuonoacquisto??ilu?n??a
+
+[B20] output (40): (d/l)aqtac(d/l)emrimaq?reco(d/l)i(n/u)ecirtatro(n/u)art(d/l)arci
+[B20] gloss  (48): tandemri?ma?tomerodi?u?mi???trouareloarciuescouo
+
+[B21] output (44): (n/u)esno(n/u)oetcone?r(i/p)r?cons(n/u)i?(d/l)tuttor?oencheo(h/s)non
+[B21] gloss  (32): ???nf?r?re???ui?l?u???bene??iono
+
+[B22] output (46): (i/p)oricqee(d/l)tq?cheessiacrgsa(d/l)inqqche(i/p)?nsariasim(i/p)(d/l)
+[B22] gloss  (43): ?essi?nd?re???ssa?itadino???mp??s????simile
+
+[B23] output (40): coser(n/u)een(d/l)occost(n/u)(i/p)aiermarmme(d/l)otauntoetss
+[B23] gloss  (49): ne??uedendo???iuaffer?ma?ma????a??????eplic??????
+
+[B24] output (41): rep(d/l)ic(d/l)aam(i/p)e(d/l)(h/s)pmerogapuntiotme(i/p)ar?o(d/l)art?o
+[B24] gloss  (38): elnumeroappuntome????persodar?eneno?ha
+
+[B25] output (46): n(d/l)notiaaqaetsnos(d/l)erqua(d/l)agqcg(d/l)?scouoq(d/l)apqasugqa
+[B25] gloss  (43): etscriuerealloarciuescouo??labo???ara???o?a
+
+[B26] output (40): (i/p)nquestarcocona(d/l)taomie?(i/p)ochetianari(i/p)?r(d/l)a
+[B26] gloss  (31): ?naltromo?o????andassi?i??a??mo
+
+[B27] output (36): oimo?(d/l)i(n/u)emrchemo(d/l)tichesonocco(d/l)setco(i/p)
+[B27] gloss  (28): dixemi???ost?????no??pp?????
+
+[B28] output (38): nci(n/u)o(d/l)t?ranno?(d/l)eget?cteosrogeegac(h/s)i??a
+[B28] gloss  (41): ??ol?eranno???ll??ome??prestar??ll??hie?a
+
+[B29] output (41): (h/s)iri(n/u)o(i/p)teranneto?(d/l)iqueege(d/l)?(d/l)mi(d/l)imecomicar
+[B29] gloss  (45): ??pol?erano??????ll??le???midix?????mi?a??a??
+
+[B30] output (44): tmentt(d/l)?gaaqg(d/l)(d/l)agcheoecchee(d/l)(i/p)(i/p)rincipe(d/l)isar?a
+[B30] gloss  (40): dellaquilaper???bor??ilprincipedisalerno
+
+[B31] output (37): co(d/l)ing?gn(i/p)uo(d/l)geou(d/l)armataaqu?gtt???oar
+[B31] gloss  (43): ?ingegni??o?forni?larmat????ue?l??ome?a?o??
+
+[B32] output (34): orcr?c(d/l)eac(d/l)qa?ooa(d/l)iritt(n/u)raan(i/p)a(d/l)o(d/l)s
+[B32] gloss  (30): ?edeandran??d??s???a?a?????p?o

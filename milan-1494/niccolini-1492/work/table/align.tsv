@@ -1,0 +1,84 @@
+# doc	leaf	line	gloss	signs	values	basis	note
+21	42r	12	riuniti	S32 S51 S38 S12 S18 S50 S58	r i u n i t i	G	
+21	42r	12	non	S12 S11 S12	n o n	F	gloss "no" with tilde; Ascanio gloss sits over this+following 2-sign group, unresolved
+21	42r	13	orsino	S11 S37 S52 S18 S12 ? S37	o r s i n o _	G	gloss "orsyno"; 6th sign e-like small loop (unclear), last 9 closing
+21	42r	15	ne	S12 S28	n e	G	
+21	42r	15	alla	S45 S43 S60	a ll a	G	d-shape without visible bar
+21	42r	15	creatione	S12 S32 S28 S60 S50 S51 S11 S12 S22	c r e a t i o n e	F	last sign 3/ʒ with long tail; gloss read "ragione"? letters fit creatione
+21	42r	16	alla	S60 S54 S54 S60	a l l a	G	
+21	42r	16	creatione	S12 S32 S28 S45 S50 S58 S11 S12 S28	c r e a t i o n e	G	
+21	42r	17	e non sia ne	S28 S12 S11 S12 S52 S51 S45 S12 S28	e n o n s i a n e	F	gloss faint; values fit key
+21	42r	17	Napoli	S12 S60 S80 S11 S54 S18	n a p o l i	G	p-sign has flat top stroke running right (sigma), not a 6
+21	42r	17	ne	S12 S28	n e	G	
+21	42r	17	Santa	S52 S60 S12 S50 S45	s a n t a	G	
+21	42r	17	Maria in portico	S62 S60 S32 S51 S60 S18 S12 S80 S11 S32 S50 S51 S12 S11	m a r i a i n p o r t i c o	G	gloss "M.a in portico"; "tico" on L18 (v6÷π); p = sigma (flat top), i = 6 (rising top)
+21	42r	18	catelano	S12 S60 S50 S60 S54 S45 S12 S11	c a t a l a n o	G	preceded by unglossed "o9"
+21	42r	18	catelani	S12 S60 S50 S60 S54 S45 S12 S51 S46	c a t a l a n i _	G	final 9 closing word
+21	42r	18	Napoli	S12 S60 S80 S11 S54 S18	n a p o l i	G	p-sign has flat top stroke running right (sigma), not a 6
+81	176r	21	naturalmente	S59 S74 S50 S38 S32 S60 N3 S62 S28 S59 S50 S28	n a t u r a l m e n t e	G	gloss "natural[men]te"; N3 = small 5/t-like (sheet "5" = l)
+81	176r	21	affectionato	S60 S15 S28 S17 S51 N4 S59 S60 S49 S11	a ff e ct i o n a t o	G	S17 (c-curl + long descender + o) taken as one sign = ct (could be 2 signs); S15 = ff
+81	176r	22	suo	S52 S38 N4	s u o	G	
+81	176r	22	fratello	S74 S32 S60 S50 S28 S77 S11	f r a t e ll o	G	
+81	176r	22	meglo	N6 S28 S43 S54 S11	m e g l o	G	gloss "m?glo"; S54 here b-form with looped ascender
+81	176r	22	lo	S54 N4	l o	G	S54 h-form, looped
+81	176r	22	potea	S51 S11 S50 S19 S45	p o t e a	G	gloss "pot??"; S51 6-like = p
+81	176r	22	non	S59 N4 S59	n o n	F	gloss illegible ("tono?ora"); fits n-o-n
+81	176r	19	religiosi	S32 S28 S54 S18 S43 S58 S16 S52 S58	r e l i g i o s i	G	gloss "??lygnosi"; S43 = U/∂ with tall right stroke; S16 (2-like) = o, single
+81	176r	19	et	S26	et	G	gloss "ce"/"et"
+81	176r	19	da	S54 S60	d a	G	S54 here 5-form (flat top, hooked bowl)
+81	176r	20	spirito	S81 S69 S18 S32 S58 S50 N4	s p i r i t o	G	gloss "sp????o"; plain b = p
+81	176r	20	inquieto	S18 S59 S76 S48 S18 S19 S49 S33 S37	i n q u i e t o _	F	gloss "m?p?o" (badly read; letters fit inquieto); S33 = o single; final 9 closing
+81	176r	20	et	S26	et	G	
+81	176r	27	cardi(nali)	S47 S60 S32 S54 S18	c a r d i	G	S54 5-form = d
+81	176r	28	(cardi)nali	S59 S60 S54 S58	n a l i	G	gloss "cardin?le" spans L27-28; S54 = l; S58 = i (or e if singular)
+21	42r	16	del	S54 S19 S53	d e l	G	gloss "del nuouo papa"; h-like sign then small o then 5
+21	42r	16	nuouo	S12 S38 S19 S48 S11	n u o u o	G	S19 (small o w/ flag) here = o?; gloss legible "nuouo"
+21	42r	16	papa	N9	[papa]	G	N9 = circle with central dot (⊙), word sign
+21	42r	29	de conti	S54 S19 S47 S11 S59 S50 S51 S37 S14	d e c o n t i _ _	G	gloss "de conti" (Card. de' Conti); ÷ dot below = c, dot above = n; 9 then ### closing
+21	42r	30	aspirano	S60 S81 S51 S18 S32 S45 S48 S11	a s p i r a n o	G	p-sign = n (single); S51 = p
+21	42r	30	al	S60 S53	a l	G	preceded by unglossed dash+π
+21	42r	30	pontificato	N9	[papa]	G	same ⊙ sign
+6	9r	4	traditori	S49 S32 S45 S54 S51 S50 S11 S32 S51 S37	t r a d i t o r i _	F	S54 here 5-form = d; gloss partly legible
+6	9r	6	leuare	S54 S28 S48 S45 S32 S22	l e u a r e	G	gloss "leuar(e)"; first sign y/h-like looped = l
+6	9r	6	questo	S76 S38 S19 S81 S50 S11	q u e s t o	G	S19 small o with flag/tilde = e
+6	9r	1	(l)apugla	S32 S60 S68 S38 S43 S54 S45	? a p u g l a	F	gloss "rapugla"/"la pugla"; first sign 4-like unresolved; b = p
+6	9r	22	S. Lo	S70	[S.Lodovico]	G	"se 22 hauea", gloss "S. L.o" over 22
+62	133v	29	S. Lo	S70	[S.Lodovico]	G	"sospetti di 22", gloss "S. L.o"
+62	133v	28	Il S. Lo	S70	[S.Lodovico]	G	"22 no ha ...", gloss "Il S. L.o"
+6	9r	22	Re	N10 S46	[Re] _	G	"offeso H9", gloss "Re"; N10 = capital H with crossbar
+6	9r	6	Re	N10 S46	[Re] _	G	"il H9", gloss "Re"
+6	9r	5	Duca	N40	[Duca]	G	"40" at line start, gloss "Duca"
+62	133v	28	entrare(tail)	S50 S32 S60 S32 S28	t r a r e	G	gloss "entrare" over "ag. v4114m"; first part unresolved
+21	42r	26	suo	S81 S38 S11	s u o	G	"Giangiò Orsino? suo"
+21	42r	27	prefetto	S68 S32 S28 S74 S19 S42 S11 S46	p r e f e tt o _	G	gloss "Pfecto"/"prefetto"; n = f; ψ = tt
+21	42r	27	prospero co(lonna)	S68 S32 S11 S81 S68 S28 S32 S11 S12 S11	p r o s p e r o c o	G	gloss "prospero colonna"; rest of Colonna on next line not aligned
+21	42v	9	cardinale orsino	S12 S60 S32 S54 S18 S12 S60 S54 S28 S11 S37 S52 S18 S12 S11	c a r d i n a l e o r s i n o	F	gloss "cardinal(e) orsino"; d = 5/h-form, l = looped-b form (both S54 in transcriber usage)
+21	42v	10	Re	N100	[Re]	G	"che 100", gloss "Re" over 100
+21	42v	10	tempora(le)	S50 S28 S62 S68 S11 S32 S60	t e m p o r a	G	gloss "temporale"; b = p
+21	42v	12	castellano di Castel(lo)	S12 S60 S81 S50 S19 S43 S60 S12 S11 S54 S18	c a s t e ll a n o d i	G	gloss "castellano di Castel..."; ∂ = ll here; preceded by o+h (gloss "el"?) not aligned
+21	42v	13	santo Agnolo suo parente	S81 S60 S12 S50 S11 S45 S43 S12 S11 S54 S11 S81 S38 S11 S68 S60 S32 S28 S12 S50 S28	s a n t o a g n o l o s u o p a r e n t e	F	gloss "Agnolo suo parente" (santo fitted, gloss compressed)
+21	42v	15	buono ecclesiastico	S14 S38 S11 S12 S11 S28 S25 S54 S28 S52 S58 S45 S81 S50 S18 S12 N4 S37	b u o n o e cc l e s i a s t i c o _	F	gloss "buono ecclesiastico" (2nd word cramped); ### under the b of buono (single); ∇ = cc; e-like loop = o; 9 closing
+21	42v	17	arcivescov(o)	S60 S32 S12 S18 S48 S28 S81 S12 S11 S48	a r c i u e s c o u	F	gloss cramped; π inserted above line between ÷ and p; tail unresolved
+21	42v	17	di Taranto	S54 S18 S49 S60 S32 S45 S12 S50 N4 S37	d i t a r a n t o _	G	gloss "di T(a)ranto"; d is 5-form; ξ = t; dash+e-loop = o
+21	42v	18	As.	N2te	[Ascanio]	G	"ad 2" with raised "te"/"re", gloss "As."
+21	42v	18	Ta.?	N24	[Taverna?]	S	"24 · R.mo", gloss "Ta." just left of/above 24; conflicts with 176r (24 = As.)
+81	176r	17	As.	N24	[Ascanio]	G	B1, struck-through 24, gloss "As."
+81	176r	20	As.	N24	[Ascanio]	G	B5, gloss "As."
+6	9r	3	Re	N100 S46	[Re] _	G	"uerso 1009", gloss "Re" (et over following λ)
+21	42r	31	del papa?	S54 S19 S53 N100	d e l [papa?]	S	gloss read "d.l papa" but could be "dl Re"; c42v and c9r gloss 100 as Re
+
+21	42v	20	si insignorissi	S81 S18 S12 S52 S58 S43 S12 S11 S32 S51 S10 S58	s i n s i g n o r i ss i	G	gloss "s'insignoressi"; S10 (9 with long crossed descender) = ss
+21	42v	20	Re	N100	[Re]	S	"a 100", gloss "Re" faint above
+21	42v	22	card(inale) orsino	S12 S60 S32 S54 N4 S37 S81 S18 S12 N4 S37	c a r d o r s i n o _	G	gloss "cardinal orsino"; cardinal abbreviated to 4 signs; dash+loop = o
+21	42v	19	di Italia	S54 S18 S51 S50 S60 S54 S58 S45	d i i t a l i a	G	gloss "di Italia"; d = 5-form, l = looped b
+6	9v	1	che compagno al Re	S12 S11 S62 S68 S60 S43 S12 S11 S60 S53 N10	c o m p a g n o a l [Re]	G	gloss "che compagno al Re"; 7th sign a ÷ blotted with a cross stroke; Ħ = Re
+6	9v	1	S. Lo	S70	[S.Lodovico]	G	"al 22", gloss "al S. L.o"
+6	9v	2	S. Lo	S70 S46	[S.Lodovico] _	G	"di 22 9", gloss "S. L.o"
+6	9v	1	Trotto	N10	[Trotto?]	S	"· H ·" with "74" written above it, gloss "Trotto"; probably H corrected to number 74
+6	9v	1	aym?	N48	[?]	S	"a 48", faint gloss "aym'"? unresolved
+59	124v	1	S. Lo	S70 S46 S14	[S.Lodovico] _ _	G	"di 22 9###", gloss "S. L.o" (y~205)
+59	124v	1	As.	N2te S46	[Ascanio] _	G	"30 x11 2re 9", gloss "As." over the 2 with raised letters (y~205); "Amas(?)" gloss over 30x11 unread
+72	147v	17	As.	N2te S46 S14	[Ascanio] _ _	G	"2n 9###", gloss "As." (y~710)
+72	147v	18	As.	N24	[Ascanio]	G	"pregassi 24", gloss "As." (y~760)
+72	147v	18	S. Lo	S70	[S.Lodovico]	G	"conforemsi 22 all...", gloss "S. L.o" (y~760)
+72	147v	17	S. Lo	S70	[S.Lodovico]	G	"...one d. 22" line end, gloss "S. L.o" (y~715)

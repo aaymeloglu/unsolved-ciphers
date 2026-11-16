@@ -1,0 +1,35 @@
+signs: 144 labels used: 40 not in key: ['N1', 'N3', 'N4', 'N5', 'N6', 'N7', 'N8']
+reference letters: 105
+agreement (any-of rule): 0.3576
+agreement (first value only): 0.3510
+shuffles: n=1000 best=0.2468 mean=0.1734
+
+[B1] key output (5): br?s?
+[B1] reference  (2): as
+
+[B2] key output (6): m?iaan
+[B2] reference  (7): arrghao
+
+[B4] key output (23): reditib(h/s)ietda(h/s)eco(l/p/z)arir?
+[B4] reference  (18): lygnosicedasenaltn
+
+[B5] key output (4): breu
+[B5] reference  (2): as
+
+[B6] key output (29): s(l/p/z)irit?inquietretuodteuoanoui
+[B6] reference  (19): spompoetmoltoancora
+
+[B7] key output (27): nftura?menteaerr(i/z)?nator?et?
+[B7] reference  (19): naturalteafforsnaoy
+
+[B8] key output (30): (h/s)u?fratello?egdod?(i/z)otean?neu??
+[B8] reference  (27): suofratellomglolopattonoora
+
+[B9] key output (10): sceredu(i/z)r?
+[B9] reference  (3): lui
+
+[B10] key output (5): cardi
+[B10] reference  (8): cardinle
+
+[B11] key output (8): nadir??s
+[B11] reference  (0): 

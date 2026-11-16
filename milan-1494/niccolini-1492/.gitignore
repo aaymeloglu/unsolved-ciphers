@@ -1,0 +1,10 @@
+work/table/out/
+work/*/out/
+work/*/z/
+work/dbg/
+crops/
+heldout97/crops/
+heldout97/work/tr/
+heldout97/work/*.png
+work/**/*.png
+heldout97/work/view/

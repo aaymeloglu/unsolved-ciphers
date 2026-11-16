@@ -1,0 +1,1095 @@
+{
+ "N1": {
+  "values": [
+   ""
+  ],
+  "count": 0,
+  "examples": [],
+  "grade": "S",
+  "agrees_with_sheet": null,
+  "shape": "\"#\"/\"ff\": two to four tall slanted strokes crossed by one bar (transcriber N1)",
+  "note": "Not glossed in any passage aligned here. On c.176r it ends B4, B8, B11 where the gloss has stopped; on 42r a ### closes \"de conti\". Treat as a run-final null. The ff inside \"affectionato\" was written S15, not N1."
+ },
+ "N2te": {
+  "values": [
+   "[Ascanio]"
+  ],
+  "count": 3,
+  "examples": [
+   "21/42v/18: As.",
+   "59/124v/1: As.",
+   "72/147v/17: As."
+  ],
+  "grade": "C",
+  "agrees_with_sheet": null,
+  "shape": "[numeral] 2 with a raised \"te\"/\"re\" (possibly a cursive 24)",
+  "note": "\"2\" with small raised letters (te/re/n) followed by 9 = Ascanio, glossed \"As.\" 3 times (42v L18, 124v L1, 147v L17). Probably a cursive 24 (the raised letter being a reduced 4), so the transcribers may write it S16 or S16 S32."
+ },
+ "N3": {
+  "values": [
+   "l"
+  ],
+  "count": 1,
+  "examples": [
+   "81/176r/21: naturalmente"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": null,
+  "shape": "small 4/t-like or 5-like sign: short stem, arm to the right, short foot, sits on the line (transcriber N3)"
+ },
+ "N4": {
+  "values": [
+   "o"
+  ],
+  "count": 7,
+  "examples": [
+   "81/176r/21: affectionato",
+   "81/176r/22: suo",
+   "81/176r/22: lo",
+   "81/176r/22: non (fitted)",
+   "81/176r/20: spirito",
+   "21/42v/15: buono ecclesiastico (fitted)",
+   "21/42v/17: di Taranto",
+   "21/42v/22: card(inale) orsino"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": null,
+  "shape": "horizontal dash carrying a small e-like loop (\"-e-\"); same letter as S33 with a lead-in dash (transcriber N4)",
+  "fitted_count": 2
+ },
+ "N6": {
+  "values": [
+   "m"
+  ],
+  "count": 1,
+  "examples": [
+   "81/176r/22: meglo"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": null,
+  "shape": "x with a short bar above it (transcriber N6)"
+ },
+ "N9": {
+  "values": [
+   "[papa]"
+  ],
+  "count": 2,
+  "examples": [
+   "21/42r/16: papa",
+   "21/42r/30: pontificato"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": null,
+  "shape": "[word sign] NEW: circle with a central dot (⊙), standing alone",
+  "note": "⊙ = papa (42r L16 \"del nuouo papa\") and papato/pontificato (42r L30 \"aspirano al pontificato\")."
+ },
+ "N10": {
+  "values": [
+   "[Re]",
+   "[Trotto?]"
+  ],
+  "count": 3,
+  "examples": [
+   "6/9r/22: Re",
+   "6/9r/6: Re",
+   "6/9v/1: che compagno al Re",
+   "6/9v/1: Trotto (doubtful)"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": null,
+  "shape": "[word sign, not a numeral] NEW: capital H, usually with an extra crossbar (Ħ), standing alone, often followed by 9",
+  "fitted_count": 1,
+  "note": "Ħ = Re (9r L6, L22; 9v L1). On 9v L1 a \"·H·\" has \"74\" written above it and the gloss \"Trotto\": probably H corrected to the number 74."
+ },
+ "N24": {
+  "values": [
+   "[Ascanio]",
+   "[Taverna?]"
+  ],
+  "count": 3,
+  "examples": [
+   "21/42v/18: Ta.? (doubtful)",
+   "81/176r/17: As.",
+   "81/176r/20: As.",
+   "72/147v/18: As."
+  ],
+  "grade": "C",
+  "agrees_with_sheet": false,
+  "shape": "[numeral] 24",
+  "fitted_count": 1,
+  "note": "24 = Ascanio 3 times: c.176r B1 and B5, doc 72 c.147v (\"pregassi 24\"). On 42v L18 a gloss \"Ta.\" (Taverna?) stands next to a 24; that one is unresolved.",
+  "sheet": [
+   "[Ascanio] is 56 on the sheet"
+  ]
+ },
+ "N40": {
+  "values": [
+   "[Duca]"
+  ],
+  "count": 1,
+  "examples": [
+   "6/9r/5: Duca"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": null,
+  "shape": "[numeral] 40",
+  "note": "40 = Duca (9r L5)."
+ },
+ "N48": {
+  "values": [
+   "[?]"
+  ],
+  "count": 0,
+  "examples": [
+   "6/9v/1: aym? (doubtful)"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": null,
+  "shape": "[numeral] 48",
+  "fitted_count": 1,
+  "note": "48 with an unreadable gloss (9v L1); 48 occurs several times on doc 6."
+ },
+ "N100": {
+  "values": [
+   "[Re]",
+   "[papa?]"
+  ],
+  "count": 2,
+  "examples": [
+   "21/42v/10: Re",
+   "6/9r/3: Re",
+   "21/42r/31: del papa? (doubtful)",
+   "21/42v/20: Re (doubtful)"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": null,
+  "shape": "[numeral] 100",
+  "fitted_count": 2,
+  "note": "100 = Re twice with clear gloss (9r L3 \"1009\", 42v L10); a third gloss on 42r L31 reads \"d.l papa\" or \"dl Re\" (unclear). Sheet: 10 = Papa, 11 = Re di Napoli."
+ },
+ "S10": {
+  "values": [
+   "ss"
+  ],
+  "count": 1,
+  "examples": [
+   "21/42v/20: si insignorissi"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": null,
+  "shape": "9 or q with a long crossed or looped descender",
+  "sheet": [],
+  "key_values": [
+   "ss"
+  ]
+ },
+ "S11": {
+  "values": [
+   "o"
+  ],
+  "count": 25,
+  "examples": [
+   "21/42r/12: non (fitted)",
+   "21/42r/13: orsino",
+   "21/42r/15: creatione (fitted)",
+   "21/42r/16: creatione",
+   "21/42r/17: e non sia ne (fitted)",
+   "21/42r/17: Napoli",
+   "21/42r/17: Maria in portico",
+   "21/42r/18: catelano"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "π",
+  "fitted_count": 13,
+  "sheet": [
+   "o"
+  ]
+ },
+ "S12": {
+  "values": [
+   "n",
+   "c"
+  ],
+  "count": 26,
+  "examples": [
+   "21/42r/12: riuniti",
+   "21/42r/12: non (fitted)",
+   "21/42r/13: orsino",
+   "21/42r/15: ne",
+   "21/42r/15: creatione (fitted)",
+   "21/42r/16: creatione",
+   "21/42r/17: e non sia ne (fitted)",
+   "21/42r/17: Napoli"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "÷, dots not made out",
+  "fitted_count": 17,
+  "value_counts": {
+   "n": 18,
+   "c": 8
+  },
+  "note": "÷ with dots not made out; n or c. Where dots are visible: dot above = n (S59), dot below only = c (S47), as on the sheet.",
+  "sheet": [
+   "n",
+   "c"
+  ]
+ },
+ "S14": {
+  "values": [
+   "",
+   "b"
+  ],
+  "count": 3,
+  "examples": [
+   "21/42r/29: de conti",
+   "21/42v/15: buono ecclesiastico (fitted)",
+   "59/124v/1: S. Lo",
+   "72/147v/17: As."
+  ],
+  "grade": "S",
+  "agrees_with_sheet": true,
+  "shape": "triple-barred stroke",
+  "fitted_count": 1,
+  "note": "### once stood under the b of \"buono\" (42v L15), once closing \"de conti\" after 9. Treat as null at word end; b single case.",
+  "sheet": [
+   ""
+  ]
+ },
+ "S15": {
+  "values": [
+   "ff"
+  ],
+  "count": 1,
+  "examples": [
+   "81/176r/21: affectionato"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": false,
+  "shape": "double-barred stroke",
+  "note": "double-barred stroke inside a word = ff (affectionato, 176r L21). Sheet: ## null.",
+  "sheet": [
+   ""
+  ],
+  "values_not_on_sheet": [
+   "ff"
+  ]
+ },
+ "S16": {
+  "values": [
+   "o"
+  ],
+  "count": 1,
+  "examples": [
+   "81/176r/19: religiosi"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": false,
+  "shape": "2",
+  "note": "2 (or 2-like with a flat base) once = o (religiosi, 176r L19). Clear-text \"2\" is Niccolini's et/e; sheet 2 = b.",
+  "sheet": [
+   "b"
+  ],
+  "values_not_on_sheet": [
+   "o"
+  ]
+ },
+ "S17": {
+  "values": [
+   "ct"
+  ],
+  "count": 1,
+  "examples": [
+   "81/176r/21: affectionato"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": null,
+  "shape": "closed circle with a vertical stroke through it",
+  "note": "φ-like group (c-curl, long descender, o) once = ct (affectionato); may be two signs.",
+  "sheet": [],
+  "key_values": [
+   "rr"
+  ]
+ },
+ "S18": {
+  "values": [
+   "i"
+  ],
+  "count": 14,
+  "examples": [
+   "21/42r/12: riuniti",
+   "21/42r/13: orsino",
+   "21/42r/17: Napoli",
+   "21/42r/17: Maria in portico",
+   "21/42r/18: Napoli",
+   "81/176r/19: religiosi",
+   "81/176r/20: spirito",
+   "81/176r/20: inquieto (fitted)"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "7",
+  "fitted_count": 6,
+  "sheet": [
+   "i"
+  ]
+ },
+ "S19": {
+  "values": [
+   "e",
+   "o"
+  ],
+  "count": 7,
+  "examples": [
+   "81/176r/22: potea",
+   "81/176r/20: inquieto (fitted)",
+   "21/42r/16: del",
+   "21/42r/16: nuouo",
+   "21/42r/29: de conti",
+   "6/9r/6: questo",
+   "21/42r/27: prefetto",
+   "21/42v/12: castellano di Castel(lo)"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "small o with a flag stroke to the right",
+  "fitted_count": 2,
+  "value_counts": {
+   "e": 6,
+   "o": 1
+  },
+  "note": "small o with a flag/tilde = e (sheet). Once read o (nuouo, 42r L16), where the loop may be S33.",
+  "sheet": [
+   "e"
+  ],
+  "values_not_on_sheet": [
+   "o"
+  ]
+ },
+ "S22": {
+  "values": [
+   "e"
+  ],
+  "count": 1,
+  "examples": [
+   "21/42r/15: creatione (fitted)",
+   "6/9r/6: leuare"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": true,
+  "shape": "3",
+  "fitted_count": 1,
+  "sheet": [
+   "e"
+  ]
+ },
+ "S25": {
+  "values": [
+   "cc"
+  ],
+  "count": 0,
+  "examples": [
+   "21/42v/15: buono ecclesiastico (fitted)"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": null,
+  "shape": "closed triangle",
+  "fitted_count": 1,
+  "sheet": [],
+  "key_values": [
+   "cc"
+  ]
+ },
+ "S26": {
+  "values": [
+   "et"
+  ],
+  "count": 2,
+  "examples": [
+   "81/176r/19: et",
+   "81/176r/20: et"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "bold λ / a with a curl",
+  "sheet": [
+   "et"
+  ]
+ },
+ "S28": {
+  "values": [
+   "e"
+  ],
+  "count": 15,
+  "examples": [
+   "21/42r/15: ne",
+   "21/42r/15: creatione (fitted)",
+   "21/42r/16: creatione",
+   "21/42r/17: e non sia ne (fitted)",
+   "21/42r/17: ne",
+   "81/176r/21: naturalmente",
+   "81/176r/21: affectionato",
+   "81/176r/22: fratello"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "m",
+  "fitted_count": 9,
+  "sheet": [
+   "e"
+  ]
+ },
+ "S32": {
+  "values": [
+   "r"
+  ],
+  "count": 20,
+  "examples": [
+   "21/42r/12: riuniti",
+   "21/42r/15: creatione (fitted)",
+   "21/42r/16: creatione",
+   "21/42r/17: Maria in portico",
+   "81/176r/21: naturalmente",
+   "81/176r/22: fratello",
+   "81/176r/19: religiosi",
+   "81/176r/20: spirito"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "4",
+  "fitted_count": 6,
+  "sheet": [
+   "r"
+  ]
+ },
+ "S33": {
+  "values": [
+   "o"
+  ],
+  "count": 0,
+  "examples": [
+   "81/176r/20: inquieto (fitted)"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": null,
+  "shape": "e with a large loop",
+  "fitted_count": 1,
+  "note": "e-like sign with a large loop, no lead-in dash = o (sheet: null E9). With a lead-in dash it is N4, also o.",
+  "sheet": [
+   ""
+  ]
+ },
+ "S37": {
+  "values": [
+   "",
+   "r"
+  ],
+  "count": 6,
+  "examples": [
+   "21/42r/13: orsino",
+   "81/176r/20: inquieto (fitted)",
+   "21/42r/29: de conti",
+   "6/9r/4: traditori (fitted)",
+   "21/42v/9: cardinale orsino (fitted)",
+   "21/42v/15: buono ecclesiastico (fitted)",
+   "21/42v/17: di Taranto",
+   "21/42v/22: card(inale) orsino"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "9",
+  "fitted_count": 4,
+  "value_counts": {
+   "r": 2,
+   "": 4
+  },
+  "note": "9 inside a word = r; 9 closing a word (after the last letter) = null, as the sheet's \"9 closing a word\" (S46).",
+  "sheet": [
+   "r",
+   ""
+  ],
+  "key_values": [
+   "r"
+  ]
+ },
+ "S38": {
+  "values": [
+   "u"
+  ],
+  "count": 6,
+  "examples": [
+   "21/42r/12: riuniti",
+   "81/176r/21: naturalmente",
+   "81/176r/22: suo",
+   "21/42r/16: nuouo",
+   "6/9r/6: questo",
+   "6/9r/1: (l)apugla (fitted)",
+   "21/42r/26: suo",
+   "21/42v/13: santo Agnolo suo parente (fitted)"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "ı",
+  "fitted_count": 3,
+  "sheet": [
+   "u"
+  ]
+ },
+ "S42": {
+  "values": [
+   "tt"
+  ],
+  "count": 1,
+  "examples": [
+   "21/42r/27: prefetto"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": null,
+  "shape": "open cup with a descender",
+  "sheet": [],
+  "key_values": [
+   "tt"
+  ]
+ },
+ "S43": {
+  "values": [
+   "g",
+   "ll"
+  ],
+  "count": 6,
+  "examples": [
+   "21/42r/15: alla",
+   "81/176r/22: meglo",
+   "81/176r/19: religiosi",
+   "6/9r/1: (l)apugla (fitted)",
+   "21/42v/12: castellano di Castel(lo)",
+   "21/42v/13: santo Agnolo suo parente (fitted)",
+   "21/42v/20: si insignorissi",
+   "6/9v/1: che compagno al Re"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": false,
+  "shape": "∂",
+  "fitted_count": 2,
+  "value_counts": {
+   "ll": 2,
+   "g": 4
+  },
+  "note": "∂ (round bowl, curled top) = g. A d-shape without visible bar stood for ll twice (alla 42r L15, castellano 42v L12); with the bar it is S77 (ll). The c.176r transcriber hesitated S43/S77 on a g.",
+  "sheet": [
+   "g"
+  ],
+  "values_not_on_sheet": [
+   "ll"
+  ]
+ },
+ "S45": {
+  "values": [
+   "a"
+  ],
+  "count": 10,
+  "examples": [
+   "21/42r/15: alla",
+   "21/42r/16: creatione",
+   "21/42r/17: e non sia ne (fitted)",
+   "21/42r/17: Santa",
+   "21/42r/18: catelano",
+   "21/42r/18: catelani",
+   "81/176r/22: potea",
+   "21/42r/30: aspirano"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "c",
+  "fitted_count": 5,
+  "sheet": [
+   "a"
+  ]
+ },
+ "S46": {
+  "values": [
+   ""
+  ],
+  "count": 9,
+  "examples": [
+   "21/42r/18: catelani",
+   "6/9r/22: Re",
+   "6/9r/6: Re",
+   "21/42r/27: prefetto",
+   "6/9r/3: Re",
+   "6/9v/2: S. Lo",
+   "59/124v/1: S. Lo",
+   "59/124v/1: As."
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "9 standing alone, or closing a word",
+  "sheet": [
+   ""
+  ]
+ },
+ "S47": {
+  "values": [
+   "c"
+  ],
+  "count": 2,
+  "examples": [
+   "81/176r/27: cardi(nali)",
+   "21/42r/29: de conti"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "dash with a dot below only, the dash usually arched",
+  "sheet": [
+   "c"
+  ]
+ },
+ "S48": {
+  "values": [
+   "u",
+   "n"
+  ],
+  "count": 3,
+  "examples": [
+   "81/176r/20: inquieto (fitted)",
+   "21/42r/16: nuouo",
+   "21/42r/30: aspirano",
+   "6/9r/6: leuare",
+   "21/42v/17: arcivescov(o) (fitted)"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": true,
+  "shape": "p",
+  "fitted_count": 3,
+  "value_counts": {
+   "u": 2,
+   "n": 1
+  },
+  "note": "p = u (sheet); once stood for n in \"aspirano\" (42r L30), which may be a misformed ÷.",
+  "sheet": [
+   "u"
+  ],
+  "values_not_on_sheet": [
+   "n"
+  ]
+ },
+ "S49": {
+  "values": [
+   "t"
+  ],
+  "count": 2,
+  "examples": [
+   "81/176r/21: affectionato",
+   "81/176r/20: inquieto (fitted)",
+   "6/9r/4: traditori (fitted)",
+   "21/42v/17: di Taranto"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "ξ / tall 3",
+  "fitted_count": 2,
+  "sheet": [
+   "t"
+  ]
+ },
+ "S50": {
+  "values": [
+   "t"
+  ],
+  "count": 18,
+  "examples": [
+   "21/42r/12: riuniti",
+   "21/42r/15: creatione (fitted)",
+   "21/42r/16: creatione",
+   "21/42r/17: Santa",
+   "21/42r/17: Maria in portico",
+   "21/42r/18: catelano",
+   "21/42r/18: catelani",
+   "81/176r/21: naturalmente"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "v",
+  "fitted_count": 5,
+  "sheet": [
+   "t"
+  ]
+ },
+ "S51": {
+  "values": [
+   "i",
+   "p"
+  ],
+  "count": 10,
+  "examples": [
+   "21/42r/12: riuniti",
+   "21/42r/15: creatione (fitted)",
+   "21/42r/17: e non sia ne (fitted)",
+   "21/42r/17: Maria in portico",
+   "21/42r/18: catelani",
+   "81/176r/21: affectionato",
+   "81/176r/22: potea",
+   "21/42r/29: de conti"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": false,
+  "shape": "6",
+  "fitted_count": 4,
+  "value_counts": {
+   "i": 8,
+   "p": 2
+  },
+  "note": "6 with the top stroke rising and curving = i. Niccolini's p is a σ (S80) whose flat top stroke runs to the right; at 1272 px it is easily taken for a 6 (the c.176r transcriber labelled the p of \"potea\" S51). Read S51 as i unless the top stroke is flat, then p.",
+  "sheet": [
+   "i",
+   "z"
+  ],
+  "values_not_on_sheet": [
+   "p"
+  ]
+ },
+ "S52": {
+  "values": [
+   "s"
+  ],
+  "count": 5,
+  "examples": [
+   "21/42r/13: orsino",
+   "21/42r/17: e non sia ne (fitted)",
+   "21/42r/17: Santa",
+   "81/176r/22: suo",
+   "81/176r/19: religiosi",
+   "21/42v/9: cardinale orsino (fitted)",
+   "21/42v/15: buono ecclesiastico (fitted)",
+   "21/42v/20: si insignorissi"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "L",
+  "fitted_count": 3,
+  "sheet": [
+   "s"
+  ],
+  "key_values": [
+   "s",
+   "h"
+  ]
+ },
+ "S53": {
+  "values": [
+   "l"
+  ],
+  "count": 3,
+  "examples": [
+   "21/42r/16: del",
+   "21/42r/30: al",
+   "21/42r/31: del papa? (doubtful)",
+   "6/9v/1: che compagno al Re"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "stem turning into an arm to the right at the baseline",
+  "fitted_count": 1,
+  "sheet": [
+   "l"
+  ]
+ },
+ "S54": {
+  "values": [
+   "l",
+   "d"
+  ],
+  "count": 20,
+  "examples": [
+   "21/42r/16: alla",
+   "21/42r/17: Napoli",
+   "21/42r/18: catelano",
+   "21/42r/18: catelani",
+   "21/42r/18: Napoli",
+   "81/176r/22: meglo",
+   "81/176r/22: lo",
+   "81/176r/19: religiosi"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": false,
+  "shape": "tall slanted stem ending in an open angular hook, no arm to the right at the baseline; with or without a bar across the stem",
+  "fitted_count": 7,
+  "value_counts": {
+   "l": 12,
+   "d": 8
+  },
+  "note": "Transcribers put two Niccolini letters under S54. (1) l: a b- or h-like sign with a looped or closed ascender and a bowl or hook at the foot (meglo, lo on c.176r; alla, catelani, napoli, italia, orsino on c.42r/42v). (2) d: a 5/ʒ-like sign, short flat top stroke, stem, open hook running below the line (da, cardi on 176r; di, cardinale, del, de conti, traditori). In side-by-side zooms the two forms look different, so label l with the loop and d with the flat top if the shape can be made out. At transcriber resolution keep both values.",
+  "sheet": [
+   "d"
+  ],
+  "values_not_on_sheet": [
+   "l"
+  ]
+ },
+ "S58": {
+  "values": [
+   "i"
+  ],
+  "count": 9,
+  "examples": [
+   "21/42r/12: riuniti",
+   "21/42r/16: creatione",
+   "81/176r/19: religiosi",
+   "81/176r/20: spirito",
+   "81/176r/28: (cardi)nali",
+   "21/42v/15: buono ecclesiastico (fitted)",
+   "21/42v/20: si insignorissi",
+   "21/42v/19: di Italia"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "8",
+  "fitted_count": 1,
+  "sheet": [
+   "i"
+  ]
+ },
+ "S59": {
+  "values": [
+   "n"
+  ],
+  "count": 5,
+  "examples": [
+   "81/176r/21: naturalmente",
+   "81/176r/21: affectionato",
+   "81/176r/22: non (fitted)",
+   "81/176r/20: inquieto (fitted)",
+   "81/176r/28: (cardi)nali",
+   "21/42r/29: de conti"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "dash with a tick or dot above it, with or without a dot below; the dash straight or sloping",
+  "fitted_count": 3,
+  "sheet": [
+   "n"
+  ]
+ },
+ "S60": {
+  "values": [
+   "a"
+  ],
+  "count": 30,
+  "examples": [
+   "21/42r/15: alla",
+   "21/42r/15: creatione (fitted)",
+   "21/42r/16: alla",
+   "21/42r/17: Napoli",
+   "21/42r/17: Santa",
+   "21/42r/17: Maria in portico",
+   "21/42r/18: catelano",
+   "21/42r/18: catelani"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "two short vertical strokes",
+  "fitted_count": 7,
+  "sheet": [
+   "a"
+  ]
+ },
+ "S62": {
+  "values": [
+   "m"
+  ],
+  "count": 4,
+  "examples": [
+   "21/42r/17: Maria in portico",
+   "81/176r/21: naturalmente",
+   "21/42v/10: tempora(le)",
+   "6/9v/1: che compagno al Re"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "x",
+  "sheet": [
+   "m"
+  ]
+ },
+ "S68": {
+  "values": [
+   "p"
+  ],
+  "count": 5,
+  "examples": [
+   "6/9r/1: (l)apugla (fitted)",
+   "21/42r/27: prefetto",
+   "21/42r/27: prospero co(lonna)",
+   "21/42v/10: tempora(le)",
+   "21/42v/13: santo Agnolo suo parente (fitted)",
+   "6/9v/1: che compagno al Re"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "b with a hooked flag at the top",
+  "fitted_count": 2,
+  "sheet": [
+   "p"
+  ],
+  "key_values": [
+   "p",
+   "l",
+   "z"
+  ]
+ },
+ "S69": {
+  "values": [
+   "p"
+  ],
+  "count": 1,
+  "examples": [
+   "81/176r/20: spirito"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": false,
+  "shape": "plain b, no cross",
+  "note": "Plain b. Only Niccolini case aligned: the p of spirito (176r B6), labelled S69{N2}? by the transcriber. On doc 21 the p-sign is a b with a flag or hook on the ascender (S68, the sheet p): prospero, prefetto, parente, tempora, compagno. So b-for-p is the sheet value S68; plain S69 = p is single-case and may be an S68 whose flag was not seen.",
+  "sheet": [
+   "l",
+   "z"
+  ],
+  "key_values": [
+   "l",
+   "z",
+   "p"
+  ],
+  "values_not_on_sheet": [
+   "p"
+  ]
+ },
+ "S70": {
+  "values": [
+   "[S.Lodovico]"
+  ],
+  "count": 8,
+  "examples": [
+   "6/9r/22: S. Lo",
+   "62/133v/29: S. Lo",
+   "62/133v/28: Il S. Lo",
+   "6/9v/1: S. Lo",
+   "6/9v/2: S. Lo",
+   "59/124v/1: S. Lo",
+   "72/147v/18: S. Lo",
+   "72/147v/17: S. Lo"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": false,
+  "shape": "the numeral 22",
+  "note": "22 = S. Lodovico (gloss \"S. L.o\") 8 times on four letters: doc 6 c.9r, c.9v (x2), doc 59 c.124v, doc 62 c.133v (x2), doc 72 c.147v (x2). On the sheet S. L.o is 15 and 22 is S. di Pesaro, so Niccolini's 22 is the sheet's 15.",
+  "sheet": [
+   "[S. di Pesaro]"
+  ],
+  "key_values": [
+   "[22]"
+  ],
+  "values_not_on_sheet": [
+   "[S.Lodovico]"
+  ]
+ },
+ "S74": {
+  "values": [
+   "f",
+   "a"
+  ],
+  "count": 3,
+  "examples": [
+   "81/176r/21: naturalmente",
+   "81/176r/22: fratello",
+   "21/42r/27: prefetto"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "n",
+  "value_counts": {
+   "a": 1,
+   "f": 2
+  },
+  "note": "n-shape. f in fratello and prefetto (sheet value). a once, in naturalmente (176r L21): probably a joined \"11\" (= a) whose two strokes are linked by an arch.",
+  "sheet": [
+   "f"
+  ],
+  "values_not_on_sheet": [
+   "a"
+  ]
+ },
+ "S76": {
+  "values": [
+   "q"
+  ],
+  "count": 1,
+  "examples": [
+   "81/176r/20: inquieto (fitted)",
+   "6/9r/6: questo"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": true,
+  "shape": "a",
+  "fitted_count": 1,
+  "sheet": [
+   "q"
+  ]
+ },
+ "S77": {
+  "values": [
+   "ll"
+  ],
+  "count": 1,
+  "examples": [
+   "81/176r/22: fratello"
+  ],
+  "grade": "S",
+  "agrees_with_sheet": null,
+  "shape": "bowl to the left of a right-leaning stem, with a long bar across the ascender",
+  "sheet": [],
+  "key_values": [
+   "ll"
+  ]
+ },
+ "S80": {
+  "values": [
+   "p"
+  ],
+  "count": 3,
+  "examples": [
+   "21/42r/17: Napoli",
+   "21/42r/17: Maria in portico",
+   "21/42r/18: Napoli"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "σ: o with a long flat top stroke",
+  "note": "σ: loop with a flat top stroke running right = p (napoli x2, portico). Easily transcribed as S51.",
+  "sheet": [
+   "p"
+  ]
+ },
+ "S81": {
+  "values": [
+   "s"
+  ],
+  "count": 8,
+  "examples": [
+   "81/176r/20: spirito",
+   "21/42r/30: aspirano",
+   "6/9r/6: questo",
+   "21/42r/26: suo",
+   "21/42r/27: prospero co(lonna)",
+   "21/42v/12: castellano di Castel(lo)",
+   "21/42v/13: santo Agnolo suo parente (fitted)",
+   "21/42v/15: buono ecclesiastico (fitted)"
+  ],
+  "grade": "C",
+  "agrees_with_sheet": true,
+  "shape": "o",
+  "fitted_count": 4,
+  "sheet": [
+   "s"
+  ]
+ }
+}
