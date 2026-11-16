@@ -21,9 +21,10 @@ jobs:
       - run: uv run python vande-perre-1653/further-review/verify_review.py
       - run: uv run python milan-1494/verify.py
       - run: uv run python milan-1494/niccolini-1492/verify.py
+      - run: uv run python mantua-1524/verify.py
       - run: uv run python ottobon-1589/decode.py --check
       - run: uv run python forster-1644/verify_solution.py > /dev/null
       - run: uv run python starhemberg-1758/run_checks.py
-      - run: git diff --exit-code -- ottobon-1589 forster-1644 starhemberg-1758 milan-1494
+      - run: git diff --exit-code -- ottobon-1589 forster-1644 starhemberg-1758 milan-1494 mantua-1524
       - run: uv run python docs/_build_site.py
       - run: git diff --exit-code -- docs/
