@@ -121,6 +121,43 @@ dialog.lightbox::backdrop { background:rgba(0,0,0,.72); }
 .entry .where { color:var(--muted); font-size:14px; margin:0 0 12px; }
 .entry p { margin:0 0 12px; max-width:62ch; }
 .entry .go { font-family:var(--serif); font-size:20px; }
+.ledger { max-width:1400px; margin:0 auto; padding-block:28px 32px; border-bottom:1px solid var(--rule); }
+.legend { font-size:13px; color:var(--muted); margin:0 0 16px; display:flex; flex-wrap:wrap; gap:6px 10px; align-items:center; }
+.legend .pill { margin-left:8px; }
+.legend .pill:first-child { margin-left:0; }
+table.ciphers { width:100%; min-width:0; border-collapse:collapse; font-size:14.5px; }
+table.ciphers th { text-align:left; font-family:var(--sans); font-weight:600; font-size:11.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); padding:8px 12px; border-bottom:1px solid var(--rule); }
+table.ciphers td { vertical-align:top; padding:14px 12px; border-bottom:1px solid var(--rule); }
+table.ciphers tr { border-left:4px solid transparent; }
+table.ciphers tr.solved { border-left-color:var(--ok-ink); }
+table.ciphers tr.substantial { border-left-color:var(--sub-ink); }
+table.ciphers tr.partial { border-left-color:var(--part-ink); }
+table.ciphers tr.open { border-left-color:var(--open-ink); }
+table.ciphers td.yr { font-family:var(--serif); font-size:20px; font-variant-numeric:tabular-nums; color:var(--muted); white-space:nowrap; }
+table.ciphers td.name { width:22%; }
+table.ciphers td.name a { font-family:var(--serif); font-size:21px; font-style:italic; line-height:1.15; }
+table.ciphers td.name .where { display:block; color:var(--muted); font-size:13px; margin-top:6px; line-height:1.4; }
+table.ciphers td.st { width:12%; }
+table.ciphers td.st .note { display:block; font-size:12.5px; color:var(--muted); margin-top:6px; }
+table.ciphers td.sum { line-height:1.5; }
+table.ciphers td.links { width:16%; font-size:14px; }
+.pill { display:inline-block; font-size:11px; font-weight:600; letter-spacing:.07em; text-transform:uppercase; padding:3px 9px; border-radius:999px; white-space:nowrap; }
+.pill.solved { background:var(--ok-bg); color:var(--ok-ink); }
+.pill.substantial { background:var(--sub-bg); color:var(--sub-ink); }
+.pill.partial { background:var(--part-bg); color:var(--part-ink); }
+.pill.open { background:var(--open-bg); color:var(--open-ink); }
+:root { --ok-bg:#d9e8d2; --ok-ink:#2f5d2a; --sub-bg:#d5e5e8; --sub-ink:#245560; --part-bg:#f2e1bf; --part-ink:#7d5410; --open-bg:#e2ddd2; --open-ink:#6c655a; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --ok-bg:#24361f; --ok-ink:#a3d297; --sub-bg:#1d3236; --sub-ink:#90c6d0; --part-bg:#3b2f17; --part-ink:#e6c07a; --open-bg:#2c2924; --open-ink:#a69e90; } }
+:root[data-theme="dark"] { --ok-bg:#24361f; --ok-ink:#a3d297; --sub-bg:#1d3236; --sub-ink:#90c6d0; --part-bg:#3b2f17; --part-ink:#e6c07a; --open-bg:#2c2924; --open-ink:#a69e90; }
+@media screen and (max-width: 900px) {
+  table.ciphers thead { display:none; }
+  table.ciphers, table.ciphers tbody, table.ciphers tr, table.ciphers td { display:block; width:auto; }
+  table.ciphers tr { padding:14px 0 14px 14px; border-bottom:1px solid var(--rule); }
+  table.ciphers td { border:0; padding:4px 0; }
+  table.ciphers td.name, table.ciphers td.st, table.ciphers td.links { width:auto; }
+  table.ciphers td.st .note { display:inline; margin:0 0 0 8px; }
+  table.ciphers td.yr { font-size:15px; }
+}
 .more { max-width:1400px; margin:0 auto; padding-block:28px; border-bottom:1px solid var(--rule); }
 .more h3 { font-size:20px; margin-bottom:8px; }
 .more ul { margin:0; padding-left:18px; max-width:90ch; }
@@ -160,78 +197,88 @@ footer.colophon li { margin-bottom:4px; }
   <p class="standfirst">Attempts on historical ciphers that are short, context-rich, and listed as unsolved. Started after Vals AI reported Claude Fable 5.1 reading Thomas Urquhart's Cyphral Distich; the question was whether the same approach, an agent plus a person checking its work, gets anywhere on the rest of the list.</p>
 </header>
 
-<div class="entries">
-  <div class="entry">
-    <h2><a href="ferdinand-reading.html">Ferdinand correspondence</a></h2>
-    <p class="where">Stuttgart / Brussels / Vienna, 28 October 1634, 16 November 1635 and 22 February 1640</p>
-    <p class="status">Substantial readings · 1634 has unresolved passages</p>
-    <p>A French Rhine expedition, winter quarters at Trier, and recruitment in Westphalia with a request for 100,000 florins. The separate 1634 cipher has six unresolved spans and three conjectural readings; its literal output and editorial changes remain explicit. A known Latin draft supplies the 1635 alphabet; a separate syllable supplement extends the reading through both 1640 pages. Uncertain glyphs and copying errors remain explicit.</p>
-    <p class="go"><a href="ferdinand-reading.html">Three letters, their readings and evidence</a></p>
-    <p><a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/ferdinand-1635-1640">Readings, key evidence, transcriptions and decoder</a>.</p>
-  </div>
-  <div class="entry">
-    <h2><a href="ottobon-reading.html">Carta en cifra de Venecia</a></h2>
-    <p class="where">Ottobon to Mocenigo, 27 April 1589 · BNE Mss/994, ff. 34–38</p>
-    <p class="status">Substantially deciphered</p>
-    <p>A Venetian dispatch to the ambassador in France, with the enclosed reply to Henri III's envoy Gondi, who had come to ask for aid and a league. The Republic's surviving key, <em>Ziffra prima</em>, reads all seven cipher pages. Intercepted in Savoy in 1589 and broken then by Philip II's cipher secretary, whose working was lost.</p>
-    <p class="go"><a href="ottobon-reading.html">Page-by-page reading</a></p>
-    <p>Manuscript images, Italian and English side by side. <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/ottobon-1589">Write-up, transcription, key excerpt and decoder</a>.</p>
-  </div>
-  <div class="entry">
-    <h2><a href="forster-reading.html">Les voyes de prudence</a></h2>
-    <p class="where">Sir Richard Forster, 13 May 1644 · AD Val-d'Oise, 68 H 8</p>
-    <p class="status">Deciphered</p>
-    <p>A ciphered passage in a letter by the treasurer of Henrietta Maria's household: counsel that preserving one's life is no failing before God. Mixed letter-and-number homophonic substitution, 207 symbols, three repairs. George Lasry and Norbert Biermann had read it earlier, and Robert Pitt published a key on 14 September 2026.</p>
-    <p class="go"><a href="forster-reading.html">Ciphertext, French and English</a></p>
-    <p>With the 37 cipher words and the key. <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/forster-1644">Write-up, solver and verification</a>.</p>
-  </div>
-  <div class="entry">
-    <h2><a href="vandeperre-reading.html">Dutch cipher in Thurloe</a></h2>
-    <p class="where">Vande Perre to de Bruyne, London, August–November 1653 · Birch, Thurloe State Papers i</p>
-    <p class="status">Deciphered · two fragments open</p>
-    <p>Paulus van de Perre’s twenty ciphered runs, left as numbers in the intercepted English translations: a reasonable disposition to negotiate, the government awaiting orders with impatience, Harrison and the Anabaptists losing influence, the new Council of State “reckoned to our advantage”, ten ships run, want of masts. A 22-letter alphabetical substitution recovered from the printed digits; Birch’s English glosses agree, and they supply five code meanings. In the earliest letter: “a character to open a lockt chest, <em>ick segghe een cijffer</em>”, I mean a cipher.</p>
-    <p class="go"><a href="vandeperre-reading.html">Digits, Dutch and English</a></p>
-    <p><a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/vande-perre-1653">Write-up, transcription, key, verification</a>.</p>
-  </div>
-  <div class="entry">
-    <h2><a href="moray-reading.html">The Regent's postscript</a></h2>
-    <p class="where">Moray to John Wood, Edinburgh, 13 July 1568 · BL Add MS 32091 f. 213v</p>
-    <p class="status">Substantially deciphered</p>
-    <p>Four ciphered lines at the foot of a letter to the Regent's agent at Elizabeth's court, on the day Mary was moved out of Carlisle: her being allowed to stay there, and the sending home of Lord Fleming, "hes done greit evil"; the warning about her return remains partly unread. The conjectural ending “as our friends know” requires an unexplained sign to be omitted. A simple substitution with homophones and word-signs, read from the page image; two person-signs and the last word open.</p>
-    <p class="go"><a href="moray-reading.html">Cipher, Scots and English</a></p>
-    <p><a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/moray-1568">Write-up, transcription, key, verification</a>.</p>
-  </div>
-  <div class="entry">
-    <h2><a href="ridolfi-reading.html">Florentine orators at the Milanese court</a></h2>
-    <p class="where">Alamanni, Vigevano, 26 April 1494 · Ridolfi, Milan, 16, 21 and 30 October 1494 · ASF, Mediceo avanti il Principato LXXIV</p>
-    <p class="status">Partial readings</p>
-    <p>Both men used the embassy cipher whose key sheet survives in the same archive (MAP LXXII 183). In April Alamanni privately urges the Neapolitan stroke against Genoa as the one remedy, done in time and under cover. In October Ridolfi reports the King at Pavia with Duchess Bona, the death of Gian Galeazzo Sforza and Milanese opinion that Florence cannot resist. Ridolfi's three letters have a proposed reading for all but two groups, Alamanni's for 80 of 91 words; more than half of Alamanni's words and two thirds of Ridolfi's are free of a choice between sign values. On a held-out deciphered sibling the key output of a blind transcription agreed with the printed text at 0.838, under the 0.85 bar set beforehand.</p>
-    <p class="go"><a href="alamanni-reading.html">Alamanni, April 1494</a> · <a href="ridolfi-reading.html">Ridolfi, October 1494</a></p>
-    <p><a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/milan-1494">Write-up, key, transcriptions, verifier and review</a>.</p>
-  </div>
-  <div class="entry">
-    <h2><a href="https://github.com/aaymeloglu/unsolved-ciphers/blob/main/mantua-1524/reading.md">Letters to the Marquis of Mantua</a></h2>
-    <p class="where">Suardino, Vitoria?, 26 February 1524 · f. 68r, January 1524 · Capino, Robbio, 8 April 1524 · BAV Vat. lat. 8214, ff. 298r-v, 68r, 198r</p>
-    <p class="status">Partial readings</p>
-    <p>Three leaves sent to Federico II Gonzaga share one homophonic cipher, with no surviving key. In February Suardino reports from the Imperial court on Carpi, granted to Prospero Colonna without investiture. In January a "we" told not to ride out feigns illness, with urine "made to be dyed on purpose with blood", the deception Federico confessed to Castiglione; its covering letter dates it to about 20-25 January. In April Capino writes that the army will fall back "from river to river, and then to Pavia, Cremona and Milan", "as Barbon says". The key was rebuilt from the text alone, and 141 of 227 segments read strictly. On new ciphertext in Vat. lat. 8211, transcribed blind from a poor microfilm, the frozen key read 30% of segments against 11% by chance, under the 40% bar set beforehand.</p>
-    <p class="go"><a href="https://github.com/aaymeloglu/unsolved-ciphers/blob/main/mantua-1524/reading.md">Italian and English, leaf by leaf</a></p>
-    <p><a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/mantua-1524">Write-up, key, transcriptions, verifier, held-out test and review</a>.</p>
-  </div>
-  <div class="entry">
-    <h2><a href="starhemberg-reading.html">Chiffre aus Paris</a></h2>
-    <p class="where">Starhemberg, Paris, 23 May 1758 · Manuscript collation</p>
-    <p class="status">Substantially deciphered</p>
-    <p>A complete proposed reading of a substantially deciphered letter about bringing Spain into the Seven Years’ War. The 1752 key identifies Farinelli’s statement to the recipient alongside Wall’s statement to the French ambassador. Photographs support 1,726 manuscript digits; eleven conjectural repair sites and several uncertain words remain explicit.</p>
-    <p class="go"><a href="starhemberg-reading.html">Cipher rows, German and English</a></p>
-    <p>With graded source output, a separate repair ledger and reproducible checks. <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/starhemberg-1758">Write-up, keys, scripts and audit</a>.</p>
-  </div>
-</div>
+<section class="ledger">
+  <p class="legend"><span class="pill solved">Deciphered</span> 2 <span class="pill substantial">Substantially deciphered</span> 4 <span class="pill partial">Partial</span> 2 <span class="pill open">Open</span> 2</p>
+  <table class="ciphers">
+    <thead><tr><th>Year</th><th>Cipher</th><th>Status</th><th>What it says</th><th>Read</th></tr></thead>
+    <tbody>
+      <tr class="solved">
+        <td class="yr">1644</td>
+        <td class="name"><a href="forster-reading.html">Les voyes de prudence</a><span class="where">Sir Richard Forster, 13 May 1644 · AD Val-d'Oise, 68 H 8</span></td>
+        <td class="st"><span class="pill solved">Deciphered</span></td>
+        <td class="sum">A ciphered passage in a letter by the treasurer of Henrietta Maria's household: counsel that preserving one's life is no failing before God. Mixed letter-and-number homophonic substitution, 207 symbols, three repairs. George Lasry and Norbert Biermann had read it earlier, and Robert Pitt published a key on 14 September 2026.</td>
+        <td class="links"><a href="forster-reading.html">Ciphertext, French and English</a> · With the 37 cipher words and the key. <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/forster-1644">Write-up, solver and verification</a>.</td>
+      </tr>
+      <tr class="solved">
+        <td class="yr">1653</td>
+        <td class="name"><a href="vandeperre-reading.html">Dutch cipher in Thurloe</a><span class="where">Vande Perre to de Bruyne, London, August–November 1653 · Birch, Thurloe State Papers i</span></td>
+        <td class="st"><span class="pill solved">Deciphered</span><span class="note">two fragments open</span></td>
+        <td class="sum">Paulus van de Perre’s twenty ciphered runs, left as numbers in the intercepted English translations: a reasonable disposition to negotiate, the government awaiting orders with impatience, Harrison and the Anabaptists losing influence, the new Council of State “reckoned to our advantage”, ten ships run, want of masts. A 22-letter alphabetical substitution recovered from the printed digits; Birch’s English glosses agree, and they supply five code meanings. In the earliest letter: “a character to open a lockt chest, <em>ick segghe een cijffer</em>”, I mean a cipher.</td>
+        <td class="links"><a href="vandeperre-reading.html">Digits, Dutch and English</a> · <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/vande-perre-1653">Write-up, transcription, key, verification</a>.</td>
+      </tr>
+      <tr class="substantial">
+        <td class="yr">1568</td>
+        <td class="name"><a href="moray-reading.html">The Regent's postscript</a><span class="where">Moray to John Wood, Edinburgh, 13 July 1568 · BL Add MS 32091 f. 213v</span></td>
+        <td class="st"><span class="pill substantial">Substantially deciphered</span></td>
+        <td class="sum">Four ciphered lines at the foot of a letter to the Regent's agent at Elizabeth's court, on the day Mary was moved out of Carlisle: her being allowed to stay there, and the sending home of Lord Fleming, "hes done greit evil"; the warning about her return remains partly unread. The conjectural ending “as our friends know” requires an unexplained sign to be omitted. A simple substitution with homophones and word-signs, read from the page image; two person-signs and the last word open.</td>
+        <td class="links"><a href="moray-reading.html">Cipher, Scots and English</a> · <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/moray-1568">Write-up, transcription, key, verification</a>.</td>
+      </tr>
+      <tr class="substantial">
+        <td class="yr">1589</td>
+        <td class="name"><a href="ottobon-reading.html">Carta en cifra de Venecia</a><span class="where">Ottobon to Mocenigo, 27 April 1589 · BNE Mss/994, ff. 34–38</span></td>
+        <td class="st"><span class="pill substantial">Substantially deciphered</span></td>
+        <td class="sum">A Venetian dispatch to the ambassador in France, with the enclosed reply to Henri III's envoy Gondi, who had come to ask for aid and a league. The Republic's surviving key, <em>Ziffra prima</em>, reads all seven cipher pages. Intercepted in Savoy in 1589 and broken then by Philip II's cipher secretary, whose working was lost.</td>
+        <td class="links"><a href="ottobon-reading.html">Page-by-page reading</a> · Manuscript images, Italian and English side by side. <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/ottobon-1589">Write-up, transcription, key excerpt and decoder</a>.</td>
+      </tr>
+      <tr class="substantial">
+        <td class="yr">1634</td>
+        <td class="name"><a href="ferdinand-reading.html">Ferdinand correspondence</a><span class="where">Stuttgart / Brussels / Vienna, 28 October 1634, 16 November 1635 and 22 February 1640</span></td>
+        <td class="st"><span class="pill substantial">Substantially deciphered</span><span class="note">1634 has unresolved passages</span></td>
+        <td class="sum">A French Rhine expedition, winter quarters at Trier, and recruitment in Westphalia with a request for 100,000 florins. The separate 1634 cipher has six unresolved spans and three conjectural readings; its literal output and editorial changes remain explicit. A known Latin draft supplies the 1635 alphabet; a separate syllable supplement extends the reading through both 1640 pages. Uncertain glyphs and copying errors remain explicit.</td>
+        <td class="links"><a href="ferdinand-reading.html">Three letters, their readings and evidence</a> · <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/ferdinand-1635-1640">Readings, key evidence, transcriptions and decoder</a>.</td>
+      </tr>
+      <tr class="substantial">
+        <td class="yr">1758</td>
+        <td class="name"><a href="starhemberg-reading.html">Chiffre aus Paris</a><span class="where">Starhemberg, Paris, 23 May 1758 · Manuscript collation</span></td>
+        <td class="st"><span class="pill substantial">Substantially deciphered</span></td>
+        <td class="sum">A complete proposed reading of a substantially deciphered letter about bringing Spain into the Seven Years’ War. The 1752 key identifies Farinelli’s statement to the recipient alongside Wall’s statement to the French ambassador. Photographs support 1,726 manuscript digits; eleven conjectural repair sites and several uncertain words remain explicit.</td>
+        <td class="links"><a href="starhemberg-reading.html">Cipher rows, German and English</a> · With graded source output, a separate repair ledger and reproducible checks. <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/starhemberg-1758">Write-up, keys, scripts and audit</a>.</td>
+      </tr>
+      <tr class="partial">
+        <td class="yr">1494</td>
+        <td class="name"><a href="ridolfi-reading.html">Florentine orators at the Milanese court</a><span class="where">Alamanni, Vigevano, 26 April 1494 · Ridolfi, Milan, 16, 21 and 30 October 1494 · ASF, Mediceo avanti il Principato LXXIV</span></td>
+        <td class="st"><span class="pill partial">Partial</span></td>
+        <td class="sum">Both men used the embassy cipher whose key sheet survives in the same archive (MAP LXXII 183). In April Alamanni privately urges the Neapolitan stroke against Genoa as the one remedy, done in time and under cover. In October Ridolfi reports the King at Pavia with Duchess Bona, the death of Gian Galeazzo Sforza and Milanese opinion that Florence cannot resist. Ridolfi's three letters have a proposed reading for all but two groups, Alamanni's for 80 of 91 words; more than half of Alamanni's words and two thirds of Ridolfi's are free of a choice between sign values. On a held-out deciphered sibling the key output of a blind transcription agreed with the printed text at 0.838, under the 0.85 bar set beforehand.</td>
+        <td class="links"><a href="alamanni-reading.html">Alamanni, April 1494</a> · <a href="ridolfi-reading.html">Ridolfi, October 1494</a> · <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/milan-1494">Write-up, key, transcriptions, verifier and review</a>.</td>
+      </tr>
+      <tr class="partial">
+        <td class="yr">1524</td>
+        <td class="name"><a href="https://github.com/aaymeloglu/unsolved-ciphers/blob/main/mantua-1524/reading.md">Letters to the Marquis of Mantua</a><span class="where">Suardino, Vitoria?, 26 February 1524 · f. 68r, January 1524 · Capino, Robbio, 8 April 1524 · BAV Vat. lat. 8214, ff. 298r-v, 68r, 198r</span></td>
+        <td class="st"><span class="pill partial">Partial</span></td>
+        <td class="sum">Three leaves sent to Federico II Gonzaga share one homophonic cipher, with no surviving key. In February Suardino reports from the Imperial court on Carpi, granted to Prospero Colonna without investiture. In January a "we" told not to ride out feigns illness, with urine "made to be dyed on purpose with blood", the deception Federico confessed to Castiglione; its covering letter dates it to about 20-25 January. In April Capino writes that the army will fall back "from river to river, and then to Pavia, Cremona and Milan", "as Barbon says". The key was rebuilt from the text alone, and 141 of 227 segments read strictly. On new ciphertext in Vat. lat. 8211, transcribed blind from a poor microfilm, the frozen key read 30% of segments against 11% by chance, under the 40% bar set beforehand.</td>
+        <td class="links"><a href="https://github.com/aaymeloglu/unsolved-ciphers/blob/main/mantua-1524/reading.md">Italian and English, leaf by leaf</a> · <a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/mantua-1524">Write-up, key, transcriptions, verifier, held-out test and review</a>.</td>
+      </tr>
+      <tr class="open">
+        <td class="yr">1646</td>
+        <td class="name"><a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/royalist-1646">Intercepted royalist letters</a><span class="where">May 1646 · BL Add MS 72438 ff. 9-10</span></td>
+        <td class="st"><span class="pill open">Open</span><span class="note">about 45 values fixed</span></td>
+        <td class="sum">The cipher is identified as key no. 129 of Lord Digby's captured cabinet; about 45 values are fixed and the text is not yet read.</td>
+        <td class="links"><a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/royalist-1646">Notes and partial key</a>.</td>
+      </tr>
+      <tr class="open">
+        <td class="yr">1912</td>
+        <td class="name"><a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/burgess-1912">The Master of Mysteries</a><span class="where">Gelett Burgess, 1912 · the third hidden message</span></td>
+        <td class="st"><span class="pill open">Open</span></td>
+        <td class="sum">The third hidden message in the book. Not read; the notes list what was tested.</td>
+        <td class="links"><a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/burgess-1912">Notes</a>.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
 
 <div class="more">
   <h3>Also in the repository</h3>
   <ul>
-    <li><a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/royalist-1646">Intercepted royalist letters, May 1646</a> (BL Add MS 72438 ff. 9-10). Open, partial: the cipher is identified as key no. 129 of Lord Digby's captured cabinet and about 45 values are fixed.</li>
-    <li><a href="https://github.com/aaymeloglu/unsolved-ciphers/tree/main/burgess-1912">Gelett Burgess, <em>The Master of Mysteries</em> (1912)</a>, the third hidden message. Open; the notes list what was tested.</li>
     <li><a href="https://github.com/aaymeloglu/unsolved-ciphers/blob/main/SHORTLIST.md">Shortlist</a> of candidates, with per-item status checks.</li>
   </ul>
 </div>
