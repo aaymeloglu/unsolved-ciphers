@@ -1,47 +1,47 @@
 passage	word_no	labels	key_output	reading	tier	grade	note
-090r	1	Ħ9 (A,B: N1 S37)	[Re]	[il Re]	forced	S	zoom shows H with crossbar + 9 = table N10 (Re, 3 glosses); both transcribers wrote N1 S37, so this is my relabel
-090r	2	S28 S54	e(l/d)	el	forced	S	S54 with crossbar and baseline arm = l-form
+090r	1	N10 S46	[Re]	[il Re]	lenient	I	both blind passes wrote N1 S37; the zoom shows H with an extra crossbar + 9, the table's Re sign (N10, 3 glosses). New shape reading, so lenient. On sheet 183 a plain H is the word sign 'voi' (row et·che·per·io·tu·voi = λ·B·δ·2'·E·H)
+090r	2	S28 S54	e(l/d)	el	lenient	M	el/ed both words; the l-form (crossbar, baseline arm) chose by shape
 090r	3	S32 S28	re	Re	strict	C	
-090r	4	S54 S51	(l/d)(i/p)	di	forced	S	S54 barless zigzag below the line = d-form
-090r	5	S74 S32 S60 S59 S47 S51 S45	(f/a)ranc(i/p)a	Francia	forced	S	
-090r	6	S23{S80}	che / p	che	forced	S	zoom: closed double-bowl B (sheet che), not σ
-090r	7	S51 S18 N13{S19} S48 S51	(i/p)i?(u/n)(i/p)	lievi	lenient	M	first sign a 6 with very tall stem, read as the l-form (cf. the l after che on L15); o-with-tail = e (B S19); p = u; 'che lievi' = that he remove
-090r	8	S34{S49} S45 S69	(∅/t)a(l/z/p)	dal	forced	S	first sign barred ʒ with dot = same shape as the d of Domenico (200r); plain b = l (sheet); A read S34 (null), B S49 (t)
+090r	4	S54 S51	(l/d)(i/p)	di	lenient	M	di/li both words; d-form (zigzag below the line)
+090r	5	S74 S32 S60 S59 S47 S51 S45	(f/a)ranc(i/p)a	Francia	lenient	M	values also allow 'arancia'; sense chose
+090r	6	S23{S80}	che	che	forced	S	A S23, B S80 (p); zoom shows the closed double-bowl B. Doc 97: S23 under illegible short words only (after the fact)
+090r	7	S51 S18 S19 S48 S51	(i/p)i(e/o)(u/n)(i/p)	lievi	lenient	M	first sign (a 6 with very tall stem) read as an l-form: value not listed for S51
+090r	8	S34{S49} S45 S69	(∅/t)ap	dal	lenient	M	barred ʒ read d: not a listed value of S34 (null) or S49 (t); plain b read l (sheet), table S69 = p. After the fact: doc 97 gives S34{S49} = d six times
 090r	9	S43 S11 S63 S28 S32 S59 S11	(g/ll)ouerno	governo	forced	S	
-090r	10	S70	[22]	[S. Lodovico]	strict	I	22 = S. Lodovico, 8 glosses in Niccolini
-090r	11	N9{S26}	? / et	et	lenient	M	2/z with long tail: B S26 (et), A new N9; could be a person sign (long-tailed 2) without visible raised letter
-090r	12	S23 S54{S72}	che(l/d)	ch'el	forced	S	same B-shape as word 6; S54 with baseline arm = l-form (B S72)
+090r	10	S70	[S.Lodovico]	[S. Lodovico]	strict	I	22 = S. Lodovico, 8 glosses in Niccolini
+090r	11	N9{S26}	? / et	et	lenient	M	A: new N9 (long-tailed 2), B: S26 (et); could be a person sign without a visible raised letter
+090r	12	S23 S72	chel	ch'el	forced	S	B labels the hook S72 (l), A S54
 090r	13	S32 S28	re	Re	strict	C	clear 'risponde' follows
-090r	14	S37 S16	(∅/r)o	-	unread	M	after clear(?) 'sa'; parallel to the unread group before 'se apto' in B8
+090r	14	S37 S16	(∅/r)o	-	unread	M	after clear(?) 'sa'; doc 97 gives S16 = b once
 090r	15	S81 S28	se	se	strict	C	
-090r	16	S60 N2 S50 S11	a?to	apto	forced	I	N2 (barred b) = p supplied here; same value fits parte (177r) and Ponzo (200r)
-090r	17	S45{N5} S54	a(l/d)	al	lenient	M	S54 zigzag form; al and ad both possible ('apto ad governare')
+090r	16	S60 N2 S50 S11	a?to	apto	lenient	I	N2 (barred b) unlisted; reading supplies p
+090r	17	S45 S54	a(l/d)	al	lenient	M	al/ad both possible
 090r	18	S43 S11 S48 S28 S32 S59 S60 S32 S28	(g/ll)o(u/n)ernare	governare	forced	S	
-090r	19	S54{S72} S38 S51	(l/d)u(i/p)	lui	forced	S	baseline-arm form = l
-090r	20	S75{S43}	per	per	forced	S	δ = per (sheet); B alt S43
-090r	21	S59 S11 S59{S65}	non	non	forced	S	both alternatives = n, but a second shape reading
-090r	22	S81 S28 S59 S55{S61} S11	sen(d/g)o	sendo	forced	S	S-curve: d (Zd) vs g (gf)
-090r	23	S45 S39{S51} S49{S22} N4	a(z/∅/i/p)(t/e)o	apto	lenient	M	6 = p, ʒ = t; parallels words 16 and 30
+090r	19	S72 S38 S51	lu(i/p)	lui	forced	S	B labels the hook S72 (l); A S54 (would also allow 'dui')
+090r	20	S75{S43}	per	per	doubt	M	sheet δ = per, but doc 97 shows this label = ll three times and never per (after the fact); 'per non sendo' unexplained
+090r	21	S59 S11 S59{S65}	non	non	forced	S	both alternatives n; a second shape reading
+090r	22	S81 S28 S59 S55{S61} S11	sendo	sendo	forced	S	S55 = d (sheet Zd); alt S61 gives sengo. Doc 97: S55 = d twice (after the fact)
+090r	23	S45 S51 S49{S22} N4	a(i/p)to	apto	lenient	M	A labels the 6 S39; the long-tailed 3 is S49 (A) / S22 (B); doc 97 gives S49{S22} = e four times, which would make it 'apeo'
 090r	24	S47 S51	c(i/p)	ci	forced	S	preceded by ### (null)
-090r	25	S62 S60 S59{S65} S50 S28 S59 S43{N10b} X(A N10, B N11{S27})	manten(g/ll)[+]	mantenga	forced	M	last sign a blotted cross (+ = a on the sheet) with a raised c; poorly seen. A's N10 here is a cross, not the table's Ħ
-090r	26	S70 (N22)	[22]	[S. Lodovico]	strict	I	then clear 'er(?) dire'
-090r	27	S81 N13{S19} S54{S72} S16	s?(l/d)o	-	unread	M	may be clear script (A, B); 'se lo'? parallel to word 14
-090r	28	S81 N13{S19}	s?	se	doubt	M	parallel to word 15
-090r	29	S60 S51 S49{S22} S76{N4} S37	a(i/p)(t/e)(q/o)	apto	lenient	M	third 'apto' (11 6 ʒ + loop); last loop read o; 9 closing null
-090r	30	N15	[15]	[15]	doubt	I	free-standing 15 in clear text; sheet 15 = S. Lodovico, but Lodovico is the speaker here; unidentified
-104r	1	N1 S62 S81 S10 S28 S32	∅mssser	m[e]sser	lenient	M	one sign too many: o read as an unflagged e-sign (then 'messer') or x+o as the sheet's ω-like m; B read o as S76
+090r	25	S62 S60 S59{S65} S50 S28 S59 S43 S27	manten(g/ll)a	mantenga	forced	M	last sign a blotted cross with a raised c, B's alternative S27 (+ = a on the sheet); poorly seen
+090r	26	S70	[S.Lodovico]	[S. Lodovico]	strict	I	then clear 'er(?) dire'
+090r	27	S81 S19 S54 S16	s(e/o)(l/d)o	-	unread	M	may be clear script; parallel to word 14
+090r	28	S81 S19	s(e/o)	se	doubt	M	se/so; parallel to word 15
+090r	29	S60 S51 S49{S22} S76{N4} S37	a(i/p)tq(∅/r)	apto	lenient	M	final loop read o (B's alternative N4, not S76 = q); long-tailed 3 = e in doc 97
+090r	30	N15	?	[15]	doubt	I	free-standing 15 in clear text; not Lodovico (the speaker); unidentified
+104r	1	N1 S62 S81 S10 S28 S32	mssser	m[e]sser	lenient	M	one sign too many: the o (S81 = s) read as an unflagged e-sign or as part of an ω-like m
 104r	2	S43 S11 S38 S45 S59	(g/ll)ouan	G[i]ovan	forced	S	
-104r	3	S60 S59 S43 S28 S54 S11 S37{S10}	an(g/ll)e(l/d)o∅	Angelo	forced	S	9 closing = null (B: S10 ss)
-104r	4	N8	?	-	unread	M	stem+hook with raised o, then a dot; same sign closes 177r; surname sign, abbreviation or run-end mark
-177r	1	S70 (N22)	[22]	[S. Lodovico]	strict	I	line-initial, after clear 'né'
-177r	2	S36 S60 S48 S28 S32 S61{S38/N5} S18	(h/s)a(u/n)er(g/u)i	havervi	forced	M	short hooked stroke read ı = v (A's alternative); g gives no word
-177r	3	S50 S74 S59 S50 S45	t(f/a)nta	tanta	forced	S	S74 = a (joined 11), the table's single-case value
-177r	4	N2 S45{S19} S32{S37} S49 N13{S19}	?a(r)te	parte	forced	I	N2 = p supplied; second sign a blotted c (a) vs flagged o (e)
-177r	5	S76 S38 S45 S59 S50 S45	quanta	quanta	strict	S	A and B agree; S76 = q (one table case; sheet a = q)
+104r	3	S60 S59 S43 S28 S54 S11 S37{S10}	an(g/ll)e(l/d)o(∅/r)	Angelo	forced	S	9 closing = null (B: S10 ss)
+104r	4	N8	?	-	unread	M	stem+hook with raised o, then a dot; also closes 177r
+177r	1	S70	[S.Lodovico]	[S. Lodovico]	strict	I	line-initial, after clear 'né'
+177r	2	S36 S60 S48 S28 S32 S38 S18	(h/s)a(u/n)erui	havervi	forced	M	sixth sign: A S61 (g) with alternative S38 (ı = u/v), B N5; poorly seen. Doc 97: S36 = h twice (after the fact)
+177r	3	S50 S74 S59 S50 S45	t(f/a)nta	tanta	forced	S	
+177r	4	N2 S45{S19} S32{S37} S49 S19	?arte	parte	lenient	I	N2 unlisted; reading supplies p
+177r	5	S76 S38 S45 S59 S50 S45	quanta	quanta	strict	S	A and B agree; S76 = q one table case; doc 97 q four times (after the fact)
 177r	6	S28	e	e'	strict	C	
-177r	7	S54{S61} S18 S62 N4 S59 S53{S52} N1 S50 S32 S60 S37	(l/d)imon(l/s)∅tra∅	dimonstra	forced	S	ʒ-form = d; L = s; ### inside the word = null; 9 closing = null
+177r	7	S54 S18 S62 N4 S59 S52{S53} N1 S50 S32 S60 S37	(l/d)imonstra(∅/r)	dimonstra	forced	S	### inside the word = null; 9 closing = null
 177r	8	N8{S54}	?	-	unread	M	as 104r word 4; very faint
-200r	1	S74 S32 S60 S50 N13{S19}	(f/a)rat?	frate	forced	S	preceded by 9 ### (null group); the 9 after it is a closing null
-200r	2	S54{N2} S11 S62 S49{S22} S59 S51 S47 N4	(l/d)om(t/e)n(i/p)co	Domenico	forced	S	barred ʒ = d-form; ʒ = e (B S22)
-200r	3	S54 S45	(l/d)a	da	forced	S	ʒ-form = d
-200r	4	N2 S11 S59 S69{S68} S11 S37{S18}	?on(l/z/p)o	Ponzo	lenient	I	Fra Domenico da Ponzo, Franciscan; N2 = p, b = z (sheet); last sign closing null (A) or i (B)
+200r	1	S74 S32 S60 S50 S19	(f/a)rat(e/o)	frate	lenient	M	values also allow 'arato'; preceded by 9 ### (null group); A N13, B S19 (doc 97: N13 = e 7 of 8, after the fact)
+200r	2	S54 S11 S62 S22 S59 S51 S47 N4	(l/d)omen(i/p)co	Domenico	forced	S	B's S22 (3 = e) for A's S49
+200r	3	S54 S45	(l/d)a	da	lenient	M	da/la both words
+200r	4	N2 S11 S59 S69{S68} S11 S37{S18}	?onpo(∅/r)	Ponzo	lenient	I	N2 unlisted; b read z (sheet value, table S69 = p); Fra Domenico da Ponzo

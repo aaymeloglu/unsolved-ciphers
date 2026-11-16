@@ -40,3 +40,6 @@ while the output keeps its full length) a perfect table could not score above ab
 
 ## Result (15 Nov 2026)
 - Agreement 0.527 (first value only 0.482); best of 1,000 shuffles 0.306, mean 0.236. Bar 0.80: **failed**. Per block in heldout97/result-97.txt. Anything after this line is after the fact.
+
+## Note on commit ids (15 Nov 2026)
+Before the branch was first pushed, image crops were removed from its history, which changed the commit ids. The table commit cited above as 699dce6 is now 0f87f37; the file sha256s above are unchanged and are what identifies the inputs.
