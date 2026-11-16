@@ -1,0 +1,34 @@
+# ASF Mediceo avanti il Principato images used (fetched 15 Nov 2026 at the server maximum, 1272 px, from an Italian IP). Not redistributed; fetch with ../fetch_images.py-style requests by image id.
+image_id	label	sha256	bytes	viewer_url
+81313	doc. 6, c. 9 r	d9a98442d896ed22ab9e4a8f86d0e6ad2087a68216c837e4d36827d9fe8735ba	353176	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81313
+81314	doc. 6, c. 9 v	d36f285c58b5bab802366b08eec6b832998a9645ded138cbf30464acea486e7d	341146	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81314
+81379	doc. 21, c. 42 r	6dbd8605b1852bcfb43323ae457bb718788df320431b456c5344144fb21c6d70	395335	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81379
+81380	doc. 21, c. 42 v	f172185fa3f32baa87357ab86c90ac178659156110f317896932d23d48816b37	384273	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81380
+81475	doc. 42, c. 89 r	1d6c9b5ab9de8fc1d6781ab47c7ca744f30c3d2106180084c13c9e8a8f3697c8	335700	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81475
+81476	doc. 42, c. 89 v	6d596d8720c2b31f9e5d950051e04fe7d9c8b74f51ebdc0f6f47a64a817f6990	313241	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81476
+81477	doc. 42, c. 90 r	d62a3bb901e5635f17d65641b8571cf3fe9e6478fdf8b68f4603503cfdb3d09e	268979	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81477
+81478	doc. 42, c. 90 v	075aeac1aceb4be71faab4afa2da9d3367b95772f73444c7911a4a35daba99b4	192186	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81478
+81501	doc. 49, c. 103 r	06eef0017484d2472ee491ea6b70fc69dd54b8a269e71d5781f618413568f39d	369361	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81501
+81502	doc. 49, c. 103 v	6e58dc5976b51fbf2a2ae1a500f2494572555a1cec937a1bad6ab9d453f5a91b	352345	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81502
+81503	doc. 49, c. 104 r	7b57c7fc6f9559693981fb5b14cf4b8381f59cdc2916d68b43b6230b32d4cb33	331287	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81503
+81547	doc. 59, c. 124 r	63ca6ab8c1418d2b7a41a4a30edbaf710ca7eb2565d1bb38f50d50c31e0866af	381292	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81547
+81548	doc. 59, c. 124 v	997465a40c88576b462ae3528c86bcc86eaa5915bf11a5f3c58133bf97110a24	312044	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81548
+81561	doc. 62, c. 133 r	7761e0d0cd0d7b2ec3a8c9ccee21b5a5822170b7ac2e0523c6ed6157cfbb190d	417658	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81561
+81562	doc. 62, c. 133 v	191c4643cc92bebcb7b035a2aec433af1013fe2eebe951cdddcd12e7c37d73f7	382174	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81562
+81593	doc. 72, c. 147 r	f39faff9ab4c7d6cb4aa69116269e1544336573cce974623067613f114c4b61d	366375	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81593
+81594	doc. 72, c. 147 v	c9ce3f2540e7bc54a4ff2991d0d90af9f5cd2ebbf83349872110fe339365347b	321126	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81594
+81645	doc. 81, c. 176 r	071a70c644e28011a750fcd43adea0927186de494f5d24a07fa0f342493b2c27	350861	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81645
+81651	doc. 81, c. 177 r	7fc0e8669f5111d12ac89310e4fa646361cd78991818bc9bdd62091330443d21	176306	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81651
+81691	doc. 90, c. 197 r	104f2823bf7ea673e100e79c983d6492582166cfcc09c439eb9060e540449d09	175269	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81691
+81692	doc. 90, c. 197 v	dfab06b1dc80c0a0be6754a87ed0bb7e71102377df0176eb7bb1e5769f047dfb	138747	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81692
+81693	doc. 90, c. 198 r	c9a5419a353e5d451632d49452f3f44416c62a831db6fdfdd3d07c827ad81861	364532	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81693
+81694	doc. 90, c. 198 v	b874a69828ff4f0c422220a9c02a00dc9eacf39592ef800da5111c168c0bac6e	335954	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81694
+81695	doc. 90, c. 199 r	bffe7d3dad4eb899dea099f94f814a817e459e762df727d62a190205470879e4	343706	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81695
+81696	doc. 90, c. 199 v	ee11f58d3abd7dea67862ff5303da941ce42bc4bbbc7927e5f295c0b0bd901e1	346308	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81696
+81697	doc. 90, c. 200 r	26915f90c4689a8bf3dfd8bd3de1307241dd24cdfa034b3e631baa0716e62361	332274	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81697
+81698	doc. 90, c. 200 v	f625116a120b27541c41c42ad93c1d977d084159505c711d3cd4e26375935991	314571	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81698
+81737	doc. 97, c. 222 r	129351b33bc1730e90743393eb8c76a37be6602a491572694dcfc4e4126c9d9e	305357	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81737
+81738	doc. 97, c. 222 v	c21eff91997855ba95a003b4471ab0fd022d47141aa1605c2c08b2c6463729f1	217484	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81738
+81739	doc. 97, c. 232 r	bf004b9a30dae15d0530223444874d57031bc4b024586abd319efc02fa164a08	135641	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81739
+81740	doc. 97, c. 232 v	f25de43b3a601c57502b539fc45c17d04bac85669074054d01afe034b806483e	132439	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=81740
+79536	LXXII-79536	2f6650f75f7e09967adf4c765c9f7d9114e90a3635e7f43c4e64b5ee57177343	209003	https://archiviodistatofirenze.cultura.gov.it/map/riproduzione/?id=79536
