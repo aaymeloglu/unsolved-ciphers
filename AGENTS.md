@@ -133,6 +133,7 @@ there is a result to report.
 | PARES TLS error | Incomplete certificate chain; curl gets through. The "Ver Imágenes" flag in results lists is unreliable; count pages in the viewer instead. |
 | archive.org `_djvu.txt` 404 on a filename with spaces | The space has to be double-encoded as `%2520`. |
 | A period corpus is garbage | Fraktur OCR (Arneth) is unusable. `clean_ocr` drops lines by language markers; check `describe(lang)` before trusting a model. |
+| Archivio di Stato di Firenze (`archiviodistatofirenze.cultura.gov.it`, `cultura.gov.it`) times out | Some days it answers only Italian IP addresses (13 and 15 Nov 2026), other days anyone (14 Nov). Use an Italian exit: a VPN, or a rootless WireGuard-to-SOCKS proxy (e.g. wireproxy with a WireGuard config from a VPN provider) so only the fetch goes abroad, then `curl --socks5-hostname` or `FETCH_PROXY=socks5h://... python3 milan-1494/fetch_images.py`. Python urllib cannot use SOCKS. Its images are natively 1272 px wide; there is no larger version to find. |
 | `transcribe layout` finds no lines | Photographs with a dark frame or a curled sheet. Try `--crop auto --flatten --slabs 4`; Ferdinand's R1889 needed all three. |
 
 ## Quick start
