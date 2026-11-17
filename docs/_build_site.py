@@ -19,6 +19,7 @@ import re
 from pathlib import Path
 
 from _ferdinand import build as build_ferdinand
+from _lorenzana import build as build_lorenzana
 from _milan1494 import build as build_milan1494
 from _moray import build as build_moray
 from _vandeperre import build as build_vandeperre
@@ -317,10 +318,17 @@ def index():
 </header>
 
 <section class="ledger">
-  <p class="legend"><span class="pill solved">Deciphered</span> 2 <span class="pill substantial">Substantially deciphered</span> 4 <span class="pill partial">Partial</span> 2 <span class="pill open">Open</span> 2</p>
+  <p class="legend"><span class="pill solved">Deciphered</span> 3 <span class="pill substantial">Substantially deciphered</span> 4 <span class="pill partial">Partial</span> 2 <span class="pill open">Open</span> 2</p>
   <table class="ciphers">
     <thead><tr><th>Year</th><th>Cipher</th><th>Status</th><th>What it says</th><th>Read</th></tr></thead>
     <tbody>
+      <tr class="solved">
+        <td class="yr">1432</td>
+        <td class="name"><a href="lorenzana-reading.html">The five castles of the Florentine campaign</a><span class="where">Bernardo de’ Medici to Averardo, Lorenzana, 17 April 1432 · ASF MAP V, c. 208r</span></td>
+        <td class="st"><span class="pill solved">Deciphered</span></td>
+        <td class="sum">Ordered to dismantle five castles, Bernardo questions whether Chianni can be relieved and whether his soldiers are really to plunder the inhabitants. A glossed December letter supplies values for 294 of the 339 cipher signs.</td>
+        <td class="links"><a href="lorenzana-reading.html">Italian, English and cipher signs</a> · <a href="{REPO}/tree/main/lorenzana-1432">Key and verification</a>.</td>
+      </tr>
       <tr class="solved">
         <td class="yr">1644</td>
         <td class="name"><a href="forster-reading.html">Les voyes de prudence</a><span class="where">Sir Richard Forster, 13 May 1644 · AD Val-d'Oise, 68 H 8</span></td>
@@ -425,6 +433,7 @@ if __name__ == "__main__":
     build_ferdinand(ROOT, DOCS, page, CRUMBS, REPO)
     build_moray(ROOT, DOCS, page, CRUMBS, REPO)
     build_vandeperre(ROOT, DOCS, page, CRUMBS, REPO)
+    build_lorenzana(ROOT, DOCS, page, CRUMBS, REPO)
     build_milan1494(ROOT, DOCS, page, CRUMBS, REPO)
     index()
     (DOCS / ".nojekyll").write_text("")
