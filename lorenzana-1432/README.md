@@ -51,7 +51,17 @@ The **9 December 1431** check, doc. 143, uses the twenty December values alone. 
 
 Of the 339 signs, 294 have grade C from the contemporary December gloss and 45 have grade I from five values inferred in the April letter. All 25 labels have a value. The literal output keeps the spelling of each word, including *andasono* with one *s*. The continuous reading regularizes that spelling to *andassono*. The grade string printed by the verifier aligns to each cipher run, with the same word spacing. The reconstruction used manuscript glosses and context. It required no language-model training corpus.
 
-A second Codex model read the April image before consulting the transcription. It confirmed the dateline, signature, reference to the Ten, twenty-five mules and Giovanni del Vinaio. It questioned *tento* on line 5, in the clear text. The edition marks it uncertain. With the keys in hand it then checked the December *Antono* and *cassa* anchors and the cipher spelling *perdendosi andasono a mio refe*. This was a sample of the handwriting. [Corresponding Cyphersolver submission](https://github.com/dbourdeau/cyphersolver/pull/778)
+Counted in cipher words, the letter has 58 (a word split across two lines counts once: *isfa-sciare*, *pietra-chassa*, *ra-chomandare*). All 58 are decoded. Fifty-six give the word sign for sign; two carry a one-letter slip, marked in place as *Lore[n]zano* and *lasci[a]re*. In Cyphersolver's terms the key was recovered from adjacent plaintext: the glossed December letter is in the same filza.
+
+A second Codex model read the April image before consulting the transcription. It confirmed the dateline, signature, reference to the Ten, twenty-five mules and Giovanni del Vinaio. It questioned *tento* on line 5, in the clear text. The edition marks it uncertain. With the keys in hand it then checked the December *Antono* and *cassa* anchors and the cipher spelling *perdendosi andasono a mio refe*. This was a sample of the handwriting. Cyphersolver's integration reviewer (an AI agent, for the maintainers) decoded the twenty cipher stretches with its own decoder from the two key tables, read the letter as sentences and graded the reading A. It did not check the transcription against the images. No person has checked the reading. [Corresponding Cyphersolver submission](https://github.com/dbourdeau/cyphersolver/pull/778)
+
+## Remaining gaps
+
+None of the holes is in cipher.
+
+- Doubtful clear words: *[?credo]* (line 1), *[?tento]* (line 5), *[?iscorio]* (lines 15-16) and *[?Cirioni]* (line 16). The readings fit the sense, but the letter forms do not settle them.
+- Two passages shown as [...] in the reading, where the transcription has *[?scotta]* (line 16) and *[?madasse]* (lines 23-24). Neither gives sense.
+- The *di* on line 18 is read as ordinary script. Read as cipher, its two signs would give *fi*.
 
 ## Reproduction
 
