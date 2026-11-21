@@ -1,6 +1,6 @@
 # kind	sign	value	source	note
 # source: v6 = Brice Dudout's Pandolfini key; 190/191 = fixed by the cipher letter 190 against its clear copy 191
-#         (190-calibration.md); 192 = fixed on this letter by sense.
+#         (190-calibration.md), whose own shape names I matched to mine by description; 192 = fixed on this letter by sense.
 vowel	1	u	v6	superscript figure
 vowel	2	o	v6	superscript; written as a flat tilde in this hand
 vowel	3	i	v6	
@@ -20,7 +20,7 @@ base	y	f	v6
 base	r	s	v6	
 base	t	n	v6	
 base	G	g	v6	
-base	g	z	192	forzati R13, forze V05, amorzare R19
+base	g	z	192	9-like sign with a hooked tail: forteze R04, forzati R13, forze V05, ramorzare R19. In 190/191 the 9 sign is z as well as v (senza, forteze), so this may be a form of 9
 base	S	qu	v6	
 bare	0	c	v6	
 bare	O	o	v6	
@@ -61,7 +61,7 @@ word	F	et	v6
 word	M	non	v6	
 word	D	che	v6	
 word	D^n	con	v6	
-word	D^e	che	192	D with a raised e, twice in V01; value by sense
+word	D^e	come	190/191	D with a small raised letter is come in 190/191 (come fussino terminate, one place); matched by description, V01
 word	α	per	v6	
 word	B	ancora	v6	
 word	R	se	192	se li Svizzeri R03, R11, V06; value by sense
@@ -77,7 +77,7 @@ code	20	Svizzeri	v6
 code	2	papa	v6	
 code	22	lanzichenech	v6?	Dudout's tentative value
 code	26	arciduca	v6	Pandolfini value; here the target of the king’s anger, possibly the people of Tournai instead (README)
-code	15	Vinitiani	192	by context: the rout of 15, news of which upset the plan (La Motta, 7 Oct 1513)
+code	15	Vinitiani	192	by context: the rout of 15 reported by Martelli, Florence's man at Vicenza (Venetian defeat of 7 Oct 1513); in doc. 190 a 15 stands for Rubertet
 number	8	8	192	8 cento lance
 number	10	10	192	
 number	11	11	192	la vostra delli 11

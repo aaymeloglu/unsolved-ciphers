@@ -5,7 +5,7 @@
 R01	Per una poscripta dell' ultima mia de' venti io significai alle Signorie vostre che .4. nel
 R02	distribuire le gvernigione haveva ordinato di mandare in Borgogna monsignor di Borbona con 8 cento lance
 R03	et 10 mila .22. et che se .20. non si movessino da casa, non saria suto maraviglia che inexpecttatamente trovandosi
-R04	la spesa adosso et le ‹fo r t ve›[forze] in pericolo, si fussi fact[o] un ‹pa ss a v ll i›[passaggio?] di ‹co c ta›[costà] da' monti. Se fussi ‹su nn e ss o›[successo]
+R04	la spesa adosso et le forteze in pericolo, si fussi fact[o] un ‹pa ss a v ll i›[passaggio?] di ‹co c ta›[costà] da' monti. Se fussi ‹su nn e ss o›[successo]
 R05	felicemente, non saria suto ancora maraviglia per ‹i n l n ri r i s t ve no› et ‹pa ss a ri› et ‹h a vu n ti› che l' impeto de ‹o c› si
 R06	fussi messo insieme con le spalle de' .15. et che la forza delle ‹?› ‹n ri fa ve re› et di 12 mila .22. si poteva
 R07	pensare [i]n ogni gran factione. Hora, sendo conparsa la vostra delli 11 con la copia della lettera di ‹s›
@@ -13,7 +13,7 @@ R08	Martelli significativa della ropta di .15., a rivolto sottosopra questo dise
 R09	necessario si ponga da parte. Né so quello sien per ‹de li ce r ra›[deliberare] di ‹nu o va›[nuovo]. Per le parole del .4., col quale
 R10	‹?› a lungo parlai, si vede li ha dato questa cosa molestia et ropta qualche disegno; et di ‹? ri a› per fare di
 R11	presente non pare bene resoluto, per[ché] da un canto lo preme la paura de' .20. se venissino in Borgogna, dall' al-
-R12	tro lo sdegno contro a .26. et ‹ve r da qui li m s r lo g› molto iratamente dicendo: se si excusano col dire
+R12	tro lo sdegno contro a .26. et ‹ge r da qui li m s r lo g› molto iratamente dicendo: se si excusano col dire
 R13	‹de et›[d'esser] suti forzati per la paura dello ex[e]rcito anglese, et sendo io loro soprano signore, non hanno hauto
 R14	rigvardo di mettermi el reame in pericolo, né per loro si è tenuto di farmelo perdere. Et mi dixe che ha-
 R15	vevon mandato uno a ‹co ta›[posta] da monsignore a ‹h› excusarsi et per ritrarre qualcosa dell' animo del Re, et che
@@ -24,7 +24,7 @@ R19	Nondima‹?›[nco] el respecto della triegva di Spagna et la stagione del v
 R20	et voltare li animi a riposarsi questo verno; et potria questo romore et demonstratione ancora farsi per assicu-
 R21	rarsi in futuro che qual[che] principe non dessi loro più ricept[o] alli nimici loro.
 R22	Le gente disegnate per andare in gvernigione non sono ancora andate, né son per moversi insino che non ci è
-V01	la partita di .6., la quale non può tardare a venire; ‹per quu› ve‹p tt e› nuova ‹a n› che quella ‹m e s r h›[Maestà si] trovava a ‹ne u to›
+V01	la partita di .6., la quale non può tardare a venire; ‹per quu› ve‹p tt e› nuova ‹a n› come quella ‹m e s r h›[Maestà si] trovava a ‹ne u to›
 V02	et di g[i]à haveva imbarcato e ‹u› lecto et tucti ‹la› arnesi, né ‹ma n o va›[mancava] se non la sua persona, tale c‹o x› ne era ‹a n du to›[andato]
 V03	a Cales et quivi s' era ‹i m o r o to›[imbarcato] con una parte de‹g›[ll]e gente, et un' al‹x›[t]ra parte se n' era imbarcato in
 V04	‹i› n' altro porto di Fian‹x›[d]ra, che vengono et aver dis‹x›[t]ribuito el passag[i]o loro in tre porti per più

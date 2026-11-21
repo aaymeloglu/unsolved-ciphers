@@ -6,29 +6,37 @@ Crops: `images/strips/c190_q_NN.png` (recto line NN), `c190_qv_NN.png` (verso), 
 ## (a) Measured agreement
 
 Protocol. The cipher was transcribed from the image before the clear was aligned (one token rename afterwards,
-`L^-` to `L^.` at r12, a shape split, no value involved). Decoding is mechanical (Dudout's `frozen/decode_v6.py` logic).
+`L^-` to `L^.` at r12, a shape split, no value involved). The transcription was NOT blind to the key: I knew the system
+and used sense to segment and name signs (as Dudout declares for 311). Decoding is mechanical (Dudout's
+`frozen/decode_v6.py` logic; scorer `images/strips/align.py` + `dec190.py`, run from a directory holding both).
 Unit = one sign; a sign agrees if its key value equals its piece of the clear word (u/v folded; Cristianissimo = Maestà = Re
-counted as one referent; "ct" kept as written). Doubtful `{a/b}` signs: "strict" takes the first alternative, "tolerant"
-the best one. Not scored (116 of 1110 signs): struck and stained signs, and signs facing clear words I could not read.
-Corrections were fitted on 190r.03-11 only; 190r.12-190v.06 is held out.
+one referent; the clear's "detto/tutto" scored as the chancery spelling "decto/tucto", so 0 = c counts as a hit).
+Doubtful `{a/b}` signs: "strict" takes the first alternative, "tolerant" the best one.
+Not scored: 116 of 1110 signs = 20 struck/stained/unidentifiable + 96 legible signs facing clear words I could not read
+(56 in the fit lines, 40 held out). Corrections were fitted on 190r.03-11 only; 190r.12-190v.06 is held out.
 
-| set | signs | key_v6 strict | key_v6 tolerant | v6 + fitted corrections, strict | tolerant |
+| set | signs | key_v6 strict | tolerant | v6 + fitted corrections, strict | tolerant |
 |---|---|---|---|---|---|
 | fit lines r03-r11 | 333 | 282 = 84.7% | 287 = 86.2% | 307 = 92.2% | 312 = 93.7% |
-| held out r12-v06, all | 661 | 560 = 84.7% | 580 = 87.7% | 607 = 91.8% | 627 = 94.9% |
-| held out, clear read unaided only | 106 | 86 = 81.1% | 95 = 89.6% | 91 = 85.8% | 100 = 94.3% |
+| held out r12-v06, all scored | 661 | 560 = 84.7% | 580 = 87.7% | 607 = 91.8% | 627 = 94.9% |
+| held out, lower bound (40 legible unscored signs counted as misses) | 701 | 560 = 79.9% | | 607 = 86.6% | |
+| held out, clear words read before any decode | 93 | 74 = 79.6% | 83 = 89.2% | 78 = 83.9% | 87 = 93.5% |
 | held out, + corrections first seen in held-out lines (not a test) | 661 | | | 620 = 93.8% | 640 = 96.8% |
 
-Caveat that matters: only 106 held-out signs face clear words I could read without the decode. The other 555 face
-words I recognised in the clear only once the cipher suggested them, so that 92% is partly circular; it shows the decode
-is coherent Italian that fits the clear's ink, not an independent test. The honest independent figure is the 106-sign row.
+If Γ and π are only this writer's forms of Dudout's bare `r` (= h) and `L` (= p) (see b), the unmodified key scores
+571/661 = 86.4% held out, and the gain from real corrections is about 5 points, not 7.
+
+Caveats that matter. Only 93 held-out signs face clear words in my pre-decode notes, and they are common words
+(Marsilia, amico, non ho voluto andare più avanti, hiermattina mi fu detto da uno amico), which flatters the key. The
+other 568 face words I recognised in the clear only once the cipher suggested them: that 92% is partly circular. It shows
+the decode is coherent Italian that fits the clear's ink, not an independent test.
 Word level (all rows): 287 y, 97 partial, 30 n, 43 unscored.
 
 Fitted corrections (from r03-r11): ƀ = i, ȣ = o, Γ = h, π = p, ʃ# = ss, A = bene, L^r = vostra, L^- = quanto, D^1 = chi,
 bare 4 = Maestà, .64. = S. Severino, r^4 y 9^5 = senza (9^5 = za), bare Z not before 7 = Papa.
 
 What is left wrong after correction is almost all reading, not key: d/G (r for g and back), 2 standing for b
-(bisogna, ubidientia, benefitio), 0 for t in "decto/tucto/facto" (already Dudout's ct), one-sign superscript slips.
+(bisogna, ubidientia, benefitio), one-sign superscript slips.
 
 ## (b) Signs and values differing from, or absent from, key_v6
 
@@ -36,8 +44,8 @@ What is left wrong after correction is almost all reading, not key: d/G (r for g
 |---|---|---|---|---|
 | ƀ (crossed 6) | i | absent (W = i) | r05 mane-gg-I-are, I-n-teramente; r10; r11 facess-I; r14, r19 I-o | sure; W also = i (r08 i-n, r16 lu-i) |
 | ȣ (small open 8) | o | absent (O = o) | r06 su-O; r07 quell-O, mott-O; r08 stann-O; r15 mess-O | sure; O (ɔ) also = o |
-| Γ (gallows) | h | absent (r bare = h) | r06 H-a detto, H-a la cifra; r10/r12 H-onore; r14 H-avendo; r15 H-o | sure; bare r = h not seen (v02 once?) |
-| π | p | absent (L = p; 6+vowel = p) | r04 P-rocedere; r08 P-ratiche; r09 a-P-rir; r14 so-P-rastarvi; r18 P-rimo; v04 P-relati | sure (p before r) |
+| Γ (gallows) | h | absent by name; probably = Dudout's bare `r` (long r) = h, same value | r06 H-a detto, H-a la cifra; r10/r12 H-onore; r14 H-avendo; r15 H-o | sure for the value; naming open (in 307 Dudout writes ha/ho as `r 3`, `r O`) |
+| π | p | absent by name; probably = Dudout's `L` (square) = p (307 `L 7^4` = pre) | r04 P-rocedere; r08 P-ratiche; r09 a-P-rir; r14 so-P-rastarvi; r18 P-rimo; v04 P-relati | sure for the value (always before r); naming open |
 | ʃ# (long s, crossed foot) | ss | absent | r08 po-SS-ono; r11 conferi-SS-i, face-SS-i; r13 fu-SS-ino; r15 me-SS-o; r21 ne-SS-uno; v05 pa-SS-erano | sure |
 | Ø (slashed 0) | t | absent (8, Z = t) | r16 ris-T-rignere, T-ractar | probable (2) |
 | Φ (phi, long descender) | x (or ss) | absent | r12 di-X-e ("mi dixe"); r20 de-Φ-t-ri unread | probable (1) |
@@ -46,10 +54,10 @@ What is left wrong after correction is almost all reading, not key: d/G (r for g
 | 2 + vowel | b as often as c | c (b by sense) | b: r04 su-BI-to, r14 BI-sogna, r18 u-BI-dientia, v01 BE-nefitio; c: cose, costoro, secreti, facessi, magnificentia | confirms polyphony |
 | 9 + vowel | z as well as v | v (9^4 = ze alt.) | r10, r12, v05 sen-ZA (9^5); v01, v03 forte-ZE (9^4) | sure |
 | bare 4 (after "di", "et", "e") | Maestà / Sua Maestà | .4. = cristianissimo; 4 = g | r06 "et [S. M.] mi ha detto"; r08 "pratiche di [..]"; v04 "e [S. M.] mi [ha] detto"; with a point r10, r12 "honore di .4."; r20 "parlero a .4." = clear "al Re"; v02 "di [questa M.]" | sure for the referent (the French king); wording of the clear only partly read |
-| "6 4" (no points) | S. Severino | .64. = santita | r11 "sendo amico di [64]" = clear "amico di S. Severino" | probable; CONTRADICTS v6 |
-| "5 1", "1 5" (no points) | Rubertet (Florimond Robertet) | .51. unresolved in v6 | r18 "opera con 51"; r19 "et 51 mi ha detto"; r15 "messo avanti da 15" = clear "Rubertet" written above a struck word | probable; 15 may be a slip for 51 or a second number |
+| "6 4" (no points) | S. Severino | .64. = santita | r11 "sendo amico di [64]" = clear "amico di S. Severino" | one occurrence, no points, other year: differs from v6, not a refutation (bare 6 + bare 4 = s + Maestà not excluded) |
+| "5 1", "1 5" (no points) | Rubertet (Florimond Robertet) | .51. unresolved in v6 | r18 "opera con 51"; r19 "et 51 mi ha detto"; r15 "messo avanti da 15" = clear "Rubertet" written above a struck word | probable: my pre-decode notes already had "Ruberto.." twice in clear lines 19-20; answers Dudout's open .51.; r15 is clearly written 1-5, r18/r19 5-1 (crop c190_codes_15_51.png) |
 | "9 7" (no superscripts) | ? (name after "lettere di") | absent | r04 "le lettere di [9 7] si dettono subito"; clear word not read | open |
-| A | bene | A = m | r08 "non stanno BENE in man di tanti"; v04 "sarà BENE mandarl[o]" | sure; r07 "A li pare" unread |
+| A | bene | A = m | r08 "non stanno BENE in man di tanti"; v04 "sarà BENE mandarl[o]" | sure for the crossbar capital A; the r07 sign is an arch/triangle, perhaps a different sign (Dudout's Δ), unread |
 | L^r (L with small r) | Vostra | absent | r04, r20 "la Magnificentia [V.]" | sure |
 | L^- (L with long bar) | quanto / quando | absent | r05 "et QUANTO al maneggiare"; r17 "et in QUANTO alla legatione"; r19 "QUANDO haro occasione"; r14 unread | probable |
 | L^. (L/V with dot) | voi | absent | r12 "mi dixe VOI dite el vero" | 1 occurrence |

@@ -1,7 +1,7 @@
 R01 per u na po s c ri p ta de ll u l ti ma mi a de ve n ti i o si g ni fi ca i a l le si g no ri e vostre che #4 ne l
 R02 di s t ri bu i re le g ve r ni gi o ne h a ve va o r di na to di ma n da re i n bo r go g na mo n si g no r di bo r bo na con =8 ce n to la n ce
 R03 et =10 mi la #22 et che se #20 non si mo ve ss i no da ca sa non sa ri a su to ma ra vi g li a che i n e x pe c t ta ta me n te t ro va n do si
-R04 la s pe sa a do ss o et le fo r t ve i n pe ri co lo si fu ss i fa c t u n pa ss a v ll i di co c ta da mo n ti se fu ss i su nn e ss o
+R04 la s pe sa a do ss o et le fo r te ze i n pe ri co lo si fu ss i fa c t u n pa ss a v ll i di co c ta da mo n ti se fu ss i su nn e ss o
 R05 fe li ce me n te non sa ri a su to ancora ma ra vi g li a per i n l n ri r i s t ve no et pa ss a ri et h a vu n ti che li m pe to de o c si
 R06 fu ss i me ss o i n si e me con le s pa ll e de #15 et che la fo r za de ll e ? n ri fa ve re et di =12 mi la #22 si po te va
 R07 pe n sa re n o g ni g ra n fa c ti o ne h o ra se n do con pa r sa la vostra de ll i =11 con la co pi a de ll a le tt e ra di s
@@ -9,7 +9,7 @@ R08 ma r te ll i si g ni fi ca ti va de ll a ro p ta di #15 a ri vo l to so tt o
 R09 ne ce ss a ri o si po n ga da pa r te ne so que ll o si e n per de li ce r ra di nu o va per le pa ro le de l #4 co l qua le
 R10 ? a lu n go pa r la i si ve de li h a da to que s ta co sa mo le s ti a et ro p ta qua l che di se g no et di ? ri a per fa re di
 R11 p re se n te non pa re bene re so lu to per da u n ca n to lo p re me la pa u ra de #20 se ve ni ss i no i n bo r go g na da ll a l
-R12 t ro lo s de g no con t ro a #26 et ve r da qui li m s r lo g mo l to i ra ta me n te di ce n do s e si e x cu sa no co l di re
+R12 t ro lo s de g no con t ro a #26 et ge r da qui li m s r lo g mo l to i ra ta me n te di ce n do s e si e x cu sa no co l di re
 R13 de et su ti fo r za ti per la pa u ra de ll o e x r ci to a n g le se et se n do i o lo ro so p ra no si g no re non h a nn o h a u to
 R14 ri g va r do di me tt e r mi e l re a me i n pe ri co lo ne per lo ro si e te nu to di fa r me lo per de re et mi di x e che h a
 R15 ve vo n ma n da to u no a co ta da mo n si g no re a h e x cu sa r si et per ri t ra rr e qua l co sa de ll a ni mo de l re et che
@@ -20,7 +20,7 @@ R19 non di ma ? e l re s pe c to de ll a t ri e g va di s pa g na et la s ta gi 
 R20 et vo l ta re li a ni mi a ri po sa r si que s to ve r no et po t ri a que s to ro mo re et de mo n s t ra ti o ne ancora fa r si per a ss i cu
 R21 ra r si i n fu tu ro che qua l p ri n ci pe non de ss i lo ro più ri ce p t a ll i ni mi ci lo ro
 R22 le ge n te di se g na te per a n da re i n g ve r ni gi o ne non so no ancora a n da te ne so n per mo ve r si i n si no che non ci e
-V01 la pa r ti ta di #6 la qua le non pu o ta r da re a ve ni re per quu ve p tt e nu o va a n che que ll a m e s r h t ro va va a ne u to
+V01 la pa r ti ta di #6 la qua le non pu o ta r da re a ve ni re per quu ve p tt e nu o va a n come que ll a m e s r h t ro va va a ne u to
 V02 et di ga h a ve va i m ba r ca to e u le c to et tu c ti la a r ne si ne ma n o va se non la su a per so na ta le co x ne e ra a n du to
 V03 a ca le s et qui vi se ra i m o r o to con u na pa r te de g e ge n te et u na l x ra pa r te se ne ra i m ba r ca to i n
 V04 i na l t ro po r to di fi a n x ra che ve n go no et a ve r di s x ri bu i to e l pa ss a g o lo ro i n t re po r ti per più
