@@ -12,3 +12,6 @@ corpora/
 *.pkl
 decode-private/
 milan-1494/images/
+amiens-1513/images/
+amiens-1513/blind/recto/
+amiens-1513/blind/verso/
