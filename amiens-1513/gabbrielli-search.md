@@ -144,3 +144,12 @@ Gabbrielli reconstructions; a 1512 key is unlikely there), Cerioni.
 
 Local files: everything fetched is under `images/gabbrielli/` (index crops `idx2_top.png`,
 `idx2_bot.png`; inventories and the Ilardi guide text under `images/gabbrielli/lit/`).
+
+## Keys 89 and 111, checked 20 November 2026
+
+Fetched with `tools/decode.py`. In each DECODE record of this volume P2 is the key's recto and P1 its verso, and the record number runs ahead of the catalogue name: key 89 is R5777 (R5775 and R5776 hold no images), key 111 is R5799, key 120 is R5807.
+
+- **No. 89, Acciaroli Roberto, 1505-7-10-12** (filze 82, 87, 88, 89, 98, 99, 100, 101, 113). A different, older cipher: its own alphabet and syllabary, a long list of nulls, and a nomenclator of 16 Giov. Paolo, 21 Fiorentini, 22 Veneziani, 26 Faenza (Signore di), 28 Senesi, 30 Re di Spagna, 31 Imperatore, 32 Re di Francia, 33 Re Federigo, 36 Pandolfo Petrucci, 38 Pisa, 40 Piero de' Medici, 41 Consalvo, 42 Pisani, 43 Papa, 51 Orsini, and others up to 91.
+- **No. 111, Acciaioli (de) Roberto, 1511-12** (filze 102-112). A third cipher, of the same family as Gabbrielli's nos. 110 and 119: nomenclator in even numbers, 18 Rubertet, 20 Gran Cancelliere, 22 Giov. Paolo, 30 Prospero Colonna, 40 Marchese, 44 Duca d'Urbino, 48 Duca di Ferrara, 54 Svizzeri, 62 Fiorentini, 64 Veneziani, 68 Gurgensis, 76 Pavia, 78 S. Severino, 84 S. Giorgio, 90 Inghilterra, 92 Spagna, 94 Francia, 96 Imperatore, 98 Papa.
+
+Neither is the cipher of doc. 192, and neither lists 15 or 47. The numbers 15, 26 and 47 of the 1513 letter stay unidentified.
