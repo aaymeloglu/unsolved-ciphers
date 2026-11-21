@@ -30,7 +30,7 @@ def key_sources():
 
 
 def key_source(token, src):
-    """Weakest source among the key rows used to read this token: v6, then 190/191, then 192."""
+    """Weakest source among the key rows used to read this token: G120, v6, 190/191, then 192."""
     if token.startswith("{"):
         inner, _, suffix = token[1:].partition("}")
         token = inner.split("/")[0] + suffix
@@ -45,7 +45,7 @@ def key_source(token, src):
     else:
         used = [src.get(("bare", token), "192")]
     used = ["v6" if u.startswith("v6") else u for u in used]
-    return max(used, key=["v6", "190/191", "192"].index)
+    return max(used, key=["G120", "v6", "190/191", "192"].index)
 
 
 def changed_since_first_reading():
@@ -128,7 +128,7 @@ def main():
     if bad:
         raise SystemExit(f"{bad} rows of 192-reading.txt do not follow from the transcription")
     src, flags = key_sources(), read_flags()
-    counts = {"tokens": 0, "read": 0, "read_key_dudout": 0, "read_key_pair": 0, "read_key_this_letter": 0, "read_alt": 0,
+    counts = {"tokens": 0, "read": 0, "read_key_gabbrielli": 0, "read_key_dudout": 0, "read_key_pair": 0, "read_key_this_letter": 0, "read_alt": 0,
               "read_repair": 0, "unread": 0, "struck": 0}
     for label, dec in decoded:
         for (token, v, status), ok in zip(dec, flags[label]):
@@ -140,7 +140,7 @@ def main():
             else:
                 counts["read"] += 1
                 if status == "key":
-                    counts[{"v6": "read_key_dudout", "190/191": "read_key_pair", "192": "read_key_this_letter"}[key_source(token, src)]] += 1
+                    counts[{"G120": "read_key_gabbrielli", "v6": "read_key_dudout", "190/191": "read_key_pair", "192": "read_key_this_letter"}[key_source(token, src)]] += 1
                 else:
                     counts["read_" + status] += 1
     counts["changed_since_first_reading"] = changed_since_first_reading()
@@ -152,7 +152,7 @@ def main():
     elif text != (HERE / "counts.json").read_text():
         raise SystemExit("counts.json is stale: rerun verify.py --write")
     print(f"doc. 192: {signs} signs, {counts['read']} read ({counts['read_share']:.1%}): "
-          f"{counts['read_key_dudout']} by Dudout's values, {counts['read_key_pair']} by values from the 190/191 pair, "
+          f"{counts['read_key_gabbrielli']} by Gabbrielli's key 120, {counts['read_key_dudout']} by Dudout's values, {counts['read_key_pair']} by values from the 190/191 pair, "
           f"{counts['read_key_this_letter']} by values fixed on this letter, "
           f"{counts['read_alt']} at a doubtful sign, {counts['read_repair']} repaired; {counts['unread']} unread; "
           f"{counts['struck']} struck; {counts['changed_since_first_reading']} signs changed since the first reading")

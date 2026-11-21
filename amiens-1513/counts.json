@@ -1,13 +1,14 @@
 {
  "tokens": 1894,
- "read": 1716,
- "read_key_dudout": 1416,
- "read_key_pair": 136,
- "read_key_this_letter": 127,
+ "read": 1722,
+ "read_key_gabbrielli": 1582,
+ "read_key_dudout": 2,
+ "read_key_pair": 48,
+ "read_key_this_letter": 52,
  "read_alt": 14,
- "read_repair": 23,
- "unread": 174,
+ "read_repair": 24,
+ "unread": 168,
  "struck": 4,
  "changed_since_first_reading": 195,
- "read_share": 0.908
+ "read_share": 0.911
 }
