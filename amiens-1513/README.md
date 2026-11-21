@@ -35,6 +35,7 @@ In the clear closing Acciaiuoli commends himself to the recipients and dates the
 - **Code 22.** The troops counted in thousands. Dudout tentatively reads *lanzichenech*, and Sanudo's report of the same order calls the infantry Landsknechte.
 - ***Monsignore*** in the exchange about excuses is not named.
 - **Word signs** R with a small circle (R10), B with a raised 1 (V15, V16), a large V (V15) and a capital-H-like sign (R6) have no value.
+- **Two circle signs.** The 190/191 pair has a slashed circle for **t** (*ristrignere*, *tractar*) beside a phi with a long descender for **x** (*dixe*). I transcribed both as one barred circle, X, read x. That is why *dis[t]ribuito*, *al[t]ra* and *riscon[t]ro* come out with x before r and are left as glosses. Separating the two shapes on the page would turn those into plain readings and should be part of the second review.
 - **Numerals.** 8, 10, 12, 14 and the 2 and 5 on V6 are read as figures because *cento* or *mila* follows. An unmarked 8 is elsewhere the letter t, and 2 and 5 are elsewhere o and m.
 
 ## How it was read
