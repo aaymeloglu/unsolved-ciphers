@@ -4,19 +4,16 @@ R02	5	2^1	bu	sign 2 read b: distribuire (recurs as distribuito at V04)
 R02	32	2^2	bo	sign 2 read b: Borgogna
 R02	44	2^2	bo	sign 2 read b: Borbona
 R02	46	2^2	bo	sign 2 read b: Borbona
+R02	49	8	=8	figure read as a numeral before cento (Sanudo reports 900 men-at-arms)
+R03	47	9^1	va	superscript looks like 1; trovandosi by sense
 R06	23	{y^1/y^2}	fo	superscript looks like 1; forza by sense
 R07	29	L^r	vostra	same word sign as Signorie vostre; singular by sense (la vostra delli 11)
-R09	26	2^4	be	sign 2 read b: deliberar
 R11	39	2^2	bo	sign 2 read b: Borgogna
 V02	10	2^5	ba	sign 2 read b: imbarcato
-V03	12	2^5	ba	sign 2 read b: imbarcato
-V03	42	2^5	ba	sign 2 read b: imbarcato
 V04	28	2^1	bu	sign 2 read b: distribuito
 V05	38	2^3	bi	sign 2 read b: dubitare
 V06	42	2	=2	figure read as a numeral before mila
 V06	45	5	=5	figure read as a numeral before cento
 V08	20	2^2	bo	sign 2 read b: Borgogna
-V14	2	2^4	be	sign 2 read b: deliberati
 V15	9	2^1	bu	sign 2 read b: buon
-V08	50	y	f	y with no superscript visible; frontiere by sense
-R02	49	8	=8	figure read as a numeral before cento (Sanudo reports 900 men-at-arms)
+V03	42	2^5	ba	sign 2 read b: imbarcato

@@ -1,45 +1,45 @@
 # Word-divided reading of doc. 192, one manuscript line per row. Letters outside brackets are the literal decode
 # (decode.py), so verify.py can check every row. [..] = letters or words supplied by the editor. ‹..› = signs decoded
-# literally but not read as words. .4. etc. = code numbers; plain figures are numerals. A hyphen at a row end joins a
+# literally and not counted as read; a bracket straight after gives the word I take them for. .4. etc. = code numbers; plain figures are numerals. A hyphen at a row end joins a
 # word to the next row. Spelling is the cipher's; only word division, capitals, apostrophes and punctuation are mine.
 R01	Per una poscripta dell' ultima mia de' venti io significai alle Signorie vostre che .4. nel
 R02	distribuire le gvernigione haveva ordinato di mandare in Borgogna monsignor di Borbona con 8 cento lance
 R03	et 10 mila .22. et che se .20. non si movessino da casa, non saria suto maraviglia che inexpecttatamente trovandosi
-R04	la spesa adosso et le forze ‹ve› in pericolo, si fussi fact[o] un passa‹v ll i› di cocta da' monti. Se fussi sunnesso
+R04	la spesa adosso et le ‹fo r t ve›[forze] in pericolo, si fussi fact[o] un ‹pa ss a v ll i›[passaggio?] di ‹co c ta›[costà] da' monti. Se fussi ‹su nn e ss o›[successo]
 R05	felicemente, non saria suto ancora maraviglia per ‹i n l n ri r i s t ve no› et ‹pa ss a ri› et ‹h a vu n ti› che l' impeto de ‹o c› si
 R06	fussi messo insieme con le spalle de' .15. et che la forza delle ‹?› ‹n ri fa ve re› et di 12 mila .22. si poteva
 R07	pensare [i]n ogni gran factione. Hora, sendo conparsa la vostra delli 11 con la copia della lettera di ‹s›
 R08	Martelli significativa della ropta di .15., a rivolto sottosopra questo disegno et pensiero, et in tucto è
-R09	necessario si ponga da parte. Né so quello sien per deliberar di nuovo. Per le parole del .4., col quale
+R09	necessario si ponga da parte. Né so quello sien per ‹de li ce r ra›[deliberare] di ‹nu o va›[nuovo]. Per le parole del .4., col quale
 R10	‹?› a lungo parlai, si vede li ha dato questa cosa molestia et ropta qualche disegno; et di ‹? ri a› per fare di
 R11	presente non pare ‹m› resoluto, per[ché] da un canto lo preme la paura de' .20. se venissino in Borgogna, dall' al-
 R12	tro lo sdegno contro a .26. et ‹ve r da qui li m s r lo g› molto iratamente dicendo: se si excusano col dire
-R13	d' ess[er] suti forzati per la paura dello ex[e]rcito anglese, et sendo io loro soprano signore, non hanno hauto
+R13	‹de et›[d'esser] suti forzati per la paura dello ex[e]rcito anglese, et sendo io loro soprano signore, non hanno hauto
 R14	rigvardo di mettermi el reame in pericolo, né per loro si è tenuto di farmelo perdere. Et mi dixe che ha-
-R15	vevon mandato uno a posta da monsignore a ‹h› excusarsi et per ritrarre qualcosa dell' animo del Re, et che
+R15	vevon mandato uno a ‹co ta›[posta] da monsignore a ‹h› excusarsi et per ritrarre qualcosa dell' animo del Re, et che
 R16	monsignore li aveva risposto che nessuno poteva meglio sapere l' animo di .4. che lor medesimi, e quali erono
 R17	conscii se li havevono facto ing[i]uria o no; et che examinassino le conscientie loro, et trovando non
-R18	lo haver offenso ne sperassino ‹m›; ma trovando haverli facto ing[i]uria, ne expectassino la punitione.
-R19	Nondiman[co] el respecto della triegva di Spagna et la stagione del verno potria amorzare lo sdegno
+R18	lo haver offe‹e›so ne sperassino ‹m›; ma trovando haverli facto ing[i]uria, ne expectassino la punitione.
+R19	Nondima‹?›[nco] el respecto della triegva di Spagna et la stagione del verno potria ramorzare lo sdegno
 R20	et voltare li animi a riposarsi questo verno; et potria questo romore et demonstratione ancora farsi per assicu-
 R21	rarsi in futuro che qual[che] principe non dessi loro più ricept[o] alli nimici loro.
 R22	Le gente disegnate per andare in gvernigione non sono ancora andate, né son per moversi insino che non ci è
-V01	la partita di .6., la quale non può tardare a venire; ‹per quu› ve‹p tt e› nuova ‹a n› che quella M[a]està si trovava a ‹ne u po ?›
-V02	et di g[i]à haveva imbarcato e ‹u› lecto et tucti ‹la› arnesi, né mancava se non la sua persona, tale c‹o x› ne era andato
-V03	a Cales et quivi s' era imbarcato con una parte delle gente, et un' altra parte se n' era imbarcato in
-V04	un altro porto di Fian‹x›ra, che vengono a aver distribuito el passag[i]o loro in tre porti per più
-V05	conmodità et ‹co r ? ? ? le ce r de ce r re cu re› et le forze di SuaMaestà intere, et che non ha da dubitare di
-V06	niente. Et se .20. insultassino di qua a questi tempi, ‹t ro ve re tt a nn e› un riccontro di 2 mila 5 cento
+V01	la partita di .6., la quale non può tardare a venire; ‹per quu› ve‹p tt e› nuova ‹a n› che quella ‹m e s r h›[Maestà si] trovava a ‹ne u to›
+V02	et di g[i]à haveva imbarcato e ‹u› lecto et tucti ‹la› arnesi, né ‹ma n o va›[mancava] se non la sua persona, tale c‹o x› ne era ‹a n du to›[andato]
+V03	a Cales et quivi s' era ‹i m o r o to›[imbarcato] con una parte de‹g›[ll]e gente, et un' al‹x›[t]ra parte se n' era imbarcato in
+V04	‹i› n' altro porto di Fian‹x›[d]ra, che vengono et aver dis‹x›[t]ribuito el passag[i]o loro in tre porti per più
+V05	conmodità et ‹co r ? ? ? le ce r de ce r re cu re› et le forze di SuaMaestà ‹i n tu le›[intere], et che non ha da dubitare di
+V06	niente. Et se .20. insultassino di ‹ma›[qua] a questi tempi, ‹t ro ve re tt a nn o›[troverebbono?] un riscon‹x›[t]ro di 2 mila 5 cento
 V07	lance et 14 mila .22., el quale exercito non è per diminuirsi né licentiarsi, et tucti si metteranno
-V08	‹da s ?› giorni in la in Ciampa‹r›na et Borgogna, e 'l resto delle gente ‹a r ma ri ra m ss a› in su queste fron-
+V08	‹da s ?› giorni in la in Ciampa‹r›[g]na et Borgogna, e 'l resto delle gente ‹a r ma ri ra m ss a› in su queste ‹n›[f]ron-
 V09	tiere. Et ‹g› g[i]à mi dixe ‹s c r ve t ze o ? la co ra me n te› che io lo ‹n h ce ro r et h n ? sa s po i t et si lo o c
 V10	ni mo vo no› per assaltarsi ‹n i ci cu ll e re no a h o r› nimico.
-V11	Ci‹ra co› lo spirituale non si può dirne altro se non che si fa l' ordinato ‹? te ne da l› mandare e prelati a Roma, et non
-V12	passaranno molti giorni dopo Tucti Sancti che partiranno di qua. Et .4. non po[tria] trovarsi meglio di[s]pos-
-V13	to che si ‹t ro vu o v a› conpiacere .2. d' ogni cosa; et SuaMaestà et questi del consiglio et tucti li ‹a l t ro r pi i o ni› de-
-V14	liberati a questo medesimo et d' animo da non li negare cosa nessuna. Et trovandosi questo ‹t ro va g li e g ra-
-V15	n di di di h› in ‹?› buon riposo et ‹di o ? tu r o ma n te›, non sendo segvita la tempesta ‹et po va› che ‹sa m n
-V16	s x ra va› quattro mesi sono, ‹i nn o ru ll a r ga to ? e l ?›, et ridocte le cose in termine che per questo
-V17	verno non sono per alterarsi, pare che Dio monstri la via [a] nostro Signore a pervenire al ‹? ? ? ? ? ? ? ? a›
-V18	quietare la cristianità, a che Dio li conceda gra‹t a›, che di qua credo sia per trovare quella facilità che desi-
+V11	‹?›[Ci]rca lo spirituale non si ‹s o›[può] dirne altro se non che si fa l' ordinato ‹? te ne da l› mandare e prelati a Roma, et non
+V12	credo passino molti giorni dopo Tucti Sancti che partiranno di qua. Et .4. non ‹i o x ro›[potria tro]varsi meglio di[s]pos-
+V13	to che si ‹t ro vu o v a›[truova a] conpiacere .2. d' ogni cosa; et SuaMaestà et questi del consiglio et tucti li ‹a l t ro r pi i o ni› de-
+V14	li‹ce ru›[bera]ti a questo medesimo et d' animo da non li negare cosa nessuna. Et trovandosi questo ‹t ro va g li e g ra-
+V15	t r di di h› in ‹?› buon riposo et ‹di ? ? tu r o ma n te›, non sendo ‹re›[se]gvita la tempesta ‹et po va› che ‹sa m n
+V16	s x ra va› quattro ‹me li›[mesi] sono, ‹i nn o ru ll a r ga to ? e l ?›, et ridocte le cose in termine che per questo
+V17	verno non sono per alterarsi, pare che Dio monstri la via [a] nostro ‹su r no re›[Signore] a pervenire al ‹r o›[suo] fine desiderato di
+V18	quietare la cristianità, a che Dio li conceda gratia, che di qua credo sia per trovare quella facilità che desi-
 V19	dera‹n›.

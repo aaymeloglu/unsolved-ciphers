@@ -12,10 +12,76 @@ import sys
 import unicodedata
 from pathlib import Path
 
-from decode import decode_all, load_key
+import difflib
+
+from decode import decode_all, load_key, load_rows
 
 HERE = Path(__file__).resolve().parent
 KEY = load_key()
+
+
+def key_sources():
+    src = {}
+    for line in (HERE / "key.tsv").read_text().splitlines():
+        if line and not line.startswith("#"):
+            kind, sign, _, source, *_ = line.split("\t")
+            src[(kind, sign)] = source
+    return src
+
+
+def from_dudout(token, src):
+    """True when every key row used to read this token is one of Dudout's (source v6)."""
+    if token.startswith("{"):
+        inner, _, suffix = token[1:].partition("}")
+        token = inner.split("/")[0] + suffix
+    if token.strip(".").isdigit():
+        n = token.strip(".")
+        return src.get(("code", n), src.get(("number", n))) == "v6"
+    if ("word", token) in src:
+        return src[("word", token)] == "v6"
+    if "^" in token:
+        base, sup = token.split("^", 1)
+        return src.get(("base", base)) == "v6" and src.get(("vowel", sup)) == "v6"
+    return src.get(("bare", token)) == "v6"
+
+
+def changed_since_first_reading():
+    first = dict(load_rows("192-first-reading.txt"))
+    now = dict(load_rows("192-transcription.txt"))
+    n = 0
+    for label, tokens in now.items():
+        sm = difflib.SequenceMatcher(a=first[label], b=tokens, autojunk=False)
+        n += sum(max(i2 - i1, j2 - j1) for op, i1, i2, j1, j2 in sm.get_opcodes() if op != "equal")
+    return n
+
+
+def read_flags():
+    """Per line, one flag per token: True when the reading counts the sign as read."""
+    reading = reading_rows()
+    flags = {}
+    open_run = False
+    for label, dec in decode_all():
+        text = re.sub(r"\[[^\]]*\]", "", reading[label])
+        text = re.sub(r"\.(\d+)\.", r"#\1", text)
+        text = re.sub(r"(?<![#\d])(\d+)", r"=\1", text)
+        marks = []
+        for ch in unicodedata.normalize("NFD", text.casefold()):
+            if ch == "‹":
+                open_run = True
+            elif ch == "›":
+                open_run = False
+            elif re.match(r"[a-z0-9?#=]", ch):
+                marks.append(open_run)
+        pos, row = 0, []
+        for token, v, status in dec:
+            if status == "del" or not v:
+                row.append(False)
+                continue
+            n = len(fold(v))
+            row.append(not (any(marks[pos:pos + n]) or status == "open"))
+            pos += n
+        flags[label] = row
+    return flags
 
 
 def fold(s):
@@ -50,43 +116,31 @@ def main():
         raise SystemExit("192-decode.txt is stale: rerun decode.py > 192-decode.txt")
     reading = reading_rows()
     bad = 0
-    open_run = False
-    counts = {"tokens": 0, "read": 0, "read_key": 0, "read_alt": 0, "read_repair": 0, "unread": 0, "struck": 0}
     for label, dec in decoded:
         want = fold("".join(v for _, v, _ in dec))
         got = strip_reading(reading[label])
         if want != got:
             bad += 1
             print(f"MISMATCH {label}\n  decode : {want}\n  reading: {got}")
-            continue
-        # Walk the reading and the tokens together to mark which tokens fall inside ‹..›.
-        text = re.sub(r"\[[^\]]*\]", "", reading[label])
-        text = re.sub(r"\.(\d+)\.", r"#\1", text)
-        text = re.sub(r"(?<![#\d])(\d+)", r"=\1", text)
-        flags = []
-        for ch in unicodedata.normalize("NFD", text.casefold()):
-            if ch == "‹":
-                open_run = True
-            elif ch == "›":
-                open_run = False
-            elif re.match(r"[a-z0-9?#=]", ch):
-                flags.append(open_run)
-        pos = 0
-        for token, v, status in dec:
+    if bad:
+        raise SystemExit(f"{bad} rows of 192-reading.txt do not follow from the transcription")
+    src, flags = key_sources(), read_flags()
+    counts = {"tokens": 0, "read": 0, "read_key_dudout": 0, "read_key_this_letter": 0, "read_alt": 0,
+              "read_repair": 0, "unread": 0, "struck": 0}
+    for label, dec in decoded:
+        for (token, v, status), ok in zip(dec, flags[label]):
             counts["tokens"] += 1
             if status == "del" or not v:
                 counts["struck"] += 1
-                continue
-            n = len(fold(v))
-            unread = any(flags[pos:pos + n]) or status == "open"
-            pos += n
-            if unread:
+            elif not ok:
                 counts["unread"] += 1
             else:
                 counts["read"] += 1
-                counts["read_" + {"key": "key", "alt": "alt", "repair": "repair"}[status]] += 1
-    if bad:
-        raise SystemExit(f"{bad} rows of 192-reading.txt do not follow from the transcription")
+                if status == "key":
+                    counts["read_key_dudout" if from_dudout(token, src) else "read_key_this_letter"] += 1
+                else:
+                    counts["read_" + status] += 1
+    counts["changed_since_first_reading"] = changed_since_first_reading()
     signs = counts["tokens"] - counts["struck"]
     counts["read_share"] = round(counts["read"] / signs, 3)
     text = json.dumps(counts, indent=1) + "\n"
@@ -95,8 +149,9 @@ def main():
     elif text != (HERE / "counts.json").read_text():
         raise SystemExit("counts.json is stale: rerun verify.py --write")
     print(f"doc. 192: {signs} signs, {counts['read']} read ({counts['read_share']:.1%}): "
-          f"{counts['read_key']} by the key as transcribed, {counts['read_alt']} at a doubtful sign, "
-          f"{counts['read_repair']} repaired; {counts['unread']} unread; {counts['struck']} struck")
+          f"{counts['read_key_dudout']} by Dudout's values, {counts['read_key_this_letter']} by values added here, "
+          f"{counts['read_alt']} at a doubtful sign, {counts['read_repair']} repaired; {counts['unread']} unread; "
+          f"{counts['struck']} struck; {counts['changed_since_first_reading']} signs changed since the first reading")
 
 
 if __name__ == "__main__":

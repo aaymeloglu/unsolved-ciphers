@@ -68,7 +68,8 @@ def decode_row(label, tokens, key, repairs):
             out.append((token, "", "del"))
             continue
         if token.startswith("{"):
-            sign, status = token[1:-1].split("/")[0], "alt"
+            inner, _, suffix = token[1:].partition("}")
+            sign, status = inner.split("/")[0] + suffix, "alt"
             if sign == "[del]":
                 out.append((token, "", "alt"))
                 continue

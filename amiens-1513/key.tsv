@@ -44,11 +44,11 @@ bare	Z	t	v6	always before 7 (tr)
 bare	A	m	v6	before p and b: tempesta, Ciampagna, imbarcato
 bare	5	m	v6	
 bare	n	p	192	pi-like sign: poscripta R01, ropta R08, principe R21, prelati V11
-bare	Q	e	v6	beta-like sign
+bare	Q	e	192	beta-like sign: le lettere at the head of doc. 190, where the clear copy 191 has the words. Dudout's e is a barred circle, which here is x
 bare	E	e	192	E-like sign: conscientie R17, è necessario R08
-bare	W	i	v6	
-bare	w	i	192	small box-like i: fussi, venissino
-bare	X	x	192	barred circle: inexpectatamente R03, dixe R14, exercito R13
+bare	W	i	192	tall b-like sign with a flagged top: io, significai, distribuire
+bare	w	i	v6	small box-like sign, Dudout's W: fussi, venissino
+bare	X	x	192	barred circle: inexpecttatamente R03, dixe R14, exercito R13, excusano R12. Hard to tell from Z (t) before 7
 bare	J	ss	192	barred long s: fussi, nessuno, passaggio
 bare	H	ll	v6	v6 writes it L# or 4#
 bare	t#	tt	v6	

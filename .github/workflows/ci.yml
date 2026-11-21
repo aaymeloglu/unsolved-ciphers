@@ -23,6 +23,7 @@ jobs:
       - run: uv run python milan-1494/niccolini-1492/verify.py
       - run: uv run python lorenzana-1432/verify.py --controls
       - run: uv run python amiens-1513/verify.py
+      - run: uv run python amiens-1513/blind_compare.py
       - run: uv run python mantua-1524/verify.py
       - run: uv run python ottobon-1589/decode.py --check
       - run: uv run python forster-1644/verify_solution.py > /dev/null

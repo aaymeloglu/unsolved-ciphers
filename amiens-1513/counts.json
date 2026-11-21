@@ -1,10 +1,12 @@
 {
  "tokens": 1895,
- "read": 1660,
- "read_key": 1627,
- "read_alt": 13,
- "read_repair": 20,
- "unread": 230,
- "struck": 5,
- "read_share": 0.878
+ "read": 1599,
+ "read_key_dudout": 1328,
+ "read_key_this_letter": 247,
+ "read_alt": 7,
+ "read_repair": 17,
+ "unread": 292,
+ "struck": 4,
+ "changed_since_first_reading": 122,
+ "read_share": 0.846
 }
