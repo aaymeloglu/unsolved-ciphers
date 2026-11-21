@@ -1,8 +1,8 @@
 {
- "scored": 1722,
- "strict": 1501,
- "aliased": 1556,
+ "scored": 1730,
+ "strict": 1478,
+ "aliased": 1533,
  "no_blind_sign": 9,
- "strict_share": 0.872,
- "aliased_share": 0.904
+ "strict_share": 0.854,
+ "aliased_share": 0.886
 }

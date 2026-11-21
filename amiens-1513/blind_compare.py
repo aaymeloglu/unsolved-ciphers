@@ -3,8 +3,8 @@
     python3 amiens-1513/blind_compare.py [--write]
 
 A blind reader had the strips and a legend of shape names, and no key. Each blind line is decoded with key.tsv,
-aligned to my line, and every sign I count as read is scored: does the blind sign give the same letters? `strict`
-uses the blind tokens as written. `aliased` also accepts three consistent differences of naming, where the blind
+aligned to my line, and every sign I count as read is scored: does the blind sign, or one of its alternatives, give
+the letters the reading prints at that sign? `strict` uses the blind tokens as written. `aliased` also accepts three consistent differences of naming, where the blind
 readers gave another name to a shape the legend described badly: my bare 6 (a sigma-like s) against their d, G, 0
 or W; my H (ll) against their t#; my Y (closed-loop y) against their 8 or V. Writes blind/agreement.json.
 """
@@ -69,7 +69,7 @@ def main():
 
         def strict(x, y):
             sign = alts(x[0])[0]
-            return bool(({x[1], x[1].lstrip("#=")} | values(x[0])) & values(y))
+            return bool({x[1], x[1].lstrip("#=")} & values(y))
 
         def aliased(x, y):
             base = alts(x[0])[0]

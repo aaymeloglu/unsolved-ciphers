@@ -34,7 +34,7 @@ def key_source(token, src):
     if token.startswith("{"):
         inner, _, suffix = token[1:].partition("}")
         token = inner.split("/")[0] + suffix
-    if token.strip(".").isdigit():
+    if token.strip(".").isdigit() and (token.startswith(".") or len(token) > 1):
         n = token.strip(".")
         used = [src.get(("code", n), src.get(("number", n), "192"))]
     elif ("word", token) in src:
