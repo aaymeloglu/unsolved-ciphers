@@ -151,6 +151,12 @@ that reproduces the reading and exits non-zero if it is stale (`CONVENTIONS.md` 
 the verifier to `.github/workflows/ci.yml`, update the row in `TARGETS.md` and the root
 `README.md`, and record the attempt whatever the outcome, so negatives stay visible.
 
+Every target folder also gets a row on the Pages index in the same pull request: add it to
+`index()` in `docs/_build_site.py`, update the legend counts, and regenerate. This holds
+whatever the outcome. An open or failed attempt gets a row with the `Open` or `Partial` pill and
+a link to its folder; only the separate reading page is reserved for texts that are read.
+`tests/test_site_index.py` fails if a folder has no row.
+
     uv run pytest -q && uv run python docs/_build_site.py
 
 ## House rules

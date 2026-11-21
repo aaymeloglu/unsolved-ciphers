@@ -318,7 +318,7 @@ def index():
 </header>
 
 <section class="ledger">
-  <p class="legend"><span class="pill solved">Deciphered</span> 3 <span class="pill substantial">Substantially deciphered</span> 4 <span class="pill partial">Partial</span> 2 <span class="pill open">Open</span> 2</p>
+  <p class="legend"><span class="pill solved">Deciphered</span> 3 <span class="pill substantial">Substantially deciphered</span> 5 <span class="pill partial">Partial</span> 3 <span class="pill open">Open</span> 2</p>
   <table class="ciphers">
     <thead><tr><th>Year</th><th>Cipher</th><th>Status</th><th>What it says</th><th>Read</th></tr></thead>
     <tbody>
@@ -342,6 +342,13 @@ def index():
         <td class="st"><span class="pill solved">Deciphered</span><span class="note">two fragments open</span></td>
         <td class="sum">Paulus van de Perre’s twenty ciphered runs, left as numbers in the intercepted English translations: a reasonable disposition to negotiate, the government awaiting orders with impatience, Harrison and the Anabaptists losing influence, the new Council of State “reckoned to our advantage”, ten ships run, want of masts. A 22-letter alphabetical substitution recovered from the printed digits; Birch’s English glosses agree, and they supply five code meanings. In the earliest letter: “a character to open a lockt chest, <em>ick segghe een cijffer</em>”, I mean a cipher.</td>
         <td class="links"><a href="vandeperre-reading.html">Digits, Dutch and English</a> · <a href="{REPO}/tree/main/vande-perre-1653">Write-up, transcription, key, verification</a>.</td>
+      </tr>
+      <tr class="substantial">
+        <td class="yr">1513</td>
+        <td class="name"><a href="{REPO}/blob/main/amiens-1513/192-reading.txt">The Florentine ambassador at Amiens</a><span class="where">Roberto Acciaiuoli, Amiens, 23 October 1513 · ASF MAP LXXII, doc. 192</span></td>
+        <td class="st"><span class="pill substantial">Substantially deciphered</span><span class="note">short of the 95% bar</span></td>
+        <td class="sum">Louis XII has ordered Monsieur de Bourbon into Burgundy with lances and Landsknechte. News of a rout overturns a plan Acciaiuoli had been discussing; the king is torn between fear of the Swiss and anger at people who yielded to the English, sends word that he will fight if the Swiss move, and the prelates are to leave for Rome after All Saints. Acciaiuoli’s own key survives as Gabbrielli’s no. 120 and confirms the values first taken from Brice Dudout’s Pandolfini key. 92% of the 1,887 signs are accepted into a continuous reading and about 90% of the words are read with nothing supplied; about 50 words rest on a bracketed supply, about 22 are unread, and codes 15, 26 and 47 are unidentified.</td>
+        <td class="links"><a href="{REPO}/blob/main/amiens-1513/192-reading.txt">Italian reading, line by line</a> · <a href="{REPO}/tree/main/amiens-1513">Write-up, key, transcriptions, verifier and review</a>.</td>
       </tr>
       <tr class="substantial">
         <td class="yr">1568</td>
@@ -370,6 +377,13 @@ def index():
         <td class="st"><span class="pill substantial">Substantially deciphered</span></td>
         <td class="sum">A complete proposed reading of a substantially deciphered letter about bringing Spain into the Seven Years’ War. The 1752 key identifies Farinelli’s statement to the recipient alongside Wall’s statement to the French ambassador. Photographs support 1,726 manuscript digits; eleven conjectural repair sites and several uncertain words remain explicit.</td>
         <td class="links"><a href="starhemberg-reading.html">Cipher rows, German and English</a> · With graded source output, a separate repair ledger and reproducible checks. <a href="{REPO}/tree/main/starhemberg-1758">Write-up, keys, scripts and audit</a>.</td>
+      </tr>
+      <tr class="partial">
+        <td class="yr">1492</td>
+        <td class="name"><a href="{REPO}/blob/main/milan-1494/niccolini-1492/reading.md">Niccolini at Pavia and Vigevano</a><span class="where">Angelo Niccolini to Piero de’ Medici, 3 August 1492 to January 1493 · ASF, Mediceo avanti il Principato LXXIV 42, 49, 81, 90</span></td>
+        <td class="st"><span class="pill partial">Partial</span><span class="note">held-out tests failed</span></td>
+        <td class="sum">Four short cipher passages in the embassy cipher of the 1494 letters, with Niccolini’s own sign table built from his glossed letters. 39 of 46 words have a proposed reading, 8 of them free of any choice between sign values; 4 are unread and 3 doubtful. His glosses give 22 as Lodovico Sforza and 24 as Ascanio, so the envoys’ name list is not the key sheet’s. Two held-out tests set beforehand missed their bars: 0.358 against 0.85 with the sheet key, and 0.527 against 0.80 with his own table.</td>
+        <td class="links"><a href="{REPO}/blob/main/milan-1494/niccolini-1492/reading.md">Italian reading, passage by passage</a> · <a href="{REPO}/tree/main/milan-1494/niccolini-1492">Write-up, sign table, transcriptions, verifier and held-out tests</a>.</td>
       </tr>
       <tr class="partial">
         <td class="yr">1494</td>
