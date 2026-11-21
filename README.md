@@ -8,6 +8,7 @@ Working repo for attempts on historical ciphers that are short, context-rich, an
 
 | Folder | Item | Status |
 |---|---|---|
+| [Amiens 1513](amiens-1513/) | Roberto Acciaiuoli’s dispatch from Amiens, 23 October 1513 (ASF MAP LXXII, doc. 192) | **Partial.** Brice Dudout’s Pandolfini key reads passages about Bourbon’s orders for Burgundy and the English embarkation. Both faces are transcribed. Troop figures and several clauses remain uncertain. |
 | [`lorenzana-1432/`](lorenzana-1432/) | Bernardo de’ Medici to Averardo, 17 April 1432 (ASF MAP V, doc. 196, c. 208r) | **Enciphered passages read, 17 Nov 2026.** Bernardo names five castles to dismantle and asks whether the Ten mean his soldiers to plunder the inhabitants. All 339 signs have values, 294 from a December gloss and 45 inferred from the April letter; all 58 cipher words decode, 56 sign for sign. |
 | [`forster-1644/`](forster-1644/) | Sir Richard Forster's ciphered letter, 13 May 1644 (Karen Britland, *Critical Quarterly* 2013; Tomokiyo's unsolved list) | **Read 14 Sept 2026; not the first reading** (George Lasry and Norbert Biermann earlier, Robert Pitt the same day). Mixed letter-and-number homophonic substitution; plaintext is spiritual counsel to preserve one's life. Three symbols in 207 need repair. Independently re-verified. Not yet checked against the manuscript (AD Val-d'Oise 68 H 8). |
 | `burgess-1912/` | Gelett Burgess, *The Master of Mysteries*, the third hidden message | Open. Simple acrostic families exhausted; notes list what was tested. |

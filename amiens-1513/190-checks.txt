@@ -1,0 +1,7 @@
+# Cipher readings at the opening and in a separate passage on the other face.
+R03 x4 x4 tt h 74 33
+R04 ? 2 t3 3 ? 2 t2 71 z2 83 F x4 t2 83 d3 h t4 x5 55 d t3 y3 z4 y 83 j L r 34 c n 72 z4 34 d1 33 55 73 74 d q4 75 n tt D
+V03 D c z2 q1 2 x4 F 33 75 2 tt tt x4 y2 d 84 q4 F 54 ll tt D q2 z4 tt 33 33 D 55 d x3 tt 32 q4 z2 tt h 84 F j2 q3 75 83 35 q 2 tt
+V04 31 D1 55 t4 w tt 83 32 54 o 82 z2 75 h 75 c q4 Dn 32 83 Q x3 n 74 x3 83 75 z1 M5 53 y5 33 d x3 3 x3 73 t4 Q j1 q4 73 34 o 82 D1
+V05 M1 65 F h 73 h t4 x3 tt t4 72 y5 q5 F 34 q2 d x3 72 55 d d t3 74 d t2 D j 3 2 75 n tt 2 33 32 z2 z2 o 82 73 x2 72 Q q2 y 4 t4 q
+V06 x4 y 83 h 73
