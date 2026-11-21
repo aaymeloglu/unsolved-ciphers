@@ -76,7 +76,6 @@ code	6	Inghilterra	v6
 code	20	Svizzeri	v6	
 code	2	papa	v6	
 code	22	lanzichenech	v6?	Dudout's tentative value
-code	26	arciduca	v6	Pandolfini value; here the target of the king’s anger, possibly the people of Tournai instead (README)
 code	15	Vinitiani	192	by context: the rout of 15 reported by Martelli, Florence's man at Vicenza (Venetian defeat of 7 Oct 1513); in doc. 190 a 15 stands for Rubertet
 number	8	8	192	8 cento lance
 number	10	10	192	
@@ -88,3 +87,5 @@ open	B^1	?	192	B with a raised 1, V15 and V16
 open	V	?	192	V15
 word	V^0	tempo	190/191	lascerò fare al tempo, secondo che mi parrà el tempo (190/191)
 open	K	?	192	capital-H-like sign, R06
+open	G^1	?	192	large G or E with a raised tick, R10, R12, V09: an adverb of time by position
+open	F^5	?	192	F with a small mark above, V05; in 190/191 F with a raised circle is essere

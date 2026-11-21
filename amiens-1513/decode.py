@@ -44,6 +44,8 @@ def value(token, key):
         return "#" + token
     if token in key["number"] and token.isdigit() and len(token) > 1:
         return "=" + token
+    if token in key["open"]:
+        return None
     if token in key["word"]:
         return key["word"][token].replace(" ", "")
     if "^" in token:
