@@ -1,12 +1,13 @@
 {
  "tokens": 1895,
- "read": 1599,
- "read_key_dudout": 1328,
- "read_key_this_letter": 247,
+ "read": 1604,
+ "read_key_dudout": 1332,
+ "read_key_pair": 128,
+ "read_key_this_letter": 118,
  "read_alt": 7,
- "read_repair": 17,
- "unread": 292,
+ "read_repair": 19,
+ "unread": 287,
  "struck": 4,
  "changed_since_first_reading": 122,
- "read_share": 0.846
+ "read_share": 0.848
 }

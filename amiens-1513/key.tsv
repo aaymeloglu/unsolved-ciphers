@@ -1,4 +1,6 @@
 # kind	sign	value	source	note
+# source: v6 = Brice Dudout's Pandolfini key; 190/191 = fixed by the cipher letter 190 against its clear copy 191
+#         (190-calibration.md); 192 = fixed on this letter by sense.
 vowel	1	u	v6	superscript figure
 vowel	2	o	v6	superscript; written as a flat tilde in this hand
 vowel	3	i	v6	
@@ -22,7 +24,7 @@ base	g	z	192	forzati R13, forze V05, amorzare R19
 base	S	qu	v6	
 bare	0	c	v6	
 bare	O	o	v6	
-bare	Y	o	192	closed-loop y: messo R06, Dio V17 and V18, quello R09
+bare	Y	o	190/191	closed-loop y, an open-topped 8: suo, quello, motto, messo (190/191); here messo R06, Dio V17
 bare	2	o	v6	
 bare	3	a	v6	
 bare	h	a	192	tall 3 with ascender; the commonest a in this hand (mia R01, haveva R02)
@@ -43,18 +45,18 @@ bare	8	t	v6
 bare	Z	t	v6	always before 7 (tr)
 bare	A	m	v6	before p and b: tempesta, Ciampagna, imbarcato
 bare	5	m	v6	
-bare	n	p	192	pi-like sign: poscripta R01, ropta R08, principe R21, prelati V11
-bare	Q	e	192	beta-like sign: le lettere at the head of doc. 190, where the clear copy 191 has the words. Dudout's e is a barred circle, which here is x
+bare	n	p	190/191	pi-like sign: procedere, pratiche, prelati (190/191)
+bare	Q	e	190/191	beta-like sign: le lettere, solieri (190/191). Dudout's e is a barred circle, which here is x
 bare	E	e	192	E-like sign: conscientie R17, è necessario R08
-bare	W	i	192	tall b-like sign with a flagged top: io, significai, distribuire
+bare	W	i	190/191	tall b-like sign with a barred or flagged top: maneggiare, interamente, io (190/191)
 bare	w	i	v6	small box-like sign, Dudout's W: fussi, venissino
-bare	X	x	192	barred circle: inexpecttatamente R03, dixe R14, exercito R13, excusano R12. Hard to tell from Z (t) before 7
-bare	J	ss	192	barred long s: fussi, nessuno, passaggio
+bare	X	x	190/191	barred circle: mi dixe (190/191, one place); here inexpecttatamente, exercito, excusano. Hard to tell from Z (t) before 7
+bare	J	ss	190/191	barred long s: possono, fussino, nessuno, passerano (190/191)
 bare	H	ll	v6	v6 writes it L# or 4#
 bare	t#	tt	v6	
 bare	n#	nn	v6	
 bare	r#	rr	v6	
-bare	ff	ff	192	offeso R18
+bare	ff	ff	190/191	officio (190/191); here offeso R18
 word	F	et	v6	
 word	M	non	v6	
 word	D	che	v6	
@@ -65,9 +67,10 @@ word	B	ancora	v6
 word	R	se	192	se li Svizzeri R03, R11, V06; value by sense
 word	qu	più	v6	
 word	T^m	Sua Maestà	v6	
-word	L^r	vostre	192	Signorie vostre R01, la vostra R07
+word	L^r	vostra	190/191	la Magnificentia Vostra (190/191); plural by sense at R01
 word	M^n	non	192	M with a raised n in Nondimanco R19
-word	M^0	nostro	192	Nostro Signore V17; value by sense
+word	M^0	nostro	190/191	benefitio di Nostro Signore (190/191, one place)
+word	D^1	chi	190/191	comunichi, richiamarlo, da chi maneggia (190/191)
 code	4	Cristianissimo	v6	
 code	6	Inghilterra	v6	
 code	20	Svizzeri	v6	
@@ -83,5 +86,5 @@ number	14	14	192
 open	R^0	?	192	word sign, R with a small circle, R10
 open	B^1	?	192	B with a raised 1, V15 and V16
 open	V	?	192	V15
-open	V^0	?	192	V16
+word	V^0	tempo	190/191	lascerò fare al tempo, secondo che mi parrà el tempo (190/191)
 open	K	?	192	capital-H-like sign, R06
