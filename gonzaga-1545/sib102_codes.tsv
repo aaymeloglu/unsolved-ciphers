@@ -1,0 +1,42 @@
+code	value	occurrences	evidence	confidence
+25	null	8	L1 start, before 'io mi despero'; L3 'genti 25 in esser'; L5 'l'armi 25 | in Alemagna'; L6 'per 25 recuperar'; L16 'si caua 25 andara'; L17 inside 'di': 'q 25 x carignano'; L20 'promtissima 25 a questo'; L24 'occupationi 25 io'. Never matches a word of the clear	sure
+24	null	4	L16 'andara 24 a pagar'; L19 'ueder 24 ridotta'; L20 'a questo 24 ma il timor'; L26 last sign of the letter, after 'sforza'. Confirms glyphs.md	sure
+27	null	1	L18 'Carignano 27 oltra di questo'. Confirms glyphs.md	sure
+14	ll	5	L1 p b 14 r 'colle'; L7 p b 14 x 'colli' (clear: con li), a r 14 n 'nella' (clear: ne la); L14 # r 14 n 'quella'; L17 n 14 x 'alli' (clear: degli). Confirms glyphs.md	sure
+16	nn	1	L3 u n h r e n 16 b 'haueranno'. Confirms glyphs.md	sure
+18	rr	1	L8 q x f p b 18 r e 'discorrere'. Confirms glyphs.md. (L4 'terre' is written with 2o, a slip)	sure
+19	ss	16	L2 assai; L3 esser; L4 massi-; L5 andasse, mouesse; L7 impedisse; L8 posso; L10 (uene)sse; L12 necessitati; L14 accadesse, necessitata; L19 possino; L20 promtissima; L21 cessasse (twice); L23 possi. Confirms glyphs.md	sure
+2o	tt	9	L2 h x 2o b h n t y x r 'uittouaglie'; L7 fatto; L9 tutti; L14 tutto; L16 quattrino, tutto; L18 aspettano; L19 ridotta. Also L4 g r 2o r where the clear has 'terre' (slip for 18). Confirms glyphs.md	sure
+1o	dd	1	L5 s e r 1o b 'freddo'. NEW. Written 1 then a ring; distinct from the superscript of L10	probable
+11	ff	2	L9 q x 11 x p h y g n q x 'difficultadi'; L22 h 11 x g x b 'uffitio' (clear: officio). NEW	sure
+12	gg	1	L11 f b 12 x b e a n a q b 'soggiornando'. NEW	probable
+8	bb	4	L6 c b g e r 8 r 'potrebbe'; L9 q b h r e r 8 r 'douerebbe'; L10 'potrebbe'; L15 f n y h n e r 8 r 'saluarebbe'. Confirms the glyphs.md guess (c. 96 L15 'debba'); it is a single digit, not a faded 18	sure
+5	cc	5	L10 f h 5 r q r e 'succeder'; L12 s n 5 x n 'faccia' (clear: facia); L13/14 n 5 | n q r 19 r 'accadesse'; L22 n 5 x . 'accio'; L24 b 5 h c n g x b a x 'occupationi'. NEW. Flat-topped 5, standing alone inside a word	sure
+22	zz	1	L25 q x f p b e f n 22 x 'discorsazzi'. NEW	probable
+3o	che	18	Every 'che' of the clear: L1, L2 (x2), L3, L6, L8 (x2), L9, L11, L13 (x2), L16, L17, L18, L19, L21, L22, L25. Confirms glyphs.md	sure
+4o	quello	2	L8 'meglio di 4o 3o posso' = di quello che; L16 'tutto 4o 3o di presente' = tutto quello che. Confirms glyphs.md	sure
+39	questo	3	L1 'despero di 39 impedimento'; L18 'oltra di 39 il Papa'; L20 'a 39' (clear: a q.o). NEW (unvalued in glyphs.md)	sure
+53	non	11	L6 (x2), L12, L13, L15 (x2), L18, L21, L22, L23 (x2), each against 'non'. Confirms glyphs.md	sure
+64	perche	2	L15 '64 il marchese'; L25 '64 il desiderio'. Confirms glyphs.md	sure
+61	quale / qual	3	L6 'la 61 57 non potrebbe' = la qual cosa; L10 'pace la 61 potrebbe'; L21 'il 61 se cessasse'. NEW	sure
+57	cosa	3	L6 'la 61 57' = la qual cosa; L19 'ridotta la 57 a tal'; L23 'ogni 57 in una giornata'. NEW	sure
+55	ben / bene	2	L4 'te[rr]e 55 prouiste' = terre ben prouiste; L26 'del 55 me ne sforza' = del bene. NEW	sure
+35	V. Ex. (Vostra Eccellenza)	3	L1 'da L9 a 35 colle'; L8 'onde 35 che uede'; L22 'se 35 [66] far'. NEW	sure
+44	S. M.ta (Sua Maesta)	1	L10/11 'succeder a | 44 facilmente'. NEW	probable
+79	Franzesi	1	L3 'tanto tempo a 79 che haueranno' (clear: a fran.si). NEW	probable
+82	Alemagna	1	L6 'in 82 per recuperar' (L5/6 'l'armi 25 | in 82'). NEW	probable
+68	como (come)	1	L14 'necessitata 68 fu quella di prouenza'. NEW	probable
+60	qualche	1	L22 '60 bono uffitio'. NEW	probable
+58	quando	1	L23 'la pace 58 73 non possi' (clear: q.ndo anchor). NEW	probable
+73	anchor (ancora)	1	L23, see 58. NEW (unvalued in glyphs.md; fits c. 96 L12 '39 ho 73 inteso' = questo ho anchor inteso)	probable
+66	puo	1	L22 'se 35 [66] far 60 bono uffitio' = se V. Ex. puo far. Two 6-shapes; the second could be the letter b (6b), but 'c b' (po) would need an open c and the first sign is the flourished 6 of 60/61/64/68. NEW	guess
+3n or 31	io	1	L8 last group: 'discorrere [3 + two minims]' = discorrer io. Elsewhere io is spelled x b (L1, L24). NEW, reading of the second figure unsure	guess
+L	et	12	L2 (x2), L3, L5, L10, L11 (x2), L12, L13, L16, L18 (il Papa L Venetiani), L24. Confirms glyphs.md	sure
+L10	Papa	1	L18 'il L10 L L14 non aspettano' = il Papa et Venetiani. Small raised '1 o', clearly two figures. Confirms glyphs.md	sure
+L14	Venetiani	1	L18, see L10. Confirms glyphs.md	sure
+L9	Imperatore	2	L1 'che da L9 a 35' = che da l'Imp.or a V. Ex.; L5 'se y L9 andasse freddo' = se l'Imp.or. NEW. One small raised 9-like figure (bowl with a tail to the L's foot); it could be read as a cramped 1o, but it is not the Papa group of L18	probable
+L24	Milano	1	L15 'il stato q r L24 64 il marchese' = il stato di Milano perche. Small raised 24. NEW	probable
+L 43	(not on this page)	0	No full-size L followed by full-size digits occurs here; every L + number is the raised form	-
+L43	(not on this page)	0	-	-
+45	(not on this page)	0	Sua S. R.ma of c. 96 does not occur; the second person here is 35	-
+69	(not on this page)	0	'cosi' does not occur in the letter	-

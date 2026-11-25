@@ -1,0 +1,85 @@
+{
+ "label": "A79r",
+ "source": "gonzaga-1545/images/6b71f191_05.jpg",
+ "source_sha256": "f6293d4ffdd5230e7f08f3bd040d6d2541ba1dfaa91986755447ac992178f297",
+ "source_size": [
+  2900,
+  3975
+ ],
+ "processing": {
+  "crop": null,
+  "flatten": null,
+  "rotate": -1.75,
+  "scale": 1.0,
+  "slabs": 1,
+  "order": "crop, flatten, rotate about centre, scale"
+ },
+ "processed_size": [
+  2900,
+  3975
+ ],
+ "lines": [
+  [
+   451,
+   590
+  ],
+  [
+   587,
+   715
+  ],
+  [
+   712,
+   841
+  ],
+  [
+   838,
+   956
+  ],
+  [
+   953,
+   1067
+  ],
+  [
+   1063,
+   1186
+  ],
+  [
+   1182,
+   1308
+  ],
+  [
+   1304,
+   1424
+  ],
+  [
+   1420,
+   1534
+  ],
+  [
+   1531,
+   1653
+  ],
+  [
+   1649,
+   1762
+  ],
+  [
+   1759,
+   1871
+  ],
+  [
+   1868,
+   1990
+  ],
+  [
+   1987,
+   2125
+  ],
+  [
+   2121,
+   2258
+  ]
+ ],
+ "line_rotate": null,
+ "note": "Bands are [top, bottom] in processed coordinates. Edit by hand where the detector is wrong. line_rotate, when present, is each line's extra rotation (degrees) that strips applies about the band's centre."
+}

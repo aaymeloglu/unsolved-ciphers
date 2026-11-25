@@ -1,0 +1,56 @@
+# Sibling record 32883bf0 (sfasc. III cc. 106-110), Ercole Gonzaga to Ferrante, Mantua 10 July 1544.
+# Files as found (NOT as in the task note): _01 covering letter c.106r (autograph, with a short cipher run);
+# _03 + _04 period decipherment (cc.107r, 107v); _07 cipher c.109r (28 lines); _08 cipher c.109v (5 lines);
+# _02 _05 _09 blank versos; _06 verso with a sideways docket; _10 address.
+# Notation as BRIEF.md. Extra conventions used here:
+#   22      two z-shaped signs, same shape as the 2 of 2o/24/25, standing where the clear has "zz" (strozzi)
+#   L10 L25 L2   L with small raised number;  L  bare full-size L
+#   .       a point written by the scribe;  {a/b} doubtful sign, likelier first;  ? unread;  [..] blot/erasure
+# Digit groups and L groups were read by shape; every single-occurrence group and at least one occurrence of each
+# other group was checked at 3x. Letter runs were read at 1.5x with the period clear
+# already known, so letters are NOT a blind reading (g/z/q and c/e were often settled by sense).
+#
+# --- page A: 32883bf0_07.jpg (c.109r), lines A01-A28
+A01 27 q n L25 n 14 x f r x q x y h t y x b 24 r h r g b 3o x y f g e b 22 x r h r a h g b .
+A02 p b a e x f b y h g x b a r q x s n e a b h n z n 19 n L c r e r 19 r e c b p b f b q x f s n 2o b q r y
+A03 p b a g r q r 14 n z x e n a q b y n f x h n e {r/n} t x b a n a q b q h a n y g e b y b . t ? z n 53 f x f n
+A04 73 q b h r L z x c r a f b 3o c b g r 19 r 24 g n y r 3o h x p n q r 19 r f g e n g n t r z n
+A05 q r y L10 24 r h r g b 3o h x f b a b n y p h a r q x 11 x p h y g n x a d h r f g n 57 6[..]
+A06 3o x y L10 53 h h b y r f o b e f n e f r 53 d h r 14 n c n e g r 3o g b 5 n 24 n y c x g x
+A07 t y x n a b f b 2o b c e r g r f g b q r 14 n x h g b q x f p b g x n L 3o x y q r 2o b c x g x
+A08 t y x n a b 53 f x n f b 2o b x y f g e b 22 x y r d h n x p b f r g h 2o r f x
+A09 p b a p b e q n e x n a b 58 y b f g e b 22 x u n h r 19 r x y q r a n e {b} c r e 4o 3o g b 5 n
+A10 24 n y h x 64 53 u n 24 u n {h/z} h g b x y p b a g n a g x q r y c e x z b f o b e f b a r x y
+A11 e r u n e x z r 19 x q r a n e x c r e 39 n 11 n e r L c r e p x b f x n f c r 2o n e x f b y h g x b a r
+A12 3o y x q r a n e x q r 14 n c e x z n 24 z n 19 n f x n a b f o b e f n g x 3o y b f g e b 22 x f x
+A13 p b a g r a g n q x a b h b f c r a q r e y x 24 x a d h r f g n 25 n y g e n c b g e x n 73 r 19
+A14 r e 3o g n e q n 19 r 6o q x s x a 3o f x h r 12 n f r y c b y x a b 25 b 2o r 18 n q b q r p x
+A15 z x y n p n h n 14 x q n y g h e p b 3o h r a t n a b x a 74 c r e s n e b t a x 57 x a f x r
+A16 z r p b a y x d h n y x c r a f n e x n a b q x s n e 6o a b g n o x y x z c e r f n q x d h n
+A17 64 p u x n e b r 3o x y L2 q x d h r f g x 75 53 u n o x f b t a b c r e 78 u n h r a q b a r p b a
+A18 y x h r 5 u x q x c x r z b a g r L q x 78 L d h r 14 x c b p u x 3o p b a q h 19 r h y g x z n
+A19 z r a g r x y f g e b 22 x q b 17 b y n e b 22 n s x a n q b 2o b z x y n 3o g h 2o x f n
+A20 e n 16 b x a 78 c r e y x h r a g x q x 39 q r d h n y x {u/n} {n/u} h r e n y n p h e n x y p b a g r
+A21 q x f n a f r p b a q b L 39 r 59 31 f b x a d h r f g n z n g r e x n L f r c x h f n c r e b y n a r f n
+A22 e n 27 n h x f n g n L c r e g e b h n e q r a n e x y b f g e b 22 x r n a q n g b n e b z n c r e
+A23 n 5 r y r e n e y n 57 c x h 3o c b . y r q x e b 73 h a n y g e n 57 3o t y x c n e r e n
+A24 o h e y n L r 67 h r e n 3o x y e r 24 r e x f b y h g b c r e p b a f x t y x b n f g e b
+A25 y b t x p b q x L10 c n h y b 53 h b y r e p b z o n 2o r e s x a n y c e x z b q n t b f g b
+A26 64 s x a n 4o g r z c b p b 18 r [..] z n y c x n a r g n c r e y h x L 39 53 r o h e y n
+A27 L c r e g n y p n h f n y r c e b h x f x b a x q r y n r 5 r 2o b 3o x y z h a x e r
+A28 y r s e b a g x r e r h n 16 b n 19 n x g n e q r 68 r 14 n q r h r u n h r e x a g r f b
+#
+# --- page B: 32883bf0_08.jpg (c.109v), lines B01-B05
+B01 25 35 53 f x p h e x n y g e x z r a g r q x f g e x a t r e y n 57 q r y h r f p b h b q x {c/e} n h x n
+B02 64 n c r e f h n f x b a r q r y p b a g r f h b s e n g r 14 b r t y x q x 19 r t a n q n a q n e r
+B03 x a s e n a p x n c r e h r q r e f r t y x h r a r 19 r s n 2o b q x o h f p n e d h n y p u r 57
+B04 y n q n h x h r e r 53 u n h r a q b x y c b h r e b u b z b n y g e b n 39 z b a q b 3o d h
+B05 n 2o e b z x y n f p h q x q n x a h r f g x e r 24 27
+#
+# --- page C: 32883bf0_01.jpg (c.106r), cipher run inside the cardinal's autograph covering letter,
+# after "... et quelli in spetie che sono senza X zifra". Autograph forms: his y is a looped 8-like sign,
+# his q and g are both g-shaped. No period decipherment.
+C01 24 y n z o n f p x n g b e n t a r 14 b p u r
+# (in clear:) [e] uenuto qui m'ha
+C02 q r 2o b u n h r e y x q n t r a t r n a t r a g x y u b z
+C03 b q x h x a r t x n 25
