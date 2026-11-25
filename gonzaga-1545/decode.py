@@ -1,6 +1,8 @@
 """Decode the frozen transcriptions with key.tsv.
 
     uv run python gonzaga-1545/decode.py [page ...]        # prints the decode, writes decode/<page>.txt
+                                                           # (reads <page>.C.txt, the third reader's
+                                                           # text, or <page>.A.txt if there is none yet)
     uv run python gonzaga-1545/decode.py --check           # exit 1 if a transcription differs from its frozen hash
 
 Letters go through the reciprocal swap; doubling signs, nulls, word codes and name codes come from
@@ -77,17 +79,18 @@ def main(argv):
         return bad
     os.makedirs(os.path.join(HERE, "decode"), exist_ok=True)
     for page in [a for a in argv if not a.startswith("-")] or PAGES:
-        name = f"{page}.txt"
-        path = os.path.join(HERE, "transcription", name)
-        if not os.path.exists(path):
+        name = next((f"{page}.{p}.txt" for p in ("C", "A")
+                     if os.path.exists(os.path.join(HERE, "transcription", f"{page}.{p}.txt"))), None)
+        if name is None:
             print(f"{page}: no transcription yet")
             continue
+        path = os.path.join(HERE, "transcription", name)
         if name not in fr:
             print(f"{page}: transcription is not frozen (not in FROZEN.sha256); refusing to decode")
             continue
         lines = [ln.rstrip("\n") for ln in open(path, encoding="utf-8") if ln.strip() and not ln.startswith("#")]
         out = [f"{page} L{n:02d}  {decode_line(ln, key)}" for n, ln in enumerate(lines, 1)]
-        open(os.path.join(HERE, "decode", name), "w", encoding="utf-8").write("\n".join(out) + "\n")
+        open(os.path.join(HERE, "decode", f"{page}.txt"), "w", encoding="utf-8").write("\n".join(out) + "\n")
         print("\n".join(out))
     return 0
 

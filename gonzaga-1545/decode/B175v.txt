@@ -1,26 +1,26 @@
-B175v L01  meno [che] deuatiluiproueder{a/e}conspera{a/n}{i/g}adifiniplaprestoconre
-B175v L02  {y/l}pest{a/e}ruincitoe{r/p}econpo{c/s}aperdital [che] [ancora] [V. Ex.] eitaperparentadole
-B175v L03  dualicou [S. S.ta] hasubitoscrittealreess{h/a}ortandoloatira{r/l}
-B175v L04  lamoin [Italia] douepoguadag{a/n}ar{e/i} [et] ing{e/p}ossodandoglissezzainte{a/n}
-B175v L05  tioa [che] sessolefaunbonpiedelui [che] sisco{r/p}pipainsuofauo
-B175v L06  pe [et] sicauaralamascarao{bb/o}lo{ [Imperatore] / [et] }eliafennaesserbisuuo
-B175v L07  dicadoeli [che] piu [non] sirosar [cosi] saluiatidhasclitto [che] pi
-B175v L08  unseluestrofattodaf{p/r}acasialcardi{n/a}aldelabaulmadi [questo] [che]
-B175v L09  hains{a/e}uoiaepaue{n/d}utaco<15>i{p/r}ssionealmarchesu [che] seluestra
-B175v L10  sseduttilif{p/r}uttidecardi{n/a}aliseruitb{p/r}idelre [che] sono
-B175v L11  ael<L22> [et] me{p/r}pesaua [che] poi [che] sappeuola{n/a}imosuouedessedireme
-B175v L12  diar [che] [non] fusset{r/p}attato{d/t}apartialeodesc{p/r}issialmarchesu
-B175v L13  lapratica [che] [io] hauuocolmezzodi [V. Ex.] sopralecouedessosal
-B175v L14  uiatia [che] domharisposto [che] ilsenuestroeraordintoprima [che]
-B175v L15  hauesse{r/p}l{a/e}{m/t}iama [che] farebbe [cosa] [che] misariagrata [et] odlopossafar
-B175v L16  meslioelihoreplicatouscritto [quello] [che] [V. Ex.] {m/<9>}iscrissesopra [questo] pri
-B175v L17  ma [che] partissepainghilterrameparsoauetiplaconprsarla
-B175v L18  [che] satedoparlapdi [questo] aiutibisognadoessosi{g/s}aorillualet
-B175v L19  eatoobligatoa<L54> [et] a [V. Ex.] pperluhitiofattocon [S. M.ta] [che] [non] lopo
-B175v L20  treidiressoscriuealdettomonsigaopringretia{h/n}dolo [et] [io] in
-B175v L21  nomesuoringretiolnippegadoambidoelesig{a/n}orieuostrin
-B175v L22  lustrissi{t/ss}eacontiaouarlabonaoperaincominciata [che] c{e/a}r
-B175v L23  tualgiuditiomiofanno{s/u}epuigioasiga{o/q}r [che] lomerita [quanto] al
-B175v L24  tpomicoaoscahofattoiatedepalcontedellami{r/l}adola
-B175v L25  [quello] [che] [V. Ex.] {m/<9>}hascrittosopralicasis{u/o}iosshamand{a/e}tuadire [che] tanto
-B175v L26  sono{d/<4>}idanni [che] hapatiti [et] lintere{ss/m}i [che] sunoco{r/p}siper
+B175v L01  meno [che] deuatiloiprouederaconsperaazadifiniplaprestoconre
+B175v L02  ypestaruincitoreconpocaperdita [et] [che] [ancora] [V. Ex.] eitaperparentadole
+B175v L03  d{u/o}alicou [S. S.ta] hasubitoscrittealreesshortandoloatirar
+B175v L04  lamoin [Italia] doupoguadagnare [et] ingpossodandoglissezzaintea
+B175v L05  tioae [che] sessolefaunbonpiedelui [che] siscoprirainsuofauo
+B175v L06  pe [et] sicauaralamascara [come] lo [Imperatore] eliafennaesserbisuuao
+B175v L07  dicadoeli [che] piu [non] sirostar [cosi] saluiatidhasclitto [che] pi
+B175v L08  unuluestrofattodafpacasialcardiaaldelagbaulmadi [questo] [che]
+B175v L09  hainsauoiaepauedutaco<15>irssionealmarcheu [che] uluestra
+B175v L10  sseduttilifruttidecardinaliuruitbridelre [che] sono
+B175v L11  ael<L22> [et] meppesaua [che] poi [che] {s/?}{a/u}ppeuolaaimosuouedessedireme
+B175v L12  diar [che] [non] fussetrattatodapartialeodescrissialmarchese
+B175v L13  lapratica [che] [io] hau{e/a}uocolmezzodi [V. Ex.] sopralecoudessosal
+B175v L14  uiatia [che] domharisposto [che] iluenuestroe{p/r}aaordinatop{r/q}ima [che]
+B175v L15  hauesser{l/u}{a/?}miama [che] farebbe [cosa] [che] misariagrata [et] odlopossafar
+B175v L16  meslioglihoreplicato [et] scritto [quello] [che] [V. Ex.] miscrissesopra [questo] pri
+B175v L17  ma [che] partissepainghilterrameparsoau{a/e}rtiplaconpreuarla
+B175v L18  <3>nuntendoparlapdi [questo] aiutibisognandoessosig{a/h}orillualet
+B175v L19  eatoobligatoa<L54> [et] a [V. Ex.] perluhitiofattocon [S. M.ta] [che] [non] lopo
+B175v L20  treidiressoscriuealdettomonsi{u/g}aopringratiahdolo [et] [io] in
+B175v L21  nomesuoringratiolnippegandoambidoelesighorieoostrei{l/n}
+B175v L22  lustrissi{p/ss}{c/e}acontiaouarlabonanoperaincominciata [che] cer
+B175v L23  t{u/o}algiuditiomiofannouepuigioasigaor [che] lomerita{cc/f}{<9>/m}al
+B175v L24  tpomicoaoscahofattoiateadepalcoatedellamiladola
+B175v L25  [quello] [che] [V. Ex.] mhascrittosopralicasisoiosshamandatoadire [che] tanto
+B175v L26  sonodidanni [che] hapatiti [et] linteressi [che] u{a/n}ocopsiper
