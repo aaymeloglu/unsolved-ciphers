@@ -1,0 +1,36 @@
+code	value	occurrences	evidence	confidence
+27	null (opens and closes the cipher; once inside a sentence)	3	A01 "[27] da Venetia" (clear: "Di Ven.a"); A22 "la ne sa-|ra [27] auisata" (clear: "sara auisata"; the 27 stands between the two words); B05 last sign of the cipher, after 24	sure
+24	null	11	A01 "di luglio [24] e uero"; A04 "potesse [24] tale"; A05 "del Papa [24] e uero"; A06 "tocca [24] al piti-"; A10 "[24] a lui", "non ha [24] hauuto"; A12 "prima [24] massa"; A13 "spenderli [24] in questa"; A24 "il re [24] e risoluto"; B05 end "inuestire [24][27]"; C01 opens the autograph run	sure
+25	null (bare, full size; distinct from L25)	4	A13 "in questa [25] altra" (clear: "in quest'altra"); A14 "sel polino [25] otterra"; B01 opens the paragraph "[25] V.Ex. non si curi" (clear has a "/" there); C03 closes the autograph run	sure
+14	ll	10	A01 alli; A03 della; A06 quella; A07 dell(aiuto); A12 della; A15 caualli; A18 quelli; A28 ella; B02 fratello; C01 Agnello	sure
+19	ss	13	A02 massa, esser; A04 potesse, cadesse; A09 hauesse; A11 rimessi; A12 massa; A13 ess-er; A14 tardasse; A18 condusse; A28 assai; B02 dissegna; B03 uenesse	sure
+18	rr	2	A14 otterra; A26 corre	sure
+16	nn	2	A20 sa-ranno; A28 uanno	sure
+2o	tt	14	A02 sodisfatto; A07 sotto, detto; A08 sotto, tutte; A11 aspetta; A14 otterra; A19 otto, tutti; A25 combatter; A27 eccetto; B03 fatto; B05 qu-attro; C02 detto	sure
+11	ff	2	A05 "q x 11 x p h y g n" = difficulta; A11 "n 11 n e r" = affare	sure
+12	dd	1	A14 "h r 12 n" = uedda (clear: "sin che si uedda")	probable
+17	pp	1	A19 "q b 17 b" = doppo (clear: "doppo la rotta")	probable
+5	cc (bare single digit 5; not separable by shape from short s = plain f, told apart by sense)	5	A06 "g b 5 n" tocca; A09 "g b 5 n" tocca; A18 "h r 5 u x" uecchi; A23 "n 5 r y r e n e" accelerar; A27 "r 5 r 2o b" eccetto	sure
+22	zz (two z-shaped signs = the 2 of 2o; possibly single sign 2 = z)	7	strozzi A01 A08 A09 A12 A19 A22 (6x); A19 "e b 22 n" where the clear has "rotta"	sure for zz in Strozzi; the "rotta" case is a misfit
+3o	che	21	A01 A04(2) A05 A06(2) A07 A09 A12(2) A14(2) A15 A17 A18 A19 A23(2) A24 A27 B04; every time "che" in the clear (A13/14 "esser che", A23 "piu che po", "cosa che gli parera")	sure
+4o	quello	2	A09 "per 4o 3o tocca" = "per quello che tocca"; A26 "fin a 4o tempo" = "fin a quello tempo"	sure
+6o	qualche	2	A14 "tardasse 6o di" = "tardassi qualche di"; A16 "di far 6o notabil impresa" = "di far qualche notabile impresa". Spelled out once: B03 d h n y p u r 57 = "qualche cosa"	sure
+53	non	10	A03 non si sa; A06 non uuole, se non; A08 non sia; A10 non ha; A17 non ha bisogno; A25 non uoler; A26 non e burla; B01 non si curi; B04 non hauendo	sure
+64	perche	4	A10 "a lui 64 non ha hauuto"; A17 "64 chiaro e"; A26 "64 fin a quello tempo"; B02 "64 a persuasione"	sure
+39	questo	5	A11 "per 39 affare" = "per questo affari"; A20 "li uenti di 39" = "li xx di questo"; A21 "et 39 e quanto io so" = "et questo e quanto"; A26 "et 39 non e burla" = "et q.o non e Burla"; B04 "a 39 mondo" = "a questo mondo". (questa/questi are spelled out.)	sure
+73	ancora	3	A04 "non si sa 73 doue" = "ancora doue"; A13 "potria 73 esser" = "Potria anchor esser"; A23 "le diro 73 un altra" = "Le diro anchora"	sure
+57	cosa	6	A05 "in questa 57" = "in q.a Cosa"; A15 "ogni 57" = "ogni cosa"; A23 "accelerar la 57", "un altra 57"; B01 "stringer la 57 del uescouo"; B03 "qualche 57"	sure
+58	quando	1	A09 "si concordariano 58 lo strozzi" = "q(ua)ndo lo strozzi"	probable
+59	quanto	1	A21 "et questo e 59 31 so" = "è q(ua)nto io so"	probable
+31	io	1	A21 "59 31 so" = "quanto io so"	probable
+67	pur	1	A24 "burla et e 67 uera" = "et è pur vera"	probable
+68	come	1	A28 "tarde 68 ella deue hauer inteso" = "com'ella deue hauer inteso"; A05 line end "in questa cosa 6[blot]" where the clear has "Cosa come" (second digit under an ink blot)	probable
+74	Italia	1	A15 "che uengano in 74 per far" = "che vengano in Italia per far"	probable
+75	Italiani	1	A17 "di questi 75 non ha bisogno" = "di questi Italiani no ha" ("Italiani" is written above a struck word in the clear)	probable
+78	Franza / Francia	3	A17 "bisogno per 78" = "per francia"; A18 "di piemonte et di 78" = "Et di franza"; A20 "sa-ranno in 78" = "sarano in franza". Spelled out once: B03 x a s e n a p x n = "in francia"	sure
+35	V. Ex. (Vostra Eccellenza)	1	B01 "[25] 35 non si curi altrimente" = "V. Ex. no si curi altrimente"	probable
+L	et (bare, full size)	12	A02 A04 A07 A11 A18(2) A21(2) A22 A24 A26 A27; "Et"/"et" in the clear each time	sure
+L10	Papa (small raised 10 against the L; dotted in A05, underlined in A25)	3	A05 "stratagema del L10" = "dl papa"; A06 "che il L10 non uuole" = "che Il papa no vuole"; A25 "consiglio astrologico di L10 paulo" = "del Papa paulo"	sure
+L25	Venetia (small raised 25, underlined)	1	A01 "[27] da L25 alli sei di luglio" = "Di Ven.a alli vj di luglio"	probable
+L2	Re di Franza (small raised 2, or possibly 7, against the L)	1	A17 "che il L2 di questi Italiani non ha bisogno" = "che Il Re di franza di questi Italiani"; no separate "di Franza" in the cipher. "il re" is spelled out e r in A10-11 and A24	probable (value); digit 2 vs 7 doubtful
+6[..]	? (= 68 come?)	1	A05 line end, see 68	guess

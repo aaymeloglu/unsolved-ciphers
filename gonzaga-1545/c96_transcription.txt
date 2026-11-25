@@ -1,0 +1,47 @@
+# c. 96r (images/8fb56845_07.jpg), cipher of the Rome news of 25 June 1544, transcribed sign by sign.
+# Notation per BRIEF.md: cipher letters as written; digit groups as written (27, 3o, 2o ...); L-codes as L43 (L + superscript);
+# a bare full-size L is written L on its own, and a following full-size digit group is written separately (L 43).
+# {a/b} = doubt, most likely first; ? = unreadable. Spaces separate signs; the scribe leaves almost no word gaps,
+# so a gap mark | is used only where a gap is clearly wider than letter spacing (line 12). Baselines (y px): 600 715 830 935 1040 1145 1255 1370 1485 1595 1700 1810 1940 2050 2155 2280.
+# The page has 16 cipher lines, not 17 (left-margin strip and ink profile both show 16; line 16 is a 9-sign tail).
+# Lines 1-11 (to x~1340 in line 11) are covered by the period clear and were read at 2.5-6x; lines 11 (rest)-16 have no clear
+# and were read at 2.3-3.5x (line 11 rest at 2x): lower confidence, especially line 14.
+01 27 q n e b z n 24 n 14 x h r a g x p x a d h r q x t x h t a b 27 z r 19 r e o n e g u b y b
+02 z r b p n h n y p n a g x c n e g x g e r q x f b a b 27 n 14 n h b y g n q x h x a r t x n
+# 02: the e of "parti" (x~1160) is the accented e that looks like i; the clear decided e (= plain r).
+03 z n a q n g b c r e y n c b f g n q n y L43 s r 18 n e n L y n p n t x b a r q r 14 n a q n g f n
+# 03: s at x~1490 is the short s (plain f, "Ferrara"), not the long f; 18 is figure-8 shaped and could be taken for g.
+# 03: line ends at the margin "...n a q n g f n" = "andatsa"; the clear wants n a q n g n (andata) and "sua" is written again in full at the start of L4 (f h n). The a of -ata is not written; f n is a cramped catchword-like start of "sua". Transcribed as seen.
+04 f h n c r e 4o 3o z x u n q r 2o b p u x y b c b f n c r e r 3o y x L14 u n 16 b s n 2o b
+# 04: c at x~1530 ("po") has the same open shape as the e of L6 x~730; the clear decided c here.
+05 x a g r a q r e n y L10 3o f x n p b a g r a g b q x z n a q n e h a u b z b f h b n c b f g n
+06 n s n e y b {e/c} b x a g r a q r e n c r e g n z r a g r y n a x z b {f/?} h b L y n f h n h y g x z n
+# 06: {e/c} at x~730 ("loro"): open c-shape, no visible accent; the clear decided e. {f/?} at x~1955: only the head and bar survive; the clear ("suo") decided f.
+07 h b y h a g n L 43 c r e q n e z r a q n f b f c r 2o n e L q n q x e r n x z c r e x n y x u n
+# 07: "L 43" is a bare full-size L plus a full-size 43 on the baseline, unlike the superscript L43 of lines 3 and 8; the clear gives "Et S. S.ta".
+08 s n 2o b r y r 2o x b a r q r y p n h n y p n a g x L f x r q n g n h b p r 3o x y L43 q x
+# 08: final "q x" (x~2610-2700) is a q whose head is crossed by a long x stroke with a trailing dot; looks like a 4 with a double bar. The clear ("di") decided q x.
+09 s r 18 n e n y b z n a q n 45 53 c b c n e g x e r x a s x a 3o r t y x 53 f x n e x g b e a n g b
+# 09: the e's at x~600, 2330, 2520 are c-shaped with a small inner hook; plain c at x~1270/1330 has none. The clear decided e. t at x~1960 has an f-like crossbar and a short tail.
+10 L x y e x g b e {a/d} b f h b 53 s n e n 69 c e r f g b 64 f x c r a f n 3o d h {r/n} x f x t a b e x 53
+# 10: {a/d} at x~790: bowl with a tall straight ascender like a true d; the clear ("ritorno") decided a. {r/n} at x~2210: the clear ("quei") decided r (= plain e).
+# 10: "s n e n" reads plain "fara" where the clear has "sara"; transcribed as seen (short s).
+11 f x e x f b y h r e {x/n} 16 b 69 c e r f g b 24 c r e {d/y} n g r q r f x a n s x n 3o u b x a g r
+# 11: {x/n} at x~905: looks like x; "risolueranno" needs n, and the parallel "e n 16 b" in line 12 x~1680-1830 has a clear n. Not decided by the clear (which has "debban risolversi").
+# 11: the 1 of "16" carries a dot like an i (also in 14, line 1). b after 16 has the same body as a 6.
+# 11: the period clear ends with "presto" at x~1340; everything after is uncovered.
+12 f {b/s} | 39 | u b | 73 | x a g r f b 3o {d/y} x L14 q r f x q r e n 16 b t e n a q r z r a g r q x s n e d h r
+# 12: "|" = clear scribal gap (only here are gaps wide enough to mark; elsewhere the scribe runs words together and gaps of 30-40 px are not
+#     distinguishable from ordinary letter spacing). {d/y} at x~1230 has a straight vertical ascender with a heavy top (d form) where "li" (y)
+#     would be expected before L14; transcribed by shape. t at x~1880 is the cross-form t (no descender). z at x~2115 has the 9-tail.
+#     d at x~2560 is a true d (straight ascender).
+13 f g n y r t n 3o x y L10 q x z n {u/a} q n y r {c/p} h x c n e g x p h y n e x g {n/m} 53 u b c b g {h/b} g b
+# 13: x~460 long f, faint; x~650 cross-form t; x~910-940 faint bowl + dotted ascender read as one y; x~1250 {u/a}; x~1520 has a descender
+#     (p shape) but "piu" would need c; x~2190 looks like m (three arches) after g; x~2570 small sign {h/b}.
+14 f n c r {e/d} z n 3o r q x u {u/x} x f 27 x {y/d} r g {e/c} b h n e y r {z/q} q b c r e {e/c} {d/y} b ? {e/c} r u g x f x n a b
+# 14: x~575 bowl + rising stroke: final-e form (cf. L7 x~1740) or a true d; x~935-960 "u" + single minim; x~1100 long f (ascender and
+#     descender); x~1470 c-shape read e; x~2160 dotted minim, unidentified. Read at 2.5x, low confidence.
+15 f x p h e x 3o q r 8 n q h e n e r L u b x a g r f b 3o q x z n a q n a b {y/d} {s/f} h r u {u/w} n c r e {y/d} b
+# 15: "8" (x~860) stands alone, preceded by a dot; context "q r 8 n q h e n e r" = "de?a durare" suggests bb (debba), unverified.
+16 e b f x p h e g n
+# 16: ends at x~800.

@@ -318,7 +318,7 @@ def index():
 </header>
 
 <section class="ledger">
-  <p class="legend"><span class="pill solved">Deciphered</span> 3 <span class="pill substantial">Substantially deciphered</span> 5 <span class="pill partial">Partial</span> 3 <span class="pill open">Open</span> 2</p>
+  <p class="legend"><span class="pill solved">Deciphered</span> 4 <span class="pill substantial">Substantially deciphered</span> 5 <span class="pill partial">Partial</span> 3 <span class="pill open">Open</span> 2</p>
   <table class="ciphers">
     <thead><tr><th>Year</th><th>Cipher</th><th>Status</th><th>What it says</th><th>Read</th></tr></thead>
     <tbody>
@@ -349,6 +349,13 @@ def index():
         <td class="st"><span class="pill substantial">Substantially deciphered</span><span class="note">short of the 95% bar</span></td>
         <td class="sum">Louis XII has ordered Monsieur de Bourbon into Burgundy with lances and Landsknechte. News of a rout overturns a plan Acciaiuoli had been discussing; the king is torn between fear of the Swiss and anger at people who yielded to the English, sends word that he will fight if the Swiss move, and the prelates are to leave for Rome after All Saints. Acciaiuoli’s own key survives as Gabbrielli’s no. 120 and confirms the values first taken from Brice Dudout’s Pandolfini key. 92% of the 1,887 signs are accepted into a continuous reading and about 90% of the words are read with nothing supplied; about 50 words rest on a bracketed supply, about 22 are unread, and codes 15, 26 and 47 are unidentified.</td>
         <td class="links"><a href="{REPO}/blob/main/amiens-1513/192-reading.txt">Italian reading, line by line</a> · <a href="{REPO}/tree/main/amiens-1513">Write-up, key, transcriptions, verifier and review</a>.</td>
+      </tr>
+      <tr class="solved">
+        <td class="yr">1544</td>
+        <td class="name"><a href="{REPO}/tree/main/gonzaga-1545#reading">The cardinal of Mantua to his brother</a><span class="where">Ercole Gonzaga to Ferrante Gonzaga, 9 January and 4 May 1544 · Biblioteca Estense, Autografoteca Campori, Gonzaga Ercole, sfasc. III, cc. 77–79, 174–175</span></td>
+        <td class="st"><span class="pill solved">Deciphered</span><span class="note">January at the 95% benchmark, May at 93.8%</span></td>
+        <td class="sum">Ercole asks Ferrante whether his informant on the Pope’s dealings with France has been duped. His confidential letter-book dates the dispatch to 9 January and preserves its missing ending. In May he defends his orders for Casale and reports that two strangers at Mirandola came from Pisa and Livorno. The January letter clears 95% on the edited cipher text. The May letter stands at 93.8%, with ten readings counted as supplied after a blind check. Seventeen words remain unread.</td>
+        <td class="links"><a href="{REPO}/tree/main/gonzaga-1545#reading">Italian and English</a> · <a href="{REPO}/tree/main/gonzaga-1545">Write-up, key, transcriptions, edition and checks</a>.</td>
       </tr>
       <tr class="substantial">
         <td class="yr">1568</td>

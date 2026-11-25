@@ -1,0 +1,129 @@
+{
+ "label": "B175r",
+ "source": "gonzaga-1545/images/9a179607_03.jpg",
+ "source_sha256": "ed0e01a7cd51c5d98e9797f9c226eb6f874ed727d63275bcf2091c6a0a4265c8",
+ "source_size": [
+  2891,
+  4088
+ ],
+ "processing": {
+  "crop": null,
+  "flatten": null,
+  "rotate": -0.25,
+  "scale": 1.0,
+  "slabs": 1,
+  "order": "crop, flatten, rotate about centre, scale"
+ },
+ "processed_size": [
+  2891,
+  4088
+ ],
+ "lines": [
+  [
+   461,
+   597
+  ],
+  [
+   594,
+   715
+  ],
+  [
+   712,
+   830
+  ],
+  [
+   826,
+   945
+  ],
+  [
+   942,
+   1061
+  ],
+  [
+   1058,
+   1178
+  ],
+  [
+   1174,
+   1303
+  ],
+  [
+   1300,
+   1426
+  ],
+  [
+   1423,
+   1546
+  ],
+  [
+   1542,
+   1665
+  ],
+  [
+   1662,
+   1791
+  ],
+  [
+   1787,
+   1914
+  ],
+  [
+   1910,
+   2036
+  ],
+  [
+   2033,
+   2162
+  ],
+  [
+   2158,
+   2289
+  ],
+  [
+   2285,
+   2414
+  ],
+  [
+   2410,
+   2543
+  ],
+  [
+   2539,
+   2671
+  ],
+  [
+   2668,
+   2797
+  ],
+  [
+   2794,
+   2922
+  ],
+  [
+   2919,
+   3045
+  ],
+  [
+   3042,
+   3168
+  ],
+  [
+   3164,
+   3292
+  ],
+  [
+   3289,
+   3415
+  ],
+  [
+   3412,
+   3535
+  ],
+  [
+   3532,
+   3670
+  ]
+ ],
+ "line_rotate": null,
+ "note": "Bands are [top, bottom] in processed coordinates. Edit by hand where the detector is wrong. line_rotate, when present, is each line's extra rotation (degrees) that strips applies about the band's centre."
+}
