@@ -13,6 +13,8 @@ The catalogue files both letters under 1545 only as a sort year. Letter A is dat
 
 Letter B is dated only by what it says, and this part is my inference from the general chronology, not checked against the literature: Ferrante has left for England, Farnese has gone on his legation, and the Diet is in prospect, which fits the winter of 1543–44. It was therefore written some months before letter A.
 
+The editors' notes in `edition/` were written while the letters were still filed under 1545, and several of their identifications (the Diet of Worms, events of 1545) assume that year. The dates above supersede them.
+
 ## Reading
 
 The Italian keeps the cipher's spelling, with my word division, capitals and punctuation. Square brackets inside a word hold a letter I supply where the page has another sign. A bracketed word with a question mark is my gloss for signs that decode to letters but not to a word. An ellipsis marks signs not read. `[L30]`, `[L22]`, `[L6]` and `[L54]` are name codes with no value in the key. The line-by-line text, with every doubt shown sign by sign, is in [`edition/`](edition/).
