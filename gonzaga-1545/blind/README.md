@@ -10,6 +10,11 @@ What the checks in the main README rest on. No images are kept here.
   page images). Sets: `name` places, persons and numbers; `code` name codes; `stem` the six *ge*
   places and *diligentemente*; `c_h`, `c_tr`, `c_fn` controls for the tall-stemmed signs.
 - `compare_crops.py`: scores both readers against the key files.
+- `crops-set3.key.json`, `R1.set3.tsv`, `R2.set3.tsv`, `make_crops_set3.py`, `compare_set3.py`: the
+  same test on 16 places in letter A that were reread after the Vatican collation, with 7 controls
+  (`c61`–`c83`). The key records the new and the replaced signs for each place. The key and the
+  rule in `compare_set3.py` were committed before the readers reported; the script's handling of
+  alternatives that span two signs, such as `{h/f r}`, was added afterwards.
 - `B174r-second-edit/`: an independent edit of B174r made from a checkout with no edition in it.
   `compare_second_edit.py` compares it with `edition/B174r.it.txt` word by word. Before two of its
   readings were adopted the agreement was 317 of 327 words; the Vatican-collated edition agrees on 321 of 328.

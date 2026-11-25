@@ -353,8 +353,8 @@ def index():
       <tr class="solved">
         <td class="yr">1544</td>
         <td class="name"><a href="{REPO}/tree/main/gonzaga-1545#reading">The cardinal of Mantua to his brother</a><span class="where">Ercole Gonzaga to Ferrante Gonzaga, 9 January and 4 May 1544 · Biblioteca Estense, Autografoteca Campori, Gonzaga Ercole, sfasc. III, cc. 77–79, 174–175</span></td>
-        <td class="st"><span class="pill solved">Deciphered</span><span class="note">95% reading benchmark</span></td>
-        <td class="sum">Ercole asks Ferrante whether his informant on the Pope’s dealings with France has been duped. His confidential letter-book dates the dispatch to 9 January and preserves its missing ending. In May he defends his orders for Casale and reports that two strangers at Mirandola came from Pisa and Livorno. Each letter clears 95% on the edited cipher text. Seventeen words remain unread.</td>
+        <td class="st"><span class="pill solved">Deciphered</span><span class="note">January at the 95% benchmark, May at 93.8%</span></td>
+        <td class="sum">Ercole asks Ferrante whether his informant on the Pope’s dealings with France has been duped. His confidential letter-book dates the dispatch to 9 January and preserves its missing ending. In May he defends his orders for Casale and reports that two strangers at Mirandola came from Pisa and Livorno. The January letter clears 95% on the edited cipher text. The May letter stands at 93.8%, with ten readings counted as supplied after a blind check. Seventeen words remain unread.</td>
         <td class="links"><a href="{REPO}/tree/main/gonzaga-1545#reading">Italian and English</a> · <a href="{REPO}/tree/main/gonzaga-1545">Write-up, key, transcriptions, edition and checks</a>.</td>
       </tr>
       <tr class="substantial">

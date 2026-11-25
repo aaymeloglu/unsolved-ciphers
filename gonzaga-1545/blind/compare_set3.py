@@ -8,22 +8,35 @@ its own {a/b} alternatives allow either, otherwise `new~`/`old~` when only the l
 EDIT.md make it fit one of them, or `neither`. Rule, fixed before the readers reported: a reread is
 supported when both readers give new (or both), rejected when both give old, contested otherwise.
 """
+import itertools
 import json
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from compare_crops import found  # noqa: E402
+from compare_crops import found as found_in  # noqa: E402
+
+
+def expand(text):
+    """Every sign sequence a row allows. A reader's alternative may span signs: {h/f r}, {59/s z}."""
+    parts = [p[1:-1].split("/") if p.startswith("{") else [p] for p in re.findall(r"\{[^}]*\}|\S+", text)]
+    return [" ".join(c).split() for c in itertools.product(*parts)]
+
+
+def found(target, text, loose):
+    return any(found_in(target, seq, loose) for seq in expand(text))
 
 
 def verdict(row, new, old):
-    n, o = found(new, row, False), bool(old) and found(old, row, False)
+    old = [o.split() for o in (" ".join(c) for c in itertools.product(*[t[1:-1].split("/") if t.startswith("{") else [t] for t in old]))] if old else []
+    n, o = found(new, row, False), any(found(x, row, False) for x in old)
     if n and o:
         return "both"
     if n or o:
         return "new" if n else "old"
-    n, o = found(new, row, True), bool(old) and found(old, row, True)
+    n, o = found(new, row, True), any(found(x, row, True) for x in old)
     return "new~" if n and not o else "old~" if o and not n else "either~" if n else "neither"
 
 
@@ -34,7 +47,7 @@ def main():
     for k in sorted(keys, key=lambda k: (k["set"], k["page"], k["line"])):
         new = [t.rstrip("!") for t in k["target"].split()]
         old = k["old"].split()
-        v = [verdict(rows[r].get(k["id"], "").split(), new, old) for r in ("R1", "R2")]
+        v = [verdict(rows[r].get(k["id"], ""), new, old) for r in ("R1", "R2")]
         if k["set"] == "control":
             res = "ok" if all(x in ("new", "both") for x in v) else "loose" if all(x != "neither" for x in v) else "missed"
         else:
