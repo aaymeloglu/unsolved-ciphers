@@ -15,6 +15,8 @@ What the checks in the main README rest on. No images are kept here.
   (`c61`–`c83`). The key records the new and the replaced signs for each place. The key and the
   rule in `compare_set3.py` were committed before the readers reported; the script's handling of
   alternatives that span two signs, such as `{h/f r}`, was added afterwards.
+- `crops-set4.key.json`, `R1.set4.tsv`, `R2.set4.tsv`, `make_crops_set4.py`: the same for 38 places in
+  letter B, with 9 controls (`c101`–`c147`). `compare_set3.py 4` scores it.
 - `B174r-second-edit/`: an independent edit of B174r made from a checkout with no edition in it.
   `compare_second_edit.py` compares it with `edition/B174r.it.txt` word by word. Before two of its
   readings were adopted the agreement was 317 of 327 words; the Vatican-collated edition agrees on 321 of 328.

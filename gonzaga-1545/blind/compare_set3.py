@@ -1,6 +1,6 @@
 """Score the blind readers of crop set 3 (letter A places reread after the Vatican collation).
 
-    uv run python gonzaga-1545/blind/compare_set3.py
+    uv run python gonzaga-1545/blind/compare_set3.py [3|4]
 
 Each reread crop has the edition's signs (`target`) and the signs it replaced (`old`). A reader's
 row is `new` if it holds the target sign for sign, `old` if it holds the replaced signs, `both` if
@@ -17,6 +17,9 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from compare_crops import found as found_in  # noqa: E402
+
+
+SET = sys.argv[1] if len(sys.argv) > 1 else "3"
 
 
 def expand(text):
@@ -41,8 +44,8 @@ def verdict(row, new, old):
 
 
 def main():
-    keys = json.load(open(os.path.join(HERE, "crops-set3.key.json")))
-    rows = {r: dict(ln.rstrip("\n").split("\t", 1) for ln in open(os.path.join(HERE, r + ".set3.tsv")) if "\t" in ln) for r in ("R1", "R2")}
+    keys = json.load(open(os.path.join(HERE, f"crops-set{SET}.key.json")))
+    rows = {r: dict(ln.rstrip("\n").split("\t", 1) for ln in open(os.path.join(HERE, f"{r}.set{SET}.tsv")) if "\t" in ln) for r in ("R1", "R2")}
     tally = {}
     for k in sorted(keys, key=lambda k: (k["set"], k["page"], k["line"])):
         new = [t.rstrip("!") for t in k["target"].split()]
