@@ -2,9 +2,9 @@ ecepto [che] po piu gudagnar [che] a parpignano o in fiandra massimame[n]-
 te hauendo larmata turchesca il timor della [quale] importa un mondo [et]
 [q]ueste lettre dice [che] sono state gratissime al re [et] [che] ha riscposto [che]
 si portara di modo [che] fara noto a tutto il mondo presto presto [quanto] sia
-la grandezza [et] il poter suo [et] [che] mandara a far genti alla mir-
+la grandezza [et] il poter suo [et] [che] mandara a far [g]enti alla mir-
 andola mi ha scritto costui sempre [che] lanimo [et] linclin-
-ati[o]ne del [Papa] [et] il sore so a o uolti al re s [et] [che] con lo [Papa] ua doppi-
+ati[o]ne del [Papa] [et] il sore so a o uolti al re s [et] [che] con lo {<L11>/[Papa]} ua doppi-
 amente [et] [che] farnese e ito con animo di far il parentado [et] accor-
 darsi nel secreto con esso {q/l}e al qual il [Papa] crede persuader con rag-
 ioni tanto [che] shabbia a contentar [che] ei pigli con sua bona gra-
@@ -21,6 +21,6 @@ tta al praterllo peruenutemi in mano per ottima uia o sara
 con questa [et] [ancora] certi pochi auisi di [Franza] di [questo] [che] ella dice de-
 siderar tanto di saper [che] se di pra a rota della sua ita in inghi-
 lterra le dico [che] il medemo mi scriue [che] il [Papa] e si auisato [che] [V. Ex.]
-e stata mandata per dar conto della mo [et] dira [questo] re [che] sel [Papa]
+e stata mandata per dar conto della mo [et] dira [questo] re [che] sel {<L11>/[Papa]}
 haueua denari haueria seguitata l n mo [che] pero prega quella
 maesta a prepararsi di aiutarlo de denari [et] uatio de denari al-

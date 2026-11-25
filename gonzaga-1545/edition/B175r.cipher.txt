@@ -2,9 +2,9 @@ r p r c g b 3o c b c x h t h q n t a n e 3o n c n e c x t a n a b 24 b x a s x n
 g r u n h r a q b y n e z n g n g h e p u r f p n | x y g x z b e q r 14 n 61 x z c b e g n h a z b a q b L
 d! h r f g r y r 2o e r q x p r 3o f b a b f g n g r t e n g x 19 x z r n y e r L 3o u n e x f p c b f g b 3o
 f x c b e g n e n q x z b q 24 b 3o s n e n a b g b n g h 2o b x y z b a q b c e r f g b c e r f g b 59 f x n
-y n t e n a q r 22 n L x y c b g r e f h b L 3o z n a q n e n 24 n s n e t r a g x n 14 n z x e
+y n t e n a q r 22 n L x y c b g r e f h b L 3o z n a q n e n 24 n s n e t! r a g x n 14 n z x e
 n a q b y n 24 27 z x u n f p e x 2o b p b f g h x f r z c e r 3o y n a x z b L y x a p y x a
-n g x b! a r | q r y L10 L x y f b e r f b n b h 24 b y g x n y e r f L 3o p b a y b L10 h n q b 17 x
+n g x b! a r | q r y L10 L x y f b e r f b n b h 24 b y g x n y e r f L 3o p b a y b {L11/L10} h n q b 17 x
 n z r a g r L 3o s n e a r f r 24 r x g b p b a n a x z b q x s n e x y c n e r a g n q b L n 5 b e
 q n e f x a r y f r p e r g b p b a r 19 b {d/y} r n y d h n y x y L10 p e r q r c r e f h n q r e p b a e n t
 x b a x g n a g b 3o f u n 8 x n 24 n p b a g r a g n e 3o r x c x t y x p b a f h n o b a n t e n
@@ -21,6 +21,6 @@ h r q r e n c r e y n p b c x n q h a n y r 2o e n q r 14 n z b t y x r q x c x 
 p b a d h r f g n L 73 p r e g x c b p u x n h x f x q 27 x 78 24 27 q x 39 3o r 14 n q x p r | q r
 f x q r e n e g n a g b q x f n c r e 3o f r q x c e n 24 n e b g n q r 14 n | f h n x g n x a x a t u x
 y g r 18 n y r q x p b 3o x y z r q r z b z x f p e x h r 3o x y L10 r f x n h x f n g b | 3o 35
-r f g n g n z 24 n a q n g 25 n c r e q n e p b a g b q r 14 n z b L q x e n 39 | e r 3o f r y L10
+r f g n g n z 24 n a q n g 25 n c r e q n e p b a g b q r 14 n z b L q x e n 39 | e r 3o f r y {L11/L10}
 u n h r h n q r a n e x u n h r e x n f r t h x g n g 27 n y a z b | 3o c r e b c e r t n d h r 14 n
 z n r f g n 27 n c e r c n e n e f x q x n x h g n e y b q r q r a n e x L h n g x b q r q r a n e x n y
