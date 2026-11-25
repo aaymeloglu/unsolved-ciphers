@@ -1,0 +1,69 @@
+{
+ "status": "consensus of two passes; {x/y} where they differ, {x/?} where one reader has no token",
+ "sources": [
+  "gonzaga-1545/transcription/A79r.A.txt",
+  "gonzaga-1545/transcription/A79r.B.txt"
+ ],
+ "rows": [
+  {
+   "line": 1,
+   "tokens": "q b x {f/?} p b a b f x h g x h a b q r c x h L y n y g e b q n a b x {h/b} b e a b L c r e"
+  },
+  {
+   "line": 2,
+   "tokens": "4o 3o t y x r {f/t} g {n/r} g b q r 2o b p n {d/y} h r 14 r c n {e/?} {g/18} x b t {n/a} x q x a r f b a b"
+  },
+  {
+   "line": 3,
+   "tokens": "h r a h g x L h {n/r} a r f b a b {x/n} a g n g x L {f/q} x {f/p} {n/r} 3o c r e z b p b n y p {h/b} {a/n} b 53"
+  },
+  {
+   "line": 4,
+   "tokens": "c b p b a x r 2o h g n g 3o {u/?} {n/m} 8 x {n/a} b {a/x} c n {a/u/x} g {x/n} e x y c b p b a q h p n a q b"
+  },
+  {
+   "line": 5,
+   "tokens": "n {e/?} {g/18} r t y n e x n p b a y b e b 3o o x f b t a n e x n s 27 n e x y c b a g r"
+  },
+  {
+   "line": 6,
+   "tokens": "L 53 h {n/r} q r 3o h x f x c r a f x r t y x g b e a n e n c {c/e} r {{t/f}/?} g b x n y n L {c/e} x"
+  },
+  {
+   "line": 7,
+   "tokens": "g b e a n e n y h n L q x {{s/5}/?} {59/9/z} x a g r a {q/g} r e b 53 z n a p {u/n} e b a h x {f/?} {n/h} e L h x"
+  },
+  {
+   "line": 8,
+   "tokens": "t y x n h x f 27 x t y x c n e b a b p b a g e n e x 27 x z x c r e q b {a/n} x"
+  },
+  {
+   "line": 9,
+   "tokens": "3o 53 c b 19 b q x {c/?} e h {r/?} 53 4o 3o x a g r a q b s n p r {a/n} q b t y x 27 x a g r a q r e"
+  },
+  {
+   "line": 10,
+   "tokens": "64 h x n y b f 27 b o r a c n {e/?} {z/19} x p b z c e r q n q r e q n {d/y} h {r/?} f g n h 27 n"
+  },
+  {
+   "line": 11,
+   "tokens": "c x r g n q 25 n h x f 25 x 3o f x h {n/?} q 27 n c r e f b a {r/?} x a g e x a f x p n"
+  },
+  {
+   "line": 12,
+   "tokens": "27 x 19 27 x z r q r y p b a g r 3o 27 y r p b {f/h} c n 19 x a b h p e r 2o"
+  },
+  {
+   "line": 13,
+   "tokens": "x 19 27 x z r L 3o c b p n x f 27 n 17 x {a/n} b y n h r e x g n q r 14 x"
+  },
+  {
+   "line": 14,
+   "tokens": "y b e b q x 19 r t a x q x g h 2o b h 27 r q n g b p 25 b a g b n y 3o"
+  },
+  {
+   "line": 15,
+   "tokens": "L 73 n y q h p n {a/?} q x s 27 x e r a {h/t/k} r"
+  }
+ ]
+}

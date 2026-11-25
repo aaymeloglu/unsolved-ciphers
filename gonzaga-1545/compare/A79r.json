@@ -1,0 +1,324 @@
+{
+ "readers": [
+  "a",
+  "b"
+ ],
+ "paired_tokens": 540,
+ "agree": 476,
+ "agree_via_alternative": 33,
+ "differ": 31,
+ "only_a": 10,
+ "only_b": 4,
+ "agreement_rate": 0.9426,
+ "lines_only_a": [],
+ "lines_only_b": [],
+ "disagreements": [
+  {
+   "line": 1,
+   "token": 33,
+   "token_b": 34,
+   "a": "h",
+   "b": "b"
+  },
+  {
+   "line": 2,
+   "token": 7,
+   "token_b": 7,
+   "a": "f",
+   "b": "t"
+  },
+  {
+   "line": 2,
+   "token": 9,
+   "token_b": 9,
+   "a": "n",
+   "b": "r"
+  },
+  {
+   "line": 2,
+   "token": 18,
+   "token_b": 18,
+   "a": "d",
+   "b": "y"
+  },
+  {
+   "line": 2,
+   "token": 26,
+   "token_b": 25,
+   "a": "g",
+   "b": "18"
+  },
+  {
+   "line": 2,
+   "token": 30,
+   "token_b": 29,
+   "a": "n",
+   "b": "a"
+  },
+  {
+   "line": 3,
+   "token": 9,
+   "token_b": 9,
+   "a": "n",
+   "b": "r"
+  },
+  {
+   "line": 3,
+   "token": 16,
+   "token_b": 16,
+   "a": "x",
+   "b": "n"
+  },
+  {
+   "line": 3,
+   "token": 23,
+   "token_b": 23,
+   "a": "f",
+   "b": "q"
+  },
+  {
+   "line": 3,
+   "token": 25,
+   "token_b": 25,
+   "a": "f",
+   "b": "p"
+  },
+  {
+   "line": 3,
+   "token": 26,
+   "token_b": 26,
+   "a": "n",
+   "b": "r"
+  },
+  {
+   "line": 3,
+   "token": 38,
+   "token_b": 38,
+   "a": "h",
+   "b": "b"
+  },
+  {
+   "line": 3,
+   "token": 39,
+   "token_b": 39,
+   "a": "a",
+   "b": "n"
+  },
+  {
+   "line": 4,
+   "token": 15,
+   "token_b": 14,
+   "a": "n",
+   "b": "m"
+  },
+  {
+   "line": 4,
+   "token": 18,
+   "token_b": 17,
+   "a": "n",
+   "b": "a"
+  },
+  {
+   "line": 4,
+   "token": 20,
+   "token_b": 19,
+   "a": "a",
+   "b": "x"
+  },
+  {
+   "line": 4,
+   "token": 23,
+   "token_b": 22,
+   "a": "{u/a}",
+   "b": "x"
+  },
+  {
+   "line": 4,
+   "token": 25,
+   "token_b": 24,
+   "a": "x",
+   "b": "n"
+  },
+  {
+   "line": 5,
+   "token": 3,
+   "token_b": 2,
+   "a": "g",
+   "b": "18"
+  },
+  {
+   "line": 6,
+   "token": 4,
+   "token_b": 4,
+   "a": "n",
+   "b": "r"
+  },
+  {
+   "line": 7,
+   "token": 14,
+   "token_b": 15,
+   "a": "59",
+   "b": "{z/9}"
+  },
+  {
+   "line": 7,
+   "token": 20,
+   "token_b": 21,
+   "a": "q",
+   "b": "g"
+  },
+  {
+   "line": 7,
+   "token": 29,
+   "token_b": 30,
+   "a": "u",
+   "b": "n"
+  },
+  {
+   "line": 7,
+   "token": 36,
+   "token_b": 36,
+   "a": "n",
+   "b": "h"
+  },
+  {
+   "line": 8,
+   "token": 36,
+   "token_b": 36,
+   "a": "a",
+   "b": "n"
+  },
+  {
+   "line": 9,
+   "token": 27,
+   "token_b": 25,
+   "a": "a",
+   "b": "n"
+  },
+  {
+   "line": 10,
+   "token": 16,
+   "token_b": 15,
+   "a": "z",
+   "b": "19"
+  },
+  {
+   "line": 10,
+   "token": 31,
+   "token_b": 30,
+   "a": "d",
+   "b": "y"
+  },
+  {
+   "line": 12,
+   "token": 22,
+   "token_b": 22,
+   "a": "f",
+   "b": "h"
+  },
+  {
+   "line": 13,
+   "token": 19,
+   "token_b": 19,
+   "a": "a",
+   "b": "n"
+  },
+  {
+   "line": 15,
+   "token": 18,
+   "token_b": 17,
+   "a": "{t/h}",
+   "b": "k"
+  }
+ ],
+ "unpaired": [
+  {
+   "line": 1,
+   "reader": "b",
+   "token": 4,
+   "text": "f"
+  },
+  {
+   "line": 2,
+   "reader": "a",
+   "token": 25,
+   "text": "e"
+  },
+  {
+   "line": 4,
+   "reader": "a",
+   "token": 14,
+   "text": "u"
+  },
+  {
+   "line": 5,
+   "reader": "a",
+   "token": 2,
+   "text": "e"
+  },
+  {
+   "line": 6,
+   "reader": "b",
+   "token": 31,
+   "text": "{t/f}"
+  },
+  {
+   "line": 7,
+   "reader": "b",
+   "token": 14,
+   "text": "{s/5}"
+  },
+  {
+   "line": 7,
+   "reader": "a",
+   "token": 35,
+   "text": "f"
+  },
+  {
+   "line": 9,
+   "reader": "a",
+   "token": 9,
+   "text": "c"
+  },
+  {
+   "line": 9,
+   "reader": "a",
+   "token": 12,
+   "text": "r"
+  },
+  {
+   "line": 10,
+   "reader": "a",
+   "token": 15,
+   "text": "e"
+  },
+  {
+   "line": 10,
+   "reader": "a",
+   "token": 33,
+   "text": "r"
+  },
+  {
+   "line": 11,
+   "reader": "a",
+   "token": 18,
+   "text": "n"
+  },
+  {
+   "line": 11,
+   "reader": "b",
+   "token": 27,
+   "text": "r"
+  },
+  {
+   "line": 15,
+   "reader": "a",
+   "token": 9,
+   "text": "a"
+  }
+ ],
+ "sources": {
+  "a": "gonzaga-1545/transcription/A79r.A.txt",
+  "b": "gonzaga-1545/transcription/A79r.B.txt"
+ }
+}

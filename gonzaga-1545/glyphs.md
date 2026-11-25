@@ -207,3 +207,28 @@ Notes on the remainder:
 - Read line 14, and L11 x~1450-2000 ("per?ate desinafia"), at 4x or more.
 - Check whether "8" (L15) is a single digit or a faded 18.
 - Test the L43 / L 43 / L14 / 14 size rule, and the 4o / 45 / qx distinction, on letters A and B.
+
+## 6. Addendum from the 1544 siblings cc. 103 and 108-109 and from pass A on the 1545 pages
+
+Signs and groups the 1545 pages use that c. 96 does not show, or shows once:
+
+- **k**: a K-shaped letter-size sign (an upright with a `<` on its right). A letter, not a digit.
+- **Doubling signs are a 1 plus a second figure** (11, 12, 14, 16, 17, 18, 19), plus 2o, 1o, 22, a bare
+  8 and a bare 5. The 1 is a short minim, sometimes dotted or hooked. **A lone minim standing before a
+  9-shape, an 8-shape, a 6-shape or a 4 is the 1 of such a group**: write `19`, `18`, `16`, `14`, not
+  `1 z` or `i g`. The 9 of 19 often has an open bowl and a long tail.
+- **Bare 5 and the short round s are the same shape.** Write `{s/5}` unless a digit stands next to it
+  (25, 35, 53, 55, 57, 58, 59 are all groups in use).
+- **Two-digit groups in use** (besides those in section 2): 25, 28, 31, 35, 39, 44, 55, 57, 58, 59, 6o,
+  61, 63, 66, 67, 68, 73, 74, 75, 78, 79, 82. The digits of a group stand close together; 44 can be
+  two 4s on one crossbar; 31 is a 3 plus a dotted minim. `3o` is often directly followed by another
+  group (`3o 31`, `3o 35`): keep them as two tokens.
+- **L groups**: L with a small raised number (L9, L10, L14, L22, L24, L25, L3o, L43, L54 ...). L9 has
+  one raised 9-like loop with a tail to the L's foot; L10 a raised `1 o`. Look at every raised number
+  enlarged. A full-size L followed by full-size digits is two tokens (`L 53`).
+- **c versus e** is the commonest slip: the e's inner tick or eye is small and often faint. Enlarge
+  every open c-shape that follows a consonant sign.
+- **a versus n**: a has a closed bowl before its minim; n is two open minims. A pointed, half-open
+  form occurs: write `{a/n}` or `{n/a}` by which it is nearer.
+- **h** has a second form, a long sloping stem with an r-like arch, that can be taken for `f r`.
+- The ring of `2o` and `3o` often sits at x-height on the baseline, not raised.

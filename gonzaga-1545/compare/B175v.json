@@ -1,0 +1,818 @@
+{
+ "readers": [
+  "a",
+  "b"
+ ],
+ "paired_tokens": 1211,
+ "agree": 1068,
+ "agree_via_alternative": 80,
+ "differ": 63,
+ "only_a": 20,
+ "only_b": 39,
+ "agreement_rate": 0.948,
+ "lines_only_a": [],
+ "lines_only_b": [],
+ "disagreements": [
+  {
+   "line": 1,
+   "token": 13,
+   "token_b": 13,
+   "a": "h",
+   "b": "b"
+  },
+  {
+   "line": 1,
+   "token": 32,
+   "token_b": 32,
+   "a": "{n/a}",
+   "b": "i"
+  },
+  {
+   "line": 1,
+   "token": 33,
+   "token_b": 33,
+   "a": "{x/t}",
+   "b": "k"
+  },
+  {
+   "line": 1,
+   "token": 40,
+   "token_b": 41,
+   "a": "24",
+   "b": "q"
+  },
+  {
+   "line": 2,
+   "token": 32,
+   "token_b": 31,
+   "a": "y",
+   "b": "L"
+  },
+  {
+   "line": 3,
+   "token": 2,
+   "token_b": 2,
+   "a": "h",
+   "b": "b"
+  },
+  {
+   "line": 3,
+   "token": 28,
+   "token_b": 29,
+   "a": "24",
+   "b": "q"
+  },
+  {
+   "line": 4,
+   "token": 3,
+   "token_b": 3,
+   "a": "z",
+   "b": "g"
+  },
+  {
+   "line": 4,
+   "token": 20,
+   "token_b": 18,
+   "a": "{n/a}",
+   "b": "x"
+  },
+  {
+   "line": 5,
+   "token": 34,
+   "token_b": 37,
+   "a": "c",
+   "b": "e"
+  },
+  {
+   "line": 5,
+   "token": 36,
+   "token_b": 39,
+   "a": "c",
+   "b": "e"
+  },
+  {
+   "line": 6,
+   "token": 10,
+   "token_b": 11,
+   "a": "e",
+   "b": "i"
+  },
+  {
+   "line": 6,
+   "token": 24,
+   "token_b": 24,
+   "a": "{8/b}",
+   "b": "68"
+  },
+  {
+   "line": 7,
+   "token": 22,
+   "token_b": 25,
+   "a": "69",
+   "b": "g"
+  },
+  {
+   "line": 8,
+   "token": 4,
+   "token_b": 3,
+   "a": "r",
+   "b": "h"
+  },
+  {
+   "line": 9,
+   "token": 39,
+   "token_b": 37,
+   "a": "h",
+   "b": "r"
+  },
+  {
+   "line": 9,
+   "token": 42,
+   "token_b": 39,
+   "a": "r",
+   "b": "h"
+  },
+  {
+   "line": 10,
+   "token": 26,
+   "token_b": 26,
+   "a": "r",
+   "b": "h"
+  },
+  {
+   "line": 10,
+   "token": 36,
+   "token_b": 37,
+   "a": "y",
+   "b": "L"
+  },
+  {
+   "line": 11,
+   "token": 21,
+   "token_b": 21,
+   "a": "n",
+   "b": "h"
+  },
+  {
+   "line": 11,
+   "token": 36,
+   "token_b": 37,
+   "a": "r",
+   "b": "n"
+  },
+  {
+   "line": 11,
+   "token": 41,
+   "token_b": 42,
+   "a": "q",
+   "b": "f"
+  },
+  {
+   "line": 11,
+   "token": 45,
+   "token_b": 46,
+   "a": "z",
+   "b": "g"
+  },
+  {
+   "line": 12,
+   "token": 46,
+   "token_b": 46,
+   "a": "h",
+   "b": "r"
+  },
+  {
+   "line": 13,
+   "token": 43,
+   "token_b": 42,
+   "a": "n",
+   "b": "h"
+  },
+  {
+   "line": 14,
+   "token": 24,
+   "token_b": 24,
+   "a": "f",
+   "b": "h"
+  },
+  {
+   "line": 14,
+   "token": 34,
+   "token_b": 35,
+   "a": "e",
+   "b": "n"
+  },
+  {
+   "line": 14,
+   "token": 37,
+   "token_b": 38,
+   "a": "e",
+   "b": "c"
+  },
+  {
+   "line": 14,
+   "token": 44,
+   "token_b": 47,
+   "a": "e",
+   "b": "{y/d}"
+  },
+  {
+   "line": 15,
+   "token": 27,
+   "token_b": 25,
+   "a": "n",
+   "b": "h"
+  },
+  {
+   "line": 16,
+   "token": 7,
+   "token_b": 7,
+   "a": "r",
+   "b": "t"
+  },
+  {
+   "line": 16,
+   "token": 21,
+   "token_b": 21,
+   "a": "h",
+   "b": "L"
+  },
+  {
+   "line": 17,
+   "token": 32,
+   "token_b": 33,
+   "a": "r",
+   "b": "{e/c}"
+  },
+  {
+   "line": 17,
+   "token": 43,
+   "token_b": 45,
+   "a": "f",
+   "b": "h"
+  },
+  {
+   "line": 18,
+   "token": 1,
+   "token_b": 2,
+   "a": "3o",
+   "b": "a"
+  },
+  {
+   "line": 18,
+   "token": 2,
+   "token_b": 3,
+   "a": "f",
+   "b": "h"
+  },
+  {
+   "line": 18,
+   "token": 3,
+   "token_b": 4,
+   "a": "n",
+   "b": "a"
+  },
+  {
+   "line": 18,
+   "token": 6,
+   "token_b": 8,
+   "a": "q",
+   "b": "g"
+  },
+  {
+   "line": 18,
+   "token": 37,
+   "token_b": 40,
+   "a": "n",
+   "b": "u"
+  },
+  {
+   "line": 18,
+   "token": 41,
+   "token_b": 44,
+   "a": "y",
+   "b": "a"
+  },
+  {
+   "line": 19,
+   "token": 10,
+   "token_b": 10,
+   "a": "t",
+   "b": "f"
+  },
+  {
+   "line": 20,
+   "token": 23,
+   "token_b": 23,
+   "a": "z",
+   "b": "g"
+  },
+  {
+   "line": 20,
+   "token": 28,
+   "token_b": 28,
+   "a": "t",
+   "b": "h"
+  },
+  {
+   "line": 20,
+   "token": 38,
+   "token_b": 39,
+   "a": "r",
+   "b": "n"
+  },
+  {
+   "line": 21,
+   "token": 13,
+   "token_b": 13,
+   "a": "r",
+   "b": "n"
+  },
+  {
+   "line": 21,
+   "token": 23,
+   "token_b": 23,
+   "a": "t",
+   "b": "f"
+  },
+  {
+   "line": 21,
+   "token": 28,
+   "token_b": 29,
+   "a": "z",
+   "b": "g"
+  },
+  {
+   "line": 21,
+   "token": 39,
+   "token_b": 40,
+   "a": "{n/a}",
+   "b": "u"
+  },
+  {
+   "line": 21,
+   "token": 44,
+   "token_b": 45,
+   "a": "h",
+   "b": "b"
+  },
+  {
+   "line": 21,
+   "token": 50,
+   "token_b": 52,
+   "a": "a",
+   "b": "y"
+  },
+  {
+   "line": 22,
+   "token": 10,
+   "token_b": 11,
+   "a": "{g/19}",
+   "b": "{p/q}"
+  },
+  {
+   "line": 22,
+   "token": 38,
+   "token_b": 40,
+   "a": "z",
+   "b": "g"
+  },
+  {
+   "line": 23,
+   "token": 2,
+   "token_b": 2,
+   "a": "h",
+   "b": "b"
+  },
+  {
+   "line": 23,
+   "token": 40,
+   "token_b": 41,
+   "a": "z",
+   "b": "g"
+  },
+  {
+   "line": 23,
+   "token": 46,
+   "token_b": 48,
+   "a": "59",
+   "b": "z"
+  },
+  {
+   "line": 24,
+   "token": 32,
+   "token_b": 34,
+   "a": "a",
+   "b": "n"
+  },
+  {
+   "line": 25,
+   "token": 31,
+   "token_b": 32,
+   "a": "z",
+   "b": "g"
+  },
+  {
+   "line": 25,
+   "token": 37,
+   "token_b": 38,
+   "a": "h",
+   "b": "b"
+  },
+  {
+   "line": 26,
+   "token": 3,
+   "token_b": 3,
+   "a": "a",
+   "b": "n"
+  },
+  {
+   "line": 26,
+   "token": 26,
+   "token_b": 25,
+   "a": "g",
+   "b": "n"
+  },
+  {
+   "line": 26,
+   "token": 27,
+   "token_b": 26,
+   "a": "r",
+   "b": "p"
+  },
+  {
+   "line": 26,
+   "token": 35,
+   "token_b": 33,
+   "a": "a",
+   "b": "n"
+  },
+  {
+   "line": 26,
+   "token": 44,
+   "token_b": 42,
+   "a": "r",
+   "b": "n"
+  }
+ ],
+ "unpaired": [
+  {
+   "line": 1,
+   "reader": "b",
+   "token": 40,
+   "text": "2"
+  },
+  {
+   "line": 2,
+   "reader": "a",
+   "token": 15,
+   "text": "r"
+  },
+  {
+   "line": 3,
+   "reader": "b",
+   "token": 28,
+   "text": "2"
+  },
+  {
+   "line": 4,
+   "reader": "a",
+   "token": 11,
+   "text": "r"
+  },
+  {
+   "line": 4,
+   "reader": "a",
+   "token": 14,
+   "text": "t"
+  },
+  {
+   "line": 5,
+   "reader": "b",
+   "token": 5,
+   "text": "r"
+  },
+  {
+   "line": 5,
+   "reader": "b",
+   "token": 11,
+   "text": "e"
+  },
+  {
+   "line": 5,
+   "reader": "b",
+   "token": 12,
+   "text": "{n/a}"
+  },
+  {
+   "line": 6,
+   "reader": "b",
+   "token": 10,
+   "text": "c"
+  },
+  {
+   "line": 6,
+   "reader": "a",
+   "token": 23,
+   "text": "b"
+  },
+  {
+   "line": 6,
+   "reader": "b",
+   "token": 45,
+   "text": "n"
+  },
+  {
+   "line": 7,
+   "reader": "b",
+   "token": 4,
+   "text": "n"
+  },
+  {
+   "line": 7,
+   "reader": "b",
+   "token": 21,
+   "text": "{f/g}"
+  },
+  {
+   "line": 7,
+   "reader": "b",
+   "token": 24,
+   "text": "b"
+  },
+  {
+   "line": 8,
+   "reader": "a",
+   "token": 3,
+   "text": "f"
+  },
+  {
+   "line": 8,
+   "reader": "b",
+   "token": 38,
+   "text": "t"
+  },
+  {
+   "line": 9,
+   "reader": "a",
+   "token": 15,
+   "text": "r"
+  },
+  {
+   "line": 9,
+   "reader": "a",
+   "token": 24,
+   "text": "{c/e}"
+  },
+  {
+   "line": 9,
+   "reader": "a",
+   "token": 41,
+   "text": "f"
+  },
+  {
+   "line": 10,
+   "reader": "b",
+   "token": 23,
+   "text": "{n/a}"
+  },
+  {
+   "line": 10,
+   "reader": "a",
+   "token": 25,
+   "text": "f"
+  },
+  {
+   "line": 10,
+   "reader": "b",
+   "token": 36,
+   "text": "a"
+  },
+  {
+   "line": 11,
+   "reader": "b",
+   "token": 7,
+   "text": "r"
+  },
+  {
+   "line": 11,
+   "reader": "a",
+   "token": 20,
+   "text": "f"
+  },
+  {
+   "line": 11,
+   "reader": "b",
+   "token": 27,
+   "text": "L"
+  },
+  {
+   "line": 12,
+   "reader": "b",
+   "token": 29,
+   "text": "n"
+  },
+  {
+   "line": 12,
+   "reader": "a",
+   "token": 31,
+   "text": "f"
+  },
+  {
+   "line": 13,
+   "reader": "b",
+   "token": 15,
+   "text": "r"
+  },
+  {
+   "line": 13,
+   "reader": "a",
+   "token": 37,
+   "text": "r"
+  },
+  {
+   "line": 13,
+   "reader": "a",
+   "token": 42,
+   "text": "f"
+  },
+  {
+   "line": 14,
+   "reader": "b",
+   "token": 34,
+   "text": "c"
+  },
+  {
+   "line": 14,
+   "reader": "b",
+   "token": 41,
+   "text": "n"
+  },
+  {
+   "line": 14,
+   "reader": "b",
+   "token": 43,
+   "text": "n"
+  },
+  {
+   "line": 15,
+   "reader": "a",
+   "token": 9,
+   "text": "{n/r}"
+  },
+  {
+   "line": 15,
+   "reader": "a",
+   "token": 26,
+   "text": "f"
+  },
+  {
+   "line": 15,
+   "reader": "b",
+   "token": 28,
+   "text": "n"
+  },
+  {
+   "line": 15,
+   "reader": "b",
+   "token": 29,
+   "text": "c"
+  },
+  {
+   "line": 17,
+   "reader": "b",
+   "token": 32,
+   "text": "n"
+  },
+  {
+   "line": 17,
+   "reader": "b",
+   "token": 44,
+   "text": "r"
+  },
+  {
+   "line": 18,
+   "reader": "b",
+   "token": 1,
+   "text": "3"
+  },
+  {
+   "line": 18,
+   "reader": "b",
+   "token": 7,
+   "text": "a"
+  },
+  {
+   "line": 18,
+   "reader": "b",
+   "token": 31,
+   "text": "a"
+  },
+  {
+   "line": 19,
+   "reader": "a",
+   "token": 1,
+   "text": "r"
+  },
+  {
+   "line": 19,
+   "reader": "b",
+   "token": 2,
+   "text": "a"
+  },
+  {
+   "line": 19,
+   "reader": "a",
+   "token": 19,
+   "text": "c"
+  },
+  {
+   "line": 19,
+   "reader": "b",
+   "token": 27,
+   "text": "r"
+  },
+  {
+   "line": 20,
+   "reader": "b",
+   "token": 32,
+   "text": "r"
+  },
+  {
+   "line": 20,
+   "reader": "a",
+   "token": 42,
+   "text": "{u/a}"
+  },
+  {
+   "line": 21,
+   "reader": "b",
+   "token": 25,
+   "text": "a"
+  },
+  {
+   "line": 21,
+   "reader": "b",
+   "token": 50,
+   "text": "r"
+  },
+  {
+   "line": 22,
+   "reader": "b",
+   "token": 10,
+   "text": "c"
+  },
+  {
+   "line": 22,
+   "reader": "b",
+   "token": 30,
+   "text": "a"
+  },
+  {
+   "line": 23,
+   "reader": "b",
+   "token": 38,
+   "text": "{a/n}"
+  },
+  {
+   "line": 23,
+   "reader": "b",
+   "token": 47,
+   "text": "s"
+  },
+  {
+   "line": 24,
+   "reader": "b",
+   "token": 25,
+   "text": "n"
+  },
+  {
+   "line": 24,
+   "reader": "b",
+   "token": 29,
+   "text": "n"
+  },
+  {
+   "line": 25,
+   "reader": "b",
+   "token": 17,
+   "text": "n"
+  },
+  {
+   "line": 26,
+   "reader": "a",
+   "token": 25,
+   "text": "a"
+  },
+  {
+   "line": 26,
+   "reader": "a",
+   "token": 33,
+   "text": "f"
+  }
+ ],
+ "sources": {
+  "a": "gonzaga-1545/transcription/B175v.A.txt",
+  "b": "gonzaga-1545/transcription/B175v.B.txt"
+ }
+}
