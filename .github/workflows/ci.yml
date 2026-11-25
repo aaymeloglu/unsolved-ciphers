@@ -25,6 +25,11 @@ jobs:
       - run: uv run python amiens-1513/verify.py
       - run: uv run python amiens-1513/blind_compare.py
       - run: uv run python mantua-1524/verify.py
+      - run: uv run python gonzaga-1545/decode.py --check
+      - run: uv run python gonzaga-1545/decode.py > /dev/null
+      - run: git diff --exit-code -- gonzaga-1545/decode
+      - run: uv run python gonzaga-1545/check_edition.py A78r A78v A79r B174r B174v B175r B175v
+      - run: uv run python gonzaga-1545/check_readme.py
       - run: uv run python ottobon-1589/decode.py --check
       - run: uv run python forster-1644/verify_solution.py > /dev/null
       - run: uv run python starhemberg-1758/run_checks.py

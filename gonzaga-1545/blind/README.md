@@ -12,7 +12,7 @@ What the checks in the main README rest on. No images are kept here.
 - `compare_crops.py`: scores both readers against the key files.
 - `B174r-second-edit/`: an independent edit of B174r made from a checkout with no edition in it.
   `compare_second_edit.py` compares it with `edition/B174r.it.txt` word by word. Before two of its
-  readings were adopted the agreement was 317 of 327 words; it is now 320 of 328.
+  readings were adopted the agreement was 317 of 327 words; the Vatican-collated edition agrees on 321 of 328.
 
 ## The docket of letter A
 
